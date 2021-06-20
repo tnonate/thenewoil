@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The New Oil</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Data is the new oil">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" href="pictures/favicon.ico" type="image/icon">
+</head>
+
+<body>
+<div class="flex-container">
+	<div class="header">
+     <img style="float:left;position:absolute;" src="pictures/header.jpg" alt="The New Oil logo">
+     <a href="messaging-chart_dark.html" style="color:white;padding:50px;">Dark Mode</a>
+		<div class="nav">
+    <ul class="menu">
+	<input type="radio" name="menuopt" id="drop1" />
+        <label class="opener" for="drop1"><img src="pictures/menu.png"></label>
+        <label class="closer" for="dropclose"><img src="pictures/menu.png"></label>
+<ul class="navb">
+<li><a href="about.html"><b>About</a></b></li>
+<li><a href="index.html">Home Page</a></li>
+<li><a href="intro.html">Introduction</a></li>
+<li><a href="threatmodel.html">Threat Modeling</a></li>
+<li><a href="surveillance.html">Understanding Surveillance</a></li>
+<li><a href="privsecanon.html">Security vs Privacy vs Anonymity</a></li>
+<li><a href="oss.html">Open Source vs Proprietary</a></li>
+<li><a href="communication.html">How Network Communication Works</a></li>
+<li><a href="most_important.html"><b>Most Important</b></a></li>
+<li><a href="most_important.html">Introduction</a></li>
+<li><a href="data_breaches.html">Understanding Data Breaches</a></li>
+<li><a href="passwords.html">Data Breach Defense: Strong Passwords</a></li>
+<li><a href="mfa.html">Data Breach Defense: Multifactor Authentication</a></li>
+<li><a href="payments.html">Data Breach Defense: Payment Masking</a></li>
+<li><a href="credit.html">Identity Theft: Freezing Your Credit</a></li>
+<li><a href="mobile.html">Securing Mobile</a></li>
+<li><a href="settings.html">Securing Mobile: Settings</a></li>
+<li><a href="apps.html">Securing Mobile: Replacement Apps</a></li>
+<li><a href="browser.html">Privacy: Securing Your Browser</a></li>
+<li><a href="moderately_important.html"><b>Moderately Important</b></a></li>
+<li><a href="moderately_important.html">Introduction</a></li>
+<li><a href="metadata.html">Understanding Metadata</a></li>
+<li><a href="encryption.html">Understanding Encryption</a></li>
+<li><a href="devices.html">Protection: Device Encryption</a></li>
+<li><a href="backups.html">Protection: Backups</a></li>
+<li><a href="desktop.html">Privacy: Securing Desktop</a></li>
+<li><a href="messaging.html">Privacy: Encrypted Messaging</a></li>
+<li><a href="mobile2.html">Privacy: Mobile Habits</a></li>
+<li><a href="llc.html">Protection: Trusts, LLCs, and Public Data</a></li>
+<li><a href="less_important.html"><b>Less Important</b></a></li>
+<li><a href="less_important.html">Introduction</a></li>
+<li><a href="voip.html">Protection: Voice-over-IP</a></li>
+<li><a href="email.html">Data Breach Defense: Email Masking</a></li>
+<li><a href="habits.html">Protection: Change Your Online Habits</a></li>
+<li><a href="disinformation.html">Protection: Disinformation</a></li>
+<li><a href="iot.html">Cybersecurity: The Internet of Things</a></li>
+<li><a href="vpns.html">Privacy: VPNs</a>
+<li><a href="final.html"><b>Final Thoughts</b></a></li>
+<li><a href="links.html"><b>Contact/Links</b></a></li>
+        <input type="radio" name="menuopt" id="dropclose" />
+</ul>
+</div>
+</div>
+<div class="main">
+<div class="content">
+<div class="h1">
+<h1 align="center">Privacy: Encrypted Messaging</h1>
+</div>
+<div>
+<h3 align="center">Encrypted Instant Messaging</h3>
+</div>
+<table border="1" align="center" class="responsive">
+<tbody>
+		<tr>
+			<td align="center" class="thead">Criteria</td>
+			<td align="center" class="thead">Jami</td>
+			<td align="center" class="thead">Matrix</td>
+			<td align="center" class="thead">Session</td>
+			<td align="center" class="thead">Signal</td>
+			<td align="center" class="thead">Threema</td>
+			<td align="center" class="thead">Wire</td>
+			<td align="center" class="thead">XMPP</td>
+		</tr>
+		<tr>
+			<td>Audited?</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="pink">No</td>
+		</tr>
+		<tr>
+			<td>Available on Debian?</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="pink">No, web only</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+		</tr>
+		<tr>
+			<td>Available on Mac?</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="pink">No, web only</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+		</tr>
+		<tr>
+			<td>Available on Windows?</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="pink">No, web only</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+		</tr>
+		<tr>
+			<td>Available on Android?</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+		</tr>
+		<tr>
+			<td>Available in F-Droid (Android Only)?</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightyellow">Some clients</td>
+			<td align="center" bgcolor="lightyellow">Yes but <a href="https://fdroid.getsession.org/fdroid/repo/" target="_blank">directly</a></td>
+
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="lightyellow">Some clients</td>
+		</tr>
+		<tr>
+			<td>Available on iOS?</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+		</tr>
+		<tr>
+			<td>Based in 5/9/14 Eyes?</td>
+			<td align="center" bgcolor="lightgreen">No</td>
+			<td align="center" bgcolor="lightyellow">Depends, default server is</td>
+			<td align="center" bgcolor="pink">Yes</td>
+			<td align="center" bgcolor="pink">Yes</td>
+			<td align="center" bgcolor="lightgreen">No</td>
+			<td align="center" bgcolor="pink">Yes</td>
+			<td align="center" bgcolor="lightyellow">Depends on the server</td>
+		</tr>
+		<tr>
+			<td>Decentralized?</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+		</tr>
+		<tr>
+			<td>Phone number or username?</td>
+			<td align="center" bgcolor="lightgreen">Username</td>
+			<td align="center" bgcolor="lightgreen">Username</td>
+			<td align="center" bgcolor="lightgreen">Username</td>
+			<td align="center" bgcolor="pink">Phone number</td>
+			<td align="center" bgcolor="lightgreen">Username</td>
+			<td align="center" bgcolor="lightgreen">Username</td>
+			<td align="center" bgcolor="lightgreen">Username</td>
+		</tr>
+		<tr>
+			<td>Open Source?</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+		</tr>
+
+		<tr>
+			<td>Resists/obscures/does not log metadata?</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="">Unknown</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="pink">No</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Additional notes?</td>
+			<td align="center" bgcolor="lightgreen">Peer-to-peer</td>
+			<td align="center" bgcolor="lightyellow">Matrix is the protocol, not the client</td>
+			<td align="center" bgcolor="pink"><a href="https://nitter.net/WPalant/status/1281540005190672384" target="_blank">Allegations of the developer's questionable ethics</a></td>
+			<td align="center" bgcolor="pink"><a href="https://github.com/privacytools/privacytools.io/issues/779" target="_blank">Questionable business practices</a></td>
+			<td align="center" bgcolor=""></td>
+			<td align="center" bgcolor="pink"><a href="https://blog.privacytools.io/delisting-wire/" target="_blank">Questionable business practices</a></td>
+			<td align="center" bgcolor="lightyellow">XMPP is the protocol, not the client</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor=""></td>
+			<td align="center" bgcolor="lightgreen">Can be self-hosted</td>
+			<td align="center" bgcolor="lightyellow">Still in beta, some features are not available and some bugs may exist</td>
+			<td align="center" bgcolor=""></td>
+			<td align="center" bgcolor=""></td>
+			<td align="center" bgcolor=""></td>
+			<td align="center" bgcolor=""></td>
+		</tr>
+
+</tbody>
+</table>
+<div>
+<h3 align="center">Encrypted Email</h3>
+</div>
+<table border="1" align="center" class="responsive">
+<tbody>
+		<tr>
+			<td align="center" class="thead">Criteria</td>
+			<td align="center" class="thead">Criptext</td>
+			<td align="center" class="thead">CTemplar</td>
+			<td align="center" class="thead">Lavabit</td>
+			<td align="center" class="thead">ProtonMail</td>
+			<td align="center" class="thead">Riseup</td>
+			<td align="center" class="thead">Tutanota</td>
+		</tr>
+		<tr>
+			<td colspan="8" align="center">All options are open-source
+		</tr>
+		<tr>
+			<td>Audited?</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+		</tr>
+		<tr>
+			<td>Available on Debian?</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+		</tr>
+		<tr>
+			<td>Available on Mac?</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+		</tr>
+		<tr>
+			<td>Available on Windows?</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+		</tr>
+		<tr>
+			<td>Available on Android?</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+		</tr>
+		<tr>
+			<td>Available in F-Droid (Android Only)?</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+		</tr>
+		<tr>
+			<td>Available on iOS?</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+		</tr>
+		<tr>
+			<td>Based in 5/9/14 Eyes?</td>
+			<td align="center" bgcolor="pink">Yes</td>
+			<td align="center" bgcolor="lightgreen">No</td>
+			<td align="center" bgcolor="pink">Yes</td>
+			<td align="center" bgcolor="lightgreen">No</td>
+			<td align="center" bgcolor="pink">Yes</td>
+			<td align="center" bgcolor="pink">Yes</td>
+		</tr>
+		<tr>
+			<td>Free plan available?</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+		</tr>
+		<tr>
+			<td>Non-users can initiate secure communication?</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="pink">No</td>
+			<td align="center" bgcolor="lightgreen">Yes</td>
+			<td align="center" bgcolor="">Unclear</td>
+			<td align="center" bgcolor="pink">No</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Additional notes?</td>
+			<td align="center" bgcolor="pink">Still in beta</td>
+			<td align="center" bgcolor=""></td>
+			<td align="center" bgcolor=""></td>
+			<td align="center" bgcolor="lightgreen">Includes VPN service with all plans</td>
+			<td align="center" bgcolor="lightyellow">Additional requirements to sign up</td>
+			<td align="center" bgcolor="pink"><a href="https://www.msn.com/en-us/news/technology/german-secure-email-provider-tutanota-forced-to-monitor-an-account-after-regional-court-ruling/ar-BB1bJDxx" target="_blank">Currently being required to log data on communication with non-Tutanota users agains ttheir will, court case ongoing</a></td>
+		</tr>
+</tbody>
+</table>
+<div class="next">
+<a href="messaging.html">Back</a>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
