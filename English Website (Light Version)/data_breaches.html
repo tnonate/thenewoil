@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The New Oil</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Data is the new oil">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" href="pictures/favicon.ico" type="image/icon">
+</head>
+
+<body>
+<div class="flex-container">
+	<div class="header">
+     <img style="float:left;position:absolute;" src="pictures/header.jpg" alt="The New Oil logo">
+     <a href="data_breaches_dark.html" style="color:white;padding:50px;">Dark Mode</a>
+		<div class="nav">
+    <ul class="menu">
+	<input type="radio" name="menuopt" id="drop1" />
+        <label class="opener" for="drop1"><img src="pictures/menu.png"></label>
+        <label class="closer" for="dropclose"><img src="pictures/menu.png"></label>
+<ul class="navb">
+<li><a href="about.html"><b>About</a></b></li>
+<li><a href="index.html">Home Page</a></li>
+<li><a href="intro.html">Introduction</a></li>
+<li><a href="threatmodel.html">Threat Modeling</a></li>
+<li><a href="surveillance.html">Understanding Surveillance</a></li>
+<li><a href="privsecanon.html">Security vs Privacy vs Anonymity</a></li>
+<li><a href="oss.html">Open Source vs Proprietary</a></li>
+<li><a href="communication.html">How Network Communication Works</a></li>
+<li><a href="most_important.html"><b>Most Important</b></a></li>
+<li><a href="most_important.html">Introduction</a></li>
+<li><a href="data_breaches.html">Understanding Data Breaches</a></li>
+<li><a href="passwords.html">Data Breach Defense: Strong Passwords</a></li>
+<li><a href="mfa.html">Data Breach Defense: Multifactor Authentication</a></li>
+<li><a href="payments.html">Data Breach Defense: Payment Masking</a></li>
+<li><a href="credit.html">Identity Theft: Freezing Your Credit</a></li>
+<li><a href="mobile.html">Securing Mobile</a></li>
+<li><a href="settings.html">Securing Mobile: Settings</a></li>
+<li><a href="apps.html">Securing Mobile: Replacement Apps</a></li>
+<li><a href="browser.html">Privacy: Securing Your Browser</a></li>
+<li><a href="moderately_important.html"><b>Moderately Important</b></a></li>
+<li><a href="moderately_important.html">Introduction</a></li>
+<li><a href="metadata.html">Understanding Metadata</a></li>
+<li><a href="encryption.html">Understanding Encryption</a></li>
+<li><a href="devices.html">Protection: Device Encryption</a></li>
+<li><a href="backups.html">Protection: Backups</a></li>
+<li><a href="desktop.html">Privacy: Securing Desktop</a></li>
+<li><a href="messaging.html">Privacy: Encrypted Messaging</a></li>
+<li><a href="mobile2.html">Privacy: Mobile Habits</a></li>
+<li><a href="llc.html">Protection: Trusts, LLCs, and Public Data</a></li>
+<li><a href="less_important.html"><b>Less Important</b></a></li>
+<li><a href="less_important.html">Introduction</a></li>
+<li><a href="voip.html">Protection: Voice-over-IP</a></li>
+<li><a href="email.html">Data Breach Defense: Email Masking</a></li>
+<li><a href="habits.html">Protection: Change Your Online Habits</a></li>
+<li><a href="disinformation.html">Protection: Disinformation</a></li>
+<li><a href="iot.html">Cybersecurity: The Internet of Things</a></li>
+<li><a href="vpns.html">Privacy: VPNs</a>
+<li><a href="final.html"><b>Final Thoughts</b></a></li>
+<li><a href="links.html"><b>Contact/Links</b></a></li>
+        <input type="radio" name="menuopt" id="dropclose" />
+</ul>
+</div>
+</div>
+<div class="main">
+<div class="content">
+<div class="h1">
+<h1 align="center">Understanding Data Breaches</h1>
+</div>
+<p>One of the top responses I get whenever I talk about cyber security with somebody is something along the lines of "<b>eh, I don't think anybody has any reason to hack me</b>." And let's be honest: <b>99% of the time, this is true</b>. Rarely is a hacker going to sit down and go "let me use my skills that I spent years mastering and perfecting just to mess with John Doe that I've never met who might not even have anything worthwhile." But this train of though betrays a fundamental misunderstanding of how today's digital hacking landscape works. <b>Here's how data breaches and modern hacking really work most of the time:</b></p>
+<p>If you're reading this, I'm willing to bet that you have a Gmail account, or an Amazon account, or an eBay account, or a Facebook account, or some sort of account on a website with hundreds of thousands, if not millions, of users. Smart hackers - and skilled ones - <a href="https://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/data-breach-101" target="_blank">target these major companies</a>. <b>These companies endure anywhere from thousands to millions of attacks every day.</b> The defender needs to get it right every single time, the attacker only needs to be successful once. Once the attacker is successful, they steal everything they can: usernames, passwords, card numbers, IP addresses, etc. Anything the service logs, they take.</p>
+<p>It's important to note that usually (but not always) the most sensitive information like passwords and card numbers is encrypted while things like username and IP address (which betrays your exact location) are not. This matters because step two is to decrypt whatever information the hacker has stolen. So if they stole usernames and passwords, they now need to decrypt the passwords only. <b>Various programs exist - totally legal and for free - to help hackers crack your password.</b></p>
+<p>Password cracking deserves its own explanation. There's two main methods of guessing a password. The first is called a "<b>dictionary attack</b>." The way these work is that <b>the hacker loads a dictionary into the software and it checks your password against the dictionary, including common variations</b>. For example, "P4ssw0rd" is a common variation of "password," so the program will check for that. Various dictionaries are available for free, including song lyrics, famous names, quotes, and more. A hacker can even make their own dictionary tailored to you with information like names of family members, important dates, pets, sports teams, and more. It's as easy as making a text file.</p>
+<p>The second method is called a "<b>brute force attack</b>." This is where the hacker specifies a length, parameters (such as "upper and lower case letters") and the software guesses every possibility. For example, it may guess "aaaaaa" and if that doesn't work, it tries "aaaaab" and if that doesn't work, it tries "aaaaac" and so on. <a href="https://protonmail.com/blog/how-long-should-my-password-be/" target="_blank">Passwords less than six characters, regardless of complexity, can be guessed in less than a second</a>.</p>
+<br>
+<div class="next" style="clear:both;"><a href="most_important.html">Previous</a>
+<a style="float:right;" href="passwords.html">Next</a>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
