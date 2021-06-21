@@ -1,4 +1,5 @@
 # The New Oil
+<img src="https://img.shields.io/liberapay/receives/thenewoil.svg?logo=liberapay">
 
 The New Oil is a data privacy and cybersecurity website dedicated to helping newbies take their first steps into the subject matter.
 
