@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The New Oil</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Data is the new oil">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="stylesheet_dark.css">
+  <link rel="icon" href="pictures/favicon.ico" type="image/icon">
+</head>
+
+<body>
+<div class="flex-container">
+<div class="header">
+     <img style="float:left;position:absolute;" src="pictures/header.jpg" alt="The New Oil logo">
+     <a href="encryption.html" style="color:white;padding:50px;">Light Mode</a>
+<div class="nav">
+    <ul class="menu">
+	<input type="radio" name="menuopt" id="drop1" />
+        <label class="opener" for="drop1"><img src="pictures/menu.png"></label>
+        <label class="closer" for="dropclose"><img src="pictures/menu.png"></label>
+<ul class="navb">
+<li><a href="about_dark.html"><b>About</a></b></li>
+<li><a href="index_dark.html">Home Page</a></li>
+<li><a href="intro_dark.html">Introduction</a></li>
+<li><a href="threatmodel_dark.html">Threat Modeling</a></li>
+<li><a href="surveillance_dark.html">Understanding Surveillance</a></li>
+<li><a href="privsecanon_dark.html">Security vs Privacy vs Anonymity</a></li>
+<li><a href="oss_dark.html">Open Source vs Proprietary</a></li>
+<li><a href="communication_dark.html">How Network Communication Works</a></li>
+<li><a href="most_important_dark.html"><b>Most Important</b></a></li>
+<li><a href="most_important_dark.html">Introduction</a></li>
+<li><a href="data_breaches_dark.html">Understanding Data Breaches</a></li>
+<li><a href="passwords_dark.html">Data Breach Defense: Strong Passwords</a></li>
+<li><a href="mfa_dark.html">Data Breach Defense: Multifactor Authentication</a></li>
+<li><a href="payments_dark.html">Data Breach Defense: Payment Masking</a></li>
+<li><a href="credit_dark.html">Identity Theft: Freezing Your Credit</a></li>
+<li><a href="mobile_dark.html">Securing Mobile</a></li>
+<li><a href="settings_dark.html">Securing Mobile: Settings</a></li>
+<li><a href="apps_dark.html">Securing Mobile: Replacement Apps</a></li>
+<li><a href="browser_dark.html">Privacy: Securing Your Browser</a></li>
+<li><a href="moderately_important_dark.html"><b>Moderately Important</b></a></li>
+<li><a href="moderately_important_dark.html">Introduction</a></li>
+<li><a href="metadata_dark.html">Understanding Metadata</a></li>
+<li><a href="encryption_dark.html">Understanding Encryption</a></li>
+<li><a href="devices_dark.html">Protection: Device Encryption</a></li>
+<li><a href="backups_dark.html">Protection: Backups</a></li>
+<li><a href="desktop_dark.html">Privacy: Securing Desktop</a></li>
+<li><a href="messaging_dark.html">Privacy: Encrypted Messaging</a></li>
+<li><a href="mobile2_dark.html">Privacy: Mobile Habits</a></li>
+<li><a href="llc_dark.html">Protection: Trusts, LLCs, and Public Data</a></li>
+<li><a href="less_important_dark.html"><b>Less Important</b></a></li>
+<li><a href="less_important_dark.html">Introduction</a></li>
+<li><a href="voip_dark.html">Protection: Voice-over-IP</a></li>
+<li><a href="email_dark.html">Data Breach Defense: Email Masking</a></li>
+<li><a href="habits_dark.html">Protection: Change Your Online Habits</a></li>
+<li><a href="disinformation_dark.html">Protection: Disinformation</a></li>
+<li><a href="iot_dark.html">Cybersecurity: The Internet of Things</a></li>
+<li><a href="vpns_dark.html">Privacy: VPNs</a>
+<li><a href="final_dark.html"><b>Final Thoughts</b></a></li>
+<li><a href="links_dark.html"><b>Contact/Links</b></a></li>
+        <input type="radio" name="menuopt" id="dropclose" />
+</ul>
+</div>
+</div>
+<div class="main">
+<div class="content">
+<div class="h1">
+<h1 align="center">Understanding Encryption</h1>
+</div>
+<p>Encryption is basically using a code to hide your data. For example, when you were young, you may have used a hidden language to pass notes to your friends in class. Maybe A=1, B=2, etc. Or maybe you even drew your own unique symbols. Those are, technically, a type of encryption. Weak encryption, but still encryption nonetheless. More modern encryption protocols, like <a href="https://en.wikipedia.org/wiki/Signal_Protocol" target="_blank">Signal</a> and <a href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard" target="blank">AES</a> are significantly more advanced but at it’s root, the concept is the same: <b>we’re replacing easily understood words with complex substitutes and – in a perfect world – you can only figure out how to turn them back into the easily understood words with a “key,”</b> which explains the code. In the grade school example I gave earlier, the “key” is knowing that A=1, B=2, and so forth. In more advanced software encryption, the key is your password or passphrase. This is, of course, a tremendously high-level overview that dramatically oversimplifies things, but it gets the basic point across.</p>
+<p><b>Encryption is a central concept in this section and privacy in general, specifically what’s called “End-to-End Encryption”</b> or “E2EE” (also sometimes called zero-knowledge). Technically a majority of the internet is encrypted when using <a href="https://en.wikipedia.org/wiki/HTTPS" target="_blank">HTTPS</a>. Additionally, most services and websites offer at least a basic level of encryption when it comes to things like saving passwords, credit card information, and even sending messages. The thing is, those types of encryption only work against outsiders. Facebook messages, for example, are encrypted to anyone outside of Facebook. Google can’t read them, the random hacker can’t read them, but Facebook employees can read them as if you sent it to them. E2EE defeats this. <b>E2EE messages can ONLY be read by you and the recipient</b>, provided you used the service correctly. Even the provider can’t read them. For example, if both you and the recipient are using ProtonMail to email each other, Proton can’t read your emails.</p>
+<p>Encryption, however, is not limited simply to your communications. Encryption can be used on your various devices to protect them when not in use. I briefly mentioned encrypting your mobile devices in the last section, but in this section I'll talk more about encrypting your other devices.</p>
+<br>
+<div class="next" style="clear:both;"><a href="metadata_dark.html">Previous</a>
+<a style="float:right;" href="devices_dark.html">Next</a>
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
