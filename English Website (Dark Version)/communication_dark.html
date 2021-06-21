@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The New Oil</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Data is the new oil">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="stylesheet_dark.css">
+  <link rel="icon" href="pictures/favicon.ico" type="image/icon">
+</head>
+
+<body>
+<div class="flex-container">
+<div class="header">
+     <img style="float:left;position:absolute;" src="pictures/header.jpg" alt="The New Oil logo">
+     <a href="communication.html" style="color:white;padding:50px;">Light Mode</a>
+<div class="nav">
+    <ul class="menu">
+	<input type="radio" name="menuopt" id="drop1" />
+        <label class="opener" for="drop1"><img src="pictures/menu.png"></label>
+        <label class="closer" for="dropclose"><img src="pictures/menu.png"></label>
+<ul class="navb">
+<li><a href="about_dark.html"><b>About</a></b></li>
+<li><a href="index_dark.html">Home Page</a></li>
+<li><a href="intro_dark.html">Introduction</a></li>
+<li><a href="threatmodel_dark.html">Threat Modeling</a></li>
+<li><a href="surveillance_dark.html">Understanding Surveillance</a></li>
+<li><a href="privsecanon_dark.html">Security vs Privacy vs Anonymity</a></li>
+<li><a href="oss_dark.html">Open Source vs Proprietary</a></li>
+<li><a href="communication_dark.html">How Network Communication Works</a></li>
+<li><a href="most_important_dark.html"><b>Most Important</b></a></li>
+<li><a href="most_important_dark.html">Introduction</a></li>
+<li><a href="data_breaches_dark.html">Understanding Data Breaches</a></li>
+<li><a href="passwords_dark.html">Data Breach Defense: Strong Passwords</a></li>
+<li><a href="mfa_dark.html">Data Breach Defense: Multifactor Authentication</a></li>
+<li><a href="payments_dark.html">Data Breach Defense: Payment Masking</a></li>
+<li><a href="credit_dark.html">Identity Theft: Freezing Your Credit</a></li>
+<li><a href="mobile_dark.html">Securing Mobile</a></li>
+<li><a href="settings_dark.html">Securing Mobile: Settings</a></li>
+<li><a href="apps_dark.html">Securing Mobile: Replacement Apps</a></li>
+<li><a href="browser_dark.html">Privacy: Securing Your Browser</a></li>
+<li><a href="moderately_important_dark.html"><b>Moderately Important</b></a></li>
+<li><a href="moderately_important_dark.html">Introduction</a></li>
+<li><a href="metadata_dark.html">Understanding Metadata</a></li>
+<li><a href="encryption_dark.html">Understanding Encryption</a></li>
+<li><a href="devices_dark.html">Protection: Device Encryption</a></li>
+<li><a href="backups_dark.html">Protection: Backups</a></li>
+<li><a href="desktop_dark.html">Privacy: Securing Desktop</a></li>
+<li><a href="messaging_dark.html">Privacy: Encrypted Messaging</a></li>
+<li><a href="mobile2_dark.html">Privacy: Mobile Habits</a></li>
+<li><a href="llc_dark.html">Protection: Trusts, LLCs, and Public Data</a></li>
+<li><a href="less_important_dark.html"><b>Less Important</b></a></li>
+<li><a href="less_important_dark.html">Introduction</a></li>
+<li><a href="voip_dark.html">Protection: Voice-over-IP</a></li>
+<li><a href="email_dark.html">Data Breach Defense: Email Masking</a></li>
+<li><a href="habits_dark.html">Protection: Change Your Online Habits</a></li>
+<li><a href="disinformation_dark.html">Protection: Disinformation</a></li>
+<li><a href="iot_dark.html">Cybersecurity: The Internet of Things</a></li>
+<li><a href="vpns_dark.html">Privacy: VPNs</a>
+<li><a href="final_dark.html"><b>Final Thoughts</b></a></li>
+<li><a href="links_dark.html"><b>Contact/Links</b></a></li>
+        <input type="radio" name="menuopt" id="dropclose" />
+</ul>
+</div>
+</div>
+<div class="main">
+<div class="content">
+<div class="h1">
+<h1 align="center">How Network Communication Works</h1>
+</div>
+<p>You’re probably already aware that <b>cell phones don’t communicate directly with other cell phones, they communicate with cell towers who make a mesh network with other cell towers to bounce your call, text, or other data from tower to tower until it reaches its destination</b>. But you may not know that the internet works in a similar fashion. In this section, I want to explain how modern digital communication works to help you understand how some of the tools and techniques in later sections protect your communications.</p>
+<div class="h2">
+<h3>Your Phone is a Radio</h3>
+</div>
+<p>Without getting too deep into the weeds, all wireless signals run on the electromagnetic spectrum. Remember ROYGBIV from school, aka the rainbow? This is electromagnetic radiation, the kind we know as “the visible light.” Believe it or not, this is the entirety of wireless signal. Radio, X-Ray, cell phones, wifi, they’re all just light waves carrying information around. The only thing that separates them is the frequency of the waves on the electromagnetic spectrum.</p>
+<img src="pictures/em_spectrum_dark.png">
+<p>Wireless microphones, radios, cell phones, and even WiFi all falls under the “radio waves” section. All of these devices use the same basic technology to work and the only thing that keeps them from interfering with each other is that they operate on different sections of the radio frequencies.</p>
+<p>Needless to say, your phone is pretty small, and trying to shoot out enough radio radiation to reach anywhere in the world would be extremely damaging to your health, and would require your phone to be  literally massive, too big to be mobile. So instead, your small phone has a limited range, just enough to connect to larger towers which in turn relay the signal where it needs to go. You’ve experienced this limitation yourself whenever you lose reception in the middle of nowhere.</p>
+<div class="h2">
+<h3>The Internet Works the Same Way</h3>
+</div>
+<p>Whether it’s WiFi or a physical ethernet cable, <b>the internet communicates mostly the same way as cell phones in the sense that your data jumps around from location to location before reaching its final destination rather than going straight to the destination</b>. Once your data leaves your router, it basically jumps through a series of other routers to get to its destination. These routers are not owned by individuals, they’re owned by corporations and internet service providers (ISPs), but the principle is the same.</p>
+<div class="h2">
+<h3>What is DNS?</h3>
+</div>
+<p><b>Domain Name Service - or DNS - is the address book of the internet.</b> When you type "Amazon.com" into your browser, your computer doesn't understand that address. It contacts a specified DNS, which looks up that address and tells your computer "oh, that's 52.88.253.183," (which is what's known as an "IP address"), which your computer understands. Your computer contacts that address, and Amazon's website is displayed in your browser. This same basic process happens with apps, streaming services, and pretty much anything requiring an internet connection. For a great explanation of why this matters and is worth protecting, check out <a href="https://mullvad.net/en/help/all-about-dns-servers-and-privacy/" target="_blank">Mullvad VPN's "All about DNS servers and privacy" blog post.</a> Many Internet Service Providers and VPN providers operate their own DNS resolvers, but <b>you can actually change most devices to use alternate DNS resolvers</b>. There are a lot of advantages to that. For one, most default DNS providers keep a log of the sites you attempt to accecss, which then gets sold to data brokers and added to your profile. Some of them might even be able to access what software is on your computer. For another, many alternate DNS providers block known advertising domains or malware, meaning a safer and less frustrating experience online. <a href="https://www.privacytools.io/providers/dns/" target="_blank">PrivacyTools.io</a> offers a great list of alternate DNS providers, and if you're unsure how to change your DNS, try <a href="https://duckduckgo.com/" target="_blank">doing a web search</a> for the device or browser you're using plus "change DNS."</p>
+<p><b>The basic principle to take away from this section is that no communication goes straight to its destination.</b> Whether it's text, phone call, email, Netflix streaming, Google searches, what-have-you. <b>All communications bounce from place to place, sometimes trading hands of companies and jurisdictions multiple times along the way.</b> Your email to your friend across town might actually cross continents before arriving, and your text message to your friend in the store next door might bounce through several cell phone providers’ networks before reaching them. This kind of relaying ability has made data access ubiquitous and fast in most areas of the developed world, but it also opens you up to incredible risk in terms of protecting your data in transit: you risk having your data unknowingly read or copied or even altered by any number of organizations, companies, hackers, or other people who have access to it along it’s path, whether legitimate or not.</p>
+<br>
+<div class="next" style="clear:both;"><a href="oss_dark.html">Previous</a>
+<a style="float:right;" href="most_important_dark.html">Next</a>
+</div>
+</div>
+</div>
+
+</body>
+</html>
