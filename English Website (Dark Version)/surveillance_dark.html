@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The New Oil</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Data is the new oil">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="stylesheet_dark.css">
+  <link rel="icon" href="pictures/favicon.ico" type="image/icon">
+</head>
+
+<body>
+<div class="flex-container">
+<div class="header">
+     <img style="float:left;position:absolute;" src="pictures/header.jpg" alt="The New Oil logo">
+     <a href="surveillance.html" style="color:white;padding:50px;">Light Mode</a>
+<div class="nav">
+    <ul class="menu">
+	<input type="radio" name="menuopt" id="drop1" />
+        <label class="opener" for="drop1"><img src="pictures/menu.png"></label>
+        <label class="closer" for="dropclose"><img src="pictures/menu.png"></label>
+<ul class="navb">
+<li><a href="about_dark.html"><b>About</a></b></li>
+<li><a href="index_dark.html">Home Page</a></li>
+<li><a href="intro_dark.html">Introduction</a></li>
+<li><a href="threatmodel_dark.html">Threat Modeling</a></li>
+<li><a href="surveillance_dark.html">Understanding Surveillance</a></li>
+<li><a href="privsecanon_dark.html">Security vs Privacy vs Anonymity</a></li>
+<li><a href="oss_dark.html">Open Source vs Proprietary</a></li>
+<li><a href="communication_dark.html">How Network Communication Works</a></li>
+<li><a href="most_important_dark.html"><b>Most Important</b></a></li>
+<li><a href="most_important_dark.html">Introduction</a></li>
+<li><a href="data_breaches_dark.html">Understanding Data Breaches</a></li>
+<li><a href="passwords_dark.html">Data Breach Defense: Strong Passwords</a></li>
+<li><a href="mfa_dark.html">Data Breach Defense: Multifactor Authentication</a></li>
+<li><a href="payments_dark.html">Data Breach Defense: Payment Masking</a></li>
+<li><a href="credit_dark.html">Identity Theft: Freezing Your Credit</a></li>
+<li><a href="mobile_dark.html">Securing Mobile</a></li>
+<li><a href="settings_dark.html">Securing Mobile: Settings</a></li>
+<li><a href="apps_dark.html">Securing Mobile: Replacement Apps</a></li>
+<li><a href="browser_dark.html">Privacy: Securing Your Browser</a></li>
+<li><a href="moderately_important_dark.html"><b>Moderately Important</b></a></li>
+<li><a href="moderately_important_dark.html">Introduction</a></li>
+<li><a href="metadata_dark.html">Understanding Metadata</a></li>
+<li><a href="encryption_dark.html">Understanding Encryption</a></li>
+<li><a href="devices_dark.html">Protection: Device Encryption</a></li>
+<li><a href="backups_dark.html">Protection: Backups</a></li>
+<li><a href="desktop_dark.html">Privacy: Securing Desktop</a></li>
+<li><a href="messaging_dark.html">Privacy: Encrypted Messaging</a></li>
+<li><a href="mobile2_dark.html">Privacy: Mobile Habits</a></li>
+<li><a href="llc_dark.html">Protection: Trusts, LLCs, and Public Data</a></li>
+<li><a href="less_important_dark.html"><b>Less Important</b></a></li>
+<li><a href="less_important_dark.html">Introduction</a></li>
+<li><a href="voip_dark.html">Protection: Voice-over-IP</a></li>
+<li><a href="email_dark.html">Data Breach Defense: Email Masking</a></li>
+<li><a href="habits_dark.html">Protection: Change Your Online Habits</a></li>
+<li><a href="disinformation_dark.html">Protection: Disinformation</a></li>
+<li><a href="iot_dark.html">Cybersecurity: The Internet of Things</a></li>
+<li><a href="vpns_dark.html">Privacy: VPNs</a>
+<li><a href="final_dark.html"><b>Final Thoughts</b></a></li>
+<li><a href="links_dark.html"><b>Contact/Links</b></a></li>
+        <input type="radio" name="menuopt" id="dropclose" />
+</ul>
+</div>
+</div>
+<div class="main">
+<div class="content">
+<div class="h1">
+<h1 align="center">Understanding Surveillance</h1>
+</div>
+<p>In order to make informed decisions, one must first have information. So in this section, I want to give a brief overview of some of the most common ways surveillance works. This is not an exhaustive list, but it should give you a general idea to recognize potential surveillance mechanisms.</p>
+<p>Generally speaking, the most common form of surveillance is <a href="https://en.wikipedia.org/wiki/Surveillance_capitalism" target="_blank"><b>Surveillance Capitalism</b></a>, meaning companies like Amazon or Google who collect information about you in order to serve more relevant ads or products. Governments also perform surveillance, but typically government surveillance piggybacks off existing surveillance capitalism infrastructures (see <a href="https://en.wikipedia.org/wiki/PRISM_(surveillance_program)" target="_blank">PRISM</a>), meaning while ending up on "a list" is probably a fairly easy, common, and automated thing, getting an actual person to watch you individually is less likely than you'd think. Most surveillance is performed automatically by algorithms and automated systems. The bad news is, this means such surveillance is everywhere. The good news is, that means it's aimed at the masses and therefore relatively easy to get out of.</p>
+<p>Before I go any further, I also want to point out that there are organizations known as <a href="https://en.wikipedia.org/wiki/Information_broker" target="_blank"><b>data brokers</b></a> who collect your information for profiling purposes. Amazon and Apple may not be sharing data with each other, but they are likely sharing it with companies like <a href="https://en.wikipedia.org/wiki/Acxiom" target="_blank">Acxiom</a> and <a href="https://en.wikipedia.org/wiki/LexisNexis" targe="_blank">LexisNexis</a> who in turn sell your profile back to companies who use it for advertising.</p>
+<div class="h2">
+<h3>The Three Types of Surveillance (According to Me)</h3>
+</div>
+<p>The most obvious form of surveillance is what I'll call "<b>consented surveillance</b>." This is when you give up obvious forms of information. For example, if you sign up to both Amazon and eBay using the same email address, then obviously any purchases made on both are automatically tied back to you. As I said in the previous paragraph, Amazon and eBay may not be sharing your purchase history with each other, but they definitely share it with data brokers. Their automated systems easily correlate the two accounts and combine them.</p>
+<p>The next form of surveillance I'll call "<b>unconscious surveillance</b>." Technically you consent to this form whenever you click "I agree to the terms of service" but let's be honest: <a href="https://tosdr.org/" target="_blank">who reads those</a>? This is when you click that button without reading and the company does more invisible things: maybe they plant a cookie on your computer that tells them every site you visit, or you unwittingly agree to share your contacts list even though the app has nothing do with contacts. It could also include bots that automatically scan your emails for keywords or that aggregate your browsing habits based on your stored cookies.</p>
+<p>The final form of surveillance I'll call "<b>secret surveillance</b>." This is the kind that, honestly, probably is only an issue if you're already getting the attention of the government. This is the kind that isn't automated, the kind where they plant a fake version of an app on your phone or computer to track your entire phone or just that app specifically, or where they actively capture and read your communications by a person and not just a machine. This is expensive and rare, and generally speaking falls outside the scope of this book/site.</p>
+<p><b>This site will focus primarily on the first two forms of surveillance and how to opt out of them.</b> <a href="https://www.techopedia.com/definition/32874/narrow-artificial-intelligence-narrow-ai" target="_blank">Narrow AI</a> is the AI you're already familiar with: Siri, Alexa, Netflix's viewing algorithms, Google's navigation. They're really good at what they do, but what they do is very specific and limited. The upside is that because it is so narrow, it's relatively easy to avoid it, and because companies already make so much money off the data of those who don't avoid it, they probably don't really care about you escaping.</p>
+<br>
+<div class="next" style="clear:both;"><a href="threatmodel_dark.html">Previous</a>
+<a style="float:right;" href="privsecanon_dark.html">Next</a>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
