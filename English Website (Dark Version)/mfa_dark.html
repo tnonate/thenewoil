@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The New Oil</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Data is the new oil">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="stylesheet_dark.css">
+  <link rel="icon" href="pictures/favicon.ico" type="image/icon">
+</head>
+
+<body>
+<div class="flex-container">
+<div class="header">
+     <img style="float:left;position:absolute;" src="pictures/header.jpg" alt="The New Oil logo">
+     <a href="mfa.html" style="color:white;padding:50px;">Light Mode</a>
+<div class="nav">
+    <ul class="menu">
+	<input type="radio" name="menuopt" id="drop1" />
+        <label class="opener" for="drop1"><img src="pictures/menu.png"></label>
+        <label class="closer" for="dropclose"><img src="pictures/menu.png"></label>
+<ul class="navb">
+<li><a href="about_dark.html"><b>About</a></b></li>
+<li><a href="index_dark.html">Home Page</a></li>
+<li><a href="intro_dark.html">Introduction</a></li>
+<li><a href="threatmodel_dark.html">Threat Modeling</a></li>
+<li><a href="surveillance_dark.html">Understanding Surveillance</a></li>
+<li><a href="privsecanon_dark.html">Security vs Privacy vs Anonymity</a></li>
+<li><a href="oss_dark.html">Open Source vs Proprietary</a></li>
+<li><a href="communication_dark.html">How Network Communication Works</a></li>
+<li><a href="most_important_dark.html"><b>Most Important</b></a></li>
+<li><a href="most_important_dark.html">Introduction</a></li>
+<li><a href="data_breaches_dark.html">Understanding Data Breaches</a></li>
+<li><a href="passwords_dark.html">Data Breach Defense: Strong Passwords</a></li>
+<li><a href="mfa_dark.html">Data Breach Defense: Multifactor Authentication</a></li>
+<li><a href="payments_dark.html">Data Breach Defense: Payment Masking</a></li>
+<li><a href="credit_dark.html">Identity Theft: Freezing Your Credit</a></li>
+<li><a href="mobile_dark.html">Securing Mobile</a></li>
+<li><a href="settings_dark.html">Securing Mobile: Settings</a></li>
+<li><a href="apps_dark.html">Securing Mobile: Replacement Apps</a></li>
+<li><a href="browser_dark.html">Privacy: Securing Your Browser</a></li>
+<li><a href="moderately_important_dark.html"><b>Moderately Important</b></a></li>
+<li><a href="moderately_important_dark.html">Introduction</a></li>
+<li><a href="metadata_dark.html">Understanding Metadata</a></li>
+<li><a href="encryption_dark.html">Understanding Encryption</a></li>
+<li><a href="devices_dark.html">Protection: Device Encryption</a></li>
+<li><a href="backups_dark.html">Protection: Backups</a></li>
+<li><a href="desktop_dark.html">Privacy: Securing Desktop</a></li>
+<li><a href="messaging_dark.html">Privacy: Encrypted Messaging</a></li>
+<li><a href="mobile2_dark.html">Privacy: Mobile Habits</a></li>
+<li><a href="llc_dark.html">Protection: Trusts, LLCs, and Public Data</a></li>
+<li><a href="less_important_dark.html"><b>Less Important</b></a></li>
+<li><a href="less_important_dark.html">Introduction</a></li>
+<li><a href="voip_dark.html">Protection: Voice-over-IP</a></li>
+<li><a href="email_dark.html">Data Breach Defense: Email Masking</a></li>
+<li><a href="habits_dark.html">Protection: Change Your Online Habits</a></li>
+<li><a href="disinformation_dark.html">Protection: Disinformation</a></li>
+<li><a href="iot_dark.html">Cybersecurity: The Internet of Things</a></li>
+<li><a href="vpns_dark.html">Privacy: VPNs</a>
+<li><a href="final_dark.html"><b>Final Thoughts</b></a></li>
+<li><a href="links_dark.html"><b>Contact/Links</b></a></li>
+        <input type="radio" name="menuopt" id="dropclose" />
+</ul>
+</div>
+</div>
+<div class="main">
+<div class="content">
+<div class="h1">
+<h1 align="center">Data Breach Defense: Multifactor Authentication</h1>
+</div>
+<p>Another powerful thing a person can do to protect their online accounts is to use multi-factor authentication. <a href="https://www.microsoft.com/security/blog/2019/08/20/one-simple-action-you-can-take-to-prevent-99-9-percent-of-account-attacks/" target="_blank">According to Microsoft</a>, this one technique can stop up to 99.9% of unauthorized account accesses.</p>
+<p>Multifactor Authentication (also known as MFA, Two-Factor Authentication, or 2FA) is a system that requires additional steps beyond username and password to log in to a given account. The most common form of MFA is the SMS text: you log into a site, they text you a code, you enter the code on the next screen, and now you access your account. This is useful because <b>with MFA, even if a hacker were to gain access to your login credentials, they would still need access to your physical device to complete the login process</b>.</p>
+<p>When picking an MFA solution, <b>the most important thing is to look for something you will use consistently</b> and won't interfere negatively with your life. If you need the ability to log into your account from any computer at any given time, a hardware key may not be your best bet.</p>
+<p>Generally speaking <b><a href="https://www.zdnet.com/article/microsoft-urges-users-to-stop-using-phone-based-multi-factor-authentication/" target="_blank">you should try to avoid SMS 2FA whenever possible</a></b> because it is relatively easy for a malicious actor or hacker to hijack your phone number in any number of ways therefore recieve the incoming 2FA text, defeating the purpose of 2FA and rendering the extra step useless. Use SMS if nothing else is available, but try to use something else if you have the option. The order of recommended 2FA methods from strongest to weakest are hardware keys, software apps, push notifications, SMS/Email. Software apps will be the sweet spot for most people.</p>
+<table border="1" align="center" class="responsive">
+<tbody>
+		<tr>
+			<td align="center" class="thead">Product/Service</td>
+			<td align="center" class="thead">Pros</td>
+			<td align="center" class="thead">Cons</td>
+		</tr>
+		<tr>
+			<td align="center" colspan="3"><a href="mfa-chart.html">Click here for a visual version of this chart</a></td>
+		</tr>
+		<tr>
+			<td align="center" colspan="3">Listed in alphabetical order, not order of recommendation</td>
+		</tr>
+		<tr>
+			<td align="center"><a href="https://getaegis.app/" target="_blank"><img src="pictures/aegis.png"><br>Aegis Authenticator</a></td>
+			<td>
+	<ul>
+			<li><a href="oss_dark.html">Open source</a>
+			<li>Offers backups
+			<li>The vault can be encrypted (optional)
+			<li>Available on <a href="https://f-droid.org/" target="_blank">F-Droid</a>
+	</ul>
+			</td>
+			<td>
+	<ul>
+			<li>Android Only
+	</ul>
+			</td>
+		</tr>
+		<tr>
+			<td align="center"><a href="https://play.google.com/store/apps/details?id=org.shadowice.flocke.andotp" target="_blank"><img src="pictures/andotp.png"><br>andOTP</a></td>
+			<td>
+	<ul>
+			<li><a href="oss.html">Open source</a>
+			<li>Offers backups
+			<li>Available on <a href="https://f-droid.org/" target="_blank">F-Droid</a>
+	</ul>
+			</td>
+			<td>
+	<ul>
+			<li>Android Only
+	</ul>
+			</td>
+		</tr>
+		<tr>
+			<td align="center"><a href="https://mattrubin.me/authenticator/" target="_blank"><img src="pictures/authenticator.png"><br>Authenticator</a></td>
+			<td>
+	<ul>
+			<li><a href="oss_dark.html">Open source</a>
+			<li>Supports time-based and counter-based passwords
+	</ul>
+			</td>
+			<td>
+	<ul>
+			<li>iOS Only
+	</ul>
+			</td>
+		</tr>
+		<tr>
+			<td align="center"><a href="https://freeotp.github.io/" target="_blank"><img src="pictures/freeotp.png"><br>FreeOTP</a></td>
+			<td>
+	<ul>
+			<li><a href="oss_dark.html">Open source</a>
+			<li>Android and iOS
+			<li>OTP codes are hidden until the user clicks on them, adding a small layer of additional security
+			<li>Available on <a href="https://f-droid.org/" target="_blank">F-Droid</a>
+	</ul>
+			</td>
+			<td>
+	<ul>
+			<li>The program is sponsored and maintained by Red Hat, which was <a href="https://in.reuters.com/video/watch/idRCV005TP3" target="_blank">purchased by IBM</a>. Some users may be put off by corporate involvement.
+	</ul>
+			</td>
+		</tr>
+		<tr>
+			<td align="center"><a href="https://play.google.com/store/apps/details?id=org.liberty.android.freeotpplus" target="_blank"><img src="pictures/freeotpplus.png"><br>FreeOTP+</a></td>
+			<td>
+	<ul>
+			<li><a href="oss_dark.html">Open source</a>
+			<li>Back ups available
+			<li>Search feature
+	</ul>
+			</td>
+			<td>
+	<ul>
+			<li>Android only
+			<li>Not available on <a href="https://f-droid.org/" target="_blank">F-Droid</a>
+	</ul>
+			</td>
+		</tr>
+		<tr>
+			<td align="center"><a href="https://www.tofuauth.com/" target="_blank"><img src="pictures/tofu.png"><br>Tofu</a></td>
+			<td>
+	<ul>
+			<li><a href="oss_dark.html">Open source</a>
+			<li>Search function available to quickly and easily find desired OTP code
+	</ul>
+			</td>
+			<td>
+	<ul>
+			<li>iOS only
+	</ul>
+			</td>
+		</tr>
+</tbody>
+</table>
+<div class="h2">
+<h3>Getting Started</h3>
+</div>
+<p>MFA can typically be enabled under the "Security" settings of your account, though it may sometimes be under a similar but different setting such as "Login" or "Account." It also sometimes goes by other names such as "two-step login" or "Authenticator App." <b>Stop reading right now and go enable MFA on your important email account(s).</b> Seriously, right this second. If I hack your email account that you use for banking, for medical communication, or for other critical things, I can lock you out and take over your life. All I have to do is hit that little button that says "forgot password" and have them email me a reset link. So you need to secure your important email accounts first and foremost.</p>
+<p>My preferred strategy for implementing MFA on existing accounts is to <b>start by enabling it on every critical account first</b> - email, banking, work accounts, etc. Take the time right now to decide what accounts you absolutely cannot afford to lose access to and sit down and knock those out right now. For less critical accounts like your personal Twitter or game accounts, I recommend you enable it next time you use it. The idea of sitting down and knocking out hundreds of accounts at once is daunting, so instead I advocate an "as you go" strategy to avoid being overwhelmed. Before you know it, you'll have enabled it everywhere offered.</p>
+<div class="h2">
+<h3>Honorable Mention: Hardware Tokens</h3>
+</div>
+<p>For most people software apps will provide the best blend of security and usability. However, for those who require additional proteciton - or simply want to go the extra mile - many hardware keys exist that provide maximum protection at very little additional cost of user-friendliness. Some of the more common and recommended hardware keys include <a href="https://www.yubico.com/" target="_blank">Yubikey</a>, <a href="https://onlykey.io/" target="_blank">OnlyKey</a>, and <a href="https://puri.sm/products/librem-key/" target="_blank">LibremKey</a>. Less common but open source options include <a href="https://www.nitrokey.com/" target="_blank">NitroKey</a> and <a href="https://solokeys.com/" target="_blank">SoloKey</a>. Each offers different features but all will provide roughly the same level of protection.
+<p>Hardware authentication keys are physical devices that plug into your computer and act as a hardware multifactor authentication option. They are great additional security, but aren't very durable and may not be a good choice for a laptop or a person who needs to be able to access things remotely. Likewise, these keys require you to put extra thought into your backups (ex "what if I lose this?") It is worth noting, though, that hardware keys are incredibly secure because they can't be remotely hijacked the way that other forms can.</p>
+</p>
+<div class="h2">
+<h3>Tips & Tricks</h3>
+</div>
+<p>Most sites have an option during the second login screen to "remember this device for 30 days" or something similar. This will keep you logged in without requiring your MFA code for the indicated amount of time. I'm not opposed to this, but make sure that you're not enabling this on a public computer, family computers, or a computer that stays unlocked often. Only use this option on personal computers that you don't leave unattended.</p>
+<p>When you sign up for MFA, most sites will issue you backup codes. Be sure to write these down somewhere safe in case you lose your MFA device, it will save a lot of time and headache. I recommend saving them in the notes section of your <a href="passwords_dark.html">password manager</a>.</p>
+<p>Some password managers offer the ability to store your MFA key with a little extra work to make your login process easier and more centralized. This can be helpful if you're sharing accounts with someone (a family member, for example) or if you just want to rely on your phone less. However, be aware of the risk: by putting your password and two-factor code in the same place, you're creating a single point of failure. Make sure you're taking extra precautions if this is the path you decide to take.</p>
+<p>Many websites will explicitly list "Google Authenticator" as a two-factor option, but don't let this fool you. Any software authenticator app listed on this page (and many others) will work just fine.</p>
+<p>Some apps offer the ability to backup your two-factor database, sometimes even in the cloud. As someone who has lost their two-factor database before, I understand the appeal of this. But be aware of the risks. 1) Anything stored in the cloud has the risk of becoming exposed either through a data breach or a rogue employee if the service is not <a href="encryption_dark.html">zero-knowledge</a>. Do your research and make sure you've accepted this risk. 2) If the backup requires a password, be sure to use a <a href="passwords_dark.html">strong password</a>, or else it will be easily cracked as discussed in the "<a href="data_breaches_dark.html">Understanding Data Breaches</a>" section.</p>
+<p>If using a hardware token, be sure to buy two copies and keep the second in a safe place as a backup in case the first one gets broken. Just as with regular backups, be sure to keep it regularly updated, too. It's not use to you if it's not configured with the sites you need to use it on when your primary device breaks.</p>
+<br>
+<div class="next" style="clear:both;"><a href="passwords_dark.html">Previous</a>
+<a style="float:right;" href="payments_dark.html">Next</a>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
