@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The New Oil</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Data is the new oil">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="stylesheet_dark.css">
+  <link rel="icon" href="pictures/favicon.ico" type="image/icon">
+</head>
+
+<body>
+<div class="flex-container">
+<div class="header">
+     <img style="float:left;position:absolute;" src="pictures/header.jpg" alt="The New Oil logo">
+     <a href="mobile.html" style="color:white;padding:50px;">Light Mode</a>
+<div class="nav">
+    <ul class="menu">
+	<input type="radio" name="menuopt" id="drop1" />
+        <label class="opener" for="drop1"><img src="pictures/menu.png"></label>
+        <label class="closer" for="dropclose"><img src="pictures/menu.png"></label>
+<ul class="navb">
+<li><a href="about_dark.html"><b>About</a></b></li>
+<li><a href="index_dark.html">Home Page</a></li>
+<li><a href="intro_dark.html">Introduction</a></li>
+<li><a href="threatmodel_dark.html">Threat Modeling</a></li>
+<li><a href="surveillance_dark.html">Understanding Surveillance</a></li>
+<li><a href="privsecanon_dark.html">Security vs Privacy vs Anonymity</a></li>
+<li><a href="oss_dark.html">Open Source vs Proprietary</a></li>
+<li><a href="communication_dark.html">How Network Communication Works</a></li>
+<li><a href="most_important_dark.html"><b>Most Important</b></a></li>
+<li><a href="most_important_dark.html">Introduction</a></li>
+<li><a href="data_breaches_dark.html">Understanding Data Breaches</a></li>
+<li><a href="passwords_dark.html">Data Breach Defense: Strong Passwords</a></li>
+<li><a href="mfa_dark.html">Data Breach Defense: Multifactor Authentication</a></li>
+<li><a href="payments_dark.html">Data Breach Defense: Payment Masking</a></li>
+<li><a href="credit_dark.html">Identity Theft: Freezing Your Credit</a></li>
+<li><a href="mobile_dark.html">Securing Mobile</a></li>
+<li><a href="settings_dark.html">Securing Mobile: Settings</a></li>
+<li><a href="apps_dark.html">Securing Mobile: Replacement Apps</a></li>
+<li><a href="browser_dark.html">Privacy: Securing Your Browser</a></li>
+<li><a href="moderately_important_dark.html"><b>Moderately Important</b></a></li>
+<li><a href="moderately_important_dark.html">Introduction</a></li>
+<li><a href="metadata_dark.html">Understanding Metadata</a></li>
+<li><a href="encryption_dark.html">Understanding Encryption</a></li>
+<li><a href="devices_dark.html">Protection: Device Encryption</a></li>
+<li><a href="backups_dark.html">Protection: Backups</a></li>
+<li><a href="desktop_dark.html">Privacy: Securing Desktop</a></li>
+<li><a href="messaging_dark.html">Privacy: Encrypted Messaging</a></li>
+<li><a href="mobile2_dark.html">Privacy: Mobile Habits</a></li>
+<li><a href="llc_dark.html">Protection: Trusts, LLCs, and Public Data</a></li>
+<li><a href="less_important_dark.html"><b>Less Important</b></a></li>
+<li><a href="less_important_dark.html">Introduction</a></li>
+<li><a href="voip_dark.html">Protection: Voice-over-IP</a></li>
+<li><a href="email_dark.html">Data Breach Defense: Email Masking</a></li>
+<li><a href="habits_dark.html">Protection: Change Your Online Habits</a></li>
+<li><a href="disinformation_dark.html">Protection: Disinformation</a></li>
+<li><a href="iot_dark.html">Cybersecurity: The Internet of Things</a></li>
+<li><a href="vpns_dark.html">Privacy: VPNs</a>
+<li><a href="final_dark.html"><b>Final Thoughts</b></a></li>
+<li><a href="links_dark.html"><b>Contact/Links</b></a></li>
+        <input type="radio" name="menuopt" id="dropclose" />
+</ul>
+</div>
+</div>
+<div class="main">
+<div class="content">
+<div class="h1">
+<h1 align="center">Securing Mobile: Introduction</h1>
+</div>
+<p>Mobile devices - specifically smartphones - are the cutting edge of surveillance technology. They're miniature super computers that live in your pocket everywhere you go. They track your movement, your communications, your content intake, your interests (via the apps you download and sites you visit), and in some cases they even track your health or sleep habits. Most of us use a phone as an alarm clock, right?</p>
+<p>It goes much deeper though. <b>Imagine if your phone got lost.</b> Imagine a stranger picking up your phone and checking it. Maybe they're a good person trying to get it back its owner. Maybe they're not. They can see your bank app on the front page, maybe even access your account just by opening it. They can read all your texts and scroll through your pictures. They can even check your web history or map history. Losing your phone is more than an inconvenience, it's a massive personal risk.</p>
+<p>How can we minimize this surveillance and maximize our security? <b>The biggest step would be to become less reliant on your phone.</b> Going somewhere you already know? No need for navigation, leave it at home. Going shopping? Take a physical shopping list written on a piece of paper. Using an encrypted messenger like Signal? Use it on desktop.</p>
+<p>But try as we might, sometimes our phones are unavoidable. We need them when going to a new or unfamiliar place or while working off-site, etc. So <b>the next best step is to minimize the data collection</b>. In this sub-chapter, I'm going to share settings, apps, and other advice for both iOS and Android that can be changed to maximize your privacy settings.</p>
+<p>Before I dive into that, let me answer the age old question: <b>Android vs iOS?</b> Androids are popular in the privacy community because certain models can be flashed with a different operating system, fundamentally altering the phone and reducing data collection. But for this site, I'm going to be discussing the stock, unaltered operating system. In this scenario, <b>I'd recommend the iOS device for one simple reason: superior security.</b> Because iOS devices are manufactured in-house with very little variation between the hardware, pushing out updates is incredibly easy.</p> <p>Android devices, on the other hand, are made by a wide variety of manufacturers with various different components, meaning every time a new update gets released it must be delivered to the manufacturers first so they make it work with the various devices before pushing it out. (<a href="https://bgr.com/2019/01/02/iphone-vs-android-pie-ios-12-adoption-numbers/" target="_blank">Source</a>) Additionally, the Apple store has a better vetting system for apps. It seems like a few times a month I read a new story about <a href="https://bgr.com/2020/04/07/android-apps-thousands-have-backdoors-security-threats-study/" target="_blank">a malicious app (or scores of them) being removed from the Google Play store</a>. Malicious Apple app removal is significantly more rare. Not impossible or unheard of, but much more rare.</p>
+<p>I also want to add that <b>I highly discourage you from ever jailbreaking your phone or putting it into developer mode</b> unless you plan to flash a different operating system onto it, in which case you're probably too advanced for this site. Compromising a phone like that disables many of the security features, prevents you from getting security updates, and generally makes you significantly more susceptible to malware. Just play with the settings that are already in the phone.</p>
+<br>
+<div class="next" style="clear:both;"><a href="credit_dark.html">Previous</a>
+<a style="float:right;" href="settings_dark.html">Next</a>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
