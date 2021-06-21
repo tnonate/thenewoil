@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The New Oil</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Data is the new oil">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="stylesheet_dark.css">
+  <link rel="icon" href="pictures/favicon.ico" type="image/icon">
+</head>
+
+<body>
+<div class="flex-container">
+<div class="header">
+     <img style="float:left;position:absolute;" src="pictures/header.jpg" alt="The New Oil logo">
+     <a href="threatmodel.html" style="color:white;padding:50px;">Light Mode</a>
+<div class="nav">
+    <ul class="menu">
+	<input type="radio" name="menuopt" id="drop1" />
+        <label class="opener" for="drop1"><img src="pictures/menu.png"></label>
+        <label class="closer" for="dropclose"><img src="pictures/menu.png"></label>
+<ul class="navb">
+<li><a href="about_dark.html"><b>About</a></b></li>
+<li><a href="index_dark.html">Home Page</a></li>
+<li><a href="intro_dark.html">Introduction</a></li>
+<li><a href="threatmodel_dark.html">Threat Modeling</a></li>
+<li><a href="surveillance_dark.html">Understanding Surveillance</a></li>
+<li><a href="privsecanon_dark.html">Security vs Privacy vs Anonymity</a></li>
+<li><a href="oss_dark.html">Open Source vs Proprietary</a></li>
+<li><a href="communication_dark.html">How Network Communication Works</a></li>
+<li><a href="most_important_dark.html"><b>Most Important</b></a></li>
+<li><a href="most_important_dark.html">Introduction</a></li>
+<li><a href="data_breaches_dark.html">Understanding Data Breaches</a></li>
+<li><a href="passwords_dark.html">Data Breach Defense: Strong Passwords</a></li>
+<li><a href="mfa_dark.html">Data Breach Defense: Multifactor Authentication</a></li>
+<li><a href="payments_dark.html">Data Breach Defense: Payment Masking</a></li>
+<li><a href="credit_dark.html">Identity Theft: Freezing Your Credit</a></li>
+<li><a href="mobile_dark.html">Securing Mobile</a></li>
+<li><a href="settings_dark.html">Securing Mobile: Settings</a></li>
+<li><a href="apps_dark.html">Securing Mobile: Replacement Apps</a></li>
+<li><a href="browser_dark.html">Privacy: Securing Your Browser</a></li>
+<li><a href="moderately_important_dark.html"><b>Moderately Important</b></a></li>
+<li><a href="moderately_important_dark.html">Introduction</a></li>
+<li><a href="metadata_dark.html">Understanding Metadata</a></li>
+<li><a href="encryption_dark.html">Understanding Encryption</a></li>
+<li><a href="devices_dark.html">Protection: Device Encryption</a></li>
+<li><a href="backups_dark.html">Protection: Backups</a></li>
+<li><a href="desktop_dark.html">Privacy: Securing Desktop</a></li>
+<li><a href="messaging_dark.html">Privacy: Encrypted Messaging</a></li>
+<li><a href="mobile2_dark.html">Privacy: Mobile Habits</a></li>
+<li><a href="llc_dark.html">Protection: Trusts, LLCs, and Public Data</a></li>
+<li><a href="less_important_dark.html"><b>Less Important</b></a></li>
+<li><a href="less_important_dark.html">Introduction</a></li>
+<li><a href="voip_dark.html">Protection: Voice-over-IP</a></li>
+<li><a href="email_dark.html">Data Breach Defense: Email Masking</a></li>
+<li><a href="habits_dark.html">Protection: Change Your Online Habits</a></li>
+<li><a href="disinformation_dark.html">Protection: Disinformation</a></li>
+<li><a href="iot_dark.html">Cybersecurity: The Internet of Things</a></li>
+<li><a href="vpns_dark.html">Privacy: VPNs</a>
+<li><a href="final_dark.html"><b>Final Thoughts</b></a></li>
+<li><a href="links_dark.html"><b>Contact/Links</b></a></li>
+        <input type="radio" name="menuopt" id="dropclose" />
+</ul>
+</div>
+</div>
+<div class="main">
+<div class="content">
+<div class="h1">
+<h1 align="center">Threat Modeling</h1>
+</div>
+<p>In order for any of this site to make sense – and in order to know what tools are right for you – you have to understand “<b>threat modeling</b>.” The term “threat model” is just a fancy way to say “<b>what are you hiding and who are you hiding it from?</b>” For example:</p>
+<div class="insert">
+<ul>
+	<li>A journalist may want to protect their sources from harm or retaliation. Therefore their threat model will include ways to avoid location tracking, encrypt or otherwise protect the uncensored information they receive from their source, and other similar information that might reveal who their source is or allow others to track them to their source.
+	<li>A member of law enforcement may protect their home location in a variety of ways to avoid putting their families in danger from criminals seeking revenge or just general criminals with a grudge against the system.
+	<li>An activist in a repressive country make take steps to hide their research, gatherings, or other activities so the government can’t track their real identity so easily and use it against them.
+	<li>Most people are worried about identity theft and loss of financial resources through their bank account. Some of their defensive strategies could include using a <a href="passwords_dark.html">password manager</a>, <a href="mfa_dark.html">two-factor authentication</a>, and <a href="credit_dark.html">freezing their credit</a>.
+</ul>
+</div>
+<p>While threat modeling can be applied to a wide variety of situations (as shown above), on this site I want to focus specifically on <b>threat modeling for your personal data</b>. The Electronic Frontier Foundation defines data as “<a href="https://ssd.eff.org/en/glossary/data" target="_blank">any kind of information, typically stored in a digital form. Data can include documents, pictures, keys, programs, messages, and other digital information or files.</a>” So with this in mind, our threat model question becomes “<b>what data am I protecting and from who?</b>”</p>
+<p>While there’s basic “best practices” that do apply to almost (if not) everyone, there’s really no one-size-fits-all threat model for everyone. Some people need more security or privacy, and some need less. Most people want to find a healthy balance between protection and ease of use.</p>
+<p>The threat model that I focus mostly on in this site is <b>defense against common, non-targeted attacks</b>. The example I like to use is infamous serial killer Richard Chase. Chase stalked the Los Angeles area between 1977 and 1978. One of the reasons he was so difficult to catch was because he didn’t have a pattern. He said on record after he was caught that he would just cruise around neighborhoods until he spotted a house he felt compelled to try. But here’s what made Chase odd: if the doors and windows were locked, he would go on his way and try a different house. He didn’t force his way in.</p>
+<p><b>My goal with this site is to teach you how to "digitally lock your doors and windows"</b> to protect against yourself against the Richard Chase's of the digital world. In other words, make yourself harder to hack than the other guy so that hackers looking for an easy payday give up and move on to someone else. That’s not to say that the tools and techniques I discuss can’t be used for more advanced threats, but know that I’m not trying to teach you to be invisible, I’m trying to teach you to live a normal life while being safe.</p>
+<p>What’s <b>your</b> threat model? You can't know how to properly defend yourself against attacks if you don't know what attacks you are likely to face. While I teach the basics here, some readers may need to continue their education after my site, and all readers will have to examine the numerous tools and techniques I share here to figure out which is best for them. You can't know any of that without defining your threat model. So how do you determine your threat model?</p>
+<div class="insert">
+<p><b>1. What do I want to protect?</b></p>
+<p>This is typically known as <b>assets</b>, and in my opinion those come in both physical and non-physical forms. A physical asset would be something like a laptop, phone, or file cabinet - a place that holds the data you wish you to protect. A non-physical asset would be something like a bank account, email account, or cloud storage backup account. You need to identify all your assets.</p>
+<p><b>2. Who do I want to protect it from?</b></p>
+<p>“Bad guys” is a pretty bad answer to this. Different types of bad guys have different resources and motivations. For example, a typical "hacker" doesn't target you specifically (see <a href="data_breaches_dark.html">Understading Data Breaches</a>). A potential employer, on the other hand, is targeting you specifically. Try to be specific when identifying the "who" of your threat model, and know that it can vary from asset to asset.</p>
+<p><b>3. How bad are the consequences if I fail?</b></p>
+<p>To use the examples from #2: the "hacker" is trying to steal all your money and maybe even open fake accounts in your name that you will then be responsible for. Your prospective employer is simply trying to decide if they want to hire you. Both are consequences, and both are serious, but they require different levels and methods of defense. There's nothing wrong with going above and beyond the bare minimum of defense, but make sure that you know what's actually necessary and likely and don't ruin your relationships or mental health because you went too far. It's all about balance.</p>
+<p><b>4. How likely is it that I will need to protect it?</b></p>
+<p>This ties into both #2 and #3. An unrelated example: a person who shops online frequently and with many different retailers will almost certainly have their card details stolen at some point. The need to protect their card details, funds, and financial rating are extremely high as the likelihood of attack is extremely high.</p>
+<p><b>5. How much trouble am I willing to go through to try to prevent potential consequences?</b></p>
+<p>Not all threats warrant the same level of action and investment. This is the “cost/benefit analysis.” Some security and privacy strategies involve much more work and may not be right for you depending on your level of skill and the sensitivity of the information being protected. Always remember: nothing is unhackable. Trying to protect all your data against everything all the time is impossible and exhausting. Instead, the goal should be to find a balance where you protect against or mitigate the most likely and most harmful threats as much as possible without harming yourself or those around you. Renowned cyber expert Gene Spafford once famously said "The only truly secure system is one that is powered off, cast in a block of concrete and sealed in a lead-lined room with armed guards - and even then I have my doubts." Don't go crazy trying to be bulletproof. It's not possible. Find the balance between security and privacy and quality of life.</p>
+</div>
+<p>In the coming pages of this site, I will offer you a variety of tools, how they can be used, and the pros and cons of each. With your threat model in hand, I hope this site can help you decide which tools are right for you to help secure and protect your data.</p>
+<p><i>Large parts of this page were borrowed from or inspired by EFF’S <a href="https://ssd.eff.org/en/module/your-security-plan" target="_blank">Surveillance Self Defense Guide</a>.</i></p>
+<br>
+<div class="next" style="clear:both;"><a href="intro_dark.html">Previous</a>
+<a style="float:right;" href="surveillance_dark.html">Next</a>
+</div>
+</body>
+</html>
