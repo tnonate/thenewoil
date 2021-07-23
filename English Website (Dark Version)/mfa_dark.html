@@ -83,7 +83,7 @@
 			<td align="center" colspan="3"><a href="https://gitlab.com/nbartram/the-new-oil/-/wikis/Multifactor-Authentication-Criteria">Click here to see my criteria for selecting these services</a></td>
 		</tr>
 		<tr>
-			<td align="center" colspan="3"><a href="mfa-chart.html">Click here for a visual version of this chart</a></td>
+			<td align="center" colspan="3"><a href="mfa-chart_dark.html">Click here for a visual version of this chart</a></td>
 		</tr>
 		<tr>
 			<td align="center" colspan="3">Listed in alphabetical order, not order of recommendation</td>
@@ -92,7 +92,7 @@
 			<td align="center"><a href="https://getaegis.app/" target="_blank"><img src="pictures/aegis.png"><br>Aegis Authenticator</a></td>
 			<td>
 	<ul>
-			<li><a href="oss_dark.html">Open source</a>
+			<li><a href="oss.html">Open source</a>
 			<li>Offers backups
 			<li>The vault can be encrypted (optional)
 			<li>Available on <a href="https://f-droid.org/" target="_blank">F-Droid</a>
@@ -120,46 +120,19 @@
 			</td>
 		</tr>
 		<tr>
-			<td align="center"><a href="https://mattrubin.me/authenticator/" target="_blank"><img src="pictures/authenticator.png"><br>Authenticator</a></td>
+			<td align="center"><a href="https://github.com/raivo-otp/ios-application/blob/master/README.md" target="_blank"><img src="pictures/ravio.png"><br>Ravio OTP</a></td>
 			<td>
 	<ul>
-			<li><a href="oss_dark.html">Open source</a>
-			<li>Supports time-based and counter-based passwords
-	</ul>
-			</td>
-			<td>
-	<ul>
-			<li>iOS Only
-	</ul>
-			</td>
-		</tr>
-		<tr>
-			<td align="center"><a href="https://freeotp.github.io/" target="_blank"><img src="pictures/freeotp.png"><br>FreeOTP</a></td>
-			<td>
-	<ul>
-			<li><a href="oss_dark.html">Open source</a>
-			<li>Android and iOS
-			<li>OTP codes are hidden until the user clicks on them, adding a small layer of additional security
-			<li>Available on <a href="https://f-droid.org/" target="_blank">F-Droid</a>
-	</ul>
-			</td>
-			<td>
-	<ul>
-			<li>The program is sponsored and maintained by Red Hat, which was <a href="https://in.reuters.com/video/watch/idRCV005TP3" target="_blank">purchased by IBM</a>. Some users may be put off by corporate involvement.
-	</ul>
-			</td>
-		</tr>
-		<tr>
-			<td align="center"><a href="https://www.tofuauth.com/" target="_blank"><img src="pictures/tofu.png"><br>Tofu</a></td>
-			<td>
-	<ul>
-			<li><a href="oss_dark.html">Open source</a>
+			<li><a href="oss.html">Open source</a>
 			<li>Search function available to quickly and easily find desired OTP code
+			<li>Requires a login for added security
+			<li>Offers backups
 	</ul>
 			</td>
 			<td>
 	<ul>
 			<li>iOS only
+			<li>Login feature is mandatory
 	</ul>
 			</td>
 		</tr>
@@ -183,7 +156,7 @@
 <p>When you sign up for MFA, most sites will issue you backup codes. Be sure to write these down somewhere safe in case you lose your MFA device, it will save a lot of time and headache. I recommend saving them in the notes section of your <a href="passwords_dark.html">password manager</a>.</p>
 <p>Some password managers offer the ability to store your MFA key with a little extra work to make your login process easier and more centralized. This can be helpful if you're sharing accounts with someone (a family member, for example) or if you just want to rely on your phone less. However, be aware of the risk: by putting your password and two-factor code in the same place, you're creating a single point of failure. Make sure you're taking extra precautions if this is the path you decide to take.</p>
 <p>Many websites will explicitly list "Google Authenticator" as a two-factor option, but don't let this fool you. Any software authenticator app listed on this page (and many others) will work just fine.</p>
-<p>Some apps offer the ability to backup your two-factor database, sometimes even in the cloud. As someone who has lost their two-factor database before, I understand the appeal of this. But be aware of the risks. 1) Anything stored in the cloud has the risk of becoming exposed either through a data breach or a rogue employee if the service is not <a href="encryption_dark.html">zero-knowledge</a>. Do your research and make sure you've accepted this risk. 2) If the backup requires a password, be sure to use a <a href="passwords_dark.html">strong password</a>, or else it will be easily cracked as discussed in the "<a href="data_breaches_dark.html">Understanding Data Breaches</a>" section.</p>
+<p>Some apps offer the ability to backup your two-factor database in the cloud. As someone who has lost their two-factor database before, I understand the appeal of this. The apps I have listed here will offer the ability to make local backups, thereby reducing the risk of a data leak exposing your keys. I encourage you to make use of these backups, but protect them carefully.</p>
 <p>If using a hardware token, be sure to buy two copies and keep the second in a safe place as a backup in case the first one gets broken. Just as with regular backups, be sure to keep it regularly updated, too. It's not use to you if it's not configured with the sites you need to use it on when your primary device breaks.</p>
 <br>
 <div class="next" style="clear:both;"><a href="passwords_dark.html">Previous</a>
