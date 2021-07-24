@@ -1,3 +1,6 @@
+July 24, 2021
+- Removed ClearURLs from the Browser section as most of the functionality is now replaced by the new uBlock Origin updates (https://teddit.net/r/uBlockOrigin/comments/8jh3je/filter_updates/) and the remaining features are less important and therefore worth the fingerprinting protection IMO.
+
 July 22, 2021
 - Updated the Multifactor Authentication page (and charts) to reflect the new criteria for apps to allow backups. Added Ravio OTP for iOS as part of this.
 
