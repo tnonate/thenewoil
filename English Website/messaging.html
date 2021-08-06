@@ -1,90 +1,173 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>The New Oil</title>
   <meta charset="UTF-8">
   <meta name="description" content="Data is the new oil">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="light.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+  <link rel="stylesheet" type="text/css" href="dark.css" media="(prefers-color-scheme: dark)">
   <link rel="icon" href="pictures/favicon.ico" type="image/icon">
 </head>
 
 <body>
-<div class="flex-container">
-	<div class="header">
-     <img style="float:left;position:absolute;" src="pictures/header.jpg" alt="The New Oil logo">
-     <a href="messaging_dark.html" style="color:white;padding:50px;">Dark Mode</a>
-		<div class="nav">
-    <ul class="menu">
-	<input type="radio" name="menuopt" id="drop1" />
-        <label class="opener" for="drop1"><img src="pictures/menu.png"></label>
-        <label class="closer" for="dropclose"><img src="pictures/menu.png"></label>
-<ul class="navb">
+<header>
+     <img src="pictures/header.jpg" alt="The New Oil logo" style="display: block;margin-left: auto;margin-right:auto;">
+<details>
+<summary>
+<img src="pictures/menu.png" alt="Menu logo">
+</summary>
+<ul>
+<summary>
 <li><a href="about.html"><b>About</a></b></li>
+</summary>
+<summary>
 <li><a href="index.html">Home Page</a></li>
+</summary>
+<summary>
 <li><a href="intro.html">Introduction</a></li>
+</summary>
+<summary>
 <li><a href="threatmodel.html">Threat Modeling</a></li>
+</summary>
+<summary>
 <li><a href="surveillance.html">Understanding Surveillance</a></li>
-<li><a href="privsecanon.html">Security vs Privacy vs Anonymity</a></li>
+</summary>
+<summary>
+<li><a href="secprivanon.html">Security vs Privacy vs Anonymity</a></li>
+</summary>
+<summary>
 <li><a href="oss.html">Open Source vs Proprietary</a></li>
+</summary>
+<summary>
 <li><a href="communication.html">How Network Communication Works</a></li>
-<li><a href="most_important.html"><b>Most Important</b></a></li>
-<li><a href="most_important.html">Introduction</a></li>
-<li><a href="data_breaches.html">Understanding Data Breaches</a></li>
+</summary>
+<summary>
+<li><a href="most-important.html"><b>Most Important</b></a></li>
+</summary>
+<summary>
+<li><a href="most-important.html">Introduction</a></li>
+</summary>
+<summary>
+<li><a href="data-breaches.html">Understanding Data Breaches</a></li>
+</summary>
+<summary>
 <li><a href="passwords.html">Data Breach Defense: Strong Passwords</a></li>
+</summary>
+<summary>
 <li><a href="mfa.html">Data Breach Defense: Multifactor Authentication</a></li>
+</summary>
+<summary>
 <li><a href="payments.html">Data Breach Defense: Payment Masking</a></li>
+</summary>
+<summary>
 <li><a href="credit.html">Identity Theft: Freezing Your Credit</a></li>
+</summary>
+<summary>
 <li><a href="mobile.html">Securing Mobile</a></li>
-<li><a href="settings.html">Securing Mobile: Settings</a></li>
-<li><a href="apps.html">Securing Mobile: Replacement Apps</a></li>
+</summary>
+<summary>
+<li><a href="mobile-settings.html">Securing Mobile: Settings</a></li>
+</summary>
+<summary>
+<li><a href="mobile-apps.html">Securing Mobile: Replacement Apps</a></li>
+</summary>
+<summary>
 <li><a href="browser.html">Privacy: Securing Your Browser</a></li>
-<li><a href="moderately_important.html"><b>Moderately Important</b></a></li>
-<li><a href="moderately_important.html">Introduction</a></li>
+</summary>
+<summary>
+<li><a href="moderately-important.html"><b>Moderately Important</b></a></li>
+</summary>
+<summary>
+<li><a href="moderately-important.html">Introduction</a></li>
+</summary>
+<summary>
 <li><a href="metadata.html">Understanding Metadata</a></li>
+</summary>
+<summary>
 <li><a href="encryption.html">Understanding Encryption</a></li>
+</summary>
+<summary>
 <li><a href="devices.html">Protection: Device Encryption</a></li>
+</summary>
+<summary>
 <li><a href="backups.html">Protection: Backups</a></li>
-<li><a href="desktop.html">Privacy: Securing Desktop</a></li>
-<li><a href="messaging.html">Privacy: Encrypted Messaging</a></li>
-<li><a href="mobile2.html">Privacy: Mobile Habits</a></li>
+</summary>
+<summary>
+<li><a href="desktop-settings.html">Privacy: Securing Desktop</a></li>
+</summary>
+<summary>
+<li><a href="messaging.html">Privacy: Encrypted Texting/Calling</a></li>
+</summary>
+<summary>
+<li><a href="email.html">Privacy: Encrypted E-Mail</a></li>
+</summary>
+<summary>
+<li><a href="mobile-habits.html">Privacy: Mobile Habits</a></li>
+</summary>
+<summary>
 <li><a href="llc.html">Protection: Trusts, LLCs, and Public Data</a></li>
-<li><a href="less_important.html"><b>Less Important</b></a></li>
-<li><a href="less_important.html">Introduction</a></li>
+</summary>
+<summary>
+<li><a href="less-important.html"><b>Less Important</b></a></li>
+</summary>
+<summary>
+<li><a href="less-important.html">Introduction</a></li>
+</summary>
+<summary>
 <li><a href="voip.html">Protection: Voice-over-IP</a></li>
-<li><a href="email.html">Data Breach Defense: Email Masking</a></li>
+</summary>
+<summary>
+<li><a href="email-masking.html">Data Breach Defense: Email Masking</a></li>
+</summary>
+<summary>
 <li><a href="habits.html">Protection: Change Your Online Habits</a></li>
+</summary>
+<summary>
 <li><a href="disinformation.html">Protection: Disinformation</a></li>
+</summary>
+<summary>
 <li><a href="iot.html">Cybersecurity: The Internet of Things</a></li>
+</summary>
+<summary>
 <li><a href="vpns.html">Privacy: VPNs</a>
-<li><a href="final.html"><b>Final Thoughts</b></a></li>
+</summary>
+<summary>
 <li><a href="links.html"><b>Contact/Links</b></a></li>
-        <input type="radio" name="menuopt" id="dropclose" />
+</summary>
 </ul>
-</div>
-</div>
-<div class="main">
-<div class="content">
-<div class="h1">
+</details>
+</header>
+<main>
+<header>
 <h1 align="center">Privacy: Encrypted Messaging</h1>
-</div>
-<p>"Encrypted Messaging" is a bit of a misnomer. These days, all messages are encrypted (except SMS text messages), but the service provider (Google, Facebook, etc) has the keys to decrypt your messages and can read them if they want to or are ordered to by a warrant. In the context of this site, "Encrypted Messaging" refers to "End-to-End Encrypted" or "E2EE" Messaging.</p>
-<p><b>E2EE Messaging means messaging protocols that can only be read by the people involved in the message.</b> The messages are encrypted in between sender and receiver so spies and eavesdroppers can't read them, even the company hosting the service, the device manufacturer, or cell service provider. <b>In this section I'm going to break up encrypted messaging into two subsections: instant messaging, and email.</b></p>
-<div class="h2">
-<h3>Encrypted Instant Messaging</h3>
-</div>
-<p>Encrypted instant messaging is meant to replace regular SMS to provide you and the people you're talking to with a secure, real-time communication method. <b>Why protect your day-to-day texts?</b> Regular SMS text messages can be read by anyone who intercepts them at any point along their journey, even amateurs. Even private messaging services like Facebook and Snapchat can be read by employees of the company.</p>
-<p>There's also horrifying devices known as <a href="https://arstechnica.com/information-technology/2015/10/low-cost-imsi-catcher-for-4glte-networks-track-phones-precise-locations/" target="_blank">IMSI-catchers</a>, or "Stingrays" after the leading manufacturer. In the US, these devices are on the rise and increasingly popular with law enforcement agencies and criminals all over the country. These are small, mobile devices that emulate cell towers and - without knowledge or consent from the user - capture the content of your phone calls and text messages if you are in range, even if you're not the target of them. This can include sensitive information, which the police are not obligated to discard even if it is irrelevant to their investigation. These devices can be easily and legally purchased by anyone with a few hundred dollars.</p>
-<p>Furthermore, in late 2018 <a href="https://www.theverge.com/2018/12/12/18137795/fcc-text-message-rule-classification-spam" target="_blank">the FCC gave cell carriers new powers</a> in an effort to curb spam and robo calls, and the poor wording of the law allows carriers to block or alter messages entirely at will.</p>
-<p>When deciding on an encrypted messaging service, <b>the most important thing is to make sure the person you're contacting is using the same service as you</b>. These services only work if both parties are using the same encryption system.</p>
-<p><strong>Note:</strong> Avoid WhatsApp. WhatsApp is owned by Facebook, who is a notorious enemy of privacy, and <a href="https://www.forbes.com/sites/thomasbrewster/2017/01/22/whatsapp-facebook-backdoor-government-data-request/#3be52f0c1030" target="_blank">collects metadata</a>, which is often more revealing than the content itself. Telegram - another popular messenger - is better than WhatsApp, but still has several serious shorcomings such as no metadata resistance, no decentralization, and no encryption by default (and no ability to encrypt group chats at all). I would recommend Telegram over WhatsApp, but I would recommend any of these below over Telegram.</p>
+</header>
+<header>
+<h3>What is Encrypted Messaging?</h3>
+</header>
+<p><b>End-to-end encrytion (E2EE) is a form of communication where the messages are encrypted in such a way that only the people involved in the conversation can read them.</b> See <a href="encryption.html">Understanding Encryption</a> for more information on this.</p>
+<header>
+<h3>Why do I Need Encrypted Messaging?</h3>
+</header>
+<p>These days, all messages are encrypted (except SMS text messages), but the service provider (Google, Facebook, etc) has the keys to decrypt your messages and can read them if they want to or are ordered to by a warrant. This means that a company can scan your messages to <a href=https://twitter.com/chrismlacy/status/1409727836093513729">insert unwelcome ads</a> or <<a href="https://www.theverge.com/2018/12/12/18137795/fcc-text-message-rule-classification-spam">alter or block the message entirely</a>, or that a <a href="https://www.engadget.com/shopify-data-breach-035811917.html">rogue employee</a> can steal the images and information you transmit. E2EE Messaging makes this impossible.</p>
+<header>
+<h3>What Should I Look For in an Encrypted Messenger?</h3>
+</header>
+<p><b>The most important thing is to make sure the person you're contacting is using the same service as you</b>. These services only work if both parties are using the same encryption system. When making your decision, you should consider if any of your contacts are already widely using an encrypted messenger. If none of your contacts are using an encrypted messenger or if you think there's room for improvement, consider one from the list below.</p>
+<header style="background:red;">
+<h3>Avoid The Following</h3>
+</header>
+<p><b>WhatsApp</b> is owned by Facebook, who is a notorious enemy of privacy, and collects <a href="metadata.html">metadata</a>. (<a href="https://www.forbes.com/sites/thomasbrewster/2017/01/22/whatsapp-facebook-backdoor-government-data-request/#3be52f0c1030">Source</a>)</p>
+<p><b>Telegram</b> is better than WhatsApp, but still has several serious shorcomings such as collecting metadata, centralization, and no encryption by default (and no ability to encrypt group chats at all). Use Telegram with caution</p>
 <table border="1" align="center" class="responsive">
 <tbody>
+	<thead>
 		<tr>
-			<td align="center" class="thead">Product/Service</td>
-			<td align="center" class="thead">Pros</td>
-			<td align="center" class="thead">Cons</td>
+			<td align="center">Product/Service</td>
+			<td align="center">Pros</td>
+			<td align="center">Cons</td>
 		</tr>
+	</thead>
 		<tr>
 			<td align="center" colspan="3"><a href="https://gitlab.com/nbartram/the-new-oil/-/wikis/Encrypted-Messaging-Criteria">Click here to see my criteria for selecting these services</a></td>
 		</tr>
@@ -95,270 +178,141 @@
 			<td align="center" colspan="3">Listed in alphabetical order, not order of recommendation</td>
 		</tr>
 		<tr>
-			<td align="center"><a href="https://jami.net/" target="_blank"><img src="pictures/jami.png"><br>Jami</a></td>
+			<td align="center"><a href="https://jami.net/"><img src="pictures/jami.png" class="invert"><br>Jami</a></td>
 			<td>
 	<ul>
-			<li><a href="oss.html">Open source</a>
-			<li>Completely Free
 			<li>Available on Debian, Mac, Windows, Android, and iOS.
-			<li>Does not require any personally identifiable information to sign up, allowing for anonymous accounts
 			<li>Peer-to-peer
+			<li>Username-based
+			<li>Anonymous
 	</ul>
 			</td>
 			<td>
 	<ul>
-			<li>Not <a href="https://en.wikipedia.org/wiki/Software_audit_review" target="_blank">audited</a>
-			<li>Does not automatically attempt to hide or resist metadata
+			<li>Not audited
+			<li>Not metadata resistant
 	</ul>
 		</tr>
 
 		<tr>
-			<td align="center"><a href="https://matrix.org/" target="_blank"><img src="pictures/matrix.png"><br>Matrix</a></td>
+			<td align="center"><a href="https://matrix.org/"><img src="pictures/matrix.png" class="invert"><br>Matrix</a></td>
 			<td>
 	<ul>
-			<li><a href="oss.html">Open source</a>
-			<li>Completely Free
 			<li>Available on Debian, Mac, Windows, Android, and iOS.
-			<li>Can be bridged to communicate with other services such as Slack, Telegram, Signal, Discord, Facebook, and more.
-			<li>Does not require any personally identifiable information to sign up, allowing for anonymous accounts
 			<li>Decentralized
+			<li>Username-based
+			<li>Anonymous
 			<li>Can be self-hosted
-			<li>Popular clients include <a href="https://element.io/" target="_blank">Element</a>, <a href="https://fluffychat.im/" target="_blank">FluffyChat</a>, and <a href="https://schildi.chat/" target="_blank">SchildiChat</a>.
+			<li>Can be bridged to communicate with other services such as Slack, Telegram, Signal, Discord, Facebook, and more.
+			<li>Popular clients include <a href="https://element.io/">Element</a>, <a href="https://fluffychat.im/">FluffyChat</a>, and <a href="https://schildi.chat/">SchildiChat</a>.
 	</ul>
 			</td>
 			<td>
 	<ul>
-			<li>Not <a href="https://en.wikipedia.org/wiki/Software_audit_review" target="_blank">audited</a>
-			<li>Does not automatically attempt to hide or resist metadata
+			<li>Not audited
+			<li>Not metadata resistant
 	</ul>
 		</tr>
 		<tr>
-			<td align="center"><a href="https://getsession.org/" target="_blank"><img src="pictures/session.png"><br>Session</a></td>
+			<td align="center"><a href="https://getsession.org/"><img src="pictures/session.png" class="invert"><br>Session</a></td>
 			<td>
 	<ul>
-			<li><a href="oss.html">Open source</a>
-			<li><a href="https://en.wikipedia.org/wiki/Software_audit_review" target="_blank">audited</a>
-			<li>Completely Free
+			<li><a href="https://getsession.org/session-code-audit/">Audited</a>
 			<li>Available on Debian, Mac, Windows, Android, and iOS.
-			<li>Sign-up is completely anonymous
-			<li>Designed to be metadata resistant
 			<li>Decentralized
+			<li>Username-based
+			<li>Metadata resistant
+			<li>Anonymous
 	</ul>
 			</td>
 			<td>
 	<ul>
-			<li>Very early project, still under active development so expect some bugs and glitches
+			<li>In beta, some instability still present
+			<li>No voice or video calling at this time
 			<li>Recently removed multi-device support until they can work out more bugs.
-			<li><a href="https://nitter.net/WPalant/status/1281540005190672384" target="_blank">Allegations have been made of the developer's connection to and active support of the alt-right community.</a>
+			<li><a href="https://twitter.com/WPalant/status/1281540005190672384">Allegations have been made of the developer's connection to and active support of the alt-right community.</a>
 	</ul>
 		</tr>
 		<tr>
-			<td align="center"><a href="https://signal.org/" target="_blank"><img src="pictures/signal.png"><br>Signal</a></td>
+			<td align="center"><a href="https://signal.org/"><img src="pictures/signal.png"><br>Signal</a></td>
 			<td>
 	<ul>
-			<li><a href="oss.html">Open source</a>
-			<li>Completely Free
+			<li><a href="https://community.signalusers.org/t/wiki-overview-of-third-party-security-audits/13243">Audited</a>
 			<li>Available on Debian, Mac, Windows, Android, and iOS.
-			<li>Incredibly easy to set up
-			<li><a href="https://en.wikipedia.org/wiki/Software_audit_review" target="_blank">Audited</a>
 			<li>Does not log metadata
 	</ul>
 			</td>
 			<td>
 	<ul>
-			<li>Uses phone number as a username
-			<li>Based in the <a href="https://en.wikipedia.org/wiki/Five_Eyes" target="_blank">United States</a>
+			<li>Based in the <a href="https://en.wikipedia.org/wiki/Five_Eyes">United States</a>
 			<li>Centralized
-			<li>Signal has come under fire recently for a number of <a href="https://github.com/privacytools/privacytools.io/issues/779" target="_blank">ethically questionable business practices</a>
-			<li><a href="https://linuxreviews.org/Signal_Just_Made_One_Years_Worth_Of_Server-Side_Source_Code_Available_In_One_Huge_Dump" target="_blank">Server source code went almost a year without a public update with no explanation</a>
+			<li>Phone number required
+			<li>Signal has come under fire recently for a number of <a href="https://github.com/privacytools/privacytools.io/issues/779">ethically questionable business practices</a>
+			<li><a href="https://linuxreviews.org/Signal_Just_Made_One_Years_Worth_Of_Server-Side_Source_Code_Available_In_One_Huge_Dump">Server source code went almost a year without a public update with no explanation</a>
 	</ul>
 		</tr>
 		<tr>
-			<td align="center"><a href="https://threema.ch/" target="_blank"><img src="pictures/threema.png"><br>Threema</a></td>
+			<td align="center"><a href="https://threema.ch/"><img src="pictures/threema.png" class="invert"><br>Threema</a></td>
 			<td>
 	<ul>
-			<li><a href="oss.html">Open source</a>
-			<li>Available on Android, and iOS.
-			<li><a href="https://en.wikipedia.org/wiki/Software_audit_review" target="_blank">Audited</a>
+			<li><a href="https://threema.ch/en/blog/posts/audit-2020-en">Audited</a>
+			<li>Available on Android, and iOS
+			<li>Based in the <a href="https://en.wikipedia.org/wiki/Five_Eyes">Switzerland</a>
 			<li>Username-based
-			<li>Based in the <a href="https://en.wikipedia.org/wiki/Five_Eyes" target="_blank">Switzerland</a>
 	</ul>
 			</td>
 			<td>
 	<ul>
 			<li>Centralized
-			<li>No free tier
+			<li>Not free
 			<li>No desktop app, web only
 	</ul>
 		</tr>
 		<tr>
-			<td align="center"><a href="https://wire.com/" target="_blank"><img src="pictures/wire.png"><br>Wire</a></td>
+			<td align="center"><a href="https://wire.com/"><img src="pictures/wire.png"><br>Wire</a></td>
 			<td>
 	<ul>
-			<li><a href="oss.html">Open source</a>
-			<li><a href="https://en.wikipedia.org/wiki/Software_audit_review" target="_blank">Audited</a>
-			<li>Supports usernames, allowing you to not reveal your phone number to others
+			<li><a href="https://wire.com/en/security/#audits">Audited</a>
 			<li>Available on Debian, Mac, Windows, Android, and iOS.
+			<li>Username-based
 	</ul>
 			</td>
 			<td>
 	<ul>
-			<li>Based in the <a href="https://en.wikipedia.org/wiki/Five_Eyes" target="_blank">United States</a>
+			<li>Based in the <a href="https://en.wikipedia.org/wiki/Five_Eyes">United States</a>
 			<li>Centralized
-			<li>Stores a limited amount of metadata to fight fraud
-			<li>Has been known to <a href="https://blog.privacytools.io/delisting-wire/" target="_blank">change the terms of service without notifying users</a>.
+			<li>Collects some metadata
+			<li>Has been known to <a href="https://blog.privacytools.io/delisting-wire/">change the terms of service without notifying users</a>.
 			</td>
 		</tr>
 
 		<tr>
-			<td align="center"><a href="https://xmpp.org/" target="_blank"><img src="pictures/xmpp.png"><br>XMPP</a></td>
+			<td align="center"><a href="https://xmpp.org/"><img src="pictures/xmpp.png"><br>XMPP</a></td>
 			<td>
 	<ul>
-			<li><a href="oss.html">Open source</a>
-			<li>Supports usernames, allowing you to not reveal your phone number to others
 			<li>Available on Debian, Mac, Windows, Android, and iOS.
 			<li>Decentralized
-			<li>Popular clients include <a href="https://play.google.com/store/apps/details?id=eu.siacs.conversations" target="_blank">Conversations</a>, <a href="https://dino.im/" target="_blank">Dino</a>, and <a href="https://monal.im/" target="_blank">Monal</a>.
+			<li>Username-based
+			<li>Popular clients include <a href="https://play.google.com/store/apps/details?id=eu.siacs.conversations">Conversations</a>, and <a href="https://monal.im/">Monal</a>.
 	</ul>
 			</td>
 			<td>
 	<ul>
-			<li>Does not support phone or video calls in most cases
-			<li>Not as user friendly as any of the other solutions on this list
-			<li>Does not automatically attempt to hide or resist metadata
+			<li>Not audited
+			<li>Not metadata resistant
+			<li>Does not support phone or video calls in most servers
 			</td>
 		</tr>
 </tbody>
 </table>
-<div class="h2">
-<h3>Encrypted Email</h3>
-</div>
-<p><b>Why encrypt your inbox, especially since most other people don't?</b> Email providers like Google, Yahoo, and others <a href="https://www.maketecheasier.com/which-email-providers-scanning-emails/" target="_blank">regularly read your emails</a> for a variety of purposes such as advertising and training their AI. The fact that these communications are readable by employees (even if only certain ones) means that <a href="https://thehackernews.com/2019/10/yahoo-email-hacking.html" target="_blank">any sensitive information is not safe</a> and can be potentially stolen.</p>
-<p>In the United States, <a href="https://www.propublica.org/article/no-warrant-no-problem-how-the-government-can-still-get-your-digital-data" target="_blank">police do not need a warrant to access emails older than six months</a>. The fact that they can access these emails without your knowledge or consent means a hacker could, too. Even if the people you contact aren't using encryption, it's a reduction (not elimination) of risk to have your inbox encrypted in the way an encrypted email provider offers. If your inbox gets caught up in a data breach, an encrypted inbox will still be protected.</p>
-<p><b>The most important thing to consider when deciding on an encrypted email provider is to make sure the provider promises "zero knowledge" or "end to end encryption."</b> This means that the provider can't read your emails even if they want to without you giving them technical access.</p>
-<p>Make sure to see how the provider makes money. Running an email server is expensive and requires great technical knowledge. "If a product is free, you are the product." Make sure the company has a viable business plan or else assume they are likely selling your data, which compromises your privacy and security.</p>
-<p>If you want to take full advantage of encrypted email services, <b>be sure to pick a provider that is also being used by the people you email regularly</b>. Having an encrypted inbox can prevent warrantless searches and data breaches, but once the email leaves your inbox it will be decrypted. If you want the email to be encrypted from start to finish, you'll need to both be using the same service or protocol.</p>
-<table border="1" align="center" class="responsive">
-<tbody>
-		<tr>
-			<td align="center" class="thead">Product/Service</td>
-			<td align="center" class="thead">Pros</td>
-			<td align="center" class="thead">Cons</td>
-		</tr>
-		<tr>
-			<td align="center" colspan="3"><a href="https://gitlab.com/nbartram/the-new-oil/-/wikis/Encrypted-Messaging-Criteria">Click here to see my criteria for selecting these services</a></td>
-		</tr>
-		<tr>
-			<td align="center" colspan="3"><a href="messaging-chart.html">Click here for a visual version of this chart</a></td>
-		</tr>
-		<tr>
-			<td align="center" colspan="3">Listed in alphabetical order, not order of recommendation</td>
-		</tr>
-		<tr>
-			<td align="center"><a href="https://criptext.com/" target="_blank"><img src="pictures/criptext.png"><br>Criptext</a></td>
-			<td>
-	<ul>
-			<li><a href="oss.html">Open source</a>
-			<li>Uses the Signal Protocol
-			<li>Free
-			<li>Available on Debian, Mac, Windows, Android, and iOS.
-	</ul>
-			</td>
-			<td>
-	<ul>
-			<li>Does not work with PGP
-			<li>Does not offer a way to start secure communications with non-Criptext users
-			<li>Still in beta
-			<li>Based in <a href="https://en.wikipedia.org/wiki/Five_Eyes" target="_blank">The United States</a>
-			<li>Not <a href="https://en.wikipedia.org/wiki/Software_audit_review" target="_blank">audited</a>
-	</ul>
-			</td>
-		</tr>
-		<tr>
-			<td align="center"><a href="https://ctemplar.com/" target="_blank"><img src="pictures/ctemplar.png"><br>CTemplar</a></td>
-			<td>
-	<ul>
-			<li><a href="oss.html">Open source</a>
-			<li>Works with PGP
-			<li>Based in <a href="https://en.wikipedia.org/wiki/Five_Eyes" target="_blank">Iceland</a>
-			<li>Anonymous sign-up
-			<li>Anonymous payments
-			<li><a href="https://en.wikipedia.org/wiki/Software_audit_review" target="_blank">Audited</a>
-			<li>Offers a free tier
-			<li>Available on Debian, Mac, Windows, Android, and iOS.
-	</ul>
-			</td>
-			<td>
-	<ul>
-	</ul>
-			</td>
-		</tr>
-		<tr>
-			<td align="center"><a href="https://go.getproton.me/aff_c?offer_id=15&aff_id=2187" target="_blank"><img src="pictures/protonmail.png"><br>ProtonMail</a><br>(<a href="https://protonmail.com/" target="_blank">Non-Affiliate Link</a>)</td>
-			<td>
-	<ul>
-			<li><a href="oss.html">Open source</a>
-			<li>Offers a free tier
-			<li>Includes a free-tier VPN account
-			<li>Based on PGP (you can securely email other providers as long as the recipient is using PGP)
-			<li>Based in <a href="https://en.wikipedia.org/wiki/Five_Eyes#Further_intelligence_sharing_collaborations" target="_blank">Switzerland</a>
-			<li>Offers a way to start secure communication with non-Proton users
-			<li><a href="https://protonmail.com/blog/security-audit/" target="_blank">Audited</a>
-			<li>Available on Android and iOS.
-	</ul>
-			</td>
-			<td>
-	<ul>
-			<li>No desktop app, web or third-party email client only.
-	</ul>
-			</td>
-		</tr>
-		<tr>
-			<td align="center"><a href="https://www.tutanota.com/" target="_blank"><img src="pictures/tutanota.png"><br>Tutanota</a></td>
-			<td>
-	<ul>
-			<li><a href="oss.html">Open source</a>
-			<li>Offers a free tier
-			<li>Offers a way to start secure communication with non-Tutanota users
-			<li>Available on Debian, Mac, Windows, Android, and iOS.
-	</ul>
-			</td>
-			<td>
-	<ul>
-			<li>Does not work with PGP
-			<li>Based in <a href="https://en.wikipedia.org/wiki/Five_Eyes#Fourteen_Eyes" target="_blank">Germany</a>
-			<li><a href="https://www.msn.com/en-us/news/technology/german-secure-email-provider-tutanota-forced-to-monitor-an-account-after-regional-court-ruling/ar-BB1bJDxx" target="_blank">Currently being forced by German courts to monitor communications</a>, which can result in metadata being logged between users and content between non-users. Tutanota is fighting this, court case ongoing.
-	</ul>
-			</td>
-		</tr>
-</tbody>
-</table>
-<div class="h2">
-<h3>Honorable Mention: PGP</h3>
-</div>
-<p>Finally, I want to take a moment to give an honorable mention to PGP and explain how you can use it yourself.
-<b>PGP stands for <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy" target="_blank">Pretty Good Privacy</a> and is an open-source encryption program.</b> Generally speaking, it is most commonly used for encrypted email but it can actually be used to encrypt just about anything.</p>
-<p>Explaining how PGP works is actually much more complicated than actually using it. It's one of those things that sounds complicated but it's really not. When you use any type of encryption, including PGP, it creates two keys. One is called the “private key” and one is called the “public key.” The private key is private: it stays with you. Never share it, keep it safe. Maybe create a backup of it somewhere safe. The public key, on the other hand, can be spread around as much as you want. The more the better.</p>
-<p>Think of the public key as your address and the private key as your door key. The more people you give your address to, the more people can write you. But only you can unlock the door and enter the house where you have some privacy. So when you set up PGP on an email account, you'll be given your two keys. You spread the public key to anyone who wants it so they can initiate a private email chain with you, and you keep the private key somewhere safe. It sounds complicated, but it's really not. There's tons of programs and plugins that handle this process for you.</p>
-<p>I don’t think you should stick with your current Gmail or Yahoo Mail <a href="https://money.cnn.com/2017/10/03/technology/business/yahoo-breach-3-billion-accounts/index.html" target="_blank">for lots of reasons</a>. A major advantage to using an encrypted email provider is that even in your inbox, the emails are encrypted. This means they’re safe from data breaches or warrantless police surveillance. However, I get it. <b>If you want to use PGP with your existing email provider, there’s two relatively easy ways to do it.</b></p>
-<p>The first is a browser plugin called <a href="https://www.mailvelope.com/en" target="_blank">Mailvelope</a>. <b>For most people, this will be the best solution.</b> If you’re the type of person who goes to “gmail.com” to check your email, this is the solution you’ll want. You simply add it to your browser as a plugin, it generates all your various keys, and you simply use it whenever you want to encrypt, decrypt, or sign an email. <b>The second option is if you’re a mail-client type of person – aka Outlook.</b> If this is your preferred method of accessing your email, then consider switching to <a href="https://www.thunderbird.net/" target="_blank">Thunderbird</a>. This open-source mail client recently updated to ship stock with <a href="https://www.enigmail.net/index.php/en/" target="_blank">Enigmail</a>, an email plugin that enables PGP. Just like Mailvelope, you’ll have lots of options to encrypt, sign, or decrypt messages on an as-needed basis.</p>
-<div class="h2">
-<h3>Getting Started</h3>
-</div>
-<p><b>Encrypted instant messaging is probably the easiest one to get started with</b>. Sign up with the service of your choosing then invite your friends. In my experience, I've had a lot of success getting my friends to switch with a humble, no-ultimatum plea. "Hey, I've decided I want to start improving my privacy and security. I don't like Verizon/Sprint/Whoever reading my messages so I'd like to switch to Signal. I'd really appreciate it if you did, too, when talking to me. I'd even be happy to help you set it up." In my experience, most people are willing to humor you when you frame it that way. I don't recommend being obnoxious. Don't say "Switch to Signal or I'm gonna stop talking to you." Don't expect strangers to jump through hoops either. I've seen people who tell potential dates that they will only talk via PGP-encrypted messaging and then wonder why they can't get laid. Learn to pick your battles and how to kindly ask people to respect your wishes for more privacy.</p>
-<p><b>Encrypted email is simultaneously easier and harder to get started with. It's easier because you don't have to convince anyone else to join you</b> (though I think you should, everyone should care about their privacy). It's harder because to do it effectively requires you to change all your email addresses manually. Just like with <a href="passwords.html">using strong passwords</a> and <a href="mfa.html">multifactor authentication</a>, I recommend changing emails as you use a service. Next time you check your bank account, update your email. Next time you login to social media, change your email. I also encourage you to go to your old email and setup email forwarding to your new account, that way in case you overlook any accounts you'll still get the email and be reminded to update them.</p>
-<div class="h2">
+<header>
 <h3>Tips & Tricks</h3>
-</div>
-<p><b>Never assume an email is secure.</b> Email was never designed to be a secure communication method, and even with PGP or other encryption protocols you can never guarantee that an email won't be screenshotted, printed, or otherwise shared with unauthorized people. Never put anything in writing you wouldn't be willing to have publicly displayed.</p>
-<p><b>For high-risk individuals, the jurisdiction of the provider (aka "what country they're based out of") is important.</b> Jurisdiction determines what laws they follow and who can issue legal orders. For example, see <a href="https://en.wikipedia.org/wiki/Lavabit#Suspension_and_gag_order" target="_blank">the story of Lavabit in 2013</a>. Lavabit chose to shut down rather than betray its users, but the next company may not be so ethical. For most users this is highly unlikely, but always keep a backup and never submit anything life-threatening over email anyways.</p>
-<p>Some additional resources for deciding which secure messaging is right for you could include <a href="https://www.securemessagingapps.com/" target="_blank">the Secure Messaging Apps Comparison</a> and <a href="https://www.messenger-matrix.de/messenger-matrix-en.html" target="_blank">this chart</a>. These are visual comparison charts that might help you decide what services are best for you.</p>
-<br>
-<div class="next" style="clear:both;"><a href="desktop.html">Previous</a>
-<a style="float:right;" href="mobile2.html">Next</a>
-</div>
-</div>
-</div>
-</div>
+</header>
+<p><b>For high-risk individuals, the jurisdiction of the provider is important.</b> Jurisdiction determines what laws they follow and who can issue legal orders.</p>
+<p>Some additional resources for deciding which secure messaging is right for you could include <a href="https://www.securemessagingapps.com/">the Secure Messaging Apps Comparison</a> and <a href="https://www.messenger-matrix.de/messenger-matrix-en.html">this chart</a>.</p>
+<footer><a href="desktop-settings.html">Previous</a>
+<a style="float:right;" href="email.html">Next</a>
+</footer>
+</main>
 </body>
 </html>
