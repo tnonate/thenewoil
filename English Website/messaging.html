@@ -5,8 +5,7 @@
   <meta charset="UTF-8">
   <meta name="description" content="Data is the new oil">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="light.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
-  <link rel="stylesheet" type="text/css" href="dark.css" media="(prefers-color-scheme: dark)">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="icon" href="pictures/favicon.ico" type="image/icon">
 </head>
 
@@ -14,149 +13,70 @@
 <header>
      <img src="pictures/header.jpg" alt="The New Oil logo" style="display: block;margin-left: auto;margin-right:auto;">
 <details>
-<summary>
-<img src="pictures/menu.png" alt="Menu logo">
-</summary>
+<summary><img src="pictures/menu.png" alt="Menu logo"></summary>
 <ul>
-<summary>
 <li><a href="about.html"><b>About</a></b></li>
-</summary>
-<summary>
 <li><a href="index.html">Home Page</a></li>
-</summary>
-<summary>
 <li><a href="intro.html">Introduction</a></li>
-</summary>
-<summary>
 <li><a href="threatmodel.html">Threat Modeling</a></li>
-</summary>
-<summary>
 <li><a href="surveillance.html">Understanding Surveillance</a></li>
-</summary>
-<summary>
 <li><a href="secprivanon.html">Security vs Privacy vs Anonymity</a></li>
-</summary>
-<summary>
 <li><a href="oss.html">Open Source vs Proprietary</a></li>
-</summary>
-<summary>
 <li><a href="communication.html">How Network Communication Works</a></li>
-</summary>
-<summary>
 <li><a href="most-important.html"><b>Most Important</b></a></li>
-</summary>
-<summary>
 <li><a href="most-important.html">Introduction</a></li>
-</summary>
-<summary>
 <li><a href="data-breaches.html">Understanding Data Breaches</a></li>
-</summary>
-<summary>
 <li><a href="passwords.html">Data Breach Defense: Strong Passwords</a></li>
-</summary>
-<summary>
 <li><a href="mfa.html">Data Breach Defense: Multifactor Authentication</a></li>
-</summary>
-<summary>
 <li><a href="payments.html">Data Breach Defense: Payment Masking</a></li>
-</summary>
-<summary>
 <li><a href="credit.html">Identity Theft: Freezing Your Credit</a></li>
-</summary>
-<summary>
 <li><a href="mobile.html">Securing Mobile</a></li>
-</summary>
-<summary>
 <li><a href="mobile-settings.html">Securing Mobile: Settings</a></li>
-</summary>
-<summary>
 <li><a href="mobile-apps.html">Securing Mobile: Replacement Apps</a></li>
-</summary>
-<summary>
 <li><a href="browser.html">Privacy: Securing Your Browser</a></li>
-</summary>
-<summary>
 <li><a href="moderately-important.html"><b>Moderately Important</b></a></li>
-</summary>
-<summary>
 <li><a href="moderately-important.html">Introduction</a></li>
-</summary>
-<summary>
 <li><a href="metadata.html">Understanding Metadata</a></li>
-</summary>
-<summary>
 <li><a href="encryption.html">Understanding Encryption</a></li>
-</summary>
-<summary>
 <li><a href="devices.html">Protection: Device Encryption</a></li>
-</summary>
-<summary>
 <li><a href="backups.html">Protection: Backups</a></li>
-</summary>
-<summary>
 <li><a href="desktop-settings.html">Privacy: Securing Desktop</a></li>
-</summary>
-<summary>
 <li><a href="messaging.html">Privacy: Encrypted Texting/Calling</a></li>
-</summary>
-<summary>
 <li><a href="email.html">Privacy: Encrypted E-Mail</a></li>
-</summary>
-<summary>
 <li><a href="mobile-habits.html">Privacy: Mobile Habits</a></li>
-</summary>
-<summary>
 <li><a href="llc.html">Protection: Trusts, LLCs, and Public Data</a></li>
-</summary>
-<summary>
 <li><a href="less-important.html"><b>Less Important</b></a></li>
-</summary>
-<summary>
 <li><a href="less-important.html">Introduction</a></li>
-</summary>
-<summary>
 <li><a href="voip.html">Protection: Voice-over-IP</a></li>
-</summary>
-<summary>
 <li><a href="email-masking.html">Data Breach Defense: Email Masking</a></li>
-</summary>
-<summary>
 <li><a href="habits.html">Protection: Change Your Online Habits</a></li>
-</summary>
-<summary>
 <li><a href="disinformation.html">Protection: Disinformation</a></li>
-</summary>
-<summary>
 <li><a href="iot.html">Cybersecurity: The Internet of Things</a></li>
-</summary>
-<summary>
 <li><a href="vpns.html">Privacy: VPNs</a>
-</summary>
-<summary>
 <li><a href="links.html"><b>Contact/Links</b></a></li>
-</summary>
 </ul>
 </details>
 </header>
 <main>
-<header>
+<article>
+<div class="subheader">
 <h1 align="center">Privacy: Encrypted Messaging</h1>
-</header>
-<header>
+</div>
+<div class="subheader">
 <h3>What is Encrypted Messaging?</h3>
-</header>
+</div>
 <p><b>End-to-end encrytion (E2EE) is a form of communication where the messages are encrypted in such a way that only the people involved in the conversation can read them.</b> See <a href="encryption.html">Understanding Encryption</a> for more information on this.</p>
-<header>
+<div class="subheader">
 <h3>Why do I Need Encrypted Messaging?</h3>
-</header>
-<p>These days, all messages are encrypted (except SMS text messages), but the service provider (Google, Facebook, etc) has the keys to decrypt your messages and can read them if they want to or are ordered to by a warrant. This means that a company can scan your messages to <a href=https://twitter.com/chrismlacy/status/1409727836093513729">insert unwelcome ads</a> or <<a href="https://www.theverge.com/2018/12/12/18137795/fcc-text-message-rule-classification-spam">alter or block the message entirely</a>, or that a <a href="https://www.engadget.com/shopify-data-breach-035811917.html">rogue employee</a> can steal the images and information you transmit. E2EE Messaging makes this impossible.</p>
-<header>
+</div>
+<p>These days, all messages are encrypted (except SMS text messages), but the service provider (Google, Facebook, etc) has the keys to decrypt your messages and can read them if they want to or are ordered to by a warrant. This means that a company can scan your messages to <a href=https://twitter.com/chrismlacy/status/1409727836093513729">insert unwelcome ads</a> or <<a href="https://www.theverge.com/2018/12/12/18137795/fcc-text-message-rule-classification-spam">alter or block</a> messages entirely, or that a <a href="https://www.engadget.com/shopify-data-breach-035811917.html">rogue employee</a> can steal the images and information you transmit. E2EE Messaging makes this impossible.</p>
+<div class="subheader">
 <h3>What Should I Look For in an Encrypted Messenger?</h3>
-</header>
+</div>
 <p><b>The most important thing is to make sure the person you're contacting is using the same service as you</b>. These services only work if both parties are using the same encryption system. When making your decision, you should consider if any of your contacts are already widely using an encrypted messenger. If none of your contacts are using an encrypted messenger or if you think there's room for improvement, consider one from the list below.</p>
-<header style="background:red;">
+<div class="subheader" style="background:red;">
 <h3>Avoid The Following</h3>
-</header>
+</div>
 <p><b>WhatsApp</b> is owned by Facebook, who is a notorious enemy of privacy, and collects <a href="metadata.html">metadata</a>. (<a href="https://www.forbes.com/sites/thomasbrewster/2017/01/22/whatsapp-facebook-backdoor-government-data-request/#3be52f0c1030">Source</a>)</p>
 <p><b>Telegram</b> is better than WhatsApp, but still has several serious shorcomings such as collecting metadata, centralization, and no encryption by default (and no ability to encrypt group chats at all). Use Telegram with caution</p>
 <table border="1" align="center" class="responsive">
@@ -305,14 +225,15 @@
 		</tr>
 </tbody>
 </table>
-<header>
+<div class="subheader">
 <h3>Tips & Tricks</h3>
-</header>
+</div>
 <p><b>For high-risk individuals, the jurisdiction of the provider is important.</b> Jurisdiction determines what laws they follow and who can issue legal orders.</p>
-<p>Some additional resources for deciding which secure messaging is right for you could include <a href="https://www.securemessagingapps.com/">the Secure Messaging Apps Comparison</a> and <a href="https://www.messenger-matrix.de/messenger-matrix-en.html">this chart</a>.</p>
+<p>Some additional resources for deciding which secure messaging is right for you could include the <a href="https://www.securemessagingapps.com/">Secure Messaging Apps Comparison Chart</a> and <a href="https://www.messenger-matrix.de/messenger-matrix-en.html">this chart</a>.</p>
+</article>
+</main>
 <footer><a href="desktop-settings.html">Previous</a>
 <a style="float:right;" href="email.html">Next</a>
 </footer>
-</main>
 </body>
 </html>
