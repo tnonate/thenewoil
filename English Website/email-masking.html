@@ -5,8 +5,7 @@
   <meta charset="UTF-8">
   <meta name="description" content="Data is the new oil">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="light.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
-  <link rel="stylesheet" type="text/css" href="dark.css" media="(prefers-color-scheme: dark)">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="icon" href="pictures/favicon.ico" type="image/icon">
 </head>
 
@@ -14,141 +13,62 @@
 <header>
      <img src="pictures/header.jpg" alt="The New Oil logo" style="display: block;margin-left: auto;margin-right:auto;">
 <details>
-<summary>
-<img src="pictures/menu.png" alt="Menu logo">
-</summary>
+<summary><img src="pictures/menu.png" alt="Menu logo"></summary>
 <ul>
-<summary>
 <li><a href="about.html"><b>About</a></b></li>
-</summary>
-<summary>
 <li><a href="index.html">Home Page</a></li>
-</summary>
-<summary>
 <li><a href="intro.html">Introduction</a></li>
-</summary>
-<summary>
 <li><a href="threatmodel.html">Threat Modeling</a></li>
-</summary>
-<summary>
 <li><a href="surveillance.html">Understanding Surveillance</a></li>
-</summary>
-<summary>
 <li><a href="secprivanon.html">Security vs Privacy vs Anonymity</a></li>
-</summary>
-<summary>
 <li><a href="oss.html">Open Source vs Proprietary</a></li>
-</summary>
-<summary>
 <li><a href="communication.html">How Network Communication Works</a></li>
-</summary>
-<summary>
 <li><a href="most-important.html"><b>Most Important</b></a></li>
-</summary>
-<summary>
 <li><a href="most-important.html">Introduction</a></li>
-</summary>
-<summary>
 <li><a href="data-breaches.html">Understanding Data Breaches</a></li>
-</summary>
-<summary>
 <li><a href="passwords.html">Data Breach Defense: Strong Passwords</a></li>
-</summary>
-<summary>
 <li><a href="mfa.html">Data Breach Defense: Multifactor Authentication</a></li>
-</summary>
-<summary>
 <li><a href="payments.html">Data Breach Defense: Payment Masking</a></li>
-</summary>
-<summary>
 <li><a href="credit.html">Identity Theft: Freezing Your Credit</a></li>
-</summary>
-<summary>
 <li><a href="mobile.html">Securing Mobile</a></li>
-</summary>
-<summary>
 <li><a href="mobile-settings.html">Securing Mobile: Settings</a></li>
-</summary>
-<summary>
 <li><a href="mobile-apps.html">Securing Mobile: Replacement Apps</a></li>
-</summary>
-<summary>
 <li><a href="browser.html">Privacy: Securing Your Browser</a></li>
-</summary>
-<summary>
 <li><a href="moderately-important.html"><b>Moderately Important</b></a></li>
-</summary>
-<summary>
 <li><a href="moderately-important.html">Introduction</a></li>
-</summary>
-<summary>
 <li><a href="metadata.html">Understanding Metadata</a></li>
-</summary>
-<summary>
 <li><a href="encryption.html">Understanding Encryption</a></li>
-</summary>
-<summary>
 <li><a href="devices.html">Protection: Device Encryption</a></li>
-</summary>
-<summary>
 <li><a href="backups.html">Protection: Backups</a></li>
-</summary>
-<summary>
 <li><a href="desktop-settings.html">Privacy: Securing Desktop</a></li>
-</summary>
-<summary>
 <li><a href="messaging.html">Privacy: Encrypted Texting/Calling</a></li>
-</summary>
-<summary>
 <li><a href="email.html">Privacy: Encrypted E-Mail</a></li>
-</summary>
-<summary>
 <li><a href="mobile-habits.html">Privacy: Mobile Habits</a></li>
-</summary>
-<summary>
 <li><a href="llc.html">Protection: Trusts, LLCs, and Public Data</a></li>
-</summary>
-<summary>
 <li><a href="less-important.html"><b>Less Important</b></a></li>
-</summary>
-<summary>
 <li><a href="less-important.html">Introduction</a></li>
-</summary>
-<summary>
 <li><a href="voip.html">Protection: Voice-over-IP</a></li>
-</summary>
-<summary>
 <li><a href="email-masking.html">Data Breach Defense: Email Masking</a></li>
-</summary>
-<summary>
 <li><a href="habits.html">Protection: Change Your Online Habits</a></li>
-</summary>
-<summary>
 <li><a href="disinformation.html">Protection: Disinformation</a></li>
-</summary>
-<summary>
 <li><a href="iot.html">Cybersecurity: The Internet of Things</a></li>
-</summary>
-<summary>
 <li><a href="vpns.html">Privacy: VPNs</a>
-</summary>
-<summary>
 <li><a href="links.html"><b>Contact/Links</b></a></li>
-</summary>
 </ul>
 </details>
 </header>
 <main>
-<header>
+<article>
+<div class="subheader">
 <h1 align="center">Data Breach Defense: Email Masking</h1>
-</header>
-<header>
+</div>
+<div class="subheader">
 <h3>What is Email Masking?</h3>
-</header>
+</div>
 <p>Email masking services allow you to create unique, random email address for each situation where you would need a functional email address - signing up for a website, subscribing to a newsletter, etc - and have them forward to your true inbox.</p>
-<header>
+<div class="subheader">
 <h3>Why do I Need Email Masking?</h3>
-</header>
+</div>
 <p>Consider the following: a random online account of yours gets caught up in a data breach. When you registered for this account, you registered with your main email, yourname@gmail.com. There are now a variety of ways that I can search for this email address to see where else you have accounts, such as Twitter, Facebook, even bank accounts. Furthermore, I can see from your email address that you use Gmail and I already have one half of your login. Now I just need to guess your password.<b>If I take over your primary email, I can easily take over all your other accounts by abusing the password reset option.</b> Another peripheral benefit is the ability to control spam. If one of your email addresses gets sold or breached (or the service you gave it to just sucks) and you start getting spam, you can simply disable it and no longer receive that spam.</p>
 <p>Below I have listed two services that offer email masking. Both services offer a free tier that should work just fine for most users, but offer additional useful features for paid users. I have signed up for both and found them both to be functionally the same. The only real difference between the two services is their user interface and their pricing, both of which are affordable and reasonable. I encourage you to try both out and go with whichever one you find most appealing.</p>
 <table border="1" align="center" class="responsive">
@@ -169,15 +89,16 @@
 		</tr>
 </tbody>
 </table>
-<header>
+<div class="subheader">
 <h3>Getting Started + Tips & Tricks</h3>
-</header>
+</div>
 <p>Like the other tools I have suggested on this site, I encourage you to make the changes one by one. Every time you use a website, take a moment to change your email address to a masked, forwarding email address. I then encourage you to use your masked email addresses going forward.</p>
 <p>The biggest tip I have for using these services is to not use them for critically important accounts such as banking, medical, or other accounts you cannot afford to lose access to. Email forwarding services are still relatively new and are constantly getting blacklisted by various companies. Have a separate encrypted email account for use with important services, or ideally a custom domain.</p>
+</article>
+</main>
 <footer>
 <a href="voip.html">Previous</a>
 <a style="float:right;" href="habits.html">Next</a>
 </footer>
-</main>
 </body>
 </html>
