@@ -1,119 +1,192 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>The New Oil</title>
   <meta charset="UTF-8">
   <meta name="description" content="Data is the new oil">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="light.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+  <link rel="stylesheet" type="text/css" href="dark.css" media="(prefers-color-scheme: dark)">
   <link rel="icon" href="pictures/favicon.ico" type="image/icon">
 </head>
 
 <body>
-<div class="flex-container">
-	<div class="header">
-     <img style="float:left;position:absolute;" src="pictures/header.jpg" alt="The New Oil logo">
-     <a href="index_dark.html" style="color:white;padding:50px;">Dark Mode</a>
-		<div class="nav">
-    <ul class="menu">
-	<input type="radio" name="menuopt" id="drop1" />
-        <label class="opener" for="drop1"><img src="pictures/menu.png"></label>
-        <label class="closer" for="dropclose"><img src="pictures/menu.png"></label>
-<ul class="navb">
+<header>
+     <img src="pictures/header.jpg" alt="The New Oil logo" style="display: block;margin-left: auto;margin-right:auto;">
+<details>
+<summary>
+<img src="pictures/menu.png" alt="Menu logo">
+</summary>
+<ul>
+<summary>
 <li><a href="about.html"><b>About</a></b></li>
+</summary>
+<summary>
 <li><a href="index.html">Home Page</a></li>
+</summary>
+<summary>
 <li><a href="intro.html">Introduction</a></li>
+</summary>
+<summary>
 <li><a href="threatmodel.html">Threat Modeling</a></li>
+</summary>
+<summary>
 <li><a href="surveillance.html">Understanding Surveillance</a></li>
-<li><a href="privsecanon.html">Security vs Privacy vs Anonymity</a></li>
+</summary>
+<summary>
+<li><a href="secprivanon.html">Security vs Privacy vs Anonymity</a></li>
+</summary>
+<summary>
 <li><a href="oss.html">Open Source vs Proprietary</a></li>
+</summary>
+<summary>
 <li><a href="communication.html">How Network Communication Works</a></li>
-<li><a href="most_important.html"><b>Most Important</b></a></li>
-<li><a href="data_breaches.html">Understanding Data Breaches</a></li>
+</summary>
+<summary>
+<li><a href="most-important.html"><b>Most Important</b></a></li>
+</summary>
+<summary>
+<li><a href="most-important.html">Introduction</a></li>
+</summary>
+<summary>
+<li><a href="data-breaches.html">Understanding Data Breaches</a></li>
+</summary>
+<summary>
 <li><a href="passwords.html">Data Breach Defense: Strong Passwords</a></li>
+</summary>
+<summary>
 <li><a href="mfa.html">Data Breach Defense: Multifactor Authentication</a></li>
+</summary>
+<summary>
 <li><a href="payments.html">Data Breach Defense: Payment Masking</a></li>
+</summary>
+<summary>
 <li><a href="credit.html">Identity Theft: Freezing Your Credit</a></li>
+</summary>
+<summary>
 <li><a href="mobile.html">Securing Mobile</a></li>
-<li><a href="settings.html">Securing Mobile: Settings</a></li>
-<li><a href="apps.html">Securing Mobile: Replacement Apps</a></li>
+</summary>
+<summary>
+<li><a href="mobile-settings.html">Securing Mobile: Settings</a></li>
+</summary>
+<summary>
+<li><a href="mobile-apps.html">Securing Mobile: Replacement Apps</a></li>
+</summary>
+<summary>
 <li><a href="browser.html">Privacy: Securing Your Browser</a></li>
-<li><a href="moderately_important.html"><b>Moderately Important</b></a></li>
+</summary>
+<summary>
+<li><a href="moderately-important.html"><b>Moderately Important</b></a></li>
+</summary>
+<summary>
+<li><a href="moderately-important.html">Introduction</a></li>
+</summary>
+<summary>
 <li><a href="metadata.html">Understanding Metadata</a></li>
+</summary>
+<summary>
 <li><a href="encryption.html">Understanding Encryption</a></li>
+</summary>
+<summary>
 <li><a href="devices.html">Protection: Device Encryption</a></li>
+</summary>
+<summary>
 <li><a href="backups.html">Protection: Backups</a></li>
-<li><a href="desktop.html">Privacy: Securing Desktop</a></li>
-<li><a href="messaging.html">Privacy: Encrypted Messaging</a></li>
-<li><a href="mobile2.html">Privacy: Mobile Habits</a></li>
+</summary>
+<summary>
+<li><a href="desktop-settings.html">Privacy: Securing Desktop</a></li>
+</summary>
+<summary>
+<li><a href="messaging.html">Privacy: Encrypted Texting/Calling</a></li>
+</summary>
+<summary>
+<li><a href="email.html">Privacy: Encrypted E-Mail</a></li>
+</summary>
+<summary>
+<li><a href="mobile-habits.html">Privacy: Mobile Habits</a></li>
+</summary>
+<summary>
 <li><a href="llc.html">Protection: Trusts, LLCs, and Public Data</a></li>
-<li><a href="less_important.html"><b>Less Important</b></a></li>
+</summary>
+<summary>
+<li><a href="less-important.html"><b>Less Important</b></a></li>
+</summary>
+<summary>
+<li><a href="less-important.html">Introduction</a></li>
+</summary>
+<summary>
 <li><a href="voip.html">Protection: Voice-over-IP</a></li>
-<li><a href="email.html">Data Breach Defense: Email Masking</a></li>
+</summary>
+<summary>
+<li><a href="email-masking.html">Data Breach Defense: Email Masking</a></li>
+</summary>
+<summary>
 <li><a href="habits.html">Protection: Change Your Online Habits</a></li>
+</summary>
+<summary>
 <li><a href="disinformation.html">Protection: Disinformation</a></li>
+</summary>
+<summary>
 <li><a href="iot.html">Cybersecurity: The Internet of Things</a></li>
+</summary>
+<summary>
 <li><a href="vpns.html">Privacy: VPNs</a>
-<li><a href="final.html"><b>Final Thoughts</b></a></li>
+</summary>
+<summary>
 <li><a href="links.html"><b>Contact/Links</b></a></li>
-        <input type="radio" name="menuopt" id="dropclose" />
+</summary>
 </ul>
-</div>
-</div>
-<div class="main">
-<div class="content">
-<div class="h1">
+</details>
+</header>
+<main>
+<header>
 <h1 align="center">Introduction</h1>
-</div>
-<p>In the 1900s, oil was discovered in the state of Texas and revolutionized the US economy. Coming right on the heels of the industrial revolution, oil had became one of the most valuable resources on the planet, and that meant anyone who owned the land it was found on now found themselves in various states of fortune. Texas grew from a mostly rural state to one of the most populous in the country, and this to date still has several major cities in the top ten list.</p>
-<p>The phrase "data is the new oil" is a bit controversial in tech circles, mostly for nit-picking reasons. Detractors argue that unlike data, oil is a finite resource and that it is only valuable in bulk after being refined. However, according to <a href="https://www.forbes.com/powerful-brands/list/" target="_blank">Forbes</a>, the top most valuable brands in the world in 2019 were Apple, Google, Microsoft, Amazon, and Facebook, all companies notorious for their data collection and targeted-advertising. No matter how you interpret it, <b>data is a moneymaker</b>.</p>
-<p>Most of us are not strangers to the concept of surveillance capitalism and targeted advertising. Most of us don't particularly care, either. After all, who wouldn't want relevant ads for movies or products that might actually appeal to you or improve your life? The thing is, most of us don't understand the aggressive measures these companies go to to create those marketing profiles, or the devastating effects they can have on people.</p>
-<p>It may sound paranoid, but it's actually a credible fact that <a href="https://www.forbes.com/sites/bernardmarr/2017/09/07/where-can-you-buy-big-data-here-are-the-biggest-consumer-data-brokers/#394bdc846c27" target="_blank">entire companies exist simply to collect your data and build profiles on you</a>, and in their minds <a href="https://mashable.com/article/facebook-employees-react-teen-spying-app-blind/" target="_blank">the ends will always justify the means</a>. Often they collect data in ways that range from questionable to <a href="https://arstechnica.com/tech-policy/2019/10/35-billion-facial-recognition-lawsuit-against-facebook-moving-forward/" target="_blank">straight-up illegal</a>, collecting information that <a href="https://www.forbes.com/sites/kashmirhill/2012/02/16/how-target-figured-out-a-teen-girl-was-pregnant-before-her-father-did/#27e187b06668" target="_blank">no sane person would willingly consent to</a>, but they do it in ways you can't detect. When your deepest, most personal secrets are a data point for a marketing agency, abuse of any kind is only a small step away, as could be seen in 2019 when <a href="https://www.theregister.co.uk/2019/10/04/egypt_smartphone_spying/" target="_blank">the Egyptian government tracked opponents and activists through phone apps</a>, <a href="https://www.amnesty.org/en/latest/research/2019/10/Morocco-Human-Rights-Defenders-Targeted-with-NSO-Groups-Spyware/" target="_blank">the Moroccan government spied on the phones of human rights defenders</a>, and <a href="https://www.reuters.com/article/us-china-cyber-uighurs/china-hacked-asian-telcos-to-spy-on-uighur-travelers-sources-idUSKCN1VQ1A5" target="_blank">the Chinese government hacked Asian telecommunications companies to spy on the Uighur, a minority Muslim ethnic group living in China.</a></p>
-<p>It sounds far-fetched, like something from a dystopian sci-fi movie, but just a few of the factual methods of data collection include <a href="https://arstechnica.com/tech-policy/2015/11/beware-of-ads-that-use-inaudible-sound-to-link-your-phone-tv-tablet-and-pc/" target="_blank">using high-pitched tones that only electronic devices (aka phones) can hear to report how many people are watching a TV show</a>, <a href="https://www.newsweek.com/secretive-world-selling-data-about-you-464789" target="_blank">collecting sale information</a>, <a href="https://www.businessinsider.com/even-if-you-cleared-your-history-google-records-your-search-activity-2018-4" target="_blank">tracking your search history</a>, <a href="https://www.eff.org/pages/automated-license-plate-readers-alpr" target="_blank">tracking your car as you drive through the real world</a>, <a href="https://www.washingtonpost.com/news/the-switch/wp/2013/10/19/how-stores-use-your-phones-wifi-to-track-your-shopping-habits/" target="_blank">tracking your phone as you browse the store to see where you spend the most time</a>, <a href="https://www.businessinsider.com/dna-testing-delete-your-data-23andme-ancestry-2018-7" target="_blank">collecting your DNA from family heritage testing services</a>, <a href="https://www.lifewire.com/remove-personal-information-from-internet-3482691" target="_blank">selling your information to public data websites</a>, <a href="https://www.vice.com/en_us/article/43kxzq/dmvs-selling-data-private-investigators-making-millions-of-dollars" target="_blank">government agencies selling your driver's license information</a>, and more.</p>
-<p>"Wow," you may say, "that's intense. But why should I care? I have nothing to hide."</p>
-			<div class="row" style="clear:both;width:90%;margin:auto;">
-				<div class="column">
-	<h1 align="center">Why Care About Privacy</h1>
+</header>
+<p>The phrase "data is the new oil" is a bit controversial in tech circles, mostly for nit-picking reasons. However, according to <a href="https://www.forbes.com/powerful-brands/list/">Forbes</a>, the top most valuable brands in the world in 2020 were Apple, Google, Microsoft, Amazon, and Facebook, all companies notorious for their data collection and targeted-advertising (Note: Apple allegedly does not participate in targeted advertising but does collect data). No matter how you interpret it, <b>data is a moneymaker</b>.</p>
+<p>Most of us are not strangers to the concept of targeted advertising. Most of us don't particularly care, either. After all, who wouldn't want relevant ads for movies or products that might actually appeal to you or improve your life? However, most of us don't understand the invasive measures these companies go to to collect this data, or the devastating effects it can have on people.</p>
+<p>It may sound paranoid, but it's actually proven that <a href="https://www.forbes.com/sites/bernardmarr/2017/09/07/where-can-you-buy-big-data-here-are-the-biggest-consumer-data-brokers/#394bdc846c27">entire companies exist simply to collect your data and build profiles on you</a>, and in their minds <a href="https://mashable.com/article/facebook-employees-react-teen-spying-app-blind/">the ends will always justify the means</a>. Often they collect data in ways that range from questionable to <a href="https://arstechnica.com/tech-policy/2019/10/35-billion-facial-recognition-lawsuit-against-facebook-moving-forward/">blatantly illegal</a>, collecting information that <a href="https://www.forbes.com/sites/kashmirhill/2012/02/16/how-target-figured-out-a-teen-girl-was-pregnant-before-her-father-did/#27e187b06668">almost no one would knowingly consent to</a>. This massive trove of data is regularly abused. For example, in 2019 <a href="https://www.theregister.co.uk/2019/10/04/egypt_smartphone_spying/">the Egyptian government tracked opponents and activists through phone apps</a>, <a href="https://www.amnesty.org/en/latest/research/2019/10/Morocco-Human-Rights-Defenders-Targeted-with-NSO-Groups-Spyware/">the Moroccan government spied on the phones of human rights defenders</a>, and <a href="https://www.reuters.com/article/us-china-cyber-uighurs/china-hacked-asian-telcos-to-spy-on-uighur-travelers-sources-idUSKCN1VQ1A5">the Chinese government hacked Asian telecommunications companies to spy on the Uighur, a minority Muslim ethnic group living in China.</a></p>
+<p>It sounds like something from a dystopian sci-fi movie, but just a few of the known methods of data collection include <a href="https://arstechnica.com/tech-policy/2015/11/beware-of-ads-that-use-inaudible-sound-to-link-your-phone-tv-tablet-and-pc/">using high-pitched tones that only electronic devices can hear to report how many people are watching a TV show</a>, <a href="https://www.newsweek.com/secretive-world-selling-data-about-you-464789">collecting banking and shopping information</a>, <a href="https://www.eff.org/pages/automated-license-plate-readers-alpr">tracking your car as you drive through the real world</a>, <a href="https://www.washingtonpost.com/news/the-switch/wp/2013/10/19/how-stores-use-your-phones-wifi-to-track-your-shopping-habits/">tracking your phone as you browse the store to see where you spend the most time</a>, <a href="https://www.businessinsider.com/dna-testing-delete-your-data-23andme-ancestry-2018-7">collecting your DNA from family heritage testing services</a>, <a href="https://www.lifewire.com/remove-personal-information-from-internet-3482691">selling your information to public data websites</a>, <a href="https://www.vice.com/en_us/article/43kxzq/dmvs-selling-data-private-investigators-making-millions-of-dollars">the Department of Motor Vehicles selling your driver's license information</a>, and more.</p>
+<p>"Wow," you may say, "that's intense. <b>But why should I care? I have nothing to hide.</b>"</p>
+<section>
 	<ul>
-		<p><li><a href="https://en.wikipedia.org/wiki/COINTELPRO" target="_blank">Western governments have been proven to spy on their own citizens, even peaceful, positive movements.</a>
-		<p><li><a href="http://www.slate.com/blogs/the_slatest/2017/07/15/white_house_publishes_names_emails_phone_numbers_home_addresses_of_critics.html" target="_blank">Western governments have been known to leak personal information of citizens who express dissenting opinions</a>, effectively discouraging people from exercising their freedom of speech.
-		<p><li><a href="https://www.bjs.gov/index.cfm?ty=tp&tid=973" target="_blank">According to the US Bureau of Justice</a>: "During a 12-month period an estimated 14 in every 1,000 persons age 18 or older were victims of stalking" and "Approximately 1 in 4 stalking victims reported some form of cyberstalking such as e-mail (83%) or instant messaging (35%)." <a href="https://en.wikipedia.org/wiki/Rebecca_Schaeffer#Death" target="_blank">One woman in 1989 was even murdered by her stalker who found her address from DMV public records.</a> In another case, <a href="https://www.bbngnews.com/2020/07/pop-smokes-social-media-led-killers-to.html" target="_blank">a Los Angeles man was killed after accidentally posting his address to Facebook and Instagram</a>.
-		<p><li><a href="https://theintercept.com/2016/04/28/new-study-shows-mass-surveillance-breeds-meekness-fear-and-self-censorship/" target="_blank">Statistics show</a> that lack of privacy leads to a population who is afraid to ask questions or educate themselves, even if the issues are important and the motives are pure. People are afraid to stand out lest they be mistaken for troublemakers, even if the cause is just.
-		<p><li>The United States Government's surveillance program is about control, not stopping crime. This is most obviously demonstrated when <a href="https://gizmodo.com/fbi-drops-all-charges-in-child-porn-case-to-keep-sketch-1793009653" target="_blank">the Federal Bureau of Investigation dropped charges against members of a group of pedophiles in 2017 because continuing the case would've required them to reveal the vulnerability they used to track the pedophiles</a>, which would have inevitably led to the exploit being fixed eventually.
-	<p><li>Multiple industries are now keeping "<a href="https://www.chron.com/opinion/article/Data-isn-t-just-being-collected-from-your-phone-15449776.php" target="_blank">surveillance scores</a>" on people, which can be used to determine employability, overall consumer trustworthiness, insurance rates, and even whether you're a good person to rent to.
-	<p><li>Some western countries <a href="https://www.digitaltrends.com/cool-tech/social-credit-system/" target="_blank">are working on implementing a China-style social credit system fed by your online and collected data</a>.
-	<p><li>Many companies have been known to sell your data to or work exclusively with law enforcement agencies. In 2011, <a href="https://www.wbur.org/npr/135809709/dutch-police-used-tomtoms-gps-data-to-target-speeders" target="_blank">GPS data was sold to local police so they could issue traffic tickets.</a> For another example, <a href="https://www.businessinsider.com/us-military-location-data-muslim-prayer-app-xmode-babel-street-2020-11?r=DE&IR=T" target="_blank">the US military (and probably others) purchases location data from popular apps that track weather, exercise, and even Muslim prayer to help target drone strikes.</a>
-	<p><li>Financial institutions have been known to penalize you financially because they don't like your shopping habits. For example, <a href="https://consumerist.com/2008/12/22/amex-lowers-your-credit-limit-if-you-shop-where-deadbeats-shop/" target="_blank">AMEX lowered a person's credit limit because they shopped at "deadbeat" establishments like Walmart</a>.
-	<p><li>In Australia, <a href="https://www.zdnet.com/article/519-data-breach-notifications-include-33-from-australian-government-entities/" target="_blank">data breaches from rogue employees were up 52%</a> between 2019 and 2020. In the past, these data breaches have been used in everything from general identity theft to <a href="https://abcnews.go.com/US/ebay-employees-hit-cyberstalking-charges-bizarre-harassment-mass/story?id=71260042" target="_blank">harassing people who left negative reviews</a>.
+<header>
+<h1 align="center">Why Care About Privacy</h1>
+</header>
+		<p><li>Western governments have been proven to spy on their own citizens, even peaceful, positive movements. (<a href="https://en.wikipedia.org/wiki/COINTELPRO">Source</a>)
+		<p><li>Western government officials have attempted to use the law to silence critics. (<a href="https://www.nytimes.com/2021/05/17/us/politics/devin-nunes-twitter-justice-department.html">Source</a>)
+		<p><li>According to the US Bureau of Justice, "During a 12-month period an estimated 14 in every 1,000 persons age 18 or older were victims of stalking" and "Approximately 1 in 4 stalking victims reported some form of cyberstalking such as e-mail (83%) or instant messaging (35%)." One woman in 1989 was even murdered by her stalker who found her address from DMV public records. Separately, a Los Angeles man was killed in a robbery gone wrong after posting his address to Instagram</a>. (<a href="https://www.bjs.gov/index.cfm?ty=tp&tid=973">Source</a>, <a href="https://en.wikipedia.org/wiki/Rebecca_Schaeffer#Death">Source</a>, <a href="https://www.bbngnews.com/2020/07/pop-smokes-social-media-led-killers-to.html">Source</a>)
+		<p><li>Statistics show that lack of privacy leads to a population who is afraid to educate themselves on important issues lest they be mistaken for troublemakers. (<a href="https://theintercept.com/2016/04/28/new-study-shows-mass-surveillance-breeds-meekness-fear-and-self-censorship/">Source</a>)
+		<p><li>In 2017, the FBI chose to drop charges against a pedophile rather than reveal how they caught him; most likely to avoid having their backdoor fixed, to avoid having other countries use it against us, or identify that we used it against them. This demonstrates that despite their constant calls to ban encryption in the name of "stopping child sexual abuse," this not always their true motive. (<a href="https://gizmodo.com/fbi-drops-all-charges-in-child-porn-case-to-keep-sketch-1793009653">Source</a>)
+	<p><li>Multiple industries are now keeping surveillance scores</a>" on people, which can be used to determine employability, overall consumer trustworthiness, insurance rates, and even whether you're a good person to rent to. Some western countries are even working on implementing a China-style social credit system fed by your online and collected data. (<a href="https://www.chron.com/opinion/article/Data-isn-t-just-being-collected-from-your-phone-15449776.php">Source</a>, <a href="https://www.digitaltrends.com/cool-tech/social-credit-system/">Source</a>)
+	<p><li>Many companies have been known to sell your data to or work exclusively with law enforcement agencies without your consent. In 2011, GPS data was sold to local police in the Netherlands so they could issue traffic tickets. In the US, Ring Doorbells are a common surveillance tool for police around the country. In another case, the US military purchased location data from popular apps that track weather, exercise, and even Muslim prayer to help targeted drone strikes. (<a href="https://www.wbur.org/npr/135809709/dutch-police-used-tomtoms-gps-data-to-target-speeders">Source</a>, <a href="https://www.washingtonpost.com/technology/2019/08/28/doorbell-camera-firm-ring-has-partnered-with-police-forces-extending-surveillance-reach/">Source</a>, <a href="https://www.businessinsider.com/us-military-location-data-muslim-prayer-app-xmode-babel-street-2020-11?r=DE&IR=T">Source</a>)
+	<p><li>Financial institutions have been known to penalize you financially because they don't like your shopping habits. In one case, American Express lowered a person's credit limit because they shopped at "deadbeat" establishments like Walmart. (<a href="https://consumerist.com/2008/12/22/amex-lowers-your-credit-limit-if-you-shop-where-deadbeats-shop/">Source</a>)
+	<p><li>In Australia, data breaches from rogue employees were up 52% between 2019 and 2020. These data breaches have been used in everything from general identity theft to harassing people who left negative reviews. (<a href="https://www.zdnet.com/article/519-data-breach-notifications-include-33-from-australian-government-entities/">Source</a>, <a href="https://abcnews.go.com/US/ebay-employees-hit-cyberstalking-charges-bizarre-harassment-mass/story?id=71260042">Source</a>)
 	</ul>
-				</div>
-				<div class="column">
-	<h1 align="center">Why Care About Security</h1>
 	<ul>
-		<p><li><a href="https://www.security.org/how-secure-is-my-password/" target="_blank">Weak passwords can be hacked within seconds</a>. Softwares to perform this are legally available for free all over the internet.
-		<p><li><a href="https://en.wikipedia.org/wiki/List_of_data_breaches" target="_blank">Companies all over the world - big and small alike - are constantly suffering from data breaches</a> that can reveal anything from username and password to account numbers, government identifications, and more.
-		<p><li><a href="https://www.bjs.gov/index.cfm?ty=tp&tid=41" target="_blank">According to the Bureau of Justic Statistics</a>, "Approximately 68% of the victims of cyber theft sustained monetary loss of $10,000 or more." Often cyber crime isn't just about draining a person's bank account, but also opening new accounts in that person's name, which that person is then liable to prove is illegitimate.
-		<p><li><a href="https://www.cyberdefensemagazine.com/cyber-security-statistics-for-2019/" target="_blank">Internet of Things (aka smart devices) attacks were up 600% in 2017.</a>
-		<p><li><a href="https://www.microsoft.com/security/blog/2019/08/20/one-simple-action-you-can-take-to-prevent-99-9-percent-of-account-attacks/" target="_blank">According to Microsoft</a> the vast majority of cyber attacks can be stopped completely by using simple techniques like <a href="mfa.html">Multi-Factor Authentication</a> and <a href="passwords.html">Password Managers.</a>
-		<p><li><a href="https://learn.g2.com/cybercrime-statistics" target="_blank">The number of new mobile malware targeting mobile devices increased by 54% in 2017.</a>
-		<p><li>Failure to properly control access to your devices or accounts can result in <a href="https://www.foxnews.com/travel/flight-reportedly-diverted-after-woman-unlocks-husbands-phone-and-uncovers-affair" target="_blank">information being uncovered by unwanted parties</a> even if they have little or no technical ability.
-		<p><li>Researchers in 2015 were able to <a href="https://www.wired.com/2015/07/hackers-remotely-kill-jeep-highway/" target="_blank">successfully hijack a Jeep while it was in use</a>, controlling the HVAC, radio, windshield wipers and fluid, the digital display, the brakes, the steering, and the transmission. The hackers were ten miles away.
-		<p><li><a href="https://cybernews.com/security/350-million-email-addresses-left-exposed-on-an-unsecured-server/" target="_blank">2020 is seeing an average of 7 million records per day being exposed in data breaches.</a>
-		<p><li>Australia alone suffered <a href="https://www.zdnet.com/article/1050-data-breaches-reported-to-australian-commissioner-in-12-months/" target="_blank">1,050 data breaches in the 2019-2020 financial year</a>, a 12-month period. That's almost 3 data breaches per day in a single country with a population of only 25 million.
-		<p><li>For parents, <a href="https://www.safety.com/child-identity-theft-protection-tips/" target="_blank">child identity theft is on the rise</a>, affecting over 1 million children in 2017 alone.
+<header>
+<h1 align="center">Why Care About Security</h1>
+</header>
+
+	<p><li>Weak passwords can be hacked within seconds. Softwares to perform this are legally available for free all over the internet. (<a href="https://www.security.org/how-secure-is-my-password/">Source</a>)
+	<p><li>Companies all over the world - big and small alike - are constantly suffering from data breaches that can reveal anything from username and password to account numbers, government identifications, and more. (<a href="https://en.wikipedia.org/wiki/List_of_data_breaches">Source</a>)
+	<p><li>According to the Bureau of Justice statistics, "Approximately 68% of the victims of cyber theft sustained monetary loss of $10,000 or more." Often cyber crime isn't just about draining a person's bank account, but also opening new accounts in that person's name, which that person is then liable to prove is illegitimate. (<a href="https://www.bjs.gov/index.cfm?ty=tp&tid=41">Source</a>)
+	<p><li>Internet of Things (aka smart devices) attacks were up 600% in 2017. (<a href="https://www.cyberdefensemagazine.com/cyber-security-statistics-for-2019/">Source</a>)
+	<p><li>The number of new mobile malware targeting mobile devices increased by 54% in 2017. (<a href="https://learn.g2.com/cybercrime-statistics">Source</a>)
+	<p><li>Failure to properly control access to your devices or accounts can result in information being uncovered by unwanted parties even if they have little or no technical ability. Consider the story of the woman who used her sleeping husband's fingerprint to unlock his phone and discovered he was cheating on her, causing such a scene that the plane had to make an emergency landing. (<a href="https://www.foxnews.com/travel/flight-reportedly-diverted-after-woman-unlocks-husbands-phone-and-uncovers-affair">Source</a>)
+	<p><li>Researchers in 2015 were able to successfully hijack a Jeep while it was in use on the freeway, controlling the HVAC, radio, windshield wipers and fluid, the digital display, the brakes, the steering, and the transmission. The hackers were ten miles away. (<a href="https://www.wired.com/2015/07/hackers-remotely-kill-jeep-highway/">Source</a>)
+	<p><li>2020 saw an average of 7 million records per day being exposed in data breaches. (<a href="https://cybernews.com/security/350-million-email-addresses-left-exposed-on-an-unsecured-server/">Source</a>)
+	<p><li>Australia alone suffered 1,050 data breaches in the 2019-2020 financial year, a 12-month period. That's almost 3 data breaches per day in a single country with a population of only 25 million. (<a href="https://www.zdnet.com/article/1050-data-breaches-reported-to-australian-commissioner-in-12-months/">Source</a>)
+	<p><li>For parents, child identity theft is on the rise, affecting over 1 million children in 2017 alone. (<a href="https://www.safety.com/child-identity-theft-protection-tips/">Source</a>)
 	<p><li>In Australia, <a href="https://www.zdnet.com/article/519-data-breach-notifications-include-33-from-australian-government-entities/" target="_blank">91% of reported data breaches leaked sensitive information to criminals</a> such as home address, phone number, and email address.
-	<p><li>Rogue employees are on the rise, meaning that those people now have your information to stalk, harass, or otherwise disrupt your life. <a href="https://www.bloomberg.com/news/articles/2020-09-22/shopify-says-rogue-employees-stole-data-from-merchants" target="_blank">Example</a>, <a href="https://www.msn.com/en-us/news/technology/six-former-ebay-employees-charged-in-a-bizarre-cyberstalking-scheme/ar-BB15wI0u" target="_blank">example</a>.
-	<p><li><a href="https://www.zdnet.com/article/2020-was-a-record-breaking-year-in-us-school-hacks-security-failures/" target="_blank">2020 was a "record-breaking" year in US school hacks.</a>
+	<p><li>Rogue employees are on the rise, meaning that those people now have your information to stalk, harass, or otherwise disrupt your life. (<a href="https://www.bloomberg.com/news/articles/2020-09-22/shopify-says-rogue-employees-stole-data-from-merchants">Source</a>, <a href="https://www.msn.com/en-us/news/technology/six-former-ebay-employees-charged-in-a-bizarre-cyberstalking-scheme/ar-BB15wI0u">Source</a>)
+	<p><li>2020 was a "record-breaking" year in US school hacks. (<a href="https://www.zdnet.com/article/2020-was-a-record-breaking-year-in-us-school-hacks-security-failures/">Source</a>)
 	</ul>
-				</div>
-			</div>
-			<div class="next" style="clear:both;width:100%;margin:auto;">
+</section>
+<footer>
 <a href="about.html">Previous</a>
 <a style="float:right;" href="intro.html">Next</a>
-			</div>
-		</div>
-	</div>
-</div>
+<footer>
+</main
 </body>
 </html>
 
