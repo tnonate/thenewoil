@@ -1,83 +1,165 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>The New Oil</title>
   <meta charset="UTF-8">
   <meta name="description" content="Data is the new oil">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="light.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+  <link rel="stylesheet" type="text/css" href="dark.css" media="(prefers-color-scheme: dark)">
   <link rel="icon" href="pictures/favicon.ico" type="image/icon">
 </head>
 
 <body>
-<div class="flex-container">
-	<div class="header">
-     <img style="float:left;position:absolute;" src="pictures/header.jpg" alt="The New Oil logo">
-     <a href="credit_dark.html" style="color:white;padding:50px;">Dark Mode</a>
-		<div class="nav">
-    <ul class="menu">
-	<input type="radio" name="menuopt" id="drop1" />
-        <label class="opener" for="drop1"><img src="pictures/menu.png"></label>
-        <label class="closer" for="dropclose"><img src="pictures/menu.png"></label>
-<ul class="navb">
+<header>
+     <img src="pictures/header.jpg" alt="The New Oil logo" style="display: block;margin-left: auto;margin-right:auto;">
+<details>
+<summary>
+<img src="pictures/menu.png" alt="Menu logo">
+</summary>
+<ul>
+<summary>
 <li><a href="about.html"><b>About</a></b></li>
+</summary>
+<summary>
 <li><a href="index.html">Home Page</a></li>
+</summary>
+<summary>
 <li><a href="intro.html">Introduction</a></li>
+</summary>
+<summary>
 <li><a href="threatmodel.html">Threat Modeling</a></li>
+</summary>
+<summary>
 <li><a href="surveillance.html">Understanding Surveillance</a></li>
-<li><a href="privsecanon.html">Security vs Privacy vs Anonymity</a></li>
+</summary>
+<summary>
+<li><a href="secprivanon.html">Security vs Privacy vs Anonymity</a></li>
+</summary>
+<summary>
 <li><a href="oss.html">Open Source vs Proprietary</a></li>
+</summary>
+<summary>
 <li><a href="communication.html">How Network Communication Works</a></li>
-<li><a href="most_important.html"><b>Most Important</b></a></li>
-<li><a href="most_important.html">Introduction</a></li>
-<li><a href="data_breaches.html">Understanding Data Breaches</a></li>
+</summary>
+<summary>
+<li><a href="most-important.html"><b>Most Important</b></a></li>
+</summary>
+<summary>
+<li><a href="most-important.html">Introduction</a></li>
+</summary>
+<summary>
+<li><a href="data-breaches.html">Understanding Data Breaches</a></li>
+</summary>
+<summary>
 <li><a href="passwords.html">Data Breach Defense: Strong Passwords</a></li>
+</summary>
+<summary>
 <li><a href="mfa.html">Data Breach Defense: Multifactor Authentication</a></li>
+</summary>
+<summary>
 <li><a href="payments.html">Data Breach Defense: Payment Masking</a></li>
+</summary>
+<summary>
 <li><a href="credit.html">Identity Theft: Freezing Your Credit</a></li>
+</summary>
+<summary>
 <li><a href="mobile.html">Securing Mobile</a></li>
-<li><a href="settings.html">Securing Mobile: Settings</a></li>
-<li><a href="apps.html">Securing Mobile: Replacement Apps</a></li>
+</summary>
+<summary>
+<li><a href="mobile-settings.html">Securing Mobile: Settings</a></li>
+</summary>
+<summary>
+<li><a href="mobile-apps.html">Securing Mobile: Replacement Apps</a></li>
+</summary>
+<summary>
 <li><a href="browser.html">Privacy: Securing Your Browser</a></li>
-<li><a href="moderately_important.html"><b>Moderately Important</b></a></li>
-<li><a href="moderately_important.html">Introduction</a></li>
+</summary>
+<summary>
+<li><a href="moderately-important.html"><b>Moderately Important</b></a></li>
+</summary>
+<summary>
+<li><a href="moderately-important.html">Introduction</a></li>
+</summary>
+<summary>
 <li><a href="metadata.html">Understanding Metadata</a></li>
+</summary>
+<summary>
 <li><a href="encryption.html">Understanding Encryption</a></li>
+</summary>
+<summary>
 <li><a href="devices.html">Protection: Device Encryption</a></li>
+</summary>
+<summary>
 <li><a href="backups.html">Protection: Backups</a></li>
-<li><a href="desktop.html">Privacy: Securing Desktop</a></li>
-<li><a href="messaging.html">Privacy: Encrypted Messaging</a></li>
-<li><a href="mobile2.html">Privacy: Mobile Habits</a></li>
+</summary>
+<summary>
+<li><a href="desktop-settings.html">Privacy: Securing Desktop</a></li>
+</summary>
+<summary>
+<li><a href="messaging.html">Privacy: Encrypted Texting/Calling</a></li>
+</summary>
+<summary>
+<li><a href="email.html">Privacy: Encrypted E-Mail</a></li>
+</summary>
+<summary>
+<li><a href="mobile-habits.html">Privacy: Mobile Habits</a></li>
+</summary>
+<summary>
 <li><a href="llc.html">Protection: Trusts, LLCs, and Public Data</a></li>
-<li><a href="less_important.html"><b>Less Important</b></a></li>
-<li><a href="less_important.html">Introduction</a></li>
+</summary>
+<summary>
+<li><a href="less-important.html"><b>Less Important</b></a></li>
+</summary>
+<summary>
+<li><a href="less-important.html">Introduction</a></li>
+</summary>
+<summary>
 <li><a href="voip.html">Protection: Voice-over-IP</a></li>
-<li><a href="email.html">Data Breach Defense: Email Masking</a></li>
+</summary>
+<summary>
+<li><a href="email-masking.html">Data Breach Defense: Email Masking</a></li>
+</summary>
+<summary>
 <li><a href="habits.html">Protection: Change Your Online Habits</a></li>
+</summary>
+<summary>
 <li><a href="disinformation.html">Protection: Disinformation</a></li>
+</summary>
+<summary>
 <li><a href="iot.html">Cybersecurity: The Internet of Things</a></li>
+</summary>
+<summary>
 <li><a href="vpns.html">Privacy: VPNs</a>
-<li><a href="final.html"><b>Final Thoughts</b></a></li>
+</summary>
+<summary>
 <li><a href="links.html"><b>Contact/Links</b></a></li>
-        <input type="radio" name="menuopt" id="dropclose" />
+</summary>
 </ul>
-</div>
-</div>
-<div class="main">
-<div class="content">
-<div class="h1">
+</details>
+</header>
+<main>
+<header>
 <h1 align="center">Identity Theft: Freezing Your Credit</h1>
-</div>
-<p><b>Freezing your credit is something every American should do.</b> Hard stop. Period. End of story. And if you have kids, do it for them, too. It literally costs <a href="https://www.consumer.ftc.gov/blog/2018/09/free-credit-freezes-are-here" target="_blank">nothing</a>.</p>
-<p>Freezing your credit used to work this way: you sign up for a credit freeze, they send you a PIN (don't lose this PIN), and then nobody can open an account without your PIN. It's like multifactor authentication for your credit. As an added bonus, they send you a letter whenever your credit changes, such as an adding an address or account inquiry. Unfortunately, this system appears to be slowly changing. Of the three major credit agencies in the United States, <b>only Experian still allows this PIN-based system without any type of account or login. Equifax and TransUnion now require you to create an account to manage credit freezes.</b> Freezing your credit must be done individually with each credit union: <a href="https://www.equifax.com/personal/credit-report-services/credit-freeze/" target="_blank">Equifax</a>, <a href="https://www.experian.com/freeze/center.html" target="_blank">Experian</a>, <a href="https://www.transunion.com/credit-freeze" target="_blank">TransUnion</a>. As I said, each time they will issue you a PIN, don't lose it.</p>
-<p>Unfortunately it doesn't stop there. <a href="https://inteltechniques.com/blog/2020/03/13/the-privacy-security-osint-show-episode-161/" target="_blank">Some people have discovered</a> that one can work around a freeze with enough cleverly-gathered information, so make sure to place a <a href="https://www.consumer.ftc.gov/articles/0275-place-fraud-alert" target="_blank">fraud alert</a> as well, which adds yet another layer of security to your credit. While freezes last indefinitely, <b>fraud alerts need to be placed once every year</b>, so make sure to set a reminder. The good news is, they only need to be placed with one agency, and the alert will be passed around to the others, so that cuts your work in 1/3.</p>
-<p>If you think this sounds like a lot of unnecessary work, then clearly you're lucky enough to have never been the victim of identity theft. No matter how bad your credit, I promise I can find someone willing to open a high-interest credit card in your name, and then I can sell whatever I buy from them and I don't have to worry about the interest rate or payments because I don't plan to honor them. Now it's on you to go through the headache of proving that it wasn't you, and I promise you it's a nightmare.</p>
-<br>
-<div class="next" style="clear:both;"><a href="payments.html">Previous</a>
+</header>
+<header>
+<h3>What is a Credit Freeze?</h3>
+</header>
+<p><b>A credit freeze is a poorly-named security feature offered by consumer credit scoring agencies that prevents anyone except you from opening new accounts in your name.</b> Credit freezes are poorly named because <b>they do not stop your credit score from changing</b> - it will still improve as you do positive things and fall as you do negative things - and because <b>you will still have the access required to unfreeze your credit and open new accounts</b>. Credit freezes will only stop unauthorized accounts from being opened without your knowledge or consent.</p>
+<header>
+<h3>Why do I Need a Credit Freeze?</h3>
+</header>
+<p><a href="https://www.consumer.ftc.gov/blog/2018/09/free-credit-freezes-are-here">Credit freezes are free for all American citizens by federal law.</a> A credit freeze will stop a criminal who steals your identifying information from being able to open new accounts such as store credit cards and loans in your name. According to the <a href="https://www.bjs.gov/index.cfm?ty=tp&tid=41">Bureau of Justice</a>, over 2/3 of identity theft victims lost more than $10,000 and had to spend hundreds of hours proving to the bank and police that the accounts were fraudulent. Identity theft isn't always about draining your existing bank account, it's often about opening new accounts to spend money that the criminal never intends to pay back but the bank expects you to be responsible for. Identity theft is an extremely long, complicated, frustrating, and exhausting experiences that can take months or even years to fix - if it ever gets fixed at all.</p>
+<p>In 2017, consumer credit scoring agency Equifax suffered a <a href="https://en.wikipedia.org/wiki/2017_Equifax_data_breach">data breach</a> that affected nearly half of all Americans. Additionally, many of us have shared personal information like birthdays and past addresses in ways that have ultimately found their way onto people search websites like Spokeo and Axciom. In other words: if you have an internet connection, it's highly likely that a criminal already has all the information about you they need to open a fraudulent account in your name. This is why every American reading this needs to freeze their credit.</p>
+<header>
+<h3>How do I Freeze my Credit?</h3>
+</header>
+<p>Freezing your credit must be done individually with each credit union: <a href="https://www.equifax.com/personal/credit-report-services/credit-freeze/">Equifax</a>, <a href="https://www.experian.com/freeze/center.html">Experian</a>, <a href="https://www.transunion.com/credit-freeze">TransUnion</a>. With Equifax and TransUnion, you will be required to create an account from which you will be able to unfreeze your credit as needed. Experian will send you a PIN in the mail that you must go online and provide in order to unfreeze your credit. Keep this PIN in a safe place. Credit can be unfrozen temporarily, and can be done at one or all agencies (but most be done individually with each agency).</p>
+<p>Unfortunately, <a href="https://inteltechniques.com/blog/2020/03/13/the-privacy-security-osint-show-episode-161/">Some people have discovered</a> that a freeze can be circumvented with enough cleverly-gathered information, so make sure to also place a <a href="https://www.consumer.ftc.gov/articles/0275-place-fraud-alert">fraud alert</a>. A fraud alert is like <a href="mfa.html">two-factor authentication</a> for your credit; the agency being queried will call you and ask a few questions to verify that it is you authorizing the account (so be sure to provide a valid <a href="voip.html">phone number</a> during signup.) While freezes last indefinitely, <b>fraud alerts need to be placed once every year</b>. I recommend setting a reminder so you don't forget to renew it each year. Fortunately they only need to be placed with one agency, and the alert will be passed around to the others.</p>
+<footer>
+<a href="payments.html">Previous</a>
 <a style="float:right;" href="mobile.html">Next</a>
-</div>
-</div>
-</div>
-</div>
+</footer>
+</main>
 </body>
 </html>
