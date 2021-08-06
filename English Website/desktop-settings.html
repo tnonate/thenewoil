@@ -5,8 +5,7 @@
   <meta charset="UTF-8">
   <meta name="description" content="Data is the new oil">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="light.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
-  <link rel="stylesheet" type="text/css" href="dark.css" media="(prefers-color-scheme: dark)">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="icon" href="pictures/favicon.ico" type="image/icon">
 </head>
 
@@ -14,140 +13,61 @@
 <header>
      <img src="pictures/header.jpg" alt="The New Oil logo" style="display: block;margin-left: auto;margin-right:auto;">
 <details>
-<summary>
-<img src="pictures/menu.png" alt="Menu logo">
-</summary>
+<summary><img src="pictures/menu.png" alt="Menu logo"></summary>
 <ul>
-<summary>
 <li><a href="about.html"><b>About</a></b></li>
-</summary>
-<summary>
 <li><a href="index.html">Home Page</a></li>
-</summary>
-<summary>
 <li><a href="intro.html">Introduction</a></li>
-</summary>
-<summary>
 <li><a href="threatmodel.html">Threat Modeling</a></li>
-</summary>
-<summary>
 <li><a href="surveillance.html">Understanding Surveillance</a></li>
-</summary>
-<summary>
 <li><a href="secprivanon.html">Security vs Privacy vs Anonymity</a></li>
-</summary>
-<summary>
 <li><a href="oss.html">Open Source vs Proprietary</a></li>
-</summary>
-<summary>
 <li><a href="communication.html">How Network Communication Works</a></li>
-</summary>
-<summary>
 <li><a href="most-important.html"><b>Most Important</b></a></li>
-</summary>
-<summary>
 <li><a href="most-important.html">Introduction</a></li>
-</summary>
-<summary>
 <li><a href="data-breaches.html">Understanding Data Breaches</a></li>
-</summary>
-<summary>
 <li><a href="passwords.html">Data Breach Defense: Strong Passwords</a></li>
-</summary>
-<summary>
 <li><a href="mfa.html">Data Breach Defense: Multifactor Authentication</a></li>
-</summary>
-<summary>
 <li><a href="payments.html">Data Breach Defense: Payment Masking</a></li>
-</summary>
-<summary>
 <li><a href="credit.html">Identity Theft: Freezing Your Credit</a></li>
-</summary>
-<summary>
 <li><a href="mobile.html">Securing Mobile</a></li>
-</summary>
-<summary>
 <li><a href="mobile-settings.html">Securing Mobile: Settings</a></li>
-</summary>
-<summary>
 <li><a href="mobile-apps.html">Securing Mobile: Replacement Apps</a></li>
-</summary>
-<summary>
 <li><a href="browser.html">Privacy: Securing Your Browser</a></li>
-</summary>
-<summary>
 <li><a href="moderately-important.html"><b>Moderately Important</b></a></li>
-</summary>
-<summary>
 <li><a href="moderately-important.html">Introduction</a></li>
-</summary>
-<summary>
 <li><a href="metadata.html">Understanding Metadata</a></li>
-</summary>
-<summary>
 <li><a href="encryption.html">Understanding Encryption</a></li>
-</summary>
-<summary>
 <li><a href="devices.html">Protection: Device Encryption</a></li>
-</summary>
-<summary>
 <li><a href="backups.html">Protection: Backups</a></li>
-</summary>
-<summary>
 <li><a href="desktop-settings.html">Privacy: Securing Desktop</a></li>
-</summary>
-<summary>
 <li><a href="messaging.html">Privacy: Encrypted Texting/Calling</a></li>
-</summary>
-<summary>
 <li><a href="email.html">Privacy: Encrypted E-Mail</a></li>
-</summary>
-<summary>
 <li><a href="mobile-habits.html">Privacy: Mobile Habits</a></li>
-</summary>
-<summary>
 <li><a href="llc.html">Protection: Trusts, LLCs, and Public Data</a></li>
-</summary>
-<summary>
 <li><a href="less-important.html"><b>Less Important</b></a></li>
-</summary>
-<summary>
 <li><a href="less-important.html">Introduction</a></li>
-</summary>
-<summary>
 <li><a href="voip.html">Protection: Voice-over-IP</a></li>
-</summary>
-<summary>
 <li><a href="email-masking.html">Data Breach Defense: Email Masking</a></li>
-</summary>
-<summary>
 <li><a href="habits.html">Protection: Change Your Online Habits</a></li>
-</summary>
-<summary>
 <li><a href="disinformation.html">Protection: Disinformation</a></li>
-</summary>
-<summary>
 <li><a href="iot.html">Cybersecurity: The Internet of Things</a></li>
-</summary>
-<summary>
 <li><a href="vpns.html">Privacy: VPNs</a>
-</summary>
-<summary>
 <li><a href="links.html"><b>Contact/Links</b></a></li>
-</summary>
 </ul>
 </details>
 </header>
 <main>
-<header>
+<article>
+<div class="subheader">
 <h1 align="center">Privacy: Securing Computers</h1>
-</header>
+</div>
 <p>Just like cell phones, desktop operating systems like Windows and Mac track their users to an excessive degree. <a href="https://www.privacytools.io/operating-systems/#win10">Windows 10 is by far the worst offender</a>, however Mac also has their share of telemetry.</p>
 <p><b>In a perfect world, the best option is <a href="https://io9.gizmodo.com/getting-started-with-linux-the-complete-guide-5778882">Linux</a>.</b> Linux is an open-source operating system with dozens of variants, each offering their own unique set of features and target audience. Most linux distributions are considerably more private compared to Windows and Mac, though some place additional emphasis on privacy or security. I recommend <a href="https://pop.system76.com/">Pop! OS</a> for most users. It is based on Debian, so it can more easily support most programs that users of mainstream softwares have come to rely on, and it has a very user-friendly interface that most users will easily adjust to. At very least, I recommend it as a starting point to get used to Linux and explore the world of alternative operating systems. Another distribution worth noting is <a href="https://getfedora.org/" target="_blank">Fedora</a>. Fedora is less user friendly than Debian, but the security is significantly better.</p>
 <p><b>Not everybody has the luxury of switching to Linux</b> for any number of reasons, such as needing a a specialized program that only runs on Mac/Windows or being in possession of a device that is technically not yours and therefore you can't make such changes to. For those situations, I have listed a set of recommend settings for both Mac and Windows that I encourage you to change (if you can) to make your device a little more private and secure. You can see my criteria for this page and why I recommended these settings <a href="https://gitlab.com/nbartram/the-new-oil/-/wikis/Mobile-Settings-&-Apps,-Desktop-Settings-Criteria">here</a>.</p>
-<header>
+<div class="subheader">
 <h3>Mac OS 11.4: Big Sur</h3>
-</header>
+</div>
 <ul>
 	<li>General: Default web browser: <a href="browser.html">Brave/Firefox</a>
 	<li>Siri: Enable Ask Siri: Off
@@ -168,9 +88,9 @@
 	<li>Advanced users who want more granular control and feel comfortable making extreme changes may want to look into <a href="https://www.obdev.at/products/littlesnitch/index.html">Little Snitch</a>.
 	<li>Advanced users are encouraged to set up <a href="https://github.com/DNSCrypt/dnscrypt-proxy/releases">DNSCrypt</a>.
 </ul>
-<header>
+<div class="subheader">
 <h3>Windows 10: Version 21H1</h3>
-</header>
+</div>
 <ul>
 	<li>System: Notifications & actions: Show notifications on the lock screen: Off
 	<li>System: Shared experiences: Share across devices: Off
@@ -199,18 +119,19 @@
 	<li>Advanced users who want more granular control and feel comfortable making extreme changes may want to look into <a href="https://www.w10privacy.de/english-home/">W10Privacy</a>.
 </ul></p>
 <p>By enabling all of these settings, you are significantly reducing the amount of tracking and data collection these devices perform.</p>
-<header>
+<div class="subheader">
 <h3>Best Practices</h3>
-</header>
+</div>
 <p>By default, both Mac and Windows will create an administrator account when you sign up. After signing up, <b>create a second non-admin account and use that as your main account</b>. This makes it harder for programs to be installed without your knowledge and reduces the risk of malware and viruses getting installed.</p>
 <p><b>Third-party antivirus software has become unnecessary.</b> Using a good <a href="browser.html">ad blocker</a> and good <a href="habits.html">online habits</a> is generally enough to keep any generic malware off your device. Both Windows and Mac both come with built-in malware protection that I encourage you to make use of. On Windows it's called <a href="https://www.microsoft.com/en-us/windows/comprehensive-security">Defender</a>. Macs come with <a href="https://www.howtogeek.com/217043/xprotect-explained-how-your-macs-built-in-anti-malware-works/">XProtect</a>. Viruses on Linux are relatively rare for a variety of reasons, but if you desire more protection there as well <a href="https://www.clamav.net/" target="_blank">Clam AV</a> is considered the most desirable.</p>
 <p>Even with all the <a href="browser.html">plugins</a>, tweaks, and changes we've made to the operating system and the browser, sometimes tracking and other unnecessary files still get through. <b>Cleaning out these files will not only protect your privacy and security, but improve your computer's performance.</b> I recommend using <a href="https://www.bleachbit.org/">BleachBit</a> for this. This is a powerful program that securely deletes your unused files, removes errors from the registry, and fixes broken shortcuts among other things.</p>
-<p><a href="mobile-habits.html">Just as with phones</a>, <b>I encourage you to have as few apps, programs, and files as possible on your computer.</b> Sometimes this is either impossible or just not a reasonable request but, for example, you can use your browser instead of an app to access Netflix or Hulu. I also encourage you to regularly look for and get rid of files you no longer want or need, such as photos of exes or documents you downloaded once so you could print them off. This could potentially be dangerous if your device falls into the wrong hands.</p>
+<p>Just as with <a href="mobile-habits.html">phones</a>, <b>I encourage you to have as few apps, programs, and files as possible on your computer.</b> Sometimes this is either impossible or just not a reasonable request but, for example, you can use your browser instead of an app to access Netflix or Hulu. I also encourage you to regularly look for and get rid of files you no longer want or need, such as photos of exes or documents you downloaded once so you could print them off. This could potentially be dangerous if your device falls into the wrong hands.</p>
 <p>Keep in mind that forensic software can still often recover "deleted" items so if you have anything you want gone for good, be sure to perform a disk wipe, which is offered by Bleachbit. Don't do disk wipes on Solid State Drives as this will shorten their lifespans.</p>
+</article>
+</main>
 <footer>
 <a href="backups.html">Previous</a>
 <a style="float:right;" href="messaging.html">Next</a>
 </footer>
-</main>
 </body>
 </html>
