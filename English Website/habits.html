@@ -5,8 +5,7 @@
   <meta charset="UTF-8">
   <meta name="description" content="Data is the new oil">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="light.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
-  <link rel="stylesheet" type="text/css" href="dark.css" media="(prefers-color-scheme: dark)">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="icon" href="pictures/favicon.ico" type="image/icon">
 </head>
 
@@ -14,159 +13,85 @@
 <header>
      <img src="pictures/header.jpg" alt="The New Oil logo" style="display: block;margin-left: auto;margin-right:auto;">
 <details>
-<summary>
-<img src="pictures/menu.png" alt="Menu logo">
-</summary>
+<summary><img src="pictures/menu.png" alt="Menu logo"></summary>
 <ul>
-<summary>
 <li><a href="about.html"><b>About</a></b></li>
-</summary>
-<summary>
 <li><a href="index.html">Home Page</a></li>
-</summary>
-<summary>
 <li><a href="intro.html">Introduction</a></li>
-</summary>
-<summary>
 <li><a href="threatmodel.html">Threat Modeling</a></li>
-</summary>
-<summary>
 <li><a href="surveillance.html">Understanding Surveillance</a></li>
-</summary>
-<summary>
 <li><a href="secprivanon.html">Security vs Privacy vs Anonymity</a></li>
-</summary>
-<summary>
 <li><a href="oss.html">Open Source vs Proprietary</a></li>
-</summary>
-<summary>
 <li><a href="communication.html">How Network Communication Works</a></li>
-</summary>
-<summary>
 <li><a href="most-important.html"><b>Most Important</b></a></li>
-</summary>
-<summary>
 <li><a href="most-important.html">Introduction</a></li>
-</summary>
-<summary>
 <li><a href="data-breaches.html">Understanding Data Breaches</a></li>
-</summary>
-<summary>
 <li><a href="passwords.html">Data Breach Defense: Strong Passwords</a></li>
-</summary>
-<summary>
 <li><a href="mfa.html">Data Breach Defense: Multifactor Authentication</a></li>
-</summary>
-<summary>
 <li><a href="payments.html">Data Breach Defense: Payment Masking</a></li>
-</summary>
-<summary>
 <li><a href="credit.html">Identity Theft: Freezing Your Credit</a></li>
-</summary>
-<summary>
 <li><a href="mobile.html">Securing Mobile</a></li>
-</summary>
-<summary>
 <li><a href="mobile-settings.html">Securing Mobile: Settings</a></li>
-</summary>
-<summary>
 <li><a href="mobile-apps.html">Securing Mobile: Replacement Apps</a></li>
-</summary>
-<summary>
 <li><a href="browser.html">Privacy: Securing Your Browser</a></li>
-</summary>
-<summary>
 <li><a href="moderately-important.html"><b>Moderately Important</b></a></li>
-</summary>
-<summary>
 <li><a href="moderately-important.html">Introduction</a></li>
-</summary>
-<summary>
 <li><a href="metadata.html">Understanding Metadata</a></li>
-</summary>
-<summary>
 <li><a href="encryption.html">Understanding Encryption</a></li>
-</summary>
-<summary>
 <li><a href="devices.html">Protection: Device Encryption</a></li>
-</summary>
-<summary>
 <li><a href="backups.html">Protection: Backups</a></li>
-</summary>
-<summary>
 <li><a href="desktop-settings.html">Privacy: Securing Desktop</a></li>
-</summary>
-<summary>
 <li><a href="messaging.html">Privacy: Encrypted Texting/Calling</a></li>
-</summary>
-<summary>
 <li><a href="email.html">Privacy: Encrypted E-Mail</a></li>
-</summary>
-<summary>
 <li><a href="mobile-habits.html">Privacy: Mobile Habits</a></li>
-</summary>
-<summary>
 <li><a href="llc.html">Protection: Trusts, LLCs, and Public Data</a></li>
-</summary>
-<summary>
 <li><a href="less-important.html"><b>Less Important</b></a></li>
-</summary>
-<summary>
 <li><a href="less-important.html">Introduction</a></li>
-</summary>
-<summary>
 <li><a href="voip.html">Protection: Voice-over-IP</a></li>
-</summary>
-<summary>
 <li><a href="email-masking.html">Data Breach Defense: Email Masking</a></li>
-</summary>
-<summary>
 <li><a href="habits.html">Protection: Change Your Online Habits</a></li>
-</summary>
-<summary>
 <li><a href="disinformation.html">Protection: Disinformation</a></li>
-</summary>
-<summary>
 <li><a href="iot.html">Cybersecurity: The Internet of Things</a></li>
-</summary>
-<summary>
 <li><a href="vpns.html">Privacy: VPNs</a>
-</summary>
-<summary>
 <li><a href="links.html"><b>Contact/Links</b></a></li>
-</summary>
 </ul>
 </details>
 </header>
 <main>
-<header>
+<article>
+<div class="subheader">
+<h1 align="center">General Online Habits</h1>
+</div>
+<p>This section is a collection of general advice and miscellaneous tips that don't really make sense on any other pages.</p>
+<div class="subheader"
 <h3>Phishing & Clicking Links</h3>
-</header>
+</div>
 <p><b><a href="https://en.wikipedia.org/wiki/Phishing">Phishing</a> has been and remains one of the top ways to gain unauthorized access to a specific machine, account, or network.</b> Phishing occurs when a person clicks on a link and either enters information or downloads a payload that gives a malicious actor access to an account or device. In the case of malware, the attacker can access the data on that machine or the network the machine is connected to. Typically this link-clicking occurs in the form of an email that appears to be legitimate, such as an email that appears to be from your bank asking you to confirm account details or to see an enclosed attachment. Phishing could also come in the form of <a href="https://arstechnica.com/gadgets/2021/07/with-help-from-google-impersonated-brave-com-website-pushes-malware/">malicious advertising</a>. This is why <a href="browser.html">ad-blockers</a> are so important. The final common phishing technique is when an attacker calls you claiming to be an official (ex, from the IRS) and asks you information about yourself.</p>
 <p><b>The best way to avoid phishing is to be overly cautious.</b> If something seems out of character, contact the person and ask about it. For example, if your bank sends an email requiring confirmation of something, ignore the email and go straight to their website. If it's legitimate, the same warning will pop up when you log in or be waiting in your messages. If you're still not sure, contact their support team and ask.</p>
-<header>
+<div class="subheader">
 <h3>Sharing Information</h3>
-</header>
-<p><b>Think carefully about what information you share and what it reveals.</b> Back in the early days of social media, it was common that people would publicly share that they were going on vacation for a week, so criminals in the area would <a href="https://www.zdnet.com/article/infographic-80-of-robbers-check-twitter-facebook-google-street-view/">find their house and rob it</a> while they were gone. That exact crime may or may not live on, but the principle still does. One woman had <a href="https://www.bbc.com/news/world-asia-50000234">a stalker find her</a> because she took a selfie where the street sign was visible. I'm not saying don't share things online, simply to be mindful of what information is visible in the photo, such as a company logo on your shirt or financial information in your screenshot.</p>
+</div>
+<p><b>Think carefully about what information you share and what it reveals.</b> Back in the early days of social media, it was common that people would publicly share that they were going on vacation for a week, so criminals in the area would find the house and<a href="https://www.zdnet.com/article/infographic-80-of-robbers-check-twitter-facebook-google-street-view/">rob it</a> while they were gone. That exact crime may or may not live on, but the principle still does. One woman had a stalker <a href="https://www.bbc.com/news/world-asia-50000234">find her</a> because she took a selfie where the street sign was visible. I'm not saying don't share anything online, simply to be mindful of what information is visible in the photo, such as a company logo on your shirt or financial information in your screenshot.</p>
 <p>Additionally, this extends into non-public internet spaces. For example, next time you sign up for a website or pay for something online, try submitting no information at all. It will likely relaod the page and mark the mandatory fields, but you might be surprised what information is optional. <b>You should view every website as a data breach waiting to happen</b>, and anything that isn't a password or card number is probably not encrypted, so the less personal information you hand over the better. If you are required to hand over information but the requesting site or service doesn't actually need it, consider using <a href="disinformation.html">disinformation</a>.</p>
-<header>
+<div class="subheader">
 <h3>Social Media</h3>
-</header>
+</div>
 <p>While I discourage mainstream social media services for a number of reasons, I understand that sometimes you have no choice in using them. My recommendation would be to not use the apps, post as little as possible, and make your profile as private as possible.</p>
 <p>If you feel the need to have social media, try checking out the decentralized and more privacy-respecting <a href="https://fediverse.party/">Fediverse</a>.</b> This is a volunteer run, peer-to-peer social networking system, and one of the coolest things about it (in my opinion) is the "fedeartion" for which it's named. Imagine if you had a Twitter account but wanted to follow someone on Instagram. In mainstream social media, you have to sign up for Instagram. On the Fediverse, you can follow them from your own platform even without creating a new account. For Twitter fans I recommend <a href="https://joinmastodon.org/">Mastodon</a>. For Instagram fans, <a href="https://pixelfed.org">PixelFed</a>. Facebook users might feel more comfortable on <a href="https://friendi.ca/">Frendica</a> and YouTube users might find new content on <a href="https://joinpeertube.org/">PeerTube</a>.</p>
 <p><b>I discourage using the same username or handle across all your social media accounts</b> unless you're building a professional brand. I suggest using your password manager to generate a two or three random word passphrase and then use that as your handle. Repeat as needed for every site and account. If somebody decides to cyberstalk you, this can make it harder for them to find all of your accounts.</p>
-<header>
+<div class="subheader">
 <h3>Search Engines</h3>
-</header>
+</div>
 <p>Change your default search engine. Google tracks all of your searches and records them, and these are all added to your profile to create a more complete picture of you as a person. Try a privacy-respecting, no-logging search engine such as <a href="https://searx.be">SearX</a>, or <a href="https://metager.org/">MetaGer</a>. <a href="https://duckduckgo.com/">DuckDuckGo</a> and <a href="https://startpage.com/">Startpage</a> are popular search engines that claim to be privacy-respecting, but due to a wide variety of past <a href="https://lemmy.ml/post/31321">questionable</a> <a href="https://restoreprivacy.com/startpage-system1-privacy-one-group/">actions</a> of both and the availablity of better options, I don't particularly encourage them except as backups.</p>
-<header>
+<div class="subheader">
 <h3>Account Hygiene</h3>
-</header>
+</div>
 <p>Delete any and all unused accounts. This includes old social media accounts, library accounts, work accounts, services you signed up for once and never used again, etc. If you can't delete them for whatever reason, change it to a <a href="passwords.html">secure password</a> and hold onto it somewhere safe. The exceptions to this is that I recommend holding onto old email accounts, and I recommend "<a href="https://krebsonsecurity.com/2020/08/why-where-you-should-you-plant-your-flag/">planting your flag</a>" on important accounts that are prone to fraud, such as unemployment. For the email accounts, you never know what you once used them for and when you might need them again for that purpose.</p>
+</article>
+</main>
 <footer>
 <a href="email-masking.html">Previous</a>
 <a style="float:right;" href="disinformation.html">Next</a>
 </footer>
-</main>
 </body>
 </html>
