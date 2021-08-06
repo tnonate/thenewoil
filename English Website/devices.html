@@ -1,89 +1,158 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>The New Oil</title>
   <meta charset="UTF-8">
   <meta name="description" content="Data is the new oil">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="light.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+  <link rel="stylesheet" type="text/css" href="dark.css" media="(prefers-color-scheme: dark)">
   <link rel="icon" href="pictures/favicon.ico" type="image/icon">
 </head>
 
 <body>
-<div class="flex-container">
-	<div class="header">
-     <img style="float:left;position:absolute;" src="pictures/header.jpg" alt="The New Oil logo">
-     <a href="devices_dark.html" style="color:white;padding:50px;">Dark Mode</a>
-		<div class="nav">
-    <ul class="menu">
-	<input type="radio" name="menuopt" id="drop1" />
-        <label class="opener" for="drop1"><img src="pictures/menu.png"></label>
-        <label class="closer" for="dropclose"><img src="pictures/menu.png"></label>
-<ul class="navb">
+<header>
+     <img src="pictures/header.jpg" alt="The New Oil logo" style="display: block;margin-left: auto;margin-right:auto;">
+<details>
+<summary>
+<img src="pictures/menu.png" alt="Menu logo">
+</summary>
+<ul>
+<summary>
 <li><a href="about.html"><b>About</a></b></li>
+</summary>
+<summary>
 <li><a href="index.html">Home Page</a></li>
+</summary>
+<summary>
 <li><a href="intro.html">Introduction</a></li>
+</summary>
+<summary>
 <li><a href="threatmodel.html">Threat Modeling</a></li>
+</summary>
+<summary>
 <li><a href="surveillance.html">Understanding Surveillance</a></li>
-<li><a href="privsecanon.html">Security vs Privacy vs Anonymity</a></li>
+</summary>
+<summary>
+<li><a href="secprivanon.html">Security vs Privacy vs Anonymity</a></li>
+</summary>
+<summary>
 <li><a href="oss.html">Open Source vs Proprietary</a></li>
+</summary>
+<summary>
 <li><a href="communication.html">How Network Communication Works</a></li>
-<li><a href="most_important.html"><b>Most Important</b></a></li>
-<li><a href="most_important.html">Introduction</a></li>
-<li><a href="data_breaches.html">Understanding Data Breaches</a></li>
+</summary>
+<summary>
+<li><a href="most-important.html"><b>Most Important</b></a></li>
+</summary>
+<summary>
+<li><a href="most-important.html">Introduction</a></li>
+</summary>
+<summary>
+<li><a href="data-breaches.html">Understanding Data Breaches</a></li>
+</summary>
+<summary>
 <li><a href="passwords.html">Data Breach Defense: Strong Passwords</a></li>
+</summary>
+<summary>
 <li><a href="mfa.html">Data Breach Defense: Multifactor Authentication</a></li>
+</summary>
+<summary>
 <li><a href="payments.html">Data Breach Defense: Payment Masking</a></li>
+</summary>
+<summary>
 <li><a href="credit.html">Identity Theft: Freezing Your Credit</a></li>
+</summary>
+<summary>
 <li><a href="mobile.html">Securing Mobile</a></li>
-<li><a href="settings.html">Securing Mobile: Settings</a></li>
-<li><a href="apps.html">Securing Mobile: Replacement Apps</a></li>
+</summary>
+<summary>
+<li><a href="mobile-settings.html">Securing Mobile: Settings</a></li>
+</summary>
+<summary>
+<li><a href="mobile-apps.html">Securing Mobile: Replacement Apps</a></li>
+</summary>
+<summary>
 <li><a href="browser.html">Privacy: Securing Your Browser</a></li>
-<li><a href="moderately_important.html"><b>Moderately Important</b></a></li>
-<li><a href="moderately_important.html">Introduction</a></li>
+</summary>
+<summary>
+<li><a href="moderately-important.html"><b>Moderately Important</b></a></li>
+</summary>
+<summary>
+<li><a href="moderately-important.html">Introduction</a></li>
+</summary>
+<summary>
 <li><a href="metadata.html">Understanding Metadata</a></li>
+</summary>
+<summary>
 <li><a href="encryption.html">Understanding Encryption</a></li>
+</summary>
+<summary>
 <li><a href="devices.html">Protection: Device Encryption</a></li>
+</summary>
+<summary>
 <li><a href="backups.html">Protection: Backups</a></li>
-<li><a href="desktop.html">Privacy: Securing Desktop</a></li>
-<li><a href="messaging.html">Privacy: Encrypted Messaging</a></li>
-<li><a href="mobile2.html">Privacy: Mobile Habits</a></li>
+</summary>
+<summary>
+<li><a href="desktop-settings.html">Privacy: Securing Desktop</a></li>
+</summary>
+<summary>
+<li><a href="messaging.html">Privacy: Encrypted Texting/Calling</a></li>
+</summary>
+<summary>
+<li><a href="email.html">Privacy: Encrypted E-Mail</a></li>
+</summary>
+<summary>
+<li><a href="mobile-habits.html">Privacy: Mobile Habits</a></li>
+</summary>
+<summary>
 <li><a href="llc.html">Protection: Trusts, LLCs, and Public Data</a></li>
-<li><a href="less_important.html"><b>Less Important</b></a></li>
-<li><a href="less_important.html">Introduction</a></li>
+</summary>
+<summary>
+<li><a href="less-important.html"><b>Less Important</b></a></li>
+</summary>
+<summary>
+<li><a href="less-important.html">Introduction</a></li>
+</summary>
+<summary>
 <li><a href="voip.html">Protection: Voice-over-IP</a></li>
-<li><a href="email.html">Data Breach Defense: Email Masking</a></li>
+</summary>
+<summary>
+<li><a href="email-masking.html">Data Breach Defense: Email Masking</a></li>
+</summary>
+<summary>
 <li><a href="habits.html">Protection: Change Your Online Habits</a></li>
+</summary>
+<summary>
 <li><a href="disinformation.html">Protection: Disinformation</a></li>
+</summary>
+<summary>
 <li><a href="iot.html">Cybersecurity: The Internet of Things</a></li>
+</summary>
+<summary>
 <li><a href="vpns.html">Privacy: VPNs</a>
-<li><a href="final.html"><b>Final Thoughts</b></a></li>
+</summary>
+<summary>
 <li><a href="links.html"><b>Contact/Links</b></a></li>
-        <input type="radio" name="menuopt" id="dropclose" />
+</summary>
 </ul>
-</div>
-</div>
-<div class="main">
-<div class="content">
-<div class="h1">
+</details>
+</header>
+<main>
+<header>
 <h1 align="center">Protection: Device Encryption</h1>
-</div>
-<p><b>Encrypting phones is easy.</b> <a href="https://ssd.eff.org/en/module/how-encrypt-your-iphone" target="_blank">iPhones are encrypted simply by activating the passcode lock feature</a>.  Android devices are encrypted via the settings, which I listed in my <a href="settings.html">recommended settings changes</a>.  Encrypting other devices is a little difficult.</p>
-<p>First off: priorities.  <b>I recommend putting emphasis on encrypting devices that are easily capable of travel, whether they travel or not.</b>  Phones should be encrypted as they get lost and stolen constantly and contain tons of sensitive information like banking apps, emails, messages, and more. Phones are critically important and should always be encrypted. Next would be laptops, even if you don't travel with them. It's easy for a thief to pick them up and take off with them, so they should be encrypted. The same logic goes for external harddrives and backups.  Finally, desktop computers. Encryption is literally free, so I recommend encrypting everything, just be careful not to lose your password or else you're in trouble.</p>
-<p>Mac devices come with a proprietary encryption program called <a href="https://support.apple.com/en-us/HT204837" target="_blank">FileVault</a>. This is relatively secure and should work for most people.  Some Windows devices also come with an easy-to-use proprietary service called “<a href="https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview" target="_blank">BitLocker</a>” that should work for those who have it. But if you want to go a step further, or if you have a Windows device without BitLocker, then I recommend <a href="https://www.veracrypt.fr/en/Home.html" target="_blank">VeraCrypt</a>.  Veracrypt is a free, open source software that allows various forms of encryption.  For devices like computers and external harddrives, <b>you'll want to use "full disk encryption," meaning that the entire device is encrypted completely</b>.</p>
-<div class="h2">
+</header>
+<p><b>Encrypting phones is easy.</b> Both Android and iOS are automatically encrypted if you assign a lock PIN, pattern, or other form of authentication. I recommended enabling this feature <a href="mobile-settings.html">earlier</a>. Encrypting desktops and laptops takes a little more effort. <b>I recommend putting priority on encrypting devices that are easily portable</b>. Phones should be encrypted as they get lost and stolen often and contain sensitive information (though if you followed <a href="mobile.html">my advice</a> there should be less sensitive data on your phone than most people). Next are laptops, even if you don't ever take them off your desk or out of the house. It's easy for a thief to pick one up and take off with it, so they should be encrypted. The same logic goes for external harddrives, thumb drives, and and other similar devices. Finally, desktop computers. Encryption is free, so I recommend encrypting everything you can, just be careful not to forget your password and to keep diligent <a href="backups.html">backups</a>.</p>
+<p>Mac devices come with a proprietary encryption program called <a href="https://support.apple.com/en-us/HT204837">FileVault</a>. This is relatively secure and easy, so it should work for most people. Some Windows devices also come with an easy-to-use proprietary service called “<a href="https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview">BitLocker</a>” that should work for those who have it. Most Linux distributions also offer the chance to full-disk encrypt your device with LUKS during installation, as well. If you have a Windows device without BitLocker, or if you don't want to use a proprietary encryption software (or LUKS), then I recommend <a href="https://www.veracrypt.fr/en/Home.html">VeraCrypt</a>. Veracrypt is a free, open source software that allows various forms of encryption. For most of my readers and in most cases, <b>use "full disk encryption," meaning that the entire device is encrypted completely</b>.</p>
+<header>
 <h3>Using Veracrypt</h3>
-</div>
-<p>In this paragraph I'll talk you through how to encrypt an external device using Veracraypt.  In the future I hope to add a section on full-disk encryption, but until I'm able to get that, try <a href="https://invidio.us/watch?v=C25VWAGl7Tw" target="_blank">try this video tutorial</a>.
-<p>To encrypt an external device, run Veracrypt, go to the "Volume Creation Wizard" under the Tools menu, and select "<a href="pictures/b01.jpg" target="_blank">Encrypt a non-system partition/drive</a>."  Pick "<a href="pictures/b02.jpg" target="_blank">Standard VeraCrypt Volume</a>," then "<a href="pictures/b03.jpg" target="_blank">Create encrypted volume and format it</a>."  Please be aware: this will wipe all the data already on your drive, so I recommend only using this with a fresh, empty drive.  Finally, make sure <a href="pictures/b04.jpg" target="_blank">the algorithms are set to AES and SHA-512</a>, select a <a href="passwords.html">good password</a> on the next screen, then pick your file system format.  If you're only using Windows systems, NTFS is the best choice.  If you plan to switch between various operating systems like Mac or Linux, then exFAT is is the better choice, but keep in mind exFAT can't support files over 4GB.  After making this choice, simply continue on and follow the prompts accordingly.</p>
-<p><b>NOTE:</b> while installing Veracrypt, you will be asked to create a "recovery USB." I highly encourage you to do so and to store it somewhere safe. Even something as simple as a routine update has the potential to go wrong and the only way to recover your data will be to decrypt the drive using this USB.</p>
-<br>
-<div class="next" style="clear:both;"><a href="encryption.html">Previous</a>
+</header>
+<p>In this paragraph I'll talk you through how to encrypt an external device using Veracraypt. To encrypt an external device, run Veracrypt. Go to the "Volume Creation Wizard" under the Tools menu, and select "<a href="pictures/b01.jpg">Encrypt a non-system partition/drive</a>."  Pick "<a href="pictures/b02.jpg">Standard VeraCrypt Volume</a>," then "<a href="pictures/b03.jpg">Create encrypted volume and format it</a>."  <b>Note:</b> this will wipe all the data already on your drive, so I recommend only using this with a fresh, empty drive. Finally, make sure <a href="pictures/b04.jpg">the algorithms are set to AES and SHA-512</a>, select a <a href="passwords.html">good password</a> on the next screen and pick your file system format. If you're only using Windows systems, NTFS is the best choice. If you plan to switch between various operating systems like Mac or Linux, then exFAT is is the better choice, but keep in mind exFAT can't support files over 4GB (that would be about the same as a high-definition blockbuster film). After making this choice, simply continue on and follow the prompts accordingly.</p>
+<p><b>Note:</b> while installing Veracrypt, you will be asked to create a "recovery USB." I highly encourage you to do so and to store it somewhere safe. Even something as simple as a routine update has the potential to go wrong and the only way to recover your data will be to decrypt the drive using this USB.</p>
+<footer>
+<a href="encryption.html">Previous</a>
 <a style="float:right;" href="backups.html">Next</a>
-</div>
-</div>
-</div>
-</div>
-
+</footer>
+</main>
 </body>
 </html>
