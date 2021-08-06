@@ -5,8 +5,7 @@
   <meta charset="UTF-8">
   <meta name="description" content="Data is the new oil">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="light.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
-  <link rel="stylesheet" type="text/css" href="dark.css" media="(prefers-color-scheme: dark)">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="icon" href="pictures/favicon.ico" type="image/icon">
 </head>
 
@@ -14,157 +13,79 @@
 <header>
      <img src="pictures/header.jpg" alt="The New Oil logo" style="display: block;margin-left: auto;margin-right:auto;">
 <details>
-<summary>
-<img src="pictures/menu.png" alt="Menu logo">
-</summary>
+<summary><img src="pictures/menu.png" alt="Menu logo"></summary>
 <ul>
-<summary>
 <li><a href="about.html"><b>About</a></b></li>
-</summary>
-<summary>
 <li><a href="index.html">Home Page</a></li>
-</summary>
-<summary>
 <li><a href="intro.html">Introduction</a></li>
-</summary>
-<summary>
 <li><a href="threatmodel.html">Threat Modeling</a></li>
-</summary>
-<summary>
 <li><a href="surveillance.html">Understanding Surveillance</a></li>
-</summary>
-<summary>
 <li><a href="secprivanon.html">Security vs Privacy vs Anonymity</a></li>
-</summary>
-<summary>
 <li><a href="oss.html">Open Source vs Proprietary</a></li>
-</summary>
-<summary>
 <li><a href="communication.html">How Network Communication Works</a></li>
-</summary>
-<summary>
 <li><a href="most-important.html"><b>Most Important</b></a></li>
-</summary>
-<summary>
 <li><a href="most-important.html">Introduction</a></li>
-</summary>
-<summary>
 <li><a href="data-breaches.html">Understanding Data Breaches</a></li>
-</summary>
-<summary>
 <li><a href="passwords.html">Data Breach Defense: Strong Passwords</a></li>
-</summary>
-<summary>
 <li><a href="mfa.html">Data Breach Defense: Multifactor Authentication</a></li>
-</summary>
-<summary>
 <li><a href="payments.html">Data Breach Defense: Payment Masking</a></li>
-</summary>
-<summary>
 <li><a href="credit.html">Identity Theft: Freezing Your Credit</a></li>
-</summary>
-<summary>
 <li><a href="mobile.html">Securing Mobile</a></li>
-</summary>
-<summary>
 <li><a href="mobile-settings.html">Securing Mobile: Settings</a></li>
-</summary>
-<summary>
 <li><a href="mobile-apps.html">Securing Mobile: Replacement Apps</a></li>
-</summary>
-<summary>
 <li><a href="browser.html">Privacy: Securing Your Browser</a></li>
-</summary>
-<summary>
 <li><a href="moderately-important.html"><b>Moderately Important</b></a></li>
-</summary>
-<summary>
 <li><a href="moderately-important.html">Introduction</a></li>
-</summary>
-<summary>
 <li><a href="metadata.html">Understanding Metadata</a></li>
-</summary>
-<summary>
 <li><a href="encryption.html">Understanding Encryption</a></li>
-</summary>
-<summary>
 <li><a href="devices.html">Protection: Device Encryption</a></li>
-</summary>
-<summary>
 <li><a href="backups.html">Protection: Backups</a></li>
-</summary>
-<summary>
 <li><a href="desktop-settings.html">Privacy: Securing Desktop</a></li>
-</summary>
-<summary>
 <li><a href="messaging.html">Privacy: Encrypted Texting/Calling</a></li>
-</summary>
-<summary>
 <li><a href="email.html">Privacy: Encrypted E-Mail</a></li>
-</summary>
-<summary>
 <li><a href="mobile-habits.html">Privacy: Mobile Habits</a></li>
-</summary>
-<summary>
 <li><a href="llc.html">Protection: Trusts, LLCs, and Public Data</a></li>
-</summary>
-<summary>
 <li><a href="less-important.html"><b>Less Important</b></a></li>
-</summary>
-<summary>
 <li><a href="less-important.html">Introduction</a></li>
-</summary>
-<summary>
 <li><a href="voip.html">Protection: Voice-over-IP</a></li>
-</summary>
-<summary>
 <li><a href="email-masking.html">Data Breach Defense: Email Masking</a></li>
-</summary>
-<summary>
 <li><a href="habits.html">Protection: Change Your Online Habits</a></li>
-</summary>
-<summary>
 <li><a href="disinformation.html">Protection: Disinformation</a></li>
-</summary>
-<summary>
 <li><a href="iot.html">Cybersecurity: The Internet of Things</a></li>
-</summary>
-<summary>
 <li><a href="vpns.html">Privacy: VPNs</a>
-</summary>
-<summary>
 <li><a href="links.html"><b>Contact/Links</b></a></li>
-</summary>
 </ul>
 </details>
 </header>
 <main>
-<header>
+<article>
+<div class="subheader">
 <h1 align="center">Protection: Backups</h1>
-</header>
+</div>
 <p><b>Backups are critical since devices regularly fail, break, or get stolen, lost, or corrupted/</b> To develop good backup habits, <b>first you need to decide how much space you need</b>. If you're only worried about backing up important text files and financial documents, you probably don't need more than a few gigabytes. If you'll be backing up videos and pictures, you'll want something more in the hundreds of gigabytes or few terabytes range.</p>
 <p><b>Next, you'll need to decide how often you need to back up and how far back you need to keep your backups.</b> This will play a part in deciding your storage size. Even if your one-time backup is small, keeping weekly copies can add up quickly. Decide if you want to keep a specific amount of backups (ex: six-month's worth of weekly backups) or just the most recent however-many it can hold (or less), with the oldest ones being deleted to make space for the newest ones.</p>
 <p><b>Finally, come up with a system.</b> Windows and Mac have features that allow you to automate the backup process including frequency, which files to include, and where to store them. These are fine systems to put in place, just remember to make sure your encrypted storage location is unlocked if encrypted so the backup is able to take place. If you decide to manually handle your backups, be sure to set regular reminders so you don't forget. Automatic backups are desirable when possible.</p>
 <p><b>The 3-2-1 Rule</b></p>
 <p>The 3-2-1 Rule is a guidelen for considering how to organize your backups effectively. It states that you should have 3 copies of your data - 2 backups plus your live (daily in-use) copy. You should have 2 separate formats for your backups - such as an external hard drive and a cloud copy. Finally, you should have 1 of those copies offsite - again, a cloud copy or a USB at a friend's house - in case of physical damage or disaster at your location.</p>
-<header>
+<div class="subheader">
 <h3>Privacy-Respecting Cloud Backups</h3>
-</header>
+</div>
 <p>Generally speaking, <b>I advise against using Google Drive, Dropbox, iCloud, or similar services</b>. For starters, I advise against using them as-is because they are not <a href="encryption.html">zero-knowledge</a>. Second, even using them with one of the solutions in the next section, they can see that you have encrypted files in your storage space, and we don't know if someday they'll decide to take an anti-encryption stance and delete it or your account. There is always an anti-encryption rhetoric coming from numerous governments around the world. Finally, <a href="https://cloud.google.com/security/encryption-at-rest/default-encryption/">Google Drive</a> and <a href="https://support.apple.com/en-us/HT202303">Apple iCloud</a> use weak encryption standards</b> in some cases.</p>
 <img src="pictures/nextcloud.png" align="right" alt="nextcloud logo">
-<p>If your backup solution is a local hard drive, I discussed using Veracrypt in the <a href="devices.html">previous section</a> to encrypt your device. <b>There are several secure and private cloud backup solutions.</b> The best-case scenario is to self-host a <a href="https://nextcloud.com/">Nextcloud server</a> so you have complete and total control of the data on a trusted, open source platform. However, this can be unrealistic to many for a number of reasons, so a good alternative is to select a <a href="https://nextcloud.com/signup/">provider</a> who is zero knowledge. If for some reason this option doesn't meet your needs, my next recommendation would be using <a href="https://filen.io/">Filen</a>. Filen is an open-source, zero-knowledge cloud service that functions similar to Dropbox. They offer 10 gigabytes of storage for free and have paid tiers that offer more storage and features. If you plan to use Proton for <a href="email.html">email</a> or <a href="vpns.html">VPN</a>, you may also consider paying for access to <a href="https://drive.protonmail.com/">ProtonDrive</a>. ProtonDrive is currently in beta-testing and should be considered unstable, and does not offer a desktop app for easy file sync the way Filen does. ProtonDrive will be open-sourced once it moves out of beta. (To see my criteria for listing these services, check <a href="https://gitlab.com/nbartram/the-new-oil/-/wikis/Backup-Criteria">here</a>.)</p>
-<header>
+<p>If your backup solution is a local hard drive, I discussed using Veracrypt in the previous <a href="devices.html">section</a> to encrypt your device. <b>There are several secure and private cloud backup solutions.</b> The best-case scenario is to self-host a <a href="https://nextcloud.com/">Nextcloud</a> server so you have complete and total control of the data on a trusted, open source platform. However, this can be unrealistic to many for a number of reasons, so a good alternative is to select a <a href="https://nextcloud.com/signup/">provider</a> who is zero knowledge. If for some reason this option doesn't meet your needs, my next recommendation would be using <a href="https://filen.io/">Filen</a>. Filen is an open-source, zero-knowledge cloud service that functions similar to Dropbox. They offer 10 gigabytes of storage for free and have paid tiers that offer more storage and features. If you plan to use Proton for <a href="email.html">email</a> or <a href="vpns.html">VPN</a>, you may also consider paying for access to <a href="https://drive.protonmail.com/">ProtonDrive</a>. ProtonDrive is currently in beta-testing and should be considered unstable, and does not offer a desktop app for easy file sync the way Filen does. ProtonDrive will be open-sourced once it moves out of beta. (To see my criteria for listing these services, check <a href="https://gitlab.com/nbartram/the-new-oil/-/wikis/Backup-Criteria">here</a>.)</p>
+<div class="subheader">
 <h3>Mainstream Cloud Providers</h3>
-</header>
+</div>
 <img src="pictures/cryptomater.png" align="left" alt="cryptomater logo">
 <p><b>If none of these options work for you, there are two ways to upload encrypted content to mainstream cloud providers</b> like Google Drive or iCloud. The first is <a href="https://cryptomator.org/">Cryptomater</a>, an open source tool that allows you to encrypt each individual file and sync it with the cloud. It works for Google Drive and Dropbox. If you aren't using one of those services or otherwise don't want to use Cryptomater, then consider the following strategy:</p>
 <p>First, figure out how much storage you need. Google Drive offers 15 gigabytes for free, Apple iCloud offers 5 gigabytes for free, and Dropbox offers 2 gigabytes for free. Next, make sure you have installed that service's file sync application. This is typically an app that will create a folder on your computer, and that folder acts as a real-time sync between your account and your computer. It's designed to make working directly from the file in your account effortless.</p>
-<p>Now open up Veracrypt, select the "Tools" menu, and choose "Volume Creation Wizard." Pick "<a href="pictures/c01.jpg">Create an encrypted file container</a>," "<a href="pictures/b02.jpg">Standard VeraCrypt Volume</a>," then click "Select File" and <a href="pictures/c03.jpg">navigate to your Google Drive or Dropbox folder</a>. Once in the folder, you'll have to makeup a nonexistant file name. Anything works, from "Backup" to "veracrypt_containter" or whatever you want. Once you hit "save," it should show you the file path. Continue onward, making sure you've selected "<a href="pictures/c04.jpg">AES" and "SHA-512</a>" for your algorithms, and then move on. The next screen will ask you for a <a href="pictures/c05.jpg">volume size</a>. Ideally, I would say use as much as you can. If you use your Dropbox or Google Drive for other sharing purposes, leave enough space free for that or maybe only use the exact amount of space you require for your backup strategy. Once you decide what storage size is appropriate for you, go to the next screen where it requires a password. From there, it's pretty self explanatory. Just answer the questions and it will pick the best formats and such for you.</p>
+<p>Now open up Veracrypt, select the "Tools" menu, and choose "Volume Creation Wizard." Pick "<a href="pictures/c01.jpg">Create</a> an encrypted file container," "<a href="pictures/b02.jpg">Standard</a> Veracrypt Volume," then click "Select File" and <a href="pictures/c03.jpg">navigate</a> to your cloud service folder. Once in the folder, you'll have to makeup a nonexistant file name. Anything works, from "Backup" to "veracrypt_containter" or whatever you want. Once you hit "save," it should show you the file path. Continue onward, making sure you've selected "<a href="pictures/c04.jpg">AES</a>" and "SHA-512" for your algorithms, and then move on. The next screen will ask you for a <a href="pictures/c05.jpg">volume size</a>. Ideally, I would say use as much as you can. If you use your Dropbox or Google Drive for other sharing purposes, leave enough space free for that or maybe only use the exact amount of space you require for your backup strategy. Once you decide what storage size is appropriate for you, go to the next screen where it requires a password. From there, it's pretty self explanatory. Just answer the questions and it will pick the best formats and such for you.</p>
 <p><b>If you follow these steps, you should have created secure, consistent backups</b> that will protect you in the event of a lost, stolen, or damaged device, or even the dreaded ransomware.</p>
+</article>
+</main>
 <footer>
 <a href="devices.html">Previous</a>
 <a style="float:right;" href="desktop-settings.html">Next</a>
 </footer>
-</main>
 </body>
 </html>
