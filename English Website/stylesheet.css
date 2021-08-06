@@ -54,10 +54,6 @@ main a:hover, main a:focus {
   font-size: 17px;
 }
 
-article {
-  background-color: white;
-}
-
 .subheader {
   border-radius: 5px;
 }
