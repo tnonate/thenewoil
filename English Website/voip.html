@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>The New Oil</title>
   <meta charset="UTF-8">
@@ -10,85 +10,83 @@
 </head>
 
 <body>
-<div class="flex-container">
-	<div class="header">
-     <img style="float:left;position:absolute;" src="pictures/header.jpg" alt="The New Oil logo">
-     <a href="voip_dark.html" style="color:white;padding:50px;">Dark Mode</a>
-		<div class="nav">
-    <ul class="menu">
-	<input type="radio" name="menuopt" id="drop1" />
-        <label class="opener" for="drop1"><img src="pictures/menu.png"></label>
-        <label class="closer" for="dropclose"><img src="pictures/menu.png"></label>
-<ul class="navb">
+<header>
+     <img src="pictures/header.jpg" alt="The New Oil logo" style="display: block;margin-left: auto;margin-right:auto;">
+<details>
+<summary><img src="pictures/menu.png" alt="Menu logo"></summary>
+<ul>
 <li><a href="about.html"><b>About</a></b></li>
 <li><a href="index.html">Home Page</a></li>
 <li><a href="intro.html">Introduction</a></li>
 <li><a href="threatmodel.html">Threat Modeling</a></li>
 <li><a href="surveillance.html">Understanding Surveillance</a></li>
-<li><a href="privsecanon.html">Security vs Privacy vs Anonymity</a></li>
+<li><a href="secprivanon.html">Security vs Privacy vs Anonymity</a></li>
 <li><a href="oss.html">Open Source vs Proprietary</a></li>
 <li><a href="communication.html">How Network Communication Works</a></li>
-<li><a href="most_important.html"><b>Most Important</b></a></li>
-<li><a href="most_important.html">Introduction</a></li>
-<li><a href="data_breaches.html">Understanding Data Breaches</a></li>
+<li><a href="most-important.html"><b>Most Important</b></a></li>
+<li><a href="most-important.html">Introduction</a></li>
+<li><a href="data-breaches.html">Understanding Data Breaches</a></li>
 <li><a href="passwords.html">Data Breach Defense: Strong Passwords</a></li>
 <li><a href="mfa.html">Data Breach Defense: Multifactor Authentication</a></li>
 <li><a href="payments.html">Data Breach Defense: Payment Masking</a></li>
 <li><a href="credit.html">Identity Theft: Freezing Your Credit</a></li>
 <li><a href="mobile.html">Securing Mobile</a></li>
-<li><a href="settings.html">Securing Mobile: Settings</a></li>
-<li><a href="apps.html">Securing Mobile: Replacement Apps</a></li>
+<li><a href="mobile-settings.html">Securing Mobile: Settings</a></li>
+<li><a href="mobile-apps.html">Securing Mobile: Replacement Apps</a></li>
 <li><a href="browser.html">Privacy: Securing Your Browser</a></li>
-<li><a href="moderately_important.html"><b>Moderately Important</b></a></li>
-<li><a href="moderately_important.html">Introduction</a></li>
+<li><a href="moderately-important.html"><b>Moderately Important</b></a></li>
+<li><a href="moderately-important.html">Introduction</a></li>
 <li><a href="metadata.html">Understanding Metadata</a></li>
 <li><a href="encryption.html">Understanding Encryption</a></li>
 <li><a href="devices.html">Protection: Device Encryption</a></li>
 <li><a href="backups.html">Protection: Backups</a></li>
-<li><a href="desktop.html">Privacy: Securing Desktop</a></li>
-<li><a href="messaging.html">Privacy: Encrypted Messaging</a></li>
-<li><a href="mobile2.html">Privacy: Mobile Habits</a></li>
+<li><a href="desktop-settings.html">Privacy: Securing Desktop</a></li>
+<li><a href="messaging.html">Privacy: Encrypted Texting/Calling</a></li>
+<li><a href="email.html">Privacy: Encrypted E-Mail</a></li>
+<li><a href="mobile-habits.html">Privacy: Mobile Habits</a></li>
 <li><a href="llc.html">Protection: Trusts, LLCs, and Public Data</a></li>
-<li><a href="less_important.html"><b>Less Important</b></a></li>
-<li><a href="less_important.html">Introduction</a></li>
+<li><a href="less-important.html"><b>Less Important</b></a></li>
+<li><a href="less-important.html">Introduction</a></li>
 <li><a href="voip.html">Protection: Voice-over-IP</a></li>
-<li><a href="email.html">Data Breach Defense: Email Masking</a></li>
+<li><a href="email-masking.html">Data Breach Defense: Email Masking</a></li>
 <li><a href="habits.html">Protection: Change Your Online Habits</a></li>
 <li><a href="disinformation.html">Protection: Disinformation</a></li>
 <li><a href="iot.html">Cybersecurity: The Internet of Things</a></li>
 <li><a href="vpns.html">Privacy: VPNs</a>
-<li><a href="final.html"><b>Final Thoughts</b></a></li>
 <li><a href="links.html"><b>Contact/Links</b></a></li>
-        <input type="radio" name="menuopt" id="dropclose" />
 </ul>
-</div>
-</div>
-<div class="main">
-<div class="content">
-<div class="h1">
+</details>
+</header>
+<main>
+<article>
+<div class="subheader">
 <h1 align="center">Protection: Voice-over-IP</h1>
 </div>
-<p>This section, to me, wavers somewhere between "optional" and "critical" depending on your situation. If you are a freelancer, if you're still dating around, if you work in a high-profile or sensitive position, if you're job hunting, or <b>any other similar situation, this section is critical for you. I would define a "similar situation" as any situation where you hand your phone number out frequently to strangers or you have an increased need for privacy</b> (such as the "high profile position" caveat). If you don't feel you fall into this category, consider this section "not mandatory but highly recommended."</p>
-<p>Voice-over-IP is the technology allowing phone calls to be sent over the internet rather than phone protocols. The capability has been around for decades and has actually been extremely common in the commercial world as an efficient way to manage multiple phone numbers in office environments. The technology has recently started to become popular with cell phones as a way to circumvent needing to "use minutes," especially with international calls, and even more recently has become popular for its privacy implications.</p>
-<div class="h2">
-<h3>Why SIM is Bad</h3>
+<div class="subheader">
+<h3>What is Voice-over-IP (VoIP)?</h3>
 </div>
-<p>Regular SIM phone numbers are tied to individuals. In some parts of the world, an identification is needed. Here in America, the most common way it gets tied to a person is by setting up a phone plan in your real name, often accompanied by a credit check so you can buy an expensive smartphone on a payment plan. Once that happens, <b>the phone number issued by your cell provider basically becomes a type of social security number</b>, and there are numerous websites where I can type in your phone number and get varying degrees of information about the owner of that number. Usually <b>at a bare minimum I can get the provider and general location of the the owner (often accurate to within the city). Sometimes I can get a full address, a full name, roommates, historical information, and more.</b></p>
-<p>Voice-over-IP numbers are significantly less regulated and therefore give away immensely less information. Often with a VoIP number I'm lucky if I can find the registrar who assigned the number, much less a name or location associated with it. So by using a VoIP number instead of your real number, you dramatically reduce risk to yourself.</p>
-<div class="h2">
-<h3>Advantages of VoIP</h3>
+<p>Voice-over-IP is the technology allowing phone calls to be sent over the internet rather than regular phone protocols. The capability has been around for decades and has been extremely common in the commercial world as an efficient way to manage multiple phone numbers in office environments. The technology has recently started to become popular with cell phones as a way to circumvent needing to "use minutes," especially with international calls, and even more recently has become popular for its privacy implications.</p>
+<div class="subheader">
+<h3>Why do I Need Voice-over-IP?</h3>
 </div>
-<p>Using VoIP is a great way to compartmentalize your life. For example, <b>using a VoIP number exclusively for dating is a great way to protect against potential stalkers.</b> Rarely will a manipulative or dangerous person reveal this on the first date. You may not start seeing red flags for quite some time. As such, a VoIP number is handy here. The person won't be able to research the number and find any information about you, and once you start to see the red flags you can cut off the number and lose them before you put yourself in danger.</p>
-<p>Another handy feature of VoIP is the professional protection. <b>As a freelancer, I can give out my work phone number to anyone they want and not have to worry about an angry client doxxing me or discovering any personal aspects of my life</b> that I may not want them to know. Consider this: in some states, public records are so open that many people search websites are able to connect your phone number to your voter records and publish your registered party online. I, personally, try to be apolitical in my professional life, and I would hate for a client to not hire me based on my political leanings without getting to know me first. I have frequently worked for clients who openly voice different political opinions than me and almost all of them have become regular customers. Imagine if I'd lost that reliable income stream because they looked my number up online and decided to pass based on a snap judgment of me exercising my legal rights.</p>
-<p>Additionally, on the topic of work, with many people now working from home, <b>a VoIP number allows you to create and enforce a healthy work/life balance.</b> I do not have my work email on my phone, and if after-hours calls or texts ever become an issue, I can set my VoIP number to turn off after hours so that it doesn't even ring. My coworkers would have no choice in this situation but to wait for me to decide to check my messages and contact them. It should go without saying that I don't recommend this if your job actually demands that you be on call, such as an EMT or tech support, but in all other situations this can be a great way to enforce those healthy boundaries.</p>
-<p><b>Note: None of these options are highly privacy respecting, and none of them are open source.</b> As explained below the table, <b>VoIP is not meant to be a replacement for encrypted messaging.</b> As such, I'm presenting a wide rang of options for your consideration, but be aware that none of them are truly private or safe.
+<p>If you are a freelancer, still dating around, work in a high-profile or sensitive position, job hunting, or <b>any other similar situation, this section is critical for you.</b> I would define a "similar situation" as any situation where you hand your phone number out frequently to strangers or you have an increased need for privacy. If you don't feel you fall into this category, consider this section "not mandatory but highly recommended."</p>
+<p>Regular SIM phone numbers are often tied to individuals. In some parts of the world, an identification is required, but in other places the most common way it gets tied to a person is by setting up a phone plan in a real name, often accompanied by a credit check to buy an expensive smartphone on a payment plan. Once that happens, <b>the phone number issued by the cell provider basically becomes a type of identification number</b>. There are numerous websites where one can type in a phone number and get varying degrees of information about the owner of that number. Usually at a bare minimum one can get the provider and general location of the the owner (often accurate to within the city). Sometimes one can get a full address, a full name, roommates, historical information, and more. Voice-over-IP numbers are significantly less regulated and therefore give away immensely less information. By using a VoIP number instead of your real number, you dramatically reduce risk to yourself.</p>
+<div class="subheader">
+<h3>Example Advantages of VoIP</h3>
+</div>
+<p>Using VoIP is a great way to compartmentalize your life. For example, <b>using a VoIP number exclusively for dating is a great way to protect against potential stalkers.</b> The person won't be able to research your number and find any information about you, leaving you free to cut off the number and safely lose them before you put yourself in danger.</p>
+<p>Another handy feature of VoIP is professional protection. <b>As a freelancer, I can give out my work phone number to anyone they want and not have to worry about a client discovering any personal aspects of my life</b> that I may not want them to know. Consider this: in some states, public records are so open that many people search websites are able to connect your phone number to your voter records and publish your registered party online. I would hate for a client to not hire me based on my registered political party without knowing me. </p>
+<p>On the topic of work, with many people now working from home, <b>a VoIP number allows you to create and enforce a healthy work/life balance.</b> If after-hours calls or texts ever become an issue, you can turn off your VoIP number after hours so that it doesn't even ring. Your coworkers would have no choice in this situation but to wait business hours.</p>
+<p><b>Note: None of these services on this page are open source, and few of them claim to be privacy respecting.</b> As explained below the table, <b>VoIP is not meant to be a replacement for encrypted messaging.</b> As such, I'm presenting a wide rang of options for your consideration, but be aware that none of them are truly private or safe.</p>
 <table border="1" align="center" class="responsive">
 <tbody>
+	<thead>
 		<tr>
-			<td align="center" class="thead">Product/Service</td>
-			<td align="center" class="thead">Pros</td>
-			<td align="center" class="thead">Cons</td>
+			<td align="center">Product/Service</td>
+			<td align="center">Pros</td>
+			<td align="center">Cons</td>
 		</tr>
+	</thead>
 		<tr>
 			<td align="center" colspan="3"><a href="https://gitlab.com/nbartram/the-new-oil/-/wikis/Voice-over-IP-Criteria">Click here to see my criteria for selecting these services</a></td>
 		</tr>
@@ -96,7 +94,7 @@
 			<td align="center" colspan="3">Listed in alphabetical order, not order of recommendation</td>
 		</tr>
 		<tr>
-			<td align="center"><a href="https://voice.google.com/about" target="_blank"><img src="pictures/google_voice.png"><br>Google Voice</a></td>
+			<td align="center"><a href="https://voice.google.com/about"><img src="pictures/google_voice.png"><br>Google Voice</a></td>
 			<td>
 	<ul>
 			<li>Unlimited numbers available
@@ -111,21 +109,19 @@
 			<li>US and Canada only
 			<li>No group chats
 			<li>No video chats
-			<li>No disappearing messages
 			<li>Requires your SIM number
 			<li>No privacy, requires Google
-			<li>Based in <a href="https://en.wikipedia.org/wiki/Five_Eyes" target="_blank">The United States</a>
+			<li>Based in <a href="https://en.wikipedia.org/wiki/Five_Eyes">The United States</a>
 		</tr>
 		<tr>
-			<td align="center"><a href="https://mysudo.com/" target="_blank"><img src="pictures/mysudo.png"><br>MySudo</a></td>
+			<td align="center"><a href="https://mysudo.com/"><img src="pictures/mysudo.png"><br>MySudo</a></td>
 			<td>
 	<ul>
 			<li>Up to 9 numbers available
-			<li>Includes fully functional email, web browser, and digital masked cards
+			<li>Includes fully functional email, web browser, and <a href="payments.html">digital masked cards</a>
 			<li>Works independently of your SIM number
 			<li>Zero-knowledge
 			<li>End-to-end encrypted (to other MySudo users)
-			<li>Does not require your SIM number
 	</ul>
 			</td>
 			<td>
@@ -134,16 +130,15 @@
 			<li>No group chats
 			<li>No video chats
 			<li>Desktop client in beta, web-based only
-			<li>No disappearing messages
-			<li>Based in <a href="https://en.wikipedia.org/wiki/Five_Eyes" target="_blank">The United States</a>
+			<li>Based in <a href="https://en.wikipedia.org/wiki/Five_Eyes">The United States</a>
 	</ul>
 		</tr>
 		<tr>
-			<td align="center"><a href="https://www.skype.com/en/skype-number/" target="_blank"><img src="pictures/skype.png"><br>Skype</a></td>
+			<td align="center"><a href="https://www.skype.com/en/skype-number/"><img src="pictures/skype.png"><br>Skype</a></td>
 			<td>
 	<ul>
 			<li>Up to 10 phone numbers available from a single account
-			<li>25 countries supported from all around the world
+			<li>25 countries supported
 			<li>Does not require your SIM number
 			<li>Desktop app available
 	</ul>
@@ -153,14 +148,13 @@
 			<li>No group chats
 			<li>No video chats
 			<li>Phone app required
-			<li>No disappearing messages
 			<li>No privacy, requires Microsoft
 			<li>Pay by the minute
-			<li>Based in <a href="https://en.wikipedia.org/wiki/Five_Eyes" target="_blank">The United States</a>
+			<li>Based in <a href="https://en.wikipedia.org/wiki/Five_Eyes">The United States</a>
 	</ul>
 		</tr>
 		<tr>
-			<td align="center"><a href="https://www.viber.com/en/" target="_blank"><img src="pictures/viber.png"><br>Viber</a></td>
+			<td align="center"><a href="https://www.viber.com/"><img src="pictures/viber.png"><br>Viber</a></td>
 			<td>
 	<ul>
 			<li>Group chats
@@ -168,7 +162,6 @@
 			<li>Destkop client
 			<li>Zero-knowledge
 			<li>End-to-end encrypted (to other Viber users)
-			<li>Disappearing messages
 			<li>Worldwide numbers available
 			<li>Does not require your SIM number
 	</ul>
@@ -177,26 +170,22 @@
 	<ul>
 			<li>External messaging and calling cost extra
 			<li>Only one number available
-			<li>Based in <a href="https://en.wikipedia.org/wiki/Five_Eyes#Six_Eyes" target="_blank">Japan</a>
+			<li>Based in <a href="https://en.wikipedia.org/wiki/Five_Eyes#Six_Eyes">Japan</a>
 	</ul>
 			</td>
 		</tr>
 </tbody>
 </table>
-<div class="h2">
-<h3>Getting Stared</h3>
-</div>
-<p><b>Almost across the board, I recommend <a href="https://mysudo.com/" target="_blank">MySudo</a>.</b> It is available for both iOS and Android, and usable plans (meaning plans that will give you the ability to communicate with non-MySudo users, which is most people) begin at $1 USD per month, or $10 per year. I would recommend SudoPro or SudoMax ($5/$50 and $15/$150 respectively) for most people depending on your needs. Pro will probably suit most people, as it allows 3 phone numbers which can be used for work, personal, and other. More advanced readers may want the 9 numbers allowed by Max. <b>If you're on a tight budget, I recommend <a href="https://www.google.com/voice" target="_blank">Google Voice</a>.</b> This will allow you to create VoIP numbers that forward to your real number. If you live outside the US, UK, or Canada, then Viber is the clear choice.</p>
-<div class="h2">
+<div class="subheader">
 <h3>Tips & Tricks</h3>
 </div>
-<p>Keep in mind that <b>VoIP is not meant to replace <a href="messaging.html">secure messaging</a>.</b> Just as with a regular SIM phone call or SMS message, you should assume that anything you say or type might be recorded and be plainly visible to any employees or law enforcement. VoIP is recommended in this context purely as a way to keep your data out of people search websites and protect against relatively-unsophisticated threats like a stalker or doxxer.</p>
-<br>
-<div class="next" style="clear:both;"><a href="less_important.html">Previous</a>
-<a style="float:right;" href="email.html">Next</a>
-</div>
-</div>
-</div>
-</div>
+<p><b>Almost across the board, I recommend <a href="https://mysudo.com/">MySudo</a>.</b> It is available for both iOS and Android, and plans that will give you the ability to communicate with non-MySudo users begin at $1 USD per month, or $10 per year. I would recommend SudoPro or SudoMax ($5/$50 and $15/$150 respectively) for most people depending on your needs. If you're on a tight budget, I recommend <a href="https://www.google.com/voice">Google Voice</a>.This will allow you to create VoIP numbers that forward to your real number. If you live outside the US, UK, or Canada, then Viber is the clear choice.</p>
+<p><b>VoIP is not meant to replace <a href="messaging.html">secure messaging</a>.</b> Just as with a regular SIM phone call or SMS message, you should assume that anything you submit is recorded and plainly visible to any employees or law enforcement. VoIP is recommended purely as a way to keep your data out of people search websites and protect against relatively-unsophisticated threats like a stalker or doxxer.</p>
+</article>
+</main>
+<footer>
+<a href="less-important.html">Previous</a>
+<a style="float:right;" href="email-masking.html">Next</a>
+</footer>
 </body>
 </html>
