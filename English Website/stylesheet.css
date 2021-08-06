@@ -1,168 +1,127 @@
+@charset "UTF-8";
+
 html, body {
-  height: 99%;
-  width: 100%;
-  overflow: hidden;
-  margin: auto;
-}
-
-.flex-container {
-  position: relative;
-  display: flex;
   height: 100%;
   width: 100%;
-  flex-direction: column;
   margin: auto;
-  z-index: 0;
-  overflow-y: auto;
-  overflow-x: hidden;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
 }
 
-.flex-container::-webkit-scrollbar {
-  display: none;
+article, aside, footer, header, main, nav, section {
+  display: block;
+  font-family: sans-serif;
 }
 
-.example {
-}
-
-.header {
-  display: flex;
-  flex-direction: row;
-  background: black;
-  padding:5px 25px 15px 25px;
-  width:100%;
-  height: 60px;
-  z-index: 1;
-}
-
-.menu img {
-  position: absolute;
-  right: 20px;
-  height: 18px;
-  width: 25px;
-}
-
-.nav {
-  padding: 0px 20px 20px 0px;
-  margin-right: 0px;
-  margin-left: auto;
-  z-index: 10;
-}
-
-.navb {
-  background: black;
-  flex-direction: column;
-  overflow: auto;
-  left: scroll;
-  right: 0px;
-}
-
-.menu ul, 
-.menu input, 
-.menu .closer, 
-.menu input:checked ~ .opener{
-    display:none;
-}
-.menu input:checked ~ ul,
-.menu input:checked ~ .closer{
-    display:flex;
-    flex-direction: column;
-}
-
-.nav a
- {
-  background-color: transparent;
-  border: none;  
-  color: white;
-  padding: 5px;
-  text-align: left;
+header a {
   text-decoration: none;
-  font-size: 16px;
-  margin: auto;
-  transition-duration: 0.4s;
-  border-radius: 8px;
-  float: left;
 }
 
-.menu a:hover
- {
-  background-color: gray;
-  color: white;}
-
-.next a
-{
-  padding: 10px;
-  border: 1px solid;
-  border-radius: 25px;
+header {
+  background: black;
 }
 
-.next a:hover
-{
-  background-color: lightgray;
-  padding: 10px;
-  border: 1px solid;
-  border-radius: 25px;
-}
-
-.main {
-  overflow: auto;
-  height: 100%;
-  z-index: 0;
-}
-
-.content {
-  margin: auto;
+details {
+  background: black;
   padding: 5px;
-  max-width:1000px;
-  height: auto;
-  width: 95%;
-  z-index: 0;
+  position: absolute;
+  top: 5px;
+  left: 5px;
 }
 
-table {
-  display: table;
-  width: 90%;
+details a {
+  padding: 5px;
+  transition: font-size 0.2s;
+  color: white;
+}
+
+details a:hover, footer a:hover {
+  font-size: 20px;
+  border-color: #3498DB;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+main {
+  max-width: 1000px;
   margin: auto;
 }
 
-.column {
-  float: left;
-  padding: auto;
+main a {
+  transition: font-size 0.2s;
+}
+
+main a:hover, main a:focus {
+  font-size: 17px;
+}
+
+article {
+  background-color: white;
+}
+
+.subheader {
+  border-radius: 5px;
+}
+
+.subheader, thead {
+  background:  #3498DB;
+}
+
+h1 {
+  color: white;
+}
+
+h3 {
+  margin-left: 5px;
+  color: white;
+}
+
+footer {
+  max-width: 1000px;
   margin: auto;
-  height: 100%;
+}
+
+footer a {
+  padding: 5px;
+  transition: font-size 0.2s;
+}
+
+section {
+  display: flex;
+}
+
+section ul {
   width: 50%;
+  list-style-type: none;
 }
 
-.h1 {
-  background: #00008A;
-  color: white;
-  padding: 1px;
-}
-
-.h2 {
-  background: #8A0000;
-  color: white;
-}
-
-.thead {
-  background: #00378A;
-  color: white;
-}
-
-.insert {
-  background:LightGray;
-  padding:5px;
+aside {
+  background: lightgray;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 /* Responsive
 ==================================== */
 
-@media (max-width:813px) {
-        .responsive tr {    display: table;  width:100%;    }               
-        .responsive td {    display: table-row; }
-	.menu label { margin: auto; display: block; } 
-        .row div {    display: table;  width:100%;    } 
-        .column {    display: table-row; }
-
+@media (max-width: 1000px) {
+        main, footer { width: 90% }
+        tr { display: table;  width: 100%; }
+        td { display: table-row; }
+        .row div { display: table;  width:100%; }
+        .column { display: table-row; }
+	section { display: block; }
+	section ul { width: 90%; }
     }
+
+/* Dark Mode
+==================================== */
+
+@media (prefers-color-scheme:dark) {
+	html, body { background-color: black; }
+	main { color: white; }
+	main a { color: skyblue; }
+	.subheader, thead { background:  #3498DB;  color: black; }
+	aside { background: gray; }
+	footer a { color: skyblue; }
+	.invert { filter:invert(100%); }
+    }	
