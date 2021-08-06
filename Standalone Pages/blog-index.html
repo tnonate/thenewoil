@@ -1,79 +1,159 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>The New Oil</title>
   <meta charset="UTF-8">
   <meta name="description" content="Data is the new oil">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="light.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+  <link rel="stylesheet" type="text/css" href="dark.css" media="(prefers-color-scheme: dark)">
   <link rel="icon" href="pictures/favicon.ico" type="image/icon">
 </head>
 
 <body>
-<div class="flex-container">
-<div class="header">
-     <img style="float:left;position:absolute;" src="pictures/header.jpg" alt="The New Oil logo">
-<div class="nav">
-    <ul class="menu">
-	<input type="radio" name="menuopt" id="drop1" />
-        <label class="opener" for="drop1"><img src="pictures/menu.png"></label>
-        <label class="closer" for="dropclose"><img src="pictures/menu.png"></label>
-<ul class="navb">
+<header>
+     <img src="pictures/header.jpg" alt="The New Oil logo" style="display: block;margin-left: auto;margin-right:auto;">
+<details>
+<summary>
+<img src="pictures/menu.png" alt="Menu logo">
+</summary>
+<ul>
+<summary>
 <li><a href="about.html"><b>About</a></b></li>
+</summary>
+<summary>
 <li><a href="index.html">Home Page</a></li>
+</summary>
+<summary>
 <li><a href="intro.html">Introduction</a></li>
+</summary>
+<summary>
 <li><a href="threatmodel.html">Threat Modeling</a></li>
+</summary>
+<summary>
 <li><a href="surveillance.html">Understanding Surveillance</a></li>
-<li><a href="privsecanon.html">Security vs Privacy vs Anonymity</a></li>
+</summary>
+<summary>
+<li><a href="secprivanon.html">Security vs Privacy vs Anonymity</a></li>
+</summary>
+<summary>
 <li><a href="oss.html">Open Source vs Proprietary</a></li>
+</summary>
+<summary>
 <li><a href="communication.html">How Network Communication Works</a></li>
-<li><a href="most_important.html"><b>Most Important</b></a></li>
-<li><a href="most_important.html">Introduction</a></li>
-<li><a href="data_breaches.html">Understanding Data Breaches</a></li>
+</summary>
+<summary>
+<li><a href="most-important.html"><b>Most Important</b></a></li>
+</summary>
+<summary>
+<li><a href="most-important.html">Introduction</a></li>
+</summary>
+<summary>
+<li><a href="data-breaches.html">Understanding Data Breaches</a></li>
+</summary>
+<summary>
 <li><a href="passwords.html">Data Breach Defense: Strong Passwords</a></li>
+</summary>
+<summary>
 <li><a href="mfa.html">Data Breach Defense: Multifactor Authentication</a></li>
+</summary>
+<summary>
 <li><a href="payments.html">Data Breach Defense: Payment Masking</a></li>
+</summary>
+<summary>
 <li><a href="credit.html">Identity Theft: Freezing Your Credit</a></li>
+</summary>
+<summary>
 <li><a href="mobile.html">Securing Mobile</a></li>
-<li><a href="settings.html">Securing Mobile: Settings</a></li>
-<li><a href="apps.html">Securing Mobile: Replacement Apps</a></li>
+</summary>
+<summary>
+<li><a href="mobile-settings.html">Securing Mobile: Settings</a></li>
+</summary>
+<summary>
+<li><a href="mobile-apps.html">Securing Mobile: Replacement Apps</a></li>
+</summary>
+<summary>
 <li><a href="browser.html">Privacy: Securing Your Browser</a></li>
-<li><a href="moderately_important.html"><b>Moderately Important</b></a></li>
-<li><a href="moderately_important.html">Introduction</a></li>
+</summary>
+<summary>
+<li><a href="moderately-important.html"><b>Moderately Important</b></a></li>
+</summary>
+<summary>
+<li><a href="moderately-important.html">Introduction</a></li>
+</summary>
+<summary>
 <li><a href="metadata.html">Understanding Metadata</a></li>
+</summary>
+<summary>
 <li><a href="encryption.html">Understanding Encryption</a></li>
+</summary>
+<summary>
 <li><a href="devices.html">Protection: Device Encryption</a></li>
+</summary>
+<summary>
 <li><a href="backups.html">Protection: Backups</a></li>
-<li><a href="desktop.html">Privacy: Securing Desktop</a></li>
-<li><a href="messaging.html">Privacy: Encrypted Messaging</a></li>
-<li><a href="mobile2.html">Privacy: Mobile Habits</a></li>
+</summary>
+<summary>
+<li><a href="desktop-settings.html">Privacy: Securing Desktop</a></li>
+</summary>
+<summary>
+<li><a href="messaging.html">Privacy: Encrypted Texting/Calling</a></li>
+</summary>
+<summary>
+<li><a href="email.html">Privacy: Encrypted E-Mail</a></li>
+</summary>
+<summary>
+<li><a href="mobile-habits.html">Privacy: Mobile Habits</a></li>
+</summary>
+<summary>
 <li><a href="llc.html">Protection: Trusts, LLCs, and Public Data</a></li>
-<li><a href="less_important.html"><b>Less Important</b></a></li>
-<li><a href="less_important.html">Introduction</a></li>
+</summary>
+<summary>
+<li><a href="less-important.html"><b>Less Important</b></a></li>
+</summary>
+<summary>
+<li><a href="less-important.html">Introduction</a></li>
+</summary>
+<summary>
 <li><a href="voip.html">Protection: Voice-over-IP</a></li>
-<li><a href="email.html">Data Breach Defense: Email Masking</a></li>
+</summary>
+<summary>
+<li><a href="email-masking.html">Data Breach Defense: Email Masking</a></li>
+</summary>
+<summary>
 <li><a href="habits.html">Protection: Change Your Online Habits</a></li>
+</summary>
+<summary>
 <li><a href="disinformation.html">Protection: Disinformation</a></li>
+</summary>
+<summary>
 <li><a href="iot.html">Cybersecurity: The Internet of Things</a></li>
+</summary>
+<summary>
 <li><a href="vpns.html">Privacy: VPNs</a>
-<li><a href="final.html"><b>Final Thoughts</b></a></li>
+</summary>
+<summary>
 <li><a href="links.html"><b>Contact/Links</b></a></li>
-        <input type="radio" name="menuopt" id="dropclose" />
+</summary>
 </ul>
-</div>
-</div>
-<div class="main">
-<div class="content">
-<div class="h1">
+</details>
+</header>
+<main>
+<header>
 <h1 align="center">The New Oil Blog Table of Contents</h1>
-</div>
+</header>
 <table border="1" align="center" class="responsive">
 <tbody>
+	<thead>
 		<tr>
 			<td align="center" class="thead">Title</td>
 			<td align="center" class="thead">Date</td>
 		</tr>
-
+	</thead>
+		<tr>
+			<td><a href="https://write.as/thenewoil/sanity-check-people-dont-spy-just-because">Sanity Check: People Don’t Spy Just Because</a></td>
+			<td>July 31, 2021</td>
+		</tr>	
 		<tr>
 			<td><a href="https://write.as/thenewoil/ios-2fa-apps-review-2021-or-ravio-otp-the-only-ios-2fa-app-worth-recommending">iOS 2FA Apps Review 2021 (or Ravio OTP: The Only iOS 2FA App Worth Recommending in 2021)</a></td>
 			<td>July 24, 2021</td>
@@ -379,9 +459,6 @@
 		</tr>
 </tbody>
 </table>
-</div>
-</div>
-</div>
-</div>
+</main>
 </body>
 </html>
