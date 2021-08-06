@@ -1,93 +1,161 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>The New Oil</title>
   <meta charset="UTF-8">
   <meta name="description" content="Data is the new oil">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="light.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+  <link rel="stylesheet" type="text/css" href="dark.css" media="(prefers-color-scheme: dark)">
   <link rel="icon" href="pictures/favicon.ico" type="image/icon">
 </head>
 
 <body>
-<div class="flex-container">
-	<div class="header">
-     <img style="float:left;position:absolute;" src="pictures/header.jpg" alt="The New Oil logo">
-     <a href="disinformation_dark.html" style="color:white;padding:50px;">Dark Mode</a>
-		<div class="nav">
-    <ul class="menu">
-	<input type="radio" name="menuopt" id="drop1" />
-        <label class="opener" for="drop1"><img src="pictures/menu.png"></label>
-        <label class="closer" for="dropclose"><img src="pictures/menu.png"></label>
-<ul class="navb">
+<header>
+     <img src="pictures/header.jpg" alt="The New Oil logo" style="display: block;margin-left: auto;margin-right:auto;">
+<details>
+<summary>
+<img src="pictures/menu.png" alt="Menu logo">
+</summary>
+<ul>
+<summary>
 <li><a href="about.html"><b>About</a></b></li>
+</summary>
+<summary>
 <li><a href="index.html">Home Page</a></li>
+</summary>
+<summary>
 <li><a href="intro.html">Introduction</a></li>
+</summary>
+<summary>
 <li><a href="threatmodel.html">Threat Modeling</a></li>
+</summary>
+<summary>
 <li><a href="surveillance.html">Understanding Surveillance</a></li>
-<li><a href="privsecanon.html">Security vs Privacy vs Anonymity</a></li>
+</summary>
+<summary>
+<li><a href="secprivanon.html">Security vs Privacy vs Anonymity</a></li>
+</summary>
+<summary>
 <li><a href="oss.html">Open Source vs Proprietary</a></li>
+</summary>
+<summary>
 <li><a href="communication.html">How Network Communication Works</a></li>
-<li><a href="most_important.html"><b>Most Important</b></a></li>
-<li><a href="most_important.html">Introduction</a></li>
-<li><a href="data_breaches.html">Understanding Data Breaches</a></li>
+</summary>
+<summary>
+<li><a href="most-important.html"><b>Most Important</b></a></li>
+</summary>
+<summary>
+<li><a href="most-important.html">Introduction</a></li>
+</summary>
+<summary>
+<li><a href="data-breaches.html">Understanding Data Breaches</a></li>
+</summary>
+<summary>
 <li><a href="passwords.html">Data Breach Defense: Strong Passwords</a></li>
+</summary>
+<summary>
 <li><a href="mfa.html">Data Breach Defense: Multifactor Authentication</a></li>
+</summary>
+<summary>
 <li><a href="payments.html">Data Breach Defense: Payment Masking</a></li>
+</summary>
+<summary>
 <li><a href="credit.html">Identity Theft: Freezing Your Credit</a></li>
+</summary>
+<summary>
 <li><a href="mobile.html">Securing Mobile</a></li>
-<li><a href="settings.html">Securing Mobile: Settings</a></li>
-<li><a href="apps.html">Securing Mobile: Replacement Apps</a></li>
+</summary>
+<summary>
+<li><a href="mobile-settings.html">Securing Mobile: Settings</a></li>
+</summary>
+<summary>
+<li><a href="mobile-apps.html">Securing Mobile: Replacement Apps</a></li>
+</summary>
+<summary>
 <li><a href="browser.html">Privacy: Securing Your Browser</a></li>
-<li><a href="moderately_important.html"><b>Moderately Important</b></a></li>
-<li><a href="moderately_important.html">Introduction</a></li>
+</summary>
+<summary>
+<li><a href="moderately-important.html"><b>Moderately Important</b></a></li>
+</summary>
+<summary>
+<li><a href="moderately-important.html">Introduction</a></li>
+</summary>
+<summary>
 <li><a href="metadata.html">Understanding Metadata</a></li>
+</summary>
+<summary>
 <li><a href="encryption.html">Understanding Encryption</a></li>
+</summary>
+<summary>
 <li><a href="devices.html">Protection: Device Encryption</a></li>
+</summary>
+<summary>
 <li><a href="backups.html">Protection: Backups</a></li>
-<li><a href="desktop.html">Privacy: Securing Desktop</a></li>
-<li><a href="messaging.html">Privacy: Encrypted Messaging</a></li>
-<li><a href="mobile2.html">Privacy: Mobile Habits</a></li>
+</summary>
+<summary>
+<li><a href="desktop-settings.html">Privacy: Securing Desktop</a></li>
+</summary>
+<summary>
+<li><a href="messaging.html">Privacy: Encrypted Texting/Calling</a></li>
+</summary>
+<summary>
+<li><a href="email.html">Privacy: Encrypted E-Mail</a></li>
+</summary>
+<summary>
+<li><a href="mobile-habits.html">Privacy: Mobile Habits</a></li>
+</summary>
+<summary>
 <li><a href="llc.html">Protection: Trusts, LLCs, and Public Data</a></li>
-<li><a href="less_important.html"><b>Less Important</b></a></li>
-<li><a href="less_important.html">Introduction</a></li>
+</summary>
+<summary>
+<li><a href="less-important.html"><b>Less Important</b></a></li>
+</summary>
+<summary>
+<li><a href="less-important.html">Introduction</a></li>
+</summary>
+<summary>
 <li><a href="voip.html">Protection: Voice-over-IP</a></li>
-<li><a href="email.html">Data Breach Defense: Email Masking</a></li>
+</summary>
+<summary>
+<li><a href="email-masking.html">Data Breach Defense: Email Masking</a></li>
+</summary>
+<summary>
 <li><a href="habits.html">Protection: Change Your Online Habits</a></li>
+</summary>
+<summary>
 <li><a href="disinformation.html">Protection: Disinformation</a></li>
+</summary>
+<summary>
 <li><a href="iot.html">Cybersecurity: The Internet of Things</a></li>
+</summary>
+<summary>
 <li><a href="vpns.html">Privacy: VPNs</a>
-<li><a href="final.html"><b>Final Thoughts</b></a></li>
+</summary>
+<summary>
 <li><a href="links.html"><b>Contact/Links</b></a></li>
-        <input type="radio" name="menuopt" id="dropclose" />
+</summary>
 </ul>
-</div>
-</div>
-<div class="main">
-<div class="content">
-<div class="h1">
+</details>
+</header>
+<main>
+<header>
 <h1 align="center">Protection: Disinformation</h1>
-</div>
-<p>I mentioned in my <a href="habits.html">online habits</a> section the concept of knowingly handing out false information. This is probably one of the most powerful techniques for preserving your privacy in a digital world. However, it's important to understand how to use this properly lest you land yourself in some hot legal water.
-<div class="h2">
+</header>
+<p>I mentioned disinformation in the <a href="habits.html">online habits</a> section. This is probably one of the most powerful techniques for preserving your digital privacy, but it's important to understand how to use it properly so you don't land yourself in trouble, legal or otherwise.</p>
+<header>
 <h3>What Not to Do</h3>
-</div>
-<p>Never knowingly give false information on a legal document, to a law enforcement officer, to a federal agency, to the IRS, or to medical personnel. Honestly that pretty much sums it up. <b>When using disinformation as a strategy, the main question to ask yourself is "does this person need the information they are requesting?"</b> Does a cop need your real name when pulling you over? Yes. It's illegal to lie to the police when they are performing official duties. Does your doctor need your real contact information? Yes. Does the IRS need your real social security number? Absolutely.  Does Facebook need your phone number? Absolutely not.</p>
-<div class="h2">
+</header>
+<p>Never knowingly give false information on a legal document, to a law enforcement officer, to a federal agency, to the IRS, or to medical personnel. <b>When using disinformation as a strategy, the main question to ask yourself is "does this person need the information they are requesting?"</b> Does an officer need your real name when detaining you? Yes. It's illegal to lie to the police when they are performing official duties. Does your doctor need to be able to contact you? Yes. Does the IRS need your real social security number? Absolutely.  Does Facebook need your phone number? No.</p>
+<header>
 <h3>What to Do</h3>
-</div>
-<p><b>In almost all situations, the best defense is invisibility.</b> Rather than providing false information, you should see to provide as little information as possible. When being asked to fill out a form, don't be afraid to ask "what information on this is actually mandatory? What parts do you need?" Privacy is becoming less stigmatized these days as data breaches continue to happen on an almost-daily basis. As long as you're not obnoxious, most clerks will be willing to find out what information is mandatory. Sometimes this is pretty obvious. Again, does Applebee's actually need your email? No, not really. Does your doctor actually need your home address? Maybe not. Maybe a PO Box is okay. Ask.</p>
-<p><b>Once you know what information is required, you're now faced with the decision only you can answer of what information to provide and what to fake.</b> Like many people, I do my fair share of online shopping. A name and address is needed, so I use a generic name and a PO Box. An email and a phone number are both required. For email, I'll use an <a href="email.html">email masking service</a>. After all, I do want updates on my item and I can always delete the address if it gets too spammy. For phone number, I use my area code plus 867-5309, which is from a hit 80's pop song. They don't need my number. They have my email (so they think). They have a way to contact me with any problems. I'm probably too busy to answer during the day anyways.</p>
-<p>What about taking my cats to the vet? I book the appointment online using a masked email. If any phone numbers are required, I give a fake number. If any address is required, I have a hotel nearby saved in my notes. I pay in cash. I don't need the vet selling my information to various pet-care companies who are going to spam me with crap they don't need. They're cats. Give them an empty egg crate in the sun and they're happy.</p>
-<p>Finally, <b>an important part of this strategy is to have both excuses and addresses on hand for everything.</b> I have a list of numbers and addresses saved in my notes. If someone asks for one I haven't memorized, I pull out my phone and make the excuse "sorry, I just moved so I haven't memorized my address yet" or "sorry, I just switched phone providers and I haven't memorized my new number yet." I like to have a variety of addresses to pull from in the local area. Some are quite close by. Others are in surrounding towns up to an hour away. Whatever backs up my story. Public libraries, hotels, and other public buildings are all great choices here. Typically only official businesses - like the DMV or a bank - will be verifying those addresses, and in those situations you shouldn't be lying anyways.</p>
-<p>Remember: the big question is "does this person need this piece of information?" Treat every request for information as a data breach waiting to happen.</p>
-<br>
-<div class="next" style="clear:both;"><a href="habits.html">Previous</a>
+</header>
+<p><b>The best defense is usually invisibility.</b> Before providing false information, you should provide as little information as possible. When given a a form to fill out for example, don't be afraid to ask "what information on this is required?" Privacy is becoming less stigmatized these days, so as long as you're not obnoxious, most people will be willing to find out what information is mandatory. Sometimes this is self-explanatory: again, does Applebee's need your email? No. Does your doctor need to know the date of your lisit visit? Maybe not. Ask.</p>
+<p><b>Once you know what information is unavoidable, you're now faced with the decision only you can answer of what information to provide and what to fake.</b> In online shopping, for example, a name and address is needed, so I use a generic name and my PO Box. An email and a phone number are also usually required. For email, I'll use an <a href="email-masking.html">email masking service</a>. After all, I do want updates on my item and a place to submit feedback if something goes wrong. For phone number, I use my area code plus 867-5309, which is from a hit 80's pop song. They don't need my number as they already have an email address to contact me if there are any problems.</p>
+<p>Finally, <b>an important part of this strategy is to have both excuses and information ready for everything.</b> I have a list of phone numbers and addresses saved in my notes. If someone asks for one I haven't memorized, I pull out my phone and make the excuse "sorry, I just moved so I haven't memorized my address yet" or "sorry, I just switched phones and I haven't memorized my new number yet." I like to have a variety of addresses to pull from in the local area. Some are quite close by. Others are in surrounding towns up to an hour away. Whatever backs up my story. Public libraries, hotels, and other public buildings are all great choices for a fake address. Typically only official businesses - like the DMV or a bank - will be verifying those addresses, and in those situations you shouldn't be lying anyways. Remember: Treat every request for information as a data breach waiting to happen.</p>
+<footer><a href="habits.html">Previous</a>
 <a style="float:right;" href="iot.html">Next</a>
-</div>
-</div>
-</div>
-</div>
-
+</footer>
+</main>
 </body>
 </html>
