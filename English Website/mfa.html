@@ -1,83 +1,165 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>The New Oil</title>
   <meta charset="UTF-8">
   <meta name="description" content="Data is the new oil">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="light.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+  <link rel="stylesheet" type="text/css" href="dark.css" media="(prefers-color-scheme: dark)">
   <link rel="icon" href="pictures/favicon.ico" type="image/icon">
 </head>
 
 <body>
-<div class="flex-container">
-	<div class="header">
-     <img style="float:left;position:absolute;" src="pictures/header.jpg" alt="The New Oil logo">
-     <a href="mfa_dark.html" style="color:white;padding:50px;">Dark Mode</a>
-		<div class="nav">
-    <ul class="menu">
-	<input type="radio" name="menuopt" id="drop1" />
-        <label class="opener" for="drop1"><img src="pictures/menu.png"></label>
-        <label class="closer" for="dropclose"><img src="pictures/menu.png"></label>
-<ul class="navb">
+<header>
+     <img src="pictures/header.jpg" alt="The New Oil logo" style="display: block;margin-left: auto;margin-right:auto;">
+<details>
+<summary>
+<img src="pictures/menu.png" alt="Menu logo">
+</summary>
+<ul>
+<summary>
 <li><a href="about.html"><b>About</a></b></li>
+</summary>
+<summary>
 <li><a href="index.html">Home Page</a></li>
+</summary>
+<summary>
 <li><a href="intro.html">Introduction</a></li>
+</summary>
+<summary>
 <li><a href="threatmodel.html">Threat Modeling</a></li>
+</summary>
+<summary>
 <li><a href="surveillance.html">Understanding Surveillance</a></li>
-<li><a href="privsecanon.html">Security vs Privacy vs Anonymity</a></li>
+</summary>
+<summary>
+<li><a href="secprivanon.html">Security vs Privacy vs Anonymity</a></li>
+</summary>
+<summary>
 <li><a href="oss.html">Open Source vs Proprietary</a></li>
+</summary>
+<summary>
 <li><a href="communication.html">How Network Communication Works</a></li>
-<li><a href="most_important.html"><b>Most Important</b></a></li>
-<li><a href="most_important.html">Introduction</a></li>
-<li><a href="data_breaches.html">Understanding Data Breaches</a></li>
+</summary>
+<summary>
+<li><a href="most-important.html"><b>Most Important</b></a></li>
+</summary>
+<summary>
+<li><a href="most-important.html">Introduction</a></li>
+</summary>
+<summary>
+<li><a href="data-breaches.html">Understanding Data Breaches</a></li>
+</summary>
+<summary>
 <li><a href="passwords.html">Data Breach Defense: Strong Passwords</a></li>
+</summary>
+<summary>
 <li><a href="mfa.html">Data Breach Defense: Multifactor Authentication</a></li>
+</summary>
+<summary>
 <li><a href="payments.html">Data Breach Defense: Payment Masking</a></li>
+</summary>
+<summary>
 <li><a href="credit.html">Identity Theft: Freezing Your Credit</a></li>
+</summary>
+<summary>
 <li><a href="mobile.html">Securing Mobile</a></li>
-<li><a href="settings.html">Securing Mobile: Settings</a></li>
-<li><a href="apps.html">Securing Mobile: Replacement Apps</a></li>
+</summary>
+<summary>
+<li><a href="mobile-settings.html">Securing Mobile: Settings</a></li>
+</summary>
+<summary>
+<li><a href="mobile-apps.html">Securing Mobile: Replacement Apps</a></li>
+</summary>
+<summary>
 <li><a href="browser.html">Privacy: Securing Your Browser</a></li>
-<li><a href="moderately_important.html"><b>Moderately Important</b></a></li>
-<li><a href="moderately_important.html">Introduction</a></li>
+</summary>
+<summary>
+<li><a href="moderately-important.html"><b>Moderately Important</b></a></li>
+</summary>
+<summary>
+<li><a href="moderately-important.html">Introduction</a></li>
+</summary>
+<summary>
 <li><a href="metadata.html">Understanding Metadata</a></li>
+</summary>
+<summary>
 <li><a href="encryption.html">Understanding Encryption</a></li>
+</summary>
+<summary>
 <li><a href="devices.html">Protection: Device Encryption</a></li>
+</summary>
+<summary>
 <li><a href="backups.html">Protection: Backups</a></li>
-<li><a href="desktop.html">Privacy: Securing Desktop</a></li>
-<li><a href="messaging.html">Privacy: Encrypted Messaging</a></li>
-<li><a href="mobile2.html">Privacy: Mobile Habits</a></li>
+</summary>
+<summary>
+<li><a href="desktop-settings.html">Privacy: Securing Desktop</a></li>
+</summary>
+<summary>
+<li><a href="messaging.html">Privacy: Encrypted Texting/Calling</a></li>
+</summary>
+<summary>
+<li><a href="email.html">Privacy: Encrypted E-Mail</a></li>
+</summary>
+<summary>
+<li><a href="mobile-habits.html">Privacy: Mobile Habits</a></li>
+</summary>
+<summary>
 <li><a href="llc.html">Protection: Trusts, LLCs, and Public Data</a></li>
-<li><a href="less_important.html"><b>Less Important</b></a></li>
-<li><a href="less_important.html">Introduction</a></li>
+</summary>
+<summary>
+<li><a href="less-important.html"><b>Less Important</b></a></li>
+</summary>
+<summary>
+<li><a href="less-important.html">Introduction</a></li>
+</summary>
+<summary>
 <li><a href="voip.html">Protection: Voice-over-IP</a></li>
-<li><a href="email.html">Data Breach Defense: Email Masking</a></li>
+</summary>
+<summary>
+<li><a href="email-masking.html">Data Breach Defense: Email Masking</a></li>
+</summary>
+<summary>
 <li><a href="habits.html">Protection: Change Your Online Habits</a></li>
+</summary>
+<summary>
 <li><a href="disinformation.html">Protection: Disinformation</a></li>
+</summary>
+<summary>
 <li><a href="iot.html">Cybersecurity: The Internet of Things</a></li>
+</summary>
+<summary>
 <li><a href="vpns.html">Privacy: VPNs</a>
-<li><a href="final.html"><b>Final Thoughts</b></a></li>
+</summary>
+<summary>
 <li><a href="links.html"><b>Contact/Links</b></a></li>
-        <input type="radio" name="menuopt" id="dropclose" />
+</summary>
 </ul>
-</div>
-</div>
-<div class="main">
-<div class="content">
-<div class="h1">
+</details>
+</header>
+<main>
+<header>
 <h1 align="center">Data Breach Defense: Multifactor Authentication</h1>
-</div>
-<p>Another powerful thing a person can do to protect their online accounts is to use multi-factor authentication. <a href="https://www.microsoft.com/security/blog/2019/08/20/one-simple-action-you-can-take-to-prevent-99-9-percent-of-account-attacks/" target="_blank">According to Microsoft</a>, this one technique can stop up to 99.9% of unauthorized account accesses.</p>
-<p>Multifactor Authentication (also known as MFA, Two-Factor Authentication, or 2FA) is a system that requires additional steps beyond username and password to log in to a given account. The most common form of MFA is the SMS text: you log into a site, they text you a code, you enter the code on the next screen, and now you access your account. This is useful because <b>with MFA, even if a hacker were to gain access to your login credentials, they would still need access to your physical device to complete the login process</b>.</p>
-<p>When picking an MFA solution, <b>the most important thing is to look for something you will use consistently</b> and won't interfere negatively with your life. If you need the ability to log into your account from any computer at any given time, a hardware key may not be your best bet.</p>
-<p>Generally speaking <b><a href="https://www.zdnet.com/article/microsoft-urges-users-to-stop-using-phone-based-multi-factor-authentication/" target="_blank">you should try to avoid SMS 2FA whenever possible</a></b> because it is relatively easy for a malicious actor or hacker to hijack your phone number in any number of ways therefore recieve the incoming 2FA text, defeating the purpose of 2FA and rendering the extra step useless. Use SMS if nothing else is available, but try to use something else if you have the option. The order of recommended 2FA methods from strongest to weakest are hardware keys, software apps, push notifications, SMS/Email. Software apps will be the sweet spot for most people.</p>
+</header>
+<header>
+<h3>What is Multifactor Authentication?</h1>
+</header>
+<p>Multifactor authentication - also known was two-factor authentication, 2FA, or MFA - is when a service requries an extra step to authenticate you during login aside from simly username and password. This could take the form of a text message, a code generated by an app, a push notification, or a hardware device.
+<header>
+<h3>Why do I Need Multifactor Authentication?</h1>
+</header>
+<p><a href="https://www.microsoft.com/security/blog/2019/08/20/one-simple-action-you-can-take-to-prevent-99-9-percent-of-account-attacks/" target="_blank">According to Microsoft</a>, this one technique can stop up to 99.9% of unauthorized account accesses. With MFA enabled, even if an attacker gets your username and password they would still be unable to login without the token.</p>
+<header>
+<h3>What Should I Look For in a Multifactor Authentication Solution?</h1>
+</header>
+<p>When picking an MFA solution, <b>be sure to pick something you will use consistently.</b> For example, if you need the ability to log into your account from any computer at any given time, a hardware key may not be convenient for you. You should also avoid SMS 2FA whenever possible because it is relatively easy for an attacker to steal your phone number and recieve the incoming 2FA text. Use SMS if nothing else is available, but use something better if you have the option. The order of recommended 2FA methods from strongest to weakest are hardware keys, software apps, push notifications, SMS/Email. Software apps will be the sweet spot for most people.</p>
 <table border="1" align="center" class="responsive">
 <tbody>
 		<tr>
-			<td align="center" class="thead">Product/Service</td>
-			<td align="center" class="thead">Pros</td>
-			<td align="center" class="thead">Cons</td>
+			<td align="center">Product/Service</td>
+			<td align="center">Pros</td>
+			<td align="center">Cons</td>
 		</tr>
 		<tr>
 			<td align="center" colspan="3"><a href="https://gitlab.com/nbartram/the-new-oil/-/wikis/Multifactor-Authentication-Criteria">Click here to see my criteria for selecting these services</a></td>
@@ -89,28 +171,25 @@
 			<td align="center" colspan="3">Listed in alphabetical order, not order of recommendation</td>
 		</tr>
 		<tr>
-			<td align="center"><a href="https://getaegis.app/" target="_blank"><img src="pictures/aegis.png"><br>Aegis Authenticator</a></td>
+			<td align="center"><a href="https://getaegis.app/"><img src="pictures/aegis.png"><br>Aegis Authenticator</a></td>
 			<td>
 	<ul>
-			<li><a href="oss.html">Open source</a>
-			<li>Offers backups
-			<li>The vault can be encrypted (optional)
-			<li>Available on <a href="https://f-droid.org/" target="_blank">F-Droid</a>
+			<li>Available on <a href="https://f-droid.org/en/packages/com.beemdevelopment.aegis">F-Droid</a>
 	</ul>
 			</td>
 			<td>
 	<ul>
 			<li>Android Only
+			<li>Vault encryption is not on by default, must enabled
 	</ul>
 			</td>
 		</tr>
 		<tr>
-			<td align="center"><a href="https://play.google.com/store/apps/details?id=org.shadowice.flocke.andotp" target="_blank"><img src="pictures/andotp.png"><br>andOTP</a></td>
+			<td align="center"><a href="https://play.google.com/store/apps/details?id=org.shadowice.flocke.andotp"><img src="pictures/andotp.png"><br>andOTP</a></td>
 			<td>
 	<ul>
-			<li><a href="oss.html">Open source</a>
-			<li>Offers backups
-			<li>Available on <a href="https://f-droid.org/" target="_blank">F-Droid</a>
+			<li>Available on <a href="https://f-droid.org/en/packages/org.shadowice.flocke.andotp">F-Droid</a>
+			<li>Encryption is automatic
 	</ul>
 			</td>
 			<td>
@@ -123,10 +202,7 @@
 			<td align="center"><a href="https://github.com/raivo-otp/ios-application/blob/master/README.md" target="_blank"><img src="pictures/ravio.png"><br>Ravio OTP</a></td>
 			<td>
 	<ul>
-			<li><a href="oss.html">Open source</a>
-			<li>Search function available to quickly and easily find desired OTP code
-			<li>Requires a login for added security
-			<li>Offers backups
+			<li>Encryption is automatic
 	</ul>
 			</td>
 			<td>
@@ -138,32 +214,26 @@
 		</tr>
 </tbody>
 </table>
-<div class="h2">
-<h3>Getting Started</h3>
-</div>
-<p>MFA can typically be enabled under the "Security" settings of your account, though it may sometimes be under a similar but different setting such as "Login" or "Account." It also sometimes goes by other names such as "two-step login" or "Authenticator App." <b>Stop reading right now and go enable MFA on your important email account(s).</b> Seriously, right this second. If I hack your email account that you use for banking, for medical communication, or for other critical things, I can lock you out and take over your life. All I have to do is hit that little button that says "forgot password" and have them email me a reset link. So you need to secure your important email accounts first and foremost.</p>
-<p>My preferred strategy for implementing MFA on existing accounts is to <b>start by enabling it on every critical account first</b> - email, banking, work accounts, etc. Take the time right now to decide what accounts you absolutely cannot afford to lose access to and sit down and knock those out right now. For less critical accounts like your personal Twitter or game accounts, I recommend you enable it next time you use it. The idea of sitting down and knocking out hundreds of accounts at once is daunting, so instead I advocate an "as you go" strategy to avoid being overwhelmed. Before you know it, you'll have enabled it everywhere offered.</p>
-<div class="h2">
+
+<header>
 <h3>Honorable Mention: Hardware Tokens</h3>
-</div>
-<p>For most people software apps will provide the best blend of security and usability. However, for those who require additional proteciton - or simply want to go the extra mile - many hardware keys exist that provide maximum protection at very little additional cost of user-friendliness. Some of the more common and recommended hardware keys include <a href="https://www.yubico.com/" target="_blank">Yubikey</a>, <a href="https://onlykey.io/" target="_blank">OnlyKey</a>, and <a href="https://puri.sm/products/librem-key/" target="_blank">LibremKey</a>. Less common but open source options include <a href="https://www.nitrokey.com/" target="_blank">NitroKey</a> and <a href="https://solokeys.com/" target="_blank">SoloKey</a>. Each offers different features but all will provide roughly the same level of protection.
-<p>Hardware authentication keys are physical devices that plug into your computer and act as a hardware multifactor authentication option. They are great additional security, but aren't very durable and may not be a good choice for a laptop or a person who needs to be able to access things remotely. Likewise, these keys require you to put extra thought into your backups (ex "what if I lose this?") It is worth noting, though, that hardware keys are incredibly secure because they can't be remotely hijacked the way that other forms can.</p>
-</p>
-<div class="h2">
+</header>
+<p>For most people software apps will provide the best blend of security and convenience. However, for those who require additional proteciton many hardware keys exist that provide maximum protection at very little additional cost and effort. Hardware tokens are physical devices that plug into your computer via USB. If an account is configured to use a hardware token, the device must be plugged in rather than entering a code. They are nearly perfect additional security because they can't be remotely hijacked the way that other keys can, but aren't very durable and may not be a good choice for a laptop or someone who travels a lot. Some of the more common and recommended hardware keys include <a href="https://onlykey.io/">OnlyKey</a> and <a href="https://www.yubico.com/">Yubikey</a>. Less common but open source options include <a href="https://puri.sm/products/librem-key/">LibremKey</a>, <a href="https://www.nitrokey.com/">NitroKey</a> and <a href="https://solokeys.com/">SoloKey</a>.</p>
+<header>
+<h3>Getting Started</h3>
+</header>
+<p>MFA can typically be enabled under the "Security" settings of your account, though it may sometimes be under a similar but different setting such as "Login" or "Account." It also sometimes goes by other names such as "two-step login" or "Authenticator App." Some websites will explicitly list Google Authenticator, but any two-factor app listed here will work. <b>I suggest you stop what you're doing immediately and enable MFA for your most critical accounts.</b> Bank, email, and other accounts you can't afford to live without. Do it right now before you do anything else.</p>
+<p>For the rest of your accounts, I recommend enabling MFA "as you go." This means you enable on a per-account basis as you login or use it. For example, next time you log into eBay, enable MFA. Then, next time you log into Discord, enable MFA. In time every account will have a unique, strong password.
+<header>
 <h3>Tips & Tricks</h3>
-</div>
-<p>Most sites have an option during the second login screen to "remember this device for 30 days" or something similar. This will keep you logged in without requiring your MFA code for the indicated amount of time. I'm not opposed to this, but make sure that you're not enabling this on a public computer, family computers, or a computer that stays unlocked often. Only use this option on personal computers that you don't leave unattended.</p>
-<p>When you sign up for MFA, most sites will issue you backup codes. Be sure to write these down somewhere safe in case you lose your MFA device, it will save a lot of time and headache. I recommend saving them in the notes section of your <a href="passwords.html">password manager</a>.</p>
-<p>Some password managers offer the ability to store your MFA key with a little extra work to make your login process easier and more centralized. This can be helpful if you're sharing accounts with someone (a family member, for example) or if you just want to rely on your phone less. However, be aware of the risk: by putting your password and two-factor code in the same place, you're creating a single point of failure. Make sure you're taking extra precautions if this is the path you decide to take.</p>
-<p>Many websites will explicitly list "Google Authenticator" as a two-factor option, but don't let this fool you. Any software authenticator app listed on this page (and many others) will work just fine.</p>
-<p>Some apps offer the ability to backup your two-factor database, sometimes even in the cloud. As someone who has lost their two-factor database before, I understand the appeal of this. But be aware of the risks. 1) Anything stored in the cloud has the risk of becoming exposed either through a data breach or a rogue employee if the service is not <a href="encryption.html">zero-knowledge</a>. Do your research and make sure you've accepted this risk. 2) If the backup requires a password, be sure to use a <a href="passwords.html">strong password</a>, or else it will be easily cracked as discussed in the "<a href="data_breaches.html">Understanding Data Breaches</a>" section.</p>
-<p>If using a hardware token, be sure to buy two copies and keep the second in a safe place as a backup in case the first one gets broken. Just as with regular backups, be sure to keep it regularly updated, too. It's not use to you if it's not configured with the sites you need to use it on when your primary device breaks.</p>
-<br>
-<div class="next" style="clear:both;"><a href="passwords.html">Previous</a>
+</header>
+<p>Most sites have an option during the second login screen to "remember this device for 30 days" or something similar. This will keep you logged in without requiring your MFA code for the indicated amount of time. This can be convenient, but take care not to enable this on a public or shared computer, or a computer that stays unlocked often.</p>
+<p>When you sign up for MFA, most sites will issue you backup codes. Be sure to write these down somewhere safe in case you lose your MFA device. I recommend saving them in the notes section of your <a href="passwords.html">password manager</a>.</p>
+<p>Some password managers offer the ability to store your MFA key to make your login process more convenient. This can be helpful, but be aware of the risk: by putting your password and two-factor code in the same place, you're creating a single point of failure. Make sure you're taking extra precautions if this is the path you decide to take.</p>
+<p>If using a hardware token, I recommend buying two copies and keeping the second in a safe place as a backup in case the first one gets broken. Just as with other kinds of data backups, be sure to keep it regularly updated.</p>
+<footer><a href="passwords.html">Previous</a>
 <a style="float:right;" href="payments.html">Next</a>
-</div>
-</div>
-</div>
-</div>
+</footer>
+</main>
 </body>
 </html>
