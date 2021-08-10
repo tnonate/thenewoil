@@ -11,11 +11,12 @@
 
 <body>
 <header>
-     <img src="pictures/header.jpg" alt="The New Oil logo" style="display: block;margin-left: auto;margin-right:auto;">
+     <img src="pictures/header.jpg" alt="The New Oil logo" class="logo">
+<nav class="mobile">
 <details>
 <summary><img src="pictures/menu.png" alt="Menu logo"></summary>
 <ul>
-<li><a href="about.html"><b>About</a></b></li>
+<li><a href="about.html"><b>About</b></a></li>
 <li><a href="index.html">Home Page</a></li>
 <li><a href="intro.html">Introduction</a></li>
 <li><a href="threatmodel.html">Threat Modeling</a></li>
@@ -56,6 +57,70 @@
 <li><a href="links.html"><b>Contact/Links</b></a></li>
 </ul>
 </details>
+</nav>
+<nav class="desktop">
+<details>
+<summary>Prologue</summary>
+<ul>
+<li><a href="about.html">About</a></li>
+<li><a href="index.html">Home Page</a></li>
+<li><a href="intro.html">Introduction</a></li>
+<li><a href="threatmodel.html">Threat Modeling</a></li>
+<li><a href="surveillance.html">Understanding Surveillance</a></li>
+<li><a href="secprivanon.html">Security vs Privacy vs Anonymity</a></li>
+<li><a href="oss.html">Open Source vs Proprietary</a></li>
+<li><a href="communication.html">How Network Communication Works</a></li>
+</ul>
+</details>
+<details>
+<summary>Most Important</summary>
+<ul>
+<li><a href="most-important.html">Introduction</a></li>
+<li><a href="data-breaches.html">Understanding Data Breaches</a></li>
+<li><a href="passwords.html">Data Breach Defense: Strong Passwords</a></li>
+<li><a href="mfa.html">Data Breach Defense: Multifactor Authentication</a></li>
+<li><a href="payments.html">Data Breach Defense: Payment Masking</a></li>
+<li><a href="credit.html">Identity Theft: Freezing Your Credit</a></li>
+<li><a href="mobile.html">Securing Mobile</a></li>
+<li><a href="mobile-settings.html">Securing Mobile: Settings</a></li>
+<li><a href="mobile-apps.html">Securing Mobile: Replacement Apps</a></li>
+<li><a href="browser.html">Privacy: Securing Your Browser</a></li>
+</ul>
+</details>
+<details>
+<summary>Moderately Important</summary>
+<ul>
+<li><a href="moderately-important.html">Introduction</a></li>
+<li><a href="metadata.html">Understanding Metadata</a></li>
+<li><a href="encryption.html">Understanding Encryption</a></li>
+<li><a href="devices.html">Protection: Device Encryption</a></li>
+<li><a href="backups.html">Protection: Backups</a></li>
+<li><a href="desktop-settings.html">Privacy: Securing Desktop</a></li>
+<li><a href="messaging.html">Privacy: Encrypted Texting/Calling</a></li>
+<li><a href="email.html">Privacy: Encrypted E-Mail</a></li>
+<li><a href="mobile-habits.html">Privacy: Mobile Habits</a></li>
+<li><a href="llc.html">Protection: Trusts, LLCs, and Public Data</a></li>
+</ul>
+</details>
+<details>
+<summary>Less Imporant</summary>
+<ul>
+<li><a href="less-important.html">Introduction</a></li>
+<li><a href="voip.html">Protection: Voice-over-IP</a></li>
+<li><a href="email-masking.html">Data Breach Defense: Email Masking</a></li>
+<li><a href="habits.html">Protection: Change Your Online Habits</a></li>
+<li><a href="disinformation.html">Protection: Disinformation</a></li>
+<li><a href="iot.html">Cybersecurity: The Internet of Things</a></li>
+<li><a href="vpns.html">Privacy: VPNs</a>
+</ul>
+</details>
+<details>
+<summary>Contact/Links</summary>
+<ul>
+<li><a href="links.html">Contact/Links</a>
+</ul>
+</details>
+</nav>
 </header>
 <main>
 <article>
@@ -112,7 +177,7 @@
 </tbody>
 </table>
 <div class="subheader">
-<h3 align="center">Other Content</h3>
+<h3 align="center">Contact</h3>
 </div>
 <table border="0" align="center" class="responsive">
 <tbody>
@@ -120,30 +185,45 @@
 		<td align="center" colspan="3"><b>Click <a href="policy.html">here</a> to see my confidentiality policy.</b></td>
 	</tr>
 	<tr>
-		<td align="center" width="33%"><a rel="me" href="https://freeradical.zone/@thenewoil"><img src="pictures/mastodon.png"><br>Mastodon</a></td>
-		<td align="center" width="33%"><a href="https://www.surveillancereport.tech/"><img src="pictures/sr.png"><br>Podcast</a></td>
-		<td align="center" width="33%"><a href="https://peertube.thenewoil.xyz/video-channels/thenewoil/videos"><img src="pictures/peertube.png"><br>PeerTube</a></td>
+		<td align="center"><a href="mailto:thenewoil@protonmail.com"><img src="pictures/email.png"></a></td>
+		<td align="center"><a href="mailto:thenewoil@tutanota.com"><img src="pictures/tutanota2.png"></a></tdt>
+		<td align="center"><a href="mailto:thenewoil@ctemplar.com"><img src="pictures/ctemplar.png"></a></td>
 	</tr>
 	<tr>
-		<td align="center"><a href="https://blog.thenewoil.xyz/"><img src="pictures/writeas.png" align="center" width="100px" class="invert"><br>Blog</a></td>
-		<td align="center"><a href="https://dt.gl/author/nate/"><img src="pictures/dt.png" align="center" class="invert"><br>Decentralize Today</a></td>
-		<td align="center"><img src="pictures/matrix.png" class="invert"><br><a href="https://riot.im/app/#/room/#TheNewOil:matrix.org">#TheNewOil:matrix.org</a></td>
-	</tr>
+		<td align="center"><a href="mailto:thenewoil@protonmail.com">TheNewOil@ProtonMail.com</a><br><a href="pgp.html">PGP Key</a></td>
+		<td align="center" valign="top"><a href="mailto:thenewoil@tutanota.com">TheNewOil@Tutanota.com</a></td>
+		<td align="center"><a href="mailto:thenewoil@ctemplar.com">TheNewOil@CTemplar.com</a><br><a href="ctemplar.html">PGP Key</a></td>
 	</tr>
 </tbody>
 </table>
 <div class="subheader">
-<h3 align="center">Contact</h3>
+<h3 align="center">Other Content</h3>
 </div>
 <table border="0" align="center" class="responsive">
 <tbody>
 	<tr>
-		<td align="center"><a href="mailto:thenewoil@protonmail.com"><img src="pictures/email.png"></br>TheNewOil@ProtonMail.com</a><br><a href="pgp.html">PGP Key</a></td>
-		<td align="center"><a href="mailto:thenewoil@tutanota.com"><img src="pictures/tutanota2.png"></br>TheNewOil@Tutanota.com</a></td>
-		<td align="center"><a href="mailto:thenewoil@ctemplar.com"><img src="pictures/ctemplar.png"></br>TheNewOil@CTemplar.com</a><br><a href="ctemplar.html">PGP Key</a></td>
+		<td align="center" width="33%"><a rel="me" href="https://freeradical.zone/@thenewoil"><img src="pictures/mastodon.png"></a></td>
+		<td align="center" width="33%"><a href="https://www.surveillancereport.tech/"><img src="pictures/sr.png"></a></td>
+		<td align="center" width="33%"><a href="https://peertube.thenewoil.xyz/video-channels/thenewoil/videos"><img src="pictures/peertube.png"></a></td>
+	</tr>
+	<tr>
+		<td align="center"><a rel="me" href="https://freeradical.zone/@thenewoil">Mastodon</a></td>
+		<td align="center"><a href="https://www.surveillancereport.tech/">Podcast</a></td>
+		<td align="center"><a href="https://peertube.thenewoil.xyz/video-channels/thenewoil/videos">PeerTube</a></td>
+	</tr>
+	<tr>
+		<td align="center"><a href="https://blog.thenewoil.xyz/"><img src="pictures/writeas.png" class="invert"></a></td>
+		<td align="center"><a href="https://dt.gl/author/nate/"><img src="pictures/dt.png" class="invert"></a></td>
+		<td align="center"><a href="https://riot.im/app/#/room/#TheNewOil:matrix.org"><img src="pictures/matrix.png" class="invert"></a></td>
+	</tr>
+	<tr>
+		<td align="center"><a href="https://blog.thenewoil.xyz/">Blog</a></td>
+		<td align="center"><a href="https://dt.gl/author/nate/">Decentralize Today</a></td>
+		<td align="center"><a href="https://riot.im/app/#/room/#TheNewOil:matrix.org">#TheNewOil:matrix.org</a></td>
 	</tr>
 </tbody>
 </table>
+
 <div class="subheader">
 <h3 align="center">Support</h3>
 </div>
@@ -153,14 +233,24 @@
 		<td align="center" colspan="3"><b>See my <a href="roadmap.html">roadmap</a> to see where your donations will go</b></td>
 	</tr>
 	<tr>
-		<td align="center" width="33%"><a href="btc.html"><img src="pictures/bitcoin.png"><br>Bitcoin (BTC)</a></td>
-		<td align="center" width="33%"><a href="xmr.html"><img src="pictures/monero.png"><br>Monero (XMR)</a></td>
-		<td align="center" width="33%"><a href="zec.html"><img src="pictures/zcash.png"><br>ZCash (ZEC)</a></td>
+		<td align="center" width="33%"><a href="btc.html"><img src="pictures/bitcoin.png"></a></td>
+		<td align="center" width="33%"><a href="xmr.html"><img src="pictures/monero.png"></a></td>
+		<td align="center" width="33%"><a href="zec.html"><img src="pictures/zcash.png"></a></td>
 	</tr>
 	<tr>
-		<td align="center"><a href="https://liberapay.com/thenewoil"><img src="pictures/liberapay.png"><br>Liberapay</a></td>
-		<td align="center"><a href="https://www.patreon.com/thenewoil"><img src="pictures/patreon.png"><br>Patreon</a><br>Note: I do not encourage the use of Patreon. Please consider Liberapay instead.</td>
-		<td align="center"><a href="https://www.paypal.com/donate?token=ViSrpcUHf-sZREjEwlzAJdSVVK4zA7J34DOIYa-rtJ1S6Yh1ZMT8ewCzoD7X-2na02p5dw3OBlw03iy6"><img src="pictures/paypal.png"><br>Paypal: TheNewOil@ProtonMail.com</a>
+		<td align="center"><a href="btc.html">Bitcoin (BTC)</a></td>
+		<td align="center"><a href="xmr.html">Monero (XMR)</a></td>
+		<td align="center"><a href="zec.html">ZCash (ZEC)</a></td>
+	</tr>
+	<tr>
+		<td align="center"><a href="https://liberapay.com/thenewoil"><img src="pictures/liberapay.png"></a></td>
+		<td align="center"><a href="https://www.patreon.com/thenewoil"><img src="pictures/patreon.png"></a></td>
+		<td align="center"><a href="https://www.paypal.com/donate?token=ViSrpcUHf-sZREjEwlzAJdSVVK4zA7J34DOIYa-rtJ1S6Yh1ZMT8ewCzoD7X-2na02p5dw3OBlw03iy6"><img src="pictures/paypal.png"></a></td>
+	</tr>
+	<tr>
+		<td align="center" valign="top"><a href="https://liberapay.com/thenewoil">Liberapay</a></td>
+		<td align="center"><a href="https://www.patreon.com/thenewoil">Patreon</a><br>Note: I do not encourage the use of Patreon. Please consider Liberapay instead.</td>
+		<td align="center"><a href="https://www.paypal.com/donate?token=ViSrpcUHf-sZREjEwlzAJdSVVK4zA7J34DOIYa-rtJ1S6Yh1ZMT8ewCzoD7X-2na02p5dw3OBlw03iy6">Paypal: TheNewOil@ProtonMail.com</a>
 <br>Note: PayPal is not privacy-friendly. Please carefully consider before using this option.</td>
 	</tr>
 </tbody>
