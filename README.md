@@ -13,7 +13,7 @@ Readers are also encouraged to join the [Matrix](https://riot.im/app/#/room/#The
 
 - [Website](https://thenewoil.xyz/)
 - [Blog](https://write.as/thenewoil/)
-- [Podcast](https://techlore.tech/sr.html)
+- [Podcast](https://www.surveillancereport.tech/)
 - [Mastodon](https://freeradical.zone/@thenewoil)
 - [PeerTube](https://peertube.thenewoil.xyz/video-channels/thenewoil/videos)
 
