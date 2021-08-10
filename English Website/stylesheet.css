@@ -11,29 +11,53 @@ article, aside, footer, header, main, nav, section {
   font-family: sans-serif;
 }
 
-header a {
-  text-decoration: none;
+.mobile {
+  display: none;
 }
 
 header {
   background: black;
 }
 
-details {
-  background: black;
-  padding: 5px;
-  position: absolute;
-  top: 5px;
-  left: 5px;
+.logo {
+  display: block;
+  margin: auto;
 }
 
-details a {
+nav {
+  color: white;
+  display: flex;
+  margin: auto;
+}
+
+details {
+  padding: 5px;
+  text-align: left;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav a {
+  text-decoration: none;
   padding: 5px;
   transition: font-size 0.2s;
-  color: white;
+  color: white; 
 }
 
-details a:hover, footer a:hover {
+nav a:hover {
+  font-size: 20px;
+  border-color: #3498DB;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px; 
+}
+
+summary {
+  text-align: center;
+}
+
+footer a:hover {
   font-size: 20px;
   border-color: #3498DB;
   border-radius: 5px;
@@ -107,6 +131,14 @@ aside {
         .column { display: table-row; }
 	section { display: block; }
 	section ul { width: 90%; }
+	.logo { margin-right: 10px; }
+	.desktop { display: none;}
+	.mobile { display: block; }
+	details { background: black; padding: 5px; position: absolute; top: 8px; left: 8px; width: auto;}
+	summary { text-align: left; }
+	header a {text-decoration: none; list-style-type: none; }
+	details > summary { list-style: none; }
+	details > summary::-webkit-details-marker { display: none; }
     }
 
 /* Dark Mode
