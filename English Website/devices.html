@@ -11,11 +11,12 @@
 
 <body>
 <header>
-     <img src="pictures/header.jpg" alt="The New Oil logo" style="display: block;margin-left: auto;margin-right:auto;">
+     <img src="pictures/header.jpg" alt="The New Oil logo" class="logo">
+<nav class="mobile">
 <details>
 <summary><img src="pictures/menu.png" alt="Menu logo"></summary>
 <ul>
-<li><a href="about.html"><b>About</a></b></li>
+<li><a href="about.html"><b>About</b></a></li>
 <li><a href="index.html">Home Page</a></li>
 <li><a href="intro.html">Introduction</a></li>
 <li><a href="threatmodel.html">Threat Modeling</a></li>
@@ -56,10 +57,73 @@
 <li><a href="links.html"><b>Contact/Links</b></a></li>
 </ul>
 </details>
+</nav>
+<nav class="desktop">
+<details>
+<summary>Prologue</summary>
+<ul>
+<li><a href="about.html">About</a></li>
+<li><a href="index.html">Home Page</a></li>
+<li><a href="intro.html">Introduction</a></li>
+<li><a href="threatmodel.html">Threat Modeling</a></li>
+<li><a href="surveillance.html">Understanding Surveillance</a></li>
+<li><a href="secprivanon.html">Security vs Privacy vs Anonymity</a></li>
+<li><a href="oss.html">Open Source vs Proprietary</a></li>
+<li><a href="communication.html">How Network Communication Works</a></li>
+</ul>
+</details>
+<details>
+<summary>Most Important</summary>
+<ul>
+<li><a href="most-important.html">Introduction</a></li>
+<li><a href="data-breaches.html">Understanding Data Breaches</a></li>
+<li><a href="passwords.html">Data Breach Defense: Strong Passwords</a></li>
+<li><a href="mfa.html">Data Breach Defense: Multifactor Authentication</a></li>
+<li><a href="payments.html">Data Breach Defense: Payment Masking</a></li>
+<li><a href="credit.html">Identity Theft: Freezing Your Credit</a></li>
+<li><a href="mobile.html">Securing Mobile</a></li>
+<li><a href="mobile-settings.html">Securing Mobile: Settings</a></li>
+<li><a href="mobile-apps.html">Securing Mobile: Replacement Apps</a></li>
+<li><a href="browser.html">Privacy: Securing Your Browser</a></li>
+</ul>
+</details>
+<details>
+<summary>Moderately Important</summary>
+<ul>
+<li><a href="moderately-important.html">Introduction</a></li>
+<li><a href="metadata.html">Understanding Metadata</a></li>
+<li><a href="encryption.html">Understanding Encryption</a></li>
+<li><a href="devices.html">Protection: Device Encryption</a></li>
+<li><a href="backups.html">Protection: Backups</a></li>
+<li><a href="desktop-settings.html">Privacy: Securing Desktop</a></li>
+<li><a href="messaging.html">Privacy: Encrypted Texting/Calling</a></li>
+<li><a href="email.html">Privacy: Encrypted E-Mail</a></li>
+<li><a href="mobile-habits.html">Privacy: Mobile Habits</a></li>
+<li><a href="llc.html">Protection: Trusts, LLCs, and Public Data</a></li>
+</ul>
+</details>
+<details>
+<summary>Less Imporant</summary>
+<ul>
+<li><a href="less-important.html">Introduction</a></li>
+<li><a href="voip.html">Protection: Voice-over-IP</a></li>
+<li><a href="email-masking.html">Data Breach Defense: Email Masking</a></li>
+<li><a href="habits.html">Protection: Change Your Online Habits</a></li>
+<li><a href="disinformation.html">Protection: Disinformation</a></li>
+<li><a href="iot.html">Cybersecurity: The Internet of Things</a></li>
+<li><a href="vpns.html">Privacy: VPNs</a>
+</ul>
+</details>
+<details>
+<summary>Contact/Links</summary>
+<ul>
+<li><a href="links.html">Contact/Links</a>
+</ul>
+</details>
+</nav>
 </header>
 <main>
 <article>
-<div class="subheader">
 <h1 align="center">Protection: Device Encryption</h1>
 </div>
 <p><b>Encrypting phones is easy.</b> Both Android and iOS are automatically encrypted if you assign a lock PIN, pattern, or other form of authentication. I recommended enabling this feature <a href="mobile-settings.html">earlier</a>. Encrypting desktops and laptops takes a little more effort. <b>I recommend putting priority on encrypting devices that are easily portable</b>. Phones should be encrypted as they get lost and stolen often and contain sensitive information (though if you followed my <a href="mobile.html">advice</a> there should be less sensitive data on your phone than most people). Next are laptops, even if you don't ever take them off your desk or out of the house. It's easy for a thief to pick one up and take off with it, so they should be encrypted. The same logic goes for external harddrives, thumb drives, and and other similar devices. Finally, desktop computers. Encryption is free, so I recommend encrypting everything you can, just be careful not to forget your password and to keep diligent <a href="backups.html">backups</a>.</p>
