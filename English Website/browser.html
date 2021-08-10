@@ -11,11 +11,12 @@
 
 <body>
 <header>
-     <img src="pictures/header.jpg" alt="The New Oil logo" style="display: block;margin-left: auto;margin-right:auto;">
+     <img src="pictures/header.jpg" alt="The New Oil logo" class="logo">
+<nav class="mobile">
 <details>
 <summary><img src="pictures/menu.png" alt="Menu logo"></summary>
 <ul>
-<li><a href="about.html"><b>About</a></b></li>
+<li><a href="about.html"><b>About</b></a></li>
 <li><a href="index.html">Home Page</a></li>
 <li><a href="intro.html">Introduction</a></li>
 <li><a href="threatmodel.html">Threat Modeling</a></li>
@@ -56,6 +57,70 @@
 <li><a href="links.html"><b>Contact/Links</b></a></li>
 </ul>
 </details>
+</nav>
+<nav class="desktop">
+<details>
+<summary>Prologue</summary>
+<ul>
+<li><a href="about.html">About</a></li>
+<li><a href="index.html">Home Page</a></li>
+<li><a href="intro.html">Introduction</a></li>
+<li><a href="threatmodel.html">Threat Modeling</a></li>
+<li><a href="surveillance.html">Understanding Surveillance</a></li>
+<li><a href="secprivanon.html">Security vs Privacy vs Anonymity</a></li>
+<li><a href="oss.html">Open Source vs Proprietary</a></li>
+<li><a href="communication.html">How Network Communication Works</a></li>
+</ul>
+</details>
+<details>
+<summary>Most Important</summary>
+<ul>
+<li><a href="most-important.html">Introduction</a></li>
+<li><a href="data-breaches.html">Understanding Data Breaches</a></li>
+<li><a href="passwords.html">Data Breach Defense: Strong Passwords</a></li>
+<li><a href="mfa.html">Data Breach Defense: Multifactor Authentication</a></li>
+<li><a href="payments.html">Data Breach Defense: Payment Masking</a></li>
+<li><a href="credit.html">Identity Theft: Freezing Your Credit</a></li>
+<li><a href="mobile.html">Securing Mobile</a></li>
+<li><a href="mobile-settings.html">Securing Mobile: Settings</a></li>
+<li><a href="mobile-apps.html">Securing Mobile: Replacement Apps</a></li>
+<li><a href="browser.html">Privacy: Securing Your Browser</a></li>
+</ul>
+</details>
+<details>
+<summary>Moderately Important</summary>
+<ul>
+<li><a href="moderately-important.html">Introduction</a></li>
+<li><a href="metadata.html">Understanding Metadata</a></li>
+<li><a href="encryption.html">Understanding Encryption</a></li>
+<li><a href="devices.html">Protection: Device Encryption</a></li>
+<li><a href="backups.html">Protection: Backups</a></li>
+<li><a href="desktop-settings.html">Privacy: Securing Desktop</a></li>
+<li><a href="messaging.html">Privacy: Encrypted Texting/Calling</a></li>
+<li><a href="email.html">Privacy: Encrypted E-Mail</a></li>
+<li><a href="mobile-habits.html">Privacy: Mobile Habits</a></li>
+<li><a href="llc.html">Protection: Trusts, LLCs, and Public Data</a></li>
+</ul>
+</details>
+<details>
+<summary>Less Imporant</summary>
+<ul>
+<li><a href="less-important.html">Introduction</a></li>
+<li><a href="voip.html">Protection: Voice-over-IP</a></li>
+<li><a href="email-masking.html">Data Breach Defense: Email Masking</a></li>
+<li><a href="habits.html">Protection: Change Your Online Habits</a></li>
+<li><a href="disinformation.html">Protection: Disinformation</a></li>
+<li><a href="iot.html">Cybersecurity: The Internet of Things</a></li>
+<li><a href="vpns.html">Privacy: VPNs</a>
+</ul>
+</details>
+<details>
+<summary>Contact/Links</summary>
+<ul>
+<li><a href="links.html">Contact/Links</a>
+</ul>
+</details>
+</nav>
 </header>
 <main>
 <article>
@@ -70,23 +135,23 @@
 <div class="subheader">
 <h3>Plugins</h3>
 </div>
-<img src="pictures/ublock.png" alt="ublock origin logo" align="left">
+<img src="pictures/ublock.png" alt="ublock origin logo" align="left" style="padding:5px;">
 <p><b>Regardless of which browser you decide to go with, there are two plugins you should add to dramatically improve your privacy and security.</b> The first is <a href="https://ublockorigin.com/">uBlock Origin</a>, a powerful, lightweight ad- and tracker-blocker. Once installed, open the plugin and open the <a href="pictures/ublock1.jpg">settings</a>. Be sure to enable every option under the "<a href="pictures/ublock2.jpg">Privacy</a>" section. Now click on the tab “<a href="pictures/ublock3.jpg">Filter lists</a>” and enable everything under “Built-In,” “Ads,” "Privacy," “Malware domains,” “Annoyances,” and "Multipurpose." I would also recommend checking the "Regions, languages" section if you live outside North America and enable for your location, too.</p>
-<img src="https://www.localcdn.org/img/logo-protected.svg" width="100px" height="100px" align="right" alt="localcdcn logo">
+<img src="pictures/localcdn.png" align="right" alt="localcdcn logo" style="padding:5px;">
 <p>The other plugin is <a href="https://www.localcdn.org/">LocalCDN</a>. LocalCDN is a plugin that will replace a lot of third-party libraries like JQuery, Google, and Bootstrap and inject them locally from privacy-respecting alternate sources. These third party libraries and CDNs can be used to track you, so this plugin helps to reduce tracking. If all that went over your head, just know that this blocks a large number of trackers without any configuration or interaction required on your end. Just install it and let it run.</p>
 <p>In my experience, these plugins and settings rarely cause any issues, but be aware that in extreme cases they can break sites and must be temporarily turned off if site access is required.</p>
 <div class="subheader">
 <h3>Settings</h3>
 </div>
-<img src="pictures/brave.png" align="left" alt="brave logo">
+<img src="pictures/brave.png" align="left" style="padding:5px;" alt="brave logo">
 <p><b>If you are using Brave</b>, disable all the options under "Social Media Blocking" and change your default Search Engine to a <a href="habits.html">privacy respecting alternative</a> (you can add a custom search engine by navigating to that site then checking your settings while still there). Under "Additional settings," make sure that third-party cookies are blocked under "Privacy and Security," and then under the "Security" sub-option, enable "Use secure DNS" and select "With: NextDNS" from the dropdown menu.</p>
-<img src="pictures/firefox.png" align="right" alt="firefox logo">
+<img src="pictures/firefox.png" align="right" style="padding:5px;" alt="firefox logo">
 <p><b>If you are using Firefox</b>, start by going to the first tab, “General,” and scroll all the way to the bottom where it says “Network Settings.” Open this by clicking the gray “Settings” button, scroll to the bottom, and change "Cloudlfare" to "NextDNS." Click “Okay” then go to the "Search" tab. Under "Default Search Engine," select a <a href="habits.html">privacy respecting search engine</a>. Finally, visit the “Privacy & Security” tab. The first section is “Enhanced Tracking Protection.” Click the second option, “Strict.” I have never seen this cause any site breakage before, but if it does you can set it back to "Standard." Last but not least, scroll to the bottom, under "HTTPS-Only Mode" and click "Enable HTTPS-Only Mode in all windows."</p>
 <p><b>Both Brave and Firefox</b> have some usage-reporting settings that are enabled by default. These statistics are reported to Brave/Mozilla for the purpose of improving the browser. However, if you are uncomfortable submitting that data you can disable it. For Brave, go to "Additional settings" -> "Privacy and security" and uncheck "Automatically send completely private product analytics to Brave". For Firefox, uncheck all four boxes located under "Privacy & Security" -> "Firefox Data Collection and Use."</p>
 <div class="subheader">
 <h3>Honorable Mention: Tor Browser</h3>
 </div>
-<img src="pictures/tor.png" align="left" class="invert">
+<img src="pictures/tor.png" align="left" style="padding:5px;" class="invert">
 <p>The <a href="https://www.torproject.org/download/">Tor Browser</a> is somewhat common daily browser for many privacy enthusiasts for a few reasons. If you're unfamiliar with Tor, check out <a href="https://lifehacker.com/what-is-tor-and-should-i-use-it-1527891029">this link</a>. The Tor browser routes only your browser traffic through the Tor network and not all device traffic. Because Tor comes pre-packaged with HTTPS Everywhere and a more advanced content blocker called No-Script, it has the same potential to block ads and trackers as a modified Firefox browser (though you will need to adjust the settings on No-Script, which can be confusing for some). The Tor Browser also isolates each tab and changes your relay path with every new website you visit to help further protect your anonymity. <b>Using the Tor Browser as your main browser is a great idea</b>, but keep in mind that many legitimate websites such as banking and e-commerce sites block known Tor addresses to prevent abuse and fraud, so <b>you'll want to keep a copy of Brave/Firefox installed</b> for when that happens. Additionally, using the Tor Browser alone does not make you truly, 100% anonymous, so don't do anything illegal. Finally, because all nodes are volunteer-run and therefore work on an "honor system," be sure to check that any site you login or transfer personal data across is using HTTPS (the lock icon at the beginning of the address bar) and is the actual site and not a fake phishing site designed to look like the real thing.</p>
 </article>
 </main>
