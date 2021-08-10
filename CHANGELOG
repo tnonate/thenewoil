@@ -2,6 +2,7 @@ August 9, 2021
 -Added a visible, horizontal navbar on desktop that automatically converts to a 3-line "hamburger" menu bar on mobile for user friendliness
 -Rearranged the categories on the contacts page
 -Hosted the LocalCDN logo locally for the same reason as the others
+-Updated podcast link in README
 
 August 8, 2021
 - Removed Signal and Session as ways of direct contact
