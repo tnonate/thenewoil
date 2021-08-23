@@ -13,7 +13,7 @@ Readers are also encouraged to join the [Matrix](https://riot.im/app/#/room/#The
 
 - [Website](https://thenewoil.xyz/)
 - [Blog](https://write.as/thenewoil/)
-- [Podcast](https://www.surveillancereport.tech/)
+- [Podcast](https://surveillancereport.tech/)
 - [Mastodon](https://freeradical.zone/@thenewoil)
 - [PeerTube](https://peertube.thenewoil.xyz/video-channels/thenewoil/videos)
 
@@ -28,5 +28,9 @@ In addition to submitting corrections and changes, there are several ways for us
 - [Patreon](https://www.patreon.com/thenewoil)
 - [PayPal](https://www.paypal.com/donate?token=bsoRAryUMp9I3oU2oJeHIxCkMmXXjKjMUEpQgZZ1Eyuv5JKU_oMJHrhyH04rYD4HRPW7f8MQr619hH4v): thenewoil@protonmail.com
 - Spreading the word and sharing the site with your friends and family!
+
+## License and Transparency
+
+The New Oil is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 **[2020 Transparency Report](https://write.as/thenewoil/2020-recap-2021-plans)**
