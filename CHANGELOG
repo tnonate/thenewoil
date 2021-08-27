@@ -1,3 +1,6 @@
+August 27, 2021
+-Updated browser.html and vpns.html to reflect that using DNS-over-HTTPS can sometimes interfere with VPN features.
+
 August 23, 2021
 -Updated browser.html to note the complexity of browser fingerprinting
 -Updated links.html and the README to reflect the licsensing of The New Oil as Creative Commons.
