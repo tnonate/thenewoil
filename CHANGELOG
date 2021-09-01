@@ -1,6 +1,7 @@
 August 31, 2021
 -Corrected typo in the menu on all pages
 -Added Hushed to voip.html in accordance with Issue #3 (https://gitlab.com/nbartram/the-new-oil/-/issues/3)
+-Replaced ZCash with Brave rewards on links.html
 
 August 27, 2021
 -Updated browser.html and vpns.html to reflect that using DNS-over-HTTPS can sometimes interfere with VPN features.
