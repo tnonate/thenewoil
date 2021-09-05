@@ -1,3 +1,6 @@
+September 5, 2021
+-Fixed some typos on backups.html and habits.html
+
 September 1, 2021
 -Removed Criptext temporarily from email.html and email-chart.html as they are currently not accepting new registrations.
 -Added web monetization through Coil. Checked with uBlock Origin, does not appear to call home anywhere. You can see more here (https://webmonetization.org/) and here (https://coil.com/).
