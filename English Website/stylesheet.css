@@ -30,6 +30,10 @@ nav {
   margin: auto;
 }
 
+summary:hover {
+  text-decoration: underline;
+}
+
 details {
   padding: 5px;
   text-align: left;
@@ -145,7 +149,7 @@ aside {
 ==================================== */
 
 @media (prefers-color-scheme:dark) {
-	html, body { background-color: black; }
+	html, body { background-color: #1C2833; }
 	main { color: white; }
 	main a { color: skyblue; }
 	.subheader, thead { background:  #3498DB;  color: black; }
