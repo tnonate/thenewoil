@@ -1,5 +1,5 @@
 September 6, 2021
--Made changes to stylesheet.css: changed dark mode background to better differentiate between content and header, and added underline-on-hover to the menu so it's easier to notice they're clickable.
+-Made changes to stylesheet.css: changed dark mode background to better differentiate between content and header, and added underline-on-hover to the menu so it's easier to notice they're clickable. Also made sure the header was at least 55px high on the mobile version so the logo shows properly.
 
 September 5, 2021
 -Fixed some typos on backups.html and habits.html

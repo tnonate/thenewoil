@@ -140,6 +140,7 @@ aside {
 	.mobile { display: block; }
 	details { background: black; padding: 5px; position: absolute; top: 8px; left: 8px; width: auto;}
 	summary { text-align: left; }
+	header {  height: 55px; }
 	header a {text-decoration: none; list-style-type: none; }
 	details > summary { list-style: none; }
 	details > summary::-webkit-details-marker { display: none; }
