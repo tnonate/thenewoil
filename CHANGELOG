@@ -1,5 +1,6 @@
 September 6, 2021
--Made changes to stylesheet.css: changed dark mode background to better differentiate between content and header, and added underline-on-hover to the menu so it's easier to notice they're clickable. Also made sure the header was at least 55px high on the mobile version so the logo shows properly.
+-Added a missing space on data-breaches.html
+-Made changes to stylesheet.css: changed dark mode background color to better differentiate between content and header (and make it easier to read), added underline-on-hover to the menu so it's easier to notice they're clickable, and made sure the header was at least 55px high on the mobile version so the logo shows properly.
 
 September 5, 2021
 -Fixed some typos on backups.html and habits.html
