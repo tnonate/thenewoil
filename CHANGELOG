@@ -1,3 +1,6 @@
+September 7, 2021
+-Removed allegations of Session's dev's alt-right connections on messaging.html and messaging-chart.html because this appears to be largely debunked, or questionable proof at least. (See https://github.com/privacytools/privacytools.io/issues/1678#issuecomment-657202915)
+
 September 6, 2021
 -Added a missing space on data-breaches.html
 -Made changes to stylesheet.css: changed dark mode background color to better differentiate between content and header (and make it easier to read), added underline-on-hover to the menu so it's easier to notice they're clickable, and made sure the header was at least 55px high on the mobile version so the logo shows properly.
