@@ -1,7 +1,9 @@
 # The New Oil
-<img src="https://img.shields.io/liberapay/receives/thenewoil.svg?logo=liberapay">
 
-The New Oil is a data privacy and cybersecurity website dedicated to helping newbies take their first steps into the subject matter.
+## Mission Statement
+
+- To **educate** readers on why privacy and security matter, and the various tools and techniques available to help them reclaim and protect their own privacy and security
+- To **empower** readers to believe that privacy and security are attainable for everyone and to do their best to reclaim and protect their own privacy and security as much as necessary and possible for their unique situations.
 
 ## Contributing
 
@@ -23,7 +25,7 @@ In addition to submitting corrections and changes, there are several ways for us
 
 - [Bitcoin](https://thenewoil.xyz/btc.html): xpub661MyMwAqRbcGzNpy8KujhemxoFES1n7Sbc4JsxsJpCByqFGRVtxMXWpcLV318wxPj1YfuUeGbh2zWnLicad62pVKqXJbwMDorMt7vGV3gW
 - [Monero](https://thenewoil.xyz/xmr.html): 44NAYMG1qupZcZ5WtjHWp58WNkXjetpTbRKHkVyrFZs8SiZK7SycQKdAm5y7sXuVhV1eYcShLjkKpbLRQSZaKxpvV2zo8ii
-- [ZCash](https://thenewoil.xyz/zec.html): t1PSozRb2qv92N6TaPkYS4GJdEwk9Bo7WqD
+- [Brave Tips](https://support.brave.com/hc/en-us/articles/360021123971-How-do-I-tip-websites-and-Content-Creators-in-Brave-Rewards-)
 - [Liberapay](https://liberapay.com/thenewoil)
 - [Patreon](https://www.patreon.com/thenewoil)
 - [PayPal](https://www.paypal.com/donate?token=bsoRAryUMp9I3oU2oJeHIxCkMmXXjKjMUEpQgZZ1Eyuv5JKU_oMJHrhyH04rYD4HRPW7f8MQr619hH4v): thenewoil@protonmail.com
