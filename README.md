@@ -18,6 +18,7 @@ Readers are also encouraged to join the [Matrix](https://riot.im/app/#/room/#The
 - [Podcast](https://surveillancereport.tech/)
 - [Mastodon](https://freeradical.zone/@thenewoil)
 - [PeerTube](https://peertube.thenewoil.xyz/video-channels/thenewoil/videos)
+- [Alternative Site URL](https://thenewoil.org/)
 
 ## Support
 
