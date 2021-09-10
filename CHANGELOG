@@ -1,3 +1,8 @@
+September 10, 2021
+-Updated mfa.html to mention the various types of MFA, the pitfalls of biometric, and added 2fa.detective as a resource site to help people.
+-Updated roadmap.html to remove outdates mentions of a planned Lemmy instance.
+-Added qanda.html for public submission of public questions for a monthly Q&A blog piece.
+
 September 9, 2021
 -Cosmetic fix on browser.html 
 -Cloned the site to the .org TLD
