@@ -1,3 +1,9 @@
+September 12, 2021
+-Added the community manager (Mr Muffin) to about.html, along with contact info (pgp2.html)
+-Added the TLD contact for .org to links.html
+-Made links.html more mobile-friendly
+-Removed upcoming events (as I don't plan to have any in the near future) and moved GitLab link to a logo in the footer of links.html
+
 September 10, 2021
 -Updated mfa.html to mention the various types of MFA, the pitfalls of biometric, and added 2fa.detective as a resource site to help people.
 -Updated roadmap.html to remove outdates mentions of a planned Lemmy instance.
