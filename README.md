@@ -14,11 +14,11 @@ Readers are also encouraged to join the [Matrix](https://riot.im/app/#/room/#The
 ## Other Online Presences
 
 - [Website](https://thenewoil.xyz/)
+- [Alternative Site URL](https://thenewoil.org/)
 - [Blog](https://write.as/thenewoil/)
 - [Podcast](https://surveillancereport.tech/)
 - [Mastodon](https://freeradical.zone/@thenewoil)
 - [PeerTube](https://peertube.thenewoil.xyz/video-channels/thenewoil/videos)
-- [Alternative Site URL](https://thenewoil.org/)
 
 ## Support
 

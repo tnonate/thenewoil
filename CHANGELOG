@@ -1,3 +1,10 @@
+September 14, 2021
+-Added JMP.Chat to voip.html
+-Added Cupwire's page about threat modeling to threatmodel.html
+-Changed the site license from CC BY-NC-SA 4.0 to CC-BY 4.0. This is a more open, free license.
+-Added a footer to the bottom of every page with the license, GitLab, and privacy policy link.
+-Moved the .org link up in the Readme
+
 September 13, 2021
 -Added Monero donation page (xmr2.html) for the person who's helping me translate the blog into Spanish. (You can access the Spanish blog at blog.es.thenewoil.org)
 
