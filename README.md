@@ -34,6 +34,6 @@ In addition to submitting corrections and changes, there are several ways for us
 
 ## License and Transparency
 
-The New Oil is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+The New Oil is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 **[2020 Transparency Report](https://write.as/thenewoil/2020-recap-2021-plans)**
