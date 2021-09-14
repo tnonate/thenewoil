@@ -1,6 +1,8 @@
 September 14, 2021
 -Added JMP.Chat to voip.html
 -Added Cupwire's page about threat modeling to threatmodel.html
+-Fixed broken PayPal donation links on links.html
+-changed PayPal donation emails to "Donations@TheNewOil.xyz/org"
 -Changed the site license from CC BY-NC-SA 4.0 to CC-BY 4.0. This is a more open, free license.
 -Added a footer to the bottom of every page with the license, GitLab, and privacy policy link.
 -Moved the .org link up in the Readme
