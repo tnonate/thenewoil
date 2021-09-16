@@ -69,7 +69,8 @@ footer a:hover {
 }
 
 main {
-  max-width: 1000px;
+  max-width: 1010px;
+  padding: 10px;
   margin: auto;
 }
 
@@ -124,22 +125,10 @@ aside {
   padding-bottom: 5px;
 }
 
-.hello {
-  border-spacing: 25px;
-}
-
-.hello td {
-  border-style: solid;
-  border-color: #3498DB;
-  border-radius: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
 /* Responsive
 ==================================== */
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
         main, footer { width: 90% }
 	.hello { border-spacing:0px; }
 	.hello td { display:table;padding-left:20px;padding-right:20px;margin:auto;width:90%; }
@@ -159,8 +148,7 @@ aside {
 	header a {text-decoration: none; list-style-type: none; }
 	details > summary { list-style: none; }
 	details > summary::-webkit-details-marker { display: none; }
-	footer { display:table; }
-	footer td { display:inline-block;width:19%; }
+	footer p a { display:block; }
     }
 
 /* Dark Mode
