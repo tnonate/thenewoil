@@ -1,6 +1,8 @@
 September 21, 2021
 -Added caveats about security in browser.html and desktop-settings.html
 -Updated links.html to reflect the TNO Matrix community (formerly just a single room)
+-Updated links.html to direc to the new blog link (blog.thenewoil.org)
+-Updated blog-index.html to use write.as/thenewoil rather than a subdomain for futureproofed stability
 -Consolidated both .xyz and .org TLDs with the donations@thenewoil.org PayPal email address
 
 September 17, 2021
