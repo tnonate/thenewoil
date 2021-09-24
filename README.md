@@ -29,7 +29,7 @@ In addition to submitting corrections and changes, there are several ways for us
 - [Brave Tips](https://support.brave.com/hc/en-us/articles/360021123971-How-do-I-tip-websites-and-Content-Creators-in-Brave-Rewards-)
 - [Liberapay](https://liberapay.com/thenewoil)
 - [Patreon](https://www.patreon.com/thenewoil)
-- [PayPal](https://www.paypal.com/donate?token=bsoRAryUMp9I3oU2oJeHIxCkMmXXjKjMUEpQgZZ1Eyuv5JKU_oMJHrhyH04rYD4HRPW7f8MQr619hH4v): thenewoil@protonmail.com
+- [PayPal](https://www.paypal.com/donate?hosted_button_id=NYJZS7AJ5X8NQ): Donations@TheNewOil.org
 - Spreading the word and sharing the site with your friends and family!
 
 _You can see how these donations will be used on our roadmap [here](https://thenewoil.org/roadmap.html)_
