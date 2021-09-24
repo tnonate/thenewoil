@@ -9,12 +9,12 @@
 
 Technology is a constantly changing field, and as people who take their privacy and security seriously, we place even more trust in the information on this site than most other technologies. As such, it is vital that The New Oil stays as current as possible. All readers are welcome to submit updates and suggested changes via a new [issue](https://gitlab.com/nbartram/the-new-oil/-/issues).
 
-Readers are also encouraged to join the [Matrix](https://riot.im/app/#/room/#TheNewOil:matrix.org) room for general discussion and meeting other like-minded privacy enthusiasts.
+Readers are also encouraged to join the [Matrix](https://matrix.to/#/+thenewoil:matrix.org) community for general discussion and meeting other like-minded privacy enthusiasts.
 
 ## Other Online Presences
 
-- [Website](https://thenewoil.xyz/)
-- [Alternative Site URL](https://thenewoil.org/)
+- [Website](https://thenewoil.org/)
+- [Alternative Site URL](https://thenewoil.xyz/)
 - [Blog](https://write.as/thenewoil/)
 - [Podcast](https://surveillancereport.tech/)
 - [Mastodon](https://freeradical.zone/@thenewoil)
@@ -31,6 +31,8 @@ In addition to submitting corrections and changes, there are several ways for us
 - [Patreon](https://www.patreon.com/thenewoil)
 - [PayPal](https://www.paypal.com/donate?token=bsoRAryUMp9I3oU2oJeHIxCkMmXXjKjMUEpQgZZ1Eyuv5JKU_oMJHrhyH04rYD4HRPW7f8MQr619hH4v): thenewoil@protonmail.com
 - Spreading the word and sharing the site with your friends and family!
+
+_You can see how these donations will be used on our roadmap [here](https://thenewoil.org/roadmap.html)_
 
 ## License and Transparency
 
