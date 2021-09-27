@@ -39,3 +39,8 @@ _You can see how these donations will be used on our roadmap [here](https://then
 The New Oil is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 **[2020 Transparency Report](https://write.as/thenewoil/2020-recap-2021-plans)**
+
+##Applications
+
+- [Community Moderator Application](https://cryptpad.fr/form/#/2/form/view/99si-RTW4n6MV5i4wzzDuGpGSgQJ1mG8uoyi0q8z37M/)
+- [Consulting Application](https://cryptpad.fr/form/#/3/form/view/2587c36a1d1003565bea8db15d871d00/)
