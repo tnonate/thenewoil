@@ -147,7 +147,7 @@ aside {
 	header {  height: 55px; }
 	header a {text-decoration: none; list-style-type: none; }
 	details > summary { list-style: none; }
-	details > summary::-webkit-details-marker { display: none; }
+	details > summary::marker { display: none; }
 	footer p a { display:block; }
     }
 
