@@ -1,8 +1,8 @@
 September 30, 2021
 -Fixed deprecated code in stylesheet.css
 -Fixed broken links on passwords.html, llc.html, mobile-habits.html, desktop-settings.html, threatmodel.html, and most-important.html
--Removed email administrative-contact email on links.html at admin's request
--Corrected email format for Uncover on about.html
+-Removed email administrative-contact email on links.html
+-Corrected email format for Uncover's email address on about.html
 
 September 29, 2021
 -Fixed broken link on README.
