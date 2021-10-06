@@ -1,3 +1,11 @@
+October 6, 2021
+-Fixed typos on credit.html, voip.html
+-Fixed broken PayPal donation link on links.html
+-Fixed incorrect information on devices.html (FAT_32 is the one that can't store over 4GB of space)
+-Updated contact information on about.html and pgp2.html
+-Added new information about DNS, VPNs, how they interact, and when to use which to communication.html, mobile-apps.html, vpns.html
+-Updated README formatting
+
 September 30, 2021
 -Fixed deprecated code in stylesheet.css
 -Fixed broken links on passwords.html, llc.html, mobile-habits.html, desktop-settings.html, threatmodel.html, and most-important.html

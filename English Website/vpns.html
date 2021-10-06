@@ -162,6 +162,7 @@
 			<li>Available on Debian, Mac, Windows, Android, and iOS.
 			<li>Based in <a href="https://en.wikipedia.org/wiki/Five_Eyes#Further_intelligence_sharing_collaborations">Gibraltar</a>
 			<li>Anonymous payments available
+			<li>Offers malware, tracker, and ad-blocking for <a href="https://www.ivpn.net/antitracker/">all plans</a>
 	</ul>
 			</td>
 			<td>
@@ -176,6 +177,7 @@
 			<li>Available on Debian, Mac, Windows, Android, and iOS. 
 			<li>Flat rate of $5/month for all services and payment lengths
 			<li>Anonymous payments available
+			<li>Offers malware, tracker, and ad-blocking for <a href="https://mullvad.net/en/why-mullvad-vpn/">all plans</a>
 	</ul>
 			</td>
 			<td>
@@ -192,6 +194,7 @@
 			<li>Available on Debian, Mac, Windows, Android, and iOS. 
 			<li>Based in <a href="https://en.wikipedia.org/wiki/Five_Eyes#Further_intelligence_sharing_collaborations">Switzerland</a>
 			<li>Offers a limited number of free servers
+			<li>Offers malware, tracker, and ad-blocking for <a href="https://protonvpn.com/support/netshield/">paid plans</a>
 	</ul>
 			</td>
 			<td>
@@ -199,6 +202,10 @@
 		</tr>
 </tbody>
 </table>
+<div class="subheader">
+<h3>DNS Leaks & Custom Resolvers</h3>
+</div>
+<p>On the <a href="communication.html">How Network Communication Works</a> page, I suggested changing your DNS resolver on your device, but I also suggested (as well as on the <a href="mobile-apps.html">Securing Mobile: Replacement Apps</a> and <a href="browser.html">Securing Your Browser</a> pages) only doing so if you don't plan to use a VPN on your device. This is because <b>using a different DNS resolver can cause DNS leaks</b>. To put it simply, a DNS leak is when your DNS requests are <a href="https://en.wikipedia.org/wiki/DNS_leak">exposed</a>. Using the same DNS provided by your VPN provider dramatically reduces the likelihood of this happening, while in my experience using an alternate DNS with a VPN dramatically increases the likelihood. Depending your threat model, the consequences of a DNS leak could range from "virtually meaningless" to "life threatening." To avoid DNS leaks, I suggest you avoid manually changing your DNS resolver and instead use the DNS resolver provided by your VPN provider. You should only change your DNS resolver if you do not plan to use a VPN.</p>
 <div class="subheader">
 <h3>Tips & Tricks</h3>
 </div>
