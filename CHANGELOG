@@ -1,3 +1,7 @@
+October 18, 2021
+-Updated stylesheet to make the site a bit more visually appealing
+-Made the GitLab and Creeative Commons images a bit smaller to behave more appropriately with the CSS
+
 October 14, 2021
 -Fixed some technically incorrect information on mobile-habits.html (specified the difference between Android ROMs and Linux mobile OS's, shared some personal experience and specified the security ramifications of each Android ROM better)
 -Updated pgp2.html (New key)
