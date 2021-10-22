@@ -26,8 +26,8 @@ In addition to submitting corrections and changes, here are some additional ways
 - [Monero](https://thenewoil.org/xmr.html): 44NAYMG1qupZcZ5WtjHWp58WNkXjetpTbRKHkVyrFZs8SiZK7SycQKdAm5y7sXuVhV1eYcShLjkKpbLRQSZaKxpvV2zo8ii
 - [Brave Tips](https://support.brave.com/hc/en-us/articles/360021123971-How-do-I-tip-websites-and-Content-Creators-in-Brave-Rewards-)
 - [Liberapay](https://liberapay.com/thenewoil)
+- [OpenCollective](https://opencollective.com/thenewoil/donate)
 - [Patreon](https://www.patreon.com/thenewoil)
-- [PayPal](https://www.paypal.com/donate?hosted_button_id=NYJZS7AJ5X8NQ): Donations@TheNewOil.org
 - Spreading the word and sharing the site with your friends and family!
 
 _You can see how these donations will be used on our roadmap [here](https://thenewoil.org/roadmap.html)_
