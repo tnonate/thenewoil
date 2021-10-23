@@ -12,7 +12,6 @@ Technology is a constantly changing field, and as people who take their privacy 
 ## Other Online Presences
 
 - [Website](https://thenewoil.org/)
-- [Deprecated Site URL](https://thenewoil.xyz/)
 - [Mastodon](https://freeradical.zone/@thenewoil)
 - [Blog](https://blog.thenewoil.org/)
 - [Podcast](https://surveillancereport.tech/)
@@ -20,13 +19,13 @@ Technology is a constantly changing field, and as people who take their privacy 
 
 ## Support
 
-In addition to submitting corrections and changes, here are some additional ways for readers to support The New Oil:
+In addition to submitting corrections and changes, here are some additional ways for readers to support The New Oil.
 
 - [Bitcoin](https://thenewoil.org/btc.html): xpub661MyMwAqRbcGzNpy8KujhemxoFES1n7Sbc4JsxsJpCByqFGRVtxMXWpcLV318wxPj1YfuUeGbh2zWnLicad62pVKqXJbwMDorMt7vGV3gW
 - [Monero](https://thenewoil.org/xmr.html): 44NAYMG1qupZcZ5WtjHWp58WNkXjetpTbRKHkVyrFZs8SiZK7SycQKdAm5y7sXuVhV1eYcShLjkKpbLRQSZaKxpvV2zo8ii
+- [OpenCollective](https://opencollective.com/thenewoil/donate)
 - [Brave Tips](https://support.brave.com/hc/en-us/articles/360021123971-How-do-I-tip-websites-and-Content-Creators-in-Brave-Rewards-)
 - [Liberapay](https://liberapay.com/thenewoil)
-- [OpenCollective](https://opencollective.com/thenewoil/donate)
 - [Patreon](https://www.patreon.com/thenewoil)
 - Spreading the word and sharing the site with your friends and family!
 
