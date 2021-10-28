@@ -33,6 +33,7 @@ nav {
 
 summary:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 details {
@@ -71,6 +72,7 @@ main a {
 
 main a:hover, main a:focus {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .subheader {

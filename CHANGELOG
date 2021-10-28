@@ -1,3 +1,12 @@
+October 28, 2021
+-Removed Patreon from links.html for practical and ethical reasons (nobody was using, and nobody should)
+-Updated stylesheet.css so that your mouse turns into a pointer when hovering over links (assuming it isn't already a pointer)
+-Swapped KeepassXC in exchange for KeePass to be more accurate, but still recommending KeepassXC as the primary fork of choice. (passwords.html, passwords-chart.html)
+-Updated browser.html with new information reflecting Firefox 93.
+-Updated privacy-policy.html to reflect communications made with The New Oil.
+-Removed "disable picture-in-picture" from mobile-settings.html as this is largely personal preference.
+-Removed the story about Tutanota monitoring email metadata from email.html and email-chart.html as this was a one-time incident and is not ongoing. That was my mistake.
+
 October 23, 2021
 -Updated README
 -Updated some wording on the privacy policy, no content changes were made
