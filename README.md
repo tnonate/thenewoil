@@ -26,7 +26,6 @@ In addition to submitting corrections and changes, here are some additional ways
 - [OpenCollective](https://opencollective.com/thenewoil/donate)
 - [Brave Tips](https://support.brave.com/hc/en-us/articles/360021123971-How-do-I-tip-websites-and-Content-Creators-in-Brave-Rewards-)
 - [Liberapay](https://liberapay.com/thenewoil)
-- [Patreon](https://www.patreon.com/thenewoil)
 - Spreading the word and sharing the site with your friends and family!
 
 _You can see how these donations will be used on our roadmap [here](https://thenewoil.org/roadmap.html)_
