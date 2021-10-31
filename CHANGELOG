@@ -1,3 +1,8 @@
+October 31, 2021
+-Improved some of the wording on privacy-policy.html
+-Removed repository.html and the link to it on links.html
+-Added the blog table of contents on links.html
+
 October 28, 2021
 -Removed Patreon from links.html for practical and ethical reasons (nobody was using, and nobody should)
 -Updated stylesheet.css so that your mouse turns into a pointer when hovering over links (assuming it isn't already a pointer)
