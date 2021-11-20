@@ -7,7 +7,7 @@
 
 ## Contributing
 
-Technology is a constantly changing field, and as people who take their privacy and security seriously, we place even more trust in the information on this site than most other technologies. As such, it is vital that The New Oil stays as current as possible. All readers are welcome to submit updates and suggested changes via a new [issue](https://gitlab.com/nbartram/the-new-oil/-/issues). Readers are also encouraged to join the [Matrix](https://matrix.to/#/#TheNewOil:matrix.org) community for general discussion and meeting other like-minded privacy enthusiasts.
+Technology is a constantly changing field, and as people who take their privacy and security seriously, we place even more trust in the information on this site than most other technologies. As such, it is vital that The New Oil stays as current as possible. All readers are welcome to submit updates and suggested changes via a new [issue](https://gitlab.com/nbartram/the-new-oil/-/issues). Readers are also encouraged to join the [Matrix](https://matrix.to/#/#TheNewOil:matrix.org) community for general discussion and meeting other like-minded privacy enthusiasts. (Please read the [Community Guidelines](https://gitlab.com/nbartram/the-new-oil/-/wikis/Community-Guidelines) before joining to ensure a pleasant and productive experience for everyone.)
 
 ## Other Online Presences
 
