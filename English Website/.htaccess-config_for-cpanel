@@ -1,0 +1,17 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI}  [R=301,L]
+
+Header Strict-Transport-Security: max-age=31536000; includeSubDomains
+Header Content-Security-Policy: script-src 'self'
+Header always set X-Frame-Options "SAMEORIGIN"
+Header X-Content-Type-Options: nosniff
+Header Referrer-Policy: no-referrer
+Header always set Permissions-Policy "geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()"
+Header Expect-CT: max-age=0, report-uri="https://{$subdomain}.report-uri.com/r/d/ct/reportOnly"
+Header Cross-Origin-Embedder-Policy: (unsafe-none|require-corp); report-to="default"
+Header Cross-Origin-Embedder-Policy-Report-Only: (unsafe-none|require-corp); report-to="default"
+Header Cross-Origin-Opener-Policy: (same-origin|same-origin-allow-popups|unsafe-none); report-to="default"
+Header Cross-Origin-Opener-Policy-Report-Only: (same-origin|same-origin-allow-popups|unsafe-none); report-to="default"
+Header Cross-Origin-Resource-Policy: (same-site|same-origin|cross-origin)
+Header X-XSS-Protection: 1; mode=block
