@@ -15,3 +15,6 @@ Header Cross-Origin-Opener-Policy: (same-origin|same-origin-allow-popups|unsafe-
 Header Cross-Origin-Opener-Policy-Report-Only: (same-origin|same-origin-allow-popups|unsafe-none); report-to="default"
 Header Cross-Origin-Resource-Policy: (same-site|same-origin|cross-origin)
 Header X-XSS-Protection: 1; mode=block
+Header Cache-control: private, no-store, nocache, no transform, must-revalidate, max-age=0, post-check=0, pre-check=0
+
+options -Indexes
