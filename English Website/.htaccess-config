@@ -7,7 +7,7 @@ Header Content-Security-Policy: script-src 'self'
 Header always set X-Frame-Options "SAMEORIGIN"
 Header X-Content-Type-Options: nosniff
 Header Referrer-Policy: no-referrer
-Header always set Permissions-Policy "geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()"
+Header always set Permissions-Policy "geolocation=(none),midi=(),sync-xhr=(),microphone=(none),camera=(nono),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()"
 Header Expect-CT: max-age=0, report-uri="https://{$subdomain}.report-uri.com/r/d/ct/reportOnly"
 Header Cross-Origin-Embedder-Policy: (unsafe-none|require-corp); report-to="default"
 Header Cross-Origin-Embedder-Policy-Report-Only: (unsafe-none|require-corp); report-to="default"
