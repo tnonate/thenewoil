@@ -2,7 +2,7 @@ RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI}  [R=301,L]
 
-Header Strict-Transport-Security: max-age=31536000; includeSubDomains
+Header Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Header Content-Security-Policy: script-src 'self'
 Header always set X-Frame-Options "SAMEORIGIN"
 Header X-Content-Type-Options: nosniff
