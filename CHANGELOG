@@ -1,11 +1,14 @@
 December 10, 2021
-Fixed all of the gitlab links on the website
+-Fixed nates "error" in the quest to fix (replace) the gitlab links on the website
+-Added the youtube.htlm file to gitlab as it's still relevant
+-Setup a html redirect from youtube.html to why-are-youtube-comments-disabled.html
 
 December 9, 2021
 -Moved all support methods from links.html to support.html
 -Added a cache-control policy to the websites header
+-Fixed all of the gitlab links on the website
 -Added the website to the HSTS preload list (https://hstspreload.org/)
--Setup a redirect page from dante.html to support.html
+-Setup a html redirect from dante.html to support.html
 -Deleted the ctemplar.html page
 
 December 5, 2021
