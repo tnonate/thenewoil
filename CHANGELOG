@@ -1,6 +1,8 @@
 December 9, 2021
--Fixed link to Gitlab on all pages
 -Moved all support methods from links.html to support.html
+-Added a cache-control policy to the websites header
+-Added the website to the HSTS preload list (https://hstspreload.org/)
+-Setup a redirect page from dante.html to support.html
 
 December 5, 2021
 -Updated mobile-settings.html to Android 12 settings
