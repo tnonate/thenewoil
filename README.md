@@ -19,7 +19,7 @@ Technology is a constantly changing field, and as people who take their privacy 
 
 ## Support
 
-In addition to submitting corrections and changes, readers are also welcome to support The New Oil financially as well to help grow and make our project bigger.
+In addition to submitting corrections and changes, readers are also welcome to support The New Oil financially as well to help it grow and make our project better then before.
 
 [Press here to find out what payment methoeds we support.](https://thenewoil.org/support.html)
 
