@@ -2,6 +2,7 @@ December 10, 2021
 -Fixed nates "error" in the quest to fix (replace) the gitlab links on the website
 -Added the youtube.htlm file to gitlab as it's still relevant
 -Setup a html redirect from youtube.html to why-are-youtube-comments-disabled.html
+-Setup Expect-CT header (reporting)
 
 December 9, 2021
 -Moved all support methods from links.html to support.html
