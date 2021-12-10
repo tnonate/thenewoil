@@ -1,175 +1,173 @@
 December 10, 2021
--Fixed nates "error" in the quest to fix (replace) the gitlab links on the website
--Added the youtube.htlm file to gitlab as it's still relevant
--Setup a html redirect from youtube.html to why-are-youtube-comments-disabled.html
--Setup Expect-CT header (reporting)
+-Fixed nates "error" in the quest to fix (replace) the gitlab links on the website.
+-Added the youtube.htlm file to gitlab as it's still relevant.
+-Setup a html redirect from youtube.html to why-are-youtube-comments-disabled.html.
+-Setup Expect-CT header (reporting).
+-Fixed Mr. Muffin's email address.
 
 December 9, 2021
--Moved all support methods from links.html to support.html
--Added a cache-control policy to the websites header
--Fixed all of the gitlab links on the website
--Added the website to the HSTS preload list (https://hstspreload.org/)
--Setup a html redirect from dante.html to support.html
--Deleted the ctemplar.html page
+-Moved all support methods from links.html to support.html.
+-Added a cache-control policy to the websites header.
+-Fixed all of the gitlab links on the website.
+-Added the website to the HSTS preload list (https://hstspreload.org/).
+-Setup a html redirect from dante.html to support.html.
+-Deleted the ctemplar.html page.
 
 December 5, 2021
--Updated mobile-settings.html to Android 12 settings
--Fixed a bad link on least-important.html
--Fixed a typo on privacy-policy.html
--Added a missing link on intro.html
+-Updated mobile-settings.html to Android 12 settings.
+-Fixed a bad link on least-important.html.
+-Fixed a typo on privacy-policy.html.
+-Added a missing link on intro.html.
 
 December 3, 2021
--Added support.html for an easy list of ways to support The New Oil
--Updated stylesheet.css to remove black on the advice of more experienced designers than myself
--Updated links.html to reflect the recommended ways of supporting us and their various merits
+-Added support.html for an easy list of ways to support The New Oil.
+-Updated stylesheet.css to remove black on the advice of more experienced designers than myself.
+-Updated links.html to reflect the recommended ways of supporting us and their various merits.
 
 November 27 - 29, 2021:
 -Updated privacy-policy.html
--Updated about.html to reflect new information
--fixed some minor thing on other pages of the website
+-Updated about.html to reflect new information.
+-fixed some minor thing on other pages of the website.
 
 November 26, 2021
 -Updated email addresses on links.html
--Combined PGP keys into one page on pgp.html
--Fixed more formatting on privacy-policy.html
+-Combined PGP keys into one page on pgp.html.
+-Fixed more formatting on privacy-policy.html.
 
 November 13, 2021
--Fixed typo on voip.html
--Fixed formatting on privacy-policy.html
+-Fixed typo on voip.html.
+-Fixed formatting on privacy-policy.html.
 
 November 12, 2021
--Improved wording on voip.html
--Improved wording on links.html
+-Improved wording on voip.html.
+-Improved wording on links.html.
 
 November 11, 2021
--Improved wording on links.html
--Improved wording on voip.html
-
-November 9, 2021
--Updated some new information I learned regarding LocalCDN and Firefox settings.
+-Improved wording on links.html.
+-Improved wording on voip.html.
 
 November 1, 2021
--Fixed typos and formatting issues on iot.html
--Fixed some typos on privacy-policy.html
--Small typo on Mr. Muffin's name on about.html
+-Fixed typos and formatting issues on iot.html.
+-Fixed some typos on privacy-policy.html.
+-Small typo on Mr. Muffin's name on about.html.
 
 October 31, 2021
--Improved some of the wording on privacy-policy.html
--Removed repository.html and the link to it on links.html
--Added the blog table of contents on links.html
+-Improved some of the wording on privacy-policy.html.
+-Removed repository.html and the link to it on links.html.
+-Added the blog table of contents on links.html.
 
 October 28, 2021
--Removed Patreon from links.html for practical and ethical reasons (nobody was using, and nobody should)
--Updated stylesheet.css so that your mouse turns into a pointer when hovering over links (assuming it isn't already a pointer)
--Swapped KeepassXC in exchange for KeePass to be more accurate, but still recommending KeepassXC as the primary fork of choice. (passwords.html, passwords-chart.html)
--Updated browser.html with new information reflecting Firefox 93
--Updated privacy-policy.html to reflect communications made with The New Oil
--Removed "disable picture-in-picture" from mobile-settings.html as this is largely personal preference
+-Removed Patreon from links.html for practical and ethical reasons (nobody was using, and nobody should).
+-Updated stylesheet.css so that your mouse turns into a pointer when hovering over links (assuming it isn't already a pointer).
+-Swapped KeepassXC in exchange for KeePass to be more accurate, but still recommending KeepassXC as the primary fork of choice. (passwords.html, passwords-chart.html).
+-Updated browser.html with new information reflecting Firefox 93.
+-Updated privacy-policy.html to reflect communications made with The New Oil.
+-Removed "disable picture-in-picture" from mobile-settings.html as this is largely personal preference.
 -Removed the story about Tutanota monitoring email metadata from email.html and email-chart.html as this was a one-time incident and is not ongoing. That was my mistake.
 
 October 23, 2021
--Updated README
--Updated some wording on the privacy policy, no content changes were made
+-Updated ReadME.
+-Updated some wording on the privacy policy, no content changes were made.
 -Updated email.html and email-chart.html to add information about Tutanota auditing the web app.
 
 October 22, 2021
--Added a more comprehensive privacy policy instead of using Namecheap's
--Added a note about using a PO box to llc.html
--Swapped PayPal for OpenCollective for one-time and recurring donations
+-Added a more comprehensive privacy policy instead of using Namecheap's.
+-Added a note about using a PO box to llc.html.
+-Swapped PayPal for OpenCollective for one-time and recurring donations.
 
 October 18, 2021
--Updated stylesheet to make the site a bit more visually appealing
--Made the GitLab and Creeative Commons images a bit smaller to behave more appropriately with the CSS
+-Updated stylesheet to make the site a bit more visually appealing.
+-Made the GitLab and Creeative Commons images a bit smaller to behave more appropriately with the CSS.
 
 October 14, 2021
--Fixed some technically incorrect information on mobile-habits.html (specified the difference between Android ROMs and Linux mobile OS's, shared some personal experience and specified the security ramifications of each Android ROM better)
--Updated pgp2.html (New key)
--Added The Hichhiker's Guide to Anonymity on both links.html and secprivanon.html 
+-Fixed some technically incorrect information on mobile-habits.html (specified the difference between Android ROMs and Linux mobile OS's, shared some personal experience and specified the security ramifications of each Android ROM better).
+-Updated pgp2.html (New key).
+-Added The Hichhiker's Guide to Anonymity on both links.html and secprivanon.html.
 
 October 11, 2021
--Fixed typo on why.html
--Added new Spaces link to links.html and README.md
--Corrected outdated info on payments.html about where different payment features are available (see https://gitlab.com/nbartram/the-new-oil/-/merge_requests/7)
+-Fixed typo on why.html.
+-Added new Spaces link to links.html and ReadME.
+-Corrected outdated info on payments.html about where different payment features are available (see https://gitlab.com/nbartram/the-new-oil/-/merge_requests/7).
 
 October 7, 2021
--Fixed broken link about.html
+-Fixed broken link about.html.
 
 October 6, 2021
--Fixed typos on credit.html, voip.html
--Fixed broken PayPal donation link on links.html
--Fixed incorrect information on devices.html (FAT_32 is the one that can't store over 4GB of space)
--Updated contact information on about.html and pgp2.html
--Added new information about DNS, VPNs, how they interact, and when to use which to communication.html, mobile-apps.html, vpns.html
--Updated README formatting
+-Fixed typos on credit.html, voip.html.
+-Fixed broken PayPal donation link on links.html.
+-Fixed incorrect information on devices.html (FAT_32 is the one that can't store over 4GB of space).
+-Updated contact information on about.html and pgp2.html.
+-Added new information about DNS, VPNs, how they interact, and when to use which to communication.html, mobile-apps.html, vpns.html.
+-Updated ReadME formatting.
 
 September 30, 2021
--Fixed deprecated code in stylesheet.css
--Fixed broken links on passwords.html, llc.html, mobile-habits.html, desktop-settings.html, threatmodel.html, and most-important.html
--Removed email administrative-contact email on links.html
--Corrected email format for Uncover's email address on about.html
--Added information about various front-ends to the social media section of habits.html
+-Fixed deprecated code in stylesheet.css.
+-Fixed broken links on passwords.html, llc.html, mobile-habits.html, desktop-settings.html, threatmodel.html, and most-important.html.
+-Removed email administrative-contact email on links.html.
+-Corrected email format for Uncover's email address on about.html.
+-Added information about various front-ends to the social media section of habits.html.
 
 September 29, 2021
--Fixed broken link on README.
--Fixed incorrect date in CHANGELOG
+-Fixed broken link on ReadME.
+-Fixed incorrect date in Changelog.
 
 September 28, 2021
--Fixed some typos on mfa.html
+-Fixed some typos on mfa.html.
 
 September 27, 2021
--Added Blockada to mobile-apps.html (and reorganized the Firewall/Content Blocker list)
--Updated mobile-settings.html for iOS 15
--Updated an outdated link from privacytools.io to privacyguides.org in communications.html
+-Added Blockada to mobile-apps.html (and reorganized the Firewall/Content Blocker list).
+-Updated mobile-settings.html for iOS 15.
+-Updated an outdated link from privacytools.io to privacyguides.org in communications.html.
 
 September 26, 2021
--Fixed a type on backups.html
--Updated the public key on pgp3.html
+-Fixed a type on backups.html.
+-Updated the public key on pgp3.html.
 
 September 24, 2021
--Added roadmap.html and switched the primary and alternate TLDs in the Readme
--Added the new moderator to about.html (and pgp3.html)
+-Added roadmap.html and switched the primary and alternate TLDs in the ReadME.
+-Added the new moderator to about.html (and pgp3.html).
 
 September 23, 2021
--Added a link to the consultation application form on links.html
+-Added a link to the consultation application form on links.html.
 
 September 22, 2021
--New email address for Mr Muffin on about.html 
--New PGP key for pgp2.html
--Updated some broken links on links.html
+-New email address for Mr Muffin on about.html.
+-New PGP key for pgp2.html.
+-Updated some broken links on links.html.
 
 September 21, 2021
--Added caveats about security in browser.html and desktop-settings.html
--Updated links.html to reflect the TNO Matrix community (formerly just a single room)
--Updated links.html to direc to the new blog link (blog.thenewoil.org)
--Updated blog-index.html to use write.as/thenewoil rather than a subdomain for futureproofed stability
--Consolidated both .xyz and .org TLDs with the donations@thenewoil.org PayPal email address
+-Added caveats about security in browser.html and desktop-settings.html.
+-Updated links.html to reflect the TNO Matrix community (formerly just a single room).
+-Updated links.html to direc to the new blog link (blog.thenewoil.org).
+-Updated blog-index.html to use write.as/thenewoil rather than a subdomain for futureproofed stability.
+-Consolidated both .xyz and .org TLDs with the donations@thenewoil.org PayPal email address.
 
 September 17, 2021
--Added a short introduction paragraph to index.html
+-Added a short introduction paragraph to index.html.
 
 September 16, 2021
--Changed the landing page
--Moved about.html to the end just before links.html
--Made the footer cleaner
--Update Mr Muffin's email address
+-Changed the landing page.
+-Moved about.html to the end just before links.html.
+-Made the footer cleaner.
+-Update Mr. Muffin's email address.
 
 September 14, 2021
--Added JMP.Chat to voip.html
--Added Cupwire's page about threat modeling to threatmodel.html
--Fixed broken PayPal donation links on links.html
--changed PayPal donation emails to "Donations@TheNewOil.xyz/org"
+-Added JMP.Chat to voip.html.
+-Added Cupwire's page about threat modeling to threatmodel.html.
+-Fixed broken PayPal donation links on links.html.
+-changed PayPal donation emails to "Donations@TheNewOil.xyz/org".
 -Changed the site license from CC BY-NC-SA 4.0 to CC-BY 4.0. This is a more open, free license.
 -Added a footer to the bottom of every page with the license, GitLab, and privacy policy link.
--Moved the .org link up in the Readme
+-Moved the .org link up in the ReadME.
 
 September 13, 2021
--Added Monero donation page (xmr2.html) for the person who's helping me translate the blog into Spanish. (You can access the Spanish blog at blog.es.thenewoil.org)
+-Added Monero donation page (xmr2.html) for the person who's helping me translate the blog into Spanish (You can access the Spanish blog at blog.es.thenewoil.org).
 
 September 12, 2021
--Added the community manager (Mr Muffin) to about.html, along with contact info (pgp2.html)
--Added the TLD contact for .org to links.html
--Made links.html more mobile-friendly
--Removed upcoming events (as I don't plan to have any in the near future) and moved GitLab link to a logo in the footer of links.html
+-Added the community manager (Mr Muffin) to about.html, along with contact info (pgp2.html).
+-Added the TLD contact for .org to links.html.
+-Made links.html more mobile-friendly.
+-Removed upcoming events (as I don't plan to have any in the near future) and moved GitLab link to a logo in the footer of links.html.
 
 September 10, 2021
 -Updated mfa.html to mention the various types of MFA, the pitfalls of biometric, and added 2fa.detective as a resource site to help people.
@@ -177,81 +175,81 @@ September 10, 2021
 -Added qanda.html for public submission of public questions for a monthly Q&A blog piece.
 
 September 9, 2021
--Cosmetic fix on browser.html 
--Cloned the site to the .org TLD
+-Cosmetic fix on browser.html.
+-Clond the website to the .org TLD.
 
 September 8, 2021
--Changed privacytools.io to privacyguides.org and tosdr.org to privacyspy.org
--Added updated statistics about IoT attacks to index.html
+-Changed privacytools.io to privacyguides.org and tosdr.org to privacyspy.org.
+-Added updated statistics about IoT attacks to index.html.
 
 September 7, 2021
--Removed allegations of Session's dev's alt-right connections on messaging.html and messaging-chart.html because this appears to be largely debunked, or questionable proof at least. (See https://github.com/privacytools/privacytools.io/issues/1678#issuecomment-657202915)
+-Removed allegations of Session's dev's alt-right connections on messaging.html and messaging-chart.html because this appears to be largely debunked, or questionable proof at least. (See https://github.com/privacytools/privacytools.io/issues/1678#issuecomment-657202915).
 
 September 6, 2021
 -Added a missing space on data-breaches.html
 -Made changes to stylesheet.css: changed dark mode background color to better differentiate between content and header (and make it easier to read), added underline-on-hover to the menu so it's easier to notice they're clickable, and made sure the header was at least 55px high on the mobile version so the logo shows properly.
 
 September 5, 2021
--Fixed some typos on backups.html and habits.html
+-Fixed some typos on backups.html and habits.html.
 
 September 1, 2021
 -Removed Criptext temporarily from email.html and email-chart.html as they are currently not accepting new registrations.
 -Added web monetization through Coil. Checked with uBlock Origin, does not appear to call home anywhere. You can see more here (https://webmonetization.org/) and here (https://coil.com/).
--Added code to verify the site on Mastodon
+-Added code to verify the site on Mastodon.
 
 August 31, 2021
--Corrected typo in the menu on all pages
--Added Hushed to voip.html in accordance with Issue #3 (https://gitlab.com/nbartram/the-new-oil/-/issues/3)
--Replaced ZCash with Brave rewards on links.html
+-Corrected typo in the menu on all pages.
+-Added Hushed to voip.html in accordance with Issue #3 (https://gitlab.com/nbartram/the-new-oil/-/issues/3).
+-Replaced ZCash with Brave rewards on links.html.
 
 August 27, 2021
 -Updated browser.html and vpns.html to reflect that using DNS-over-HTTPS can sometimes interfere with VPN features.
 
 August 23, 2021
--Updated browser.html to note the complexity of browser fingerprinting
+-Updated browser.html to note the complexity of browser fingerprinting.
 -Updated links.html and the README to reflect the licsensing of The New Oil as Creative Commons.
 
 August 18, 2021
--Fixed typo on index.html
+-Fixed typo on index.html.
 
 August 17, 2021
--Fixed broken open-source.html link in the menu
+-Fixed broken open-source.html link in the menu.
 
 August 14, 2021
--Added "restart phone weekly" to mobile-habits.html
+-Added "restart phone weekly" to mobile-habits.html.
 
 August 12, 2021
--Fixed broken link to podcast site on Links page
+-Fixed broken link to podcast site on Links page.
 
 August 10, 2021
--Fixed a broken link on the LLC page
+-Fixed a broken link on the LLC page.
 
 August 9, 2021
--Added a visible, horizontal navbar on desktop that automatically converts to a 3-line "hamburger" menu bar on mobile for user friendliness
--Rearranged the categories on the contacts page
--Hosted the LocalCDN logo locally for the same reason as the others
--Updated podcast link in README
+-Added a visible, horizontal navbar on desktop that automatically converts to a 3-line "hamburger" menu bar on mobile for user friendliness.
+-Rearranged the categories on the contacts page.
+-Hosted the LocalCDN logo locally for the same reason as the others.
+-Updated podcast link in README.
 
 August 8, 2021
-- Removed Signal and Session as ways of direct contact
-- Categorized ways to contact me (email) and other content (blog posts, podcast, etc)
+- Removed Signal and Session as ways of direct contact.
+- Categorized ways to contact me (email) and other content (blog posts, podcast, etc).
 - Hosted the Surveillance Report and Write.As images locally to prevent pulling 3rd party trackers along with the images.
 
 August 7, 2021
--Added Organic Maps as a mobile app replacement option (See Issue #1: https://gitlab.com/nbartram/the-new-oil/-/issues/1)
--Removed Signal and Session from public contact options
--Streamlined the table designs on the Links page
+-Added Organic Maps as a mobile app replacement option (See Issue #1: https://gitlab.com/nbartram/the-new-oil/-/issues/1).
+-Removed Signal and Session from public contact options.
+-Streamlined the table designs on the Links page.
 
 August 6, 2021
 -Major site overhaul. Notable changes:
--Cleaned up code and made it more accessible to site readers
--Moved menu to left site of page for noticeable
--Color changes for user-friendliness
--Cut tons of wording to make the site more concise
--Changed links for user-friendliness
--Changed font for user-friendliness 
--Changed page links for consistency and clarity
--Special thanks to Lynn Stephenson for consulting on this redesign
+-Cleaned up code and made it more accessible to site readers.
+-Moved menu to left site of page for noticeable.
+-Color changes for user-friendliness.
+-Cut tons of wording to make the site more concise.
+-Changed links for user-friendliness.
+-Changed font for user-friendliness.
+-Changed page links for consistency and clarity.
+-Special thanks to Lynn Stephenson for consulting on this redesign.
 
 July 24, 2021
 - Removed ClearURLs from the Browser section as most of the functionality is now replaced by the new uBlock Origin updates (https://teddit.net/r/uBlockOrigin/comments/8jh3je/filter_updates/) and the remaining features are less important and therefore worth the fingerprinting protection IMO.
@@ -260,21 +258,21 @@ July 22, 2021
 - Updated the Multifactor Authentication page (and charts) to reflect the new criteria for apps to allow backups. Added Ravio OTP for iOS as part of this.
 
 July 21, 2021
-- Updated the Browser page to reflect new changes with uBlock Origin
-- Updated the VPN page to redirect readers to Techlore's VPN toolkit instead of ThatOnePrivacySite (see below)
+- Updated the Browser page to reflect new changes with uBlock Origin.
+- Updated the VPN page to redirect readers to Techlore's VPN toolkit instead of ThatOnePrivacySite (see below).
 - Updated the links page to add Terms of Service; Didn't Read, removed the Privacy Subreddit, and fixed a few broken links for videos.
 
 July 19, 2021
 - Removed ThatOnePrivacySite from the resources list as they have become a paid-review website and lost objectivity.
 
 July 16, 2021
-- Updated CTemplar Public Key after account recovery
+- Updated CTemplar Public Key after account recovery.
 
 July 11, 2021
 - Removed Chris Were from resources as he no longer produces educational content.
 - Removed Lavabit from email suggestions as they have no mobile app. This in accordance with new criteria established in the wiki.
 - Linked to ProtonMail's latest audit.
-- Changed name of "secret surveillance" to "targeted surveillance."
+- Changed name of "secret surveillance" to "targeted surveillance".
 
 June 27, 2021
 - Added links to the Wiki on relevant pages so people can easily view the criteria
@@ -289,4 +287,4 @@ June 21, 2021
 - Added Carissa Veliz' new book "Privacy is Power" to the recommended links.
 
 June 20, 2021
-- Open sourced the website via this Gitlab account.
+- Open sourced the website via Gitlab.
