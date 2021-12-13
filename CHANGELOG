@@ -1,10 +1,14 @@
+December 13, 2021
+-Added three more CAA records to the Nameserver's to cover all SSL/TLS Certificate types (e.g. wildcard).
+-Mr. Muffin's email address got fixed again because of an unknown mastake my someone (cough, cough, Nate).
+
 December 10, 2021
 -Fixed Nate's "error" in the quest to fix (replace) the Gitlab links on the website.
 -Added the youtube.html file to Gitlab as it's still relevant.
 -Setup a html redirect from youtube.html to why-are-youtube-comments-disabled.html.
 -Setup Expect-CT header (reporting).
 -Fixed Mr. Muffin's email address.
--Fixed Uncover's Matrix address
+-Fixed Uncover's Matrix address.
 -Updated links.html to display every account we have to avoid someone predending to be The New Oil (and also let people know where to find us, even the platforms we don't encourage).
 
 December 9, 2021
