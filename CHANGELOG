@@ -1,3 +1,6 @@
+December 14, 2021
+-Added a back up version of the website at (https://backup.thenewoil.org/)
+
 December 13, 2021
 -Added three more CAA records to the Nameserver's to cover all SSL/TLS Certificate types (e.g. wildcard, reporting).
 -Mr. Muffin's email address got fixed again because of an unknown mastake my someone (cough, cough, Nate).
