@@ -1,7 +1,7 @@
 December 15, 2021
--Fixed DNSSEC to now also work on all subdomains.
--Added a DMARC and SPF recoord on all subdomain to prevent them from being used in any email based attacks.
--Added IVPN (ivpn.net) to the home page of the website as they're our new sponser.
+-Fixed DNSSEC, so that it now also works correctly on all subdomains.
+-Added a DMARC and SPF record to all subdomains, to prevent them from being used in any form of email based attacks.
+-Added IVPN (ivpn.net) to the home page of the website as they're one of our new sponsers.
 -Updated The Gitlab repo to reflect the changes made on the website.
 -Added Nate to the github organization.
 
