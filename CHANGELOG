@@ -2,13 +2,14 @@ December 15, 2021
 -Fixed DNSSEC to now also work on all subdomains.
 -Added a DMARC and SPF recoord on all subdomain to prevent them from being used in any email based attacks.
 -Added IVPN (ivpn.net) to the home page of the website as they're our new sponser.
+-Updated The Gitlab repo to reflect the changes made on the website.
 -Added Nate to the github organization.
 
 December 14, 2021
 -Added a back up version of the website (https://backup.thenewoil.org/)
 
 December 13, 2021
--Added three more CAA records to the Nameserver's to cover all SSL/TLS Certificate types (e.g. wildcard, reporting).
+-Added a couple more CAA records to the Nameserver's to cover all SSL/TLS Certificate types (e.g. wildcard, reporting) for CA's to take note of.
 -Mr. Muffin's email address got fixed again because of an unknown mastake my someone (cough, cough, Nate).
 
 December 10, 2021
