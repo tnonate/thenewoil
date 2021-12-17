@@ -6,8 +6,8 @@ December 15, 2021
 -Fixed DNSSEC, so that it now also works correctly on all subdomains.
 -Added a DMARC and SPF record to all subdomains, to prevent them from being used in any form of email based attacks.
 -Added IVPN (ivpn.net) to the home page of the website as they're one of our new sponsers.
--Updated The Gitlab repo to reflect the changes made on the website.
--Added Nate to the github organization.
+-Updated the Gitlab repo to reflect the changes made on the website.
+-Added Nate to the Github organization.
 -Fixed the link IVPN's webiste.
 -Fixed the link to IVPN's website on the backup version of the website as well (https://backup.thenewoil.org/) 
 
