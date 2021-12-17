@@ -1,3 +1,7 @@
+December 17, 2021
+-Updated the wiki home pages to reflect the new link of the Community Guidelines and Sponsorship notice. 
+-Updated the Community Guidelines to add a new rule and edit some.
+
 December 15, 2021
 -Fixed DNSSEC, so that it now also works correctly on all subdomains.
 -Added a DMARC and SPF record to all subdomains, to prevent them from being used in any form of email based attacks.
