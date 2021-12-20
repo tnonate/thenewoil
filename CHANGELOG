@@ -1,7 +1,7 @@
 December 20, 2021
 -Updated the youtube channel and Odysee link on the contact.html page.
 -Move the support selecion on the links.html page up a bit so that it's more noticeable.
--Rename the llc.html page to public-protections.html.
+-Rename the llc.html page to public-protections.html (on both gitlab and the web hosting provider's servers).
 -Updated all of the links in the navigation bar on every page to the new page link under the selecion "Moderately Important", in the sub selecion "Protection: Trusts, LLCs, and Public Data" to the new one.
 -Updated the gitlab repo to reflect the changes of the website.
 
