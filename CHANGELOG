@@ -1,6 +1,7 @@
 December 23, 2021
 -Updated the bakckup version of the website (https://backup.thenewoil.org/).
 -Added back the text under the sponsers logo.
+-Updated the .htaccess-config file in the gitlab repo.
 
 December 21, 2021
 -Fixed btc address on the website.
