@@ -1,7 +1,9 @@
 December 24, 2021
--Changed the gitlab repo back to an older verion of the website to fix an abundance of mistakes.
--Change the website back to an older verion of it to fix an abundance of mistakes.
--fixed the write.as link on the blog-index.html.
+-Moved email-masking.html to the Moderately Important section.
+-Moved messaging.html to the Less Important Section.
+-Added a tip about custom domains in email-masking.html
+-Fixed a typo on support.html
+-Added some missing and modified images
 
 December 23, 2021
 -Updated the backkup version of the website (https://backup.thenewoil.org/).
