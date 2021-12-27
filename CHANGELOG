@@ -1,13 +1,17 @@
+December 27, 2021
+-Rmoved 404.html from the gitlab repo and website.
+-Updated the error page on the website.
+
 December 25, 2021
--Updated blog-index.html
+-Updated blog-index.html.
 
 December 24, 2021
 -Moved email-masking.html to the Moderately Important section.
 -Moved messaging.html to the Less Important Section.
--Added a tip about custom domains in email-masking.html
--Fixed a typo on support.html
--Added some missing and modified images
--Added a custom 404 page
+-Added a tip about custom domains in email-masking.html.
+-Fixed a typo on support.html.
+-Added some missing and modified images.
+-Added a custom 404 page.
 
 December 23, 2021
 -Updated the backkup version of the website (https://backup.thenewoil.org/).
