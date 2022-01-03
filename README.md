@@ -25,11 +25,14 @@ In addition to submitting corrections and changes, readers are also welcome to s
 
 _You can also see how these donations will be used, by visiting our [roadmap](https://thenewoil.org/roadmap.html)._
 
-## License and Transparency
+## License
 This project is licensed under a Creative Commons Attribution 4.0 International License
  
 - [License summary](https://creativecommons.org/licenses/by/4.0/). 
 - [License](https://creativecommons.org/licenses/by/4.0/legalcode).
+
+## Transparency
+
 - **[2021 Transparency Report](https://write.as/thenewoil/transparency-report-2021-and-goals-for-2022)** 
 - **[2020 Transparency Report](https://write.as/thenewoil/2020-recap-2021-plans)**
 
