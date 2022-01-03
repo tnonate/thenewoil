@@ -30,7 +30,6 @@ This project is licensed under a Creative Commons Attribution 4.0 International 
  
 - [License summary](https://creativecommons.org/licenses/by/4.0/). 
 - [License](https://creativecommons.org/licenses/by/4.0/legalcode).
-
 - **[2021 Transparency Report](https://write.as/thenewoil/transparency-report-2021-and-goals-for-2022)** 
 - **[2020 Transparency Report](https://write.as/thenewoil/2020-recap-2021-plans)**
 
