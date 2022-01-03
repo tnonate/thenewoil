@@ -26,9 +26,9 @@ In addition to submitting corrections and changes, readers are also welcome to s
 _You can also see how these donations will be used, by visiting our [roadmap](https://thenewoil.org/roadmap.html)._
 
 ## License
-**This project is licensed under a Creative Commons Attribution 4.0 International License**
+**This project is licensed under a Creative Commons Attribution 4.0 International License.**
  
-- **[License summary](https://creativecommons.org/licenses/by/4.0/)**
+- **[License Summary](https://creativecommons.org/licenses/by/4.0/)**
 - **[License](https://creativecommons.org/licenses/by/4.0/legalcode)**
 
 ## Transparency
