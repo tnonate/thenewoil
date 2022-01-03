@@ -1,6 +1,7 @@
-This project and it's contecnt are licensed under the Attribution 4.0 International (CC BY 4.0) license; read more at https://creativecommons.org/licenses/by/4.0/ : https://creativecommons.org/licenses/by/4.0/legalcodeto to under stand what this license is about.
+## Bio
+his project and it's contecnt are licensed under the Attribution 4.0 International (CC BY 4.0) license; read more at https://creativecommons.org/licenses/by/4.0/ : https://creativecommons.org/licenses/by/4.0/legalcodeto to under stand what this license is about.
 
-**Attribution 4.0 International**
+## Creative Commons Attribution 4.0 International License
 
 Official translations of this license are available in other languages at https://creativecommons.org/licenses/by/4.0/legalcode
 
