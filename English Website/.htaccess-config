@@ -7,7 +7,6 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC, L]
 
-
 Header Strict-Transport-Security: max-age=31536000; includeSubDomains; preload env=HTTPS
 
 Header Content-Security-Policy: "script-src 'none'"
