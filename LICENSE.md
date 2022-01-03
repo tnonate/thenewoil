@@ -1,4 +1,4 @@
-This project and it's contecnt are licensed under the Attribution 4.0 International (CC BY 4.0) license; ream more at https://creativecommons.org/licenses/by/4.0/ to under stand what this license is about.
+This project and it's contecnt are licensed under the Attribution 4.0 International (CC BY 4.0) license; read more at https://creativecommons.org/licenses/by/4.0/ : https://creativecommons.org/licenses/by/4.0/legalcodeto to under stand what this license is about.
 
 **Attribution 4.0 International**
 
