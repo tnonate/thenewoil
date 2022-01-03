@@ -12,11 +12,17 @@ Technology is a constantly changing field, and as people who take their privacy 
 ## Other Online Presences
 
 - [Website](https://thenewoil.org/)
-- [Mastodon](https://freeradical.zone/@thenewoil)
-- [Blog](https://blog.thenewoil.org/)
+- [Decentralize Today](https://dt.gl/author/nate/)
 - [Podcast](https://surveillancereport.tech/)
+- [twitter](https://twitter.com/thenewoil1)
+- [Odysee](https://odysee.com/@thenewoil)
+- [Github](https://github.com/thenewoil)
+- [YouTube](https://www.youtube.com/thenewoil)
+- [Mastodon](https://freeradical.zone/@thenewoil)
 - [PeerTube](https://peertube.thenewoil.xyz/video-channels/thenewoil/videos)
-
+- [Matrix](https://matrix.to/#/#TheNewOil:matrix.org)
+- [Blog](https://blog.thenewoil.org/)
+ 
 ## Support
 
 In addition to submitting corrections and changes, readers are also welcome to support The New Oil financially as well to help it grow and make our project better then before.
