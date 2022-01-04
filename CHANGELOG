@@ -1,3 +1,6 @@
+Jauary 3, 2022
+-Fixed broken email link for Tutanota on links.html
+
 January 2, 2022
 -Updated the .htaccess-config file.
 -Delete the .gitkeep file.
@@ -5,7 +8,6 @@ January 2, 2022
 -Updated roadmap.html.
 -Uploaded some missing files to the gitlab repo.
 -Updated the backup version of the website (https://backup.thenewoil.org/).
-
 
 January 1, 2022
 -Updated roadmap.html.
