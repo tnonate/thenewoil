@@ -1,7 +1,9 @@
+#Redirects the http verion of the website to the https verion of the website (e.g. http://example.com/ to https://example.com/).
 RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
+#Removes html file extension (e.eg. example.com/page.html to example.com/page).
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -9,7 +11,7 @@ RewriteRule ^([^\.]+)$ $1.html [NC, L]
 
 Header Strict-Transport-Security: max-age=31536000; includeSubDomains; preload env=HTTPS
 
-Header Content-Security-Policy: "script-src 'none'"
+Header Content-Security-Policy: "script-src 'none'; form-action 'self'; report-uri https://thenewoil.report-uri.com/r/d/csp/reportOnly"
 
 Header always set X-Frame-Options "SAMEORIGIN"
 
@@ -30,14 +32,13 @@ Header Cross-Origin-Opener-Policy-Report-Only: (same-origin|same-origin-allow-po
 Header Cross-Origin-Resource-Policy: (same-site|same-origin|cross-origin)
 
 #original version (Header X-XSS-Protection: 1; mode=block)
-Header X-XSS-Protection: 0; mode=block
+Header X-XSS-Protection: 1; mode=block
 
 Header Expect-CT: enforce, max-age=604800, report-uri="https://thenewoil.report-uri.com/r/d/ct/enforce"
-
 Header Report-To: {"group":"default","max_age":31536000,"endpoints":[{"url":"https://thenewoil.report-uri.com/a/d/g"}],"include_subdomains":true}
 
-#Header Cache-control: private, no-store, nocache, no transform, must-revalidate, max-age=0, post-check=0, pre-check=0
+Header Cache-control: private, no-store, nocache, no transform, must-revalidate, max-age=0, post-check=0, pre-check=0
 
 Header Set-Cookie: uid=7; Secure; HttpOnly; SameSite=Lax
 
-options -Indexes
+#options -Indexes
