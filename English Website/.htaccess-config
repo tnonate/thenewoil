@@ -37,3 +37,5 @@ Header Expect-CT: enforce, max-age=604800, report-uri="https://thenewoil.report-
 Header Report-To: {"group":"default","max_age":31536000,"endpoints":[{"url":"https://thenewoil.report-uri.com/a/d/g"}],"include_subdomains":true}
 
 #Header Cache-control: private, no-store, nocache, no transform, must-revalidate, max-age=0, post-check=0, pre-check=0
+
+Header Set-Cookie: uid=7; Secure; HttpOnly; SameSite=Lax
