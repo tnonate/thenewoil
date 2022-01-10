@@ -39,3 +39,5 @@ Header Report-To: {"group":"default","max_age":31536000,"endpoints":[{"url":"htt
 #Header Cache-control: private, no-store, nocache, no transform, must-revalidate, max-age=0, post-check=0, pre-check=0
 
 Header Set-Cookie: uid=7; Secure; HttpOnly; SameSite=Lax
+
+options -Indexes
