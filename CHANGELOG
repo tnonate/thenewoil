@@ -1,18 +1,24 @@
+January 15, 2022
+-Updated the gitlab linkls on all pages to a single page that redirects to gilab (https://thenewoil.org/gilab).
+-Updated the license on all pages to a single page that redirects to the license (https://thenewoil.org/license).
+-Updated the backup version of the website (https://backup.thenewoil.org/).
+-Updated the gilab repo.
+
 January 14, 2022
--Removed Firefox as a recommended Android browser as it no longer allows desktop plugins, added Brave instead (for both Android and iOS) on mobile-apps.html
--Added information about backup options to email.html and email-chart.html
--Improved spacing on passwords-chart.html, mfa-chart.html, messaging-chart.html, and email-chart.html
+-Removed Firefox as a recommended Android browser as it no longer allows desktop plugins, added Brave instead (for both Android and iOS) on mobile-apps.html.
+-Added information about backup options to email.html and email-chart.html.
+-Improved spacing on passwords-chart.html, mfa-chart.html, messaging-chart.html, and email-chart.html.
 
 January 13, 2022
 -Updated "Android vs iOS" on mobile.html to reflect the current security landscape of both devices.
 -Added a note of concern about Filen on backups.html in accordance with an alert from a reader.
 
 January 11, 2022
--Added CTemplar Referral Code to email.html
+-Added CTemplar Referral Code to email.html.
 
 Jauary 10, 2022
--Updated the .htaccess-config file (to inclued securing the cookies of the site, if there are any)
--Fixed some outdated links on why.html
+-Updated the .htaccess-config file (to inclued securing the cookies of the site, if there are any).
+-Fixed some outdated links on why.html.
 
 Jauary 8, 2022
 -Fixed some typos on the mobile-settings.html page.
