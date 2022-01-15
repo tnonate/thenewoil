@@ -1,5 +1,7 @@
 January 14, 2022
 -Removed Firefox as a recommended Android browser as it no longer allows desktop plugins, added Brave instead (for both Android and iOS) on mobile-apps.html
+-Added information about backup options to email.html and email-chart.html
+-Improved spacing on passwords-chart.html, mfa-chart.html, messaging-chart.html, and email-chart.html
 
 January 13, 2022
 -Updated "Android vs iOS" on mobile.html to reflect the current security landscape of both devices.
