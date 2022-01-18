@@ -11,7 +11,7 @@ RewriteRule ^([^\.]+)$ $1.html [NC, L]
 
 Header Strict-Transport-Security: max-age=31536000; includeSubDomains; preload env=HTTPS
 
-Header Content-Security-Policy: "script-src 'none'; form-action 'self'; report-uri https://thenewoil.report-uri.com/r/d/csp/reportOnly"
+Header Content-Security-Policy: "script-src 'none'; form-action 'self'; upgrade-insecure-requests; block-all-mixed-content; report-uri https://s5yy8cthyztkvqrwim6wsnhe7bp9h6.report-uri.com/r/d/csp/reportOnly"
 
 Header always set X-Frame-Options "SAMEORIGIN"
 
@@ -21,24 +21,26 @@ Header Referrer-Policy: no-referrer
 
 Header always set Permissions-Policy "geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()"
 
-Header Cross-Origin-Embedder-Policy: (unsafe-none|require-corp); report-to="default"
-
 Header Cross-Origin-Embedder-Policy-Report-Only: (unsafe-none|require-corp); report-to="default"
 
 Header Cross-Origin-Opener-Policy: (same-origin|same-origin-allow-popups|unsafe-none); report-to="default"
-
+ 
 Header Cross-Origin-Opener-Policy-Report-Only: (same-origin|same-origin-allow-popups|unsafe-none); report-to="default"
 
 Header Cross-Origin-Resource-Policy: (same-site|same-origin|cross-origin)
 
-#original version (Header X-XSS-Protection: 1; mode=block)
-Header X-XSS-Protection: 1; mode=block
+Header X-XSS-Protection: 0; mode=block
 
-Header Expect-CT: enforce, max-age=604800, report-uri="https://thenewoil.report-uri.com/r/d/ct/enforce"
-Header Report-To: {"group":"default","max_age":31536000,"endpoints":[{"url":"https://thenewoil.report-uri.com/a/d/g"}],"include_subdomains":true}
+Header Expect-CT: enforce, max-age=604800, report-uri="https://s5yy8cthyztkvqrwim6wsnhe7bp9h6.report-uri.com/r/d/ct/enforce"
+
+Header Report-To: {"group":"default","max_age":31536000,"endpoints":[{"url":"https://s5yy8cthyztkvqrwim6wsnhe7bp9h6.report-uri.com/a/d/g"}],"include_subdomains":true}
+
+Header NEL: {"report_to":"default","max_age":31536000,"include_subdomains":true}
 
 Header Cache-control: private, no-store, nocache, no transform, must-revalidate, max-age=0, post-check=0, pre-check=0
 
 Header Set-Cookie: uid=7; Secure; HttpOnly; SameSite=Lax
+
+Header Clear-Site-Data: "cookies"
 
 #options -Indexes
