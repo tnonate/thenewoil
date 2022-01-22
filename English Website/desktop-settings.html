@@ -151,8 +151,8 @@
 	<li>Time Machine: Back Up Automatically
 	<li>Time Machine: Select Backup Disk
 	<li>Avoid setting up the machine with an Apple ID if possible
-	<li>Advanced users who want more granular control and feel comfortable making extreme changes may want to look into <a href="https://www.obdev.at/products/littlesnitch/index.html">Little Snitch</a>.
-	<li>Advanced users are encouraged to set up <a href="https://github.com/DNSCrypt/dnscrypt-proxy/releases">DNSCrypt</a>.
+	<li>Advanced users who want more granular control and feel comfortable making extreme changes may want to look into <a href="https://www.obdev.at/products/littlesnitch/index.html">Little Snitch</a> or <a href="https://objective-see.com/products/lulu.html">LuLu</a>. These are firewalls to help further control the traffic leaving your device and reduce data collection by Apple and others..
+	<li>If you don't plan to use a <a href="vpns.html">VPN</a>, then I encourage you to use an <a href="https://privacyguides.org/providers/dns/">Encrypted DNS Resolver</a> (instructions on how to set that up <a href="https://www.macinstruct.com/tutorials/how-to-change-your-macs-dns-servers/">here</a>).
 </ul>
 <div class="subheader">
 <h3>Windows 10: Version 21H1</h3>
@@ -181,9 +181,10 @@
 	<li>Update & Security: Windows Security: Open Windows Security: Firewall & Network Protection: All firewalls on
 	<li>Update & Security: Backup: 
 	<li>Download <a href="https://github.com/crazy-max/WindowsSpyBlocker/releases">WindowsSpyBlocker</a> and run it. Select option 1 "Telemetry," then option 1 "Firewall," and finally options 1 and 2, "Add extra rules," and "Add spy rules." After that's done, type "back" to go back to the previous menu, then select option 2 "NCSI," then select either option 2 or option 3, "Apply Debian NCSI" or "Apply Firefox NCSI."
-	<li>Some versions of Windows 10 now support DNS-over-HTTPS. See <a href="communication.html">How Network Communication Works</a> for more information on why protecting DNS matters. If your computer supports this feature, follow <a href="https://www.bleepingcomputer.com/news/microsoft/how-to-enable-dns-over-https-doh-in-windows-10/"">these instructions</a> to enable it. If not, download <a href="https://github.com/DNSCrypt/dnscrypt-proxy/releases">DNSCrypt</a>. Download the appropriate installer, install it, then launch it when done. Under "Main Menu: Configuration" ensure all boxes are checked. In the settings (the gear icon in the top right) ensure "Start SimpleDNSCrypt in tray" and "Check for updates on startup" are checked.
+		<li>If you don't plan to use a <a href="vpns.html">VPN</a>, then I encourage you to use an <a href="https://privacyguides.org/providers/dns/">Encrypted DNS Resolver</a> (instructions on how to set that up <a href="https://www.macinstruct.com/tutorials/how-to-change-your-macs-dns-servers/">here</a>)
+	<li>If you don't plan to use a <a href="vpns.html">VPN</a>, then I encourage you to use an <a href="https://privacyguides.org/providers/dns/">Encrypted DNS Resolver</a>. Follow <a href="https://www.bleepingcomputer.com/news/microsoft/how-to-enable-dns-over-https-doh-in-windows-10/">these instructions</a> to change your DNS. Select "Encrypted preferred, unencrypted allowed" if the option is available. If the option is not available, the rest of the steps should still apply.
 	<li>Advanced users who want more granular control and feel comfortable making extreme changes may want to look into <a href="https://www.w10privacy.de/english-home/">W10Privacy</a>.
-</ul></p>
+</ul> and <a href="https://www.bcuninstaller.com/">Bulk Crap Uninstaller</a> to remove additional, pre-installed bloatware and <a href="https://safing.io/portmaster/">Portmaster</a> or <a href="https://www.henrypp.org/product/simplewall">Simplewall</a> for additional firewall controls to block outoing connections and further reduce data collection by Microsoft and other third parties.</p>
 <p>By enabling all of these settings, you are significantly reducing the amount of tracking and data collection these devices perform.</p>
 <div class="subheader">
 <h3>Best Practices</h3>

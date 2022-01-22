@@ -1,3 +1,9 @@
+January 22, 2022
+-On vpns.html, messaging.html, email.html, and passwords.html, changed the link of each country a service is based in to a blog post explaining why country of origin matters.
+-Explained why country of origin matters a little less for vpns on vpns.html
+-Added a note on credit.html that this page mainly applies to Americans, but may also apply in other countries. Do your own research.
+-Added Lulu, Simplewall, and Portmaster to the desktop-settings.html page. Provided some better, updated information about DNS and DoH/DNSCrypt stuff.
+
 January 20, 2022
 -Updated the contributor's Monero address on XMR2.html per their request (contributor to blog.es.thenewoil.org)
 
