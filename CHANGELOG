@@ -1,6 +1,7 @@
 March 1st, 2022
 -Updated the .htaccess-config file.
 -Fixed worng team members title (again).
+-Setup Dane, a CSP policy, and the Expect CT header that was missing. 
 
 February 27, 2022
 -Updated every team members title.
