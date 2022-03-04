@@ -1,11 +1,11 @@
 March 4, 2022
 -Removed the word "preferred" away under the gitlab emblem on the links.html page.
--Removed Hitchhiker's Guide to Online Anonymity and Prism-Break from links.html ([Issue 27](https://gitlab.com/thenewoil/website/-/issues/27)).
+-Removed Hitchhiker's Guide to Online Anonymity and Prism-Break from links.html (https://gitlab.com/thenewoil/website/-/issues/27)).
 
 March 2, 2022
--Clarified the security and ease-of-use of Fedora vs Debian ([Issue 24](https://gitlab.com/thenewoil/website/-/issues/24)).
--Added the US State Privacy Legislation Tracker ([Issue 26](https://gitlab.com/thenewoil/website/-/issues/26)).
--Removed LastCard as they are closing their service ([Issue 25](https://gitlab.com/thenewoil/website/-/issues/25)).
+-Clarified the security and ease-of-use of Fedora vs Debian (https://gitlab.com/thenewoil/website/-/issues/24).
+-Added the US State Privacy Legislation Tracker (https://gitlab.com/thenewoil/website/-/issues/26).
+-Removed LastCard as they are closing their service (https://gitlab.com/thenewoil/website/-/issues/25).
 
 March 1, 2022
 -Updated the .htaccess-config file.
