@@ -3,6 +3,7 @@ March 7, 2022
 -Swapped ThinkPrivacy.ch with Privacy Please by Startpage on links.html (https://gitlab.com/thenewoil/website/-/issues/27).
 -Updated the PeerTube channel on links.html.
 -Fixed browser.html and clarified the recommended use of LocalCDN.
+-Added CookieStatus.com as a resource to browser.html.
 
 March 4, 2022
 -Removed the word "preferred" away under the gitlab emblem on the links.html page.
