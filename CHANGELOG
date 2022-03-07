@@ -1,6 +1,10 @@
+March 7, 2022
+-Removed Hitchiker's Guide to Anonymity from privsecanon.html (https://gitlab.com/thenewoil/website/-/issues/27).
+-Swapped ThinkPrivacy.ch with Privacy Please by Startpage on links.html (https://gitlab.com/thenewoil/website/-/issues/27).
+
 March 4, 2022
 -Removed the word "preferred" away under the gitlab emblem on the links.html page.
--Removed Hitchhiker's Guide to Online Anonymity and Prism-Break from links.html (https://gitlab.com/thenewoil/website/-/issues/27)).
+-Removed Hitchhiker's Guide to Online Anonymity and Prism-Break from links.html (https://gitlab.com/thenewoil/website/-/issues/27).
 
 March 2, 2022
 -Clarified the security and ease-of-use of Fedora vs Debian (https://gitlab.com/thenewoil/website/-/issues/24).
