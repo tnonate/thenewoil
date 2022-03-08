@@ -5,6 +5,8 @@ March 7, 2022
 -Fixed browser.html and clarified the recommended use of LocalCDN.
 -Added CookieStatus.com as a resource to browser.html.
 -Updated the affiliate link for ProtonVPN on vpns.html.
+-Fixed a broken navigation link on backups.html.
+-Clarified the risks of a public Nextcloud server on backups.html.
 
 March 4, 2022
 -Removed the word "preferred" away under the gitlab emblem on the links.html page.
