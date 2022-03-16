@@ -54,5 +54,3 @@ Header Cache-Control: private, no-store
 #"executionContexts" 'cache'
 
 options -Indexes
-
-options -Indexes
