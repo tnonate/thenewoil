@@ -1,20 +1,25 @@
+April 1, 2022
+Fixed a html issue on the messaging.html page.
+Added the "noopener" and "noreferrer" attributes to all "A" tags that link external websites (for added security and privacy).
+Made it easier to send an email to the emails mention on the pgp.html page by making them "clickable".
+
 March 27, 2022
--Added Darth Badgie as a moderator to about.html
--Added advice about not saving cookies on browser.html, passwords.html, and mfa.html
--Updated some outdated settings on browser.html
--Fixed a typo on disinformation.html
--Added the new, maintained URL for The Hitchhiker's Guide to Anonymity to secprivanon.html and links.html
--Added ProxiTok (TikTok front end) to habits.html
--Added Brave Search (and elaborated on the various search engines) to habits.html
--Fixed a broken link on moderately-important.html
+-Added Darth Badgie as a moderator to about.html.
+-Added advice about not saving cookies on browser.html, passwords.html, and mfa.html.
+-Updated some outdated settings on browser.html.
+-Fixed a typo on disinformation.html.
+-Added the new, maintained URL for The Hitchhiker's Guide to Anonymity to secprivanon.html and links.html.
+-Added ProxiTok (TikTok front end) to habits.html.
+-Added Brave Search (and elaborated on the various search engines) to habits.html.
+-Fixed a broken link on moderately-important.html.
 
 March 15, 2022
--Fixed a dead link on credit.html
+-Fixed a dead link on credit.html.
 
 March 11, 2022
--Added Sync to backups.html and backups-chart.html
--Added an affiliate link for Mega to backups.html and support.html
--Added more resources on cryptocurrency to payments.html
+-Added Sync to backups.html and backups-chart.html.
+-Added an affiliate link for Mega to backups.html and support.html.
+-Added more resources on cryptocurrency to payments.html.
 
 March 10, 2022
 -Updated the .htaccess-config file.
