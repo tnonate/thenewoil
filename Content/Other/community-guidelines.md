@@ -1,51 +1,51 @@
-# Community Guidelines
+ # Community Guidelines
 
-The New Oil (TNO for short) strives to create, host, and maintain a community where anyone from any background and experience level is welcome. This page will explain what is and isn't allowed in this community, so that we can keep this community safe and welcoming for everyone.
+**The New Oil strives to create, host, and maintain a community where anyone from any background and experience level is welcome. Because this largely relies on the behavior of our members, this page will explain what is and isn't allowed in this community so that we can keep it safe and welcoming for everyone.**
 
-- Treat everyone equally and with respect. Remember there's a human on the other end of the screen.
+## Behavioral Guidelines (What's Not Allowed)
 
-- Any form of hate speech or discriminatory jokes (such as but not limited to sexism, racism, homophobia, etc) is not allowed.
+Ultimately most of our rules can be boiled down to “treat everyone equally and with respect. Remember there's a human on the other end of the screen.”
 
-- Create an environment where people aren’t afraid to talk and ask questions. Be "beginner-friendly".
+1. Any form of hate speech or discriminatory jokes (such as but not limited to sexism, racism, homophobia, etc) is not allowed.
 
-- No "one-size-fits-all" or "gatekeeping" acting/thinking. This means not making claims that are false or untrue, including but not limited to unprovable, speculative, or conspiratorial claims. You are welcome to share these claims as opinions, but do not present them as proven facts unless backed up with hard evidence, that's properly checked and that comes from a multitude of credible and respected sources.
+2. Any "one-size-fits-all" or "gatekeeping" acting/thinking. This means acknowledging that everyone is in a different stage of their privacy journey with different resources is not allowed.
 
-- Don't talk about religion, political belief, sexual orientations, or any other stuff that otherwise may upset people without the permission from a moderator or administrator.
+3. Any FUD (Fear, Uncertainty, Doubt) is not allowed. This means that making claims that are false or untrue, including but not limited to unprovable, speculative, or conspiratorial claims is not allowed.
 
-- Do not post or discuss anything NSFW ("No Safe For Work") related (meaning, videos or images depicting sexual actions, gore, or violence whether real or illustrated, verbal descriptions, and any other discussions related to these topics).
+4. "Doxxing" is not allowed. We define doxxing as posting anyone else's PII (personally identifiable information). This includes any information that could be used to track people down, such as (but not limited to) name(s), address(s), phone number(s), email(s), geographical location(s), photo(s), IP address(s), or anything else that they themselves have not disclosed.
 
-- Give context behind any links/media you post or when asked to do so.
+5. Conversations about about religion, political belief, or any other "hot topics" that might reasonably upset people or cause heated, divisive discussions are not allowed. These are important issues worth discussing, but this is not the place for them.
 
-- Main room is on topic only. This means no off-topic discussions in the main room (e.g. any support related questions, unnecessary debates, and or news articles, etc).
+6. NSFW ("No Safe For Work") content, including but not limited to videos or images (real or illustrated) or discussions depicting sexual actions, gore, or violence (real or fictional) is not allowed.
 
-- Keep all the discussions legal and away from any unethical & non legal stuff, you get the drill. Remember that our rooms are hosted on "matrix.org's" homeserver and that it's based in the United Kingdom and also note that "The New Oil" is a United States based organization, so laws of both of these jurisdictions may apply.
+7. The posting or use (such as profile pictures) of illegal or unethical emblems (e.g. Nazi symbols, rebel flags, etc) and/or supporting illegal causes/groups is not allowed.
 
-- Do not post any else's PII (personally identifiable information). This includes any information that could be used to track people down, this information may include the following: name(s), address(s), phone number(s), email(s), geographical location(s), photo(s), IP address(s), or anything else that they themselves have not disclosed. It's also recommend that user's should be very cautious when disclosing any of their (your) own PII.
+8. Inappropriate display names, usernames, or matrix homeserver addresses (e.g. @address:homeserver) that violates any of our guidelines are not allowed.
 
-- [this rule is an extension of the PII guideline] Any form of doxing (aka dox -- dropping the dox) shall be considered breaking the community guidelines and will result in an instant suspension of your membership to all of The New Oil's communities (This means that we have a strict no doxing policy).
+9. Any form (or supporting) of internet trolling is not allowed.
 
-- Advertising without permission from a moderator or administrator ins't allowed.
+10. Advertising in any form is not allowed.
 
-- Using "bots", scripts, and "alts" without permission from a moderator and administrator isn't allowed.
+11. The Main room is for on-topic discussions only - namely topics directly related to digital privacy and cybersecurity. For all other discussions please refer to the Off Topic room.
 
-- Using "bots", scripts, and "alts" in a "bad" or illegal way isn't allowed.
+12. Keep all discussions legal and ethical. Remember that our rooms are hosted on matrix.org's homeserver (which is based in the United Kingdom) and that The New Oil is based in the United States. We are subject to the laws of both of these jurisdictions.
 
-- Using illegal emblems (e.g. Nazi symbols, etc) and supporting illegal causes/theorist group ins't allowed.
+13. Give context behind any links/media you post or when asked to do so.
 
-- Doing any form (or supporting) of internet trolling will result in an instant suspension of your membership to all of The New Oil's communities.
+14. Using bots, scripts, and "alts" without permission from a moderator isn't allowed. This is for the integrity and safety of the room.
 
-- Having a inappropriate display name, matrix address, and or matrix home server address (e.g. @this-is-an-inappropriate-matrix-user-name:this-is-an-inappropriate-matrix-home-server-address) that has something NSFW, illegal, or anything related to any rules in it, will result in an instant suspension of your membership to all of The New Oil's communities.
+15. Using bots, scripts, and "alts" for unethical or illegal purposes is not allowed.
 
-- Not reporting any person ("rule breaker") of whom broke any guidelines shall be suspended temporarily from all of The New Oil's communities.
+## _Note:_
 
-*Also please note the following.*
+These community guidelines may change periodically without any notice (but we will do our best to inform users of updates).
 
-*These community guidelines may change periodically without any notice.*
+Community members are encouraged to "ping" (@ mention) moderators if someone is seen breaking rules and a moderator currently seems to be offline or unaware.
 
-*Moderators and administrators reserve the right to suspend anyone's membership at their discretion.*
+Moderators reserve the right to enforce the community guidelines to the extent they see fit, up to and including immediate and permanent bans.
 
-*The New Oil and its staff also reserve the right to deny access to any of its communities to any user/person without having to provide a valid reason on why and also may use any means necessary to do so.*
+Moderators reserve the right to enforce bans or suspensions by any legal means they see fit.
 
-*Moderators and administrators may enforce the community guidelines as they see fit and shall also choose how many warnings they provide before they take action against any "rule breaker(s)").*
+Moderators reserver the right to choose how many warnings they provide before taking action against any rule breaker(s).
 
-*Moderators, administrators, public figures, etc from other communities are not in any way exempt from these community guidelines. Everyone shall be treated equally, not matter who they are, where they're from, or what they do, etc.*
+Moderators, administrators, public figures, etc from other communities are not in any way exempt from these community guidelines. Everyone will be treated equally, not matter who they are, where they're from, or what they do, etc.
