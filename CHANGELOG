@@ -1,7 +1,12 @@
+April 9, 2022
+-Fixed a typo on index.html.
+-Removed CTemplar from links.html and pgp.html and removed our referral code from email.html.
+-Made the cryptocurrency links jump straight to their respective QR codes and wallet addresses (support.html and crypto.html).
+
 April 1, 2022
-Fixed a html issue on the messaging.html page.
-Added the "noopener" and "noreferrer" attributes to all "A" tags that link external websites (for added security and privacy).
-Made it easier to send an email to the emails mention on the pgp.html page by making them "clickable".
+-Fixed a html issue on the messaging.html page.
+-Added the "noopener" and "noreferrer" attributes to all "A" tags that link external websites (for added security and privacy).
+-Made it easier to send an email to the emails mention on the pgp.html page by making them "clickable".
 
 March 27, 2022
 -Added Darth Badgie as a moderator to about.html.
