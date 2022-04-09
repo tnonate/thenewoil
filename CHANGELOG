@@ -3,6 +3,7 @@ April 9, 2022
 -Removed CTemplar from links.html and pgp.html and removed our referral code from email.html.
 -Made the cryptocurrency links jump straight to their respective QR codes and wallet addresses (support.html and crypto.html).
 -Replaced our Monero address with a subaddress for better privacy and management.
+-Added Reddit to links.html.
 
 April 1, 2022
 -Fixed a html issue on the messaging.html page.
