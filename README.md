@@ -14,7 +14,7 @@ Technology is a constantly changing field, and as people who take their privacy 
 - [Website](https://thenewoil.org/)
 - [Decentralize Today](https://dt.gl/author/nate/)
 - [Podcast](https://surveillancereport.tech/)
-- [twitter](https://twitter.com/thenewoil1)
+- [Twitter](https://twitter.com/thenewoil1)
 - [Odysee](https://odysee.com/@thenewoil)
 - [Github](https://github.com/thenewoil)
 - [YouTube](https://www.youtube.com/thenewoil)
