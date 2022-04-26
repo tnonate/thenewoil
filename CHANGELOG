@@ -1,3 +1,8 @@
+April 26, 2022
+-Removed CTemplar from email.html and email-chart.html (see https://web.archive.org/web/20220426154149/https://ctemplar.com/ctemplar-is-shutting-down/).
+-Fixed bad HTML on email-chart.html.
+-Clarified the lack of a Proton app on Debian/Mac/Windows on email-chart.html.
+
 April 23, 2022
 -Added Briar as an honorable mention to messaging.html
 
