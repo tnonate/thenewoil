@@ -23,6 +23,7 @@ header {
 .logo {
   display: block;
   margin: auto;
+  padding: 5px;
 }
 
 nav {
@@ -140,13 +141,14 @@ aside {
         .column { display:table-row; }
 	section { display:block; }
 	section ul { width:90%; }
-	.logo { margin-right:10px; }
 	.desktop { display: none;}
-	.mobile { display: block; }
-	details { background: black; padding: 5px; position: absolute; top: 8px; left: 8px; width: auto;}
-	summary { text-align: left; }
-	header {  height: 55px; }
+	.mobile { display: flex; justify-content: flex-end; }
+	.logo { display: block; margin-right: 1px; }
+	details { background: #353535; padding: 5px; position: absolute; top: 8px; left: 8px; width: auto;}
+	summary { text-align: left;}
+	header {  height: 70px; }
 	header a {text-decoration: none; list-style-type: none; }
+	header b {text-decoration: underline;}
 	details > summary { list-style: none; }
 	details > summary::marker { display: none; }
 	footer p a { display:block; }
