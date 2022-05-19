@@ -1,6 +1,8 @@
 May 18, 2022
--Added underlines to the section titles on the mobile version of the site (see Issue #32, https://gitlab.com/thenewoil/website/-/issues/32)
--Fixed a Firefox/Android bug (See Issue #33, https://gitlab.com/thenewoil/website/-/issues/33)
+-Added underlines to the section titles on the mobile version of the site (see Issue #32, https://gitlab.com/thenewoil/website/-/issues/32).
+-Fixed a Firefox/Android bug (See Issue #33, https://gitlab.com/thenewoil/website/-/issues/33).
+-Reorganized and updated the recommended settings for Brave and Firefox (browsers.html).
+-Added more search engines to habits.html.
 
 May 9, 2022
 -Removed The Hithhicker's Guide to Online Anonymity until such a time as we can confirm that the project is stable. (links.html, secprivanon.html)
