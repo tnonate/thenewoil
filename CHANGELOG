@@ -1,3 +1,8 @@
+May 21, 2022
+-Removed Netguard from mobile-apps.html as it is no longer in development.
+-Added Mull browser to mobile-apps.html.
+-Updated the contact email address on links.html.
+
 May 18, 2022
 -Added underlines to the section titles on the mobile version of the site (see Issue #32, https://gitlab.com/thenewoil/website/-/issues/32).
 -Fixed a Firefox/Android bug (See Issue #33, https://gitlab.com/thenewoil/website/-/issues/33).
