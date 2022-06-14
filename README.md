@@ -7,28 +7,30 @@
 
 ## Contributing
 
-Technology is a constantly changing field and as people who take their privacy and security seriously, we place even more trust in the information on this (including many other) site(s) than most other technologies. As such, it is vital that The New Oil stays as current & up to date as possible. All readers are up most welcome to submit updates and suggested changes via a [issue](https://gitlab.com/thenewoil/website/-/issues). Readers are also encouraged to join our [Matrix](https://matrix.to/#/#TheNewOil:matrix.org) community for general discussions and meeting other like-minded privacy enthusiasts (Also please make sure to read the [Community Guidelines](https://gitlab.com/thenewoil/website/-/wikis/Community-Guidelines) before joining any of our communities to ensure a pleasant and productive experience for everyone).
+Technology is a constantly changing field and as people who take their privacy and security seriously, we place even more trust in the information on this (including many other) site(s) than most other technologies. As such, it is vital that The New Oil stays as current & up to date as possible. All readers are up most welcome to submit updates and suggested changes via an [issue](https://gitlab.com/thenewoil/website/-/issues). Readers are also encouraged to join our [Matrix](https://matrix.to/#/#TheNewOil:matrix.org) and [Reddit](https://www.reddit.com/r/thenewoil/) communities for general discussions and meeting other like-minded privacy enthusiasts (Please make sure to read the [Community Guidelines](https://gitlab.com/thenewoil/website/-/wikis/Community-Guidelines) before joining any of our communities to ensure a pleasant and productive experience for everyone).
 
 ## Other Online Presences
 
 - [Website](https://thenewoil.org/)
-- [Decentralize Today](https://dt.gl/author/nate/)
+
 - [Podcast](https://surveillancereport.tech/)
-- [Twitter](https://twitter.com/thenewoil1)
-- [Odysee](https://odysee.com/@thenewoil)
-- [Github](https://github.com/thenewoil)
-- [YouTube](https://www.youtube.com/thenewoil)
+
+- [Blog](https://thenewoil.org/blog-index)
+
 - [Mastodon](https://freeradical.zone/@thenewoil)
-- [PeerTube](https://peertube.thenewoil.xyz/video-channels/thenewoil/videos)
+- [Twitter](https://twitter.com/thenewoil1)
+
+- [Odysee](https://odysee.com/@thenewoil)
+- [YouTube](https://www.youtube.com/thenewoil)
+
 - [Matrix](https://matrix.to/#/#TheNewOil:matrix.org)
 - [Reddit](https://www.reddit.com/r/thenewoil/)
-- [Blog](https://thenewoil.org/blog-index)
 
 ## Support
 
-In addition to submitting corrections and changes, readers are also welcome to support The New Oil financially as well to help it grow and make our project better then before.
+In addition to submitting corrections and changes, readers are also welcome to support The New Oil financially to help it grow and continually improve the project.
 
-[Press here to find out what payment methods we support](https://thenewoil.org/support.html).
+You can find all our support methods [here](https://thenewoil.org/support.html).
 
 _You can also see how these donations will be used, by visiting our [roadmap](https://thenewoil.org/roadmap)._
 
