@@ -125,152 +125,91 @@
 </header>
 <main>
 <article>
-<div class="subheader">
-<h1 align="center">Protection: Voice-over-IP</h1>
+<div class="subheader" id="intro">
+<h3>Why Should I Change my Browser?</h3>
 </div>
-<div class="subheader">
-<h3>What is Voice-over-IP (VoIP)?</h3>
+<p>Currently <b>Google Chrome has the most users, but it's <a rel="noopener noreferrer" href="https://www.washingtonpost.com/technology/2019/06/21/google-chrome-has-become-surveillance-software-its-time-switch/">basically spyware</a></b>, even going so far as to <a rel="noopener noreferrer" href="https://www.hackread.com/google-chromium-browser-listens-conversations/">turn on your microphone and eavesdrop on you while you browse</a>. Instead, you can get almost identical performance and security with a massive improvement in privacy by switching to <a rel="noopener noreferrer" href="https://brave.com/">Brave</a> or <a rel="noopener noreferrer" href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>. Changing browsers may take some getting used to at first, but is critical for improving your privacy.</p>
+<div class="subheader" id="versus">
+<h3>Brave vs Firefox</h3>
 </div>
-<p>Voice-over-IP is the technology allowing phone calls to be sent over the internet rather than regular phone protocols. The capability has been around for decades and has been extremely common in the commercial world as an efficient way to manage multiple phone numbers in office environments. The technology has recently started to become popular with cell phones as a way to circumvent needing to "use minutes," especially with international calls, and even more recently has become popular for its privacy implications.</p>
-<div class="subheader">
-<h3>Why do I Need Voice-over-IP?</h3>
+<p>Browsers are highly controversial. No matter what browsers I suggest, people will always say that I should've considered a different one or shouldn't have listed one I did. To see my criteria for why I selected these browers to list, check <a rel="noopener noreferrer" href="https://gitlab.com/thenewoil/website/-/wikis/Browser-Criteria">here</a>. In the interest of transparency, I do want to acknowledge that <b>both Brave and Mozilla have made questionable decisions</b>. Brave's criticisms mostly revolve around their use of BAT, a cryptocurrency they developed to allow site owners and content creators to get paid based on visits and time spent on their site. You can read more about that <a rel="noopener noreferrer" href="https://brave.com/brave-rewards/">here</a>. Such decisions included <a rel="noopener noreferrer" href="https://www.altcoinbuzz.io/cryptocurrency-news/spotlight/famous-youtuber-tom-scott-frustrated-with-brave/">collecting payments on behalf of a creator who claims he never got paid</a> and <a rel="noopener noreferrer" href="https://www.cpomagazine.com/data-privacy/brave-privacy-browser-caught-automatically-adding-affiliate-links-to-cryptocurrency-urls/">injecting affiliate links into browser traffic so Brave made more money</a>. These situations have since been corrected. For Mozilla's shortcomings, they regularly draw criticism for making their analytics opt-out rather than opt-in, making Google the default search engine, and <a rel="noopener noreferrer" href="https://www.zdnet.com/article/endangered-firefox-the-state-of-mozilla/">paying their CEO over $3 million USD per year while struggling to be financially solvent</a>. I also want readers to be aware that Firefox has <a rel="noopener noreferrer" href="https://www.ghacks.net/2022/03/17/each-firefox-download-has-a-unique-identifier/">been found</a> to be issuing a temporary, one-time tracker that shares some data with Google when you download and install the program for the first time on Windows or Mac, so if you go this route I suggest you turn off your internet during the installation until you have a chance to disable analytics (discussed below).<p>
+</p>While I don't think there is a perfect solution in this space, I personally recommend Brave for most people. It is the most Chrome-like so most users will find the transition easy, using the Chromium engine will make you "blend in" more with other chrome users, and it is extremely privacy-friendly "out of the box" without having to make a lot of advanced tweaks. Having said that, a lot of people feel very strongly about Brave as a company, the BAT token, and the idea of giving Google too much power by having too many users dependent on the Chromium engine. Therefore, I will leave it up to my readers to decide which company they consider to be more ethical and which browser is right for their needs. If you still find yourself on the fence, it's worth noting that Chromium-based browsers tend to have better security, however as long as you're using good <a href="habits.html">online habits</a> the difference should be minimal for most casual web users (<a rel="noopener noreferrer" href="https://madaidans-insecurities.github.io/firefox-chromium.html">Source</a>).</p>
+<div class="subheader" id="plugins">
+<h3>Plugins</h3>
 </div>
-<p>If you are a freelancer, still dating around, work in a high-profile or sensitive position, job hunting, or <b>any other similar situation, this section is critical for you.</b> I would define a "similar situation" as any situation where you hand your phone number out frequently to strangers or you have an increased need for privacy. If you don't feel you fall into this category, consider this section "not mandatory but highly recommended."</p>
-<p>Regular SIM phone numbers are often tied to individuals. In some parts of the world, an identification is required, but in other places the most common way it gets tied to a person is by setting up a phone plan in a real name, often accompanied by a credit check to buy an expensive smartphone on a payment plan. Once that happens, <b>the phone number issued by the cell provider basically becomes a type of identification number</b>. There are numerous websites where one can type in a phone number and get varying degrees of information about the owner of that number. Usually at a bare minimum one can get the provider and general location of the the owner (often accurate to within the city). Sometimes one can get a full address, a full name, roommates, historical information, and more. Voice-over-IP numbers are significantly less regulated and therefore give away immensely less information. By using a VoIP number instead of your real number, you dramatically reduce risk to yourself.</p>
-<div class="subheader">
-<h3>Example Advantages of VoIP</h3>
+<img src="pictures/ublock.png" alt="ublock origin logo" align="left" style="padding:5px;">
+<p><b>Regardless of which browser you decide to go with, there is one plugin you should add to dramatically improve your privacy and security.</b> This is <a rel="noopener noreferrer" href="https://ublockorigin.com/">uBlock Origin</a>, a powerful, lightweight ad- and tracker-blocker. Officially, uBlock Origin is ready for use "out of the box." However, there's a few things I prefer to add to it to improve the protections it has to offer. First, I enable every option under the "<a href="pictures/ublock2.jpg">Privacy</a>" section. I then click on the tab “<a href="pictures/ublock3.jpg">Filter lists</a>” and enable everything under “Built-In,” “Ads,” "Privacy," “Malware domains,” “Annoyances,” and "Multipurpose." I would also recommend checking the "Regions, languages" section if you live outside North America and enable for your location, too. In my experience, enabling all the features has never presented any significant site breakage. However, if you find yourself repeatedly running into issues with a lot of sites not working correctly, you can easily go back to the developer's recommended settings by clicking "Reset to default settings" on the main Settings page.</p>
+<img src="pictures/localcdn.png" align="right" alt="localcdcn logo" style="padding:5px;">
+<p>Another plugin, <a rel="noopener noreferrer" href="https://www.localcdn.org/">LocalCDN</a>, is only recommend if you don't plan to use a <a href="vpns.html">VPN</a>). LocalCDN is a plugin that will replace a lot of third-party libraries like JQuery, Google, and Bootstrap and inject them locally from privacy-respecting alternate sources. These third-party libraries and CDNs can be used to track you, so this plugin helps to reduce tracking. If all that went over your head, just know that this blocks a large number of trackers without any configuration or interaction required on your end. Just install it and let it run. Again, you do not need this plugin if you're using a VPN. Brave (and Firefox with the Enhanced Tracking Protection settings I recommend in the next section) will do an excellent job of isolating third-party libraries to reduce or prevent tracking, and the VPN will prevent the trackers from seeing your IP address, making LocalCDN largely redundant.</p>
+<img src="pictures/snowflake.png" alt="snowflake logo" align="left" style="padding:5px;">
+<p>There are two additional plugins that I think are worth adding if you feel so inclined. The first is your <a href="passwords.html">password manager's</a> official plugin. Many password managers offer browser plugins to help make logging in easy and safe. There are numerous advantages to these, like protection against phishing and keyloggers, and as such I consider these okay to install if you want to. The other is <a rel="noopener noreferrer" href="https://snowflake.torproject.org/">Snowflake</a>. This is a project to help certain internet users in foreign, repressive countries bypass censorship. This should not cause any kind of legal risk to you. Both of these plugins are optional, but I believe they are safe to use.</p>
+<p>In my experience, these plugins and settings rarely cause any issues, but be aware that in extreme cases they can break sites and must be temporarily turned off if site access is required.</p>
+<div class="subheader" id="settings">
+<h3>Settings</h3>
 </div>
-<p>Using VoIP is a great way to compartmentalize your life. For example, <b>using a VoIP number exclusively for dating is a great way to protect against potential stalkers.</b> The person won't be able to research your number and find any information about you, leaving you free to cut off the number and safely lose them before you put yourself in danger.</p>
-<p>Another handy feature of VoIP is professional protection. <b>As a freelancer, I can give out my work phone number to anyone they want and not have to worry about a client discovering any personal aspects of my life</b> that I may not want them to know. Consider this: in some states, public records are so open that many people search websites are able to connect your phone number to your voter records and publish your registered party online. I would hate for a client to not hire me based on my registered political party without knowing me. </p>
-<p>On the topic of work, with many people now working from home, <b>a VoIP number allows you to create and enforce a healthy work/life balance.</b> If after-hours calls or texts ever become an issue, you can turn off your VoIP number after hours so that it doesn't even ring. Your coworkers would have no choice in this situation but to wait business hours.</p>
-<p><b>Note: None of these services on this page are open source, and few of them claim to be privacy respecting.</b> As explained below the table, <b>VoIP is not meant to be a replacement for encrypted messaging.</b> As such, I'm presenting a wide rang of options for your consideration, but be aware that none of them are truly private or safe.</p>
-<table border="1" align="center" class="responsive">
-<tbody>
-	<thead>
-		<tr>
-			<td align="center">Product/Service</td>
-			<td align="center">Pros</td>
-			<td align="center">Cons</td>
-		</tr>
-	</thead>
-		<tr>
-			<td align="center" colspan="3"><a rel="noopener noreferrer" href="https://gitlab.com/thenewoil/website/-/wikis/Voice-over-IP-Criteria">Click here to see my criteria for selecting these services</a></td>
-		</tr>
-		<tr>
-			<td align="center" colspan="3">Listed in alphabetical order, not order of recommendation</td>
-		</tr>
-		<tr>
-			<td align="center"><a rel="noopener noreferrer" href="https://hushed.com/"><img src="pictures/hushed.png" class="invert"><br>Hushed</a></td>
-			<td>
-	<ul>
-			<li>Unlimited numbers
-			<li>International calling
-			<li>Can work just with WiFi (doesn't need mobile data to operate)
-	</ul>
-			</td>
-			<td>
-	<ul>
-			<li>No free tier
-			<li>US and Canadian phone numbers only
-			<li>No desktop app
-			<li>Based in <a rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Five_Eyes">Canada</a>
-		</tr>
-		<tr>
-			<td align="center"><a rel="noopener noreferrer" href="https://voice.google.com/about"><img src="pictures/google_voice.png"><br>Google Voice</a></td>
-			<td>
-	<ul>
-			<li>Unlimited numbers available
-			<li>Desktop client available
-			<li>No phone app required (fowards calls and texts to your SIM number)
-			<li>Free
-
-	</ul>
-			</td>
-			<td>
-	<ul>
-			<li>US and Canada only
-			<li>No group chats
-			<li>No video chats
-			<li>Requires your SIM number
-			<li>Requires a Google account
-			<li>Based in <a rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Five_Eyes">The United States</a>
-		</tr>
-		<tr>
-			<td align="center"><a rel="noopener noreferrer" href="https://mysudo.com/"><img src="pictures/mysudo.png"><br>MySudo</a></td>
-			<td>
-	<ul>
-			<li>Up to 9 numbers available
-			<li>Includes fully functional email, web browser, and <a href="payments.html">digital masked cards</a>
-			<li>Works independently of your SIM number
-			<li>Zero-knowledge
-			<li>End-to-end encrypted (only to other MySudo users)
-			<li>Group chats (only to other MySudo users)
-			<li>Video chats (only to other MySudo users)
-	</ul>
-			</td>
-			<td>
-	<ul>
-			<li>US, Canadian, and UK phone numbers only
-			<li>Desktop client in beta, web-based only
-			<li>Based in <a rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Five_Eyes">The United States</a>
-	</ul>
-		</tr>
-		<tr>
-			<td align="center"><a rel="noopener noreferrer" href="https://www.skype.com/en/skype-number/"><img src="pictures/skype.png"><br>Skype</a></td>
-			<td>
-	<ul>
-			<li>Supports up to 10 phone numbers
-			<li>Available in 25+ countries
-			<li>Does not require your SIM number
-			<li>Desktop app available
-	</ul>
-			</td>
-			<td>
-	<ul>
-			<li>No group chats (over normal protocols)
-			<li>No video chats (over normal protocols)
-			<li>Requires a Microsoft account 
-			<li>Pay by the minute
-			<li>Based in <a rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Five_Eyes">The United States</a>
-	</ul>
-		</tr>
-		<tr>
-			<td align="center"><a rel="noopener noreferrer" href="https://www.viber.com/"><img src="pictures/viber.png"><br>Viber</a></td>
-			<td>
-	<ul>
-			<li>Group chats (only to other Viber users)
-			<li>Video chats (only to other Viber users)
-			<li>Destkop client
-			<li>Zero-knowledge
-			<li>End-to-end encrypted (only to other Viber users)
-			<li>Worldwide numbers available
-			<li>Does not require your SIM number
-	</ul>
-			</td>
-			<td>
-	<ul>
-			<li>External messaging and calling cost extra
-			<li>Only one number available
-			<li>Based in <a rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Five_Eyes#Six_Eyes">Japan</a>
-	</ul>
-			</td>
-		</tr>
-</tbody>
-</table>
-<div class="subheader">
-<h3>Honorable Mention: JMP.Chat</h3>
+<img src="pictures/brave.png" align="right" style="padding:5px;" alt="brave logo">
+<p><b>Brave</b></p>
+<p>
+<ul>
+<li>Appearance: Show autocomplete in address bar: disabled
+<li>Appearance: Always show full URLs: enabled <sup>(1)</sup>
+<li>Social media blocking: disable all
+<li>Privacy and security: Allow privacy-preserving product analytics (P3A): disabled 
+<li>Privacy and security: Automatically send daily usage ping to Brave: disabled
+<li>Privacy and security: Clear browsing data: On exit: check all <sup>(2)</sup>
+<li>Privacy and security: Cookies and other site data: Clear cookies and site data when you close all windows: enabled <sup>(3)</sup>
+<li>Privacy and security: Security: Always use secure connections: enabled
+<li><b>(Skip this setting if using a <a href="vpns.html">VPN</a>.)</b> Privacy and security: Security: Use Secure DNS: With a DNS provider from <a rel="noopener noreferrer" href="https://www.privacyguides.org/dns/">this list</a>.
+<li>Extensions: Hangouts: disabled
+<li>Extensions: Private window with Tor: disabled
+<li>Additional settings: Autofill: disable all <sup>(2)</sup>
+</ul>
+<i>1: This allows you to see the full URL and help defend against phishing attacks.<br>
+2: There is malware capable of swiping data stored in your browser, including history and saved passwords, credit cards, and even multi-factor authentication cookies. You can choose to leave cookies and other sign-in data and history if you want, but know that it is a security risk.<br>
+3: This will sign you out of everything and reset any settings. See Note 2 for more information.</i>
+</p>
+<img src="pictures/firefox.png" align="right" style="padding:5px;" alt="firefox logo">
+<p><b>Firefox</b></p>
+<p>
+<ul>
+<li>After downloading but before installing, disconnect from the internet.<sup>1</sup>
+<li><b>(Skip this setting if using a <a href="vpns.html">VPN</a>.)</b> General: Network Settings: Enable DNS over HTTPS: Custom: Select a DNS provider from <a rel="noopener noreferrer" href="https://www.privacyguides.org/dns/">this list</a>.
+<li>Home: Firefox Home Content: Shortcuts: Sponsored Shortcuts: uncheck
+<li>Home: Firefox Home Content: Recommended by Pocket: Sponsored Stories: uncheck
+<li>Search: Default Search Engine: Pick a <a href="habits.html#searchengines">privacy-respecting search engine</a>.
+<li>Privacy & Security: Enhanced Tracking Protection: Strict<sup>2</sup>
+<li>Privacy & Security: Cookies & Site Data: Delete cookies and site data when Firefox is closed: checked<sup>3</sup>
+<li>Privacy & Security: Logins and Passwords: uncheck all<sup>3</sup>
+<li>Privacy & Security: Forms and autofill: uncheck all<sup>3</sup>
+<li>Privacy & Security: History: Never remember history
+<li>Privacy & Security: Address Bar - Firefox Suggest: Suggestions from the web: disabled
+<li>Privacy & Security: Address Bar - Firefox Suggest: Suggestions from sponsors: disabled
+<li>Privacy & Security: Firefox Data Collection and Use: uncheck all
+<li>Privacy & Security: HTTPS-Only Mode: Enable HTTPS-Only Mode in all windows
+</ul>
+<i>1: Mozilla <a rel="noopener noreferrer" href="https://www.ghacks.net/2022/03/17/each-firefox-download-has-a-unique-identifier/">issues</a> a temporary, one-time tracker that utilizes Google Analytics to understand the relationship between downloads and installations. This will be disabled in later settings.<br>
+2: I have never known this setting to cause any website breakage, however you can always change it back to Standard or Custom if you do.<br>
+3: There is malware capable of swiping data stored in your browser, including history and saved passwords, credit cards, and even multi-factor authentication cookies. You can choose to leave cookies and other sign-in data and history if you want, but know that it is a security risk.<br>
+</i>
+</p>
+<div class="subheader" id="librewolf">
+<h3>Honorable Mention: LibreWolf</h3>
 </div>
-<p>Many of my readers often write me to suggest <a rel="noopener noreferrer" href="https://jmp.chat/">JMP.Chat</a>. JMP.Chat is an <a href="messaging.html">XMPP</a>-based Voice-over-IP solution that supports both voice calls and SMS/MMS texting. You may use any number of XMPP apps - like Conversations or Monal - and even self-host an XMPP server if you wish for maximum privacy and control. To put it another way: <b>JMP.Chat is a service that turns your XMPP account into a fully-functional phone number that can make/receive phone calls and text/picture messages to regular phone numbers</b> just like a regular phone number or one of the VoIP providers listed above, but it gives you even more control. JMP.Chat is currently only available in the US and Canada and costs $2.99(USD)/$3.59(CAD). It is listed here as an honorable mention because unlike the services above, JMP.Chat requires some additional technical setup on the user's end. Even if you choose to use an existing server rather than self-hosting, it's not as clear-cut as downloading the app and signing up like the services above, you will have to use third party apps and servers to configure the service. For additional information or help getting set up with JMP.Chat, please see their FAQ <a rel="noopener noreferrer" href="https://jmp.chat/faq/">here</a>.</p>
-<div class="subheader">
-<h3>Tips & Tricks</h3>
+<img src="pictures/librewolf.png" align="left" style="padding:5px;">
+<p><a rel="noopener noreferrer" href="https://librewolf.net/">LibreWolf</a> does not technically qualify to be listed on this site because it is not capable of auto-update on Mac and Windows. However, I believe LibreWolf is still worth a mention. LibreWolf is a pre-hardened fork of Firefox, offering pre-configured improvements like no telemetry, private default search options, and it comes with uBlock Origin already installed. Truthfully, LibreWolf is out-of-the-box ready to use in terms of privacy and settings. However, there are two drawbacks.</p>
+<p>First, you should beware that LibreWolf's hardened settings may result in some website breakage. In my experience this hasn't been an issue, but I also don't use a lot of popular websites that many people do. Your results may vary. Second, as mentioned, LibreWolf does not auto-update except on Linux. You can get around this by installing the <a rel="noopener noreferrer" href="https://addons.mozilla.org/en-US/firefox/addon/librewolf-updater/">LibreWolf Updater</a> plugin in the browser. This is an unofficial plugin, but it is officially recommended in the documentation, and therefore is likely safe. It will not auto-update the browser, but it will alert you every time a new version is available and make it easy for you to download it. From there you have to run in the install as if it were the first time. If this is a convenience tradeoff you're willing to make, then consider LibreWolf.</p>
+<div class="subheader" id="tor">
+<h3>Honorable Mention: Tor Browser</h3>
 </div>
-<p>Almost across the board, I recommend <a rel="noopener noreferrer" href="https://mysudo.com/">MySudo</a>. It is available for both iOS and Android, and they have plans that will give you the ability to communicate with non-MySudo users beginning at $1 USD per month, or $10 per year. I would recommend SudoPro or SudoMax ($5/$50 and $15/$150 respectively) for most people depending on your needs. If you're on a tight budget, I recommend <a rel="noopener noreferrer" href="https://www.google.com/voice">Google Voice</a>.This will allow you to create VoIP numbers that forward to your real number. If you live outside the US, UK, or Canada, then Viber is the clear choice.</p>
-<p><b>VoIP is not meant to replace <a href="messaging.html">secure messaging</a>.</b> Just as with a regular SIM, you should assume that anything you submit - be it text, voice, or video - is recorded and plainly visible to any companies and or governments. VoIP solutions are recommended purely as a way to keep your data out of the hands of people search websites and protect you against relatively unsophisticated threats like stalkers and doxxers.</p>
+<img src="pictures/tor.png" align="left" style="padding:5px;" class="invert">
+<p>Between the plugins and the settings changes suggested on this page, you will greatly reduce the ability of websites to track you as you go from site to site. However, it should be noted that browser fingerprinting - one of the most common forms of online tracking - is incredibly complex and ever evolving. While these changes have dramatically reduced your fingerprint, you should not assume - as with any of the advice I give on this site - that you are totally invisible or untrackable. If you want to achieve maximum privacy and/or anonymity, consider using the <a rel="noopener noreferrer" href="https://www.torproject.org/download/">Tor Browser</a>.</p>
+<p>The Tor browser is a somewhat common daily browser among privacy enthusiasts for a few reasons. If you're unfamiliar with Tor, check out my <a rel="noopener noreferrer" href="https://odysee.com/@thenewoil:7/tor-crash-course:d">Tor Crash Course</a> video. The Tor browser routes only your browser traffic through the Tor network and not all device traffic. The Tor browser also comes pre-packaged with a more advanced content blocker called No-Script which can be used to block ads, as well as a ton of unseen, powerful tracker-blocking features. The Tor browser also isolates each tab and changes your relay path with every new website you visit to help further protect your anonymity. <b>Using the Tor Browser as your main browser is a great idea</b>, but keep in mind that many legitimate websites such as banking and e-commerce sites block known Tor addresses to prevent abuse and fraud, so <b>you'll want to keep a copy of Brave/Firefox installed</b> for when that happens. Additionally, using the Tor Browser in a truly, 100% anonymous way is incredibly difficult and requires very intentional browsing habits, so don't do anything illegal. Finally, because all nodes are volunteer-run and therefore work on an "honor system," be sure to check that any site you login or transfer personal data across is using HTTPS (the lock icon at the beginning of the address bar) and is the actual site and not a fake phishing site designed to look like the real thing.</p>
+<p>If you're still unsure what browser is right for you, <a rel="noopener noreferrer" href="https://privacytests.org/">Privacy Tests</a> and <a rel="noopener noreferrer" href="https://www.cookiestatus.com/">Cookie Status</a> compare a few of the more popular choices.</p>
 </article>
 </main>
 <footer>
-<a href="less-important.html">Previous</a>
-<a href="messaging.html" style="float:right;">Next</a>
+<a href="mobile-apps.html">Previous</a>
+<a href="moderately-important.html" style="float:right;">Next</a>
 <p align="center"><a rel="license" href="license.html"><img alt="Creative Commons License" src="pictures/creativecommons.png"></a>
 <a href="privacy-policy.html">Privacy Policy</a>
 <a href="gitlab.html"><img src="pictures/gitlab.png" alt="GitLab"></a></p>
