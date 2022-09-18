@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+/* Color Pallette:
+Deep Jungle Green: 095256
+Metallic Seaweed: 087F8C
+Polished Pine: 5AAA95
+*/
+
 html, body {
   height: 100%;
   width: 100%;
@@ -78,13 +84,29 @@ main a:hover, main a:focus {
 
 .subheader {
   border-radius: 5px;
+  background:  #6200EE;
+  color: white;
 }
 
-.subheader, thead {
-  background:  #3498DB;
+thead td {
+  background:  #6200EE;
+  color: white;
+}
+
+.chart td {
+  border-radius: 5px;
+}
+
+.chart a {
+  color: black;
+  text-decoration:underline;
 }
 
 h1 {
+  color: white;
+}
+
+h1 a {
   color: white;
 }
 
@@ -93,8 +115,29 @@ h3 {
   color: white;
 }
 
+.recs {
+  color: white;
+  background:#018786;
+  border-radius:5px;
+  padding-left:50px;
+}
+
 table img:hover {
    box-shadow: 2px 2px 4px #000000;
+}
+
+.rectd {
+  padding-left:50px;
+  padding-right:50px;
+  vertical-align:top;
+}
+
+.recfoot{
+  background-color:#03DAC6;
+}
+
+.recfoot a {
+  color:black;
 }
 
 footer {
@@ -122,9 +165,15 @@ section ul {
 }
 
 aside {
-  background: lightgray;
+  color: white;
+  background: #3700B3;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+aside a {
+  color: white;
+  text-decoration: underline;
 }
 
 /* Responsive
@@ -141,9 +190,10 @@ aside {
         .column { display:table-row; }
 	section { display:block; }
 	section ul { width:90%; }
+	.logo { display: none; }
 	.desktop { display: none;}
 	.mobile { display: flex; justify-content: flex-end; }
-	.logo { display: block; margin-right: 1px; }
+	.mobile .logo { display: block; margin-right: 10px; }
 	details { background: #353535; padding: 5px; position: absolute; top: 8px; left: 8px; width: auto;}
 	summary { text-align: left;}
 	header {  height: 70px; }
@@ -158,11 +208,13 @@ aside {
 ==================================== */
 
 @media (prefers-color-scheme:dark) {
-	html, body { background-color: #1C2833; }
+	html, body { background-color: #121212; }
 	main { color: white; }
-	main a { color: skyblue; }
-	.subheader, thead { background:  #3498DB;  color: black; }
-	aside { background: gray; }
+	main a { color: white; text-decoration:underline; }
+	.subheader, thead { background: #BB86FC;  color: black; }
+	.recs { background: #03DAC6; }
+	aside { background: #018786; }
+	.recfoot { background: #03DAC6 }
 	footer a { color: skyblue; }
 	.invert { filter:invert(100%); }
     }	
