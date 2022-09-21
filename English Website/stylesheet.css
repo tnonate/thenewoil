@@ -1,15 +1,10 @@
 @charset "UTF-8";
 
-/* Color Pallette:
-Deep Jungle Green: 095256
-Metallic Seaweed: 087F8C
-Polished Pine: 5AAA95
-*/
-
 html, body {
   height: 100%;
   width: 100%;
   margin: auto;
+  line-height: 1.5em;
 }
 
 article, aside, footer, header, main, nav, section {
