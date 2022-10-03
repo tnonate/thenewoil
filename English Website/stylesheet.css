@@ -23,8 +23,11 @@ header {
 
 .logo {
   display: block;
+  text-align: center;
+  font-size: 2em;
   margin: auto;
-  padding: 5px;
+  padding-top: 5px;
+  text-decoration: none;
 }
 
 nav {
@@ -39,7 +42,6 @@ summary:hover {
 }
 
 details {
-  padding: 5px;
   text-align: left;
   width: 550px;
   margin-left: auto;
@@ -48,7 +50,6 @@ details {
 
 nav a {
   text-decoration: none;
-  padding: 5px;
   transition: font-size 0.2s;
   color: white; 
 }
@@ -186,13 +187,13 @@ aside a {
         .column { display:table-row; }
 	section { display:block; }
 	section ul { width:90%; }
-	.logo { display: none; }
+	.logo { display: none; padding: 0px; }
 	.desktop { display: none;}
 	.mobile { display: flex; justify-content: flex-end; }
 	.mobile .logo { display: block; margin-right: 10px; }
 	details { background: #353535; padding: 5px; position: absolute; top: 8px; left: 8px; width: auto;}
 	summary { text-align: left;}
-	header {  height: 70px; }
+	header {  height: 100px;}
 	header a {text-decoration: none; list-style-type: none; }
 	header b {text-decoration: underline;}
 	details > summary { list-style: none; }
