@@ -131,56 +131,119 @@
 <h1 align="center">Privacy: Securing Computers</h1>
 </div>
 <p>Just like cell phones, desktop operating systems like Windows and Mac track their users to an excessive degree. <a rel="noopener noreferrer" href="https://web.archive.org/web/20220313023015/https://www.privacyguides.org/operating-systems/#win10">Windows 10 is by far the worst offender</a>, however Mac also has their share of telemetry.</p>
-<p><b>In a perfect world, the best option is <a rel="noopener noreferrer" href="https://io9.gizmodo.com/getting-started-with-linux-the-complete-guide-5778882">Linux</a>.</b> Linux is an open-source operating system with dozens of variants, each offering their own unique set of features and target audience. Most linux distributions are considerably more private compared to Windows and Mac, though some place additional emphasis on privacy or security. I recommend <a rel="noopener noreferrer" href="https://pop.system76.com/">Pop! OS</a> for most users. It is based on Debian, so it can more easily support most programs that users of mainstream softwares have come to rely on, and it has a very user-friendly interface that most users will easily adjust to. At very least, I recommend it as a starting point to get used to Linux and explore the world of alternative operating systems. Another distribution worth noting is <a rel="noopener noreferrer" href="https://getfedora.org/" target="_blank">Fedora</a>. I believe Fedora is less user friendly than Debian because many popular services - such as Discord, Spotify, and even Signal - offer native support for Debian-based operating systems but not for Fedora. However, Fedora does prefer Flatpaks over Snaps (which are workarounds for the lack of support), which are considered to offer better security. In other words: Debian-based operating systems are more likely to "just work" for a long period of time, while Fedora-based systems will cater more to those who want the "latest and greatest" features. Either way, please note that Linux is significantly better for privacy, but is not necessarily a huge improvement in security and in some cases can actually be <a rel="noopener noreferrer" href="https://madaidans-insecurities.github.io/linux.html">worse</a>. However, as with <a href="browser.html">web browsers</a>, I believe that this tradeoff is insignificant for most users, provided that you use good <a href="habits.html">online habits</a> and are reasonably cautious.</p>
+<p><b>In a perfect world, the best option is <a rel="noopener noreferrer" href="https://io9.gizmodo.com/getting-started-with-linux-the-complete-guide-5778882">Linux</a>.</b> Linux is an open-source operating system with dozens of variants (called "distros," short for "distributions"), each offering their own unique set of features and target audience. Most linux distros are considerably more private compared to Windows and Mac, though some place additional emphasis on privacy or security. My recommended distro depends on your plans. If you want something that "just works" out of the box and you have no desire to really master the command line, become a Linux expert, or advance on to further Linux-based subjects (such as self-hosting), then I strongly recommend <a rel="noopener noreferrer" href="https://silverblue.fedoraproject.org/">Fedora Silverblue</a>. Silverblue is an official variant of Fedora that offers an "immutable" base operating system, making it quite resilient (though not impervious) against malware and other unwanted changes. Users can find most common programs as a <a rel="noopener noreferrer" href="https://flathub.org/home">Flatpak</a> or <a rel="noopener noreferrer" href="https://snapcraft.io/">Snap</a> package, which basically installs programs as self-contained, sandboxed "apps" which improves security without sacrificing stability or usability. (This is an oversimplification, but should give you a general idea of how Flatpaks and Snaps works.)</p>
+<p>For those who wish to someday become Linux experts or move on to things like self-hosting, I recommend starting with <a rel="noopener noreferrer" href="https://pop.system76.com/">Pop! OS</a>. It is based on Ubuntu, so you'll find the most abundant and easy-to-understand support from a plethora of online resources, and it has a very user-friendly interface that most users will easily adjust to while learning more advanced skills like the terminal. Whatever distro you choose, please note that while Linux is usually significantly better for privacy, it is not necessarily a huge improvement in security and in some cases can actually be <a rel="noopener noreferrer" href="https://madaidans-insecurities.github.io/linux.html">worse</a>. However, as with <a href="browser.html">web browsers</a>, I believe that this tradeoff is insignificant for most users, provided that you use good <a href="habits.html">online habits</a> and are reasonably cautious.</p>
 <p><b>Not everybody has the luxury of switching to Linux</b> for any number of reasons, such as needing a a specialized program that only runs on Mac/Windows or being in possession of a device that is technically not yours and therefore you can't make such changes to. For those situations, I have listed a set of recommend settings for both Mac and Windows that I encourage you to change (if you can) to make your device a little more private and secure. You can see my criteria for this page and why I recommended these settings <a rel="noopener noreferrer" href="https://gitlab.com/thenewoil/website/-/wikis/Mobile-&-Destkop-Settings-and-Apps-Criteria">here</a>.</p>
 <div class="subheader">
-<h3>Mac OS 11.4: Big Sur</h3>
+<h3>MacOS 13: Ventura</h3>
 </div>
 <ul>
-	<li>General: Default web browser: <a href="browser.html">Brave/Firefox</a>
-	<li>Siri: Enable Ask Siri: Off
-	<li>Touch ID: Don’t use 
-	<li>Security & Privacy: General: Require password immediately after sleep or screen saver begins
-	<li>Security & Privacy: General: Disable automatic login
-	<li>Security & Privacy: General: Allow apps downloaded from: App Store and identified developers
-	<li>Security & Privacy: FileVault: Turn On FileVault
-	<li>Security & Privacy: Firewall: Turn On Firewall
-	<li>Security & Privacy: Privacy: Evaluate app settings
-	<li>Software Update: Automatically keep my Mac up to date
-	<li>Bluetooth: Turn Bluetooth Off
-	<li>Keyboard: Dictation: Off
-	<li>Sharing: Off
-	<li>Time Machine: Back Up Automatically
-	<li>Time Machine: Select Backup Disk
-	<li>Avoid setting up the machine with an Apple ID if possible
-	<li>Advanced users who want more granular control and feel comfortable making extreme changes may want to look into <a rel="noopener noreferrer" href="https://www.obdev.at/products/littlesnitch/index.html">Little Snitch</a> or <a rel="noopener noreferrer" href="https://objective-see.com/products/lulu.html">LuLu</a>. These are firewalls to help further control the traffic leaving your device and reduce data collection by Apple and others..
-	<li>If you don't plan to use a <a href="vpns.html">VPN</a>, then I encourage you to use an <a rel="noopener noreferrer" href="https://privacyguides.org/providers/dns/">Encrypted DNS Resolver</a> (instructions on how to set that up <a rel="noopener noreferrer" href="https://www.macinstruct.com/tutorials/how-to-change-your-macs-dns-servers/">here</a>).
+	<li>If you are setting up a new device from scratch, please note that you should be able to continue through setup without entering an Apple ID. You can get all of the programs I recommend without using the App Store, and major system updates will still be applied even without signing in. Note that your apps will not auto-update, however (the system will if you apply the appropriate setting below).
+	<li>Wi-Fi > Details (next to your current network) > Limit IP address tracking: enable
+	<li>Wi-Fi > Details (next to your current network) > DNS: Set a privacy-respecting <a href="communication#dns">DNS</a> (ignore this if you plan to use a <a href="vpns.html">VPN</a>)
+	<li>Bluetooth: Turn off whenever not in use
+	<li>Network > Firewall > Firewall: Enable
+	<li>Notifications > Allow notifications when the display is sleeping: Off
+	<li>Notifications > Allow notifications when the screen is locked: Off
+	<li>Notifications > Allow notifications when mirroring or sharing: Off
+	<li>General > Software Update: Enable all
+	<li>General > AirDrop & Handoff: Disable all
+	<li>General > Sharing: Disable all
+	<li>Time Machine: Back Up Automatically?
+	<li>General > Time Machine: Select Backup Disk
+	<li>General > Time Machine > Options: Back up frequency: Set to your desired frequency
+	<li>Siri & Spotlight: Disable all
+	<li>Privacy & Security > Location Services: Disable anything you don't need
+	<li>Privacy & Security: Examine all other apps to ensure they only have the necessary permissions
+	<li>Privacy & Security > Analytics & Improvements: Disable all
+	<li>Privacy & Security > Apple Advertising > Personalized Ads: Disable
+	<li>Privacy & Securityy > Security > Allow apps downloaded from: App Store and identified developers
+	<li>Privacy & Security > Allow accessories to connect: Ask for new
+	<li>Privacy & Security > FileVault: Turn On FileVault (or use <a href="devices.html">Veracrypt</a>)
+	<li>Privacy & Security > Lockdown Mode: On (This will <a rel="noopener noreferrer" href="https://support.apple.com/en-us/HT212650">disable</a> a significant number of features, however if you are able to live without them, it will help protect other users who need this feature from being <a rel="noopener noreferrer" href="https://www.techspot.com/news/95767-apple-upcoming-lockdown-mode-make-devices-easier-fingerprint.html">easily identified</a>.)
+	<li>Desktop & Dock > Default web browser: <a href="browser.html">Brave/Firefox</a>
+	<li>Lock Screen > Require password after screen saver begins or display is turned off: Immediately
+	<li>Touch ID & Password: Use of a fingerprint is personal preference, so long as a strong password or passphrase is also in use.
+	<li>Internet Accounts > iCloud: I strongly discourage the use of iCloud as I believe most of its benefits can be replicated in a more privacy-respecting way using other services listed on this site. However, if you wish to use iCloud, enable <a rel="noopener noreferrer" href="#">Advanced Data Protection</a>.
+	<li>Wallet & Apple Pay: I do not recommend the use of these services
+	<li>Keyboard > Dictation: Off
+	<li>Advanced users who want more granular control and feel comfortable making extreme changes may want to look into <a rel="noopener noreferrer" href="https://www.obdev.at/products/littlesnitch/index.html">Little Snitch</a> or <a rel="noopener noreferrer" href="https://objective-see.com/products/lulu.html">LuLu</a>. These are firewalls to help further control the traffic leaving your device and reduce data collection by Apple and others.
 </ul>
 <div class="subheader">
-<h3>Windows 10: Version 21H1</h3>
+<h3>Windows 11: Version 22H2</h3>
 </div>
 <ul>
-	<li>System: Notifications & actions: Show notifications on the lock screen: Off
-	<li>System: Shared experiences: Share across devices: Off
-	<li>Devices: Typing: Everything off
-	<li>Devices: AutoPlay: Off
+	<li>If you are installing Windows 11 from scratch, please note that the Home version will offer you the least amount of control regarding settings and disabling telemetry and analytics. If possible, you should try to get Pro, Education, or Enterprise editions. However, these frequently cost more than the Home version (which is usually included free when purchasing the device), sometimes several hundred dollars for a single license. As such, this guide is written for the Home version.
+	<li>If you are installing Windows 11 from scratch, please note that you can install it without a Microsoft account. This can be done by simply unplugging the ethernet cable and skipping the WiFi connection during install. You will receive a warning that you'll miss out on features, but these features are not relevant to security and avoiding an online account will improve your privacy slightly.
+	<li>System > Notifications: Off
+	<li>System > Storage > Storage Sense: On
+	<li>System > Nearby sharing: Off
+	<li>Bluetooth & devices > Bluetooth: Off whenever not in use
+	<li>Bluetooth & devices > Phone Link: Do not link your phone
+	<li>Bluetooth & devices > AutoPlay: Off
+	<li>Network & internet > Wi-Fi > Random hardware addresses: On
+	<li>Network & internet > Ethernet > Network profile ypte: Public network
+	<li>Personalization > Lock screen: Leave the default picture, or pick something that does not reveal any personal information (ex, don't put a family photo as your lock screen)
+	<li>Personalization > Device usage: Turn everything off
+	<li>Apps > Installed apps: Uninstall anything you don't use
+	<li>Apps > Advanced app settings > Choose were to get apps: installing apps from the Microsoft Store offers better security due to sandboxing, but may also affect privacy by introducing additional analytics and telemetry. Pick this setting accordingly.
+	<li>Accounts: Give your account a nondescript username, like "user" or "admin" instead of "Bob" or "bsmith" (this can be done in Control Panel > User Accounts > User Accounts)
+	<li>Accounts > Your info: pick a profile picture that doesn't reveal any personal information.
+	<li>Accounts > Sign-in options > Ways to sign in: (in order of recommendation) Security key, Fingerprint recognition, Password (ideally a <a href="passwords.html">passphrase</a>), PIN, Picture Password, or Facial recognition.
+	<li>Accounts > Sign-in options > Additional settings > If you've been away...: "When PC wakes up from sleep."
+	<li>Accounts > Sign-in options > Additional settings > Automatically save my restartable apps...: Off
+	<li>Accounts > Sign-in options > Additional settings > Show account details...: Off
+	<li>Accounts > Access work or school: Do not connect a work or school account. Legally, in the United States, your employer or school cannot force you to use a personal device. They must provide a device. Giving them access will give them some access to your data and some control over your device. (Note: I am not a lawyer, this is not legal advice, consult an actual lawyer if you are being pressued to use this setting.)
+	<li>Time & language > Typing > Show text suggestions...: Off
+	<li>Time & language > Typing > Multilingual text suggestions: Off
+	<li>Time & language > Typing > Autocorrect mispelled words: Off
+	<li>Time & language > Typing > Highlight mispelled words: Off
+	<li>Time & language > Typing > Typing insights: Off
+	<li>Privacy & security > Windows Security: Ensure you have green checks on "Virus & threat protection," "Account protection," "Firewall & network protection," "App & browser control," and "Device security."
+	<li>Privacy & security > General: Turn everything Off.
+	<li>Privacy & security > Speech: Off
+	<li>Privacy & security > Inking & typing personalizaton > Personal inking and typing dictionary: Off
+	<li>Privacy & security > Diganostics & feedback: Turn everythign Off.
+	<li>Privacy & security > Diagnostics & feedback > Delete diagnostic data: Delete
+	<li>Privacy & security > Activity history: Turn everything off
+	<li>Privacy & security > Activity history > Clear activity history for this account: Clear history
+	<li>Privacy & security > Search permissions > History: Off
+	<li>Privacy & security > Search permissions > History: Clear device search history
+	Privacy & security > Search permissions > More settings: off
+	Privacy & security > App permissions: Evaluate each of these categories, completely turn off any settings you don't use. For categories you do use, examine which apps have permission and revoke any apps that don't have a valid need for it.
+	<li>Windows Update: By default, Windows 11 automatic updates are enabled. I still recommending checking this tab periodically to ensure there were no errors updating (especially after the second Tuesday of each month, as this is when Microsoft pushes most of their updates).
+	<li>Windows Update > Advanced options > Optional updates: I recommend checking this setting while you're checking your other system updates. These updates include things like drivers that will help keep your system running as smoothly as possible.
+	<li>Download <a rel="noopener noreferrer" href="https://github.com/crazy-max/WindowsSpyBlocker/releases">WindowsSpyBlocker</a> and run it. Select option 1 "Telemetry," then option 1 "Firewall," and finally options 1 and 2, "Add extra rules," and "Add spy rules." After that's done, type "back" to go back to the previous menu, then select option 2 "NCSI," then select either option 2 or option 3, "Apply Debian NCSI" or "Apply Firefox NCSI."
+	<li>If you don't plan to use a <a href="vpns.html">VPN</a>, then I encourage you to use an <a rel="noopener noreferrer" href="https://www.privacyguides.org/dns/">Encrypted DNS Resolver</a>. Follow <a rel="noopener noreferrer" href="https://www.bleepingcomputer.com/news/microsoft/how-to-enable-dns-over-https-doh-in-windows-10/">these instructions</a> to change your DNS. Select "Encrypted preferred, unencrypted allowed" if the option is available. If the option is not available, the rest of the steps should still apply.
+	<li>Advanced users who want more granular control and feel comfortable making extreme changes may want to look into <a rel="noopener noreferrer" href="https://www.bcuninstaller.com/">Bulk Crap Uninstaller</a> to remove additional, pre-installed bloatware and <a rel="noopener noreferrer" href="https://safing.io/portmaster/">Portmaster</a> or <a rel="noopener noreferrer" href="https://www.henrypp.org/product/simplewall">Simplewall</a> for additional firewall controls to block outoing connections and further reduce data collection by Microsoft and other third parties.</p>
+</ul>
+<p><b>Given the choice between Windows 10 and 11, you should pick Windows 11.</b> Experts agree that Windows 11 is <a rel="noopener noreferrer" href="https://www.pcmag.com/opinions/windows-11-is-ultra-secure-dont-mess-it-up">significantly more secure</a> than Windows 10. However, Windows 11 also comes with some strict hardware requirements. If you are unable to use Windows 11 for any reason, I have listed my recommended settings for Windows 10 below.</p>
+<div class="subheader">
+<h3>Windows 10: Version 22H2</h3>
+</div>
+<ul>
+	<li>If you are installing Windows 01 from scratch, please note that the Home version will offer you the least amount of control regarding settings and disabling telemetry and analytics. If possible, you should try to get Pro, Education, or Enterprise editions. However, these frequently cost more than the Home version (which is usually included free when purchasing the device), sometimes several hundred dollars for a single license. As such, this guide is written for the Home version.
+	<li>If you are installing Windows 10 from scratch, please note that you can install it without a Microsoft account. This can be done by simply unplugging the ethernet cable and skipping the WiFi connection during install. You will receive a warning that you'll miss out on features, but these features are not relevant to security and avoiding an online account will improve your privacy slightly.
+	<li>System > Notifications & actions > Show notifications on the lock screen: Off
+	<li>System > Shared experiences > Share across devices: Off
+	<li>Devices > Typing: Everything off
+	<li>Devices > AutoPlay: Off
 	<li>Phone: Do not link
-	<li>Network & Internet: Wi-Fi: Use random hardware addresses: On
-	<li>Apps: Apps & features: Uninstall anything you don't use
-	<li>Apps: Apps & features: Default apps: Email: <a rel="noopener noreferrer" href="https://www.thunderbird.net/en-US/">Thunderbird</a>; Music player: <a rel="noopener noreferrer" href="https://www.videolan.org/">VLC</a>; Photo viewer: <a rel="noopener noreferrer" href="https://imageglass.org/">ImageGlass</a>; Video player: <a rel="noopener noreferrer" href="https://www.videolan.org/">VLC</a>; Web browser: <a href="browser.html">Brave/Firefox</a>
-	<li>Accounts: Sign-in options: Require sign-in: When PC wakes up from sleep
-	<li>Accounts: Sign-in options: Password: Use a passphrase
-	<li>Accounts: Sign-in options: Privacy: Show account details on sign-in screen: Off
-	<li>Privacy: General: All off
-	<li>Privacy: Speech: Online speech recognition: Off
-	<li>Privacy: Inking & typing presonaliziatoin: Getting to know you: Off
-	<li>Privacy: Diagnostics & feedback: Diagnostic data: Required diagnostic data
-	<li>Privacy: Diagnostics & feedback: Improve inking & typing recognition: Off
-	<li>Privacy: Diagnostics & feedback: Tailored experiences: Off
-	<li>Privacy: Activity history: Send my activity history to Microsoft: Off
-	<li>Privacy: App permisions: Review each setting and disable accordingly
-	<li>Update & Security: Windows Security: Open Windows Security: Virus & Threat Protection: All protections on
-	<li>Update & Security: Windows Security: Open Windows Security: Firewall & Network Protection: All firewalls on
+	<li>Network & Internet > Wi-Fi > Use random hardware addresses: On
+	<li>Apps > Apps & features: Uninstall anything you don't use
+	<li>Accounts > Sign-in options > Require sign-in: When PC wakes up from sleep
+	<li>Accounts > Sign-in options > Password: Use a passphrase
+	<li>Accounts > Sign-in options > Privacy > Show account details on sign-in screen: Off
+	<li>Privacy > General: All off
+	<li>Privacy > Speech: Online speech recognition: Off
+	<li>Privacy > Inking & typing presonaliziation > Getting to know you: Off
+	<li>Privacy > Diagnostics & feedback > Diagnostic data: Required diagnostic data
+	<li>Privacy > Diagnostics & feedback > Improve inking & typing recognition: Off
+	<li>Privacy > Diagnostics & feedback > Tailored experiences: Off
+	<li>Privacy > Activity history > Send my activity history to Microsoft: Off
+	<li>Privacy > App permisions: Review each setting and disable accordingly
+	<li>Update & Security > Windows Security > Open Windows Security > Virus & Threat Protection: All protections on
+	<li>Update & Security > Windows Security > Open Windows Security > Firewall & Network Protection: All firewalls on
 	<li>Update & Security: Backup: 
 	<li>Download <a rel="noopener noreferrer" href="https://github.com/crazy-max/WindowsSpyBlocker/releases">WindowsSpyBlocker</a> and run it. Select option 1 "Telemetry," then option 1 "Firewall," and finally options 1 and 2, "Add extra rules," and "Add spy rules." After that's done, type "back" to go back to the previous menu, then select option 2 "NCSI," then select either option 2 or option 3, "Apply Debian NCSI" or "Apply Firefox NCSI."
 	<li>If you don't plan to use a <a href="vpns.html">VPN</a>, then I encourage you to use an <a rel="noopener noreferrer" href="https://www.privacyguides.org/dns/">Encrypted DNS Resolver</a>. Follow <a rel="noopener noreferrer" href="https://www.bleepingcomputer.com/news/microsoft/how-to-enable-dns-over-https-doh-in-windows-10/">these instructions</a> to change your DNS. Select "Encrypted preferred, unencrypted allowed" if the option is available. If the option is not available, the rest of the steps should still apply.
