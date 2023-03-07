@@ -1,0 +1,19 @@
+# Alias files
+src/pages/index.mdx
+
+# Build
+/dist
+
+# Dependancies
+/node_modules
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Debugging
+.vite-inspect
+
+# Typescript
+.tsbuildinfo

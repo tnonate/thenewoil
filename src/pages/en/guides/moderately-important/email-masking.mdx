@@ -1,0 +1,34 @@
+---
+layout: "@layouts/guides.astro"
+title: "Data Breach Defense: Email Masking"
+topic: Email Masking
+weight: 8
+draft: false
+---
+
+import Plans from '@components/charts/Plans.astro';
+import data from '@assets/data/pages/en/guides/moderately-important/EmailMasking.json';
+
+# Data Breach Defense: Email Masking
+
+## What is Email Masking?
+
+Email masking services allow you to create unique, random email address for each situation where you would need a functional email address - signing up for a website, subscribing to a newsletter, etc - and have them forward to your true inbox.
+
+## Why do I Need Email Masking?
+
+Consider the following: a random online account of yours gets caught up in a data breach. When you registered for this account, you registered with your main email, yourname@gmail.com. There are now a variety of ways that I can search for this email address to see where else you have accounts, such as Twitter, Facebook, even bank accounts. Furthermore, I can see from your email address that you use Gmail and I already have one half of your login. Now I just need to guess your password. **If I take over your primary email, I can easily take over all your other accounts by abusing the password reset option.** Another peripheral benefit is the ability to control spam. If one of your email addresses gets sold or breached (or the service you gave it to just sucks) and you start getting spam, you can simply disable it and no longer receive that spam. Finally, if you ever switch email providers, these services offer a simple way to change the recipient email inbox without having to log in to dozens (or hundreds) of services and change the email address.
+
+Below I have listed two services that offer email masking. Both services offer a free tier that should work just fine for most users, but offer additional useful features for paid users. I have signed up for both and found them both to be functionally the same. The only real difference between the two services is their user interface and their pricing, both of which are affordable and reasonable. I encourage you to try both out and go with whichever one you find most appealing.
+
+There is one small difference: SimpleLogin recently joined [ProtonMail](https://simplelogin.io/blog/simplelogin-join-proton/), likely in some sort of "subsidiary" capacity. They continue to operate independently, but they will have access to Proton's infrastructure, resources, and will be integrated into ProtonMail's service in time. If you like and use ProtonMail, this may be the best solution for you. If you dislike or distrust ProtonMail, you may prefer AnonAddy. If you don't care either way, then this shouldn't affect your decision-making.
+
+<Plans data={data} />
+
+## Getting Started + Tips & Tricks
+
+Like the other tools I have suggested on this site, I encourage you to make the changes one by one. Every time you use a website, take a moment to change your email address to a masked, forwarding email address. I then encourage you to use your masked email addresses going forward.
+
+The biggest tip I have for using these services is to not use them for critically important accounts such as banking, medical, or other accounts you cannot afford to lose access to. Email forwarding services are still relatively new and are constantly getting blacklisted by various companies. Have a separate encrypted email account for use with important services, or ideally a custom domain.
+
+With both AnonAddy and SimpleLogin, you can use a custom domain and a "wildcard" (or "create on the fly") addresses. This can be a great tool for protecting your inbox and compartmentalizing, while still maintaining control of those email addresses. For example, you can add "mydomain.com" to your forwarding (email alias)  provider's account and then create "example1@mydomain.com" and "example2@mydomain.com," etc. So if you're ever unable to use your masked email provider's service for any reason, you can just simply redirect that domain to a different provider. Some commonly-recommended domain registrars in the privacy community include [1984hosting](https://www.1984hosting.com/), [NameCheap](https://www.namecheap.com/), and [OrangeWebsite](https://www.orangewebsite.com/).

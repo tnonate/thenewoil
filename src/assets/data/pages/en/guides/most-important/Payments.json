@@ -1,0 +1,60 @@
+{
+    "criterias": [
+        "Virtual Cards",
+        "Prepaid Cards",
+        "Countries"
+    ],
+    "tools": {
+        "ironvest": {
+            "name": "IronVest",
+            "logo": "/images/logos/ironvest.png",
+            "link": "https://dnt.abine.com/#feature/payments",
+            "values": {
+                "Virtual Cards": "Yes, requires paid plan",
+                "Prepaid Cards": "Yes",
+                "Countries": "United States"
+            }
+        },
+        "monzo": {
+            "name": "Monzo",
+            "logo": "/images/logos/monzo.png",
+            "link": "https://monzo.com/i/monzo-plus/",
+            "values": {
+                "Virtual Cards": "Yes, requires paid plan",
+                "Prepaid Cards": "No",
+                "Countries": "United Kingdom"
+            }
+        },
+        "mysudo": {
+            "name": "MySudo",
+            "logo": "/images/logos/mysudo.png",
+            "link": "https://mysudo.com/features/",
+            "values": {
+                "Virtual Cards": "Yes, requires paid plan",
+                "Prepaid Cards": "No",
+                "Countries": "United States"
+            }
+        },
+        "privacy": {
+            "name": "Privacy",
+            "logo": "/images/logos/privacy.png",
+            "referral_link": "https://privacy.com/join/UZ9WY",
+            "link": "https://privacy.com/",
+            "values": {
+                "Virtual Cards": "Yes",
+                "Prepaid Cards": "No",
+                "Countries": "United States"
+            }
+        },
+        "revolut": {
+            "name": "Revolut",
+            "logo": "/images/logos/revolut.png",
+            "link": "https://www.revolut.com/",
+            "values": {
+                "Virtual Cards": "Yes, may require paid plan depending on location",
+                "Prepaid Cards": "No",
+                "Countries": "Australia, Austria, Belgium, Bulgaria, Croatia, Republic of Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Japan, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, the United Kingdom, and the United States."
+            }
+        }
+    }
+}

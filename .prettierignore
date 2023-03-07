@@ -1,0 +1,8 @@
+/public/**
+
+# Ignore build files
+/dist/**
+/build/**
+
+# Ignore project documentation
+/docs/**

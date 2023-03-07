@@ -1,0 +1,15 @@
+{
+    "include": [
+        "*.config.ts",
+    ],
+    "references": [
+        {
+            "path": "./plugins/tsconfig.json"
+        }
+    ],
+    "extends": "./typings/configs/tsconfig.node.json",
+    "compilerOptions": {
+        "composite": true,
+        "tsBuildInfoFile": "./config.tsbuildinfo"
+    }
+}

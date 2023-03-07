@@ -1,0 +1,99 @@
+---
+import { Markdown } from "@astropub/md";
+
+import { textToHeadingId } from "@utils/heading";
+
+interface Tool {
+  link: string;
+  referral_link?: string;
+  logo: string;
+  logo_alt: string;
+  name: string;
+  pros: string[];
+  cons: string[];
+}
+
+interface Props {
+  data: Tool[];
+  headingLevel: number;
+  prosName?: string;
+  consName?: string;
+  nonReferralLinkText: string;
+}
+
+const {
+  data,
+  headingLevel,
+  prosName = "Pros",
+  consName = "Cons",
+  nonReferralLinkText = "Non-referral link"
+} = Astro.props;
+
+const NameHeading = `h${headingLevel}` as any;
+const ChildrenHeading = (headingLevel < 6 ? `h${headingLevel + 1}` : "p") as any;
+---
+
+{
+  Object.values(data).map(async (tool: Tool) => {
+    const nameHeadingId = await textToHeadingId({
+      text: tool.name,
+      prefix: `pros-and-cons-`
+    });
+
+    const prosHeadingId = await textToHeadingId({
+      text: "Pros",
+      prefix: nameHeadingId + "-"
+    });
+
+    const consHeadingId = await textToHeadingId({
+      text: "Cons",
+      prefix: nameHeadingId + "-"
+    });
+
+    return (
+      <div class="markdown--disabled border-gradient-secondary border-bg-primary dark:border-bg-primary-dark flex flex-col items-center gap-4 rounded-lg border-4 p-4 pb-12 motion-safe:transition-[padding] motion-safe:duration-200 motion-safe:ease-in-out lg:gap-6 lg:p-6 xl:gap-8 xl:p-8 2xl:flex-row">
+        <div class="my-4 flex max-h-40 flex-col items-center justify-center gap-4 border-none text-center lg:my-0 xl:w-1/5">
+          <a href={tool.referral_link ? tool.referral_link : tool.link} class="border-none">
+            <img class="max-h-16 w-auto object-contain" src={tool.logo} alt={tool.logo_alt || `${tool.name} logo`} />
+          </a>
+          <a class="text-center xl:mb-0 2xl:w-min" href={tool.referral_link ? tool.referral_link : tool.link}>
+            <NameHeading id={nameHeadingId}>{tool.name}</NameHeading>
+          </a>
+          {tool.referral_link && tool.link && <a href={tool.link}>{nonReferralLinkText}</a>}
+        </div>
+
+        <div class="flex w-full flex-col gap-8 px-4 lg:flex-row">
+          <div class="flex-1">
+            <ChildrenHeading id={prosHeadingId} class="mb-4 text-center">
+              {prosName}
+            </ChildrenHeading>
+            <ul class="lg:px-8 lg:py-0">
+              {tool.pros.map((pro) => {
+                return (
+                  <li>
+                    <Markdown of={String(pro)} />
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+
+          <div class="flex-1">
+            <ChildrenHeading id={consHeadingId} class="mb-4 text-center">
+              {consName}
+            </ChildrenHeading>
+            <ul class="lg:px-8 lg:py-0">
+              {tool.cons.map((con) => {
+                return (
+                  <li>
+                    <Markdown of={String(con)} />
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        </div>
+      </div>
+    );
+  })
+}

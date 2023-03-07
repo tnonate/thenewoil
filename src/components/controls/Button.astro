@@ -1,0 +1,81 @@
+---
+export type VariantKeys = "contained" | "outlined" | "flat";
+export type ColorKeys = "primary" | "secondary";
+export type BgColorKeys = "primary" | "secondary" | "tertiary";
+
+export type Variant = {
+  classes?: string;
+  color?: Record<ColorKeys, string>;
+};
+
+export interface BaseProps {
+  color: ColorKeys;
+  variant: VariantKeys;
+
+  /**
+   * Should be used to specifiy if a link is external
+   */
+  external?: boolean;
+
+  /**
+   * Only required when the variant is outlined
+   */
+  bgColor?: BgColorKeys;
+}
+
+export type BaseElementProps = astroHTML.JSX.AnchorHTMLAttributes & astroHTML.JSX.ButtonHTMLAttributes;
+
+// Note: Astro VSCode plugin doesn't support discriminated unions
+export type Props = BaseElementProps & BaseProps;
+
+const VARIANTS = {
+  contained: {
+    classes: "is:text-primary",
+    color: {
+      primary: "where:shadow-md border-none bg-gradient-primary text-primary-dark",
+      secondary: "where:shadow-md border-none bg-gradient-secondary text-primary-dark"
+    }
+  },
+  outlined: {
+    classes: "border-solid border-1 text-primary-dark dark:text-primary",
+    color: {
+      primary: "border-gradient-primary",
+      secondary: "border-gradient-secondary"
+    }
+  },
+  flat: {
+    classes: "is:text-primary-dark dark:is:text-primary"
+  }
+} as Record<VariantKeys, Variant>;
+
+const BG_COLOR_CLASSES = {
+  primary: "border-bg-primary dark:border-bg-primary-dark",
+  secondary: "border-bg-secondary dark:border-bg-secondary-dark",
+  tertiary: "border-bg-tertiary dark:border-bg-tertiary-dark"
+} as Record<BgColorKeys, string>;
+
+const {
+  class: className = "",
+  variant: variantKey,
+  color: colorKey,
+  bgColor: bgColorKey,
+  external,
+  ...props
+} = Astro.props;
+
+const variant = VARIANTS[variantKey];
+
+const variantClasses = variant.classes ?? "";
+const colorClasses = variant.color?.[colorKey] ?? "";
+const bgColorClasses = bgColorKey && variantKey === "outlined" ? BG_COLOR_CLASSES[bgColorKey] : "";
+
+const Component = props.href !== undefined ? "a" : "button";
+---
+
+<Component
+  class={`is:uppercase where:w-fit where:rounded-lg is:px-4 is:py-3 where:text-center ${colorClasses} ${variantClasses} ${bgColorClasses} ${className}`}
+  target={external && "_blank"}
+  {...props as any}
+>
+  <slot />
+</Component>
