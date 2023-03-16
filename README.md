@@ -30,6 +30,9 @@ For an in depth guide on how to set up the project on your local machine [click 
 
 ## Support
 
+<img alt="open collective badge" src="https://opencollective.com/thenewoil/tiers/badge.svg" />
+<img src="https://img.shields.io/liberapay/receives/thenewoil.svg?logo=liberapay">
+
 In addition to submitting corrections and changes, readers are also welcome to support The New Oil financially to help it grow and continually improve the project.
 
 You can find all our support methods [here](https://thenewoil.org/en/support).

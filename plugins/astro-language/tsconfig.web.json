@@ -1,0 +1,11 @@
+{
+    "include": [
+        "./module/client.d.ts",
+        "./module/client.js"
+    ],
+    "extends": "../../typings/configs/tsconfig.web.json",
+    "compilerOptions": {
+        "composite": true,
+        "tsBuildInfoFile": "./web.tsbuildinfo"
+    }
+}

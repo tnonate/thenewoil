@@ -1,0 +1,29 @@
+{
+    "aegis": {
+        "name": "Aegis Authenticator",
+        "logo": "/images/logos/aegis.png",
+        "logo_alt": "Aegis Authenticator Logo",
+        "link": "https://getaegis.app/",
+        "pros": [
+            "Available on [F-Droid](https://f-droid.org/en/packages/com.beemdevelopment.aegis/)",
+            "Allows automatic backups (cloud only)"
+        ],
+        "cons": [
+            "Android Only "
+        ]
+    },
+    "raivo": {
+        "name": "Raivo OTP",
+        "logo": "/images/logos/raivo.png",
+        "logo_alt": "Raivo OTP logo",
+        "link": "https://raivo-otp.com/",
+        "pros": [
+            "Encryption is automatic",
+            "Can sync with Mac app (requires iCloud)"
+        ],
+        "cons": [
+            "iOS only",
+            "Login feature is mandatory"
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+---
+layout: "@layouts/guides.astro"
+title: Threat Modeling
+topic: What is Threat Modeling?
+weight: 3
+draft: false
+---
+
+import Highlighting from "@components/common/Highlighting.astro";
+
+# Threat Modeling
+
+In order to know what tools on this site are right for you, you should understand “**threat modeling.**” The term “threat model” is just a fancy way to say “**what are you hiding and who are you hiding it from?**” For example:
+
+<Highlighting>
+
+- A journalist may want to protect their sources from harm or retaliation, therefore their threat model will include ways to avoid location tracking, encrypt or otherwise protect the uncensored information they receive from their source, and other similar information that might reveal who their source is or allow others to track them to their source.
+- A member of law enforcement may protect their home location in a variety of ways to avoid putting their families in danger from vengeful criminals.
+- An activist in a repressive country make take steps to hide their research, gatherings, or other activities so the government can't track their real identity so easily and use it against them.
+- Many people are worried about identity theft and loss of financial resources through their bank account. Some of their defense strategies could include using a [password manager](/guides/most-important/passwords), [two-factor authentication](/guides/most-important/mfa), and [freezing their credit](/guides/most-important/credit).
+
+</Highlighting>
+
+While threat modeling can be applied to a wide variety of situations (as shown above), on this site I focus specifically on **threat modeling for your personal data.** The Electronic Frontier Foundation defines data as “[any kind of information, typically stored in a digital form. Data can include documents, images, keys, programs, messages, and other digital information or files.](https://ssd.eff.org/en/glossary/data)” While there are “best practices” that apply to almost (if not) everyone, there's really no one-size-fits-all threat model for everyone. Some people need more security or privacy, and some need less. Most people want to find a healthy balance between protection and convenience.
+
+The threat model that I focus on in this site is **defense against common, non-targeted attacks.** For a real world example, I cite infamous serial killer Richard Chase, who stalked the Los Angeles area between 1977 and 1978. One of the reasons he was so difficult to catch was because he didn't have a pattern. After he was caught he stated that he would just cruise around neighborhoods until he spotted a house he felt compelled to try. If the doors and windows were locked, he would go on his way and try a different house rather than force his way in. **My goal with this site is to teach you how to "digitally lock your doors and windows"** to protect against yourself against the Richard Chase's of the digital world. In other words, make yourself harder to hack than the other guy so that hackers looking for an easy payday give up and move on to someone else.
+
+What's **your** threat model? You can't know how to properly defend yourself against attacks if you don't know what attacks you are likely to face. While I teach the basics here, some readers may need to continue their education after my site, and all readers will have to examine the numerous tools and techniques I share here to figure out which is best for them. You can't know any of that without defining your threat model. So how do you determine your threat model?
+
+<Highlighting>
+
+1. **What do I want to protect?**
+   This is typically known as **assets**, and they come in both physical and non-physical forms. A physical asset would be something like a laptop, phone, or file cabinet - a place that holds the data you wish you to protect. A non-physical asset would be something like a bank account, email account, or cloud storage backup account. You need to identify all your assets.
+2. **Who do I want to protect it from?**
+   “Bad guys” is not a good answer to this question because it is too vague. Different types of bad guys have different resources and motivations. For example, a typical cybercriminal wouldn't likely target you specifically (see [Understanding Data Breaches](/guides/most-important/data-breaches)). A potential employer or doxxer, on the other hand, is targeting you specifically and one may have different resources to work with. Try to be specific when identifying the "who" of your threat model, and know that it can vary from asset to asset.
+3. **How bad are the consequences if I fail?**
+   To use the examples from #2: the cybercriminal is trying to steal all your money and maybe even open fake accounts in your name that you will then be responsible for. Your prospective employer is simply trying to decide if they want to hire you. Both are consequences, and both are serious, but they require different levels and methods of defense. There's nothing wrong with going above and beyond the bare minimum of defense, but make sure that you know what's actually necessary and don't ruin your relationships or mental health because you went too far. It's all about balance.
+4. **How likely is it that I will need to protect it?**
+   This ties into both #2 and #3. For example: a person who shops online frequently and with many different retailers will almost certainly have their card details stolen at some point. The need to protect their card details, funds, and financial rating are extremely high as chances for something to go wrong - aka the "attack surface" - is extremely high.
+5. **How much trouble am I willing to go through to try to prevent potential consequences?**
+   This is the “cost/benefit analysis.” Some security and privacy strategies involve much more work and may not be right for you if you don't enjoy the challenge, lack the technical skill to do it right, or the information isn't sensitive. Always remember: nothing is unhackable. Trying to protect all your data against everything all the time is impossible and exhausting. Instead, the goal should be to find a balance where you protect against or mitigate the most likely and most harmful threats as much as possible without negatively impacting yourself or those around you.
+
+</Highlighting>
+
+If you're still having trouble defining your threat model, [this](https://www.cupwire.com/threat-modeling/) great post from Cupwire suggest a four-level template for determining your threat model. Note that this post is not a hard-and-fast rule, there is a lot of nuance and gray area, and you can feel free to drift in between levels depending on the situation, but it can be extremely helpful in getting started and visualizing where you land.
+
+<Highlighting>
+
+1. **Protection from family & friends.** This includes things like putting a password on your phone or not loaning out your debit card for use.
+2. **Protection from corporations.** This includes things like using fake information when signing up for rewards cards and using tracker blockers online. _This site covers Levels 1 and 2._
+3. **Protection against targeted, non-government attacks.** This includes things like hardening your operating system and keeping your address off public records. _This site briefly mentions some of these strategies, but does not go into detail._
+4. **Protection from federal governments and intelligence agencies.** This includes things like complex disinformation campaigns and heavily hardened electronics. _This site does not cover this threat model at all._
+
+</Highlighting>
+
+_Large parts of this page were borrowed from or inspired by EFF'S [Surveillance Self Defense Guide](https://ssd.eff.org/en/module/your-security-plan)._
