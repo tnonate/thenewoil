@@ -1,9 +1,15 @@
 [
     {
+        "name": "Filen",
+        "link": "https://filen.io/r/834a3bd235bca0caa53141f2ebc30438",
+        "img": "/images/logos/filen.png",
+        "subtext": "Zero-knowledge cloud storage"
+    },
+    {
         "name": "Mega",
         "link": "https://mega.nz/aff=UBJLjO7sxZU",
         "img": "/images/logos/mega.png",
-        "subtext": "Zero-knowledge cloud storage service"
+        "subtext": "Zero-knowledge cloud storage"
     },
     {
         "name": "Nitrokey",
@@ -15,7 +21,13 @@
         "name": "Privacy.com",
         "link": "https://privacy.com/join/UZ9WY",
         "img": "/images/logos/privacy.png",
-        "subtext": "Digital card masking service"
+        "subtext": "Digital payment card masking"
+    },
+    {
+        "name": "ProtonDrive",
+        "link": "https://go.getproton.me/aff_c?offer_id=15&aff_id=2187",
+        "img": "/images/logos/protondrive.png",
+        "subtext": "Zero-knowledge cloud storage"
     },
     {
         "name": "ProtonMail",
@@ -34,5 +46,11 @@
         "link": "https://simplelogin.io/?slref=thenewoil",
         "img": "/images/logos/simplelogin.png",
         "subtext": "Email address masking service"
+    },
+    {
+        "name": "Skiff",
+        "link": "https://app.skiff.com/signup?mail=&referral=thenewoil",
+        "img": "/images/logos/skiff.png",
+        "subtext": "Zero-knowledge email provider"
     }
 ]

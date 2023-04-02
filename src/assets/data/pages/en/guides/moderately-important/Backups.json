@@ -1,27 +1,12 @@
 {
-    "cubbit": {
-        "name": "Cubbit",
-        "logo": "/images/logos/cubbit.png",
-        "logo_alt": "Cubbit Logo",
-        "link": "https://www.cubbit.io/",
-        "pros": [
-            "No personal data required to sign up for free plan.",
-            "Peer-to-peer and decentralized."
-        ],
-        "cons": [
-            "Free tier link is [hidden](https://web.cubbit.io/signup)",
-            "Not audited",
-            "Does not offer [multifactor authentication](/guides/most-important/mfa)",
-            "Not open source at this time."
-        ]
-    },
     "filen": {
         "name": "Filen",
         "logo": "/images/logos/filen.png",
         "logo_alt": "Filen logo",
+        "referral_link": "https://filen.io/r/834a3bd235bca0caa53141f2ebc30438",
         "link": "https://filen.io/",
         "pros": [
-            "Open source clients",
+            "Source available clients",
             "No personal data required to sign up",
             "Offers [multifactor authentication](/guides/most-important/mfa)"
         ],
@@ -37,7 +22,7 @@
         "referral_link": "https://mega.nz/aff=UBJLjO7sxZU",
         "link": "https://mega.io",
         "pros": [
-            "Open source clients",
+            "Source available clients",
             "No personal data required to sign up",
             "Offers [multifactor authentication](/guides/most-important/mfa)"
         ],
@@ -55,13 +40,12 @@
         "pros": [
             "No personal data required to sign up",
             "Offers [multifactor authentication](/guides/most-important/mfa)",
-            "Android app in beta"
+            "Android app in beta",
+            "Source available clients"
         ],
         "cons": [
             "Storage is shared with your email account.",
             "Not audited",
-            "Not open source at this time",
-            "No desktop or iOS clients (web and Android only)",
             "Not available in F-Droid"
         ]
     },
@@ -76,7 +60,7 @@
             "[Audited](https://www.sync.com/blog/soc-2-means-safety-for-your-organization/)"
         ],
         "cons": [
-            "Not open source",
+            "Not source available",
             "Debit/credit card payments only"
         ]
     }

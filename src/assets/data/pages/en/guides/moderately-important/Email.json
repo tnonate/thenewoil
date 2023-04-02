@@ -22,6 +22,7 @@
         "logo": "/images/logos/skiff.png",
         "logo_alt": "Skiff Logo",
         "link": "https://skiff.com/",
+        "referral_link": "https://app.skiff.com/signup?mail=&referral=thenewoil",
         "pros": [
             "Available on Android, iOS, and Mac",
             "Offers a free tier",
@@ -33,24 +34,6 @@
             "No PGP support",
             "Export emails not available",
             "Audited, but results have not been publicly released yet"
-        ]
-    },
-    "tutanota": {
-        "name": "Tutanota",
-        "logo": "/images/logos/tutanota.png",
-        "logo_alt": "Tutanota Logo",
-        "link": "https://www.tutanota.com/",
-        "pros": [
-            "Available on Debian, Mac, Windows, Android, and iOS.",
-            "Offers a free tier",
-            "[Audited](https://github.com/tutao/tutanota/issues/2787) (see cons)",
-            "Includes a Calendar with all plans",
-            "Export emails available"
-        ],
-        "cons": [
-            "No PGP support",
-            "Audit is for the web client only, not any mobile apps or servers.",
-            "Import emails not available"
         ]
     }
 }
