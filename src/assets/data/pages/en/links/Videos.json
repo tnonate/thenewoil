@@ -7,7 +7,8 @@
     {
         "name": "Odysee",
         "link": "https://odysee.com/@thenewoil",
-        "img": "/images/logos/odysee.png"
+        "img": "/images/logos/odysee.png",
+        "not_encouraged": true
     },
     {
         "name": "YouTube",

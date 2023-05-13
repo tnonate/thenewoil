@@ -26,7 +26,7 @@
             }
         },
         "mysudo": {
-            "name": "MySudo",
+            "name": "MySudo (iOS Only)",
             "logo": "/images/logos/mysudo.png",
             "link": "https://mysudo.com/features/",
             "values": {

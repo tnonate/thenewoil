@@ -20,19 +20,12 @@ While I don't think there is a perfect solution in this space, I personally reco
 
 ## Extensions
 
-<img src="/images/logos/ublock.png" alt="ublock logo alt" class="w-24 float-left mx-6"/>**Regardless of which browser you decide to go with, there is one extension you should
-add to dramatically improve your privacy and security.** This is [uBlock Origin](https://ublockorigin.com/),
-a powerful, light"weight" ad- and tracker-blocker. Officially, uBlock Origin is ready
-for use "out of the box." However, there's a few things I prefer to add to it to
-improve the protections it has to offer. First, I enable every option under the "[Privacy](*PUBLIC*/images/steps/ublock-setup/step1.jpg)"
-section. I then click on the tab “[Filter lists](*PUBLIC*/images/ublock-setup/step2.jpg)” and
-enable everything under “Built-In,” “Ads,” "Privacy," “Malware domains,” “Annoyances,”
-and "Multipurpose." I would also recommend checking the "Regions, languages" section
-if you live outside North America and enable for your location, too. In my experience,
-enabling all the features has never presented any significant site breakage. However,
-if you find yourself repeatedly running into issues with a lot of sites not working
-correctly, you can easily go back to the developer's recommended settings by clicking
-"Reset to default settings" on the main Settings page.
+<img src="/images/logos/ublock.png" alt="ublock logo alt" class="w-24 float-left mx-6"/>**If you decide to go with Brave, you don't need to add any additional extensions** (except for the ones in the next paragraph if you decide). **If you decide to go with Firefox, you should install [uBlock Origin](https://ublockorigin.com/)**,
+a powerful, lightweight ad- and tracker-blocker. Officially, uBlock Origin is ready
+for use "out of the box." However, there's a few things I prefer to modify to
+improve the protections and convenience it has to offer. First, I enable every option under the "[Privacy](*PUBLIC*/images/steps/ublock-setup/step1.jpg)"
+section. Next, click on the tab “[Filter lists](*PUBLIC*/images/ublock-setup/step2.jpg)” and start by clicking on the toggle that says "Suspend network activity until all filter lists are loaded." This may require you to wait a few seconds before you can start browsing every time you open the browser, but it will ensure you are as protected as possible the entire time. Finally,
+enable "AdGuard URL Tracking Protection" and "EasyList Cookie" under "Privacy" and “Annoyances" respectively. These will disable tracking links - a major threat to privacy - and those annoying cookie banners (respectively).
 
 <img src="/images/logos/snowflake.png" alt="snowflake logo" class="w-24 float-left mx-6" />There are two additional extensions that I think are worth adding if you feel so
 inclined. The first is your [password manager's](/guides/most-important/passwords) official
@@ -68,6 +61,8 @@ any other privacy-enhancing changes you make to your browser or browsing habits.
   - **(Skip this setting if using a [VPN](/guides/less-important/vpns))** Security: Use Secure DNS: With a DNS provider from [this list](https://www.privacyguides.org/dns/).
   - Private window with Tor: disabled
   - Volunteer to help others connect to the Tor network: enabled (_this is a built-in integration of the Snowflake extension discussed above_)
+- Shields:
+  - Content filtering: Easylist-Cookie List: Enabled
 - Extensions:
   - Hangouts: disabled
 - Additional settings:
@@ -111,6 +106,10 @@ _3: There is malware capable of swiping data stored in your browser, including h
 </div>
 
 ## Honorable Mentions
+
+### Mullvad Browser
+
+<img src="/images/logos/mullvad-browser.png" alt="mullvad browser logo" class="w-24 float-left mx-6" />While the [Mullvad Browser](https://mullvad.net/en/browser) technically meets the criteria to be listed as an official recommendation here, I'm currently listing it as an "honorable mention" for two reasons. The first is that it's new and untested, and the second is usability. The Mullvad Browser is the result of a collaboration between [Mullvad VPN](/guides/less-important/vpns) and The Tor Project (see below) and is ultimately based on Firefox. The Mullvad Browser is basically "the Tor Browser without Tor." It attempts to make all users look the same by applying the same settings to every user, thus defeating brower fingerprinting. Furthermore, the Mullvad Browser offers a number of "hardening" [features](https://mullvad.net/en/browser/hard-facts) that make it more private and secure than regular Firefox. However, these changes unfortunately come at the cost of guaranteed usability, so while the Mullvad Browser is a great and recommended browser, users should expect some degree of site breakage and be prepared to use a backup browser in those cases.
 
 ### LibreWolf
 

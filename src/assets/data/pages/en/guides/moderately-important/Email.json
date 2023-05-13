@@ -7,7 +7,6 @@
         "referral_link": "https://go.getproton.me/aff_c?offer_id=15&aff_id=2187",
         "pros": [
             "[Audited](https://protonmail.com/blog/security-audit/)",
-            "Available on Android and iOS.",
             "Based on PGP",
             "Offers a free tier",
             "Includes a VPN account, Calendar, and Drive storage with all plans",
@@ -24,9 +23,9 @@
         "link": "https://skiff.com/",
         "referral_link": "https://app.skiff.com/signup?mail=&referral=thenewoil",
         "pros": [
-            "Available on Android, iOS, and Mac",
+            "Apps available for Android, iOS, and Mac",
             "Offers a free tier",
-            "Includes a collaborative workspace and Drive storage with all plans",
+            "Includes a collaborative workspace, calendar, and Drive storage with all plans",
             "Import emails available"
         ],
         "cons": [
@@ -34,6 +33,22 @@
             "No PGP support",
             "Export emails not available",
             "Audited, but results have not been publicly released yet"
+        ]
+    },
+    "skiff": {
+        "name": "Tutanota",
+        "logo": "/images/logos/tutanota.png",
+        "logo_alt": "Tutanota Logo",
+        "link": "https://tutanota.com/",
+        "pros": [
+            "[Audited](https://tutanota.com/blog/posts/desktop-clients-tutanota/)",
+            "Offers a free tier",
+            "Includes a calendar with all plans",
+            "Export emails available (individual emails only)"
+        ],
+        "cons": [
+            "No PGP support",
+            "Import emails not available"
         ]
     }
 }

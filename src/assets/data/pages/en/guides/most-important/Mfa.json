@@ -9,7 +9,7 @@
             "Allows automatic backups (cloud only)"
         ],
         "cons": [
-            "Android Only "
+            "Android only"
         ]
     },
     "raivo": {
@@ -18,7 +18,6 @@
         "logo_alt": "Raivo OTP logo",
         "link": "https://raivo-otp.com/",
         "pros": [
-            "Encryption is automatic",
             "Can sync with Mac app (requires iCloud)"
         ],
         "cons": [

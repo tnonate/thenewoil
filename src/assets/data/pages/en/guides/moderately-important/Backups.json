@@ -28,7 +28,7 @@
         ],
         "cons": [
             "Not audited",
-            "[Research](https://arstechnica.com/information-technology/2022/06/mega-says-it-cant-decrypt-your-files-new-poc-exploit-shows-otherwise/) suggests that Mega's code is very sloppy and convoluted, raising the risk of vulnerabilities."
+            "[Research](https://arstechnica.com/information-technology/2022/06/mega-says-it-cant-decrypt-your-files-new-poc-exploit-shows-otherwise/) suggests that Mega's code is very sloppy and convoluted, raising the risk of vulnerabilities"
         ]
     },
     "protondrive": {
@@ -40,11 +40,10 @@
         "pros": [
             "No personal data required to sign up",
             "Offers [multifactor authentication](/guides/most-important/mfa)",
-            "Android app in beta",
             "Source available clients"
         ],
         "cons": [
-            "Storage is shared with your email account.",
+            "Storage is shared with your email account",
             "Not audited",
             "Not available in F-Droid"
         ]
@@ -60,8 +59,7 @@
             "[Audited](https://www.sync.com/blog/soc-2-means-safety-for-your-organization/)"
         ],
         "cons": [
-            "Not source available",
-            "Debit/credit card payments only"
+            "Not source available"
         ]
     }
 }

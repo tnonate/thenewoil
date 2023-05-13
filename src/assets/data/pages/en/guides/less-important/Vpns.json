@@ -11,7 +11,7 @@
             "Offers malware, tracker, and ad-blocking for [all plans](https://www.ivpn.net/antitracker/)",
             "[Hardcore Mode](https://www.ivpn.net/blog/block-ads-and-beat-data-surveillance-with-ivpns-antitracker/) blocks all Google and Facebook domains",
             "[Trusted/Untrusted networks](https://www.ivpn.net/blog/new-trusted-wi-fi-networks-feature-for-ivpn-apps/) feature allows the VPN to enable or disable automatically on certain networks",
-            "Offers [TOTP 2FA](/guides/most-important/mfa) for accounts"
+            "Offers [TOTP multifactor authentication](/guides/most-important/mfa) for accounts"
         ],
         "cons": [
         ]
@@ -30,7 +30,7 @@
             "Frequently engages in [early-adoption practices](https://mullvad.net/en/blog/2022/12/30/review-of-2022/) to improve user privacy and security, like post-quantum safe tunnels, diskless infrastructure, numerous audits, and more."
         ],
         "cons": [
-            "Does not offer [2FA](/guides/most-important/mfa) for accounts"
+            "Does not offer [multifactor authentication](/guides/most-important/mfa) for accounts"
         ]
     },
     "protonvpn": {
@@ -46,7 +46,7 @@
             "Offers a limited number of free servers",
             "Offers malware, tracker, and ad-blocking ([paid plans only](https://protonvpn.com/support/netshield/))",
             "Advertises to work with streaming services like Netflix and Disney+ (paid plans only)",
-            "Offers TOTP and hardware token [2FA](/guides/most-important/mfa) for accounts"
+            "Offers TOTP and hardware token [multifactor authentication](/guides/most-important/mfa) for accounts"
         ],
         "cons": []
     }

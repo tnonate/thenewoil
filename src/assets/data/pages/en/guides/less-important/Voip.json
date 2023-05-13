@@ -7,7 +7,8 @@
         "pros": [
             "Unlimited numbers",
             "International calling",
-            "Can work just with WiFi (doesn't need mobile data to operate)"
+            "Can work just with WiFi (doesn't need mobile data to operate)",
+            "Does not require your SIM number"
         ],
         "cons": [
             "No free tier",
@@ -40,16 +41,16 @@
         "link": "https://mysudo.com/",
         "pros": [
             "Up to 9 numbers available",
-            "Includes fully functional email, web browser, and [digital masked cards](/guides/most-important/payments)",
-            "Works independently of your SIM number",
-            "Zero-knowledge",
+            "Does not require your SIM number",
+            "Includes fully functional email, web browser, and [digital masked cards](/guides/most-important/payments) (iOS only)",
+            "Zero-knowledge at rest",
             "End-to-end encrypted (only to other MySudo users)",
             "Group chats (only to other MySudo users)",
             "Video chats (only to other MySudo users)"
         ],
         "cons": [
             "US, Canadian, and UK phone numbers only",
-            "Desktop client in beta, web-based only"
+            "Desktop client in beta, web-based only, can only sync with iOS"
         ]
     },
     "skype": {
@@ -97,7 +98,7 @@
             "Group chats (only to other Viber users)",
             "Video chats (only to other Viber users)",
             "Desktop client",
-            "Zero-knowledge",
+            "Zero-knowledge storage",
             "End-to-end encrypted (only to other Viber users)",
             "Worldwide numbers available",
             "Does not require your SIM number"

@@ -20,11 +20,5 @@
         "name": "Mastodon",
         "link": "https://freeradical.zone/@thenewoil",
         "img": "/images/logos/mastodon.png"
-    },
-    {
-        "name": "Twitter",
-        "link": "https://twitter.com/thenewoil1",
-        "img": "/images/logos/twitter.png",
-        "not_encouraged": true
     }
 ]

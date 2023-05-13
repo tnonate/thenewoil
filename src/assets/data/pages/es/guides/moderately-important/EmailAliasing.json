@@ -1,0 +1,67 @@
+{
+    "criterias": [
+        "Alias",
+        "Ancho de banda",
+        "Responder/Enviar",
+        "Buzones",
+        "Dominios personalizados",
+        "Cifrado PGP"
+    ],
+    "tools": {
+        "anonaddy": {
+            "name": "AnonAddy",
+            "logo": "/images/logos/anonaddy.png",
+            "link": "https://anonaddy.com/",
+            "plans": {
+                "Gratis": {
+                    "Alias": "Sin límites",
+                    "Ancho de banda": "10MB",
+                    "Responder/Enviar": 0,
+                    "Buzones": 2,
+                    "Dominios personalizados": 0,
+                    "Cifrado PGP": "Sí"
+                },
+                "Lite": {
+                    "Alias": "Sin límites",
+                    "Ancho de banda": "50MB",
+                    "Responder/Enviar": "20/día",
+                    "Buzones": 5,
+                    "Dominios personalizados": 1,
+                    "Cifrado PGP": "Sí"
+                },
+                "Pro": {
+                    "Alias": "Sin límites",
+                    "Ancho de banda": "Sin límites",
+                    "Responder/Enviar": "100/día",
+                    "Buzones": 30,
+                    "Dominios personalizados": 20,
+                    "Cifrado PGP": "Sí"
+                }
+            }
+        },
+        "simplelogin": {
+            "name": "SimpleLogin",
+            "logo": "/images/logos/simplelogin.png",
+            "referral_link": "https://simplelogin.io?slref=thenewoil",
+            "link": "https://simplelogin.io/",
+            "plans": {
+                "Gratis": {
+                    "Alias": 10,
+                    "Ancho de banda": "Sin límites",
+                    "Responder/Enviar": "Sin límites",
+                    "Buzones": 1,
+                    "Dominios personalizados": 0,
+                    "Cifrado PGP": "No"
+                },
+                "Premium ($30/yr)": {
+                    "Alias": "Sin límites",
+                    "Ancho de banda": "Sin límites",
+                    "Responder/Enviar": "Sin límites",
+                    "Buzones": "Sin límites",
+                    "Dominios personalizados": "Sin límites",
+                    "Cifrado PGP": "Sí"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,105 @@
+{
+    "jami": {
+        "name": "Jami",
+        "logo": "/images/logos/jami.png",
+        "logo_alt": "Jami Logo",
+        "link": "https://jami.net/",
+        "pros": [
+            "Disponible en todos los sistemas operativos",
+            "Entre iguales",
+            "Nombre de usuario",
+            "No se requieren datos identificativos del usuario al registrarse"
+        ],
+        "cons": [
+            "No auditado",
+            "No es resistente a los metadatos",
+            "Sin mensajes que desaparecen"
+        ]
+    },
+    "matrix": {
+        "name": "Matrix",
+        "logo": "/images/logos/matrix.png",
+        "logo_alt": "Matrix Logo",
+        "link": "https://matrix.org/",
+        "pros": [
+            "Disponible en todos los sistemas operativos",
+            "Descentralizado",
+            "Nombre de usuario",
+            "No se requieren datos identificativos del usuario al registrarse",
+            "Puede ser autoalojado",
+            "Puede ser puenteado para comunicarse con otros servicios como Slack, Telegram, Signal, Discord, Facebook y más.",
+            "Entre los clientes más populares figuran [Element](https://element.io/), [FluffyChat](https://fluffychat.im/) y [SchildiChat](https://schildi.chat/)."
+        ],
+        "cons": [
+            "No auditado",
+            "No es resistente a los metadatos",
+            "Sin mensajes que desaparecen."
+        ]
+    },
+    "session": {
+        "name": "Session",
+        "logo": "/images/logos/session.png",
+        "logo_alt": "Session Logo",
+        "link": "https://getsession.org/",
+        "pros": [
+            "[Auditado](https://getsession.org/session-code-audit/)",
+            "Disponible en todos los sistemas operativos",
+            "Descentralizado",
+            "Nombre de usuario",
+            "Metadata resistant",
+            "No se requieren datos identificativos del usuario al registrarse",
+            "Ofrece mensajes que desaparecen"
+        ],
+        "cons": [
+            "Llamadas de voz y vídeo en beta"
+        ]
+    },
+    "signal": {
+        "name": "Signal",
+        "logo": "/images/logos/signal.png",
+        "logo_alt": "Signal Logo",
+        "link": "https://signal.org/",
+        "pros": [
+            "[Auditado](https://community.signalusers.org/t/wiki-overview-of-third-party-security-audits/13243)",
+            "Disponible en todos los sistemas operativos",
+            "Ofrece mensajes que desaparecen"
+        ],
+        "cons": [
+            "Centralizado",
+            "Número de teléfono requerido",
+            "[El código fuente del servidor estuvo casi un año sin una actualización pública sin ninguna explicación](https://linuxreviews.org/Signal_Just_Made_One_Years_Worth_Of_Server-Side_Source_Code_Available_In_One_Huge_Dump)"
+        ]
+    },
+    "threema": {
+        "name": "Threema",
+        "logo": "/images/logos/threema.png",
+        "logo_alt": "Threema Logo",
+        "link": "https://threema.ch/",
+        "pros": [
+            "[Auditado](https://threema.ch/en/blog/posts/audit-2020-en)",
+            "Nombre de usuario"
+        ],
+        "cons": [
+            "Centralizado",
+            "No gratis",
+            "",
+            "Sin mensajes que desaparecen"
+        ]
+    },
+    "wire": {
+        "name": "Wire",
+        "logo": "/images/logos/wire.png",
+        "logo_alt": "Wire Logo",
+        "link": "https://wire.com/",
+        "pros": [
+            "[Auditado](https://wire.com/en/security/#audits)",
+            "Disponible en todos los sistemas operativos",
+            "Nombre de usuario",
+            "Ofrece mensajes que desaparecen"
+        ],
+        "cons": [
+            "Centralizado",
+            "Afiliación poco clara con [Morpheus Ventures](https://morpheus.com/portfolio/), que se ocupa en gran medida del análisis y la recopilación de datos."
+        ]
+    }
+}
