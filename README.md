@@ -20,7 +20,6 @@ For an in depth guide on how to set up the project on your local machine [click 
 - [Blog](https://blog.thenewoil.org)
 
 - [Mastodon](https://freeradical.zone/@thenewoil)
-- [Twitter](https://twitter.com/thenewoil1)
 
 - [PeerTube](https://apertatube.net/c/thenewoil/videos)
 - [Odysee](https://odysee.com/@thenewoil)
