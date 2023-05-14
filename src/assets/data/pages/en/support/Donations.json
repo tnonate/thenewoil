@@ -10,9 +10,16 @@
         "name": "Liberapay"
     },
     {
+        "link": "https://www.patreon.com/TheNewOil413",
+        "img": "/images/logos/patreon.png",
+        "name": "Patreon",
+        "not_encouraged": true
+    },
+    {
         "link": "https://www.paypal.com/donate/?hosted_button_id=2LLRWFZQS4E94",
         "img": "/images/logos/paypal.png",
-        "name": "PayPal"
+        "name": "PayPal",
+        "not_encouraged": true
     },
     {
         "link": "https://support.brave.com/hc/en-us/articles/360021123971-How-do-I-tip-websites-and-Content-Creators-in-Brave-Rewards-",
