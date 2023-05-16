@@ -1,0 +1,25 @@
+[
+    {
+        "name": "PeerTube",
+        "link": "https://apertatube.net/c/thenewoil/videos",
+        "img": "/images/logos/peertube.png"
+    },
+    {
+        "name": "Odysee",
+        "link": "https://odysee.com/@thenewoil",
+        "img": "/images/logos/odysee.png",
+        "not_encouraged": true
+    },
+    {
+        "name": "YouTube",
+        "link": "https://youtube.com/thenewoil",
+        "img": "/images/logos/youtube.png",
+        "not_encouraged": true
+    },
+    {
+        "name": "TikTok",
+        "link": "https://www.tiktok.com/@thenewoil1",
+        "img": "/images/logos/tiktok.png",
+        "not_encouraged": true
+    }
+]

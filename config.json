@@ -1,0 +1,26 @@
+{
+  "title": "The New Oil",
+  "metatags": [
+    {
+      "name": "description",
+      "content": "Data is the new oil"
+    },
+    {
+      "name": "monetization",
+      "content": "$ilp.uphold.com/gywWRZd488m6"
+    },
+    {
+      "name": "author",
+      "content": "Nathan Bartram"
+    }
+  ],
+  "languages": [
+    {
+      "code": "en",
+      "name": "English",
+      "weight": 1,
+      "image": "/images/languages/en.svg",
+      "isDefault": true
+    }
+  ]
+}

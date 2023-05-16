@@ -1,0 +1,111 @@
+{
+    "hushed": {
+        "name": "Hushed",
+        "logo": "/images/logos/hushed.png",
+        "logo_alt": "Hushed logo",
+        "link": "https://hushed.com/",
+        "ventajas": [
+            "Números ilimitados",
+            "Llamadas internacionales",
+            "Puede funcionar sólo con WiFi (no necesita datos móviles para funcionar)",
+            "No necesita su número SIM"
+        ],
+        "desventajas": [
+            "Sin nivel gratuito",
+            "Sólo números de teléfono de EE.UU. y Canadá",
+            "Sin aplicación de escritorio"
+        ]
+    },
+    "google voice": {
+        "name": "Google Voice",
+        "logo": "/images/logos/google_voice.png",
+        "logo_alt": "Google Voice logo",
+        "link": "https://voice.google.com/about",
+        "ventajas": [
+            "Un número gratuito (Números ilimitados con suscripción a Workspace)",
+            "Cliente de escritorio disponible",
+            "No requiere aplicación de teléfono (reenvía llamadas y mensajes de texto a tu número SIM)"
+        ],
+        "desventajas": [
+            "Sólo EE.UU. y Canadá",
+            "Sin chats de grupo",
+            "Sin videoconferencias",
+            "Requiere tu número SIM",
+            "Requiere una cuenta de Google"
+        ]
+    },
+    "mysudo": {
+        "name": "MySudo",
+        "logo": "/images/logos/mysudo.png",
+        "logo_alt": "MySudo logo",
+        "link": "https://mysudo.com/",
+        "ventajas": [
+            "Hasta 9 números disponibles",
+            "No necesita su número SIM",
+            "Incluye correo electrónico totalmente funcional, navegador web y [tarjetas digitales enmascaradas](/guides/most-important/payments) (sólo iOS)",
+            "Conocimiento cero en reposo",
+            "Cifrado de extremo a extremo (sólo para otros usuarios de MySudo)",
+            "Chats de grupo (sólo con otros usuarios de MySudo)",
+            "Videochats (sólo con otros usuarios de MySudo)"
+        ],
+        "desventajas": [
+            "Sólo números de teléfono de EE.UU., Canadá y Reino Unido",
+            "Cliente de escritorio en beta, sólo basado en web, sólo se puede sincronizar con iOS"
+        ]
+    },
+    "skype": {
+        "name": "Skype",
+        "logo": "/images/logos/skype.png",
+        "logo_alt": "Skype logo",
+        "link": "https://www.skype.com/en/skype-number/",
+        "ventajas": [
+            "Admite hasta 10 números de teléfono",
+            "Disponible en más de 25 países",
+            "No necesita su número SIM",
+            "Aplicación de escritorio disponible"
+        ],
+        "desventajas": [
+            "No hay chats de grupo (over normal protocols)",
+            "Sin videoconferencias (over normal protocols)",
+            "Requiere una cuenta Microsoft",
+            "Pago por minutos"
+        ]
+    },
+    "tossable digits": {
+        "name": "Tossable Digits",
+        "logo": "/images/logos/tossable-digits.png",
+        "logo_alt": "Tossable Digits logo",
+        "link": "https://www.tossabledigits.com/",
+        "ventajas": [
+            "Números ilimitados",
+            "Llamadas internacionales",
+            "Disponible en 70 países",
+            "No requiere aplicación de teléfono (reenvía llamadas y mensajes de texto a tu número SIM)"
+        ],
+        "desventajas": [
+            "Sin nivel gratuito",
+            "Sin aplicación de escritorio",
+            "Las llamadas internacionales se facturan por minuto",
+            "Sólo se admiten SMS en números de EE.UU. y Canadá"
+        ]
+    },
+    "viber": {
+        "name": "Viber",
+        "logo": "/images/logos/viber.png",
+        "logo_alt": "Viber logo",
+        "link": "https://www.viber.com/",
+        "ventajas": [
+            "Chats de grupo (sólo con otros usuarios de Viber)",
+            "Videochats (sólo con otros usuarios de Viber)",
+            "Cliente de escritorio",
+            "Almacenamiento de conocimiento cero",
+            "Cifrado de extremo a extremo (sólo para otros usuarios de Viber)",
+            "Números disponibles en todo el mundo",
+            "No necesita su número SIM"
+        ],
+        "desventajas": [
+            "La mensajería y las llamadas externas tienen un coste adicional",
+            "Sólo hay un número disponible"
+        ]
+    }
+}

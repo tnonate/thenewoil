@@ -1,0 +1,118 @@
+{
+    "criterias": [
+        "¿Auditada?",
+        "¿Disponible en Linux?",
+        "¿Disponible en Mac?",
+        "¿Disponible en Windows?",
+        "¿Disponible en Android?",
+        "¿Disponible en F-Droid?",
+        "¿Disponible en iOS?",
+        "¿Descentralizado?",
+        "¿Número de teléfono o nombre de usuario?",
+        "¿Mensajes que desaparecen?",
+        "Notas adicionales"
+    ],
+    "tools": {
+        "jami": {
+            "name": "Jami",
+            "values": {
+                "¿Auditada?": "No",
+                "¿Disponible en Linux?": "Sí",
+                "¿Disponible en Mac?": "Sí",
+                "¿Disponible en Windows?": "Sí",
+                "¿Disponible en Android?": "Sí",
+                "¿Disponible en F-Droid?": "Sí",
+                "¿Disponible en iOS?": "Sí",
+                "¿Descentralizado?": "Sí",
+                "¿Número de teléfono o nombre de usuario?": "Nombre de usuario",
+                "¿Mensajes que desaparecen?": "No",
+                "Notas adicionales": [
+                    "Peer-to-peer"
+                ]
+            }
+        },
+        "matrix": {
+            "name": "Matrix",
+            "values": {
+                "¿Auditada?": "No",
+                "¿Disponible en Linux?": "Sí",
+                "¿Disponible en Mac?": "Sí",
+                "¿Disponible en Windows?": "Sí",
+                "¿Disponible en Android?": "Sí",
+                "¿Disponible en F-Droid?": "Algunos clientes",
+                "¿Disponible en iOS?": "Sí",
+                "¿Descentralizado?": "Sí",
+                "¿Número de teléfono o nombre de usuario?": "Nombre de usuario",
+                "¿Mensajes que desaparecen?": "No",
+                "Notas adicionales": [
+                    "Matrix es el protocolo, no el cliente",
+                    "Puede ser autoalojado"
+                ]
+            }
+        },
+        "session": {
+            "name": "Session",
+            "values": {
+                "¿Auditada?": "Sí",
+                "¿Disponible en Linux?": "Sí",
+                "¿Disponible en Mac?": "Sí",
+                "¿Disponible en Windows?": "Sí",
+                "¿Disponible en Android?": "Sí",
+                "¿Disponible en F-Droid?": "Directamente ([pulse aquí](https://fdroid.getsession.org/fdroid/repo/))",
+                "¿Disponible en iOS?": "Sí",
+                "¿Descentralizado?": "Sí",
+                "¿Número de teléfono o nombre de usuario?": "Sí",
+                "¿Mensajes que desaparecen?": "Sí",
+                "Notas adicionales": [ ]
+            }
+        },
+        "signal": {
+            "name": "Signal",
+            "values": {
+                "¿Auditada?": "Sí",
+                "¿Disponible en Linux?": "Sí",
+                "¿Disponible en Mac?": "Sí",
+                "¿Disponible en Windows?": "Sí",
+                "¿Disponible en Android?": "Sí",
+                "¿Disponible en F-Droid?": "No",
+                "¿Disponible en iOS?": "Sí",
+                "¿Descentralizado?": "No",
+                "¿Número de teléfono o nombre de usuario?": "Número de teléfono",
+                "¿Mensajes que desaparecen?": "Sí",
+                "Notas adicionales": [ ]
+            }
+        },
+        "threema": {
+            "name": "Threema",
+            "values": {
+                "¿Auditada?": "Sí",
+                "¿Disponible en Linux?": "Sólo web",
+                "¿Disponible en Mac?": "Sólo web",
+                "¿Disponible en Windows?": "Sólo web",
+                "¿Disponible en Android?": "Sí",
+                "¿Disponible en F-Droid?": "No",
+                "¿Disponible en iOS?": "Sí",
+                "¿Descentralizado?": "No",
+                "¿Número de teléfono o nombre de usuario?": "Sí",
+                "¿Mensajes que desaparecen?": "No",
+                "Notas adicionales": []
+            }
+        },
+        "wire": {
+            "name": "Wire",
+            "values": {
+                "¿Auditada?": "Sí",
+                "¿Disponible en Linux?": "Sí",
+                "¿Disponible en Mac?": "Sí",
+                "¿Disponible en Windows?": "Sí",
+                "¿Disponible en Android?": "Sí",
+                "¿Disponible en F-Droid?": "No",
+                "¿Disponible en iOS?": "Sí",
+                "¿Descentralizado?": "No",
+                "¿Número de teléfono o nombre de usuario?": "Sí",
+                "¿Mensajes que desaparecen?": "Sí",
+                "Notas adicionales": [ ]
+            }
+        }
+       }
+    }

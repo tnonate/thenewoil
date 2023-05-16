@@ -1,0 +1,19 @@
+[
+    {
+        "name": "#thenewoil:matrix.org",
+        "link": "https://matrix.to/#/#thenewoil:matrix.org",
+        "img": "/images/logos/matrix2.png"
+    },
+    {
+        "name": "Discord",
+        "link": "https://discord.gg/JUf4a5xdmK",
+        "img": "/images/logos/discord.png",
+        "not_encouraged": true
+    },
+    {
+        "name": "Reddit",
+        "link": "https://www.reddit.com/r/thenewoil/",
+        "img": "/images/logos/reddit.png",
+        "not_encouraged": true
+    }
+]

@@ -1,0 +1,112 @@
+---
+layout: "@layouts/guides.astro"
+title: "Securing Mobile: Settings"
+topic: "Recommended Mobile Settings"
+weight: 8
+draft: false
+---
+
+# Securing Mobile: Settings
+
+See my criteria for this page [here](https://gitlab.com/thenewoil/website/-/wikis/Mobile-&-Destkop-Settings-and-Apps-Criteria).
+
+## iOS 16.2
+
+- Apple ID > Password & Security > Two-Factor Authentication: On
+- Apple ID > iCloud: Disable everything (*Note:* If you decide to use iCloud, be sure to enable Advanced Data Protection in this section. This will [end-to-end encrypt](/guides/moderately-important/encryption) most of your data, but not all of it. See [here](https://support.apple.com/en-us/HT202303) to see what's not protected.)
+- Apple ID > Find My: Disable everything <sup>(1)</sup>
+- Wi-Fi > Wi-Fi should be disabled when you are not actively connected to a network.
+- Wi-Fi > Ask to Join Networks: Off
+- Wi-Fi > Auto-Join Hotspot: Never
+- Bluetooth: Off unless needed.
+- Cellular > SIM PIN > Create a custom [PIN](https://support.apple.com/en-us/HT201529)
+- Cellular: Disable Cellular Data for any apps you don't need 24/7 access to.
+- Cellular: Wi-Fi Assist: Off
+- Notifications > Show Previews: Never
+- Notifications > Screen Sharing: Notifications Off
+- Notifications > Siri Suggestions > Allow Notifications: Off
+- General > Software Update > Automatic Updates: All on
+- General > AirPlay & Handoff > Automatically AirPlay to TVs: Never
+- Display & Brightness > Auto-Lock > the shortest option you can reasonably put up with. Do not set it to leave the screen turned on.
+- Wallpaper: Set your lock screen to something generic and non-personal (no family photos, etc)
+- Siri & Search: Disable everything completely
+- Touch ID & Passcode > Turn Passcode On: Try to set a password if possible, otherwise use a six-digit PIN. A fingerprint is also acceptable (coupled with a strong password or PIN). Face ID should be avoided.
+- Touch ID & Passcode > Require Passcode: Immediately
+- Touch ID & Passcode > Allow Access When Locked: the fewer the better
+- Touch ID & Passcode > Erase Data: Enabled (Beware of this setting, make sure you understand it)
+- Exposure Notifications: Using these is discouraged unless required by law, but it is ultimately up to you.
+- Privacy > Location Services: Disable for everything except navigation apps, and set those to "While Using"
+- Privacy > Location Services > System Services: Disable all (this will not cause any issues with Emergency Services being able to locate you)
+- Privacy > Tracking > Allow Apps to Request to Track: Off
+- Privacy: Review all the other app settings and make sure apps only have access to the settings they actually need. Otherwise, disable them. Disable as many as you can without breaking the app functionality.
+- Privacy > Safety Check: This is a good tool if you're not using a brand-new Apple ID. It will show you any files you are sharing, any other devices you are logged into, etc and allow you to remotely disable them.
+- Privacy > Analytics & Improvements: Disable everything
+- Privacy > Apple Advertising > Personalized Ads: Off
+- Privacy > Lockdown Mode: On (This will [disable](https://support.apple.com/en-us/HT212650) a significant number of features, however if you are able to live without them, it will help protect other users who need this feature from being [easily identified](https://www.techspot.com/news/95767-apple-upcoming-lockdown-mode-make-devices-easier-fingerprint).)
+- App Store > App Updates: On
+- App Store > Personalized Recommendations: Clear App Usage Data
+- Passwords: Clear this section out and turn everything off. Use a [password manager](/guides/most-important/passwords) instead.
+- Phone > Notifications: Off (if you plan to use [Voice-over-IP](/guides/less-important/voip))
+- Phone > Silence unknown callers: On (This is, like everything, user discretion, but for most people this will dramatically reduce the number of spam calls. Be sure to enter any important phone numbers such as a child's school or coworkers so you still get their calls.)
+- Messages > Share Name and Photo: Off
+- Messages > Send as SMS: Enabled (only if you do not plan to use a [Voice-over-IP service](/guides/less-important/voip))
+- Messages > Keep Messages: 30 Days
+- Messages > Filter Unknown Senders: Enabled
+- Safari: I recommend disabling Safari and using a different [browser](/guides/most-important/mobile-apps). However, if you wish to use Safari, you can harden it using [this guide](https://www.privacyguides.org/mobile-browsers/#safari) from Privacy Guides.
+- Translate: On-Device Mode: On
+- Health > Medical ID: I encourage you to set this up in case of emergency. Saving a life should always be prioritized over privacy.
+- Podcasts: Reset Identifier
+- Game Center: Disable
+- Now scroll back up to Screen Time > Content & Privacy Restrictions > Allowed Apps: Disable everything you do not intend to use.
+- Screen Time > Content & Privacy Restrictions > Privacy & Allowed Changes: Set all to "Don't Allow." This will prevent changes from being made on your behalf next time you update.
+- Any settings not covered are personal preference and are unlikely to cause any privacy or security issues no matter how you set them.
+
+<sup>1</sup>: Some people prefer to leave "Find My iPhone" enabled as it allows
+them to remotely wipe the device if it gets lost. However, due to enabling the
+"Erase Data" setting, I don't believe this is necessary. If it makes you feel
+better, you can leave this feature on, but "Share My Location" should still be
+disabled (unless you use need to use it often) as this feature will report your
+location back to Apple regularly.*
+
+## Android 13
+
+**_NOTE:_** _Due to the nature of Android devices, the exact layout of the menu may vary from device to device._
+
+- Network & internet: Private DNS: Private DNS provider hostname: Any provider from [this list](https://www.privacyguides.org/dns/) (You can ignore this if you plan to use a [VPN](/guides/less-important/vpns) on your device)
+- Connected devices: Connection preferences: Bluetooth: Disabled when not in use
+- Connected devices: Connection preferences: Printing: Default Print Service: Use Print Service: Disabled
+- Connected devices: Connection preferences: Nearby Share: Off
+- Connected devices: Connection preferences: Android Auto: Disabled
+- Apps: All apps: Uninstall or disable any apps you don't use.
+- Apps: Default apps: See [Securing Mobile: Replacement Apps](/guides/most-important/mobile-apps)
+- Notifications: Notification history: Disabled
+- Notifications: Device & app notifications: Review settings
+- Notifications: Notifications on lock screen: "Don't show any notifications"
+- Display: Lock screen: Don't show notifications at all
+- Display: Screen timeout: Shortest duration you are comfortable with
+- Display: Wallpaper & style: Change wallpaper: Set your lock screen to something generic and non-personal (no family photos, etc)
+- Accessibility: Text-to-speech output: Preferred engine settings: Anonymous usage reports: Off
+- Security: Screen lock: [Strong password](/guides/most-important/passwords) preferred, followed by PIN, Pattern, and Swipe. A fingerprint is also acceptable (coupled with a strong password or PIN)
+- Security: More security settings: Smart Lock: Not recommended
+- Security: More security settings: SIM card lock: Enable (contact your provider for the SIM PIN)
+- Security: More security settings: Encryption & credentials: Encrypt phone: Enabled
+- Security: More security settings: Encryption & credentials: Clear credentials (this may be a good idea if this is not a new phone)
+- Security: More security settings: Trust agents: Disabled
+- Privacy: Permission manager: Review each category and app.
+- Privacy: Show passwords: Disabled
+- Privacy: Personalize using app data: Disabled
+- Privacy: Autofill service from Google: Use Autofill with Google Disabled
+- Privacy: Google location history: Disabled
+- Privacy: Activity controls: Review
+- Privacy: Ads: Opt out of Ads Personalization: Enabled
+- Privacy: Usage & diagnostics: Disabled
+- Location: Disable if you don't use it, otherwise review apps and disable permissions accordingly
+- Safety & emergency: Emergency information: I encourage you to set this up in case of emergency. Saving a life should always be prioritized over privacy.
+- Safety & emergency: Emergency Location Services: Disabled (they will pull the information regardless if you dial emergency services)
+- Passwords & accounts: Empty all saved passwords, use a [password manager](/guides/most-important/passwords) instead
+- Google: Disable everything (exception: enable "Opt out of Ads Personalization")
+- Any settings not covered are personal preference and are unlikely to cause any privacy or security issues no matter how you set them.
+- **_Note:_** _it is possible to use an Android device without ever signing into a Google account for added privacy. This must be done during device setup. You can use [Neo Store](https://github.com/NeoApplications/Neo-Store) ([F-Droid](https://f-droid.org/) for older Android versions) to procure many [open source](/guides/prologue/open-source) apps, and [Aurora Store](https://auroraoss.com/) as a proxy for the Play Store for anything else you can't get on Neo or F-Droid._
+- **_Note:_** _Android in particular is capable of a number of powerful, privacy- and security-enhancing strategies that iOS is not, such as the aforementioned "no account required," alternative app stores, sideloading, user profiles, and much more. Some of these are advanced techniques, but not all, though many of them fall outside the scope of this site. For those using or considering an Android device, I strongly encourage you to check out Privacy Guide's [Android page](https://www.privacyguides.org/android/) to get an idea of some of the things your phone is capable of._
+
+By enabling all of these settings, you are significantly reducing the amount of tracking and data collection these devices perform, but keep in mind that you are not completely eliminating it.
