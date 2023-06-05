@@ -9,7 +9,7 @@
             "[Audited](https://protonmail.com/blog/security-audit/)",
             "Based on PGP",
             "Offers a free tier",
-            "Includes a VPN account, Calendar, and Drive storage with all plans",
+            "Includes a VPN account, calendar, and cloud storage with all plans",
             "Import/export emails available"
         ],
         "cons": [
@@ -25,7 +25,7 @@
         "pros": [
             "Apps available for Android, iOS, and Mac",
             "Offers a free tier",
-            "Includes a collaborative workspace, calendar, and Drive storage with all plans",
+            "Includes a collaborative workspace, calendar, and cloud storage with all plans",
             "Import emails available"
         ],
         "cons": [
@@ -35,7 +35,7 @@
             "Audited, but results have not been publicly released yet"
         ]
     },
-    "skiff": {
+    "tutanota": {
         "name": "Tutanota",
         "logo": "/images/logos/tutanota.png",
         "logo_alt": "Tutanota Logo",

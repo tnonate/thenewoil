@@ -3,5 +3,11 @@
         "name": "GitLab",
         "link": "https://gitlab.com/thenewoil/website/",
         "img": "/images/logos/gitlab2.png"
+    },
+    {
+        "name": "GitHub",
+        "link": "https://github.com/tnonate/thenewoil",
+        "img": "/images/logos/github.png",
+        "not_encouraged": true
     }
 ]
