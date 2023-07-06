@@ -4,19 +4,13 @@
         "title": "Founder/Editor"
     },
     {
-        "name": "Uncover",
+        "name": "Anonymous Moderator",
         "title": "Moderator",
         "links": [
             {
-                "name": "Reddit",
-                "link": "https://reddit.com/user/Uncover-Monetize/",
-                "icon": "/images/logos/reddit.svg"
-            },
-            {
-                "name": "Matrix",
-                "link": "https://matrix.to/#/@uncover:matrix.org",
-                "icon": "/images/logos/matrix-light.svg",
-                "icon_dark": "/images/logos/matrix-dark.svg"
+                "name": "Discord",
+                "link": "#",
+                "icon": "/images/logos/discord.png"
             }
         ]
     },
@@ -33,6 +27,29 @@
         ]
     },
     {
+        "name": "daryl76679",
+        "title": "Moderator",
+        "links": [
+            {
+                "name": "PeerTube",
+                "link": "https://apertatube.net/a/daryl76679/video-channels",
+                "icon": "/images/logos/peertube.png",
+                "icon_dark": "/images/logos/peertube.png"
+            }
+        ]
+    },
+    {
+        "name": "Hestia Hacker",
+        "title": "Video Editor (TikTok)",
+        "links": [
+            {
+                "name": "Website",
+                "link": "https://www.tindie.com/stores/eternalsunshine/",
+                "icon": "/images/logos/website.png"
+            }
+        ]
+    },
+    {
         "name": "Jun",
         "title": "Moderator",
         "links": [
@@ -45,14 +62,24 @@
         ]
     },
     {
-        "name": "daryl76679",
+        "name": "Uncover",
         "title": "Moderator",
         "links": [
             {
-                "name": "PeerTube",
-                "link": "https://apertatube.net/a/daryl76679/video-channels",
-                "icon": "/images/logos/peertube.png",
-                "icon_dark": "/images/logos/peertube.png"
+                "name": "Discord",
+                "link": "#",
+                "icon": "/images/logos/discord.png"
+            },
+            {
+                "name": "Matrix",
+                "link": "https://matrix.to/#/@uncover:matrix.org",
+                "icon": "/images/logos/matrix-light.svg",
+                "icon_dark": "/images/logos/matrix-dark.svg"
+            },
+            {
+                "name": "Reddit",
+                "link": "https://reddit.com/user/Uncover-Monetize/",
+                "icon": "/images/logos/reddit.svg"
             }
         ]
     }
