@@ -57,7 +57,7 @@
             "name": "Firewall & Content Blocker (None Included by Default)",
             "values": {
                 "Alternatives": [
-                    "Adguard DNS ([Android](https://adguard.com/en/adguard-android/overview), [iOS](https://apps.apple.com/app/apple-store/id1047223162))",
+                    "Adguard DNS ([Android](https://adguard.com/en/adguard-android/overview.html), [iOS](https://apps.apple.com/app/apple-store/id1047223162))",
                     "Blokada ([Android](https://blokada.org/#download), [iOS](https://apps.apple.com/us/app/blokada/id1508341781)) *(No free version for iOS)*",
                     "Lockdown ([iOS](https://apps.apple.com/us/app/lockdown-apps/id1469783711))"
                 ],

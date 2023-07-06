@@ -2,8 +2,8 @@
 
 ## Mission Statement
 
-- To **educate** readers on why privacy and security matter, and the various tools and techniques available to help them reclaim and protect their own privacy & security
-- To **empower** readers to believe that privacy and security are attainable for everyone and to do their best to reclaim & protect their own privacy and security as much as possible.
+* To **educate** readers on why privacy and security matter, and the various tools and techniques available to help them reclaim and protect their own privacy & security
+* To **empower** readers to believe that privacy and security are attainable for everyone and to do their best to reclaim & protect their own privacy and security as much as possible.
 
 ## Contributing
 
@@ -13,21 +13,16 @@ For an in depth guide on how to set up the project on your local machine [click 
 
 ## Other Online Presences
 
-- [Website](https://thenewoil.org/)
-
-- [Podcast](https://surveillancereport.tech/)
-
-- [Blog](https://blog.thenewoil.org)
-
-- [Mastodon](https://freeradical.zone/@thenewoil)
-
-- [PeerTube](https://apertatube.net/c/thenewoil/videos)
-- [Odysee](https://odysee.com/@thenewoil)
-- [YouTube](https://www.youtube.com/thenewoil)
-
-- [Matrix](https://matrix.to/#/#TheNewOil:matrix.org)
-- [Discord](https://discord.gg/JUf4a5xdmK)
-- [Reddit](https://www.reddit.com/r/thenewoil/)
+* [Website](https://thenewoil.org/)
+* [Podcast](https://surveillancereport.tech/)
+* [Blog](https://blog.thenewoil.org)
+* [Mastodon](https://freeradical.zone/@thenewoil)
+* [PeerTube](https://apertatube.net/c/thenewoil/videos)
+* [Odysee](https://odysee.com/@thenewoil)
+* [YouTube](https://www.youtube.com/thenewoil)
+* [Matrix](https://matrix.to/#/#TheNewOil:matrix.org)
+* [Discord](https://discord.gg/JUf4a5xdmK)
+* [Reddit](https://www.reddit.com/r/thenewoil/)
 
 ## Support
 
@@ -38,22 +33,22 @@ In addition to submitting corrections and changes, readers are also welcome to s
 
 You can find all our support methods [here](https://thenewoil.org/en/support).
 
-_You can also see how these donations will be used, by visiting our [roadmap](https://thenewoil.org/en/roadmap)._
+*You can also see how these donations will be used, by visiting our [roadmap](https://thenewoil.org/en/roadmap).*
 
 ## License
 
 **This project is licensed under a Creative Commons Attribution 4.0 International License.**
 
-- **[License Summary](https://creativecommons.org/licenses/by/4.0/)**
-- **[License](https://creativecommons.org/licenses/by/4.0/legalcode)**
+* [**License Summary**](https://creativecommons.org/licenses/by/4.0/)
+* [**License**](https://creativecommons.org/licenses/by/4.0/legalcode)
 
 ## Transparency
 
-- **[2022 Transparency Report](https://blog.thenewoil.org/transparency-report-2022-and-goals-for-2023)**
-- **[2021 Transparency Report](https://blog.thenewoil.org/transparency-report-2021-and-goals-for-2022)**
-- **[2020 Transparency Report](https://blog.thenewoil.org/2020-recap-2021-plans)**
+* [**2022 Transparency Report**](https://blog.thenewoil.org/transparency-report-2022-and-goals-for-2023)
+* [**2021 Transparency Report**](https://blog.thenewoil.org/transparency-report-2021-and-goals-for-2022)
+* [**2020 Transparency Report**](https://blog.thenewoil.org/2020-recap-2021-plans)
 
 ## Applications
 
-- [Community Moderator Application](https://cryptpad.fr/form/#/2/form/view/99si-RTW4n6MV5i4wzzDuGpGSgQJ1mG8uoyi0q8z37M/)
-- [Consulting Application](https://cryptpad.fr/form/#/2/form/view/vRN7JSx2x71E0Ufg7MthpP1ZeZSV7ZK0grbx-TlVlHc/)
+* [Community Moderator Application](https://cryptpad.fr/form/#/2/form/view/99si-RTW4n6MV5i4wzzDuGpGSgQJ1mG8uoyi0q8z37M/)
+* [Consulting Application](https://cryptpad.fr/form/#/2/form/view/vRN7JSx2x71E0Ufg7MthpP1ZeZSV7ZK0grbx-TlVlHc/)
