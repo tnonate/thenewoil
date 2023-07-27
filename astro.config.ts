@@ -2,13 +2,15 @@ import * as fs from "fs/promises";
 import * as path from "path";
 import { fileURLToPath } from "url";
 
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
 
 import type Config from "./typings/config";
 
 const DIRNAME = path.dirname(fileURLToPath(import.meta.url));
 
-const config = JSON.parse((await fs.readFile(path.resolve(DIRNAME, "config.json"))).toString()) as Config;
+const config = JSON.parse(
+  (await fs.readFile(path.resolve(DIRNAME, "config.json"))).toString()
+) as Config;
 
 // https://astro.build/config
 import tailwind from "@astrojs/tailwind";
@@ -28,7 +30,7 @@ import languagePlugin from "./plugins/astro-language";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://thenewoil.org',
+  site: "https://thenewoil.org",
   integrations: [
     tailwind({ config: { applyBaseStyles: false } }),
     mdx(),
@@ -38,14 +40,14 @@ export default defineConfig({
       css: { comments: false },
       html: { removeComments: true },
       js: false,
-      logger: 1
+      logger: 1,
     }),
     languagePlugin({
-      supportedLanguageCodes: config.languages.map((lang) => lang.code)
+      supportedLanguageCodes: config.languages.map((lang) => lang.code),
     }),
     aliasPlugin({
       aliasFile: path.resolve(DIRNAME, "aliases.json"),
-      pagesDir: path.resolve(DIRNAME, "src", "pages")
-    })
-  ]
+      pagesDir: path.resolve(DIRNAME, "src", "pages"),
+    }),
+  ],
 });

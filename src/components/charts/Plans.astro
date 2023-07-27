@@ -39,7 +39,7 @@ const { data, direction: directionKey = "col", nonReferralLinkText = "Non-referr
         <div
           class={`h-full p-4 ${
             (directionKey === "row" || index != data.criterias.length - 1) &&
-            "border-gradient-secondary-center border-b-4"
+            "border-b-4 border-gradient-secondary-center"
           }`}
         >
           <Markdown of={String(criteria)} />
@@ -57,7 +57,7 @@ const { data, direction: directionKey = "col", nonReferralLinkText = "Non-referr
           <div
             class={`flex w-full flex-col items-center justify-between gap-4 p-4 ${
               (directionKey != "row" || toolIndex != Object.values(data.tools).length - 1) &&
-              "border-gradient-secondary-center border-b-4"
+              "border-b-4 border-gradient-secondary-center"
             }`}
             style={`grid-column: span ${plansKeys.length} / span ${plansKeys.length}`}
           >
@@ -81,7 +81,7 @@ const { data, direction: directionKey = "col", nonReferralLinkText = "Non-referr
                   class={`h-full p-4 ${
                     (directionKey === "row"
                       ? toolIndex != Object.values(data.tools).length - 1
-                      : planIndex != data.criterias.length - 1) && "border-gradient-secondary-center border-b-4"
+                      : planIndex != data.criterias.length - 1) && "border-b-4 border-gradient-secondary-center"
                   }`}
                 >
                   <Markdown of={String(planKey)} />
@@ -92,7 +92,7 @@ const { data, direction: directionKey = "col", nonReferralLinkText = "Non-referr
                       class={`h-full p-4 ${
                         (directionKey === "row"
                           ? toolIndex != Object.values(data.tools).length - 1
-                          : index != data.criterias.length - 1) && "border-gradient-secondary-center border-b-4"
+                          : index != data.criterias.length - 1) && "border-b-4 border-gradient-secondary-center"
                       }`}
                     >
                       <Markdown of={String(criteriaValue)} />

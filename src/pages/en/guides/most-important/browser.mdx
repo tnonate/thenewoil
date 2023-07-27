@@ -20,25 +20,47 @@ While I don't think there is a perfect solution in this space, I personally reco
 
 ## Extensions
 
-<img src="/images/logos/ublock.png" alt="ublock logo alt" class="w-24 float-left mx-6"/>**If you decide to go with Brave, you don't need to add any additional extensions** (except for the ones in the next paragraph if you decide). **If you decide to go with Firefox, you should install [uBlock Origin](https://ublockorigin.com/)**,
-a powerful, lightweight ad- and tracker-blocker. Officially, uBlock Origin is ready
-for use "out of the box." However, there's a few things I prefer to modify to
-improve the protections and convenience it has to offer. First, I enable every option under the "[Privacy](*PUBLIC*/images/steps/ublock-setup/step1.jpg)"
-section. Next, click on the tab “[Filter lists](*PUBLIC*/images/steps/ublock-setup/step2.jpg)” and start by clicking on the toggle that says "Suspend network activity until all filter lists are loaded." This may require you to wait a few seconds before you can start browsing every time you open the browser, but it will ensure you are as protected as possible the entire time. Finally,
-enable "AdGuard URL Tracking Protection" and "EasyList Cookie" under "Privacy" and “Annoyances" respectively. These will disable tracking links - a major threat to privacy - and those annoying cookie banners (respectively).
+<img
+  src="/images/logos/ublock.png"
+  alt="ublock logo alt"
+  class="float-left mx-6 w-24"
+/>
+**If you decide to go with Brave, you don't need to add any additional extensions**
+(except for the ones in the next paragraph if you decide). **If you decide to go
+with Firefox, you should install [uBlock Origin](https://ublockorigin.com/)**, a
+powerful, lightweight ad- and tracker-blocker. Malicious, fake ads designed to scam
+you or trick you into downloading malware (called "malvertising") has become such
+a serious problem that even the FBI [recommends](https://techcrunch.com/2022/12/22/fbi-ad-blocker/)
+that you use an ad-blocker. Officially, uBlock Origin is ready for use "out of the
+box." However, there's a few things I prefer to modify to improve the protections
+and convenience it has to offer. First, I enable every option under the "[Privacy](*PUBLIC*/images/steps/ublock-setup/step1.jpg)"
+section. Next, click on the tab “[Filter lists](*PUBLIC*/images/steps/ublock-setup/step2.jpg)”
+and start by clicking on the toggle that says "Suspend network activity until all
+filter lists are loaded." This may require you to wait a few seconds before you can
+start browsing every time you open the browser, but it will ensure you are as protected
+as possible the entire time. Finally, enable "AdGuard URL Tracking Protection" and
+"EasyList Cookie" under "Privacy" and “Annoyances" respectively. These will disable
+tracking links - a major threat to privacy - and those annoying cookie banners (respectively).
 
-<img src="/images/logos/snowflake.png" alt="snowflake logo" class="w-24 float-left mx-6" />There are two additional extensions that I think are worth adding if you feel so
-inclined. The first is your [password manager's](/guides/most-important/passwords) official
-extension. Many password managers offer browser extensions to help make logging in
-easy and safe. There are numerous advantages to these, like protection against phishing
-and keyloggers, and as such I consider these okay to install if you want to. The
-other is [Snowflake](https://snowflake.torproject.org/) (this is optionally included in Brave, see the recommended settings below). This is a project to help
-certain internet users in foreign, repressive countries bypass censorship. This should
-not cause any kind of legal risk to you. Both of these extensions are optional, but
-I believe they are safe to use. I strongly advise against installing any other extensions
-unless absolutely necessary. The more extensions you install, the more easily your
-browser can be fingerprinted, making it easier to track you across the web despite
-any other privacy-enhancing changes you make to your browser or browsing habits.
+<img
+  src="/images/logos/snowflake.png"
+  alt="snowflake logo"
+  class="float-left mx-6 w-24"
+/>
+There are two additional extensions that I think are worth adding if you feel so
+inclined. The first is your [password manager's](/guides/most-important/passwords)
+official extension. Many password managers offer browser extensions to help make
+logging in easy and safe. There are numerous advantages to these, like protection
+against phishing and keyloggers, and as such I consider these okay to install if
+you want to. The other is [Snowflake](https://snowflake.torproject.org/) (this is
+optionally included in Brave, see the recommended settings below). This is a project
+to help certain internet users in foreign, repressive countries bypass censorship.
+This should not cause any kind of legal risk to you. Both of these extensions are
+optional, but I believe they are safe to use. I strongly advise against installing
+any other extensions unless absolutely necessary. The more extensions you install,
+the more easily your browser can be fingerprinted, making it easier to track you
+across the web despite any other privacy-enhancing changes you make to your browser
+or browsing habits.
 
 ## Settings
 
@@ -46,7 +68,11 @@ any other privacy-enhancing changes you make to your browser or browsing habits.
 
 ### Brave
 
-<img src="/images/logos/brave.png" alt="brave logo" class="w-24 float-right mx-6" />
+<img
+  src="/images/logos/brave.png"
+  alt="brave logo"
+  class="float-right mx-6 w-24"
+/>
 
 - Appearance:
   - Show autocomplete in address bar: disabled
@@ -80,7 +106,11 @@ _3: This will sign you out of everything and reset any settings. See Note 2 for 
   
 ### Firefox
 
-<img src="/images/logos/firefox.png" alt="firefox logo" class="w-24 float-right mx-6" />
+<img
+  src="/images/logos/firefox.png"
+  alt="firefox logo"
+  class="float-right mx-6 w-24"
+/>
 
 - After downloading but before installing, disconnect from the internet.<sup>1</sup>
 - **(Skip this setting if using a [VPN](/guides/less-important/vpns).)** General: Network Settings: Enable DNS over HTTPS: Custom: Select a DNS provider from [this list](https://www.privacyguides.org/dns/).
@@ -109,11 +139,33 @@ _3: There is malware capable of swiping data stored in your browser, including h
 
 ### Mullvad Browser
 
-<img src="/images/logos/mullvad-browser.png" alt="mullvad browser logo" class="w-24 float-left mx-6" />While the [Mullvad Browser](https://mullvad.net/en/browser) technically meets the criteria to be listed as an official recommendation here, I'm currently listing it as an "honorable mention" for two reasons. The first is that it's new and untested, and the second is usability. The Mullvad Browser is the result of a collaboration between [Mullvad VPN](/guides/less-important/vpns) and The Tor Project (see below) and is ultimately based on Firefox. The Mullvad Browser is basically "the Tor Browser without Tor." It attempts to make all users look the same by applying the same settings to every user, thus defeating brower fingerprinting. Furthermore, the Mullvad Browser offers a number of "hardening" [features](https://mullvad.net/en/browser/hard-facts) that make it more private and secure than regular Firefox. However, these changes unfortunately come at the cost of guaranteed usability, so while the Mullvad Browser is a great and recommended browser, users should expect some degree of site breakage and be prepared to use a backup browser in those cases.
+<img
+  src="/images/logos/mullvad-browser.png"
+  alt="mullvad browser logo"
+  class="float-left mx-6 w-24"
+/>
+While the [Mullvad Browser](https://mullvad.net/en/browser) technically meets the
+criteria to be listed as an official recommendation here, I'm currently listing it
+as an "honorable mention" for two reasons. The first is that it's new and untested,
+and the second is usability. The Mullvad Browser is the result of a collaboration
+between [Mullvad VPN](/guides/less-important/vpns) and The Tor Project (see below)
+and is ultimately based on Firefox. The Mullvad Browser is basically "the Tor Browser
+without Tor." It attempts to make all users look the same by applying the same settings
+to every user, thus defeating brower fingerprinting. Furthermore, the Mullvad Browser
+offers a number of "hardening" [features](https://mullvad.net/en/browser/hard-facts)
+that make it more private and secure than regular Firefox. However, these changes
+unfortunately come at the cost of guaranteed usability, so while the Mullvad Browser
+is a great and recommended browser, users should expect some degree of site breakage
+and be prepared to use a backup browser in those cases.
 
 ### LibreWolf
 
-<img src="/images/logos/librewolf.png" alt="librewolf logo" class="w-24 float-left mx-6" />[LibreWolf](https://librewolf.net/) does not technically qualify to be listed on
+<img
+  src="/images/logos/librewolf.png"
+  alt="librewolf logo"
+  class="float-left mx-6 w-24"
+/>
+[LibreWolf](https://librewolf.net/) does not technically qualify to be listed on
 this site because it is not capable of auto-update on Mac and Windows. However, I
 believe LibreWolf is still worth a mention. LibreWolf is a pre-hardened fork of Firefox,
 offering pre-configured improvements like no telemetry, private default search options,
@@ -124,7 +176,8 @@ First, you should beware that LibreWolf's hardened settings may result in some w
 
 ### Tor Browser
 
-<img src="/images/logos/tor.png" alt="tor logo" class="w-24 float-left mx-6" />Between the extensions and the settings changes suggested on this page, you will
+<img src="/images/logos/tor.png" alt="tor logo" class="float-left mx-6 w-24" />
+Between the extensions and the settings changes suggested on this page, you will
 greatly reduce the ability of websites to track you as you go from site to site.
 However, it should be noted that browser fingerprinting - one of the most common
 forms of online tracking - is incredibly complex and ever evolving. While these changes

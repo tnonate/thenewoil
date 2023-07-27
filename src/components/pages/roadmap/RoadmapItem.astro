@@ -14,7 +14,7 @@ const headingId = await textToHeadingId({
 ---
 
 <article class="flex min-h-[4rem]">
-  <header class="hidden w-1/3 max-w-xs items-center break-all sm:break-words px-4 py-2 sm:flex">
+  <header class="hidden w-1/3 max-w-xs items-center break-all px-4 py-2 sm:flex sm:break-words">
     <h2 id={headingId} class="text-2xl font-medium">{title}</h2>
   </header>
   <div class="relative order-first w-[2px] bg-gradient-secondary-center sm:order-none" aria-hidden>
@@ -24,7 +24,7 @@ const headingId = await textToHeadingId({
     </div>
   </div>
   <div class="flex flex-1 flex-col items-center gap-2 px-4 py-4 transition-all sm:flex-row sm:py-2">
-    <header class="flex w-full items-center break-all sm:break-words sm:hidden">
+    <header class="flex w-full items-center break-all sm:hidden sm:break-words">
       <h2 id={`${headingId}-mobile`} class="text-2xl font-medium">{title}</h2>
     </header>
     <slot />

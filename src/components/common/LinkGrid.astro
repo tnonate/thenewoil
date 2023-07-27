@@ -15,7 +15,7 @@ interface Props {
 const { items } = Astro.props;
 ---
 
-<ul class="mb-10 w-full grid grid-cols-1 gap-4 overflow-auto p-0 sm:mb-20 sm:gap-8 lg:grid-cols-2 xl:grid-cols-3">
+<ul class="mb-10 grid w-full grid-cols-1 gap-4 overflow-auto p-0 sm:mb-20 sm:gap-8 lg:grid-cols-2 xl:grid-cols-3">
   {
     items.map((item) => {
       const hasSubLink = !!item.sublink;
@@ -25,14 +25,14 @@ const { items } = Astro.props;
       return (
         <li class="flex list-none" title={item.not_encouraged ? "Not encouraged" : ""}>
           <Container
-            class={`border-bg-primary dark:border-bg-primary-dark flex flex-1 items-center gap-4 rounded-lg border-4 p-4 ${
+            class={`flex flex-1 items-center gap-4 rounded-lg border-4 p-4 border-bg-primary dark:border-bg-primary-dark ${
               item.not_encouraged ? "border-gradient-warning" : "border-gradient-secondary"
             }`}
             href={!hasSubLink && item.link}
           >
             <PossibleLink
               href={hasSubLink && item.link}
-              class="xs:h-16 xs:w-16 aspect-square h-10 w-10 border-none transition-all sm:h-20 sm:w-20 md:h-24 md:w-24"
+              class="aspect-square h-10 w-10 border-none transition-all xs:h-16 xs:w-16 sm:h-20 sm:w-20 md:h-24 md:w-24"
             >
               <img
                 loading="lazy"
@@ -44,20 +44,20 @@ const { items } = Astro.props;
             <div class="flex w-fit flex-col justify-center">
               <PossibleLink
                 href={hasSubLink && item.link}
-                class="xs:text-lg text-base font-medium motion-safe:transition-all sm:break-normal sm:text-xl border-none"
+                class="border-none text-base font-medium motion-safe:transition-all xs:text-lg sm:break-normal sm:text-xl"
               >
                 {item.name}
               </PossibleLink>
               {item.sublink && item.subtext && (
                 <a
                   href={item.sublink}
-                  class="text-primary-contrast dark:text-primary-dark-contrast w-fit text-opacity-80 dark:text-opacity-80"
+                  class="w-fit text-primary-contrast text-opacity-80 dark:text-primary-dark-contrast dark:text-opacity-80"
                 >
                   {item.subtext}
                 </a>
               )}
               {!item.sublink && item.subtext && (
-                <p class="text-primary-contrast dark:text-primary-dark-contrast block w-fit text-opacity-80 dark:text-opacity-80">
+                <p class="block w-fit text-primary-contrast text-opacity-80 dark:text-primary-dark-contrast dark:text-opacity-80">
                   {item.subtext}
                 </p>
               )}

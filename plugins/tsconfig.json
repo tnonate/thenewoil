@@ -1,12 +1,12 @@
 {
-    "references": [
-        {
-            "path": "./astro-language/tsconfig.json"
-        }
-    ],
-    "extends": "../typings/configs/tsconfig.node.json",
-    "compilerOptions": {
-        "composite": true,
-        "tsBuildInfoFile": "./.tsbuildinfo"
+  "references": [
+    {
+      "path": "./astro-language/tsconfig.json"
     }
+  ],
+  "extends": "../typings/configs/tsconfig.node.json",
+  "compilerOptions": {
+    "composite": true,
+    "tsBuildInfoFile": "./.tsbuildinfo"
+  }
 }

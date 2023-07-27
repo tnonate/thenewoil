@@ -8,7 +8,9 @@ BlogPages.sort((a, b) => {
 });
 ---
 
-<div class="w-full overflow-auto border-gradient-secondary border-4 border-bg-primary dark:border-bg-primary-dark rounded-lg flex flex-col">
+<div
+  class="flex w-full flex-col overflow-auto rounded-lg border-4 border-gradient-secondary border-bg-primary dark:border-bg-primary-dark"
+>
   {
     BlogPages.map((page, index) => {
       const createdDate = new Date(page.created).toLocaleString("en-US", {
@@ -19,8 +21,8 @@ BlogPages.sort((a, b) => {
 
       return (
         <a
-          class={`flex items-center justify-between p-4 rounded-t-lg ${
-            index != length - 1 && "border-gradient-secondary border-0 border-b-4"
+          class={`flex items-center justify-between rounded-t-lg p-4 ${
+            index != length - 1 && "border-0 border-b-4 border-gradient-secondary"
           }`}
           href={`https://blog.thenewoil.org/${page.slug}`}
         >

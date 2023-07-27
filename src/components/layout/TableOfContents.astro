@@ -9,7 +9,7 @@ interface Props {
 const { headings } = Astro.props;
 ---
 
-<nav class="hidden lg:flex w-full lg:w-1/4 flex-col overflow-auto bg-tertiary px-6 py-4 dark:bg-tertiary-dark">
+<nav class="hidden w-full flex-col overflow-auto bg-tertiary px-6 py-4 dark:bg-tertiary-dark lg:flex lg:w-1/4">
   <p class="my-4 text-center text-lg font-bold" aria-hidden>Navigation</p>
   <ul aria-label="Headings" class="flex flex-col gap-4 p-0">
     {
@@ -21,7 +21,7 @@ const { headings } = Astro.props;
             style={{ marginLeft: heading.depth !== 2 && `${(heading.depth - 2) * 2}rem` }}
           >
             <a
-              class="border-gradient-primary border-bg-tertiary dark:border-bg-tertiary-dark hover:border-b-4"
+              class="border-gradient-primary border-bg-tertiary hover:border-b-4 dark:border-bg-tertiary-dark"
               href={`#${heading.slug}`}
             >
               {heading.text}
@@ -32,8 +32,13 @@ const { headings } = Astro.props;
   </ul>
 </nav>
 
-<details class="group/sidebar-mobile flex w-full lg:hidden flex-col overflow-auto bg-tertiary p-4 dark:bg-tertiary-dark">
-  <summary class="flex items-center justify-center text-center text-lg font-bold rounded-lg border-2 border-black border-opacity-10 p-4 transition-all group-open/sidebar-mobile:border-opacity-20 dark:border-white/[var(--tw-border-opacity)]" aria-hidden>
+<details
+  class="group/sidebar-mobile flex w-full flex-col overflow-auto bg-tertiary p-4 dark:bg-tertiary-dark lg:hidden"
+>
+  <summary
+    class="flex items-center justify-center rounded-lg border-2 border-black border-opacity-10 p-4 text-center text-lg font-bold transition-all group-open/sidebar-mobile:border-opacity-20 dark:border-white/[var(--tw-border-opacity)]"
+    aria-hidden
+  >
     Navigation
     <Icon
       name="mdi:chevron-up"
@@ -52,7 +57,7 @@ const { headings } = Astro.props;
             style={{ marginLeft: heading.depth !== 2 && `${(heading.depth - 2) * 2}rem` }}
           >
             <a
-              class="border-gradient-primary border-bg-tertiary dark:border-bg-tertiary-dark hover:border-b-4"
+              class="border-gradient-primary border-bg-tertiary hover:border-b-4 dark:border-bg-tertiary-dark"
               href={`#${heading.slug}`}
             >
               {heading.text}

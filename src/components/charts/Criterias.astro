@@ -45,7 +45,7 @@ const directionClasses = GRID_DIRECTION_CLASSES[directionKey];
         <div
           class={`h-full p-4 text-center ${
             directionKey === "col" || (directionKey === "row" && !isLastCriteria)
-              ? "border-gradient-secondary-center border-b-4"
+              ? "border-b-4 border-gradient-secondary-center"
               : ""
           }`}
         >
@@ -64,7 +64,7 @@ const directionClasses = GRID_DIRECTION_CLASSES[directionKey];
           <div
             class={` flex w-full flex-col items-center p-4 text-center ${
               directionKey === "row" || (directionKey === "col" && !isLastTool)
-                ? "border-gradient-secondary-center border-b-4"
+                ? "border-b-4 border-gradient-secondary-center"
                 : ""
             }`}
           >
@@ -93,7 +93,7 @@ const directionClasses = GRID_DIRECTION_CLASSES[directionKey];
               <div
                 class={`h-full p-4 ${
                   (directionKey === "col" && !isLastTool) || (directionKey === "row" && !isLastCriteria)
-                    ? "border-gradient-secondary-center border-b-4"
+                    ? "border-b-4 border-gradient-secondary-center"
                     : ""
                 }`}
               >

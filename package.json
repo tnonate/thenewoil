@@ -1,41 +1,41 @@
 {
-    "type": "module",
-    "scripts": {
-        "setup": "npm i && astro telemetry disable",
-        "dev": "astro dev",
-        "start": "astro dev",
-        "build": "astro build",
-        "preview": "astro preview",
-        "format:check": "prettier --check .",
-        "format:write": "prettier --write .",
-        "scripts:fetch-blog": "ts-node scripts/fetchBlog/index.ts"
-    },
-    "engines": {
-        "node": ">= 18"
-    },
-    "devDependencies": {
-        "@types/node": "^18.11.17",
-        "astro-compress": "^1.1.28",
-        "astro-robots-txt": "^0.3.11",
-        "linkedom": "^0.14.21",
-        "node-fetch": "^3.3.0",
-        "prettier": "^2.8.1",
-        "prettier-plugin-astro": "^0.7.2",
-        "prettier-plugin-tailwindcss": "^0.2.2",
-        "sass": "^1.57.1",
-        "string-strip-html": "^13.0.4",
-        "ts-node": ">= 10.9.1",
-        "typescript": "^4.9.4"
-    },
-    "dependencies": {
-        "@astrojs/mdx": "^0.14.0",
-        "@astrojs/sitemap": "^1.0.0",
-        "@astrojs/tailwind": "^3.0.1",
-        "@astropub/md": "^0.1.4",
-        "@fontsource/roboto": "^4.5.8",
-        "@fontsource/roboto-mono": "^4.5.8",
-        "astro": "^2.0.10",
-        "astro-icon": "^0.8.0",
-        "tailwindcss": "^3.2.4"
-    }
+  "type": "module",
+  "scripts": {
+    "setup": "npm i && astro telemetry disable",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write .",
+    "scripts:fetch-blog": "ts-node scripts/fetchBlog/index.ts"
+  },
+  "engines": {
+    "node": ">= 18"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.17",
+    "astro-compress": "^1.1.28",
+    "astro-robots-txt": "^0.3.11",
+    "linkedom": "^0.14.21",
+    "node-fetch": "^3.3.0",
+    "prettier": "^2.8.1",
+    "prettier-plugin-astro": "^0.7.2",
+    "prettier-plugin-tailwindcss": "^0.2.2",
+    "sass": "^1.57.1",
+    "string-strip-html": "^13.0.4",
+    "ts-node": ">= 10.9.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^0.14.0",
+    "@astrojs/sitemap": "^1.0.0",
+    "@astrojs/tailwind": "^3.0.1",
+    "@astropub/md": "^0.1.4",
+    "@fontsource/roboto": "^4.5.8",
+    "@fontsource/roboto-mono": "^4.5.8",
+    "astro": "^2.0.10",
+    "astro-icon": "^0.8.0",
+    "tailwindcss": "^3.2.4"
+  }
 }
