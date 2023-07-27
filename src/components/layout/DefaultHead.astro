@@ -1,0 +1,44 @@
+---
+import "@styles/main.scss";
+import "@fontsource/roboto/100.css";
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/400.css";
+import "@fontsource/roboto/500.css";
+import "@fontsource/roboto/700.css";
+import "@fontsource/roboto/900.css";
+import "@fontsource/roboto-mono/100.css";
+import "@fontsource/roboto-mono/200.css";
+import "@fontsource/roboto-mono/300.css";
+import "@fontsource/roboto-mono/400.css";
+import "@fontsource/roboto-mono/500.css";
+import "@fontsource/roboto-mono/600.css";
+import "@fontsource/roboto-mono/700.css";
+
+import config from "../../../config.json";
+
+interface Props {
+  pageTitle: string;
+}
+
+const { pageTitle } = Astro.props;
+const title = `${config.title}${pageTitle && ` | ${pageTitle}`}`;
+---
+
+<!-- Title -->
+<title>{title}</title>
+<meta name="og:title" content={title} />
+
+<!-- Favicon -->
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+<!-- Metadata headers -->
+{
+  config.metatags.map((metatag) => {
+    return <meta name={metatag.name} content={metatag.content} />;
+  })
+}
+
+<!-- Misc -->
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />

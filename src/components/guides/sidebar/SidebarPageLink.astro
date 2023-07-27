@@ -1,0 +1,16 @@
+---
+interface Props {
+  url: string;
+  isCurrentPage: boolean;
+}
+
+const { url, isCurrentPage } = Astro.props;
+---
+
+<a
+  href={url}
+  data-current-page={String(isCurrentPage)}
+  class={`motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100`}
+>
+  <slot />
+</a>

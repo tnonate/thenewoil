@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Podcast",
+    "link": "https://surveillancereport.tech/",
+    "img": "/images/logos/surveillance-report.png"
+  },
+  {
+    "name": "Blog",
+    "link": "https://blog.thenewoil.org/",
+    "img": "/images/logos/writeas.png",
+    "subtext": "Table of Contents",
+    "sublink": "/en/blog-index"
+  },
+  {
+    "name": "Substack",
+    "link": "https://thenewoil.substack.com/",
+    "img": "/images/logos/substack.png"
+  },
+  {
+    "name": "Mastodon",
+    "link": "https://freeradical.zone/@thenewoil",
+    "img": "/images/logos/mastodon.png"
+  },
+  {
+    "name": "Twitter",
+    "link": "https://twitter.com/thenewoil1",
+    "img": "/images/logos/twitter.png",
+    "not_encouraged": true
+  }
+]

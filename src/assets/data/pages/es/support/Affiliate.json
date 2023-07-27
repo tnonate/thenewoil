@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Filen",
+    "link": "https://filen.io/r/834a3bd235bca0caa53141f2ebc30438",
+    "img": "/images/logos/filen.png",
+    "subtext": "Almacenamiento en la nube con conocimiento cero"
+  },
+  {
+    "name": "Mega",
+    "link": "https://mega.nz/aff=UBJLjO7sxZU",
+    "img": "/images/logos/mega.png",
+    "subtext": "Almacenamiento en la nube con conocimiento cero"
+  },
+  {
+    "name": "Nitrokey",
+    "link": "https://shop.nitrokey.com/shop?aff_ref=14",
+    "img": "/images/logos/nitrokey.png",
+    "subtext": "Hardware de seguridad y privacidad de código abierto"
+  },
+  {
+    "name": "Privacy.com",
+    "link": "https://privacy.com/join/UZ9WY",
+    "img": "/images/logos/privacy.png",
+    "subtext": "Enmascaramiento digital de tarjetas de pago"
+  },
+  {
+    "name": "ProtonDrive",
+    "link": "https://go.getproton.me/aff_c?offer_id=26&aff_id=2187&url=https%3A%2F%2Fproton.me%2F%3FvisitorId%3Dho-{transaction_id}%26aid%3D{affiliate_id}%26offer_id%3D{offer_id}%26url_id%3D{offer_url_id}%26utm_campaign%3Dww-all-2c-vpn-gro_aff-g_acq-partners_program%26utm_source%3Daid-tune-{affiliate_id}%26utm_medium%3Dlink%26utm_term%3Dgeneric_vpn_landing%26utm_content%3D{offer_id}%26hfp%3Dfalse%26spl%3D{affiliate_id}%26aap%3D{affiliate_id}",
+    "img": "/images/logos/protondrive.png",
+    "subtext": "Almacenamiento en la nube con conocimiento cero"
+  },
+  {
+    "name": "ProtonMail",
+    "link": "https://go.getproton.me/aff_c?offer_id=26&aff_id=2187&url=https%3A%2F%2Fproton.me%2F%3FvisitorId%3Dho-{transaction_id}%26aid%3D{affiliate_id}%26offer_id%3D{offer_id}%26url_id%3D{offer_url_id}%26utm_campaign%3Dww-all-2c-vpn-gro_aff-g_acq-partners_program%26utm_source%3Daid-tune-{affiliate_id}%26utm_medium%3Dlink%26utm_term%3Dgeneric_vpn_landing%26utm_content%3D{offer_id}%26hfp%3Dfalse%26spl%3D{affiliate_id}%26aap%3D{affiliate_id}",
+    "img": "/images/logos/protonmail2.png",
+    "subtext": "Proveedor de correo electrónico de conocimiento cero"
+  },
+  {
+    "name": "ProtonVPN",
+    "link": "https://go.getproton.me/aff_c?offer_id=26&aff_id=2187&url=https%3A%2F%2Fproton.me%2F%3FvisitorId%3Dho-{transaction_id}%26aid%3D{affiliate_id}%26offer_id%3D{offer_id}%26url_id%3D{offer_url_id}%26utm_campaign%3Dww-all-2c-vpn-gro_aff-g_acq-partners_program%26utm_source%3Daid-tune-{affiliate_id}%26utm_medium%3Dlink%26utm_term%3Dgeneric_vpn_landing%26utm_content%3D{offer_id}%26hfp%3Dfalse%26spl%3D{affiliate_id}%26aap%3D{affiliate_id}",
+    "img": "/images/logos/protonvpn2.png",
+    "subtext": "Red privada virtual"
+  },
+  {
+    "name": "SimpleLogin",
+    "link": "https://simplelogin.io/?slref=thenewoil",
+    "img": "/images/logos/simplelogin.png",
+    "subtext": "Servicio de enmascaramiento de direcciones de correo electrónico"
+  },
+  {
+    "name": "Skiff",
+    "link": "https://app.skiff.com/signup?mail=&referral=thenewoil",
+    "img": "/images/logos/skiff.png",
+    "subtext": "Proveedor de correo electrónico de conocimiento cero"
+  }
+]

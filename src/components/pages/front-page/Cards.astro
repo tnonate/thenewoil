@@ -1,0 +1,26 @@
+---
+import Card from "./Card.astro";
+
+interface Item {
+  title: string;
+  description: string;
+  link: string;
+}
+
+interface Props {
+  items: Item[];
+  color: "primary" | "secondary";
+}
+
+const { items, color } = Astro.props;
+---
+
+<div
+  class="grid w-full grid-cols-2 justify-center gap-2 overflow-auto motion-safe:transition-all xs:gap-4 sm:gap-8 2xl:grid-cols-4"
+>
+  {
+    items.map((item) => {
+      return <Card title={item.title} description={item.description} link={item.link} color={color} />;
+    })
+  }
+</div>

@@ -1,0 +1,34 @@
+{
+  "criterias": [
+    "Available on Android?",
+    "Available in F-Droid?",
+    "Available on iOS?",
+    "Offers backups?",
+    "Additional notes?"
+  ],
+  "tools": {
+    "aegis": {
+      "name": "Aegis",
+      "values": {
+        "Available on Android?": "Yes",
+        "Available in F-Droid?": "Yes",
+        "Available on iOS?": "No",
+        "Offers backups?": "Yes",
+        "Additional notes?": [
+          "Automatic backups optional",
+          "Optional backup straight to cloud"
+        ]
+      }
+    },
+    "xmpp": {
+      "name": "Raivo",
+      "values": {
+        "Available on Android?": "No",
+        "Available in F-Droid?": "N/A",
+        "Available on iOS?": "Yes",
+        "Offers backups?": "Yes",
+        "Additional notes?": ["Login required", "Optional sync with Mac"]
+      }
+    }
+  }
+}

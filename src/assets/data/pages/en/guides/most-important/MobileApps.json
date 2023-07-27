@@ -1,0 +1,69 @@
+{
+  "criterias": ["Alternatives", "Reason"],
+  "tools": {
+    "web browser": {
+      "name": "Web Browser",
+      "values": {
+        "Alternatives": [
+          "Android: [Brave](https://play.google.com/store/apps/details?id=com.brave.browser&hl=en&gl=US) or [Mull](https://f-droid.org/packages/us.spotco.fennec_dos/).",
+          "iOS: [SnowHaze](https://snowhaze.com/download) or [Brave](https://apps.apple.com/us/app/brave-private-browser/id1052879175)."
+        ],
+        "Reason": "While apps have mostly replaced the browser on mobile, some things are still done through the browser. While less revealing compared to other phone apps, your browser usage still reveals a lot of data about you and should be minimized."
+      }
+    },
+    "navigation": {
+      "name": "Navigation",
+      "values": {
+        "Alternatives": [
+          "[Organic Maps](https://organicmaps.app/)",
+          "[OsmAnd Maps](https://osmand.net/)"
+        ],
+        "Reason": "Google Maps, Apple Maps, and others record everywhere you go and add that location history to your profile. Using an alternate navigator won't stop your carrier from tracking your location, but it can help reduce the specific location data that is stored on you and who can collect it."
+      }
+    },
+    "calendar": {
+      "name": "Calendar",
+      "values": {
+        "Alternatives": [
+          "[Nextcloud](https://nextcloud.com/)",
+          "[ProtonCalendar](https://calendar.protonmail.com/)",
+          "[Tutanota](https://tutanota.com/calendar/)"
+        ],
+        "Reason": "Your calendar contains all your plans and locations: upcoming dates, shifts at work, events you plan to attend, and more. Using an encrypted calendar can help protect that information from Google, Apple or other third parties."
+      }
+    },
+    "e-mail": {
+      "name": "E-Mail",
+      "values": {
+        "Alternatives": [
+          "[Encrypted email provider of your choice](/guides/moderately-important/email)"
+        ],
+        "Reason": "Please see the \"[Encrypted email](/guides/moderately-important/email)\" page for more information on this subject."
+      }
+    },
+    "text messenger": {
+      "name": "Text Messenger",
+      "values": {
+        "Alternatives": [
+          "[Encrypted messaging provider of your choice](/guides/less-important/messaging)"
+        ],
+        "Reason": "Please see the \"[Encrypted Messaging](/guides/less-important/messaging)\" page for more information on this subject."
+      }
+    },
+    "firewall & content blocker(none included by default)": {
+      "name": "Firewall & Content Blocker (None Included by Default)",
+      "values": {
+        "Alternatives": [
+          "Adguard DNS ([Android](https://adguard.com/en/adguard-android/overview.html), [iOS](https://apps.apple.com/app/apple-store/id1047223162))",
+          "Blokada ([Android](https://blokada.org/#download), [iOS](https://apps.apple.com/us/app/blokada/id1508341781)) *(No free version for iOS)*",
+          "Lockdown ([iOS](https://apps.apple.com/us/app/lockdown-apps/id1469783711))"
+        ],
+        "Reason": [
+          "Phone firewalls stop apps from contacting unnecessary servers. For example, many apps contact Facebook or Google when you launch them, giving those companies information about your device and app usage. Some of these firewalls may require settings adjustments for optimal performance and effectiveness.",
+          "**Note:** You cannot use a VPN and Firewall/Content Blocker at the same time*. I recommend using a reputable [VPN provider](/guides/less-important/vpns) who offers their own DNS resolver that blocks known trackers, ads, and malware. You may also use a custom DNS resolver that also blocks ads and/or trackers instead of a VPN, but your traffic will remain exposed to varying degrees so I don't recommend this. See [this article](https://www.androidpolice.com/2020/03/26/make-android-use-dns-server-choice/) for instructions on how to change the DNS on Android, and [this article](https://gadgets.ndtv.com/mobiles/features/how-to-change-dns-server-on-iphone-ipad-or-ipod-touch-1671813) for instructions on how to change the DNS on iOS. See [Privacy Guides](https://privacyguides.org/providers/dns/) for a list of recommended DNS resolvers if you are unsure which one to use.",
+          "*ProtonVPN does allow the use of both a VPN (set to IKEv2) and a Firewall/Content Blocker simultaneously, however this is known to cause DNS leaks. The risks of DNS leakage vary based on your [threat model](/guides/prologue/threatmodel), but I recommend using a VPN without a Firewall/content Blocker just to err on the side of caution."
+        ]
+      }
+    }
+  }
+}

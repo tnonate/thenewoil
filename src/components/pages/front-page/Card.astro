@@ -1,0 +1,37 @@
+---
+import Button, { ColorKeys } from "@components/controls/Button.astro";
+
+interface Props {
+  title: string;
+  description: string;
+  link: string;
+  color: ColorKeys;
+}
+
+const COLOR_CLASSES = {
+  primary: "border-gradient-primary",
+  secondary: "border-gradient-secondary"
+} as Record<ColorKeys, string>;
+
+const { title, description, link, color } = Astro.props;
+
+const colorClasses = COLOR_CLASSES[color];
+---
+
+<article
+  class={`hidden sm:flex min-w-[18rem] flex-1 flex-col items-center justify-between gap-8 border-4 px-4 py-12 text-center rounded-lg border-bg-primary dark:border-bg-primary-dark ${colorClasses}`}
+>
+  <h3 class="font-robotomono">{title}</h3>
+  <p>{description}</p>
+  <Button variant="contained" href={link} color={color} bgColor="primary" class="font-robotomono">Go to Page</Button>
+</article>
+
+<Button
+  variant="contained"
+  href={link}
+  color={color}
+  bgColor="primary"
+  class="font-robotomono sm:hidden w-full flex items-center justify-center h-24 text-sm xs:text-base p-1 xs:p-2"
+>
+  {title}
+</Button>

@@ -1,0 +1,52 @@
+{
+  "ivpn": {
+    "name": "IVPN",
+    "logo": "/images/sponsors/ivpn.png",
+    "logo_alt": "IVPN logo",
+    "link": "https://www.ivpn.net",
+    "pros": [
+      "[Auditada](https://www.ivpn.net/blog/independent-security-audit-concluded/)",
+      "Disponible en todos los sistemas operativos",
+      "Pagos anónimos (en efectivo y Monero) disponibles",
+      "Ofrece bloqueo de malware, rastreadores y publicidad para [todos los planes](https://www.ivpn.net/antitracker/)",
+      "El [Modo Hardcore](https://www.ivpn.net/blog/block-ads-and-beat-data-surveillance-with-ivpns-antitracker/) bloquea todos los dominios de Google y Facebook",
+      "La función [Redes fiables/no fiables](https://www.ivpn.net/blog/new-trusted-wi-fi-networks-feature-for-ivpn-apps/) permite activar o desactivar automáticamente la VPN en determinadas redes",
+      "Ofertas [TOTP autenticación multifactor](/guides/most-important/mfa) for accounts"
+    ],
+    "cons": []
+  },
+  "mullvad": {
+    "name": "Mullvad",
+    "logo": "/images/logos/mullvad.png",
+    "logo_alt": "Mullvad logo",
+    "link": "https://mullvad.net/",
+    "pros": [
+      "[Auditada](https://mullvad.net/en/blog/2020/6/25/results-available-audit-mullvad-app/)",
+      "Disponible en todos los sistemas operativos",
+      "Tarifa plana de 5 $/mes para todos los servicios y plazos de pago",
+      "Pagos anónimos (en efectivo y Monero) disponibles",
+      "Ofrece bloqueo de malware, rastreadores y publicidad para [todos los planes](https://mullvad.net/en/why-mullvad-vpn/)",
+      "Utiliza con frecuencia [prácticas de adopción temprana](https://mullvad.net/en/blog/2022/12/30/review-of-2022/) para mejorar la privacidad y la seguridad de los usuarios, como túneles seguros post-cuánticos, infraestructura sin disco, numerosas auditorías, etc."
+    ],
+    "cons": [
+      "No ofrece [autenticación multifactor](/guides/most-important/mfa) para las cuentas"
+    ]
+  },
+  "protonvpn": {
+    "name": "ProtonVPN",
+    "logo": "/images/logos/proton.png",
+    "logo_alt": "ProtonVPN logo",
+    "referral_link": "https://go.getproton.me/aff_c?offer_id=26&aff_id=2187&url=https%3A%2F%2Fproton.me%2F%3FvisitorId%3Dho-{transaction_id}%26aid%3D{affiliate_id}%26offer_id%3D{offer_id}%26url_id%3D{offer_url_id}%26utm_campaign%3Dww-all-2c-vpn-gro_aff-g_acq-partners_program%26utm_source%3Daid-tune-{affiliate_id}%26utm_medium%3Dlink%26utm_term%3Dgeneric_vpn_landing%26utm_content%3D{offer_id}%26hfp%3Dfalse%26spl%3D{affiliate_id}%26aap%3D{affiliate_id}",
+    "link": "https://protonvpn.com/",
+    "pros": [
+      "[Auditada](https://protonvpn.com/blog/open-source/)",
+      "Disponible en todos los sistemas operativos",
+      "Pagos anónimos (en efectivo) disponibles",
+      "Ofrece un número limitado de servidores gratuitos",
+      "Ofrece bloqueo de malware, rastreadores y anuncios ([sólo planes de pago])(https://protonvpn.com/support/netshield/))",
+      "Anuncia que funciona con servicios de streaming como Netflix y Disney+ (sólo planes de pago)",
+      "Ofrece TOTP y token de hardware [autenticación multifactor](/guides/most-important/mfa) para cuentas"
+    ],
+    "cons": []
+  }
+}
