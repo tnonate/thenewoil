@@ -1,37 +1,34 @@
 {
-    "plugins": [
-        "prettier-plugin-astro",
-        "prettier-plugin-tailwindcss"
-    ],
-    "overrides": [
-        {
-            "files": [
-                "*.html",
-                "*.css",
-                "*.scss",
-                "*.sass",
-                "*.js",
-                "*.ts",
-                "*.mjs",
-                "*.cjs",
-                "*.mdx"
-            ],
-            "options": {
-                "singleQuote": false
-            }
-        },
-        {
-            "files": "*.astro",
-            "options": {
-                "parser": "astro",
-                "singleQuote": false,
-                "editorconfig": true,
-                "trailingComma": "none",
-                "printWidth": 120,
-                "semi": true
-            }
-        }
-    ],
-    "pluginSearchDirs": false,
-    "singleQuote": false
+  "plugins": ["prettier-plugin-astro", "prettier-plugin-tailwindcss"],
+  "overrides": [
+    {
+      "files": [
+        "*.html",
+        "*.css",
+        "*.scss",
+        "*.sass",
+        "*.js",
+        "*.ts",
+        "*.mjs",
+        "*.cjs",
+        "*.mdx"
+      ],
+      "options": {
+        "singleQuote": false
+      }
+    },
+    {
+      "files": "*.astro",
+      "options": {
+        "parser": "astro",
+        "singleQuote": false,
+        "editorconfig": true,
+        "trailingComma": "none",
+        "printWidth": 120,
+        "semi": true
+      }
+    }
+  ],
+  "pluginSearchDirs": false,
+  "singleQuote": false
 }
