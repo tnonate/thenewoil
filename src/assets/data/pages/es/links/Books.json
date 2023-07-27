@@ -1,27 +1,27 @@
 [
-    {
-        "name": "Extreme Privacy",
-        "author": "Michael Bazzell",
-        "link": "https://inteltechniques.com/book7"
-    },
-    {
-        "name": "Click Here to Kill Everybody",
-        "author": "Bruce Shneier",
-        "link": "https://www.schneier.com/books/click_here/"
-    },
-    {
-    	"name": "Firewalls Don't Stop Dragons",
-    	"author": "Carey Parker",
-    	"link": "https://firewallsdontstopdragons.com/buy-the-book/"
-    },
-    {
-        "name": "Privacy is Power",
-        "author": "Carissa Veliz",
-        "link": "https://www.carissaveliz.com/books"
-    },
-    {
-        "name": "The Age of Surveillance Capitalism",
-        "author": "Shoshana Zuboff",
-        "link": "https://shoshanazuboff.com/book/about/"
-    }
+  {
+    "name": "Extreme Privacy",
+    "author": "Michael Bazzell",
+    "link": "https://inteltechniques.com/book7"
+  },
+  {
+    "name": "Click Here to Kill Everybody",
+    "author": "Bruce Shneier",
+    "link": "https://www.schneier.com/books/click_here/"
+  },
+  {
+    "name": "Firewalls Don't Stop Dragons",
+    "author": "Carey Parker",
+    "link": "https://firewallsdontstopdragons.com/buy-the-book/"
+  },
+  {
+    "name": "Privacy is Power",
+    "author": "Carissa Veliz",
+    "link": "https://www.carissaveliz.com/books"
+  },
+  {
+    "name": "The Age of Surveillance Capitalism",
+    "author": "Shoshana Zuboff",
+    "link": "https://shoshanazuboff.com/book/about/"
+  }
 ]

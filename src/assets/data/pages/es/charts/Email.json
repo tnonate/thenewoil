@@ -1,71 +1,69 @@
 {
-    "criterias": [
-        "¿Auditada?",
-        "¿Disponible en Linux?",
-        "¿Disponible en Mac?",
-        "¿Disponible en Windows?",
-        "¿Disponible en Android?",
-        "¿Disponible en F-Droid?",
-        "¿Disponible en iOS?",
-        "¿Plan gratuito disponible?",
-        "¿Soporte PGP?",
-        "¿Dispone de copia de seguridad/exportación?",
-        "Notas adicionales"
-    ],
-    "tools": {
-        "protonmail": {
-            "name": "ProtonMail",
-            "values": {
-                "¿Auditada?": "Sí",
-                "¿Disponible en Linux?": "Web o puente de pago",
-                "¿Disponible en Mac?": "Web o puente de pago",
-                "¿Disponible en Windows?": "Web o puente de pago",
-                "¿Disponible en Android?": "Sí",
-                "¿Disponible en F-Droid?": "Sí",
-                "¿Disponible en iOS?": "Sí",
-                "¿Plan gratuito disponible?": "Sí",
-                "¿Soporte PGP?": "Sí",
-                "¿Dispone de copia de seguridad/exportación?": "Sí",
-                "Notas adicionales": [
-                    "Incluye servicio VPN, Calendario y almacenamiento en Drive con todos los planes."
-                ]
-            }
-        },
-        "skiff": {
-            "name": "Skiff",
-            "values": {
-                "¿Auditada?": "Resultados no publicados",
-                "¿Disponible en Linux?": "Sólo web",
-                "¿Disponible en Mac?": "Sí",
-                "¿Disponible en Windows?": "Sólo web",
-                "¿Disponible en Android?": "Sí",
-                "¿Disponible en F-Droid?": "No",
-                "¿Disponible en iOS?": "Sí",
-                "¿Plan gratuito disponible?": "Sí",
-                "¿Soporte PGP?": "No",
-                "¿Dispone de copia de seguridad/exportación?": "Sólo importación",
-                "Notas adicionales": [
-                    "Incluye espacio de trabajo colaborativo, calendario y almacenamiento en Drive con todos los planes."
-                ]
-            }
-        },
-        "tutanota": {
-            "name": "Tutanota",
-            "values": {
-                "¿Auditada?": "Sólo cliente web",
-                "¿Disponible en Linux?": "Sí",
-                "¿Disponible en Mac?": "Sí",
-                "¿Disponible en Windows?": "Sólo web",
-                "¿Disponible en Android?": "Sí",
-                "¿Disponible en F-Droid?": "No",
-                "¿Disponible en iOS?": "Sí",
-                "¿Plan gratuito disponible?": "Sí",
-                "¿Soporte PGP?": "No",
-                "¿Dispone de copia de seguridad/exportación?": "Sólo exportación individual",
-                "Notas adicionales": [
-                    "Incluye Calendario con todos los planes"
-                ]
-            }
-        }
+  "criterias": [
+    "¿Auditada?",
+    "¿Disponible en Linux?",
+    "¿Disponible en Mac?",
+    "¿Disponible en Windows?",
+    "¿Disponible en Android?",
+    "¿Disponible en F-Droid?",
+    "¿Disponible en iOS?",
+    "¿Plan gratuito disponible?",
+    "¿Soporte PGP?",
+    "¿Dispone de copia de seguridad/exportación?",
+    "Notas adicionales"
+  ],
+  "tools": {
+    "protonmail": {
+      "name": "ProtonMail",
+      "values": {
+        "¿Auditada?": "Sí",
+        "¿Disponible en Linux?": "Web o puente de pago",
+        "¿Disponible en Mac?": "Web o puente de pago",
+        "¿Disponible en Windows?": "Web o puente de pago",
+        "¿Disponible en Android?": "Sí",
+        "¿Disponible en F-Droid?": "Sí",
+        "¿Disponible en iOS?": "Sí",
+        "¿Plan gratuito disponible?": "Sí",
+        "¿Soporte PGP?": "Sí",
+        "¿Dispone de copia de seguridad/exportación?": "Sí",
+        "Notas adicionales": [
+          "Incluye servicio VPN, Calendario y almacenamiento en Drive con todos los planes."
+        ]
+      }
+    },
+    "skiff": {
+      "name": "Skiff",
+      "values": {
+        "¿Auditada?": "Resultados no publicados",
+        "¿Disponible en Linux?": "Sólo web",
+        "¿Disponible en Mac?": "Sí",
+        "¿Disponible en Windows?": "Sólo web",
+        "¿Disponible en Android?": "Sí",
+        "¿Disponible en F-Droid?": "No",
+        "¿Disponible en iOS?": "Sí",
+        "¿Plan gratuito disponible?": "Sí",
+        "¿Soporte PGP?": "No",
+        "¿Dispone de copia de seguridad/exportación?": "Sólo importación",
+        "Notas adicionales": [
+          "Incluye espacio de trabajo colaborativo, calendario y almacenamiento en Drive con todos los planes."
+        ]
+      }
+    },
+    "tutanota": {
+      "name": "Tutanota",
+      "values": {
+        "¿Auditada?": "Sólo cliente web",
+        "¿Disponible en Linux?": "Sí",
+        "¿Disponible en Mac?": "Sí",
+        "¿Disponible en Windows?": "Sólo web",
+        "¿Disponible en Android?": "Sí",
+        "¿Disponible en F-Droid?": "No",
+        "¿Disponible en iOS?": "Sí",
+        "¿Plan gratuito disponible?": "Sí",
+        "¿Soporte PGP?": "No",
+        "¿Dispone de copia de seguridad/exportación?": "Sólo exportación individual",
+        "Notas adicionales": ["Incluye Calendario con todos los planes"]
+      }
     }
+  }
 }

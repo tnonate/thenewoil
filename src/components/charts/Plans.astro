@@ -1,0 +1,109 @@
+---
+import { Markdown } from "@astropub/md";
+
+interface Tool {
+  name: string;
+  logo?: string;
+  referral_link?: string;
+  link?: string;
+  plans: Record<string, Record<string, string>>;
+}
+
+interface Data {
+  criterias: string[];
+  tools: Tool;
+}
+
+interface Props {
+  data: Data;
+  direction?: "row" | "col";
+  nonReferralLinkText: string;
+}
+
+const { data, direction: directionKey = "col", nonReferralLinkText = "Non-referral link" } = Astro.props;
+---
+
+<div
+  class={`rounded-lg border-4 border-gradient-secondary border-bg-primary dark:border-bg-primary-dark grid w-full overflow-auto ${
+    directionKey === "row"
+      ? `grid-flow-row grid-cols-[repeat(var(--length),auto)]`
+      : `grid-flow-col grid-rows-[repeat(var(--length),auto)]`
+  }`}
+  style={`--length: ${data.criterias.length + 2}`}
+>
+  <div class="h-full rounded-none border-b-4 border-gradient-secondary-center p-4"></div>
+  <div class="h-full rounded-none border-b-4 border-gradient-secondary-center p-4"></div>
+  {
+    data.criterias.map((criteria: string, index: number) => {
+      return (
+        <div
+          class={`h-full p-4 ${
+            (directionKey === "row" || index != data.criterias.length - 1) &&
+            "border-b-4 border-gradient-secondary-center"
+          }`}
+        >
+          <Markdown of={String(criteria)} />
+        </div>
+      );
+    })
+  }
+
+  {
+    Object.values(data.tools).map((tool: Tool, toolIndex: number) => {
+      const plansKeys = Object.keys(tool.plans);
+
+      return (
+        <>
+          <div
+            class={`flex w-full flex-col items-center justify-between gap-4 p-4 ${
+              (directionKey != "row" || toolIndex != Object.values(data.tools).length - 1) &&
+              "border-b-4 border-gradient-secondary-center"
+            }`}
+            style={`grid-column: span ${plansKeys.length} / span ${plansKeys.length}`}
+          >
+            {tool.logo && (
+              <a class="my-auto border-none" href={tool.referral_link ? tool.referral_link : tool.link}>
+                <img src={tool.logo} alt={`${tool.name} logo`} />
+              </a>
+            )}
+            <div class="flex flex-col items-center">
+              {(tool.referral_link || tool.link) && (
+                <a href={tool.referral_link ? tool.referral_link : tool.link}>{tool.name}</a>
+              )}
+              {tool.referral_link && tool.link && <a href={tool.link}>{nonReferralLinkText}</a>}
+              {!tool.referral_link && !tool.link && <p>{tool.name}</p>}
+            </div>
+          </div>
+          {plansKeys.map((planKey, planIndex) => {
+            return (
+              <>
+                <div
+                  class={`h-full p-4 ${
+                    (directionKey === "row"
+                      ? toolIndex != Object.values(data.tools).length - 1
+                      : planIndex != data.criterias.length - 1) && "border-b-4 border-gradient-secondary-center"
+                  }`}
+                >
+                  <Markdown of={String(planKey)} />
+                </div>
+                {Object.values(tool.plans[planKey]).map((criteriaValue: string, index: number) => {
+                  return (
+                    <div
+                      class={`h-full p-4 ${
+                        (directionKey === "row"
+                          ? toolIndex != Object.values(data.tools).length - 1
+                          : index != data.criterias.length - 1) && "border-b-4 border-gradient-secondary-center"
+                      }`}
+                    >
+                      <Markdown of={String(criteriaValue)} />
+                    </div>
+                  );
+                })}
+              </>
+            );
+          })}
+        </>
+      );
+    })
+  }
+</div>

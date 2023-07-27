@@ -1,14 +1,14 @@
 [
-    {
-        "name": "thenewoil@proton.me",
-        "link": "mailto:thenewoil@proton.me",
-        "img": "/images/logos/protonmail2.png",
-        "subtext": "PGP Key",
-        "sublink": "/en/pgp"
-    },
-    {
-        "name": "thenewoil@tutanota.com",
-        "link": "mailto:thenewoil@tutanota.com",
-        "img": "/images/logos/tutanota2.png"
-    }
+  {
+    "name": "thenewoil@proton.me",
+    "link": "mailto:thenewoil@proton.me",
+    "img": "/images/logos/protonmail2.png",
+    "subtext": "PGP Key",
+    "sublink": "/en/pgp"
+  },
+  {
+    "name": "thenewoil@tutanota.com",
+    "link": "mailto:thenewoil@tutanota.com",
+    "img": "/images/logos/tutanota2.png"
+  }
 ]

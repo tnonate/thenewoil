@@ -1,0 +1,40 @@
+---
+layout: "@layouts/guides.astro"
+title: Understanding Metadata
+topic: What is Metadata and Why Does it Matter?
+weight: 2
+draft: false
+---
+
+import Highlighting from "@components/common/Highlighting.astro";
+
+# Understanding Metadata
+
+Ninety-five percent of the web is [encrypted](https://twitter.com/jlivingood/status/1389584630299385856). That means that if you visit Facebook, your Internet Service Provider (ISP) can see that you visited and how long stayed, but they can't see your login credentials (username and password) or which exact pages you went to. This is done with the use of [Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security), or TLS, a powerful and increasingly popular encryption protocol used online.
+There are two problems with relying strictly on the current TLS model of the intert, however. First, it only protects data in transit. When you connect to Amazon, your ISP can see that you visited Amazon, but Amazon can see every page, click, and purchase without restriction. Second and more importantly, \*\*often you don't need to see the content itself to start making powerful, accurate assumptions.
+
+## What is Metadata?
+
+Metadata is often described as “data about the data.” For example, the content of an email is not metadata, but who you emailed, what time, the subject, and the size of the email are. On the surface this may not seem very revealing. However, take this excellent article from the Electronic Frontier Foundation, for example. A couple examples they list of metadata that has the potential to be too revealing include:
+
+<Highlighting>
+
+- They know you called a gynecologist, spoke for a half hour, and then called the local Planned Parenthood's number later that day. But nobody knows what you spoke about.
+- They know you got an email from an HIV testing service, then called your doctor, then visited an HIV support group website in the same hour. But they don't know what was in the email or what you talked about on the phone.
+- They know you called the suicide prevention hotline from the Golden Gate Bridge. But the topic of the call remains a secret.
+  (Lifed directly from EFF's [Surveillance Self Defense](https://www.eff.org/deeplinks/2013/06/why-metadata-matters) page)
+
+</Highlighting>
+
+**Metadata has the potential to be just as revealing as content itself,** and therefore should be protected just as much as the actual data. These are not hypothetical abuses or situations. A former NSA Chief once said "[[The US Government] kills people based on metadata,](https://abcnews.go.com/blogs/headlines/2014/05/ex-nsa-chief-we-kill-people-based-on-metadata)" referring to how metadata can reveal so much information that it can be used to justify military strikes. In another instance, police were able to determine a man [murdered his wife](https://www.reuters.com/article/us-greece-robbers-murder-idUKKCN2DT2IP) based on the metadata from his smartwatch and CCTV cameras. I could list many more stories like these. Metadata matters.
+
+<img
+  src="/images/graphics/quote-metadata.png"
+  alt="Metadata is extraordinarily intrusive"
+  class="mx-auto w-80"
+/>
+
+## How to Deal with Metadata
+
+Unfortunately, **any digital action creates metadata.** The best you can do when attempting to protect your privacy is to be mindful of what metadata may be created by the action you're about to take and then determine how to best reduce or mitigate it. For example, reputable VPN providers (and some messengers like Signal) do not log the sites you visit, your IP address, or other metadata for longer than needed to make the service work. This is desirable but should not always be trusted. Another approach is to fake your metadata when possible. For example, using a VPN or Tor browser to access a website: the website now thinks your IP address is that of the VPN provider or exit node. Ideally you should find a way to combine these approaches for extra protection and redundancy.
+Unfortunately, the amount of metadata created and recorded can be quite extensive. For example, one smart TV [manufacturer](https://www.scmp.com/tech/policy/article/3132091/chinese-tv-maker-skyworth-under-fire-excessive-data-collection-users) was caught scanning the names of nearby WiFi networks, as well as detecting every device on the local network and detailed information about them. protecting from that level of invasion requires more than just a reputable VPN. Fortunately, most of us don't need to be 100% anonymous, and situations like these fall largely outside of the [threat model](/guides/prologue/threatmodel/) of most people reading this. However, **it's still a good idea whenever changing anything in your digital life to ask what metadata could potentially be leaked, what could be done to prevent that, and what your threat model requires.**

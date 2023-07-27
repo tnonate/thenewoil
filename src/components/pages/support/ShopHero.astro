@@ -1,0 +1,26 @@
+---
+import Button from "@components/controls/Button.astro";
+
+interface Props {
+  img: string;
+  link: string;
+}
+
+const { img, link } = Astro.props;
+---
+
+<div class="mb-10 flex flex-col items-center justify-center gap-4 sm:mb-20 sm:flex-row sm:gap-8">
+  <div class="flex max-w-lg flex-col items-center justify-center gap-4 text-center">
+    <div>
+      <slot name="title" />
+    </div>
+    <div>
+      <slot />
+    </div>
+    <Button color="primary" variant="contained" href={link} external>Go to Store</Button>
+  </div>
+  <img
+    src={img}
+    class="aspect-square w-full max-w-sm rounded-lg object-contain motion-safe:transition-all lg:max-w-md"
+  />
+</div>
