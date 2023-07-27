@@ -1,118 +1,116 @@
 {
-    "criterias": [
-        "Audited?",
-        "Available on Linux?",
-        "Available on Mac?",
-        "Available on Windows?",
-        "Available on Android?",
-        "Available in F-Droid?",
-        "Available on iOS?",
-        "Decentralized?",
-        "Phone number or username?",
-        "Disappearing messages?",
-        "Additional notes?"
-    ],
-    "tools": {
-        "jami": {
-            "name": "Jami",
-            "values": {
-                "Audited?": "No",
-                "Available on Linux?": "Yes",
-                "Available on Mac?": "Yes",
-                "Available on Windows?": "Yes",
-                "Available on Android?": "Yes",
-                "Available in F-Droid?": "Yes",
-                "Available on iOS?": "Yes",
-                "Decentralized?": "Yes",
-                "Phone number or username?": "Username",
-                "Disappearing messages?": "No",
-                "Additional notes?": [
-                    "Peer-to-peer"
-                ]
-            }
-        },
-        "matrix": {
-            "name": "Matrix",
-            "values": {
-                "Audited?": "No",
-                "Available on Linux?": "Yes",
-                "Available on Mac?": "Yes",
-                "Available on Windows?": "Yes",
-                "Available on Android?": "Yes",
-                "Available in F-Droid?": "Some clients",
-                "Available on iOS?": "Yes",
-                "Decentralized?": "Yes",
-                "Phone number or username?": "Username",
-                "Disappearing messages?": "No",
-                "Additional notes?": [
-                    "Matrix is the protocol, not the client",
-                    "Can be self-hosted"
-                ]
-            }
-        },
-        "session": {
-            "name": "Session",
-            "values": {
-                "Audited?": "Yes",
-                "Available on Linux?": "Yes",
-                "Available on Mac?": "Yes",
-                "Available on Windows?": "Yes",
-                "Available on Android?": "Yes",
-                "Available in F-Droid?": "Directly ([click here](https://fdroid.getsession.org/fdroid/repo/))",
-                "Available on iOS?": "Yes",
-                "Decentralized?": "Yes",
-                "Phone number or username?": "Yes",
-                "Disappearing messages?": "Yes",
-                "Additional notes?": [ ]
-            }
-        },
-        "signal": {
-            "name": "Signal",
-            "values": {
-                "Audited?": "Yes",
-                "Available on Linux?": "Yes",
-                "Available on Mac?": "Yes",
-                "Available on Windows?": "Yes",
-                "Available on Android?": "Yes",
-                "Available in F-Droid?": "No",
-                "Available on iOS?": "Yes",
-                "Decentralized?": "No",
-                "Phone number or username?": "Phone number",
-                "Disappearing messages?": "Yes",
-                "Additional notes?": [ ]
-            }
-        },
-        "threema": {
-            "name": "Threema",
-            "values": {
-                "Audited?": "Yes",
-                "Available on Linux?": "Web only",
-                "Available on Mac?": "Web only",
-                "Available on Windows?": "Web only",
-                "Available on Android?": "Yes",
-                "Available in F-Droid?": "No",
-                "Available on iOS?": "Yes",
-                "Decentralized?": "No",
-                "Phone number or username?": "Yes",
-                "Disappearing messages?": "No",
-                "Additional notes?": []
-            }
-        },
-        "wire": {
-            "name": "Wire",
-            "values": {
-                "Audited?": "Yes",
-                "Available on Linux?": "Yes",
-                "Available on Mac?": "Yes",
-                "Available on Windows?": "Yes",
-                "Available on Android?": "Yes",
-                "Available in F-Droid?": "No",
-                "Available on iOS?": "Yes",
-                "Decentralized?": "No",
-                "Phone number or username?": "Yes",
-                "Disappearing messages?": "Yes",
-                "Additional notes?": [ ]
-            }
-        }
-       }
+  "criterias": [
+    "Audited?",
+    "Available on Linux?",
+    "Available on Mac?",
+    "Available on Windows?",
+    "Available on Android?",
+    "Available in F-Droid?",
+    "Available on iOS?",
+    "Decentralized?",
+    "Phone number or username?",
+    "Disappearing messages?",
+    "Additional notes?"
+  ],
+  "tools": {
+    "jami": {
+      "name": "Jami",
+      "values": {
+        "Audited?": "No",
+        "Available on Linux?": "Yes",
+        "Available on Mac?": "Yes",
+        "Available on Windows?": "Yes",
+        "Available on Android?": "Yes",
+        "Available in F-Droid?": "Yes",
+        "Available on iOS?": "Yes",
+        "Decentralized?": "Yes",
+        "Phone number or username?": "Username",
+        "Disappearing messages?": "No",
+        "Additional notes?": ["Peer-to-peer"]
+      }
+    },
+    "matrix": {
+      "name": "Matrix",
+      "values": {
+        "Audited?": "No",
+        "Available on Linux?": "Yes",
+        "Available on Mac?": "Yes",
+        "Available on Windows?": "Yes",
+        "Available on Android?": "Yes",
+        "Available in F-Droid?": "Some clients",
+        "Available on iOS?": "Yes",
+        "Decentralized?": "Yes",
+        "Phone number or username?": "Username",
+        "Disappearing messages?": "No",
+        "Additional notes?": [
+          "Matrix is the protocol, not the client",
+          "Can be self-hosted"
+        ]
+      }
+    },
+    "session": {
+      "name": "Session",
+      "values": {
+        "Audited?": "Yes",
+        "Available on Linux?": "Yes",
+        "Available on Mac?": "Yes",
+        "Available on Windows?": "Yes",
+        "Available on Android?": "Yes",
+        "Available in F-Droid?": "Directly ([click here](https://fdroid.getsession.org/fdroid/repo/))",
+        "Available on iOS?": "Yes",
+        "Decentralized?": "Yes",
+        "Phone number or username?": "Yes",
+        "Disappearing messages?": "Yes",
+        "Additional notes?": []
+      }
+    },
+    "signal": {
+      "name": "Signal",
+      "values": {
+        "Audited?": "Yes",
+        "Available on Linux?": "Yes",
+        "Available on Mac?": "Yes",
+        "Available on Windows?": "Yes",
+        "Available on Android?": "Yes",
+        "Available in F-Droid?": "No",
+        "Available on iOS?": "Yes",
+        "Decentralized?": "No",
+        "Phone number or username?": "Phone number",
+        "Disappearing messages?": "Yes",
+        "Additional notes?": []
+      }
+    },
+    "threema": {
+      "name": "Threema",
+      "values": {
+        "Audited?": "Yes",
+        "Available on Linux?": "Web only",
+        "Available on Mac?": "Web only",
+        "Available on Windows?": "Web only",
+        "Available on Android?": "Yes",
+        "Available in F-Droid?": "No",
+        "Available on iOS?": "Yes",
+        "Decentralized?": "No",
+        "Phone number or username?": "Yes",
+        "Disappearing messages?": "No",
+        "Additional notes?": []
+      }
+    },
+    "wire": {
+      "name": "Wire",
+      "values": {
+        "Audited?": "Yes",
+        "Available on Linux?": "Yes",
+        "Available on Mac?": "Yes",
+        "Available on Windows?": "Yes",
+        "Available on Android?": "Yes",
+        "Available in F-Droid?": "No",
+        "Available on iOS?": "Yes",
+        "Decentralized?": "No",
+        "Phone number or username?": "Yes",
+        "Disappearing messages?": "Yes",
+        "Additional notes?": []
+      }
     }
+  }
+}

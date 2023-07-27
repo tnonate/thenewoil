@@ -1,26 +1,26 @@
 [
-    {
-        "name": "Coded Bias",
-        "link": "https://www.codedbias.com/"
-    },
-    {
-        "name": "The Great Hack",
-        "link": "https://www.thegreathack.com/"
-    },
-    {
-        "name": "Nothing to Hide",
-        "link": "https://www.imdb.com/title/tt7330532/"
-    },
-    {
-        "name": "The Perfect Weapon",
-        "link": "https://www.hbo.com/movies/the-perfect-weapon"
-    },
-    {
-        "name": "The Social Dilemma",
-        "link": "https://www.thesocialdilemma.com/"
-    },
-    {
-        "name": "Terms and Conditions May Apply",
-        "link": "https://tacma.net/"
-    }
+  {
+    "name": "Coded Bias",
+    "link": "https://www.codedbias.com/"
+  },
+  {
+    "name": "The Great Hack",
+    "link": "https://www.thegreathack.com/"
+  },
+  {
+    "name": "Nothing to Hide",
+    "link": "https://www.imdb.com/title/tt7330532/"
+  },
+  {
+    "name": "The Perfect Weapon",
+    "link": "https://www.hbo.com/movies/the-perfect-weapon"
+  },
+  {
+    "name": "The Social Dilemma",
+    "link": "https://www.thesocialdilemma.com/"
+  },
+  {
+    "name": "Terms and Conditions May Apply",
+    "link": "https://tacma.net/"
+  }
 ]

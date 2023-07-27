@@ -1,0 +1,13 @@
+---
+interface Props {
+  variant: "warning" | "secondary";
+  class: string;
+}
+
+const { variant, class: className = "" } = Astro.props;
+const borderColor = variant === "warning" ? "border-gradient-warning" : "border-gradient-secondary";
+---
+
+<div class={`px-2 py-8 rounded-lg border-4 border-bg-primary dark:border-bg-primary-dark ${borderColor} ${className}`}>
+  <slot />
+</div>

@@ -1,0 +1,22 @@
+---
+import { stripHtml } from "string-strip-html";
+import { textToHeadingId } from "@utils/heading";
+
+const headingId = await textToHeadingId({
+  text: stripHtml(await Astro.slots.render("title"))
+    .result.replace(/(?:\r\n|\r|\n)/g, " ")
+    .replace("&", "and")
+});
+---
+
+<div class="mx-auto flex w-11/12 flex-col items-center justify-center xl:flex-row">
+  <h1 id={headingId} class="border-none text-center xl:w-2/5">
+    <slot name="title" />
+  </h1>
+
+  <div
+    class="border-0 py-8 xl:ml-10 xl:w-3/5 xl:border-l-4 xl:pl-12 xl:border-gradient-primary xl:border-bg-primary xl:dark:border-bg-primary-dark 2xl:ml-0"
+  >
+    <slot />
+  </div>
+</div>

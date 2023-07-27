@@ -1,29 +1,23 @@
 {
-    "aegis": {
-        "name": "Aegis Authenticator",
-        "logo": "/images/logos/aegis.png",
-        "logo_alt": "Aegis Authenticator Logo",
-        "link": "https://getaegis.app/",
-        "pros": [
-            "Disponible en [F-Droid](https://f-droid.org/en/packages/com.beemdevelopment.aegis/)",
-            "Permite realizar copias de seguridad automáticas (sólo en la nube)"
-        ],
-        "cons": [
-            "Sólo Android"
-        ]
-    },
-    "raivo": {
-        "name": "Raivo OTP",
-        "logo": "/images/logos/raivo.png",
-        "logo_alt": "Raivo OTP logo",
-        "link": "https://raivo-otp.com/",
-        "pros": [
-            "Puede sincronizarse con la aplicación para Mac (requiere iCloud)"
-        ],
-        "cons": [
-            "Sólo iOS",
-            "El inicio de sesión es obligatorio"
-        ]
-    }
+  "aegis": {
+    "name": "Aegis Authenticator",
+    "logo": "/images/logos/aegis.png",
+    "logo_alt": "Aegis Authenticator Logo",
+    "link": "https://getaegis.app/",
+    "pros": [
+      "Disponible en [F-Droid](https://f-droid.org/en/packages/com.beemdevelopment.aegis/)",
+      "Permite realizar copias de seguridad automáticas (sólo en la nube)"
+    ],
+    "cons": ["Sólo Android"]
+  },
+  "raivo": {
+    "name": "Raivo OTP",
+    "logo": "/images/logos/raivo.png",
+    "logo_alt": "Raivo OTP logo",
+    "link": "https://raivo-otp.com/",
+    "pros": [
+      "Puede sincronizarse con la aplicación para Mac (requiere iCloud)"
+    ],
+    "cons": ["Sólo iOS", "El inicio de sesión es obligatorio"]
+  }
 }
-

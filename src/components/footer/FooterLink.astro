@@ -1,0 +1,17 @@
+---
+interface Props {
+  href: string;
+  lang?: string;
+}
+
+const { lang } = Astro.props;
+let { href } = Astro.props;
+
+if (lang) {
+  href = `/${lang}${href}`;
+}
+---
+
+<a href={href} hreflang={lang} class="text-center transition-all hover:opacity-75 active:opacity-60 sm:text-start">
+  <slot />
+</a>

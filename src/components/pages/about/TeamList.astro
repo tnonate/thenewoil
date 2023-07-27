@@ -1,0 +1,66 @@
+---
+interface MemberLink {
+  name: string;
+  link: string;
+  icon: string;
+  icon_dark?: string;
+}
+
+interface Member {
+  name: string;
+  title: string;
+  links: MemberLink[];
+}
+
+interface Props {
+  members: Member[];
+}
+
+const { members } = Astro.props;
+---
+
+<ul class="grid grid-cols-1 gap-8 p-0 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4" aria-label="Team">
+  {
+    members.map((member) => {
+      return (
+        <li
+          class="flex flex-1 list-none flex-col items-center rounded-lg border-4 p-4 border-gradient-secondary border-bg-primary dark:border-bg-primary-dark sm:items-start"
+          aria-label="Member"
+        >
+          <div class="flex flex-col items-center justify-center sm:items-start">
+            <p class="w-fit text-2xl font-semibold" aria-label="Name">
+              {member.name}
+            </p>
+            <p class="w-fit text-gradient-secondary" aria-label="Function">
+              {member.title}
+            </p>
+          </div>
+          {member.links && (
+            <ul class="flex items-center gap-4 p-0" aria-label="Links">
+              {member.links.map((link) => {
+                return (
+                  <li class="list-none">
+                    <a href={link.link} title={link.name}>
+                      <img
+                        class="block h-12 w-12 rounded-sm dark:hidden"
+                        loading="lazy"
+                        alt={link.name}
+                        src={link.icon}
+                      />
+                      <img
+                        loading="lazy"
+                        class="hidden h-12 w-12 rounded-sm dark:block"
+                        alt={link.name}
+                        src={link.icon_dark || link.icon}
+                      />
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+          )}
+        </li>
+      );
+    })
+  }
+</ul>

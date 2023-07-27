@@ -1,37 +1,37 @@
 {
-    "criterias": [
-        "¿Disponible en Android?",
-        "¿Disponible en F-Droid?",
-        "¿Disponible en iOS?",
-        "¿Ofrece copias de seguridad?",
-        "Notas adicionales"
-    ],
-    "tools": {
-        "aegis": {
-            "name": "Aegis",
-            "values": {
-                "¿Disponible en Android?": "Sí",
-                "¿Disponible en F-Droid?": "Sí",
-                "¿Disponible en iOS?": "No",
-                "¿Ofrece copias de seguridad?": "Sí",
-                "Notas adicionales": [
-                     "Copias de seguridad automáticas opcionales",
-                     "Copia de seguridad opcional directamente en la nube"
-                ]
-            }
-        },
-        "xmpp": {
-            "name": "Raivo",
-            "values": {
-                "¿Disponible en Android?": "No",
-                "¿Disponible en F-Droid?": "N/A",
-                "¿Disponible en iOS?": "Sí",
-                "¿Ofrece copias de seguridad?": "Sí",
-                "Notas adicionales": [
-                    "Inicio de sesión obligatorio",
-                    "Sincronización opcional con Mac"
-                ]
-            }
-        }
+  "criterias": [
+    "¿Disponible en Android?",
+    "¿Disponible en F-Droid?",
+    "¿Disponible en iOS?",
+    "¿Ofrece copias de seguridad?",
+    "Notas adicionales"
+  ],
+  "tools": {
+    "aegis": {
+      "name": "Aegis",
+      "values": {
+        "¿Disponible en Android?": "Sí",
+        "¿Disponible en F-Droid?": "Sí",
+        "¿Disponible en iOS?": "No",
+        "¿Ofrece copias de seguridad?": "Sí",
+        "Notas adicionales": [
+          "Copias de seguridad automáticas opcionales",
+          "Copia de seguridad opcional directamente en la nube"
+        ]
+      }
+    },
+    "xmpp": {
+      "name": "Raivo",
+      "values": {
+        "¿Disponible en Android?": "No",
+        "¿Disponible en F-Droid?": "N/A",
+        "¿Disponible en iOS?": "Sí",
+        "¿Ofrece copias de seguridad?": "Sí",
+        "Notas adicionales": [
+          "Inicio de sesión obligatorio",
+          "Sincronización opcional con Mac"
+        ]
+      }
     }
+  }
 }

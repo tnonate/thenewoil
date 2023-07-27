@@ -1,23 +1,22 @@
 [
-    {
-      "title": "Dispositivos móviles",
-      "description": "¿Tienes un nuevo Android o iPhone de serie y quieres sacarle el máximo partido a tu privacidad y seguridad? Empieza por aquí.",
-      "link": "/guides/most-important/mobile"
-    },
-    {
-      "title": "Ordenadores de sobremesa y portátiles",
-      "description": "¿Aún no puedes pasarte a Linux, pero quieres proteger tu Mac o PC al máximo? Esta guía es para ti.",
-      "link": "/guides/moderately-important/desktop-settings"
-    },
-    {
-      "title": "Red doméstica",
-      "description": "Si acaba de adquirir un nuevo router, está pensando en adquirirlo o simplemente quiere saber cuál es la mejor forma de proteger su red doméstica frente a las amenazas, esta guía es un punto de partida imprescindible.",
-      "link": "/guides/quick-start/wifi-guide"
-    },
-    {
-      "title": "Creadores de contenidos",
-      "description": "Si quieres ser influencer, streamer u otro tipo de creador de contenidos, esta guía te ayudará a protegerte de doxxers, acosadores y filtraciones de datos.",
-      "link": "/guides/quick-start/streamer-guide"
-    }
-  ]
-  
+  {
+    "title": "Dispositivos móviles",
+    "description": "¿Tienes un nuevo Android o iPhone de serie y quieres sacarle el máximo partido a tu privacidad y seguridad? Empieza por aquí.",
+    "link": "/guides/most-important/mobile"
+  },
+  {
+    "title": "Ordenadores de sobremesa y portátiles",
+    "description": "¿Aún no puedes pasarte a Linux, pero quieres proteger tu Mac o PC al máximo? Esta guía es para ti.",
+    "link": "/guides/moderately-important/desktop-settings"
+  },
+  {
+    "title": "Red doméstica",
+    "description": "Si acaba de adquirir un nuevo router, está pensando en adquirirlo o simplemente quiere saber cuál es la mejor forma de proteger su red doméstica frente a las amenazas, esta guía es un punto de partida imprescindible.",
+    "link": "/guides/quick-start/wifi-guide"
+  },
+  {
+    "title": "Creadores de contenidos",
+    "description": "Si quieres ser influencer, streamer u otro tipo de creador de contenidos, esta guía te ayudará a protegerte de doxxers, acosadores y filtraciones de datos.",
+    "link": "/guides/quick-start/streamer-guide"
+  }
+]

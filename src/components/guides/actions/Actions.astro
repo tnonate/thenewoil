@@ -1,0 +1,68 @@
+---
+import type { MDXInstance } from "astro";
+
+import type { RequiredKey } from "@/types/key-utils";
+import { getLanguageFromUrl } from "@/utils/i18n";
+import { fuzzyCompareUrl } from "@/utils/url";
+
+import ActionLink from "./ActionLink.astro";
+
+const language = getLanguageFromUrl(Astro.url);
+
+interface ActionTexts {
+  next: string;
+  previous: string;
+}
+interface GuidePageFrontMatter {
+  section_weight?: number;
+  weight: number;
+}
+
+type GuidePage = MDXInstance<GuidePageFrontMatter>;
+type GuideSectionPage = MDXInstance<RequiredKey<GuidePageFrontMatter, "section_weight">>;
+
+const guides: GuidePage[] = [];
+
+const allGuides = (await Astro.glob("../../../pages/*/guides/*/*")).filter(
+  (page: GuidePage) => page.url
+) as GuidePage[];
+
+const sections = allGuides
+  .filter((page) => page.frontmatter.section_weight && page.url?.includes(language.code + "/guides"))
+  .sort((a, b) => b.frontmatter.section_weight! - a.frontmatter.section_weight!) as GuideSectionPage[];
+
+sections.forEach((section) => {
+  const sectionPages = allGuides
+    .filter((page) => page.url?.includes(section.url!))
+    .sort((a, b) => a.frontmatter.weight - b.frontmatter.weight);
+
+  sectionPages.forEach((page) => {
+    guides.push(page);
+  });
+});
+
+const currentPageIndex = guides.findIndex((page) => fuzzyCompareUrl(page.url!, Astro.url.pathname));
+const previousPage = guides[currentPageIndex - 1];
+const nextPage = guides[currentPageIndex + 1];
+
+const actionTexts: ActionTexts = (await import(`../../../assets/data/layout/${language.code}/guides/Actions.json`))
+  .default;
+---
+
+<div class="flex w-full">
+  {
+    previousPage && (
+      <ActionLink url={previousPage.url!} icon="mdi:arrow-left" iconLeft={true} class="mr-auto">
+        {actionTexts.previous}
+      </ActionLink>
+    )
+  }
+  <br />
+  {
+    nextPage && (
+      <ActionLink url={nextPage.url!} icon="mdi:arrow-right" iconRight={true} class="ml-auto">
+        {actionTexts.next}
+      </ActionLink>
+    )
+  }
+</div>
