@@ -1,0 +1,112 @@
+---
+import { Markdown } from "@astropub/md";
+
+export type Directions = "row" | "col";
+
+export interface Tool {
+  name: string;
+  logo?: string;
+  link?: string;
+  referral_link?: string;
+  values: Record<string, string | string[] | undefined>;
+}
+
+export interface Data {
+  criterias: string[];
+  tools: Record<string, Tool>;
+}
+
+interface Props {
+  data: Data;
+  direction?: Directions;
+  nonReferralLinkText: string;
+}
+
+const GRID_DIRECTION_CLASSES = {
+  col: "grid-flow-row grid-cols-[repeat(var(--length),auto)]",
+  row: "grid-flow-col grid-rows-[repeat(var(--length),auto)]"
+} as Record<Directions, string>;
+
+const { data, direction: directionKey = "col", nonReferralLinkText = "Non-referral link" } = Astro.props;
+
+const directionClasses = GRID_DIRECTION_CLASSES[directionKey];
+---
+
+<div
+  class={`overflow-auto border-4 rounded-lg border-gradient-secondary border-bg-primary dark:border-bg-primary-dark grid w-full auto-cols-fr ${directionClasses}`}
+  style={{ "--length": data.criterias.length + 1 }}
+>
+  <div class="h-full rounded-none border-b-4 border-gradient-secondary-center p-4 text-center"></div>
+  {
+    data.criterias.map((criteria: string, index: number) => {
+      const isLastCriteria = index === data.criterias.length - 1;
+
+      return (
+        <div
+          class={`h-full p-4 text-center ${
+            directionKey === "col" || (directionKey === "row" && !isLastCriteria)
+              ? "border-b-4 border-gradient-secondary-center"
+              : ""
+          }`}
+        >
+          {criteria}
+        </div>
+      );
+    })
+  }
+
+  {
+    Object.values(data.tools).map((tool: Tool, toolIndex: number) => {
+      const isLastTool = toolIndex === Object.values(data.tools).length - 1;
+
+      return (
+        <>
+          <div
+            class={` flex w-full flex-col items-center p-4 text-center ${
+              directionKey === "row" || (directionKey === "col" && !isLastTool)
+                ? "border-b-4 border-gradient-secondary-center"
+                : ""
+            }`}
+          >
+            {tool.logo && (
+              <a class="border-none" href={tool.referral_link ? tool.referral_link : tool.link}>
+                <img src={tool.logo} alt={`${tool.name} logo`} />
+              </a>
+            )}
+            <div class="flex flex-col items-center">
+              {(tool.referral_link || tool.link) && (
+                <a href={tool.referral_link ? tool.referral_link : tool.link}>{tool.name}</a>
+              )}
+              {tool.referral_link && tool.link && <a href={tool.link}>{nonReferralLinkText}</a>}
+              {!tool.referral_link && !tool.link && <p>{tool.name}</p>}
+            </div>
+          </div>
+
+          {data.criterias.map((criteria: string, index: number) => {
+            const isLastCriteria = index === data.criterias.length - 1;
+
+            const criteriaValue = tool.values[criteria];
+            if (criteriaValue === undefined)
+              throw Error(`Error: criteria "${criteria}" not defined on tool "${tool.name}"`);
+
+            return (
+              <div
+                class={`h-full p-4 ${
+                  (directionKey === "col" && !isLastTool) || (directionKey === "row" && !isLastCriteria)
+                    ? "border-b-4 border-gradient-secondary-center"
+                    : ""
+                }`}
+              >
+                {Array.isArray(criteriaValue) ? (
+                  criteriaValue.map((text) => <Markdown of={String(text)} />)
+                ) : (
+                  <Markdown of={String(criteriaValue)} />
+                )}
+              </div>
+            );
+          })}
+        </>
+      );
+    })
+  }
+</div>

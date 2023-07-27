@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Primeros pasos",
+    "description": "¿Es usted nuevo? ¿No sabe por qué es importante la privacidad, cómo construir un modelo de amenazas o la diferencia entre seguridad y privacidad? Empieza por aquí.",
+    "link": "/guides/prologue"
+  },
+  {
+    "title": "Lo más importante",
+    "description": "¿Está listo para tapar los agujeros más importantes de su seguridad? ¿Busca las medidas más fáciles de tomar con el máximo impacto? Lea esta sección.",
+    "link": "/guides/most-important"
+  },
+  {
+    "title": "Moderadamente importante",
+    "description": "¿Ya tiene lo básico cubierto pero está listo para llevar su privacidad y seguridad al siguiente paso? Lea esta sección.",
+    "link": "/guides/moderately-important"
+  },
+  {
+    "title": "Menos importante",
+    "description": "¿Preparado para temas más avanzados? ¿Listo para empezar a trabajar en esas últimas pequeñas fugas que te quedan en tu vida digital? Esta sección es para ti.",
+    "link": "/guides/less-important"
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "criterias": [
+    "Aliases",
+    "Bandwidth",
+    "Reply/Send",
+    "Mailboxes",
+    "Custom domains",
+    "PGP Encryption"
+  ],
+  "tools": {
+    "anonaddy": {
+      "name": "AnonAddy",
+      "logo": "/images/logos/anonaddy.png",
+      "link": "https://anonaddy.com/",
+      "plans": {
+        "Free": {
+          "Aliases": "Unlimited",
+          "Bandwidth": "10MB",
+          "Reply/Send": 0,
+          "Mailboxes": 2,
+          "Custom domains": 0,
+          "PGP Encryption": "Yes"
+        },
+        "Lite": {
+          "Aliases": "Unlimited",
+          "Bandwidth": "50MB",
+          "Reply/Send": "20/day",
+          "Mailboxes": 5,
+          "Custom domains": 1,
+          "PGP Encryption": "Yes"
+        },
+        "Pro": {
+          "Aliases": "Unlimited",
+          "Bandwidth": "Unlimited",
+          "Reply/Send": "100/day",
+          "Mailboxes": 30,
+          "Custom domains": 20,
+          "PGP Encryption": "Yes"
+        }
+      }
+    },
+    "simplelogin": {
+      "name": "SimpleLogin",
+      "logo": "/images/logos/simplelogin.png",
+      "referral_link": "https://simplelogin.io?slref=thenewoil",
+      "link": "https://simplelogin.io/",
+      "plans": {
+        "Free": {
+          "Aliases": 10,
+          "Bandwidth": "Unlimited",
+          "Reply/Send": "Unlimited",
+          "Mailboxes": 1,
+          "Custom domains": 0,
+          "PGP Encryption": "No"
+        },
+        "Premium ($30/yr)": {
+          "Aliases": "Unlimited",
+          "Bandwidth": "Unlimited",
+          "Reply/Send": "Unlimited",
+          "Mailboxes": "Unlimited",
+          "Custom domains": "Unlimited",
+          "PGP Encryption": "Yes"
+        }
+      }
+    }
+  }
+}

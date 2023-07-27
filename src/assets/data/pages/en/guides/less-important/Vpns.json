@@ -1,0 +1,52 @@
+{
+  "ivpn": {
+    "name": "IVPN",
+    "logo": "/images/sponsors/ivpn.png",
+    "logo_alt": "IVPN logo",
+    "link": "https://www.ivpn.net",
+    "pros": [
+      "[Audited](https://www.ivpn.net/blog/independent-security-audit-concluded/)",
+      "Available on all operating systems",
+      "Anonymous payments (cash and Monero) available",
+      "Offers malware, tracker, and ad-blocking for [all plans](https://www.ivpn.net/antitracker/)",
+      "[Hardcore Mode](https://www.ivpn.net/blog/block-ads-and-beat-data-surveillance-with-ivpns-antitracker/) blocks all Google and Facebook domains",
+      "[Trusted/Untrusted networks](https://www.ivpn.net/blog/new-trusted-wi-fi-networks-feature-for-ivpn-apps/) feature allows the VPN to enable or disable automatically on certain networks",
+      "Offers [TOTP multifactor authentication](/guides/most-important/mfa) for accounts"
+    ],
+    "cons": []
+  },
+  "mullvad": {
+    "name": "Mullvad",
+    "logo": "/images/logos/mullvad.png",
+    "logo_alt": "Mullvad logo",
+    "link": "https://mullvad.net/",
+    "pros": [
+      "[Audited](https://mullvad.net/en/blog/2020/6/25/results-available-audit-mullvad-app/)",
+      "Available on all operating systems",
+      "Flat rate of $5/month for all services and payment lengths",
+      "Anonymous payments (cash and Monero) available",
+      "Offers malware, tracker, and ad-blocking for [all plans](https://mullvad.net/en/why-mullvad-vpn/)",
+      "Frequently engages in [early-adoption practices](https://mullvad.net/en/blog/2022/12/30/review-of-2022/) to improve user privacy and security, like post-quantum safe tunnels, diskless infrastructure, numerous audits, and more."
+    ],
+    "cons": [
+      "Does not offer [multifactor authentication](/guides/most-important/mfa) for accounts"
+    ]
+  },
+  "protonvpn": {
+    "name": "ProtonVPN",
+    "logo": "/images/logos/proton.png",
+    "logo_alt": "ProtonVPN logo",
+    "referral_link": "https://go.getproton.me/aff_c?offer_id=15&aff_id=2187",
+    "link": "https://protonvpn.com/",
+    "pros": [
+      "[Audited](https://protonvpn.com/blog/open-source/)",
+      "Available on all operating systems",
+      "Anonymous payments (cash) available",
+      "Offers a limited number of free servers",
+      "Offers malware, tracker, and ad-blocking ([paid plans only](https://protonvpn.com/support/netshield/))",
+      "Advertises to work with streaming services like Netflix and Disney+ (paid plans only)",
+      "Offers TOTP and hardware token [multifactor authentication](/guides/most-important/mfa) for accounts"
+    ],
+    "cons": []
+  }
+}

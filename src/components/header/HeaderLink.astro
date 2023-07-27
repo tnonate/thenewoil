@@ -1,0 +1,30 @@
+---
+import { fuzzyCompareUrl } from "@utils/url";
+import { defaultLanguage } from "@utils/i18n";
+
+interface Props {
+  href: string;
+  active?: boolean;
+  lang?: string | undefined;
+}
+
+const { lang } = Astro.props;
+let { href, active } = Astro.props;
+
+if (lang) {
+  href = `/${lang}${href}`;
+}
+
+if (active === undefined) {
+  active = fuzzyCompareUrl(Astro.url.pathname, href);
+}
+---
+
+<a
+  href={href}
+  data-active={String(active)}
+  class="rounded-md bg-white bg-opacity-0 py-2 px-5 font-medium transition-all hover:bg-opacity-5 data-[active='true']:bg-opacity-[.15]"
+  hreflang={lang}
+>
+  <slot />
+</a>

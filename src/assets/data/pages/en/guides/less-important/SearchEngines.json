@@ -1,0 +1,68 @@
+{
+  "criterias": ["Index", "Recommended Instance"],
+  "tools": {
+    "brave": {
+      "name": "Brave Search",
+      "logo": "/images/logos/brave.png",
+      "link": "https://search.brave.com/",
+      "values": {
+        "Index": "Brave",
+        "Recommended Instance": "NA"
+      }
+    },
+    "ecosia": {
+      "name": "Ecosia",
+      "logo": "/images/logos/ecosia.png",
+      "link": "https://www.ecosia.com/",
+      "values": {
+        "Index": "[Bing](https://ecosia.helpscoutdocs.com/article/403-wie-entsteht-das-ranking-der-ergebnisse)",
+        "Recommended Instance": "NA"
+      }
+    },
+    "metager": {
+      "name": "Metager",
+      "logo": "/images/logos/metager.png",
+      "link": "https://metager.org/",
+      "values": {
+        "Index": "[Bing](https://metager.org/search-engine), others",
+        "Recommended Instance": "NA"
+      }
+    },
+    "mojeek": {
+      "name": "Mojeek",
+      "logo": "/images/logos/mojeek.png",
+      "link": "https://www.mojeek.com/",
+      "values": {
+        "Index": "Mojeek",
+        "Recommended Instance": "NA"
+      }
+    },
+    "qwant": {
+      "name": "Qwant",
+      "logo": "/images/logos/qwant.png",
+      "link": "https://www.qwant.com/",
+      "values": {
+        "Index": "Qwant",
+        "Recommended Instance": "NA"
+      }
+    },
+    "searx": {
+      "name": "SearX",
+      "logo": "/images/logos/searx.png",
+      "link": "https://searx.github.io/searx/",
+      "values": {
+        "Index": "Depends on the instance",
+        "Recommended Instance": "https://searx.be"
+      }
+    },
+    "whoogle": {
+      "name": "Whoogle",
+      "logo": "/images/logos/whoogle.png",
+      "link": "https://github.com/benbusby/whoogle-search",
+      "values": {
+        "Index": "Google",
+        "Recommended Instance": "https://search.sethforprivacy.com/"
+      }
+    }
+  }
+}

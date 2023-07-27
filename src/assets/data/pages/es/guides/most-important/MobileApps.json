@@ -1,0 +1,70 @@
+{
+  "criterias": ["Alternativas", "Razón"],
+  "tools": {
+    "web browser": {
+      "name": "Navegador web",
+      "values": {
+        "Alternativas": [
+          "Android: [Brave](https://play.google.com/store/apps/details?id=com.brave.browser&hl=en&gl=US), [Bromite](https://www.bromite.org/news/2018-12-21-new-fdroid-repository-url) or [Mull](https://f-droid.org/packages/us.spotco.fennec_dos/).",
+          "iOS: [SnowHaze](https://snowhaze.com/download) or [Brave](https://apps.apple.com/us/app/brave-private-browser/id1052879175)."
+        ],
+        "Razón": "Aunque las aplicaciones han sustituido mayoritariamente al navegador en los móviles, algunas cosas se siguen haciendo a través de él. Aunque es menos revelador en comparación con otras aplicaciones del teléfono, el uso del navegador sigue revelando muchos datos sobre ti y debería reducirse al mínimo."
+      }
+    },
+    "navigation": {
+      "name": "Navegación",
+      "values": {
+        "Alternativas": [
+          "[Organic Maps](https://organicmaps.app/)",
+          "[OsmAnd Maps](https://osmand.net/)"
+        ],
+        "Razón": "Google Maps, Apple Maps y otros registran todos los lugares a los que vas y añaden ese historial de ubicaciones a tu perfil. Utilizar un navegador alternativo no impedirá que tu operador rastree tu ubicación, pero puede ayudar a reducir los datos de localización específicos que se almacenan sobre ti y quién puede recopilarlos."
+      }
+    },
+    "calendar": {
+      "name": "Calendario",
+      "values": {
+        "Alternativas": [
+          "[Nextcloud](https://nextcloud.com/)",
+          "[EteSync](https://www.etesync.com/)",
+          "[ProtonCalendar](https://calendar.protonmail.com/)",
+          "[Tutanota](https://tutanota.com/calendar/)"
+        ],
+        "Razón": "Tu calendario contiene todos tus planes y ubicaciones: próximas fechas, turnos en el trabajo, eventos a los que tienes previsto asistir y mucho más. Utilizar un calendario cifrado puede ayudarte a proteger esa información frente a Google, Apple u otros terceros."
+      }
+    },
+    "e-mail": {
+      "name": "Correo electrónico",
+      "values": {
+        "Alternativas": [
+          "[Encrypted email provider of your choice](/guides/moderately-important/email)"
+        ],
+        "Razón": "Para más información sobre este tema, consulte la página \"[Correo electrónico cifrado](/guides/moderately-important/email)\"."
+      }
+    },
+    "text messenger": {
+      "name": "Mensajero de texto",
+      "values": {
+        "Alternativas": [
+          "[Encrypted messaging provider of your choice](/guides/less-important/messaging)"
+        ],
+        "Razón": "Para más información sobre este tema, consulte la página \"[Mensajería cifrada](/guides/less-important/messaging)\"."
+      }
+    },
+    "firewall & content blocker(none included by default)": {
+      "name": "Cortafuegos y bloqueador de contenidos (ninguno incluido por defecto)",
+      "values": {
+        "Alternativas": [
+          "Adguard DNS ([Android](https://adguard.com/en/adguard-android/overview), [iOS](https://apps.apple.com/app/apple-store/id1047223162))",
+          "Blokada ([Android](https://blokada.org/#download), [iOS](https://apps.apple.com/us/app/blokada/id1508341781)) *(No free version for iOS)*",
+          "Lockdown ([iOS](https://apps.apple.com/us/app/lockdown-apps/id1469783711))"
+        ],
+        "Razón": [
+          "Los cortafuegos de los teléfonos impiden que las aplicaciones contacten con servidores innecesarios. Por ejemplo, muchas aplicaciones se ponen en contacto con Facebook o Google cuando las ejecutas, lo que les proporciona información sobre tu dispositivo y el uso que haces de ellas. Algunos de estos cortafuegos pueden requerir ajustes de configuración para un rendimiento y una eficacia óptimos.",
+          "**Nota:** No puedes usar una VPN y un cortafuegos/bloqueador de contenido al mismo tiempo*. Recomiendo usar un [proveedor VPN](/guides/less-important/vpns) de confianza que ofrezca su propio DNS resolver que bloquee trackers conocidos, anuncios y malware. También puedes utilizar un resolver DNS personalizado que también bloquee anuncios y/o rastreadores en lugar de una VPN, pero tu tráfico permanecerá expuesto en diversos grados, por lo que no lo recomiendo. Consulta [este artículo](https://www.androidpolice.com/2020/03/26/make-android-use-dns-server-choice/) para obtener instrucciones sobre cómo cambiar las DNS en Android, y [este artículo](https://gadgets.ndtv.com/mobiles/features/how-to-change-dns-server-on-iphone-ipad-or-ipod-touch-1671813) para obtener instrucciones sobre cómo cambiar las DNS en iOS. Consulta [Guías de privacidad](https://privacyguides.org/providers/dns/) para ver una lista de resolvedores DNS recomendados si no estás seguro de cuál usar.",
+          "*ProtonVPN permite el uso simultáneo de una VPN (configurada en IKEv2) y un Firewall/Bloqueador de Contenido, sin embargo se sabe que esto causa fugas de DNS. Los riesgos de la fuga de DNS varían en función de su [modelo de amenaza](/guides/prologue/threatmodel), pero recomiendo el uso de una VPN sin un Firewall/Bloqueador de contenido sólo para pecar de cauteloso."
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "link": "https://joindeleteme.com/",
+    "img": "/images/logos/deleteme.svg",
+    "name": "DeleteMe"
+  },
+  {
+    "link": "https://easyoptouts.com/",
+    "img": "/images/logos/easyoptouts.png",
+    "name": "EasyOptOuts"
+  },
+  {
+    "link": "https://www.mydataremoval.com/",
+    "img": "/images/logos/mydataremoval.png",
+    "name": "MyDataRemoval"
+  }
+]

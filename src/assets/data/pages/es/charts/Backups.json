@@ -1,0 +1,45 @@
+{
+  "criterias": [
+    "¿Fuente disponible?",
+    "¿Se ofrece autenticación multifactor?",
+    "Notas adicionales"
+  ],
+  "tools": {
+    "filen": {
+      "name": "Filen",
+      "values": {
+        "¿Fuente disponible?": "Cliente",
+        "¿Se ofrece autenticación multifactor?": "Sí",
+        "Notas adicionales": [
+          "[Preocupación](https://github.com/privacyguides/privacyguides.org/pull/345#issuecomment-976415846) por la aplicación del cifrado"
+        ]
+      }
+    },
+    "mega": {
+      "name": "Mega",
+      "values": {
+        "¿Fuente disponible?": "Cliente",
+        "¿Se ofrece autenticación multifactor?": "Sí",
+        "Notas adicionales": [
+          "[La investigación](https://arstechnica.com/information-technology/2022/06/mega-says-it-cant-decrypt-your-files-new-poc-exploit-shows-otherwise/) sugiere un código descuidado"
+        ]
+      }
+    },
+    "protondrive": {
+      "name": "ProtonDrive",
+      "values": {
+        "¿Fuente disponible?": "Cliente",
+        "¿Se ofrece autenticación multifactor?": "Sí",
+        "Notas adicionales": ["Sin aplicación de escritorio"]
+      }
+    },
+    "sync": {
+      "name": "Sync",
+      "values": {
+        "¿Fuente disponible?": "No",
+        "¿Se ofrece autenticación multifactor?": "Sí",
+        "Notas adicionales": ["Auditado"]
+      }
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "hushed": {
+    "name": "Hushed",
+    "logo": "/images/logos/hushed.png",
+    "logo_alt": "Hushed logo",
+    "link": "https://hushed.com/",
+    "pros": [
+      "Unlimited numbers",
+      "International calling",
+      "Can work just with WiFi (doesn't need mobile data to operate)",
+      "Does not require your SIM number"
+    ],
+    "cons": [
+      "No free tier",
+      "US and Canadian phone numbers only",
+      "No desktop app"
+    ]
+  },
+  "google voice": {
+    "name": "Google Voice",
+    "logo": "/images/logos/google_voice.png",
+    "logo_alt": "Google Voice logo",
+    "link": "https://voice.google.com/about",
+    "pros": [
+      "One free number (unlimited numbers with Workspace subscription)",
+      "Desktop client available",
+      "No phone app required (forwards calls and texts to your SIM number)"
+    ],
+    "cons": [
+      "US and Canada only",
+      "No group chats",
+      "No video chats",
+      "Requires your SIM number",
+      "Requires a Google account"
+    ]
+  },
+  "mysudo": {
+    "name": "MySudo",
+    "logo": "/images/logos/mysudo.png",
+    "logo_alt": "MySudo logo",
+    "link": "https://mysudo.com/",
+    "pros": [
+      "Up to 9 numbers available",
+      "Does not require your SIM number",
+      "Includes fully functional email, web browser, and [digital masked cards](/guides/most-important/payments) (iOS only)",
+      "Zero-knowledge at rest",
+      "End-to-end encrypted (only to other MySudo users)",
+      "Group chats (only to other MySudo users)",
+      "Video chats (only to other MySudo users)"
+    ],
+    "cons": [
+      "US, Canadian, and UK phone numbers only",
+      "Desktop client in beta, web-based only, can only sync with iOS"
+    ]
+  },
+  "skype": {
+    "name": "Skype",
+    "logo": "/images/logos/skype.png",
+    "logo_alt": "Skype logo",
+    "link": "https://www.skype.com/en/skype-number/",
+    "pros": [
+      "Supports up to 10 phone numbers",
+      "Available in 25+ countries",
+      "Does not require your SIM number",
+      "Desktop app available"
+    ],
+    "cons": [
+      "No group chats (over normal protocols)",
+      "No video chats (over normal protocols)",
+      "Requires a Microsoft account",
+      "Pay by the minute"
+    ]
+  },
+  "tossable digits": {
+    "name": "Tossable Digits",
+    "logo": "/images/logos/tossable-digits.png",
+    "logo_alt": "Tossable Digits logo",
+    "link": "https://www.tossabledigits.com/",
+    "pros": [
+      "Unlimited numbers",
+      "International calling",
+      "Available in 70 Countries",
+      "No phone app required (forwards calls and texts to your SIM number)"
+    ],
+    "cons": [
+      "No free tier",
+      "No desktop app",
+      "International Calls are billed per minute",
+      "SMS only supported on US and Canada Numbers"
+    ]
+  },
+  "viber": {
+    "name": "Viber",
+    "logo": "/images/logos/viber.png",
+    "logo_alt": "Viber logo",
+    "link": "https://www.viber.com/",
+    "pros": [
+      "Group chats (only to other Viber users)",
+      "Video chats (only to other Viber users)",
+      "Desktop client",
+      "Zero-knowledge storage",
+      "End-to-end encrypted (only to other Viber users)",
+      "Worldwide numbers available",
+      "Does not require your SIM number"
+    ],
+    "cons": [
+      "External messaging and calling cost extra",
+      "Only one number available"
+    ]
+  }
+}
