@@ -1,7 +1,13 @@
 [
   {
-    "name": "#thenewoil:matrix.org",
+    "name": "Matrix",
     "link": "https://matrix.to/#/#thenewoil:matrix.org",
     "img": "/images/logos/matrix2.png"
+  },
+  {
+    "name": "Discord",
+    "link": "https://discord.gg/CCM2vypDNM",
+    "img": "/images/logos/discord.png",
+    "not_encouraged": "true"
   }
 ]

@@ -7,6 +7,17 @@
     "Additional notes?"
   ],
   "tools": {
+    "2fas": {
+      "name": "2FAS",
+      "values": {
+        "Available on Android?": "Yes",
+        "Available in F-Droid?": "No",
+        "Available on iOS?": "Yes",
+        "Offers backups?": "Yes",
+        "Additional notes?": ["Syncs via iCloud, which is not [end-to-end encrypted](/guides/moderately-important/encryption/) even with Advanced Data Protection"
+        ]
+      }
+    },
     "aegis": {
       "name": "Aegis",
       "values": {
@@ -20,14 +31,15 @@
         ]
       }
     },
-    "xmpp": {
-      "name": "Raivo",
+    "ente": {
+      "name": "ente Authenticator",
       "values": {
-        "Available on Android?": "No",
-        "Available in F-Droid?": "N/A",
+        "Available on Android?": "Yes",
+        "Available in F-Droid?": "Yes",
         "Available on iOS?": "Yes",
         "Offers backups?": "Yes",
-        "Additional notes?": ["Login required", "Optional sync with Mac"]
+        "Additional notes?": ["Account required"
+        ]
       }
     }
   }

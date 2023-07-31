@@ -1,4 +1,14 @@
 {
+  "2fas": {
+    "name": "2FAS",
+    "logo": "/images/logos/2fas.png",
+    "logo_alt": "2FAS logo",
+    "link": "https://2fas.com/",
+    "pros": [
+       "Available on Android & iOS",
+       "Can sync with Mac via browser extension and shared clipboard (see Cons)"],
+    "cons": ["Not available on F-Droid", "Device sync requires iCloud, data not encrypted even with [Advanced Data Protection](/guides/most-important/mobile-settings)"]
+  },
   "aegis": {
     "name": "Aegis Authenticator",
     "logo": "/images/logos/aegis.png",
@@ -10,12 +20,15 @@
     ],
     "cons": ["Android only"]
   },
-  "raivo": {
-    "name": "Raivo OTP",
-    "logo": "/images/logos/raivo.png",
-    "logo_alt": "Raivo OTP logo",
-    "link": "https://raivo-otp.com/",
-    "pros": ["Can sync with Mac app (requires iCloud)"],
-    "cons": ["iOS only", "Login feature is mandatory"]
+  "ente": {
+    "name": "ente Authenticator",
+    "logo": "/images/logos/ente.png",
+    "logo_alt": "ente Authenticator logo",
+    "link": "https://github.com/ente-io/auth#readme",
+    "pros": [
+       "Available on Android & iOS",
+       "Available on F-Droid"],
+    "cons": [
+       "ente account required (free for now but plans to charge in the future)"]
   }
 }

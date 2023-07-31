@@ -43,6 +43,7 @@
       "Source available clients"
     ],
     "cons": [
+      "Apps only for Android, iOS, & Windows. Mac in beta, web-only on Linux",
       "Storage is shared with your email account",
       "Not audited",
       "Not available in F-Droid"
