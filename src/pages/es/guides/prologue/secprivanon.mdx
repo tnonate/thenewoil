@@ -1,0 +1,55 @@
+---
+layout: "@layouts/guides.astro"
+title: Seguridad frente a privacidad frente a anonimato
+topic: Seguridad, privacidad y anonimato
+weight: 5
+draft: false
+---
+
+import Highlighting from "@components/common/Highlighting.astro";
+
+# Seguridad frente a privacidad frente a anonimato
+
+En esta página quiero explicar la seguridad, la privacidad y el anonimato. Estos temas a menudo se complementan, pero no siempre dependen el uno del otro. Es importante recordar que, hasta cierto punto, aquí no hay respuestas incorrectas. Por ejemplo, está bien elegir un producto porque tiene mejor seguridad aunque ese producto ofrezca poco en cuanto a privacidad. Lo importante es que **debes ser consciente de lo que te ofrecen estos productos y servicios para poder utilizarlos correctamente.**
+
+<Highlighting>
+
+- **Seguridad** se define como "ausencia de peligro" o "protección; medidas adoptadas para protegerse del espionaje o el sabotaje, el delito, el ataque o la evasión". Piensa que es la capacidad de impedir que personas no autorizadas accedan a información, cuentas u otras cosas similares. Un ejemplo del mundo real podría ser la forma en que una cerradura está diseñada para mantener a personas no autorizadas fuera de tu casa.
+- **Privacidad** es "la cualidad o el estado de estar apartado de la observación; secreto". Yo la entiendo como la capacidad de controlar la información. Normalmente se refiere a información sobre tu identidad, como tus [metadatos](/guías/moderadamente-importante/metadatos). Utilizando de nuevo la casa anterior, la privacidad puede considerarse como la capacidad de controlar quién tiene la llave o la dirección.
+- **Anonimato** es el estado de ser anónimo, o "de autoría u origen desconocido, no nombrado o identificado". Es la capacidad de ser completamente desconocido por cualquiera. El anonimato puede considerarse como la privacidad con esteroides. Mientras que la parivacidad se refiere más a la información **_sobre_** ti, el anonimato se refiere a tu identidad real. Un buen ejemplo es [Satoshi Nakamoto](https://es.wikipedia.org/wiki/Satoshi_Nakamoto), el famoso y desconocido creador de Bitcoin.
+
+</Highlighting>
+
+_Todas las definiciones son cortesía del [Diccionario Merriam-Webster].(https://www.merriam-webster.com/)._
+
+Como ya he dicho, estos temas se solapan a menudo, pero no siempre. La privacidad puede ayudar a tu seguridad, por ejemplo, porque si la gente no conoce información sobre ti no puede responder a tus preguntas de seguridad. La seguridad puede proteger tu privacidad garantizando que nadie tenga acceso a esa información sobre ti salvo quien tú quieras.
+
+## Ejemplos
+
+### Seguridad sin privacidad ni anonimato
+
+Google casi no ha sufrido filtraciones de datos importantes en todos sus años de existencia, y sin embargo lo sabe casi todo sobre todo el mundo, hasta el punto de que el antiguo consejero delegado Eric Schmidt comentó "[Podemos saber más o menos en qué estás pensando](https://www.zdnet.com/article/google-even-knows-what-youre-thinking/)". Google ofrece seguridad de primera clase con cero privacidad o anonimato.
+
+### Privacidad sin anonimato
+
+[MySudo](/guides/less-important/voip) es un gran ejemplo de esto. MySudo no es anónimo. Pueden ver tus [metadatos](/guides/moderately-important/metadata), y si te suscribes a su servicio de tarjeta enmascarada, saben exactamente quién eres. Sin embargo, te ayudan a proteger tu intimidad dándote números de teléfono, direcciones de correo electrónico y tarjetas para que se las des a otras empresas y particulares, de modo que puedas compartimentar tu vida y elegir quién sabe qué de ti. Otro ejemplo es [privacy.com](/guides/most-important/payments), que te permite utilizar tarjetas de débito enmascaradas con, literalmente, cualquier información adjunta. Privacy tiene que saber quién eres por ley para evitar fraudes, así que no son anónimas, pero pueden ayudarte a controlar quién más tiene acceso a tu identidad e información reales.
+
+### Anonimato sin seguridad
+
+Pagar un producto en efectivo preserva tu anonimato: a menos que la empresa lo exija, no tienes que dar ningún tipo de información. Sin embargo, no tienes ninguna seguridad en caso de que el vendedor no entregue el artículo, ni estás protegido frente a fraudes ni nada por el estilo.
+
+### Seguridad y privacidad sin anonimato
+
+Con Signal, como se requiere tu número de teléfono, puedes ser desenmascarado por una orden judicial o incluso por una búsqueda en Internet, dependiendo del número de teléfono que utilices. Sin embargo, Signal tiene fama de contar con una de las mejores seguridades del mundo, y el contenido de tus mensajes y la información que transfieras estarán protegidos y controlados aunque tu identidad no lo esté.
+
+### Privacidad sin seguridad ni anonimato
+
+Perdona el ejemplo burdo, pero piensa en ir al baño cuando vas de acampada. Puedes encontrar unos arbustos tras los que esconderte y eso te dará intimidad, pero no tienes seguridad ni anonimato. No hay nada que impida que alguien te encuentre, y si la policía decide pedirte una identificación no tienes ninguna protección frente a esa petición.
+
+### Seguridad con privacidad y anonimato
+
+XMPP es un ejemplo perfecto de ello. XMPP te permite registrarte sin ninguna información real, a través de una conexión VPN o Tor para un anonimato total. Además, las conversaciones pueden protegerse mediante encriptación OMEMO, lo que significa que los datos en sí también son seguros y privados. Cuando se utiliza correctamente, es lo más cercano a la perfección que se puede conseguir.
+
+## Reflexiones finales
+
+Como he dicho antes, estos tres conceptos no son necesariamente dependientes entre sí. Un producto seguro no garantiza la privacidad, un producto privado no garantiza la seguridad, y el anonimato tampoco. También como he dicho antes, no hay nada malo en valorar una faceta por encima de otra. Sólo asegúrate de que entiendes cómo debe utilizarse un producto y cuáles son sus riesgos. Sería horrible utilizar Google pensando que te dará privacidad en tus comunicaciones y que luego un [empleado deshonesto] te robe tus datos financieros (https://nypost.com/2020/09/23/shopify-says-rogue-employees-may-have-stolen-customer-data/). O si utilizaras un servicio como Signal para organizar protestas en un país hostil sólo para que te detuvieran una vez desenmascarado tu número de teléfono con una orden judicial. Conoce las limitaciones de los servicios que elijas y decide qué características son importantes para ti. Este sitio web se centra en gran medida en la seguridad básica y la privacidad, e intenta encontrar la mejor combinación entre ambas, además de tener en cuenta la facilidad de uso.

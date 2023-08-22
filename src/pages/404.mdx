@@ -1,0 +1,25 @@
+---
+layout: "@layouts/default.astro"
+title: 404 Page Not Found
+draft: false
+center_content: true
+---
+
+import { Icon } from "astro-icon";
+import Card from "@components/pages/404/Card.astro";
+import Button from "@components/controls/Button.astro";
+
+<Card title="Error 404">
+
+    Page not found
+
+    <span slot="subtext">
+        There is no oil to be found here!
+    </span>
+
+    <Button href="/" slot="action" variant="contained" color="primary" class="w-full flex justify-center items-center gap-2">
+        Go Back Home
+        <Icon pack="mdi" name="house" class="h-7 w-7" />
+    </Button>
+
+</Card>

@@ -1,0 +1,38 @@
+---
+import DefaultHead from "@components/layout/DefaultHead.astro";
+import Header from "@components/header/Header.astro";
+import Footer from "@components/footer/Footer.astro";
+import { getLanguageFromUrl } from "@/utils/i18n";
+
+interface Props {
+  frontmatter: {
+    title: string;
+    center_content?: boolean;
+  };
+}
+
+const { frontmatter } = Astro.props;
+
+const language = getLanguageFromUrl(Astro.url);
+---
+
+<!DOCTYPE html>
+<html lang={language.code}>
+  <head>
+    <DefaultHead pageTitle={frontmatter.title} />
+  </head>
+
+  <body>
+    <Header title={frontmatter.title} />
+    <div class="flex flex-1 flex-col items-center overflow-auto">
+      <main
+        class={`flex flex-1 flex-col gap-8 w-full max-w-screen-2xl px-6 md:px-20 ${
+          frontmatter.center_content && "items-center"
+        }`}
+      >
+        <slot />
+      </main>
+      <Footer />
+    </div>
+  </body>
+</html>

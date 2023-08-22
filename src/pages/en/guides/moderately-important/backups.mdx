@@ -1,0 +1,78 @@
+---
+layout: "@layouts/guides.astro"
+title: "Protection: Backups"
+topic: "How to Keep Good Backups"
+weight: 5
+draft: false
+---
+
+import ProsAndCons from "@components/charts/ProsAndCons.astro";
+import data from "@assets/data/pages/en/guides/moderately-important/Backups.json";
+
+# Protection: Backups
+
+**Backups are critical since devices regularly fail, break, or get stolen, lost, or corrupted.** To develop good backup habits, **first you need to decide how much space you need.** This comes in three parts: size, frequency, and range of backups.
+* **Size**: If you're only worried about backing up important text files and financial documents, the size will likely be small. If you'll be backing up videos and images, you'll want something more in the hundreds of gigabytes or few terabytes range.
+* **Frequency**: In corporate environments, backups are often performed daily or multiple times per day. At home, once a week or even less may be appropriate. It's up to you. Keep backups often enough that if your computer crashed right before the next backup, it wouldn't be a crippling loss, but not so often that it's disruptive to your routines.
+* **Range**: In a business environment, you may be required to keep certian records for a set period of time, up to 10 years or more in some industries. At home, this is once again personal preference. Do you want at least 6 months worth of backups? 12? More?
+
+Even if your one-time backup is small, keeping frequent copies can add up quickly. **I recommend creating your first backup file or folder, looking at the size, then use that information to calculate how much storage space you need based on your desired backup frequency and range.**
+
+Generally speaking, manual backups are frowned upon. It's far too easy to forget to do them. **It is recommended you use some kind of automated backup software when possible.** Windows and Mac have features that allow you to automate the backup process including frequency, which files to include, and where to store them. If you decide to manually handle your backups for any reason, be sure to set effective recurring reminders so you don't forget.
+
+Finally, **test your backups.** In the IT industry, there's a saying: if you haven't tested your backups, you don't have backups. After first adopting your backup strategy, test out a recovery to ensure you understand how it works and that you did both the backup and recovery correctly. Do a test recovery every so often to ensure that nothing has changed or become corrupted. Nothing is worse than suffering a data loss and finding out that you weren't backing up what you thought you were or that the restoration process is more confusing than you expected and you did it wrong.
+
+**Note**: Be sure to encrypt your backup devices - local or offsite - using the instructions in the [previous section](/guides/moderately-important/devices).
+
+## The 3-2-1 Rule
+
+The 3-2-1 Rule is a guideline for considering how to organize your backups effectively. It states that you should have 3 copies of your data - 2 backups plus your live (daily in-use) copy. You should have 2 separate formats for your backups - such as an external hard drive and a DVD. Finally, you should have 1 of those copies offsite, such as in the cloud or at a friend's house in case of physical damage or disaster at your location. I strongly recommending [encrypting](/guides/moderately-important/encryption) all your backups (and other devices), especially your remote copies. Whether it's a close friend or a cloud provider, you're entrusting a lot of sensitive data to that location. Perhaps your friend is trustworthy, but someone who comes over and accidentally finds your backup isn't. In the next section, I'll discuss some privacy-friendly cloud options.
+
+## Privacy-Respecting Cloud Backups
+
+Generally speaking, **I advise against using Google Drive, Dropbox, iCloud, or similar services**, primarly because they are not [zero-knowledge](/guides/moderately-important/encryption). The exception here is iCloud. As of 2023, iCloud can be optionally encrypted in a zero-knowledge format by enabling the Advanced Data Protection option under Settings > Account (your name at the top of the Settings menu) > iCloud > Advanced Data Protection. Be aware that this does not encrypt everything. You can get more information [here](https://support.apple.com/en-us/HT212520). If you must use iCloud, I would consider enabling this a requirement. If you must use one of the other mainstream providers, [see below](/guides/moderately-important/backups#mainstream-cloud-providers).
+
+<img
+  src="/images/logos/nextcloud.png"
+  alt="Nextcloud logo"
+  class="float-right mx-6 w-24"
+/>
+If you decide that your offsite backup solution should involve a cloud service for
+any reason, **there are several secure and private cloud backup solutions.** The
+best-case scenario is to self-host a [Nextcloud](https://nextcloud.com/) server so
+you have complete and total control of the data on a trusted, open source platform.
+Nextcloud is a fully-featured office suite complete with storage, online document
+editing, calendars, to-do lists, and many, many more features via third-party plugins.
+However, this can be unrealistic to many for a number of reasons, so one option is
+to select a [provider](https://nextcloud.com/signup/). (Please note that Nextcloud
+essentially [cannot](https://nextcloud.com/blog/encryption-in-nextcloud/) be zero-knowledge
+at this time. Make sure you trust the provider or use Cryptomator (discussed below)
+for added protection.) If this option doesn't meet your needs, I have selected several
+suggestions below.
+
+_Listed in alphabetical order, not order of recommendation_
+
+<ProsAndCons data={data} headingLevel={4} />
+
+**[Click here to see my criteria for selecting these services](https://gitlab.com/thenewoil/website/-/wikis/Backup-&-Cloud-Storage-Criteria)**
+
+_[Click here for a visual version of this chart](/charts/backups)_
+
+### Mainstream Cloud Providers
+
+<img
+  src="/images/logos/cryptomator.png"
+  alt="Cryptomator logo"
+  class="float-left mx-6 w-24"
+/>
+**If none of these options work for you, there are two ways to upload encrypted content
+to mainstream cloud providers** such as Google Drive or Dropbox. The first is [Cryptomator](https://cryptomator.org/),
+an open source tool that allows you to encrypt each individual file and sync it with
+the cloud. If you don't want to use Cryptomator for any reason, then consider creating
+an encrypted container with VeraCrypt and uploading it to the provider. (For the
+record, this is basically what Cryptomator does, but Cryptomator makes it easier.)
+Below are the instructions for creating an encrypted container with VeraCrypt.
+
+First, figure out how much storage you need. Google Drive offers 15 gigabytes for free, OneDrive offers 5 gigabytes for free, and Dropbox offers 2 gigabytes for free. Now open up Veracrypt, select the "Tools" menu, and choose "Volume Creation Wizard." Pick "[Create](*PUBLIC*/images/steps/vera-crypt-encrypting/c01.jpg) an encrypted file container," "[Standard](*PUBLIC*/images/steps/vera-crypt-external-encrypting/b02.jpg) Veracrypt Volume," then click "Select File" and [navigate](*PUBLIC*/images/steps/vera-crypt-encrypting/c03.jpg) to your cloud service folder. Once in the folder, you'll have to makeup a nonexistant file name. Anything works, from "Backup" to "veracrypt_containter" or whatever you want. Once you hit "save," it should show you the file path. Continue onward, making sure you've selected "[AES](*PUBLIC*/images/steps/vera-crypt-encrypting/c04.jpg)" and "SHA-512" for your algorithms, and then move on. The next screen will ask you for a [volume size](*PUBLIC*/images/steps/vera-crypt-encrypting/c05.jpg). Ideally, I would say use as much as you can. If you use your Dropbox or Google Drive for other sharing purposes, leave enough space free for that or maybe only use the exact amount of space you require for your backup strategy. Once you decide what storage size is appropriate for you, go to the next screen where it requires a password. From there, it's pretty self explanatory. Just answer the questions and it will pick the best formats and such for you. After creating your encrypted container, upload it to your cloud service of choice, either using the service's desktop app or manually through a web portal.
+
+**If you follow these steps, you should have created secure, consistent backups** that will protect you in the event of a lost, stolen, or damaged device, or even the dreaded ransomware.
