@@ -9,9 +9,9 @@
   ],
   "tools": {
     "anonaddy": {
-      "name": "AnonAddy",
-      "logo": "/images/logos/anonaddy.png",
-      "link": "https://anonaddy.com/",
+      "name": "Addy.io",
+      "logo": "/images/logos/addyio.png",
+      "link": "https://addy.io/",
       "plans": {
         "Free": {
           "Aliases": "Unlimited",
