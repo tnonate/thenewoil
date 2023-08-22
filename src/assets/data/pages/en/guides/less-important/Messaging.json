@@ -1,21 +1,4 @@
 {
-  "jami": {
-    "name": "Jami",
-    "logo": "/images/logos/jami.png",
-    "logo_alt": "Jami Logo",
-    "link": "https://jami.net/",
-    "pros": [
-      "Available on all operating systems",
-      "Peer-to-peer",
-      "Username-based",
-      "No identifiable user data required at signup"
-    ],
-    "cons": [
-      "Not audited",
-      "Not metadata resistant",
-      "No disappearing messages"
-    ]
-  },
   "matrix": {
     "name": "Matrix",
     "logo": "/images/logos/matrix.png",
@@ -83,22 +66,6 @@
       "Not free",
       "Desktop app must be synced every time",
       "No disappearing messages"
-    ]
-  },
-  "wire": {
-    "name": "Wire",
-    "logo": "/images/logos/wire.png",
-    "logo_alt": "Wire Logo",
-    "link": "https://wire.com/",
-    "pros": [
-      "[Audited](https://wire.com/en/security/#audits)",
-      "Available on all operating systems",
-      "Username-based",
-      "Offers disappearing messages"
-    ],
-    "cons": [
-      "Centralized",
-      "Unclear affiliation with [Morpheus Ventures](https://morpheus.com/portfolio/), who deals heavily with analytics and data collection."
     ]
   }
 }
