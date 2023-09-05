@@ -35,7 +35,7 @@ export default defineConfig({
     tailwind({ config: { applyBaseStyles: false } }),
     mdx(),
     sitemap(),
-    robotsTxt({ sitemap: false }),
+    robotsTxt({ sitemap: false, policy: [{disallow: "/", userAgent: "GPTBot"}] }),
     compress({
       css: { comments: false },
       html: { removeComments: true },
