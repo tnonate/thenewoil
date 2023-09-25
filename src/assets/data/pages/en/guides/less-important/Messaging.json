@@ -65,7 +65,9 @@
       "Centralized",
       "Not free",
       "Desktop app must be synced every time",
-      "No disappearing messages"
+      "No disappearing messages",
+	  "Small userbase",
+	  "Missing mainstream features such as stickers and GIF support"
     ]
   }
 }

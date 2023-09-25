@@ -7,6 +7,11 @@
     "sublink": "/en/pgp"
   },
   {
+    "name": "thenewoil@skiff.com",
+    "link": "mailto:thenewoil@skiff.com",
+    "img": "/images/logos/skiff.png"
+  },
+  {
     "name": "thenewoil@tutanota.com",
     "link": "mailto:thenewoil@tutanota.com",
     "img": "/images/logos/tutanota2.png"
