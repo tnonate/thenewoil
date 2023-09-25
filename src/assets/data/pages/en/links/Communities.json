@@ -9,5 +9,11 @@
     "link": "https://discord.gg/CCM2vypDNM",
     "img": "/images/logos/discord.png",
     "not_encouraged": "true"
+  },
+  {
+    "name": "Reddit",
+    "link": "https://reddit.com/r/thenewoil",
+    "img": "/images/logos/reddit.png",
+    "not_encouraged": "true"
   }
 ]

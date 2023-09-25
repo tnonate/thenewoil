@@ -10,13 +10,16 @@ draft: false
 
 See my criteria for this page [here](https://gitlab.com/thenewoil/website/-/wikis/Mobile-&-Destkop-Settings-and-Apps-Criteria).
 
-## iOS 16.2
+## iOS 17
 
-- Apple ID > Password & Security > Two-Factor Authentication: On
-- Apple ID > iCloud: Disable everything (_Note:_ If you decide to use iCloud, be sure to enable Advanced Data Protection in this section. This will [end-to-end encrypt](/guides/moderately-important/encryption) most of your data, but not all of it. See [here](https://support.apple.com/en-us/HT202303) to see what's not protected.)
+- Apple ID > Sign-In & Security > Two-Factor Authentication: On (Security Keys recommended if you plan to use iCloud or other Apple products tied to your Apple account)
+- Apple ID > iCloud: Disable everything (_Note:_ Alternately, if you decide to use iCloud, be sure to enable Advanced Data Protection in this section. This will [end-to-end encrypt](/guides/moderately-important/encryption) most of your data, but not all of it. See [here](https://support.apple.com/en-us/HT202303) to see what's not protected.)
+- Apple ID > Media & Purchases > View Account > Personalized Recommendations: Off
 - Apple ID > Find My: Disable everything <sup>(1)</sup>
+- Wi-Fi > Edit (top right corner) > Remove networks you no longer regularly connect to
+- Wi-Fi > [Your network] > Ensure "Private Wi-Fi Address" is enabled
+- Wi-Fi > [Your network] > Ensure "Limit IP Address Tracking" is enabled
 - Wi-Fi > Wi-Fi should be disabled when you are not actively connected to a network.
-- Wi-Fi > Ask to Join Networks: Off
 - Wi-Fi > Auto-Join Hotspot: Never
 - Bluetooth: Off unless needed.
 - Cellular > SIM PIN > Create a custom [PIN](https://support.apple.com/en-us/HT201529)
@@ -26,37 +29,45 @@ See my criteria for this page [here](https://gitlab.com/thenewoil/website/-/wiki
 - Notifications > Screen Sharing: Notifications Off
 - Notifications > Siri Suggestions > Allow Notifications: Off
 - General > Software Update > Automatic Updates: All on
+- General > AirDrop > Receiving Off (Adjust only when using it, otherwise leave it off)
+- General > AirDrop > Bringing Devices Together: Off
 - General > AirPlay & Handoff > Automatically AirPlay to TVs: Never
+- General > iPhone Storage > "Recently Delted" Album: Enable
+- General > Keyboards > Enable Dictation: Off
 - Display & Brightness > Auto-Lock > the shortest option you can reasonably put up with. Do not set it to leave the screen turned on.
 - Wallpaper: Set your lock screen to something generic and non-personal (no family photos, etc)
 - Siri & Search: Disable everything completely
-- Touch ID & Passcode > Turn Passcode On: Try to set a password if possible, otherwise use a six-digit PIN. A fingerprint is also acceptable (coupled with a strong password or PIN). Face ID should be avoided.
+- Touch ID & Passcode > Turn Passcode On: Try to set a password if possible, otherwise use a six-digit PIN. A fingerprint is also acceptable if your device allows it (coupled with a strong password or PIN). Face ID should be avoided.
 - Touch ID & Passcode > Require Passcode: Immediately
 - Touch ID & Passcode > Allow Access When Locked: the fewer the better
 - Touch ID & Passcode > Erase Data: Enabled (Beware of this setting, make sure you understand it)
 - Exposure Notifications: Using these is discouraged unless required by law, but it is ultimately up to you.
-- Privacy > Location Services: Disable for everything except navigation apps, and set those to "While Using"
-- Privacy > Location Services > System Services: Disable all (this will not cause any issues with Emergency Services being able to locate you)
-- Privacy > Tracking > Allow Apps to Request to Track: Off
-- Privacy: Review all the other app settings and make sure apps only have access to the settings they actually need. Otherwise, disable them. Disable as many as you can without breaking the app functionality.
-- Privacy > Safety Check: This is a good tool if you're not using a brand-new Apple ID. It will show you any files you are sharing, any other devices you are logged into, etc and allow you to remotely disable them.
-- Privacy > Analytics & Improvements: Disable everything
-- Privacy > Apple Advertising > Personalized Ads: Off
-- Privacy > Lockdown Mode: On (This will [disable](https://support.apple.com/en-us/HT212650) a significant number of features, however if you are able to live without them, it will help protect other users who need this feature from being [easily identified](https://www.techspot.com/news/95767-apple-upcoming-lockdown-mode-make-devices-easier-fingerprint.html).)
+- Privacy & Security > Location Services: Disable for everything except navigation apps, and set those to "While Using"
+- Privacy & Security > Location Services > System Services: Disable all (this will not cause any issues with Emergency Services being able to locate you)
+- Privacy & Security > Tracking > Allow Apps to Request to Track: Off
+- Privacy & Security: Review all the other app settings and make sure apps only have access to the settings they actually need. Otherwise, disable them. Disable as many as you can without breaking the app functionality.
+- Privacy & Security > Safety Check: This is a good tool if you're not using a brand-new Apple ID. It will show you any files you are sharing, any other devices you are logged into, etc and allow you to remotely disable them.
+- Privacy & Security > Analytics & Improvements: Disable everything
+- Privacy & Security > Apple Advertising > Personalized Ads: Off
+- Privacy & Security > Lockdown Mode: On (This will [disable](https://support.apple.com/en-us/HT212650) a significant number of features, however if you are able to live without them, it will help protect other users who need this feature from being [easily identified](https://www.techspot.com/news/95767-apple-upcoming-lockdown-mode-make-devices-easier-fingerprint.html).)
 - App Store > App Updates: On
 - App Store > Personalized Recommendations: Clear App Usage Data
 - Passwords: Clear this section out and turn everything off. Use a [password manager](/guides/most-important/passwords) instead.
+- Mail: Use an [encrypted email provider](/guides/moderately-important/email) instead
 - Phone > Notifications: Off (if you plan to use [Voice-over-IP](/guides/less-important/voip))
 - Phone > Silence unknown callers: On (This is, like everything, user discretion, but for most people this will dramatically reduce the number of spam calls. Be sure to enter any important phone numbers such as a child's school or coworkers so you still get their calls.)
+- Messages > Notifications: Off (if you plan to use [Voice-over-IP](/guides/less-important/voip))
 - Messages > Share Name and Photo: Off
-- Messages > Send as SMS: Enabled (only if you do not plan to use a [Voice-over-IP service](/guides/less-important/voip))
 - Messages > Keep Messages: 30 Days
 - Messages > Filter Unknown Senders: Enabled
+- Facetime: Off (if you plan to use [Voice-over-IP](/guides/less-important/voip))
 - Safari: I recommend disabling Safari and using a different [browser](/guides/most-important/mobile-apps). However, if you wish to use Safari, you can harden it using [this guide](https://www.privacyguides.org/mobile-browsers/#safari) from Privacy Guides.
 - Translate: On-Device Mode: On
 - Health > Medical ID: I encourage you to set this up in case of emergency. Saving a life should always be prioritized over privacy.
+- Photos > iCloud Photos: Off (unless you use iCloud)
 - Podcasts: Reset Identifier
 - Game Center: Disable
+- Now scroll back up to Screen Time > Content & Privacy Restrictions: Enable
 - Now scroll back up to Screen Time > Content & Privacy Restrictions > Allowed Apps: Disable everything you do not intend to use.
 - Screen Time > Content & Privacy Restrictions > Privacy & Allowed Changes: Set all to "Don't Allow." This will prevent changes from being made on your behalf next time you update.
 - Any settings not covered are personal preference and are unlikely to cause any privacy or security issues no matter how you set them.
@@ -64,7 +75,7 @@ See my criteria for this page [here](https://gitlab.com/thenewoil/website/-/wiki
 <sup>1</sup>: Some people prefer to leave "Find My iPhone" enabled as it allows
 them to remotely wipe the device if it gets lost. However, due to enabling the
 "Erase Data" setting, I don't believe this is necessary. If it makes you feel
-better, you can leave this feature on, but "Share My Location" should still be
+better or if you have a specific use case for it, you can leave this feature on, but "Share My Location" should still be
 disabled (unless you use need to use it often) as this feature will report your
 location back to Apple regularly.*
 
