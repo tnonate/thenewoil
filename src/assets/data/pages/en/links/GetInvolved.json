@@ -1,8 +1,17 @@
 [
   {
+    "name": "Big Brother Watch",
+    "link": "https://bigbrotherwatch.org.uk/",
+    "img": "/images/logos/bigbrotherwatch.png"
+  },  {
     "name": "The Electronic Frontier Foundation (EFF)",
     "link": "https://www.eff.org/",
     "img": "/images/logos/eff.png"
+  },
+  {
+    "name": "Fight For The Future",
+    "link": "https://www.fightforthefuture.org/",
+    "img": "/images/logos/fftf.png"
   },
   {
     "name": "Privacy International",
