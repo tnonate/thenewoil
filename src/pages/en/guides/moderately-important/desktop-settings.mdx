@@ -49,10 +49,11 @@ For those who wish to someday become Linux experts or move on to things like sel
 - Keyboard > Dictation: Off
 - Advanced users who want more granular control and feel comfortable making extreme changes may want to look into [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) or [LuLu](https://objective-see.com/products/lulu.html). These are firewalls to help further control the traffic leaving your device and reduce data collection by Apple and others.
 
-## Windows 11: Version 22H2
+## Windows 11
 
 - If you are installing Windows 11 from scratch, please note that the Home version will offer you the least amount of control regarding settings and disabling telemetry and analytics. If possible, you should try to get Pro, Education, or Enterprise editions. However, these frequently cost more than the Home version (which is usually included free when purchasing the device), sometimes several hundred dollars for a single license. As such, this guide is written for the Home version.
 - If you are installing Windows 11 from scratch, please note that you can install it without a Microsoft account. This can be done by simply unplugging the ethernet cable and skipping the WiFi connection during install. You will receive a warning that you'll miss out on features, but these features are not relevant to security and avoiding an online account will improve your privacy slightly.
+- Finally, if you are installing Windows 11 from scratch, you should select "English (World)" as a language during the setup. I've seen several sources claim that this will dramatically reduce (if not entirely eliminate) the number of preinstalled third-party apps and software (aka "bloatware") such as Candy Crush and Spotify. I have not tested this myself yet, but I see no reason not to at least try it.
 - System > Notifications: Off
 - System > Storage > Storage Sense: On
 - System > Nearby sharing: Off
@@ -93,14 +94,15 @@ For those who wish to someday become Linux experts or move on to things like sel
 - Windows Update > Advanced options > Optional updates: I recommend checking this setting while you're checking your other system updates. These updates include things like drivers that will help keep your system running as smoothly as possible.
 - Download [WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker/releases) and run it. Select option 1 "Telemetry," then option 1 "Firewall," and finally options 1 and 2, "Add extra rules," and "Add spy rules." After that's done, type "back" to go back to the previous menu, then select option 2 "NCSI," then select either option 2 or option 3, "Apply Debian NCSI" or "Apply Firefox NCSI."
 - If you don't plan to use a [VPN](/guides/less-important/vpns), then I encourage you to use an [Encrypted DNS Resolver](https://www.privacyguides.org/dns/). Follow [these instructions](https://www.bleepingcomputer.com/news/microsoft/how-to-enable-dns-over-https-doh-in-windows-10/) to change your DNS. Select "Encrypted preferred, unencrypted allowed" if the option is available. If the option is not available, the rest of the steps should still apply.
-- Advanced users who want more granular control and feel comfortable making extreme changes may want to look into [W10Privacy](https://www.w10privacy.de/english-home/) and [Bulk Crap Uninstaller](https://www.bcuninstaller.com/) to remove additional, pre-installed bloatware and [Portmaster](https://safing.io/portmaster/) or [Simplewall](https://www.henrypp.org/product/simplewall) for additional firewall controls to block outoing connections and further reduce data collection by Microsoft and other third parties.
+- Advanced users who want more granular control and feel comfortable making extreme changes may want to look into [W10Privacy](https://www.w10privacy.de/english-home/) and [Bulk Crap Uninstaller](https://www.bcuninstaller.com/) to remove additional, pre-installed bloatware and [Portmaster](https://safing.io/portmaster/) or [Simplewall](https://www.henrypp.org/product/simplewall) for additional firewall controls to block outgoing connections and further reduce data collection by Microsoft and other third parties.
 
 **Given the choice between Windows 10 and 11, you should pick Windows 11.** Experts agree that Windows 11 is [significantly more secure](https://www.pcmag.com/opinions/windows-11-is-ultra-secure-dont-mess-it-up) than Windows 10. However, Windows 11 also comes with some strict hardware requirements. If you are unable to use Windows 11 for any reason, I have listed my recommended settings for Windows 10 below.
 
-### Windows 10: Version 22H2
+### Windows 10
 
 - If you are installing Windows 10 from scratch, please note that the Home version will offer you the least amount of control regarding settings and disabling telemetry and analytics. If possible, you should try to get Pro, Education, or Enterprise editions. However, these frequently cost more than the Home version (which is usually included free when purchasing the device), sometimes several hundred dollars for a single license. As such, this guide is written for the Home version.
 - If you are installing Windows 10 from scratch, please note that you can install it without a Microsoft account. This can be done by simply unplugging the ethernet cable and skipping the WiFi connection during install. You will receive a warning that you'll miss out on features, but these features are not relevant to security and avoiding an online account will improve your privacy slightly.
+- Finally, if you are installing Windows 10 from scratch, you should select "English (World)" as a language during the setup. I've seen several sources claim that this will dramatically reduce (if not entirely eliminate) the number of preinstalled third-party apps and software (aka "bloatware") such as Candy Crush and Spotify. I have not tested this myself yet, but I see no reason not to at least try it.
 - System > Notifications & actions > Show notifications on the lock screen: Off
 - System > Storage > Storage Sense: On
 - System > Shared experiences > Share across devices: Off
