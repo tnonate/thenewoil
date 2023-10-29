@@ -1,7 +1,6 @@
 {
   "criterias": [
     "Source Available?",
-    "Multifactor authentication offered?",
     "Additional notes"
   ],
   "tools": {
@@ -9,7 +8,6 @@
       "name": "Filen",
       "values": {
         "Source Available?": "Client",
-        "Multifactor authentication offered?": "Yes",
         "Additional notes": [
           "[Concerns](https://github.com/privacyguides/privacyguides.org/pull/345#issuecomment-976415846) raised about encryption implementation"
         ]
@@ -19,7 +17,7 @@
       "name": "Mega",
       "values": {
         "Source Available?": "Client",
-        "Multifactor authentication offered?": "Yes",
+        "Offers multifactor authentication?": "Yes",
         "Additional notes": [
           "[Research](https://arstechnica.com/information-technology/2022/06/mega-says-it-cant-decrypt-your-files-new-poc-exploit-shows-otherwise/) suggests sloppy code"
         ]
@@ -29,7 +27,6 @@
       "name": "ProtonDrive",
       "values": {
         "Source Available?": "Client",
-        "Multifactor authentication offered?": "Yes",
         "Additional notes": ["No desktop app"]
       }
     },
@@ -37,7 +34,6 @@
       "name": "Sync",
       "values": {
         "Source Available?": "No",
-        "Multifactor authentication offered?": "Yes",
         "Additional notes": ["Audited"]
       }
     }
