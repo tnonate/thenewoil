@@ -3,7 +3,8 @@
 ## Mission Statement
 
 -   To **educate** readers on why privacy and security matter, and the various tools and techniques available to help them reclaim and protect their own privacy & security
--   To **empower** readers to believe that privacy and security are attainable for everyone and to do their best to reclaim & protect their own privacy and security as much as possible.
+-   To **empower** readers to believe that privacy and security are attainable for everyone and to do their best to reclaim & protect their own privacy and security as much as possible
+-   To **enhance** the lives of readers with tools that will improve their privacy and security without negatively impacting their mental or emotional health or professional or social lives
 
 ## Contributing
 

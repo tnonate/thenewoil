@@ -29,7 +29,7 @@
     "cons": [
       "US and Canada only",
       "No group chats",
-      "No video chats",
+      "No video calls",
       "Requires your SIM number",
       "Requires a Google account"
     ]
@@ -46,7 +46,7 @@
       "Zero-knowledge at rest",
       "End-to-end encrypted (only to other MySudo users)",
       "Group chats (only to other MySudo users)",
-      "Video chats (only to other MySudo users)"
+      "Video calls (only to other MySudo users)"
     ],
     "cons": [
       "US, Canadian, and UK phone numbers only",
@@ -66,7 +66,7 @@
     ],
     "cons": [
       "No group chats (over normal protocols)",
-      "No video chats (over normal protocols)",
+      "No video calls (over normal protocols)",
       "Requires a Microsoft account",
       "Pay by the minute"
     ]
@@ -96,7 +96,7 @@
     "link": "https://www.viber.com/",
     "pros": [
       "Group chats (only to other Viber users)",
-      "Video chats (only to other Viber users)",
+      "Video calls (only to other Viber users)",
       "Desktop client",
       "Zero-knowledge storage",
       "End-to-end encrypted (only to other Viber users)",

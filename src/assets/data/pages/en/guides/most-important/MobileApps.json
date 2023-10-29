@@ -26,7 +26,7 @@
       "values": {
         "Alternatives": [
           "[Nextcloud](https://nextcloud.com/)",
-          "[ProtonCalendar](https://calendar.protonmail.com/)",
+          "[ProtonCalendar](https://proton.me/calendar)",
           "[Tutanota](https://tutanota.com/calendar/)"
         ],
         "Reason": "Your calendar contains all your plans and locations: upcoming dates, shifts at work, events you plan to attend, and more. Using an encrypted calendar can help protect that information from Google, Apple or other third parties."
@@ -56,7 +56,8 @@
         "Alternatives": [
           "Adguard DNS ([Android](https://adguard.com/en/adguard-android/overview.html), [iOS](https://apps.apple.com/app/apple-store/id1047223162))",
           "Blokada ([Android](https://blokada.org/#download), [iOS](https://apps.apple.com/us/app/blokada/id1508341781)) *(No free version for iOS)*",
-          "Lockdown ([iOS](https://apps.apple.com/us/app/lockdown-apps/id1469783711))"
+          "Lockdown ([iOS](https://apps.apple.com/us/app/lockdown-apps/id1469783711))",
+          "NextDNS ([Android](https://play.google.com/store/apps/details?id=io.nextdns.NextDNS), [iOS](https://apps.apple.com/app/nextdns/id1463342498))"
         ],
         "Reason": [
           "Phone firewalls stop apps from contacting unnecessary servers. For example, many apps contact Facebook or Google when you launch them, giving those companies information about your device and app usage. Some of these firewalls may require settings adjustments for optimal performance and effectiveness.",
