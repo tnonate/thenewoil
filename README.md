@@ -17,10 +17,8 @@ For an in depth guide on how to set up the project on your local machine [click 
 -   [Website](https://thenewoil.org/)
 -   [Podcast](https://surveillancereport.tech/)
 -   [Blog](https://blog.thenewoil.org)
--   [Mastodon](https://freeradical.zone/@thenewoil)
+-   [Mastodon](https://mastodon.thenewoil.org/@thenewoil)
 -   [PeerTube](https://apertatube.net/c/thenewoil/videos)
--   [YouTube](https://www.youtube.com/thenewoil)
--   [Matrix](https://matrix.to/#/#TheNewOil:matrix.org)
 
 ## Support
 
