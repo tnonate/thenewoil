@@ -16,7 +16,7 @@ RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 
 Header Strict-Transport-Security: max-age=63072000; includeSubDomains; preload env=HTTPS
 
-Header Content-Security-Policy: "default-src 'none'; script-src 'none'; script-src-elem 'none'; script-src-attr 'none'; style-src 'self'; style-src-elem 'self'; style-src-attr 'unsafe-inline'; img-src 'self'; font-src 'none'; connect-src 'none'; media-src 'none'; object-src 'none'; prefetch-src 'none'; child-src 'none'; frame-src 'none'; worker-src 'none'; frame-ancestors 'none'; form-action 'self'; upgrade-insecure-requests; block-all-mixed-content; sandbox allow-same-origin; base-uri 'none'; manifest-src 'none';"
+Header Content-Security-Policy: "default-src 'none'; script-src 'none'; script-src-elem 'none'; script-src-attr 'none'; style-src 'self'; style-src-elem 'self'; style-src-attr 'unsafe-inline'; img-src 'self'; font-src 'self' data: ; connect-src 'none'; media-src 'self' data: ; object-src 'none'; child-src 'none'; frame-src 'none'; worker-src 'none'; frame-ancestors 'none'; form-action 'self'; upgrade-insecure-requests; block-all-mixed-content; sandbox allow-same-origin; base-uri 'none'; manifest-src 'none';"
 
 Header add Request-OTR: 1
 

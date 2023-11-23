@@ -19,7 +19,8 @@
         "Source Available?": "Client",
         "Offers multifactor authentication?": "Yes",
         "Additional notes": [
-          "[Research](https://arstechnica.com/information-technology/2022/06/mega-says-it-cant-decrypt-your-files-new-poc-exploit-shows-otherwise/) suggests sloppy code"
+          "[Research](https://arstechnica.com/information-technology/2022/06/mega-says-it-cant-decrypt-your-files-new-poc-exploit-shows-otherwise/) suggests sloppy code",
+          "[Implicated](https://gitlab.com/thenewoil/website/-/issues/79) in the drafting of anti-privacy legislation"
         ]
       }
     },

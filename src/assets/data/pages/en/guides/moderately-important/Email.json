@@ -33,13 +33,13 @@
       "Audited, but results have not been publicly released yet"
     ]
   },
-  "tutanota": {
-    "name": "Tutanota",
-    "logo": "/images/logos/tutanota.png",
-    "logo_alt": "Tutanota Logo",
-    "link": "https://tutanota.com/",
+  "tuta": {
+    "name": "Tuta",
+    "logo": "/images/logos/tuta.png",
+    "logo_alt": "Tuta Logo",
+    "link": "https://tuta.com/",
     "pros": [
-      "[Audited](https://tutanota.com/blog/posts/desktop-clients-tutanota/)",
+      "[Audited](https://tuta.com/blog/posts/desktop-clients-tutanota/)",
       "Offers a free tier",
       "Includes a calendar with all plans",
       "Export emails available (individual emails only)"

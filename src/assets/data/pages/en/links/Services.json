@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Mastodon",
+    "link": "https://mastodon.thenewoil.org",
+    "img": "/images/logos/mastodon.png",
+    "subtext": "Microblogging: for fans of X/Twitter/etc"
+  },
+  {
+    "name": "PeerTube",
+    "link": "https://apertatube.net/",
+    "img": "/images/logos/peertube.png",
+    "subtext": "Video hosting: for fans of YouTube/Vimeo/etc"
+  }
+]
