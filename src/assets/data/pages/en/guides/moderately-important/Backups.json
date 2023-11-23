@@ -28,7 +28,8 @@
     ],
     "cons": [
       "Not audited",
-      "[Research](https://arstechnica.com/information-technology/2022/06/mega-says-it-cant-decrypt-your-files-new-poc-exploit-shows-otherwise/) suggests that Mega's code is very sloppy and convoluted, raising the risk of vulnerabilities"
+      "[Research](https://arstechnica.com/information-technology/2022/06/mega-says-it-cant-decrypt-your-files-new-poc-exploit-shows-otherwise/) suggests that Mega's code is very sloppy and convoluted, raising the risk of vulnerabilities",
+      "Mega is [alleged](https://gitlab.com/thenewoil/website/-/issues/79) to have been involved in drafting anti-privacy legislation in the EU (unproven)"
     ]
   },
   "protondrive": {
