@@ -49,15 +49,15 @@
         ]
       }
     },
-    "tutanota": {
-      "name": "Tutanota",
+    "tuta": {
+      "name": "Tuta",
       "values": {
         "Audited?": "Web client only",
         "Available on Linux?": "Yes",
         "Available on Mac?": "Yes",
         "Available on Windows?": "Web only",
         "Available on Android?": "Yes",
-        "Available in F-Droid?": "No",
+        "Available in F-Droid?": "Yes",
         "Available on iOS?": "Yes",
         "Free plan available?": "Yes",
         "PGP support?": "No",
