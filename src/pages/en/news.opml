@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Subscriptions</title>
+  </head>
+  <body>
+    <outline title="News" text="News">
+      <outline title="Welcome to The Privacy Dad's Blog!" text="Welcome to The Privacy Dad's Blog!" type="rss" xmlUrl="https://theprivacydad.com/feed/" htmlUrl="https://theprivacydad.com/"/>
+      <outline title="Firewalls Don't Stop Dragons" text="Firewalls Don't Stop Dragons" type="rss" xmlUrl="https://firewallsdontstopdragons.com/feed" htmlUrl="https://firewallsdontstopdragons.com"/>
+      <outline title="VICE US - Motherboard" text="VICE US - Motherboard" type="rss" xmlUrl="https://www.vice.com/en/rss/section/tech?locale=en_us" htmlUrl="https://www.vice.com/en/section/tech?locale=en_us"/>
+      <outline title="The Markup - All Stories" text="The Markup - All Stories" type="rss" xmlUrl="https://themarkup.org/feeds/rss.xml" htmlUrl="https://themarkup.org/"/>
+      <outline title="TechCrunch" text="TechCrunch" type="rss" xmlUrl="https://techcrunch.com/feed/" htmlUrl="https://techcrunch.com/"/>
+      <outline title="Deeplinks" text="Deeplinks" type="rss" xmlUrl="https://www.eff.org/rss/updates.xml" htmlUrl="https://www.eff.org/rss/updates.xml"/>
+      <outline title="BleepingComputer" text="BleepingComputer" type="rss" xmlUrl="https://www.bleepingcomputer.com/feed/" htmlUrl="https://www.bleepingcomputer.com/"/>
+      <outline title="Schneier on Security" text="Schneier on Security" type="rss" xmlUrl="https://www.schneier.com/feed/atom" htmlUrl="https://www.schneier.com"/>
+      <outline title="Krebs on Security" text="Krebs on Security" type="rss" xmlUrl="https://krebsonsecurity.com/feed/" htmlUrl="https://krebsonsecurity.com"/>
+      <outline title="Biz &amp; IT – Ars Technica" text="Biz &amp; IT – Ars Technica" type="rss" xmlUrl="http://feeds.arstechnica.com/arstechnica/technology-lab" htmlUrl="https://arstechnica.com"/>
+      <outline title="Security Latest" text="Security Latest" type="rss" xmlUrl="https://www.wired.com/feed/category/security/latest/rss" htmlUrl="https://www.wired.com"/>
+      <outline title="Slashdot" text="Slashdot" type="rss" xmlUrl="http://rss.slashdot.org/Slashdot/slashdotMain" htmlUrl="https://slashdot.org/"/>
+      <outline title="404 Media" text="404 Media" type="rss" xmlUrl="https://www.404media.co/rss/" htmlUrl="https://www.404media.co/"/>
+      <outline title="Privacy International News Feed" text="Privacy International News Feed" type="rss" xmlUrl="https://privacyinternational.org/rss.xml" htmlUrl="http://privacyinternational.org/"/>
+    </outline>
+  </body>
+</opml>
