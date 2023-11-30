@@ -15,7 +15,7 @@
     ],
     "cons": [
       "Not audited",
-      "Not metadata resistant",
+      "Not [metadata resistant](https://gitlab.com/thenewoil/website/-/wikis/home)",
       "No disappearing messages."
     ]
   },
@@ -29,7 +29,7 @@
       "Available on all operating systems",
       "Decentralized",
       "Username-based",
-      "Metadata resistant",
+      "[Metadata resistant](https://gitlab.com/thenewoil/website/-/wikis/home)",
       "No identifiable user data required at signup",
       "Offers disappearing messages"
     ],
@@ -44,7 +44,7 @@
       "[Audited](https://community.signalusers.org/t/wiki-overview-of-third-party-security-audits/13243)",
       "Available on all operating systems",
       "Offers disappearing messages",
-      "Does not log metadata"
+      "[Metadata resistant](https://gitlab.com/thenewoil/website/-/wikis/home)"
     ],
     "cons": [
       "Centralized",
@@ -64,7 +64,7 @@
       "Decentralized",
       "No personal information required",
       "No user IDs, add contacts via QR code or temporary link",
-      "Metadata resistant"
+      "[Metadata resistant](https://gitlab.com/thenewoil/website/-/wikis/home)"
     ],
     "cons": [
       "Still early in development, may be missing some features",
@@ -80,7 +80,7 @@
       "[Audited](https://threema.ch/en/blog/posts/audit-2020-en)",
       "Available on Android, and iOS",
       "Username-based",
-      "Does not log metadata"
+      "[Metadata resistant](https://gitlab.com/thenewoil/website/-/wikis/home)"
     ],
     "cons": [
       "Centralized",
