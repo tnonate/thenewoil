@@ -31,6 +31,7 @@ import languagePlugin from "./plugins/astro-language";
 // https://astro.build/config
 export default defineConfig({
   site: "https://thenewoil.org",
+  outDir: "./www",
   integrations: [
     tailwind({ config: { applyBaseStyles: false } }),
     mdx(),
