@@ -43,12 +43,32 @@
     "pros": [
       "[Audited](https://community.signalusers.org/t/wiki-overview-of-third-party-security-audits/13243)",
       "Available on all operating systems",
-      "Offers disappearing messages"
+      "Offers disappearing messages",
+      "Does not log metadata"
     ],
     "cons": [
       "Centralized",
       "Phone number required",
       "[Server source code went almost a year without a public update with no explanation](https://linuxreviews.org/Signal_Just_Made_One_Years_Worth_Of_Server-Side_Source_Code_Available_In_One_Huge_Dump)"
+    ]
+  },
+  "simplex": {
+    "name": "SimpleX",
+    "logo": "/images/logos/simplex.png",
+    "logo_alt": "SimpleX Logo",
+    "link": "https://simplex.chat/",
+    "pros": [
+      "[Audited](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html)",
+      "Available on all operating systems",
+      "Offers disappearing messages",
+      "Decentralized",
+      "No personal information required",
+      "No user IDs, add contacts via QR code or temporary link",
+      "Metadata resistant"
+    ],
+    "cons": [
+      "Still early in development, may be missing some features",
+      "Small userbase"
     ]
   },
   "threema": {
@@ -59,7 +79,8 @@
     "pros": [
       "[Audited](https://threema.ch/en/blog/posts/audit-2020-en)",
       "Available on Android, and iOS",
-      "Username-based"
+      "Username-based",
+      "Does not log metadata"
     ],
     "cons": [
       "Centralized",

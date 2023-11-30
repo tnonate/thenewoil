@@ -64,6 +64,22 @@
         "Additional notes?": []
       }
     },
+    "simplex": {
+      "name": "SimpleX",
+      "values": {
+        "Audited?": "Yes",
+        "Available on Linux?": "Yes",
+        "Available on Mac?": "Yes",
+        "Available on Windows?": "Yes",
+        "Available on Android?": "Yes",
+        "Available in F-Droid?": "Directly ([from here](https://simplex.chat/fdroid/))",
+        "Available on iOS?": "Yes",
+        "Decentralized?": "Yes",
+        "Phone number or username?": "QR-Code or temporary link",
+        "Disappearing messages?": "Yes",
+        "Additional notes?": ["Early in development", "Small userbase"]
+      }
+    },
     "threema": {
       "name": "Threema",
       "values": {
