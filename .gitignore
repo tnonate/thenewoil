@@ -2,7 +2,7 @@
 src/pages/index.mdx
 
 # Build
-/www
+/dist
 
 # Dependancies
 /node_modules
