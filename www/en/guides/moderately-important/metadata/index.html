@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Title --><title>The New Oil | Understanding Metadata</title>
+<meta name="og:title" content="The New Oil | Understanding Metadata">
+
+<!-- Favicon -->
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+<!-- Metadata headers -->
+<meta name="description" content="Data is the new oil"><meta name="monetization" content="$ilp.uphold.com/gywWRZd488m6"><meta name="author" content="Nathan Bartram">
+
+<!-- Misc -->
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="onion-location" content="http://vyrgfx4jz2lnejqduons56ph5xtsrtaoo7ovny53dd7okyzhfsgkzbad.onion">
+<link rel="me" href="https://mastodon.thenewoil.org/@thenewoil">
+<link rel="me" href="https://mastodon.thenewoil.org/@admin">
+<link rel="me" href="https://mastodon.thenewoil.org/@nateb">
+  <link rel="stylesheet" href="/_astro/backups.f3734ba8.css"></head>
+
+  <body>
+    <header class="flex min-h-[4rem] items-center justify-between bg-secondary px-6 text-primary-dark-contrast lg:shadow lg:drop-shadow-sm">
+  <div class="hidden flex-1 gap-2 lg:flex">
+    <a href="/en" data-active="false" class="rounded-md bg-white bg-opacity-0 py-2 px-5 font-medium transition-all hover:bg-opacity-5 data-[active='true']:bg-opacity-[.15]" hreflang="en">
+  Home
+</a>
+    <a href="/en/guides/prologue" data-active="true" class="rounded-md bg-white bg-opacity-0 py-2 px-5 font-medium transition-all hover:bg-opacity-5 data-[active='true']:bg-opacity-[.15]" hreflang="en">
+  Guides
+</a>
+  </div>
+
+  <a hreflang="en" href="/en" class="flex h-4 items-center gap-2 text-2xl font-black" tabindex="">
+    <p class="w-max break-normal uppercase">The New Oil</p>
+    <img src="/images/graphics/header.png" alt="The New Oil logo" width="68" height="100" class="h-auto max-w-[1.25rem] text-[0px]">
+  </a>
+
+  <div class="hidden flex-1 items-center justify-end gap-2 lg:flex">
+    <a href="/en/about" data-active="false" class="rounded-md bg-white bg-opacity-0 py-2 px-5 font-medium transition-all hover:bg-opacity-5 data-[active='true']:bg-opacity-[.15]" hreflang="en">
+  About
+</a>
+    <a href="/en/links" data-active="false" class="rounded-md bg-white bg-opacity-0 py-2 px-5 font-medium transition-all hover:bg-opacity-5 data-[active='true']:bg-opacity-[.15]" hreflang="en">
+  Links
+</a>
+    <a href="/en/support" data-active="false" class="rounded-md bg-white bg-opacity-0 py-2 px-5 font-medium transition-all hover:bg-opacity-5 data-[active='true']:bg-opacity-[.15]" hreflang="en">
+  Support
+</a>
+    
+  </div>
+
+  <details class="group/mobile-menu flex flex-col lg:hidden">
+    <summary class="rounded-full bg-white bg-opacity-0 p-2 transition-all hover:bg-opacity-5 group-open/mobile-menu:bg-opacity-[.15]">
+      <div class="relative flex h-7 w-7 items-center justify-center">
+        <svg viewBox="0 0 24 24" role="img" aria-label="Menu icon" class="absolute group-open/mobile-menu:-rotate-90 group-open/mobile-menu:opacity-0 transition-all" astro-icon="mdi:menu"><path fill="currentColor" d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z" /></svg>
+        <svg viewBox="0 0 24 24" role="img" aria-label="Menu icon" class="absolute w-7 h-7 rotate-90 group-open/mobile-menu:rotate-0 opacity-0 group-open/mobile-menu:opacity-100 transition-all" astro-icon="mdi:chevron-up"><path fill="currentColor" d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z" /></svg>
+      </div>
+    </summary>
+    <div class="absolute right-0 z-50 flex w-full flex-col gap-2 bg-secondary p-4 text-primary-dark-contrast shadow-md lg:hidden">
+      <a href="/en/guides/prologue" data-active="true" class="rounded-md bg-white bg-opacity-0 py-2 px-5 font-medium transition-all hover:bg-opacity-5 data-[active='true']:bg-opacity-[.15]" hreflang="en">
+  Guides
+</a>
+      <a href="/en/about" data-active="false" class="rounded-md bg-white bg-opacity-0 py-2 px-5 font-medium transition-all hover:bg-opacity-5 data-[active='true']:bg-opacity-[.15]" hreflang="en">
+  About
+</a>
+      <a href="/en/links" data-active="false" class="rounded-md bg-white bg-opacity-0 py-2 px-5 font-medium transition-all hover:bg-opacity-5 data-[active='true']:bg-opacity-[.15]" hreflang="en">
+  Links
+</a>
+      <a href="/en/support" data-active="false" class="rounded-md bg-white bg-opacity-0 py-2 px-5 font-medium transition-all hover:bg-opacity-5 data-[active='true']:bg-opacity-[.15]" hreflang="en">
+  Support
+</a>
+      
+    </div>
+  </details>
+</header>
+    <div class="flex flex-1 flex-col overflow-auto lg:flex-row">
+      <details class="group/sidebar-mobile flex flex-col items-center bg-tertiary py-4 shadow drop-shadow-sm dark:bg-tertiary-dark lg:hidden">
+        <summary class="mx-4 flex items-center justify-center rounded-lg border-2 border-black border-opacity-10 p-4 text-lg font-bold transition-all group-open/sidebar-mobile:border-opacity-20 dark:border-white/[var(--tw-border-opacity)]">
+          Understanding Metadata
+          <svg viewBox="0 0 24 24" role="img" aria-label="Dropbown button icon" class="w-6 h-6 group-open/sidebar-mobile:rotate-180 transition-all" astro-icon="mdi:chevron-up"><path fill="currentColor" d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z" /></svg>
+        </summary>
+        <aside aria-label="Guides navigation" class="flex flex-col absolute w-full lg:w-1/4 lg:static right-0 lg:right-auto overflow-auto bg-tertiary dark:bg-tertiary-dark py-4 font-robotomono p-4">
+  <details class="group/sidebar-dropdown">
+  <summary class="flex items-center gap-4 rounded-lg bg-black bg-opacity-0 px-4 py-3 font-medium hover:bg-opacity-5 group-open/sidebar-dropdown:mb-3 group-open/sidebar-dropdown:bg-opacity-[.15] motion-safe:transition-all motion-safe:duration-200 motion-safe:ease-out dark:bg-white dark:bg-opacity-0">
+    <span>Prologue</span>
+    <span class="ml-auto flex h-fit w-fit select-none group-open/sidebar-dropdown:rotate-180 motion-safe:transition-transform motion-safe:duration-200 motion-safe:ease-out">
+      <svg viewBox="0 0 24 24" role="img" aria-label="Dropbown button icon" class="w-6 h-6" astro-icon="mdi:chevron-up"><path fill="currentColor" d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z" /></svg>
+    </span>
+  </summary>
+  <div class="-mt-3 flex flex-col gap-4 p-4 font-roboto">
+    <a hreflang="en" href="/en/guides/prologue" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Introduction
+</a><a hreflang="en" href="/en/guides/prologue/why" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Why Privacy &amp; Security Matter
+</a><a hreflang="en" href="/en/guides/prologue/threat-model" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Threat Modeling
+</a><a hreflang="en" href="/en/guides/prologue/surveillance" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Understanding Surveillance
+</a><a hreflang="en" href="/en/guides/prologue/secprivanon" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Security vs Privacy vs Anonymity
+</a><a hreflang="en" href="/en/guides/prologue/open-source" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Open Source vs Proprietary
+</a><a hreflang="en" href="/en/guides/prologue/communication" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  How Network Communication Works
+</a>
+  </div>
+</details><details class="group/sidebar-dropdown">
+  <summary class="flex items-center gap-4 rounded-lg bg-black bg-opacity-0 px-4 py-3 font-medium hover:bg-opacity-5 group-open/sidebar-dropdown:mb-3 group-open/sidebar-dropdown:bg-opacity-[.15] motion-safe:transition-all motion-safe:duration-200 motion-safe:ease-out dark:bg-white dark:bg-opacity-0">
+    <span>Most Important</span>
+    <span class="ml-auto flex h-fit w-fit select-none group-open/sidebar-dropdown:rotate-180 motion-safe:transition-transform motion-safe:duration-200 motion-safe:ease-out">
+      <svg viewBox="0 0 24 24" role="img" aria-label="Dropbown button icon" class="w-6 h-6" astro-icon="mdi:chevron-up"><path fill="currentColor" d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z" /></svg>
+    </span>
+  </summary>
+  <div class="-mt-3 flex flex-col gap-4 p-4 font-roboto">
+    <a hreflang="en" href="/en/guides/most-important" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Introduction
+</a><a hreflang="en" href="/en/guides/most-important/data-breaches" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Understanding Data Breaches
+</a><a hreflang="en" href="/en/guides/most-important/passwords" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Data Breach Defense: Password Managers
+</a><a hreflang="en" href="/en/guides/most-important/mfa" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Data Breach Defense: Multifactor Authentication
+</a><a hreflang="en" href="/en/guides/most-important/payments" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Data Breach Defense: Payment Masking
+</a><a hreflang="en" href="/en/guides/most-important/credit" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Identity Theft: Freezing Your Credit
+</a><a hreflang="en" href="/en/guides/most-important/mobile" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Securing Mobile
+</a><a hreflang="en" href="/en/guides/most-important/mobile-settings" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Securing Mobile: Settings
+</a><a hreflang="en" href="/en/guides/most-important/mobile-apps" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Securing Mobile: Replacement Apps
+</a><a hreflang="en" href="/en/guides/most-important/browser" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Privacy: Securing Your Browser
+</a>
+  </div>
+</details><details open class="group/sidebar-dropdown">
+  <summary class="flex items-center gap-4 rounded-lg bg-black bg-opacity-0 px-4 py-3 font-medium hover:bg-opacity-5 group-open/sidebar-dropdown:mb-3 group-open/sidebar-dropdown:bg-opacity-[.15] motion-safe:transition-all motion-safe:duration-200 motion-safe:ease-out dark:bg-white dark:bg-opacity-0">
+    <span>Moderately Important</span>
+    <span class="ml-auto flex h-fit w-fit select-none group-open/sidebar-dropdown:rotate-180 motion-safe:transition-transform motion-safe:duration-200 motion-safe:ease-out">
+      <svg viewBox="0 0 24 24" role="img" aria-label="Dropbown button icon" class="w-6 h-6" astro-icon="mdi:chevron-up"><path fill="currentColor" d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z" /></svg>
+    </span>
+  </summary>
+  <div class="-mt-3 flex flex-col gap-4 p-4 font-roboto">
+    <a hreflang="en" href="/en/guides/moderately-important" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Introduction
+</a><a hreflang="en" href="/en/guides/moderately-important/metadata" data-current-page="true" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Understanding Metadata
+</a><a hreflang="en" href="/en/guides/moderately-important/encryption" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Understanding Encryption
+</a><a hreflang="en" href="/en/guides/moderately-important/devices" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Protection: Device Encryption
+</a><a hreflang="en" href="/en/guides/moderately-important/backups" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Protection: Backups
+</a><a hreflang="en" href="/en/guides/moderately-important/desktop-settings" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Privacy: Securing Desktop
+</a><a hreflang="en" href="/en/guides/moderately-important/email" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Privacy: Encrypted Email
+</a><a hreflang="en" href="/en/guides/moderately-important/email-aliasing" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Data Breach Defense: Email Aliasing
+</a><a hreflang="en" href="/en/guides/moderately-important/mobile-habits" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Privacy: Mobile Habits
+</a><a hreflang="en" href="/en/guides/moderately-important/public-protections" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Protection: Trusts, LLCs, and Public Data
+</a>
+  </div>
+</details><details class="group/sidebar-dropdown">
+  <summary class="flex items-center gap-4 rounded-lg bg-black bg-opacity-0 px-4 py-3 font-medium hover:bg-opacity-5 group-open/sidebar-dropdown:mb-3 group-open/sidebar-dropdown:bg-opacity-[.15] motion-safe:transition-all motion-safe:duration-200 motion-safe:ease-out dark:bg-white dark:bg-opacity-0">
+    <span>Less Important</span>
+    <span class="ml-auto flex h-fit w-fit select-none group-open/sidebar-dropdown:rotate-180 motion-safe:transition-transform motion-safe:duration-200 motion-safe:ease-out">
+      <svg viewBox="0 0 24 24" role="img" aria-label="Dropbown button icon" class="w-6 h-6" astro-icon="mdi:chevron-up"><path fill="currentColor" d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z" /></svg>
+    </span>
+  </summary>
+  <div class="-mt-3 flex flex-col gap-4 p-4 font-roboto">
+    <a hreflang="en" href="/en/guides/less-important" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Introduction
+</a><a hreflang="en" href="/en/guides/less-important/five-eyes" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Privacy: The Five Eyes Surveillance Network
+</a><a hreflang="en" href="/en/guides/less-important/voip" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Protection: Voice-over-IP
+</a><a hreflang="en" href="/en/guides/less-important/messaging" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Privacy: Encrypted Texting/Calling
+</a><a hreflang="en" href="/en/guides/less-important/habits" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  General Online Habits
+</a><a hreflang="en" href="/en/guides/less-important/disinformation" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Protection: Disinformation
+</a><a hreflang="en" href="/en/guides/less-important/iot" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Cybersecurity: The Internet of Things
+</a><a hreflang="en" href="/en/guides/less-important/vpns" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Privacy: VPNs
+</a>
+  </div>
+</details>
+</aside>
+      </details>
+      <aside aria-label="Guides navigation" class="flex flex-col absolute w-full lg:w-1/4 lg:static right-0 lg:right-auto overflow-auto bg-tertiary dark:bg-tertiary-dark py-4 font-robotomono hidden lg:block">
+  <details class="group/sidebar-dropdown">
+  <summary class="flex items-center gap-4 rounded-lg bg-black bg-opacity-0 px-4 py-3 font-medium hover:bg-opacity-5 group-open/sidebar-dropdown:mb-3 group-open/sidebar-dropdown:bg-opacity-[.15] motion-safe:transition-all motion-safe:duration-200 motion-safe:ease-out dark:bg-white dark:bg-opacity-0">
+    <span>Prologue</span>
+    <span class="ml-auto flex h-fit w-fit select-none group-open/sidebar-dropdown:rotate-180 motion-safe:transition-transform motion-safe:duration-200 motion-safe:ease-out">
+      <svg viewBox="0 0 24 24" role="img" aria-label="Dropbown button icon" class="w-6 h-6" astro-icon="mdi:chevron-up"><path fill="currentColor" d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z" /></svg>
+    </span>
+  </summary>
+  <div class="-mt-3 flex flex-col gap-4 p-4 font-roboto">
+    <a hreflang="en" href="/en/guides/prologue" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Introduction
+</a><a hreflang="en" href="/en/guides/prologue/why" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Why Privacy &amp; Security Matter
+</a><a hreflang="en" href="/en/guides/prologue/threat-model" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Threat Modeling
+</a><a hreflang="en" href="/en/guides/prologue/surveillance" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Understanding Surveillance
+</a><a hreflang="en" href="/en/guides/prologue/secprivanon" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Security vs Privacy vs Anonymity
+</a><a hreflang="en" href="/en/guides/prologue/open-source" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Open Source vs Proprietary
+</a><a hreflang="en" href="/en/guides/prologue/communication" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  How Network Communication Works
+</a>
+  </div>
+</details><details class="group/sidebar-dropdown">
+  <summary class="flex items-center gap-4 rounded-lg bg-black bg-opacity-0 px-4 py-3 font-medium hover:bg-opacity-5 group-open/sidebar-dropdown:mb-3 group-open/sidebar-dropdown:bg-opacity-[.15] motion-safe:transition-all motion-safe:duration-200 motion-safe:ease-out dark:bg-white dark:bg-opacity-0">
+    <span>Most Important</span>
+    <span class="ml-auto flex h-fit w-fit select-none group-open/sidebar-dropdown:rotate-180 motion-safe:transition-transform motion-safe:duration-200 motion-safe:ease-out">
+      <svg viewBox="0 0 24 24" role="img" aria-label="Dropbown button icon" class="w-6 h-6" astro-icon="mdi:chevron-up"><path fill="currentColor" d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z" /></svg>
+    </span>
+  </summary>
+  <div class="-mt-3 flex flex-col gap-4 p-4 font-roboto">
+    <a hreflang="en" href="/en/guides/most-important" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Introduction
+</a><a hreflang="en" href="/en/guides/most-important/data-breaches" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Understanding Data Breaches
+</a><a hreflang="en" href="/en/guides/most-important/passwords" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Data Breach Defense: Password Managers
+</a><a hreflang="en" href="/en/guides/most-important/mfa" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Data Breach Defense: Multifactor Authentication
+</a><a hreflang="en" href="/en/guides/most-important/payments" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Data Breach Defense: Payment Masking
+</a><a hreflang="en" href="/en/guides/most-important/credit" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Identity Theft: Freezing Your Credit
+</a><a hreflang="en" href="/en/guides/most-important/mobile" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Securing Mobile
+</a><a hreflang="en" href="/en/guides/most-important/mobile-settings" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Securing Mobile: Settings
+</a><a hreflang="en" href="/en/guides/most-important/mobile-apps" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Securing Mobile: Replacement Apps
+</a><a hreflang="en" href="/en/guides/most-important/browser" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Privacy: Securing Your Browser
+</a>
+  </div>
+</details><details open class="group/sidebar-dropdown">
+  <summary class="flex items-center gap-4 rounded-lg bg-black bg-opacity-0 px-4 py-3 font-medium hover:bg-opacity-5 group-open/sidebar-dropdown:mb-3 group-open/sidebar-dropdown:bg-opacity-[.15] motion-safe:transition-all motion-safe:duration-200 motion-safe:ease-out dark:bg-white dark:bg-opacity-0">
+    <span>Moderately Important</span>
+    <span class="ml-auto flex h-fit w-fit select-none group-open/sidebar-dropdown:rotate-180 motion-safe:transition-transform motion-safe:duration-200 motion-safe:ease-out">
+      <svg viewBox="0 0 24 24" role="img" aria-label="Dropbown button icon" class="w-6 h-6" astro-icon="mdi:chevron-up"><path fill="currentColor" d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z" /></svg>
+    </span>
+  </summary>
+  <div class="-mt-3 flex flex-col gap-4 p-4 font-roboto">
+    <a hreflang="en" href="/en/guides/moderately-important" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Introduction
+</a><a hreflang="en" href="/en/guides/moderately-important/metadata" data-current-page="true" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Understanding Metadata
+</a><a hreflang="en" href="/en/guides/moderately-important/encryption" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Understanding Encryption
+</a><a hreflang="en" href="/en/guides/moderately-important/devices" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Protection: Device Encryption
+</a><a hreflang="en" href="/en/guides/moderately-important/backups" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Protection: Backups
+</a><a hreflang="en" href="/en/guides/moderately-important/desktop-settings" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Privacy: Securing Desktop
+</a><a hreflang="en" href="/en/guides/moderately-important/email" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Privacy: Encrypted Email
+</a><a hreflang="en" href="/en/guides/moderately-important/email-aliasing" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Data Breach Defense: Email Aliasing
+</a><a hreflang="en" href="/en/guides/moderately-important/mobile-habits" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Privacy: Mobile Habits
+</a><a hreflang="en" href="/en/guides/moderately-important/public-protections" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Protection: Trusts, LLCs, and Public Data
+</a>
+  </div>
+</details><details class="group/sidebar-dropdown">
+  <summary class="flex items-center gap-4 rounded-lg bg-black bg-opacity-0 px-4 py-3 font-medium hover:bg-opacity-5 group-open/sidebar-dropdown:mb-3 group-open/sidebar-dropdown:bg-opacity-[.15] motion-safe:transition-all motion-safe:duration-200 motion-safe:ease-out dark:bg-white dark:bg-opacity-0">
+    <span>Less Important</span>
+    <span class="ml-auto flex h-fit w-fit select-none group-open/sidebar-dropdown:rotate-180 motion-safe:transition-transform motion-safe:duration-200 motion-safe:ease-out">
+      <svg viewBox="0 0 24 24" role="img" aria-label="Dropbown button icon" class="w-6 h-6" astro-icon="mdi:chevron-up"><path fill="currentColor" d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z" /></svg>
+    </span>
+  </summary>
+  <div class="-mt-3 flex flex-col gap-4 p-4 font-roboto">
+    <a hreflang="en" href="/en/guides/less-important" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Introduction
+</a><a hreflang="en" href="/en/guides/less-important/five-eyes" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Privacy: The Five Eyes Surveillance Network
+</a><a hreflang="en" href="/en/guides/less-important/voip" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Protection: Voice-over-IP
+</a><a hreflang="en" href="/en/guides/less-important/messaging" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Privacy: Encrypted Texting/Calling
+</a><a hreflang="en" href="/en/guides/less-important/habits" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  General Online Habits
+</a><a hreflang="en" href="/en/guides/less-important/disinformation" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Protection: Disinformation
+</a><a hreflang="en" href="/en/guides/less-important/iot" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Cybersecurity: The Internet of Things
+</a><a hreflang="en" href="/en/guides/less-important/vpns" data-current-page="false" class="motion-safe:transition-opacity motion-safe:duration-200 motion-safe:ease-out opacity-50 hover:opacity-75 data-[current-page='true']:opacity-100 data-[current-page='true']:hover:opacity-100">
+  Privacy: VPNs
+</a>
+  </div>
+</details>
+</aside>
+      <div class="flex w-full flex-col items-center justify-between overflow-auto">
+        <main class="flex w-full max-w-screen-2xl flex-col gap-8 px-8 md:px-20">
+          <h1 id="understanding-metadata">Understanding Metadata</h1>
+<p>Ninety-five percent of the web is <a href="https://twitter.com/jlivingood/status/1389584630299385856">encrypted</a>. That means that if you visit Facebook, your Internet Service Provider (ISP) can see that you visited and how long stayed, but they can’t see your login credentials (username and password) or which exact pages you went to. This is done with the use of <a href="https://en.wikipedia.org/wiki/Transport_Layer_Security">Transport Layer Security</a>, or TLS, a powerful and increasingly popular encryption protocol used online.
+There are two problems with relying strictly on the current TLS model of the intert, however. First, it only protects data in transit. When you connect to Amazon, your ISP can see that you visited Amazon, but Amazon can see every page, click, and purchase without restriction. Second and more importantly, **often you don’t need to see the content itself to start making powerful, accurate assumptions.</p>
+<h2 id="what-is-metadata">What is Metadata?</h2>
+<p>Metadata is often described as “data about the data.” For example, the content of an email is not metadata, but who you emailed, what time, the subject, and the size of the email are. On the surface this may not seem very revealing. However, take this excellent article from the Electronic Frontier Foundation, for example. A couple examples they list of metadata that has the potential to be too revealing include:</p>
+<div class="px-2 py-8 rounded-lg border-4 border-bg-primary dark:border-bg-primary-dark border-gradient-secondary">
+  <ul>
+<li>They know you called a gynecologist, spoke for a half hour, and then called the local Planned Parenthood’s number later that day. But nobody knows what you spoke about.</li>
+<li>They know you got an email from an HIV testing service, then called your doctor, then visited an HIV support group website in the same hour. But they don’t know what was in the email or what you talked about on the phone.</li>
+<li>They know you called the suicide prevention hotline from the Golden Gate Bridge. But the topic of the call remains a secret.
+(Lifed directly from EFF’s <a href="https://www.eff.org/deeplinks/2013/06/why-metadata-matters">Surveillance Self Defense</a> page)</li>
+</ul>
+</div>
+<p><strong>Metadata has the potential to be just as revealing as content itself,</strong> and therefore should be protected just as much as the actual data. These are not hypothetical abuses or situations. A former NSA Chief once said ”<a href="https://abcnews.go.com/blogs/headlines/2014/05/ex-nsa-chief-we-kill-people-based-on-metadata">[The US Government] kills people based on metadata,</a>” referring to how metadata can reveal so much information that it can be used to justify military strikes. In another instance, police were able to determine a man <a href="https://www.reuters.com/article/us-greece-robbers-murder-idUKKCN2DT2IP">murdered his wife</a> based on the metadata from his smartwatch and CCTV cameras. I could list many more stories like these. Metadata matters.</p>
+<img src="/images/graphics/quote-metadata.png" alt="Metadata is extraordinarily intrusive" class="mx-auto w-80">
+<h2 id="how-to-deal-with-metadata">How to Deal with Metadata</h2>
+<p>Unfortunately, <strong>any digital action creates metadata.</strong> The best you can do when attempting to protect your privacy is to be mindful of what metadata may be created by the action you’re about to take and then determine how to best reduce or mitigate it. For example, reputable VPN providers (and some messengers like Signal) do not log the sites you visit, your IP address, or other metadata for longer than needed to make the service work. This is desirable but should not always be trusted. Another approach is to fake your metadata when possible. For example, using a VPN or Tor browser to access a website: the website now thinks your IP address is that of the VPN provider or exit node. Ideally you should find a way to combine these approaches for extra protection and redundancy.
+Unfortunately, the amount of metadata created and recorded can be quite extensive. For example, one smart TV <a href="https://www.scmp.com/tech/policy/article/3132091/chinese-tv-maker-skyworth-under-fire-excessive-data-collection-users">manufacturer</a> was caught scanning the names of nearby WiFi networks, as well as detecting every device on the local network and detailed information about them. protecting from that level of invasion requires more than just a reputable VPN. Fortunately, most of us don’t need to be 100% anonymous, and situations like these fall largely outside of the <a hreflang="en" href="/en/guides/prologue/threatmodel/">threat model</a> of most people reading this. However, <strong>it’s still a good idea whenever changing anything in your digital life to ask what metadata could potentially be leaked, what could be done to prevent that, and what your threat model requires.</strong></p>
+          <div class="flex w-full">
+  <a hreflang="en" class="is:uppercase where:w-fit where:rounded-lg is:px-4 is:py-3 where:text-center border-gradient-primary border-solid border-1 text-primary-dark dark:text-primary border-bg-primary dark:border-bg-primary-dark flex items-center justify-center gap-1 border-4 mr-auto" href="/en/guides/moderately-important"><svg viewBox="0 0 24 24" role="img" aria-label="Previous button icon" aria-hidden="true" class="h-6 w-6" astro-icon="mdi:arrow-left"><path fill="currentColor" d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z" /></svg><span>
+    Previous
+  </span></a>
+  <br>
+  <a hreflang="en" class="is:uppercase where:w-fit where:rounded-lg is:px-4 is:py-3 where:text-center border-gradient-primary border-solid border-1 text-primary-dark dark:text-primary border-bg-primary dark:border-bg-primary-dark flex items-center justify-center gap-1 border-4 ml-auto" href="/en/guides/moderately-important/encryption"><span>
+    Next
+  </span><svg viewBox="0 0 24 24" role="img" aria-label="Next button icon" aria-hidden="true" class="h-6 w-6" astro-icon="mdi:arrow-right"><path fill="currentColor" d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z" /></svg></a>
+</div>
+        </main>
+        <footer data-transparent="true" class="grid w-full grid-cols-1 items-center justify-center gap-4 bg-secondary p-4 text-secondary-contrast data-[transparent='true']:bg-transparent data-[transparent='true']:text-primary-contrast data-[transparent='true']:dark:text-primary-dark-contrast xs:grid-cols-2 sm:flex sm:gap-20">
+  <a href="https://gitlab.com/thenewoil/website/-/blob/main/LICENSE.md" class="text-center transition-all hover:opacity-75 active:opacity-60 sm:text-start">
+  License
+</a>
+  <a hreflang="en" href="/en/privacy-policy" class="text-center transition-all hover:opacity-75 active:opacity-60 sm:text-start">
+  Privacy Policy
+</a>
+  <a href="https://gitlab.com/thenewoil/website" class="text-center transition-all hover:opacity-75 active:opacity-60 sm:text-start">
+  Repository
+</a>
+  <a hreflang="en" href="/en/roadmap" class="text-center transition-all hover:opacity-75 active:opacity-60 sm:text-start">
+  Roadmap
+</a>
+</footer>
+      </div>
+    </div>
+  </body></html>
