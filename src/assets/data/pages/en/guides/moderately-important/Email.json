@@ -9,7 +9,7 @@
       "[Audited](https://protonmail.com/blog/security-audit/)",
       "Based on PGP",
       "Offers a free tier",
-      "Includes a VPN account, calendar, and cloud storage with all plans",
+      "Includes a calendar, cloud storage, password manager, and VPN with all plans",
       "Import/export emails available"
     ],
     "cons": ["No desktop app, web or third-party email client only."]
@@ -23,12 +23,12 @@
     "pros": [
       "Apps available for Android, iOS, and Mac",
       "Offers a free tier",
-      "Includes a collaborative workspace, calendar, and cloud storage with all plans",
-      "Import emails available"
+      "Includes a calendar, collaborative workspace, and cloud storage with all plans",
+      "Import emails available",
+      "Supports PGP"
     ],
     "cons": [
       "No desktop app for Windows or Linux, or third-party email client, web only",
-      "No PGP support",
       "Export emails not available",
       "Audited, but results have not been publicly released yet"
     ]

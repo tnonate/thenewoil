@@ -92,7 +92,7 @@
         "Available on iOS?": "Yes",
         "Decentralized?": "No",
         "Phone number or username?": "Yes",
-        "Disappearing messages?": "No",
+        "Disappearing messages?": "Yes",
         "Additional notes?": []
       }
     }

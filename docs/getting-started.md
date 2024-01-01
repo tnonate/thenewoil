@@ -27,10 +27,10 @@ Once Node v18 is installed you have access to two new commands `node` and `npm`.
 Now run the following command to install the dependencies. This will create a folder in the root directory of the project called `node_modules` this folder is not to be committed to the GIT (hence its inclusion in the .gitignore).
 
 ```console
-npm install
+npm run setup
 ```
 
-Alternatively you can run `npm run setup` which will also install de dependencies, but it will also setup the tools in the prefered way (e.g. disabling astro telemetry)
+Alternatively you can run `npm install` which will also install dependencies, but it will not setup the tools in the prefered way (e.g. disabling astro telemetry)
 
 ## Running the project
 

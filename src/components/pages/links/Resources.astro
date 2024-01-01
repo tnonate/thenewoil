@@ -5,6 +5,7 @@ import { Icon } from "astro-icon";
 interface ResourceItem {
   name: string;
   link: string;
+  custom_title?: string;
   author?: string;
 }
 
@@ -44,7 +45,7 @@ const headingId = await textToHeadingId({
       {
         items.map((item) => {
           return (
-            <li class="list-none">
+            <li class="list-none" title={item.custom_title}>
               <a href={item.link} class="text-lg font-medium">
                 {item.name}
               </a>

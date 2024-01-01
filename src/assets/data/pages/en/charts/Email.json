@@ -27,7 +27,7 @@
         "PGP support?": "Yes",
         "Backup/Export available?": "Yes",
         "Additional notes": [
-          "Includes VPN service, Calendar, and Drive storage with all plans"
+          "Includes calendar, cloud storage, password manager, and VPN with all plans"
         ]
       }
     },
@@ -42,10 +42,10 @@
         "Available in F-Droid?": "No",
         "Available on iOS?": "Yes",
         "Free plan available?": "Yes",
-        "PGP support?": "No",
+        "PGP support?": "Yes",
         "Backup/Export available?": "Import only",
         "Additional notes": [
-          "Includes collaborative workspace, calendar, and Drive storage with all plans"
+          "Includes calendar, collaborative workspace, and cloud storage with all plans"
         ]
       }
     },
@@ -62,7 +62,7 @@
         "Free plan available?": "Yes",
         "PGP support?": "No",
         "Backup/Export available?": "Individual export only",
-        "Additional notes": ["Includes Calendar with all plans"]
+        "Additional notes": ["Includes calendar with all plans"]
       }
     }
   }

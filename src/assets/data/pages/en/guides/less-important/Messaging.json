@@ -16,7 +16,7 @@
     "cons": [
       "Not audited",
       "Not [metadata resistant](https://gitlab.com/thenewoil/website/-/wikis/home)",
-      "No disappearing messages."
+      "Does not offer disappearing messages"
     ]
   },
   "session": {
@@ -80,13 +80,13 @@
       "[Audited](https://threema.ch/en/blog/posts/audit-2020-en)",
       "Available on Android, and iOS",
       "Username-based",
-      "[Metadata resistant](https://gitlab.com/thenewoil/website/-/wikis/home)"
+      "[Metadata resistant](https://gitlab.com/thenewoil/website/-/wikis/home)",
+      "Offers disappearing messages"
     ],
     "cons": [
       "Centralized",
       "Not free",
       "Desktop app must be synced every time",
-      "No disappearing messages",
 	  "Small userbase",
 	  "Missing mainstream features such as stickers and GIF support"
     ]
