@@ -42,16 +42,10 @@ const { members } = Astro.props;
                   <li class="list-none">
                     <a href={link.link} title={link.name}>
                       <img
-                        class="block h-12 w-12 rounded-sm dark:hidden"
+                        class="block h-12 w-12 rounded-sm"
                         loading="lazy"
                         alt={link.name}
                         src={link.icon}
-                      />
-                      <img
-                        loading="lazy"
-                        class="hidden h-12 w-12 rounded-sm dark:block"
-                        alt={link.name}
-                        src={link.icon_dark || link.icon}
                       />
                     </a>
                   </li>

@@ -5,9 +5,20 @@
     "link": "https://inteltechniques.com/book7.html"
   },
   {
-    "name": "Click Here to Kill Everybody",
-    "author": "Bruce Shneier",
-    "link": "https://www.schneier.com/books/click_here/"
+    "name": "Sandworm",
+    "author": "Andy Greenberg",
+    "link": "https://andygreenberg.net/books"
+  },
+  {
+    "name": "Tracers in the Dark",
+    "author": "Andy Greenberg",
+    "link": "https://andygreenberg.net/books"
+  },
+  {
+    "name": "*Your Face Belongs to Us",
+    "author": "Kashmir Hill",
+    "link": "https://www.kashmirhill.com/book",
+	"custom_title": "Left-leaning bias"
   },
   {
     "name": "Firewalls Don't Stop Dragons",
@@ -15,13 +26,24 @@
     "link": "https://firewallsdontstopdragons.com/buy-the-book/"
   },
   {
+    "name": "This Is How They Tell Me the World Ends",
+    "author": "Nicole Perlroth",
+    "link": "https://thisishowtheytellmetheworldends.com/"
+  },
+  {
+    "name": "Click Here to Kill Everybody",
+    "author": "Bruce Shneier",
+    "link": "https://www.schneier.com/books/click_here/"
+  },
+  {
     "name": "Privacy is Power",
     "author": "Carissa Veliz",
     "link": "https://www.carissaveliz.com/books"
   },
   {
-    "name": "The Age of Surveillance Capitalism",
+    "name": "*The Age of Surveillance Capitalism",
     "author": "Shoshana Zuboff",
-    "link": "https://shoshanazuboff.com/book/about/"
+    "link": "https://shoshanazuboff.com/book/about/",
+	"custom_title": "Left-leaning bias"
   }
 ]
