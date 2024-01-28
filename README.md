@@ -8,7 +8,7 @@
 
 ## Contributing
 
-Technology is a constantly changing field and as people who take their privacy and security seriously, we place even more trust in the information on this (including many other) site(s) than most other technologies. As such, it is vital that The New Oil stays as current & up to date as possible. All readers are up most welcome to submit updates and suggested changes via an [issue](https://gitlab.com/thenewoil/website/-/issues). Readers are also encouraged to join our [Matrix](https://matrix.to/#/#TheNewOil:matrix.org) community for general discussions and meeting other like-minded privacy enthusiasts (Please make sure to read the [Community Guidelines](https://gitlab.com/thenewoil/website/-/wikis/Community-Guidelines) before joining to ensure a pleasant and productive experience for everyone).
+Technology is a constantly changing field and as people who take their privacy and security seriously, we place even more trust in the information on this (including many other) site(s) than most other technologies. As such, it is vital that The New Oil stays as current & up to date as possible. All readers are up most welcome to submit updates and suggested changes via an [issue](https://gitlab.com/thenewoil/website/-/issues). To open Merge or Pull requests, please see our [GitHub](https://github.com/tnonate/thenewoil) repo as we mirror from GitHub to GitLab.
 
 For an in depth guide on how to set up the project on your local machine [click this link](./docs/getting-started.md). Thanks to [Rik](https://www.rikdenbreejen.nl/) and [Jaden](https://github.com/jadenet) for upgrading the site visually to give it a more modern, current look.
 
