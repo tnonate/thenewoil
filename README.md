@@ -40,6 +40,7 @@ _You can also see how these donations will be used, by visiting our [roadmap](ht
 
 ## Transparency
 
+-   [**2023 Transparency Report**](https://blog.thenewoil.org/transparency-report-2023)
 -   [**2022 Transparency Report**](https://blog.thenewoil.org/transparency-report-2022-and-goals-for-2023)
 -   [**2021 Transparency Report**](https://blog.thenewoil.org/transparency-report-2021-and-goals-for-2022)
 -   [**2020 Transparency Report**](https://blog.thenewoil.org/2020-recap-2021-plans)

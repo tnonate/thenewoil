@@ -2,9 +2,9 @@
 src/pages/index.mdx
 
 # Build
-/dist
+/www
 
-# Dependancies
+# Dependencies
 /node_modules
 
 # Editor

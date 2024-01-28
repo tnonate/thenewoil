@@ -17,7 +17,6 @@
       <outline title="Biz &amp; IT – Ars Technica" text="Biz &amp; IT – Ars Technica" type="rss" xmlUrl="http://feeds.arstechnica.com/arstechnica/technology-lab" htmlUrl="https://arstechnica.com"/>
       <outline title="Security Latest" text="Security Latest" type="rss" xmlUrl="https://www.wired.com/feed/category/security/latest/rss" htmlUrl="https://www.wired.com"/>
       <outline title="Slashdot" text="Slashdot" type="rss" xmlUrl="http://rss.slashdot.org/Slashdot/slashdotMain" htmlUrl="https://slashdot.org/"/>
-      <outline title="404 Media" text="404 Media" type="rss" xmlUrl="https://www.404media.co/rss/" htmlUrl="https://www.404media.co/"/>
       <outline title="Privacy International News Feed" text="Privacy International News Feed" type="rss" xmlUrl="https://privacyinternational.org/rss.xml" htmlUrl="http://privacyinternational.org/"/>
     </outline>
   </body>

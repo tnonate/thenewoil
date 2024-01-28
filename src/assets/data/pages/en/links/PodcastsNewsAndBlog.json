@@ -15,5 +15,11 @@
     "name": "Mastodon",
     "link": "https://mastodon.thenewoil.org/@thenewoil",
     "img": "/images/logos/mastodon.png"
+  },
+  {
+    "name": "Bluesky",
+    "link": "https://bsky.app/profile/thenewoil.org",
+    "img": "/images/logos/bluesky.png",
+    "not_encouraged": true
   }
 ]
