@@ -6,6 +6,12 @@
     "subtext": "Microblogging: for fans of X/Twitter/etc"
   },
   {
+    "name": "Matrix",
+    "link": "/matrix",
+    "img": "/images/logos/matrix.png",
+    "subtext": "Realtime chatrooms: for fans of Discord/Slack/etc"
+  },
+  {
     "name": "PeerTube",
     "link": "https://apertatube.net/",
     "img": "/images/logos/peertube.png",

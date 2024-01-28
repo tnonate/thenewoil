@@ -10,12 +10,18 @@ draft: false
 
 See my criteria for this page [here](https://gitlab.com/thenewoil/website/-/wikis/Mobile-&-Destkop-Settings-and-Apps-Criteria).
 
+**Please note** that your [threat model](/guides/prologue/threat-model/), life circumstances, and personal safety are top priority. These recommendedations are a general "one-size-fits-most" solution to mass data collection. Your situation may require enabling or disabling settings, features, and apps contrary to what we recommend to ensure your own safety or that of your loved ones. Always prioritize your safety and consider what your threat model requires.
+
 ## iOS 17
 
 - Apple ID > Sign-In & Security > Two-Factor Authentication: On (Security Keys recommended if you plan to use iCloud or other Apple products tied to your Apple account)
 - Apple ID > iCloud: Disable everything (_Note:_ Alternately, if you decide to use iCloud, be sure to enable Advanced Data Protection in this section. This will [end-to-end encrypt](/guides/moderately-important/encryption) most of your data, but not all of it. See [here](https://support.apple.com/en-us/HT202303) to see what's not protected.)
 - Apple ID > Media & Purchases > View Account > Personalized Recommendations: Off
-- Apple ID > Find My: Disable everything <sup>(1)</sup>
+- Apple ID > Find My > Find My iPhone > Find My iPhone: Enabled (required for Stolen Device Protection)
+- Apple ID > Find My > Find My iPhone > Find My Network: Disabled
+- Apple ID > Find My > Find My iPhone > Send Last Location: Disabled
+- Apple ID > Find My > Share My Locaton: Disabled
+- Apple ID > Contact Key Verification: Enabled
 - Wi-Fi > Edit (top right corner) > Remove networks you no longer regularly connect to
 - Wi-Fi > [Your network] > Ensure "Private Wi-Fi Address" is enabled
 - Wi-Fi > [Your network] > Ensure "Limit IP Address Tracking" is enabled
@@ -36,11 +42,12 @@ See my criteria for this page [here](https://gitlab.com/thenewoil/website/-/wiki
 - General > Keyboards > Enable Dictation: Off
 - Display & Brightness > Auto-Lock > the shortest option you can reasonably put up with. Do not set it to leave the screen turned on.
 - Wallpaper: Set your lock screen to something generic and non-personal (no family photos, etc)
-- Siri & Search: Disable everything completely
-- Touch ID & Passcode > Turn Passcode On: Try to set a password if possible, otherwise use a six-digit PIN. A fingerprint is also acceptable if your device allows it (coupled with a strong password or PIN). Face ID should be avoided.
-- Touch ID & Passcode > Require Passcode: Immediately
-- Touch ID & Passcode > Allow Access When Locked: the fewer the better
-- Touch ID & Passcode > Erase Data: Enabled (Beware of this setting, make sure you understand it)
+- Siri & Search: Disable everything completely'
+- Touch/Face ID & Passcode > Stolen Device Protection: Enable
+- Touch/Face ID & Passcode > Turn Passcode On: Try to set an [aplha-numeric password](/guides/most-important/passwords) if possible, otherwise use a six-digit PIN. A fingerprint is also acceptable if your device allows it (coupled with a strong password or PIN). Face ID should be avoided.
+- Touch/Face ID & Passcode > Require Passcode: Immediately
+- Touch/Face ID & Passcode > Allow Access When Locked: the fewer the better
+- Touch/Face ID & Passcode > Erase Data: Enabled (Beware of this setting, make sure you understand it)
 - Exposure Notifications: Using these is discouraged unless required by law, but it is ultimately up to you.
 - Privacy & Security > Location Services: Disable for everything except navigation apps, and set those to "While Using"
 - Privacy & Security > Location Services > System Services: Disable all (this will not cause any issues with Emergency Services being able to locate you)
@@ -71,13 +78,6 @@ See my criteria for this page [here](https://gitlab.com/thenewoil/website/-/wiki
 - Now scroll back up to Screen Time > Content & Privacy Restrictions > Allowed Apps: Disable everything you do not intend to use.
 - Screen Time > Content & Privacy Restrictions > Privacy & Allowed Changes: Set all to "Don't Allow." This will prevent changes from being made on your behalf next time you update.
 - Any settings not covered are personal preference and are unlikely to cause any privacy or security issues no matter how you set them.
-
-<sup>1</sup>: Some people prefer to leave "Find My iPhone" enabled as it allows
-them to remotely wipe the device if it gets lost. However, due to enabling the
-"Erase Data" setting, I don't believe this is necessary. If it makes you feel
-better or if you have a specific use case for it, you can leave this feature on, but "Share My Location" should still be
-disabled (unless you use need to use it often) as this feature will report your
-location back to Apple regularly.*
 
 ## Android 14
 

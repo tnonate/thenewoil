@@ -1,27 +1,31 @@
 [
   {
     "name": "All Things Secured",
-    "link": "https://www.youtube.com/c/AllThingsSecured"
+    "link": "https://www.youtube.com/@AllThingsSecured"
+  },
+  {
+    "name": "Firewalls Don't Stop Dragons",
+    "link": "https://podcast.firewallsdontstopdragons.com/"
   },
   {
     "name": "Jonah Aragon",
-    "link": "https://www.youtube.com/@jonaharagon"
-  },
-  {
-    "name": "The Linux Experiment",
-    "link": "https://www.youtube.com/c/TheLinuxExperiment"
+    "link": "https://neat.tube/c/jonah_channel/videos"
   },
   {
     "name": "Naomi Brockwell",
-    "link": "https://www.youtube.com/c/NaomiBrockwellTV"
+    "link": "https://www.youtube.com/@NaomiBrockwellTV"
   },
   {
     "name": "*Switched to Linux",
-    "link": "https://www.youtube.com/c/SwitchedtoLinux",
+    "link": "https://www.youtube.com/@SwitchedtoLinux",
 	"custom_title": "Right-leaning bias"
   },
   {
     "name": "Techlore",
-    "link": "https://techlore.tech/videos"
+    "link": "https://www.youtube.com/@techlore"
+  },
+  {
+    "name": "Technology Pill",
+    "link": "https://privacyinternational.org/learning-resources/technology-pill-podcast"
   }
 ]
