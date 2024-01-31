@@ -1,0 +1,14 @@
+name: "Deploy hidden service"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      # - name: Rsync to VPS
+      #   uses: up9cloud/action-rsync@v1.4
+      #   env:
+      #     HOST: target.example.com
+      #     KEY: ${{secrets.DEPLOY_SSH_KEY}}
+      #     TARGET: /app/

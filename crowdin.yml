@@ -1,0 +1,23 @@
+#
+# Your Crowdin credentials
+#
+project_id_env: "CROWDIN_PROJECT_ID"
+api_token_env: "CROWDIN_PERSONAL_TOKEN"
+# base_path_env: "CROWDIN_BASE_PATH"
+# base_url_env: "CROWDIN_BASE_URL"
+
+#
+# Choose file structure in Crowdin
+# e.g. true or false
+#
+preserve_hierarchy: true
+
+#
+# Files configuration
+#
+files: [
+  { "source": "/src/pages/en/**/*.mdx" },
+  { "source": "/src/pages/404.mdx" },
+  { "source": "/src/assets/data/pages/en/**/*.json" },
+  { "source": "/src/assets/data/layout/en/**/*.json" }
+]
