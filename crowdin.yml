@@ -15,9 +15,22 @@ preserve_hierarchy: true
 #
 # Files configuration
 #
-files: [
-  { "source": "/src/pages/en/**/*.mdx" },
-  { "source": "/src/pages/404.mdx" },
-  { "source": "/src/assets/data/pages/en/**/*.json" },
-  { "source": "/src/assets/data/layout/en/**/*.json" }
-]
+files:
+  [
+    {
+      "source": "/src/pages/en/**/*.mdx",
+      translation: "/src/pages/%two_letters_code%/**/%file_name%.mdx",
+    },
+    {
+      "source": "/src/pages/404.mdx",
+      translation: "/src/pages/404_%two_letters_code%.mdx",
+    },
+    {
+      "source": "/src/assets/data/pages/en/**/*.json",
+      translation: "/src/assets/data/pages/%two_letters_code%/**/%file_name%.json",
+    },
+    {
+      "source": "/src/assets/data/layout/en/**/*.json",
+      translation: "/src/assets/data/layout/%two_letters_code%/**/%file_name%.json",
+    },
+  ]
