@@ -24,5 +24,3 @@ jobs:
           dryrun_action: true
           project_id: ${{ secrets.CROWDIN_PROJECT_ID }}
           token: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
-          project_id_env: ${{ secrets.CROWDIN_PROJECT_ID }}
-          api_token_env: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
