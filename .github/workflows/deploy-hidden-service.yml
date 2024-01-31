@@ -1,7 +1,7 @@
 name: "Deploy hidden service"
 
 on:
-  push:
+  # push:
   workflow_dispatch:
 
 concurrency:
