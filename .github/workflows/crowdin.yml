@@ -15,6 +15,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Set credentials in crowdin.yml
+        run: |
+          echo "project_id: ${{ secrets.CROWDIN_PROJECT_ID }}" >> crowdin.yml
+          echo "api_token: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}" >> crowdin.yml
+
       - name: Crowdin push
         uses: crowdin/github-action@v1
         with:
