@@ -1,8 +1,6 @@
 name: Mirroring
 
 on:
-  schedule:
-    - cron: "* 3 * * *"
   push:
   delete:
   workflow_dispatch:
