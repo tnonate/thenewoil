@@ -24,7 +24,7 @@ files:
         [
           "/src/pages/en/blog-index.mdx",
           "/src/pages/en/pgp.mdx",
-          "/src/pages/en/blog/xmr2.mdx",
+          "/src/pages/en/xmr2.mdx",
         ],
     },
     {
