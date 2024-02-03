@@ -4,7 +4,7 @@
 # project_id_env: CROWDIN_PROJECT_ID
 # api_token_env: CROWDIN_PERSONAL_TOKEN
 # base_path_env: "CROWDIN_BASE_PATH"
-# base_url_env: "CROWDIN_BASE_URL"
+base_url: "./src/"
 
 #
 # Choose file structure in Crowdin
@@ -18,25 +18,25 @@ preserve_hierarchy: true
 files:
   [
     {
-      source: "/src/pages/en/**/*.mdx",
-      translation: "/src/pages/%two_letters_code%/**/%file_name%.mdx",
+      source: "/pages/en/**/*.mdx",
+      translation: "/pages/%two_letters_code%/**/%file_name%.mdx",
       ignore:
         [
-          "/src/pages/en/blog-index.mdx",
-          "/src/pages/en/pgp.mdx",
-          "/src/pages/en/xmr2.mdx",
+          "/pages/en/blog-index.mdx",
+          "/pages/en/pgp.mdx",
+          "/pages/en/xmr2.mdx",
         ],
     },
     {
-      source: "/src/pages/404.mdx",
-      translation: "/src/pages/404_%two_letters_code%.mdx",
+      source: "/pages/404.mdx",
+      translation: "/pages/404_%two_letters_code%.mdx",
     },
     {
-      source: "/src/assets/data/pages/en/**/*.json",
-      translation: "/src/assets/data/pages/%two_letters_code%/**/%file_name%.json",
+      source: "/assets/data/pages/en/**/*.json",
+      translation: "/assets/data/pages/%two_letters_code%/**/%file_name%.json",
     },
     {
-      source: "/src/assets/data/layout/en/**/*.json",
-      translation: "/src/assets/data/layout/%two_letters_code%/**/%file_name%.json",
+      source: "/assets/data/layout/en/**/*.json",
+      translation: "/assets/data/layout/%two_letters_code%/**/%file_name%.json",
     },
   ]
