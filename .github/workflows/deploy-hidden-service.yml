@@ -17,6 +17,7 @@ jobs:
       - name: SSH and log
         uses: appleboy/ssh-action@v1.0.3
         with:
+          username: "github"
           host: ${{ secrets.HIDDEN_SERVICE_HOST }}
           key: ${{ secrets.HIDDEN_SERVICE_SSH_KEY }}
           script: | 
