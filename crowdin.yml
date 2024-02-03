@@ -3,8 +3,8 @@
 #
 # project_id_env: CROWDIN_PROJECT_ID
 # api_token_env: CROWDIN_PERSONAL_TOKEN
-# base_path_env: "CROWDIN_BASE_PATH"
-base_url: "./src/"
+base_path: "./src"
+# base_url: "./src/"
 
 #
 # Choose file structure in Crowdin
