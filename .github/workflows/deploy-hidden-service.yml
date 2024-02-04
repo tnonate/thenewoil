@@ -35,4 +35,4 @@ jobs:
           HOST: ${{ secrets.HIDDEN_SERVICE_HOST }}
           KEY: ${{ secrets.HIDDEN_SERVICE_SSH_KEY }}
           SOURCE: "./www/"
-          TARGET: ${{ secrets.HIDDEN_SERVICE_TARGET_DIR }}
+          TARGET: ${{ secrets.HIDDEN_SERVICE_TARGET_DIR }}/www/
