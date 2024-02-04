@@ -14,17 +14,25 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: SSH and log
-        uses: appleboy/ssh-action@v1.0.3
+
+      - name: Sync node version and setup cache
+        uses: actions/setup-node@v4
         with:
-          username: "github"
-          host: ${{ secrets.HIDDEN_SERVICE_HOST }}
-          key: ${{ secrets.HIDDEN_SERVICE_SSH_KEY }}
-          script: | 
-            echo "I'm in *Hackerman*"
-      # - name: Rsync to VPS
-      #   uses: up9cloud/action-rsync@v1.4
-      #   env:
-      #     HOST: ${{ secrets.HIDDEN_SERVICE_HOST }}
-      #     KEY: ${{ secrets.HIDDEN_SERVICE_SSH_KEY }}
-      #     TARGET: ${{ secrets.HIDDEN_SERVICE_TARGET_DIR }}
+          node-version: 20
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - name: Rsync
+        uses: up9cloud/action-rsync@v1.4
+        env:
+          ARGS_MORE: "--dry-run"
+          USER: github
+          HOST: ${{ secrets.HIDDEN_SERVICE_HOST }}
+          KEY: ${{ secrets.HIDDEN_SERVICE_SSH_KEY }}
+          SOURCE: "./www/"
+          TARGET: ${{ secrets.HIDDEN_SERVICE_TARGET_DIR }}
