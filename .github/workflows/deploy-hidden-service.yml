@@ -33,6 +33,8 @@ jobs:
           USER: github
           HOST: ${{ secrets.HIDDEN_SERVICE_HOST }}
           KEY: ${{ secrets.HIDDEN_SERVICE_SSH_KEY }}
-          SOURCE: "./www/"
+          SOURCE: "./www"
           TARGET: ${{ secrets.HIDDEN_SERVICE_TARGET_DIR }}
-          ARGS: "-z -r -v --delete"
+          ARGS: "-z -r -v --delete --include=\".*\""
+          POST_SCRIPT: |
+            ls ${{ secrets.HIDDEN_SERVICE_TARGET_DIR }}
