@@ -27,12 +27,24 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Rsync
-        uses: up9cloud/action-rsync@v1.4
-        env:
-          ARGS_MORE: "--dry-run"
-          USER: github
-          HOST: ${{ secrets.HIDDEN_SERVICE_HOST }}
-          KEY: ${{ secrets.HIDDEN_SERVICE_SSH_KEY }}
-          SOURCE: "./www/"
-          TARGET: ${{ secrets.HIDDEN_SERVICE_TARGET_DIR }}
+      - name: executing remote ssh commands using password
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.HIDDEN_SERVICE_HOST }}
+          key: ${{ secrets.HIDDEN_SERVICE_SSH_KEY }}
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
+          script: ls
+            ls
+            ls ${{ secrets.HIDDEN_SERVICE_TARGET_DIR }}
+            ls ../${{ secrets.HIDDEN_SERVICE_TARGET_DIR }}
+
+      # - name: Rsync
+      #   uses: up9cloud/action-rsync@v1.4
+      #   env:
+      #     # ARGS_MORE: "--dry-run"
+      #     USER: github
+      #     HOST: ${{ secrets.HIDDEN_SERVICE_HOST }}
+      #     KEY: ${{ secrets.HIDDEN_SERVICE_SSH_KEY }}
+      #     SOURCE: "./www/"
+      #     TARGET: ${{ secrets.HIDDEN_SERVICE_TARGET_DIR }}
