@@ -40,7 +40,6 @@ jobs:
       - name: Rsync
         uses: up9cloud/action-rsync@v1.4
         env:
-          ARGS_MORE: "--dry-run"
           USER: github
           HOST: ${{ secrets.HIDDEN_SERVICE_HOST }}
           KEY: ${{ secrets.HIDDEN_SERVICE_SSH_KEY }}
