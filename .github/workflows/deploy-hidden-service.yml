@@ -31,10 +31,10 @@ jobs:
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.HIDDEN_SERVICE_HOST }}
+          username: "github"
           key: ${{ secrets.HIDDEN_SERVICE_SSH_KEY }}
-          password: ${{ secrets.PASSWORD }}
-          port: ${{ secrets.PORT }}
-          script: ls
+          port: 22
+          script: |
             ls
             ls ${{ secrets.HIDDEN_SERVICE_TARGET_DIR }}
             ls ../${{ secrets.HIDDEN_SERVICE_TARGET_DIR }}
