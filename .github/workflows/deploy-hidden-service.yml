@@ -35,4 +35,4 @@ jobs:
           KEY: ${{ secrets.HIDDEN_SERVICE_SSH_KEY }}
           SOURCE: "./www/"
           TARGET: ${{ secrets.HIDDEN_SERVICE_TARGET_DIR }}
-          ARGS: "-z -v --delete"
+          ARGS: "-z -r -v --delete"
