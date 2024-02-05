@@ -27,16 +27,6 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: executing remote ssh commands using password
-        uses: appleboy/ssh-action@v1.0.3
-        with:
-          host: ${{ secrets.HIDDEN_SERVICE_HOST }}
-          username: "github"
-          key: ${{ secrets.HIDDEN_SERVICE_SSH_KEY }}
-          port: 22
-          script: |
-            ls ${{ secrets.HIDDEN_SERVICE_TARGET_DIR }}
-
       - name: Rsync
         uses: up9cloud/action-rsync@v1.4
         env:
