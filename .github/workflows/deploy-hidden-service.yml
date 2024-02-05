@@ -37,4 +37,4 @@ jobs:
           TARGET: ${{ secrets.HIDDEN_SERVICE_TARGET_DIR }}
           ARGS: "-z -r -v --delete --include=\".*\""
           POST_SCRIPT: |
-            ls ${{ secrets.HIDDEN_SERVICE_TARGET_DIR }}
+            ls -a ${{ secrets.HIDDEN_SERVICE_TARGET_DIR }}
