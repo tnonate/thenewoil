@@ -48,15 +48,16 @@
     "subtext": "Virtual private network"
   },
   {
+    "name": "Redact.Dev",
+    "link": "https://redact.dev/?via=f6e740",
+    "img": "/images/logos/redact.png",
+	"img_dark": "/images/logos/redact-dark.png",
+    "subtext": "Data & Content removal service"
+  },
+  {
     "name": "SimpleLogin",
     "link": "https://simplelogin.io/?slref=thenewoil",
     "img": "/images/logos/simplelogin.png",
     "subtext": "Email address masking service"
-  },
-  {
-    "name": "Skiff",
-    "link": "https://app.skiff.com/signup?mail=&referral=thenewoil",
-    "img": "/images/logos/skiff.png",
-    "subtext": "Email provider"
   }
 ]
