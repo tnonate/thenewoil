@@ -11,6 +11,9 @@ import ShopHero from "@components/pages/support/ShopHero.astro";
 import affiliateLinks from "@assets/data/pages/en/support/Affiliate.json";
 import donations from "@assets/data/pages/en/support/Donations.json";
 
+import translate from "@assets/data/pages/en/links/Translate.json";
+import source from "@assets/data/pages/en/links/Source.json";
+
 # Support Methods
 
 <ShopHero img="/images/graphics/shop-tshirt.webp" link="https://shop.thenewoil.org/">
@@ -31,3 +34,15 @@ import donations from "@assets/data/pages/en/support/Donations.json";
 ## Affiliate links
 
 <LinkGrid items={affiliateLinks} />
+
+## Translations
+
+If you speak another language, one of the biggest ways you can help us to is help translate The New Oil into your language and help us spread the message of privacy. (And it's free!)
+
+<LinkGrid items={translate} />
+
+## Source Code, Suggestions, and Issues
+
+If you see something that could be improved - from a typo to an outdated or missing suggestion - please open an Issue and help keep the site current and helpful to other readers.
+
+<LinkGrid items={source} />

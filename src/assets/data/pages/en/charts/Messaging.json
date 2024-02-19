@@ -32,22 +32,6 @@
         ]
       }
     },
-    "session": {
-      "name": "Session",
-      "values": {
-        "Audited?": "Yes",
-        "Available on Linux?": "Yes",
-        "Available on Mac?": "Yes",
-        "Available on Windows?": "Yes",
-        "Available on Android?": "Yes",
-        "Available in F-Droid?": "Directly ([from here](https://fdroid.getsession.org/fdroid/repo/))",
-        "Available on iOS?": "Yes",
-        "Decentralized?": "Yes",
-        "Phone number or username?": "Yes",
-        "Disappearing messages?": "Yes",
-        "Additional notes?": []
-      }
-    },
     "signal": {
       "name": "Signal",
       "values": {
