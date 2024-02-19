@@ -5,7 +5,7 @@
     "logo_alt": "IVPN logo",
     "link": "https://www.ivpn.net",
     "pros": [
-      "[Audited](https://www.ivpn.net/blog/tags/audit/)",
+      "[Recently audited](https://www.ivpn.net/blog/tags/audit/)",
       "Available on all operating systems",
       "Anonymous payments (cash and Monero) available",
       "Offers malware, tracker, and ad-blocking for [all plans](https://www.ivpn.net/antitracker/)",
@@ -21,7 +21,7 @@
     "logo_alt": "Mullvad logo",
     "link": "https://mullvad.net/",
     "pros": [
-      "[Audited](https://mullvad.net/en/blog/search/?q=audit)",
+      "[Recently audited](https://mullvad.net/en/blog/search/?q=audit)",
       "Available on all operating systems",
       "Flat rate of $5/month for all services and payment lengths",
       "Anonymous payments (cash and Monero) available",
@@ -39,7 +39,7 @@
     "referral_link": "https://go.getproton.me/aff_c?offer_id=26&aff_id=2187&url=https%3A%2F%2Fproton.me%2F%3FvisitorId%3Dho-{transaction_id}%26aid%3D{affiliate_id}%26offer_id%3D{offer_id}%26url_id%3D{offer_url_id}%26utm_campaign%3Dww-all-2c-vpn-gro_aff-g_acq-partners_program%26utm_source%3Daid-tune-{affiliate_id}%26utm_medium%3Dlink%26utm_term%3Dgeneric_vpn_landing%26utm_content%3D{offer_id}%26hfp%3Dfalse%26spl%3D{affiliate_id}%26aap%3D{affiliate_id}",
     "link": "https://protonvpn.com/",
     "pros": [
-      "[Audited](https://protonvpn.com/blog/open-source/)",
+      "[Recently audited](https://protonvpn.com/blog/open-source/)",
       "Available on all operating systems",
       "Anonymous payments (cash) available",
       "Offers a limited number of free servers",

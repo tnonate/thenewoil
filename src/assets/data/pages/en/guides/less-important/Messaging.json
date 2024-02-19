@@ -15,25 +15,9 @@
     ],
     "cons": [
       "Not audited",
-      "Not [metadata resistant](https://gitlab.com/thenewoil/website/-/wikis/home)",
+      "Not [metadata resistant](/criteria#definitions)",
       "Does not offer disappearing messages"
     ]
-  },
-  "session": {
-    "name": "Session",
-    "logo": "/images/logos/session.png",
-    "logo_alt": "Session Logo",
-    "link": "https://getsession.org/",
-    "pros": [
-      "[Audited](https://getsession.org/session-code-audit/)",
-      "Available on all operating systems",
-      "Decentralized",
-      "Username-based",
-      "[Metadata resistant](https://gitlab.com/thenewoil/website/-/wikis/home)",
-      "No identifiable user data required at signup",
-      "Offers disappearing messages"
-    ],
-    "cons": ["Voice & video calls in beta"]
   },
   "signal": {
     "name": "Signal",
@@ -41,10 +25,10 @@
     "logo_alt": "Signal Logo",
     "link": "https://signal.org/",
     "pros": [
-      "[Audited](https://community.signalusers.org/t/wiki-overview-of-third-party-security-audits/13243)",
+      "[Recently audited](https://community.signalusers.org/t/wiki-overview-of-third-party-security-audits/13243)",
       "Available on all operating systems",
       "Offers disappearing messages",
-      "[Metadata resistant](https://gitlab.com/thenewoil/website/-/wikis/home)"
+      "[Metadata resistant](/criteria#definitions)"
     ],
     "cons": [
       "Centralized",
@@ -58,13 +42,13 @@
     "logo_alt": "SimpleX Logo",
     "link": "https://simplex.chat/",
     "pros": [
-      "[Audited](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html)",
+      "[Recently audited](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html)",
       "Available on all operating systems",
       "Offers disappearing messages",
       "Decentralized",
       "No personal information required",
       "No user IDs, add contacts via QR code or temporary link",
-      "[Metadata resistant](https://gitlab.com/thenewoil/website/-/wikis/home)"
+      "[Metadata resistant](/criteria#definitions)"
     ],
     "cons": [
       "Still early in development, may be missing some features",
@@ -77,10 +61,10 @@
     "logo_alt": "Threema Logo",
     "link": "https://threema.ch/",
     "pros": [
-      "[Audited](https://threema.ch/en/blog/posts/audit-2020-en)",
+      "[Recently audited](https://threema.ch/en/blog/posts/audit-2020-en)",
       "Available on Android, and iOS",
       "Username-based",
-      "[Metadata resistant](https://gitlab.com/thenewoil/website/-/wikis/home)",
+      "[Metadata resistant](/criteria#definitions)",
       "Offers disappearing messages"
     ],
     "cons": [

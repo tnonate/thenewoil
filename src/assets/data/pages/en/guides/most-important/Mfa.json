@@ -29,6 +29,6 @@
        "Available on Android & iOS",
        "Available on F-Droid"],
     "cons": [
-       "ente account required (free for now but plans to charge in the future)"]
+  "ente account required (free for now but [plans](https://ente.io/blog/auth/) to charge in the future)"]
   }
 }

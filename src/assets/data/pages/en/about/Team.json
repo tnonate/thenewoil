@@ -4,28 +4,6 @@
     "title": "Founder/Editor"
   },
   {
-    "name": "Anonymous Moderator",
-    "title": "Moderator",
-    "links": [
-      {
-        "name": "Discord",
-        "link": "#",
-        "icon": "/images/logos/discord.png"
-      }
-    ]
-  },
-  {
-    "name": "Darth Badgie",
-    "title": "Moderator",
-    "links": [
-      {
-        "name": "Matrix",
-        "link": "https://matrix.to/#/@darthbadgie:matrix.org",
-        "icon": "/images/logos/matrix2.png"
-      }
-    ]
-  },
-  {
     "name": "daryl76679",
     "title": "Moderator",
     "links": [
@@ -49,29 +27,13 @@
     ]
   },
   {
-    "name": "Jun",
-    "title": "Moderator",
+    "name": "Robert Dalton",
+    "title": "News Scheduler",
     "links": [
       {
-        "name": "Matrix",
-        "link": "https://matrix.to/#/@noobmaster69:secretsquirrel.ems.host",
-        "icon": "/images/logos/matrix2.png"
-      }
-    ]
-  },
-  {
-    "name": "Uncover",
-    "title": "Moderator",
-    "links": [
-      {
-        "name": "Discord",
-        "link": "#",
-        "icon": "/images/logos/discord.png"
-      },
-      {
-        "name": "Matrix",
-        "link": "https://matrix.to/#/@uncover:matrix.org",
-        "icon": "/images/logos/matrix2.png"
+        "name": "Website",
+        "link": "https://robertdalton.lol/",
+        "icon": "/images/logos/website.png"
       }
     ]
   }
