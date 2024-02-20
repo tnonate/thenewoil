@@ -35,6 +35,6 @@ jobs:
           KEY: ${{ secrets.HIDDEN_SERVICE_SSH_KEY }}
           SOURCE: "./www/"
           TARGET: ${{ secrets.HIDDEN_SERVICE_TARGET_DIR }}
-          ARGS: '-z -r -v --inplace --delete --include=".*"'
+          ARGS: '-z -r -v --delete --include=".*"'
           POST_SCRIPT: |
             ls -a ${{ secrets.HIDDEN_SERVICE_TARGET_DIR }}
