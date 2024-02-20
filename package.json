@@ -1,4 +1,5 @@
 {
+  "name": "the-new-oil-website",
   "type": "module",
   "scripts": {
     "setup": "npm i && astro telemetry disable",
