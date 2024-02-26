@@ -62,10 +62,14 @@ To start developing you can use `npm run start` or `npm run dev`.
 - [Formatting](formatting.md)
 - [Layouts](layouts.md)
 - [Project Structure](project-structure.md)
-- [Aliasing](content/aliasing.md)
 - [Icons](content/icons.md)
 - [Internationalization](content/internationalization.md)
 - [Linking](content/linking.md)
 - [New Guide Sections](content/new-guide-sections.md)
 - [New Guides](content/new-guides.md)
 - [New Pages](content/new-pages.md)
+
+## Server Configuration
+
+- [Basic webserver installation](server/install.md)
+- [Server-side page redirects](server/redirects.md)
