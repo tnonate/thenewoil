@@ -38,10 +38,7 @@ export default defineConfig({
     sitemap(),
     robotsTxt({ sitemap: false, policy: [{disallow: "/", userAgent: "GPTBot"}, {disallow: "/", userAgent: "ia_archiver"}, {disallow: "/", userAgent: "User-Agent: Google-Extended"}] }),
     compress({
-      css: { comments: false },
-      html: { removeComments: true },
-      js: false,
-      logger: 1,
+      JavaScript: false,
     }),
     languagePlugin({
       supportedLanguageCodes: config.languages.map((lang) => lang.code),
