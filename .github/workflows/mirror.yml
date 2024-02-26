@@ -3,6 +3,7 @@ name: Mirroring
 on:
   push:
   delete:
+  create:
   workflow_dispatch:
 
 jobs:
