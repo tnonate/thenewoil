@@ -1,0 +1,48 @@
+@static {
+	file
+	path *.ico *.css *.js *.gif *.webp *.avif *.jpg *.jpeg *.png *.svg *.woff *.woff2
+}
+
+# All I'm doing below is grouping these HTTP headers into arbitrary groups, see: https://caddyserver.com/docs/caddyfile/concepts#snippets
+# This isn't strictly necessary, it just makes configuration a bit more flexible. 
+# For example, the (https) snippet below gets added to the clearnet site but not the .onion site.
+
+(https) {
+	# The ? means it's a default value (which could potentially be overridden elsewhere), see: https://caddyserver.com/docs/caddyfile/directives/header
+	# We don't override any of these values currently, so it doesn't matter, but with some of these headers it is good to have flexibility on a per-page/site basis.
+	header ?Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+}
+
+(security) {
+	header X-Frame-Options SAMEORIGIN
+	header X-Content-Type-Options nosniff
+	header ?Cross-Origin-Resource-Policy same-site
+	header ?Cross-Origin-Embedder-Policy credentialless
+	header ?Cross-Origin-Opener-Policy same-origin
+
+	# Simplified CSP by removing everything which was set to "none", since the default-src is "none" anyways, except for base-uri and frame-ancestors which don't have default-src fallback: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/default-src
+	header ?Content-Security-Policy "default-src 'none'; style-src 'self'; style-src-elem 'self'; style-src-attr 'unsafe-inline'; img-src 'self'; font-src 'self' data: ; media-src 'self' data: ; form-action 'self'; frame-ancestors 'none'; base-uri 'none'; upgrade-insecure-requests; sandbox allow-scripts allow-popups;"
+
+	# why is this set to 0? see: https://github.com/privacyguides/privacyguides.org/pull/2021#issuecomment-1444083670
+	# unfortunately you will lose points on Mozilla Observatory, but your website will be more secure, which is probably more important
+	header X-XSS-Protection 0
+
+	# This header was set in the old .htaccess file, although I'm unsure why
+	header ?Access-Control-Allow-Origin "*"
+}
+
+(privacy) {
+	header ?Permissions-Policy "browsing-topics=(), conversion-measurement=(), interest-cohort=(), accelerometer=(), ambient-light-sensor=(), battery=(), camera=(), display-capture=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), usb=()"
+	header ?Request-OTR 1
+
+	# This header was not set in the old .htaccess file, but you may consider uncommenting it after reading https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy
+	# header Referrer-Policy no-referrer
+}
+
+(caching) {
+	# Disables browser caching, as it was in the old .htaccess file
+	header Cache-Control no-store
+
+	# I don't think you should disable caching though, you may want to replace it with this, which caches static files in browser for 30 days:
+	# header @static Cache-Control max-age=2592000
+}

@@ -1,0 +1,20 @@
+thenewoil.org {
+	# These two lines configure Caddy to serve from the www subdirectory of this repo
+	# see: https://caddyserver.com/docs/caddyfile/directives/file_server
+	root /home/website/thenewoil/www
+	file_server
+
+	# import HTTP headers from 10-headers.caddy file:
+	import https
+	import security
+	import privacy
+	import caching
+
+	# After configuring the hidden service, replace example.onion and uncomment this line:
+	# header Onion-Location http://example.onion{uri}
+}
+
+# Redirects other domains to main domain
+www.thenewoil.org, thenewoil.xyz, www.thenewoil.xyz {
+	redir https://thenewoil.org{uri}
+}

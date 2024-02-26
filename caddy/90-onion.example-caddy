@@ -1,0 +1,14 @@
+# Replace example.onion with your hidden service hostname and rename this file from 90-onion.example-caddy to 90-onion.caddy after doing so.
+# Specifying http:// for this site is important so Caddy doesn't try to redirect the onion hostname.
+
+http://example.onion {
+	# These two lines configure Caddy to serve from the www subdirectory of this repo
+	# see: https://caddyserver.com/docs/caddyfile/directives/file_server
+	root /home/website/thenewoil/www
+	file_server
+
+	# import HTTP headers from 10-headers.caddy file:
+	import security
+	import privacy
+	import caching
+}
