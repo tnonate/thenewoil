@@ -10,6 +10,14 @@
     "img": "/images/logos/eff.png"
   },
   {
+<<<<<<< Updated upstream
+=======
+    "name": "The Electronic Privacy Information Center (EPIC)",
+    "link": "https://epic.org/",
+    "img": "/images/logos/epic.png"
+  },
+  {
+>>>>>>> Stashed changes
     "name": "European Digital Rights (EDRi)",
     "link": "https://edri.org/",
     "img": "/images/logos/edri.png"
@@ -23,11 +31,6 @@
     "name": "Privacy International",
     "link": "https://privacyinternational.org/",
     "img": "/images/logos/privacy-international.png"
-  },
-  {
-    "name": "The Electronic Privacy Information Center (EPIC)",
-    "link": "https://epic.org/",
-    "img": "/images/logos/epic.png"
   },
   {
     "name": "The Surveillance Technology Oversight Project (STOP)",
