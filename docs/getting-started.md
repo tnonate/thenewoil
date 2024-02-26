@@ -4,23 +4,23 @@
 
 ### From the website
 
-Go to [https://nodejs.org/](https://nodejs.org/) and follow the instructions for installing version 18.x.x. To run this project at least version 18 is required.
+Go to [https://nodejs.org/](https://nodejs.org/) and follow the instructions for installing version 20.x.x. To run this project at least version 20 is required.
 
 ### Using Nvm
 
 Nvm (short for Node Version Manager) is a tool that helps with using multiple versions of Node at the same time.
 
 ```console
-nvm install v18
+nvm install v20
 ```
 
 Then to use the newly installed version of Node type the following for your specific version of Node:
 
 ```console
-nvm use 18.x.x
+nvm use 20
 ```
 
-Once Node v18 is installed you have access to two new commands `node` and `npm`. `npm` (short for Node Package Manager) is the official package manager provided by Node. It is used to install and manage dependencies. The `node` command is for running raw `.js` files, but we will not be using that.
+Once Node v20 is installed you have access to two new commands `node` and `npm`. `npm` (short for Node Package Manager) is the official package manager provided by Node. It is used to install and manage dependencies. The `node` command is for running raw `.js` files, but we will not be using that.
 
 ## Installing Dependencies
 
