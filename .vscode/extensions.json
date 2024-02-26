@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "EditorConfig.EditorConfig",
+    "astro-build.astro-vscode",
+    "unifiedjs.vscode-mdx",
+    "yzhang.markdown-all-in-one",
+    "DavidAnson.vscode-markdownlint",
+    "esbenp.prettier-vscode",
+    "matthewpi.caddyfile-support"
+  ]
+}

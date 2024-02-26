@@ -42,8 +42,6 @@ There are a few exceptions to this rule:
 
 - `404.mdx`
 
-Note that also [aliases](content/aliasing.md) are allowed in this directory
-
 ## The `/public` folder
 
 The public folder is a folder provided by Astro to directly put something inside of the build and make it publicly available. If it needs to be public is will probably belong in here.
@@ -91,3 +89,7 @@ The following folders have the following meanings:
 - `/steps` - Some content has images that demonstrate a step by step guide of how to do something. That is what this folder is for. No steps should be contained in the root of the steps folder, instead create a folder inside of it and put the steps in there.
 
 For information on how to use icons [click here](content/icons.md)
+
+## The `/caddy` folder
+
+This folder contains webserver configuration files, to set HTTP headers, [server-side redirects](server/redirects.md), etc. It is not used when building or serving the site locally, and contains hardcoded, server-specific configuration lines that may not be applicable to setups outside The New Oil.

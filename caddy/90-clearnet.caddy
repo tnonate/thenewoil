@@ -1,3 +1,5 @@
+# Remember to change the number in ./Caddyfile after editing this file too!
+
 thenewoil.org {
 	# These two lines configure Caddy to serve from the www subdirectory of this repo
 	# see: https://caddyserver.com/docs/caddyfile/directives/file_server
@@ -9,8 +11,11 @@ thenewoil.org {
 	import security
 	import privacy
 	import caching
+	# import redirects from 20-redirects.caddy file:
+	import redirects
+	# import error pages from 20-error-pages.caddy file:
+	import errors
 
-	# After configuring the hidden service, replace example.onion and uncomment this line:
 	header Onion-Location http://r5jopxwjyy3pberv7a43r3e2i3whtxvk5lsotl3cap3zqltxev67zqid.onion{uri}
 }
 
