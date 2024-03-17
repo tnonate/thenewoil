@@ -8,30 +8,10 @@
     "Available in F-Droid?",
     "Available on iOS?",
     "Decentralized?",
-    "Phone number or username?",
     "Disappearing messages?",
     "Additional notes?"
   ],
   "tools": {
-    "matrix": {
-      "name": "Matrix",
-      "values": {
-        "Audited?": "No",
-        "Available on Linux?": "Yes",
-        "Available on Mac?": "Yes",
-        "Available on Windows?": "Yes",
-        "Available on Android?": "Yes",
-        "Available in F-Droid?": "Some clients",
-        "Available on iOS?": "Yes",
-        "Decentralized?": "Yes",
-        "Phone number or username?": "Username",
-        "Disappearing messages?": "No",
-        "Additional notes?": [
-          "Matrix is the protocol, not the client",
-          "Can be self-hosted"
-        ]
-      }
-    },
     "signal": {
       "name": "Signal",
       "values": {
@@ -43,7 +23,6 @@
         "Available in F-Droid?": "No",
         "Available on iOS?": "Yes",
         "Decentralized?": "No",
-        "Phone number or username?": "Phone number",
         "Disappearing messages?": "Yes",
         "Additional notes?": []
       }
@@ -59,9 +38,8 @@
         "Available in F-Droid?": "Directly ([from here](https://simplex.chat/fdroid/))",
         "Available on iOS?": "Yes",
         "Decentralized?": "Yes",
-        "Phone number or username?": "QR-Code or temporary link",
         "Disappearing messages?": "Yes",
-        "Additional notes?": ["Early in development", "Small userbase"]
+        "Additional notes?": ["Early in development"]
       }
     },
     "threema": {
@@ -75,7 +53,6 @@
         "Available in F-Droid?": "No",
         "Available on iOS?": "Yes",
         "Decentralized?": "No",
-        "Phone number or username?": "Yes",
         "Disappearing messages?": "Yes",
         "Additional notes?": []
       }

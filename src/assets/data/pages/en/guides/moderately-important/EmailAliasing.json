@@ -17,13 +17,13 @@
           "Aliases": "Unlimited",
           "Bandwidth": "10MB",
           "Reply/Send": 0,
-          "Mailboxes": 2,
+          "Mailboxes": 1,
           "Custom domains": 0,
           "PGP Encryption": "Yes"
         },
         "Lite": {
           "Aliases": "Unlimited",
-          "Bandwidth": "50MB",
+          "Bandwidth": "100MB",
           "Reply/Send": "20/day",
           "Mailboxes": 5,
           "Custom domains": 1,
