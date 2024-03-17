@@ -1,24 +1,4 @@
 {
-  "matrix": {
-    "name": "Matrix",
-    "logo": "/images/logos/matrix.png",
-    "logo_alt": "Matrix Logo",
-    "link": "https://matrix.org/",
-    "pros": [
-      "Available on all operating systems",
-      "Decentralized",
-      "Username-based",
-      "No identifiable user data required at signup",
-      "Can be self-hosted",
-      "Can be bridged to communicate with other services such as Slack, Telegram, Signal, Discord, Facebook, and more.",
-      "Popular clients include [Element](https://element.io/), [FluffyChat](https://fluffychat.im/), and [SchildiChat](https://schildi.chat/)."
-    ],
-    "cons": [
-      "Not audited",
-      "Not [metadata resistant](/criteria#definitions)",
-      "Does not offer disappearing messages"
-    ]
-  },
   "signal": {
     "name": "Signal",
     "logo": "/images/logos/signal.png",
@@ -27,12 +7,12 @@
     "pros": [
       "[Recently audited](https://community.signalusers.org/t/wiki-overview-of-third-party-security-audits/13243)",
       "Available on all operating systems",
-      "Offers disappearing messages",
+	  "Usernames can be changed at any time an unlimited number of times",
+	  "[World-renowned security](https://en.wikipedia.org/wiki/Signal_(software)#Security)",
       "[Metadata resistant](/criteria#definitions)"
     ],
     "cons": [
       "Centralized",
-      "Phone number required",
       "[Server source code went almost a year without a public update with no explanation](https://linuxreviews.org/Signal_Just_Made_One_Years_Worth_Of_Server-Side_Source_Code_Available_In_One_Huge_Dump)"
     ]
   },
@@ -44,7 +24,6 @@
     "pros": [
       "[Recently audited](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html)",
       "Available on all operating systems",
-      "Offers disappearing messages",
       "Decentralized",
       "No personal information required",
       "No user IDs, add contacts via QR code or temporary link",
@@ -63,7 +42,6 @@
     "pros": [
       "[Recently audited](https://threema.ch/en/blog/posts/audit-2020-en)",
       "Available on Android, and iOS",
-      "Username-based",
       "[Metadata resistant](/criteria#definitions)",
       "Offers disappearing messages"
     ],

@@ -25,16 +25,5 @@
         "icon": "/images/logos/website.png"
       }
     ]
-  },
-  {
-    "name": "Robert Dalton",
-    "title": "News Scheduler",
-    "links": [
-      {
-        "name": "Website",
-        "link": "https://robertdalton.lol/",
-        "icon": "/images/logos/website.png"
-      }
-    ]
   }
 ]

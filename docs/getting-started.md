@@ -17,7 +17,7 @@ nvm install v20
 Then to use the newly installed version of Node type the following for your specific version of Node:
 
 ```console
-nvm use 20
+nvm use 20.x.x
 ```
 
 Once Node v20 is installed you have access to two new commands `node` and `npm`. `npm` (short for Node Package Manager) is the official package manager provided by Node. It is used to install and manage dependencies. The `node` command is for running raw `.js` files, but we will not be using that.
