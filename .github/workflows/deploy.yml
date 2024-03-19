@@ -16,6 +16,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Current dir
+        run: |
+          cd "/home/website/thenewoil/www"
+          pwd
+
+      - name: Directory list
+        run: |
+          cd ${{ env.VPS_TARGET_DIR }}
+          pwd
+          ls -la ${{ env.VPS_TARGET_DIR }}
+
       - name: Sync node version and setup cache
         uses: actions/setup-node@v4
         with:
@@ -37,9 +48,7 @@ jobs:
           USER: website
           HOST: ${{ secrets.VPS_HOST }}
           KEY: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
-          SOURCE: "./www/"
+          SOURCE: "./www"
           TARGET: "/home/website/thenewoil/www"
           ARGS: '-z -r -v -l -t --delete-after'
 
-      - name: Directory list
-        run: ls -la ${{ env.VPS_TARGET_DIR }}
