@@ -23,10 +23,12 @@ jobs:
           username: website
           key: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
           script: |
-            cd "/"
+            echo "Current dir"
             pwd
             ls -la
-
+            echo "var html"
+            ls -la /var/www/html
+            echo "Target dir"
             cd ${{ env.VPS_TARGET_DIR }}
             pwd
             ls -la ${{ env.VPS_TARGET_DIR }}
