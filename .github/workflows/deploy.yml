@@ -16,28 +16,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: executing remote ssh commands using ssh key
-        uses: appleboy/ssh-action@v1.0.2
-        with:
-          host: ${{ secrets.VPS_HOST }}
-          username: website
-          key: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
-          script: |
-            echo "Current dir"
-            pwd
-            ls -la
-
-            echo "Home website www"
-            ls -la /home/website/thenewoil/www
-            mkdir -p /var/www/html
-
-            echo "Target dir"
-            cd ${{ env.VPS_TARGET_DIR }}
-            pwd
-            ls -la ${{ env.VPS_TARGET_DIR }}
-
-
-
       - name: Sync node version and setup cache
         uses: actions/setup-node@v4
         with:
@@ -57,6 +35,6 @@ jobs:
           HOST: ${{ secrets.VPS_HOST }}
           KEY: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
           SOURCE: "./www"
-          TARGET: "/var/www/html"
+          TARGET: "/home/website/thenewoil/www"
           ARGS: '-z -r -v -l -t --delete-after'
 
