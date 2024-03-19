@@ -16,15 +16,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: executing remote ssh commands using ssh key
-        uses: appleboy/ssh-action@v1.0.2
-        with:
-          host: ${{ secrets.VPS_HOST }}
-          username: website
-          key: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
-          script: |
-            mkdir -p /srv/www/thenewoil
-
       - name: Sync node version and setup cache
         uses: actions/setup-node@v4
         with:
