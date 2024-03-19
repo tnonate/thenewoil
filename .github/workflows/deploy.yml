@@ -27,8 +27,9 @@ jobs:
             pwd
             ls -la
 
-            echo "var html"
-            ls -la /var/www/html
+            echo "Home website www"
+            ls -la /home/website/thenewoil/www
+            mkdir /var/www/html
 
             echo "Target dir"
             cd ${{ env.VPS_TARGET_DIR }}
