@@ -28,6 +28,9 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Echo target dir
+        run: echo ${{ env.VPS_TARGET_DIR }}
+
       - name: Rsync
         uses: up9cloud/action-rsync@v1.4
         env:
