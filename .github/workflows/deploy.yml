@@ -16,17 +16,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Current dir
-        run: |
-          cd "/"
-          pwd
-          ls -la
+      - name: executing remote ssh commands using ssh key
+        uses: appleboy/ssh-action@v1.0.2
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: website
+          key: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
+          script: |
+            cd "/"
+            pwd
+            ls -la
 
-      - name: Directory list
-        run: |
-          cd ${{ env.VPS_TARGET_DIR }}
-          pwd
-          ls -la ${{ env.VPS_TARGET_DIR }}
+            cd ${{ env.VPS_TARGET_DIR }}
+            pwd
+            ls -la ${{ env.VPS_TARGET_DIR }}
 
       - name: Sync node version and setup cache
         uses: actions/setup-node@v4
@@ -39,9 +42,6 @@ jobs:
 
       - name: Build
         run: npm run build
-
-      - name: Echo target dir
-        run: echo ${{ env.VPS_TARGET_DIR }}
 
       - name: Rsync
         uses: up9cloud/action-rsync@v1.4
