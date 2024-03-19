@@ -34,6 +34,7 @@ jobs:
           USER: website
           HOST: ${{ secrets.VPS_HOST }}
           KEY: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
+          SOURCE: "./www/"
           TARGET: ${{ env.VPS_TARGET_DIR }}
           ARGS: '-z -r -v -l -t --delete-after'
 
