@@ -4,7 +4,7 @@
 http://r5jopxwjyy3pberv7a43r3e2i3whtxvk5lsotl3cap3zqltxev67zqid.onion {
 	# These two lines configure Caddy to serve from the www subdirectory of this repo
 	# see: https://caddyserver.com/docs/caddyfile/directives/file_server
-	root /home/website/thenewoil/www
+	root /srv/www/thenewoil
 	file_server
 
 	# import HTTP headers from 10-headers.caddy file:
