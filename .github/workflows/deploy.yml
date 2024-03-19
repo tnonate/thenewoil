@@ -18,8 +18,9 @@ jobs:
 
       - name: Current dir
         run: |
-          cd "/home/website/thenewoil/www"
+          cd "/"
           pwd
+          ls -la
 
       - name: Directory list
         run: |
