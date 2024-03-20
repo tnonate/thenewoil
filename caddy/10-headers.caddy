@@ -1,8 +1,3 @@
-@static {
-	file
-	path *.ico *.css *.js *.gif *.webp *.avif *.jpg *.jpeg *.png *.svg *.woff *.woff2
-}
-
 # All I'm doing below is grouping these HTTP headers into arbitrary groups, see: https://caddyserver.com/docs/caddyfile/concepts#snippets
 # This isn't strictly necessary, it just makes configuration a bit more flexible. 
 # For example, the (https) snippet below gets added to the clearnet site but not the .onion site.
