@@ -6,6 +6,7 @@
 	# The ? means it's a default value (which could potentially be overridden elsewhere), see: https://caddyserver.com/docs/caddyfile/directives/header
 	# We don't override any of these values currently, so it doesn't matter, but with some of these headers it is good to have flexibility on a per-page/site basis.
 	header ?Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+	header +Content-Security-Policy upgrade-insecure-requests;
 }
 
 (security) {
@@ -16,7 +17,8 @@
 	header ?Cross-Origin-Opener-Policy same-origin
 
 	# Simplified CSP by removing everything which was set to "none", since the default-src is "none" anyways, except for base-uri and frame-ancestors which don't have default-src fallback: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/default-src
-	header ?Content-Security-Policy "default-src 'none'; style-src 'self'; style-src-elem 'self'; style-src-attr 'unsafe-inline'; img-src 'self'; font-src 'self' data: ; media-src 'self' data: ; form-action 'self'; frame-ancestors 'none'; base-uri 'none'; upgrade-insecure-requests; sandbox allow-scripts allow-popups;"
+	header +Content-Security-Policy "default-src 'none'; style-src 'self' 'unsafe-inline'; style-src-elem 'self'; style-src-attr 'unsafe-inline'; img-src 'self'; font-src 'self' data: ; media-src 'self' data: ;"
+	header +Content-Security-Policy "form-action 'self'; frame-ancestors 'none'; base-uri 'none'; sandbox allow-scripts allow-popups;"
 
 	# why is this set to 0? see: https://github.com/privacyguides/privacyguides.org/pull/2021#issuecomment-1444083670
 	# unfortunately you will lose points on Mozilla Observatory, but your website will be more secure, which is probably more important
