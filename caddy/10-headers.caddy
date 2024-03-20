@@ -35,6 +35,10 @@
 }
 
 (caching) {
+	@static {
+		file
+		path *.ico *.css *.js *.gif *.webp *.avif *.jpg *.jpeg *.png *.svg *.woff *.woff2
+	}
 	# Disables browser caching, as it was in the old .htaccess file
 	header Cache-Control no-store
 

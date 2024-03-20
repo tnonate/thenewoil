@@ -91,11 +91,9 @@ This will make Caddy use the configuration files in the [`caddy`](../../caddy) f
 
 ## Step 5. Configure GitHub
 
-1. Add a new repository variable on [this page](https://github.com/tnonate/thenewoil/settings/variables/actions) named `VPS_TARGET_DIR` with the value `/home/website/thenewoil/` (note the trailing slash)
+1. Create an SSH key. Add the public key to `/home/website/.ssh/authorized_keys` on the server, add the private key as a new repository secret on [this page](https://github.com/tnonate/thenewoil/settings/secrets/actions) named `VPS_SSH_PRIVATE_KEY`.
 
-2. Create an SSH key. Add the public key to `/home/website/.ssh/authorized_keys` on the server, add the private key as a new repository secret on [this page](https://github.com/tnonate/thenewoil/settings/secrets/actions) named `VPS_SSH_PRIVATE_KEY`.
-
-3. Add a new repository secret on [this page](https://github.com/tnonate/thenewoil/settings/secrets/actions) named `VPS_HOST` with the value set to the IP address of the server.
+2. Add a new repository secret on [this page](https://github.com/tnonate/thenewoil/settings/secrets/actions) named `VPS_HOST` with the value set to the IP address of the server.
 
 ## Step 6. Watch for webserver config changes
 
