@@ -11,7 +11,7 @@
 (security) {
 	header X-Frame-Options SAMEORIGIN
 	header X-Content-Type-Options nosniff
-	header ?Cross-Origin-Resource-Policy same-site
+	header ?Cross-Origin-Resource-Policy cross-origin
 	header ?Cross-Origin-Embedder-Policy credentialless
 	header ?Cross-Origin-Opener-Policy same-origin
 
