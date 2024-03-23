@@ -3,8 +3,12 @@ name: Mirroring
 on:
   push:
   delete:
-  create:
+  # create:
   workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
 
 jobs:
   to_gitlab:
