@@ -51,15 +51,11 @@ const { items } = Astro.props;
               {item.sublink && item.subtext && (
                 <a
                   href={item.sublink}
-                  class="w-fit text-primary-contrast text-opacity-80 dark:text-primary-dark-contrast dark:text-opacity-80"
-                >
-                  {item.subtext}
-                </a>
+                  class="w-fit whitespace-pre-wrap text-primary-contrast text-opacity-80 dark:text-primary-dark-contrast dark:text-opacity-80"
+                >{item.subtext}</a>
               )}
               {!item.sublink && item.subtext && (
-                <p class="block w-fit text-primary-contrast text-opacity-80 dark:text-primary-dark-contrast dark:text-opacity-80">
-                  {item.subtext}
-                </p>
+                <p class="block w-fit whitespace-pre-wrap text-primary-contrast text-opacity-80 dark:text-primary-dark-contrast dark:text-opacity-80">{item.subtext}</p>
               )}
             </div>
           </Container>
