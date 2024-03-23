@@ -9,6 +9,7 @@ import LinkGrid from "@components/common/LinkGrid.astro";
 import ShopHero from "@components/pages/support/ShopHero.astro";
 
 import affiliateLinks from "@assets/data/pages/en/support/Affiliate.json";
+import secondaryAffiliateLinks from "@assets/data/pages/en/support/secondaryAffiliate.json";
 import donations from "@assets/data/pages/en/support/Donations.json";
 
 import translate from "@assets/data/pages/en/links/Translate.json";
@@ -34,6 +35,11 @@ import source from "@assets/data/pages/en/links/Source.json";
 ## Affiliate links
 
 <LinkGrid items={affiliateLinks} />
+
+## Secondary affiliate links
+_The following are partners that we have agreed to work with to support our content creation work. The reason these partners are not listed on the website is stated. While these partners do not qualify for full listing, we have vetted them closely and believe their overall mission to be in keeping with ours. You can see more information about our criteria for brand partnerships [here](/sponsorships)._
+
+<LinkGrid items={secondaryAffiliateLinks} />
 
 ## Translations
 
