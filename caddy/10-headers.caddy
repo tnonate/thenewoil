@@ -17,7 +17,7 @@
 	header ?Cross-Origin-Opener-Policy same-origin
 
 	# Simplified CSP by removing everything which was set to "none", since the default-src is "none" anyways, except for base-uri and frame-ancestors which don't have default-src fallback: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/default-src
-	header +Content-Security-Policy "default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; style-src-elem 'self'; style-src-attr 'unsafe-inline'; img-src 'self'; font-src 'self' data: ; media-src 'self' data: ;"
+	header +Content-Security-Policy "default-src 'none'; script-src 'stats.thenewoil.org'; style-src 'self' 'unsafe-inline'; style-src-elem 'self'; style-src-attr 'unsafe-inline'; img-src 'self'; font-src 'self' data: ; media-src 'self' data: ;"
 	header +Content-Security-Policy "form-action 'self'; frame-ancestors 'none'; base-uri 'none'; sandbox allow-scripts allow-popups;"
 
 	# why is this set to 0? see: https://github.com/privacyguides/privacyguides.org/pull/2021#issuecomment-1444083670
