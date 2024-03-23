@@ -13,6 +13,7 @@ interface Props {
 }
 
 const { items } = Astro.props;
+
 ---
 
 <ul class="mb-10 grid w-full grid-cols-1 gap-4 overflow-auto p-0 sm:mb-20 sm:gap-8 lg:grid-cols-2 xl:grid-cols-3">
@@ -51,11 +52,17 @@ const { items } = Astro.props;
               {item.sublink && item.subtext && (
                 <a
                   href={item.sublink}
-                  class="w-fit whitespace-pre-wrap text-primary-contrast text-opacity-80 dark:text-primary-dark-contrast dark:text-opacity-80"
-                >{item.subtext}</a>
+                  class="w-fit text-primary-contrast text-opacity-80 dark:text-primary-dark-contrast dark:text-opacity-80"
+                >
+                  {/* In the built output Astro does not preserve the whitespace, hence this workaround */}
+                  {item.subtext.split("\n").map((line) => <span class="block">{line}</span>)}
+                </a>
               )}
               {!item.sublink && item.subtext && (
-                <p class="block w-fit whitespace-pre-wrap text-primary-contrast text-opacity-80 dark:text-primary-dark-contrast dark:text-opacity-80">{item.subtext}</p>
+                <p class="block w-fit text-primary-contrast text-opacity-80 dark:text-primary-dark-contrast dark:text-opacity-80">
+                  {/* In the built output Astro does not preserve the whitespace, hence this workaround */}
+                  {item.subtext.split("\n").map((line) => <span class="block">{line}</span>)}
+                </p>
               )}
             </div>
           </Container>
