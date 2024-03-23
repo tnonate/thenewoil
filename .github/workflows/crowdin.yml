@@ -3,6 +3,9 @@ name: Crowdin
 on:
   push:
     branches: [ main ]
+    paths:
+      - "pages/**"
+      - "assets/**"
   workflow_dispatch:
 
 concurrency:
