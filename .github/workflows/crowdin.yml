@@ -1,4 +1,4 @@
-name: "Crowdin"
+name: Crowdin
 
 on:
   push:
