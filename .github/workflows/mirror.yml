@@ -6,6 +6,10 @@ on:
   # create:
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   to_gitlab:
     runs-on: ubuntu-latest
