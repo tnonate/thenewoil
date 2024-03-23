@@ -35,5 +35,5 @@ jobs:
           HOST: ${{ secrets.VPS_HOST }}
           KEY: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
           TARGET: "/home/website/thenewoil/"
-          ARGS: "-z -r -v -l -t --delete-after --exclude '*' --include-from /www /caddy"
+          ARGS: "-z -r -v -l -t --delete-after --exclude '*' --include-from www/ caddy/"
 
