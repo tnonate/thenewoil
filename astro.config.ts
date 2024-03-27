@@ -25,7 +25,6 @@ import compress from "astro-compress";
 
 import robotsTxt from "astro-robots-txt";
 
-import aliasPlugin from "./plugins/astro-alias";
 import languagePlugin from "./plugins/astro-language";
 
 // https://astro.build/config
@@ -45,10 +44,6 @@ export default defineConfig({
     }),
     languagePlugin({
       supportedLanguageCodes: config.languages.map((lang) => lang.code),
-    }),
-    aliasPlugin({
-      aliasFile: path.resolve(DIRNAME, "aliases.json"),
-      pagesDir: path.resolve(DIRNAME, "src", "pages"),
     }),
   ],
 });

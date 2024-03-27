@@ -1,0 +1,21 @@
+# Remember to change the number in ./Caddyfile after editing this file too!
+# Add an "import redirects" line to any website to use this configuration
+
+(redirects) {
+	redir / /en permanent
+	redir /btc https://thenewoil.org/en/crypto#bitcoin-btc
+	redir /filen https://filen.io/r/834a3bd235bca0caa53141f2ebc30438
+	redir /liberapay https://liberapay.com/thenewoil
+	redir /mega https://mega.nz/aff=UBJLjO7sxZU
+	redir /nitrokey https://shop.nitrokey.com/shop?aff_ref=14
+	redir /opencollective https://opencollective.com/thenewoil/donate
+	redir /patreon https://www.patreon.com/TheNewOil413
+	redir /paypal https://www.paypal.com/donate/?hosted_button_id=2LLRWFZQS4E94
+	redir /privacy https://privacy.com/join/UZ9WY
+	redir /proton https://go.getproton.me/aff_c?offer_id=26&aff_id=2187&url=https%3A%2F%2Fproton.me%2F%3FvisitorId%3Dho-{transaction_id}%26aid%3D{affiliate_id}%26offer_id%3D{offer_id}%26url_id%3D{offer_url_id}%26utm_campaign%3Dww-all-2c-vpn-gro_aff-g_acq-partners_program%26utm_source%3Daid-tune-{affiliate_id}%26utm_medium%3Dlink%26utm_term%3Dgeneric_vpn_landing%26utm_content%3D{offer_id}%26hfp%3Dfalse%26spl%3D{affiliate_id}%26aap%3D{affiliate_id}
+	redir /redact https://redact.dev/?via=f6e740
+	redir /simplelogin https://simplelogin.io/?slref=thenewoil
+	redir /skiff https://app.skiff.com/signup?mail=&referral=thenewoil
+	redir /voipms https://voip.ms/en/code/TheNewOil
+	redir /xmr https://thenewoil.org/en/crypto#monero-xmr
+}
