@@ -1,0 +1,19 @@
+# Remember to change the number in ./Caddyfile after editing this file too!
+# Add an "import errors" line to any website to use this configuration
+
+(errors) {
+	handle_errors {
+		# Handle webserver errors which have corresponding pages in /src/pages/
+		# For example, /src/pages/404.mdx
+		@pages `{err.status_code} in [404]` # If more error pages are added, this list can be extended like: [400, 500] for example
+		handle @pages {
+			rewrite * /{err.status_code}.html
+			file_server
+		}
+
+		# Handle all other webserver errors with a simple text response
+		handle {
+			respond "{err.status_code} {err.status_text}"
+		}
+	}
+}

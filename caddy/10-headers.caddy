@@ -1,7 +1,10 @@
+# Remember to change the number in ./Caddyfile after editing this file too!
+
 # All I'm doing below is grouping these HTTP headers into arbitrary groups, see: https://caddyserver.com/docs/caddyfile/concepts#snippets
 # This isn't strictly necessary, it just makes configuration a bit more flexible. 
 # For example, the (https) snippet below gets added to the clearnet site but not the .onion site.
 
+# Add an "import https" line to any website to use this configuration
 (https) {
 	# The ? means it's a default value (which could potentially be overridden elsewhere), see: https://caddyserver.com/docs/caddyfile/directives/header
 	# We don't override any of these values currently, so it doesn't matter, but with some of these headers it is good to have flexibility on a per-page/site basis.
@@ -9,6 +12,7 @@
 	header +Content-Security-Policy upgrade-insecure-requests;
 }
 
+# Add an "import security" line to any website to use this configuration
 (security) {
 	header X-Frame-Options SAMEORIGIN
 	header X-Content-Type-Options nosniff
@@ -28,6 +32,7 @@
 	header ?Access-Control-Allow-Origin "*"
 }
 
+# Add an "import privacy" line to any website to use this configuration
 (privacy) {
 	header ?Permissions-Policy "browsing-topics=(), conversion-measurement=(), interest-cohort=(), accelerometer=(), ambient-light-sensor=(), battery=(), camera=(), display-capture=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), usb=()"
 	header ?Request-OTR 1
@@ -36,6 +41,7 @@
 	# header Referrer-Policy no-referrer
 }
 
+# Add an "import caching" line to any website to use this configuration
 (caching) {
 	@static {
 		file
