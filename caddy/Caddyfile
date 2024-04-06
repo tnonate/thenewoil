@@ -1,4 +1,4 @@
-# VERSION: 4
+# VERSION: 5
 # You should increment this number whenever changing ANY file in the /caddy folder, so that the webserver picks up the changes and restarts
 
 # Imports the configuration from all files in this folder with the .caddy file extension
