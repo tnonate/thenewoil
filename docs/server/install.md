@@ -47,25 +47,46 @@ systemctl restart sshd
 
 ## Step 2. Webserver Install
 
-1. [Install Caddy](https://caddyserver.com/docs/install#debian-ubuntu-raspbian)
+1. [Install Caddy](https://caddyserver.com/docs/install#debian-ubuntu-raspbian) with apt
 
-<details>
-<summary>Why Caddy?</summary>
+    <details>
+    <summary>Why Caddy?</summary>
 
-Trust me on this one. It's way easier to use than Nginx, and also plain better. Creating a website in Caddy is as simple as adding 4 lines to `/etc/caddy/Caddyfile`:
+    Trust me on this one. It's way easier to use than Nginx, and also plain better. Creating a website in Caddy is as simple as adding 4 lines to `/etc/caddy/Caddyfile`:
 
-```text
-example.com {
-  root * /var/www/html
-  file_server
-}
-```
+    ```text
+    example.com {
+    root * /var/www/html
+    file_server
+    }
+    ```
 
-Simply doing this creates the website, grabs an SSL certificate, and everything is configured with very sane/modern defaults (HTTP/2 and HTTP/3, automatic HTTPS redirects, [etc.](https://caddyserver.com/features)).
+    Simply doing this creates the website, grabs an SSL certificate, and everything is configured with very sane/modern defaults (HTTP/2 and HTTP/3, automatic HTTPS redirects, [etc.](https://caddyserver.com/features)).
 
-With Nginx, you'd have to at minimum configure `/etc/nginx/nginx.conf`, `/etc/nginx/sites-enabled/your-website.conf`, **and** install Certbot, set up your certificates and renewal jobs; and chances are it still won't be configured as good as it could be unless you've taken the time to tweak every Nginx setting. Boo.
+    With Nginx, you'd have to at minimum configure `/etc/nginx/nginx.conf`, `/etc/nginx/sites-enabled/your-website.conf`, **and** install Certbot, set up your certificates and renewal jobs; and chances are it still won't be configured as good as it could be unless you've taken the time to tweak every Nginx setting. Boo.
 
-</details>
+    </details>
+
+2. Download a customized build of Caddy:
+
+    ```
+    wget https://github.com/jonaharagon/caddy-build/releases/latest/download/caddy-linux-amd64
+    ```
+
+    - You can get a copy of this from anywhere, like go to https://caddyserver.com/download, search for "umami", select that plugin to add it to the build, and download Caddy from that website instead. **But** that download site has been unreliable lately, so that's why I'm linking to a pre-built one.
+
+3. Now we have to replace the Caddy we just installed with a custom version which includes the [caddy-umami](https://github.com/jonaharagon/caddy-umami) plugin:
+
+    ```
+    sudo dpkg-divert --divert /usr/bin/caddy.default --rename /usr/bin/caddy
+    chmod +x caddy-linux-arm64
+    sudo mv ./caddy-linux-arm64 /usr/bin/caddy.custom
+    sudo update-alternatives --install /usr/bin/caddy caddy /usr/bin/caddy.default 10
+    sudo update-alternatives --install /usr/bin/caddy caddy /usr/bin/caddy.custom 50
+    sudo systemctl restart caddy
+    ```
+
+    - There's an explanation of what these commands do [here](https://caddyserver.com/docs/build#package-support-files-for-custom-builds-for-debianubunturaspbian).
 
 ## Step 3. Create User
 
