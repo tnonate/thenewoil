@@ -17,8 +17,9 @@ You don't necessarily have to read every word of this section, especially if you
 - **ISP:** Internet Service Provider. This could be Spectrum, AT&T, Google Fiber, or perhaps a local company. It's whoever you pay your bill to so that you have internet access.
 - **LAN:** Local Area Network. This is everything inside your home, everything before you hit the WAN. If the internet suddenly went out (but the power stayed on), you would still be able to access everything inside the LAN with no issues. This could include things like wireless printing or controlling your Smart device from your phone.
 - **Modem:** the device that connects your LAN to the WAN.
+- **ROM:** Read-only memory. Most "ROMs" - in this context - could be better described as firmware or an operating system. It is the system running on your device. It manages the network, the various features and functionalities, and rules such as firewalls, VLANs, and more.
 - **Router:** the device that organizes and directs traffic within your home. The router is what makes sure that the search engine you tried to access on your smartphone loads on your smartphone while the movie you just selected on your TV loads on your TV. These days most routers are actually dual router/modems called _gateways_. (Author's note: I will be using the term "router" in this article because it is the word most people are already familiar with, but unless otherwise specified I am referring to the gateway.)
-- **SSID:** Service Set Identifier. You likely know this better as your "WiFi." It's the name you give to your network so people can select the right network, such as "Smith*Household" or "FBI Surveillance Van." (Personal note from the author: \_PLEASE* stop using this one. It's not original or clever, I see at literally every apartment complex I go to.)
+- **SSID:** Service Set Identifier. You likely know this better as your "WiFi." It's the name you give to your network so people can select the right network, such as "SmithHousehold" or "FBI Surveillance Van." (Personal note from the author: _PLEASE_ stop using this one. It's not original or clever, I see at literally every apartment complex I go to.)
 - **WAN:** Wide Area Network. This is the internet, everything outside your home. This includes things like your email, streaming services, and more.
 
 ## Picking a Router
@@ -45,7 +46,7 @@ Be sure to always keep your device updated with the most recent updates to patch
 
 I recommend putting a [VPN](/guides/less-important/vpns) on your router. This will offer a small amount of protection to every device in your home, including those that can't natively load a VPN (such as IoT devices) and also serves a loophole to circumvent the "number of devices" limitations imposed by your VPN provider as the router only counts as a single device (for example: a tablet, two phones, a desktop, a laptop, a TV, an Alexa, and a doorbell all going through the router's VPN still only counts as a single connection to the VPN provider).
 
-If you are not using a VPN on your router - or if the VPN setup instructions did not specify a [DNS resolver](/guides/prologue/communication#dns) to use - I suggest adding an encrypted resolver of your choice. [Privacy Guides](https://www.privacyguides.org/dns/#recommended-providers) offers an excellent list of choices.
+If you are not using a VPN on your router - or if the VPN setup instructions did not specify a [DNS resolver](/guides/prologue/communication#dns) to use - I suggest adding an encrypted resolver of your choice. [Privacy Guides](https://www.privacyguides.org/en/dns/) offers an excellent list of choices.
 
 Be sure to enable any firewalls if they are not enabled and to disable Universal Plug-and-Play (sometimes abbreviated "UPnP") as this setting is frequently abused by malicious actors to plant malware and compromise your network.
 

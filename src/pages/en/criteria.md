@@ -31,6 +31,8 @@ Because many words and phrases can be subjective, we have clarified some of our 
 ## Universal Requirements
 
 * Must be actively maintained
+* Must be available on all operating systems (where applicable). Web apps acceptable for desktop, though not preferred.
+* Mobile apps must be available through the Google Play and/or Apple App stores (where applicable). F-Droid and/or APKs preferred for Android devices.
 * Recommendations must be source available (at least on the client side) unless few or no such alternatives exist.
 * Proprietary recommendations must have an established history or assurance of respecting user privacy and data sovereignty, or must offer significant features not found in their source available counterparts that would be beneficial for a typical threat model
 
@@ -38,16 +40,14 @@ Because many words and phrases can be subjective, we have clarified some of our 
 
 * Must offer a free plan
 * Must be zero knowledge
-* Must be available on all operating systems
 * Must target consumers (ex, there should not be an abundance of talk on the main pages of the website about APIs, compliance, and other topics that would not be of interest to an average consumer)
-* Multifactor authentication available on all plans
 
 ### Books & Documentaries
 * May be exempt from the "must be actively maintained" rule, however must be no older than 5 years or must be provably still relevant and accurate.
 * Non-fiction only
+* Educational content only
 
 ## Browser Extensions
-* Must be source available
 * Must improve user privacy and/or security significantly to the point of offsetting the risk of additional browser fingerprinting enabled
 
 ## Destkop Settings & Apps
@@ -55,26 +55,23 @@ Because many words and phrases can be subjective, we have clarified some of our 
 * Recommended settings changes must not break functionality
 
 ## Encrypted Messaging
-* Must be available on all operating systems (web apps accepted)
 * Must have end-to-end encrypted one-to-one messaging enabled by default
 * Ability to export messages for backup or portability purposes
 * Must optionally support ephemeral messaging (realtime messaging only)
 * Must support custom domains (e-mail only)
 
 ## Links & Resources
-* All resources and links must be directly relevant to individual data privacy and cybersecurity.
+* All resources and links must be directly relevant to individual data privacy and/or cybersecurity.
 
 ## Mobile Settings & Apps
-* Recommended apps must be available in the App Store and/or Play Store (F-Droid preferred)
-* Recommended settings changes must reduce the amount of data submitted to the device manufacturer, cell carrier, or app developers or must improve device security against common threats
+* Recommended settings changes must reduce the amount of data submitted to the device manufacturer, cell carrier, and/or app developers and/or must improve device security against common threats
 * Recommended settings changes must not break functionality
 
 ## Multifactor Authentication
-* Hardware keys are excempt from the "must be actively maintained" rule
+* Hardware keys are excempt from the "must be actively maintained" rule due to the fact that many obtain security by not pushing updates
 * Must offer the ability to export seeds
 
 ## Password Managers
-* Must be available on all operating systems
 * For the user-friendliness of the target audience, stateless password managers are not permitted
 
 ## Payment Masking
@@ -83,18 +80,17 @@ Because many words and phrases can be subjective, we have clarified some of our 
 ### Podcast/Video
 * Must be actively producing content
 * Educational content only
+* Non-fiction content only
 
 ## VOIP
 * Must be capable of making and receiving calls, SMS, and MMS to "regular" phone numbers.
-* Must have a mobile app
+* Must have a first-party mobile app
 * Must target consumers (ex, there should not be an abundance of talk on the main pages of the website about APIs, compliance, and other topics that would not be of interest to an average consumer)
-* Available on Android & iOS
+* Excempt from "all operating systems" requirement, only required to be available for mobile devices (desktop apps preferred)
 
 ## VPNs
 * Must not keep logs
-* Must be available on all operating systems
 
 ## Web Browsers
 * Must be capable of auto-update
-* Must be available on all desktop operating systems (if available on mobile, but available for both Android & iOS)
 * Recommended settings changes must improve user privacy and/or security while causing little or no breakage on commonly used sites

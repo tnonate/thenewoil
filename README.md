@@ -20,6 +20,8 @@ For an in depth guide on how to set up the project on your local machine [click 
 -   [Mastodon](https://mastodon.thenewoil.org/@thenewoil)
 -   [PeerTube](https://apertatube.net/c/thenewoil/videos)
 
+-   [Uptime Monitor](https://uptime.thenewoil.org/status/thenewoil)
+
 ## Support
 
 <img alt="open collective badge" src="https://opencollective.com/thenewoil/tiers/badge.svg" />

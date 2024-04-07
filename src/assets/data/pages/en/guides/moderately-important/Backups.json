@@ -6,12 +6,12 @@
     "referral_link": "https://filen.io/r/834a3bd235bca0caa53141f2ebc30438",
     "link": "https://filen.io/",
     "pros": [
-      "Source available clients",
-      "No personal data required to sign up",
-      "Offers [multifactor authentication](/guides/most-important/mfa)"
+      "Includes text chat feature with other users",
+	  "Includes notes"
     ],
     "cons": [
       "Not audited",
+	  "Not available in F-Droid",
       "Concerns have been [raised](https://github.com/privacyguides/privacyguides.org/pull/345#issuecomment-976415846) about their encryption implementation"
     ]
   },
@@ -22,12 +22,11 @@
     "referral_link": "https://mega.nz/aff=UBJLjO7sxZU",
     "link": "https://mega.io",
     "pros": [
-      "Source available clients",
-      "No personal data required to sign up",
-      "Offers [multifactor authentication](/guides/most-important/mfa)"
+      "Includes text, audio, and video chat feature with other users"
     ],
     "cons": [
       "Not audited",
+	  "Not available in F-Droid",
       "[Research](https://arstechnica.com/information-technology/2022/06/mega-says-it-cant-decrypt-your-files-new-poc-exploit-shows-otherwise/) suggests that Mega's code is very sloppy and convoluted, raising the risk of vulnerabilities",
       "Mega is [alleged](https://gitlab.com/thenewoil/website/-/issues/79) to have been involved in drafting anti-privacy legislation in the EU (unproven)"
     ]
@@ -39,27 +38,13 @@
     "referral_link": "https://go.getproton.me/aff_c?offer_id=15&aff_id=2187",
     "link": "https://proton.me/drive",
     "pros": [
-      "No personal data required to sign up",
-      "Offers [multifactor authentication](/guides/most-important/mfa)",
-      "Source available clients"
+      "Includes ecosystem (VPN, Mail, calendar, password manager)",
+	  "Recently [audited](https://proton.me/blog/security-audit-all-proton-apps)"
     ],
     "cons": [
-      "Apps only for Android, iOS, & Windows. Mac in beta, web-only on Linux",
+      "Apps only for Android, iOS, Mac, & Windows. Web-only on Linux",
       "Storage is shared with your email account",
-      "Not audited",
       "Not available in F-Droid"
     ]
-  },
-  "sync": {
-    "name": "Sync",
-    "logo": "/images/logos/sync.png",
-    "logo_alt": "Sync Logo",
-    "link": "https://www.sync.com/",
-    "pros": [
-      "No personal data required to sign up",
-      "Offers [multifactor authentication](/guides/most-important/mfa)",
-      "[Audited](https://www.sync.com/blog/soc-2-means-safety-for-your-organization/)"
-    ],
-    "cons": ["Not source available"]
   }
 }
