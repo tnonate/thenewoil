@@ -1,7 +1,7 @@
 (umami) {
 	umami {
 		event_endpoint "https://stats.thenewoil.org/api/send"
-		website_uuid "0cdf6f5b-9b3b-4815-9d22-8cb4d6132781"
+		website_uuid "c92629d8-da2d-4e2c-97ec-b5be891091b9"
 		device_detection
 	}
 }
