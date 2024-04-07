@@ -3,5 +3,6 @@
 		event_endpoint "https://stats.thenewoil.org/api/send"
 		website_uuid "c92629d8-da2d-4e2c-97ec-b5be891091b9"
 		device_detection
+		client_ip_header X-Real-IP
 	}
 }
