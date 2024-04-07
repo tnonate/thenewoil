@@ -10,7 +10,17 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Files
+        uses: actions/checkout@main
+      - name: Validate Caddyfile
+        run: |
+          docker run -v ./caddy:/data ghcr.io/jonaharagon/caddy-build:latest caddy validate --config /data/Caddyfile
+
   deploy:
+    needs: [validate]
     runs-on: ubuntu-latest
     if: github.event.repository.fork == false
     steps:
