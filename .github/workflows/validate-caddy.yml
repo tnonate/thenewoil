@@ -1,0 +1,18 @@
+name: Validate Caddyfile
+on:
+  push:
+    paths:
+      - 'caddy/**'
+  pull_request:
+    paths:
+      - 'caddy/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Files
+        uses: actions/checkout@main
+      - name: Validate Caddyfile
+        run: |
+          docker run -v ./caddy:/data ghcr.io/jonaharagon/caddy-build:latest caddy validate --config /data/Caddyfile

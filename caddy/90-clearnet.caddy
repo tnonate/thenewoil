@@ -1,6 +1,11 @@
 # Remember to change the number in ./Caddyfile after editing this file too!
 
 thenewoil.org {
+	@file file
+	route @file {
+		import umami
+	}
+
 	# These two lines configure Caddy to serve from the www subdirectory of this repo
 	# see: https://caddyserver.com/docs/caddyfile/directives/file_server
 	root * /home/website/thenewoil/www
