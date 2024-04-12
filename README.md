@@ -6,39 +6,25 @@
 -   To **empower** readers to believe that privacy and security are attainable for everyone and to do their best to reclaim & protect their own privacy and security as much as possible
 -   To **enhance** the lives of readers with tools that will improve their privacy and security without negatively impacting their mental or emotional health or professional or social lives
 
+For an in depth guide on how to set up the project on your local machine [click this link](./docs/getting-started.md). Credit to [Rik](https://www.rikdenbreejen.nl/) and [Jaden](https://github.com/jadenet) for setting up the site in the Astro framework, updating the overall design to something more modern, and continuing to help with any major issues.
+
 ## Contributing
 
-Technology is a constantly changing field and as people who take their privacy and security seriously, we place even more trust in the information on this (including many other) site(s) than most other technologies. As such, it is vital that The New Oil stays as current & up to date as possible. All readers are up most welcome to submit updates and suggested changes via an [issue](https://gitlab.com/thenewoil/website/-/issues). To open Merge or Pull requests, please see our [GitHub](https://github.com/tnonate/thenewoil) repo as we mirror from GitHub to GitLab.
+Technology is a constantly changing field and as people who take their privacy and security seriously, we place a considerable amount of trust in the information on this (and many other) site(s) than in most other tech fields. As such, it is vital that The New Oil stays as current & up to date as possible. All readers are encouraged to submit updates and suggested changes via an on [GitHub](https://github.com/tnonate/thenewoil/issues/new) or [GitLab](https://gitlab.com/thenewoil/website/-/issues/new). Merge & Pull requests are only enabled on GitHub due to the way our automations work.
 
-For an in depth guide on how to set up the project on your local machine [click this link](./docs/getting-started.md). Thanks to [Rik](https://www.rikdenbreejen.nl/) and [Jaden](https://github.com/jadenet) for upgrading the site visually to give it a more modern, current look.
+If you wish to contribute financially, we have a merch store and affiliate links. We also accept one-time or recurring contributions through Open Collective, Liberapay, Patreon, PayPal, and most cryptocurrencies. You can view all of them [here](https://thenewoil.org/en/support). You can also view our policy on affiliates and affiliate links [here](https://thenewoil.org/en/about/#disclaimers), and you can see where your contributions will be used on our Roadmap [here](https://thenewoil.org/en/roadmap)
 
-## Other Online Presences
+Readers who speak foreign languages can help us translate the site on [Crowdin](https://crowdin.com/project/the-new-oil). If the language you'd like to help translate to isn't listed, please [contact us](https://thenewoil.org/en/links/#contact) or open an issue and we'll happily add it if we can.
+
+## Other Notable Projects
 
 -   [Website](https://thenewoil.org/)
 -   [Podcast](https://surveillancereport.tech/)
 -   [Blog](https://blog.thenewoil.org)
--   [Mastodon](https://mastodon.thenewoil.org/@thenewoil)
--   [PeerTube](https://apertatube.net/c/thenewoil/videos)
-
+-   [News Feed](https://mastodon.thenewoil.org/@thenewoil)
+-   [Videos](https://apertatube.net/c/thenewoil/videos)
+-   [Analytics](https://stats.thenewoil.org/share/jnR7d6tGklwToSOJ/thenewoil.org)
 -   [Uptime Monitor](https://uptime.thenewoil.org/status/thenewoil)
-
-## Support
-
-<img alt="open collective badge" src="https://opencollective.com/thenewoil/tiers/badge.svg" />
-<img src="https://img.shields.io/liberapay/receives/thenewoil.svg?logo=liberapay">
-
-In addition to submitting corrections and changes, readers are also welcome to support The New Oil financially to help it grow and continually improve the project.
-
-You can find all our support methods [here](https://thenewoil.org/en/support).
-
-_You can also see how these donations will be used, by visiting our [roadmap](https://thenewoil.org/en/roadmap)._
-
-## License
-
-**This project is licensed under a Creative Commons Attribution 4.0 International License.**
-
--   [**License Summary**](https://creativecommons.org/licenses/by/4.0/)
--   [**License**](https://creativecommons.org/licenses/by/4.0/legalcode)
 
 ## Transparency
 
