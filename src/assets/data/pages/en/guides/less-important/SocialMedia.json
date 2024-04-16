@@ -1,0 +1,69 @@
+{
+  "criterias": ["Similar To", "Recommended Instances"],
+  "tools": {
+    "friendica": {
+      "name": "Friendica",
+      "logo": "/images/logos/friendica.png",
+      "link": "https://friendi.ca/",
+      "values": {
+        "Platform": "Friendica",
+		"Similar To": "Facebook",
+        "Recommended Instances": "[No specific Instances](https://dir.friendica.social/servers)"
+      }
+    },
+    "funkwhale": {
+      "name": "Funkwhale",
+      "logo": "/images/logos/funkwhale.png",
+      "link": "https://funkwhale.audio/",
+      "values": {
+		"Similar To": "Music streaming and library services",
+        "Recommended Instances": "[No specific Instances](https://www.funkwhale.audio/join/)"
+      }
+    },
+    "lemmy": {
+      "name": "Lemmy",
+      "logo": "/images/logos/lemmy.png",
+      "link": "https://join-lemmy.org/",
+      "values": {
+		"Similar To": "Reddit",
+        "Recommended Instances": "[Lemmy.one](https://lemmy.one/) from Privacy Guides"
+      }
+    },
+    "mastodon": {
+      "name": "Mastodon",
+      "logo": "/images/logos/mastodon.png",
+      "link": "https://joinmastodon.org/",
+      "values": {
+		"Similar To": "Twitter, Threads, Bluesky",
+        "Recommended Instances": "[Mastodon.TheNewOil.org](https://mastodon.thenewoil.org/home) from The New Oil"
+      }
+    },
+    "peertube": {
+      "name": "PeerTube",
+      "logo": "/images/logos/peertube.png",
+      "link": "https://joinpeertube.org/en",
+      "values": {
+		"Similar To": "YouTube, Vimeo",
+        "Recommended Instances": "[Apertatube](https://apertatube.net/) from The New Oil"
+      }
+    },
+    "pixelfed": {
+      "name": "PixelFed",
+      "logo": "/images/logos/pixelfed.png",
+      "link": "https://pixelfed.org/",
+      "values": {
+		"Similar To": "Instagram",
+        "Recommended Instances": "[No specific Instances](https://pixelfed.org/servers)"
+      }
+    },
+    "matrix": {
+      "name": "Matrix",
+      "logo": "/images/logos/matrix.png",
+      "link": "https://matrix.org/",
+      "values": {
+		"Similar To": "Discord, Slack",
+        "Recommended Instances": "[No specific Instances](https://servers.joinmatrix.org/)"
+      }
+    }
+  }
+}
