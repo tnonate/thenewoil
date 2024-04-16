@@ -7,7 +7,8 @@ draft: false
 ---
 
 import Criterias from "@components/charts/Criterias.astro";
-import data from "@assets/data/pages/en/guides/less-important/SearchEngines.json";
+import chart1Data from "@assets/data/pages/en/guides/less-important/SearchEngines.json";
+import chart2Data from "@assets/data/pages/en/guides/less-important/SocialMedia.json";
 
 # General Online Habits
 
@@ -27,13 +28,22 @@ Additionally, this extends into non-public internet spaces. For example, next ti
 
 ## Social Media
 
+I recommend three approaches to social media. The first is minimalism, using as few platforms as you're comfortable with. The [Fediverse](#the-fediverse), meanwhile, is a collection of decentralized, interopable, privacy-respecting social media services. Finally, if you must refer to mainstream social media but don't need to post, I recommend using a [front end](#front-ends).
+
+While I discourage mainstream social media services for a number of reasons, I understand that sometimes you have no choice in using them. My recommendation would be to not use the apps, post as little as possible, and make your profile as private as possible. Whether you stick with mainstream social media or use a privacy-focused alternative, **I discourage using the same username or handle across all your social media accounts** unless you're building a professional brand. I suggest using your password manager to generate a two or three random word passphrase and then use that as your handle. Also be sure to use a unique [alias email](/guides/moderately-important/email-aliasing) for each account. Repeat as needed for every site and account. If somebody decides to cyberstalk you, this can make it harder for them to find all of your accounts. This also protects against [credential stuffing](https://owasp.org/www-community/attacks/Credential_stuffing).
+
+### The Fediverse
+
+If you feel the need to have social media, try checking out the so-called Fediverse, which has recently come to more mainstream attention with the rise of Mastodon as a Twitter alternative. The Fediverse is a volunteer run, decentralized social networking system, which tends to be more privacy respecting. Imagine if you had an Instagram account but wanted to follow someone on YouTube or Twitter. In mainstream social media, you have to sign up for one of those platforms. On the Fediverse, however, you can follow them from your one account without signing up on a second platform and all their content will be delivered to you like normal. Below are some of the more popular federated platforms and some recommended servers. Please note this is not a comprehensive list. You can get more information about the different platforms and instances that make up the Fediverse [here](https://fediverse.party/).
+
+<Criterias data={chart2Data} />
+
+_Note: Matrix is not part of the "Fediverse," it does not communicate directly with the other platforms listed on this chart. However, I do still recommend it as an alternative social media platform as it is considerably more privacy-respecting than services like Discord and Slack._
+
+### Front Ends
+
 If you are simply a "lurker," - someone who likes to view content but not comment - there are a lot of really great front-ends available that allow you to view content while reducing or eliminating the number of trackers on a website, almost like a proxy. For Twitter, there's numerous [Nitter instances](https://github.com/zedeus/nitter/wiki/Instances). For YouTube, there's a host of [Invidious instances](https://redirect.invidious.io/) and the [NewPipe](https://newpipe.net/) app for Android users. For Reddit, there's [Libreddit](https://github.com/spikecodes/libreddit) and [Teddit](https://codeberg.org/teddit/teddit). For Instagram, there's [Bibliogram](https://git.sr.ht/~cadence/bibliogram-docs/tree/master/docs/Instances.md). For TikTok, [ProxiTalk](https://proxitok.pabloferreiro.es/) has recently entered the scene. Sadly there are no web-based Facebook or Snapchat front-ends that I'm aware of. If you'd like, there's an extension called [LibRedirect](https://github.com/libredirect/LibRedirect) that you can use to automatically redirect any links you click to the front-end of your choice. (Note that with the rise of services such as ChatGPT, many companies are now requiring a login or "rate-limiting" the number of posts you can see without an account. This may affect front-ends and make them difficult to use in some cases.)
 
-If you feel the need to have social media, try checking out the decentralized and more privacy-respecting [Fediverse](https://fediverse.party/). This is a volunteer run, peer-to-peer social networking system, and one of the coolest things about it (in my opinion) is the "federation" for which it's named. Imagine if you had a Twitter account but wanted to follow someone on Instagram. In mainstream social media, you have to sign up for Instagram. On the Fediverse, you can follow them from your own platform even without creating a new account. For Twitter fans I recommend [Mastodon](https://joinmastodon.org/). For Instagram fans, [PixelFed](https://pixelfed.org). Facebook users might feel more comfortable on [Friendica](https://friendi.ca/) and YouTube users might find new content on [PeerTube](https://joinpeertube.org/). (Note: The New Oil runs several instances of various Fediverse projects, such as Mastodon and PeerTube. Feel free to join [one of ours](/links#services) if you're interested in exploring the Fediverse but not sure which instance to use.)
-
-While I discourage mainstream social media services for a number of reasons, I understand that sometimes you have no choice in using them. My recommendation would be to not use the apps, post as little as possible, and make your profile as private as possible.
-
-Whether you stick with mainstream social media or use a privacy-focused alternative, **I discourage using the same username or handle across all your social media accounts** unless you're building a professional brand. I suggest using your password manager to generate a two or three random word passphrase and then use that as your handle. Also be sure to use a unique [alias email](/guides/moderately-important/email-aliasing) for each account. Repeat as needed for every site and account. If somebody decides to cyberstalk you, this can make it harder for them to find all of your accounts. This also protects against [credential stuffing](https://owasp.org/www-community/attacks/Credential_stuffing).
 
 ## Search Engines
 
@@ -47,7 +57,7 @@ Before readers contact me about these last two paragraphs, I encourage you to re
 
 _Listed in alphabetical order, not order of recommendation_
 
-<Criterias data={data} />
+<Criterias data={chart1Data} />
 
 ## Account Hygiene
 
