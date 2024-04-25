@@ -8,7 +8,6 @@
     "Available in F-Droid?",
     "Available on iOS?",
     "Decentralized?",
-    "Disappearing messages?",
     "Additional notes?"
   ],
   "tools": {
@@ -23,8 +22,7 @@
         "Available in F-Droid?": "No",
         "Available on iOS?": "Yes",
         "Decentralized?": "No",
-        "Disappearing messages?": "Yes",
-        "Additional notes?": []
+        "Additional notes?": ["Phone number required for signup"]
       }
     },
     "simplex": {
@@ -35,10 +33,9 @@
         "Available on Mac?": "Yes",
         "Available on Windows?": "Yes",
         "Available on Android?": "Yes",
-        "Available in F-Droid?": "Directly ([from here](https://simplex.chat/fdroid/))",
+        "Available in F-Droid?": "Yes",
         "Available on iOS?": "Yes",
         "Decentralized?": "Yes",
-        "Disappearing messages?": "Yes",
         "Additional notes?": ["Early in development"]
       }
     },
@@ -46,15 +43,14 @@
       "name": "Threema",
       "values": {
         "Audited?": "Yes",
-        "Available on Linux?": "Web only",
-        "Available on Mac?": "Web only",
-        "Available on Windows?": "Web only",
+        "Available on Linux?": "In beta",
+        "Available on Mac?": "In beta",
+        "Available on Windows?": "In beta",
         "Available on Android?": "Yes",
         "Available in F-Droid?": "No",
         "Available on iOS?": "Yes",
         "Decentralized?": "No",
-        "Disappearing messages?": "Yes",
-        "Additional notes?": []
+        "Additional notes?": ["Not free"]
       }
     }
   }

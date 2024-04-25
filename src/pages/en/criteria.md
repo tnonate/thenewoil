@@ -58,6 +58,7 @@ Because many words and phrases can be subjective, we have clarified some of our 
 * Must have end-to-end encrypted one-to-one messaging enabled by default
 * Ability to export messages for backup or portability purposes
 * Must optionally support ephemeral messaging (realtime messaging only)
+* Must be metadata-resistant (realtime messaging only)
 * Must support custom domains (e-mail only)
 
 ## Links & Resources
