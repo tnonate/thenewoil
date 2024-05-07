@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Introduction",
+    "description": "This page will cover the importance of hardening your mobile devices, as well as addressing the age-old 'Android vs iOS' debate from the perspective of privacy and security.",
+    "link": "/most-important/mobile"
+  },
+  {
+    "title": "Settings",
+    "description": "This page offers a list of settings we recommend changing to help reduce the amount of data collected by the device itself, to improve security, and more.",
+    "link": "/guides/most-important/mobile-settings/"
+  },
+  {
+    "title": "Replacement Apps",
+    "description": "This page suggest privacy-respecting and/or security-focused apps you can use instead of the stock apps that commonly ship with your device. This is includes apps like calendar, email, navigation, notes, photos, and more.",
+    "link": "/guides/most-important/mobile-apps/"
+  },
+  {
+    "title": "Mobile Habits",
+    "description": "This page covers behavioral changes you can make to make your phone as private as possible including reducing the number of apps you install, using third-party app stores, custom ROMs, and more.",
+    "link": "/guides/moderately-important/mobile-habits/"
+  }
+]
