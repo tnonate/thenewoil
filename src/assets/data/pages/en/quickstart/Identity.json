@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Freeze your credit",
+    "description": "A credit freeze prevents anyone except you from opening new accounts in your name. This page will tell you how to place credit freezes, fraud alerts, and more advice to stop new accounts from being opened in your name.",
+    "link": "/guides/most-important/credit"
+  },
+  {
+    "title": "Use payment masking services",
+    "description": "Online shopping and digital payments are common and convenient, but they also make it easy for criminals to swipe your credit card numbers. This page will teach you how to protect your digital finances from theft.",
+    "link": "/guides/most-important/payments"
+  },
+  {
+    "title": "Secure your online accounts",
+    "description": "The overwhelming majority of compromises are due to bad password and authentication habits and not keeping your apps and devices up-to-date. These pages will teach you what makes a good password, how to generate and remember them, and the different types of 2FA.",
+    "link": "/guides/most-important/passwords"
+  },
+  {
+    "title": "Remove your data from public search websites",
+    "description": "Much of your life is freely available online: past addresses, family members, even jobs and political affiliations. This information can be used to answer security questions or to trick you into falling for a scam. This page will teach you how to remove much of this information.",
+    "link": "/guides/moderately-important/public-protections"
+  },
+   {
+    "title": "Plant your flag",
+    "description": "This section discusses how to reduce the data you leak via social media and to ensure that bad guys can't impersonate you on important websites like unemployment, your doctor's web portal, and more.",
+    "link": "/guides/less-important/habits#account-hygiene"
+  }
+]
