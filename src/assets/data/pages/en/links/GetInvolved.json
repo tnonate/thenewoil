@@ -1,8 +1,23 @@
 [
   {
+    "name": "Access Now",
+    "link": "https://www.accessnow.org/",
+    "img": "/images/logos/accessnow.png"
+  },
+  {
+    "name": "The Algorithmic Justice League",
+    "link": "https://www.ajl.org/",
+    "img": "/images/logos/ajl.png"
+  },
+  {
     "name": "Big Brother Watch",
     "link": "https://bigbrotherwatch.org.uk/",
     "img": "/images/logos/bigbrotherwatch.png"
+  },
+  {
+    "name": "Digital Rights Watch",
+    "link": "https://digitalrightswatch.org.au",
+    "img": "/images/logos/digitalrightswatch.png"
   },
   {
     "name": "The Electronic Frontier Foundation (EFF)",
@@ -25,9 +40,19 @@
     "img": "/images/logos/fftf.png"
   },
   {
+    "name": "Open Rights Group",
+    "link": "https://www.openrightsgroup.org/",
+    "img": "/images/logos/org.png"
+  },
+  {
     "name": "Privacy International",
     "link": "https://privacyinternational.org/",
     "img": "/images/logos/privacy-international.png"
+  },
+  {
+    "name": "Restore the Fourth",
+    "link": "https://restorethe4th.com/",
+    "img": "/images/logos/restorethe4th.png"
   },
   {
     "name": "The Surveillance Technology Oversight Project (STOP)",
