@@ -20,14 +20,24 @@
     ],
     "cons": ["Android only"]
   },
+  "bitwarden": {
+    "name": "Bitwarden Authenticator",
+    "logo": "/images/logos/bitwarden_auth.png",
+    "logo_alt": "Bitwarden Authenticator Logo",
+    "link": "https://bitwarden.com/products/authenticator/",
+    "pros": [
+      "Available on Android & iOS"
+    ],
+    "cons": ["Not available on F-Droid"]
+  },
   "ente": {
     "name": "ente Authenticator",
     "logo": "/images/logos/ente.png",
     "logo_alt": "ente Authenticator logo",
-    "link": "https://github.com/ente-io/auth#readme",
+    "link": "https://ente.io/auth/",
     "pros": [
-       "Available on Android & iOS",
-       "Available on F-Droid"],
+       "Available on all operating systems",
+       "Available on [F-Droid](https://f-droid.org/en/packages/io.ente.auth/)"],
     "cons": [
   "ente account required (free for now but [plans](https://ente.io/blog/auth/) to charge in the future)"]
   }

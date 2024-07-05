@@ -1,0 +1,76 @@
+---
+layout: "@layouts/guides.astro"
+title: "Cybersecurity: How to Create Secure Devices"
+topic: How to Create Secure Devices
+weight: 2
+draft: false
+---
+
+import Highlighting from "@components/common/Highlighting.astro";
+
+# How To Create Secure Devices
+
+**Before you can begin to secure your digital life, you must first have a safe place to operate from. This means you will have to have devices that you can trust are secure, private, and free of compromise.** If your device is compromised, depending on the nature of the compromise, it may leak sensitive data ranging from indentifiable telemetry (location data, device identifiers, etc) to passwords and login credentials (as in the case of "spyware" or "stalkerware"). While some of the pages later in this site will address some of these other concerns (such as location data), this page will discuss how to audit your existing devices and accounts to check for compromise. Please note that for much of this page, [threat modeling](/guides/prologue/threat-model) will play a particularly outsized role on the actions you should talk.
+
+<Highlighting variant="warning">
+
+It is critical to note that it is impossible to prove a negative. In other words, **nobody can 100% definitively guarantee a device is free of all known compromise.** This is especially true of used devices, even factory reset ones. The best way to ensure a likely, reasonably safe device is to buy a new one in person, in cash from a trustworthy retailer. Even then, if your threat model is a nation-state adversary capable of delivering [supply-chain attacks](https://www.crowdstrike.com/cybersecurity-101/cyberattacks/supply-chain-attacks/), you can never be 100% certain. Very, very, very few people will ever need to worry about threat models this extreme, but it is worth stating to avoid lulling readeres into a false sense of security. Keep that in mind as you read this page.
+
+</Highlighting>
+
+## New Devices & Factory Resets
+
+Ideally, **the best way to ensure a secure device is to simply buy a new one.** For most threat models, this isn't necessary, but for those with high threat models, it may be the best way to ensure your security. For example, those living with their adversary may place themselves in harm if their attacker is using stalkerware and it gets removed - they will notice the removal one way or another. (In this case, you should also consider where you can safely store this device that it won't be found.) If you fear that your adversary is capable of intercepting the device and compromising it before you can get to it, it would be best to buy a device in person (with cash for maximum privacy and anonymity). For my recommendation of mobile devices, see [here](/guides/most-important/mobile#android-or-ios). For my recommendation of destkop devices, see [here](/guides/moderately-important/desktop-settings).
+
+In lieu of purchasing a new device, **the second-best option is to factory reset your current device.** In both cases, you will likely be tempted to quickly return your new device to a state similar to how it was before - same files, same apps, etc. Remember to do this with great care. As explained in the rest of this page, compromise can come in the form of apps, account settings, and more, so don't just assume that because you bought a new device or reset your existing one that you're safe to resume life as normal. Treat your cleaned device like a secure area: carefully examine every file and app you let in as if it might be the potential spy.
+
+## Securing Mobile Devices
+
+In the event that you cannot simply buy a new device or factory reset it, there are a number of steps you can take to attempt verify the integrity and "cleanliness" of your mobile devices. **Start with a basic reboot of your phone.** Most mobile malware is not persistent, so unless your device is rooted or jailbroken (which I strongly discourage) then this will clear most basic threats. In the case of persistent malware, this is often accomplished through an app. Many apps masquerade as innocent tools - such as PDF viewers, flashlights, VPNs, or games - but are secretly collecting data. Take this time to go through your phone and **remove as many apps as possible.** Even if you trust them - such as your bank's app - I would recommend removing them unless you really need them or use them frequently. Next, **consider running a virus scan.** I recommend services like [Malwarebytes](https://www.malwarebytes.com/) or [Bitdefender](https://www.bitdefender.com/), both of whom offer a scanner for Android and iOS. [iVerify Basic](https://iverify.io/products/basic) is another powerful tool I recommend to find potential malware on your device. Once you're sure you have a clean device, you can remove this if it fits your threat model. I am of the belief that by practicing good digital hygeine and keeping your devices up-to-date, the stock antivirus features are sufficient for most users. If you have an elevated threat model, you may elect to keep these apps on your device to help keep yourself safe. Finally, take this time to **check the device settings** for any additional indicators of compromise.
+
+### On Android check for the following:
+	* Any apps you missed (Settings > Apps)
+	* Indicators of sideloaded apps (Settings > Apps > Special app access > Install unknown apps (look for any that say "allowed"))
+	* Device admin apps (Settings > Security > More security settings > Device admin apps)
+	* Certificate management apps (Settings > Security > More security settings > Encryption & credentials > Certificate management app (there should be none by default))
+	* Check app permissions (Settings > Privacy > Privacy dashboard)
+	* Other accounts (Settings > Passwords & Accounts)
+	* Other keyboards you didn't add (Settings > Systems > Keyboard)
+	* Other users (Settings > System > Multiple Users)
+
+### On iOS check for the following:
+	* Any apps you missed (Settings, at the bottom)
+	* What you're syncing with iCloud (Settings > [Your Name] at the top > iCloud)
+	* Mobile Device Management profiles (Settings > General > VPN & Device Management)
+	* Check app permissions (Settings > Scroll to the bottom)
+	* Run a Safety Check (Settings > Privacy & Security > Safety Check)
+
+## Securing Desktop Devices
+
+Because of the open nature of desktop and laptop computers, it can be a little hard to check for signs of compromise on desktop devices. Once again, the best move here is to buy a new device or, failing that, factory reset your existing one.
+
+If you are unable to buy a new device or factory reset your existing one, start with an antivirus scan. For Windows devices, I recommend [Malwarebytes](https://www.malwarebytes.com/) or [Bitdefender](https://www.bitdefender.com/). For Mac devices, I recommend the tools available from [Objective-See](https://objective-see.org/tools.html) to scan for various types of compromise.
+
+I also strongly encourage you to go through and remove any apps or programs you don't need or recognize (be careful with this on Windows as some programs can actually be dependencies that your existing programs require to run).
+
+On Macs, examine all your app permissions by going to the "Privacy & Security" section of your Settings. You can also check your firewall rules (Settings > Network > Firewall) for any unusual exceptions, and can enable Lockdown Mode (Settings > Privacy & Security) for additional protections. A program like [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) or [LuLu](https://objective-see.com/products/lulu.html) may also help you detect any unusual activity.
+
+On Windows, you can check for any unusual firewall or security settings (Privacy & Security > Windows Security). Evaluate app permissions for any unnecessary permissons (Privacy & Security > App permissions) and consider a tool like [SimpleWall](https://www.henrypp.org/product/simplewall) to detect any unusual network activity.
+
+## Securing Your Accounts
+
+This section may seem a bit vague because it would be impossible for me to cover every single account, and the settings and capabilities for each account vary wildly, however account compromise is another common way an adversary may surveil you. This can take many forms, from simply logging in and looking at your activity to getting a copy of all your messages on their own device by syncing it with your account.
+
+Start by implementing secure [passwords](/guides/most-important/passwords) on all of your accounts. If you believe your account has been compromised, change the password. You should also add [two-factor authentication](/guides/most-important/mfa) to avoid future compromise.
+
+You should also check your account settings for any other approved or logged-in devices. Most accounts have a single-click button to log out of all other sessions or revoke other devices, which should log out any adversaries if they're logged in elsewhere and getting copies of your messages or have access to your account. In the case of email specifically, a common technique is to set up a forwarding address so that an attacker gets a copy of every email you receive. Be sure to check your forwarding rules and make sure emails aren't being forwarded to someone you don't want them to go to.
+
+## Protecting Yourself Going Forward
+
+This website is filled with tips to protect your privacy and secure you against a myriad of common threats ranging from targeted advertising, identity theft, data breaches, and unsophisticated cybercriminals. It is my (biased) opinion that everything on this site is valuable and worth your time to investigate. However, going forward, there are a few specific techniques that stand out:
+	* **Keep your devices secure.** Now that you've created safe digital spaces, keep them safe. Consider switching to [apps](/guides/most-important/mobile-apps) that help protect your data and keep your device safe. Change your [mobile settings](/guides/most-important/mobile-settings) and/or [desktop settings](/guides/moderately-important/desktop-settings) to reduce the amount of data you share. Consider your [metadata](/guides/moderately-important/mobile-habits). Consider switching to a custom operating system for Android, enabling Lockdown Mode on iOS, and/or Linux on desktop.
+	* **Keep control of your devices.** The best way to protect your devices from compromise is to keep them on you at all times. Because this may not always be possible, I also strongly encourage [encrypting](/guides/moderately-important/devices) your devices to prevent unauthorized access.
+	* **Use strong passwords and authentication.** Use a [password manager](/guides/most-important/passwords) and [multifactor authentication](/guides/most-important/mfa) to protect your accounts from compromise. To protect access to those services, I recommend securing your devices with a strong [passphrase](/guides/most-important/passwords#tips--tricks) that only you know. Avoid biometric locks (such as FaceID) or easily guessable PINs/Patterns or other forms of authentication that could be used without your knowledge or consent if you're sleeping or otherwise away from your device for a period of time.
+	* **Keep your device clean.** If compromise of your device is a concern, be sure to keep your device as clean of sensitive information as possible. Switch to an [encrypted messenger](/guides/less-important/messaging) and enable disappearing messages. Set your [browser](/guides/most-important/browser) to never store any history. Always remember to keep your device as clean of apps and files as possible. Consider using a [VPN](/guides/less-important/vpns) or [Tor Browser](/guides/most-important/browser#tor-browser) to protect your traffic from a compromised router or network.
+
+For more information about device integrity and how to ensure your devices are safe and secure, I strongly encourage readers to check out [this page](https://www.privacyguides.org/en/device-integrity/) from Privacy Guides.
