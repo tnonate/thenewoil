@@ -1,15 +1,15 @@
 ---
 layout: "@layouts/guides.astro"
-title: "Protection: Backups"
+title: "Backing Up Your Data"
 topic: "How to Keep Good Backups"
-weight: 5
+weight: 8
 draft: false
 ---
 
 import ProsAndCons from "@components/charts/ProsAndCons.astro";
 import data from "@assets/data/pages/en/guides/moderately-important/Backups.json";
 
-# Protection: Backups
+# Backing Up Your Data
 
 **Backups are critical since devices regularly fail, break, or get stolen, lost, or corrupted.** To develop good backup habits, **first you need to decide how much space you need.** This comes in three parts: size, frequency, and range of backups.
 * **Size**: If you're only worried about backing up important text files and financial documents, the size will likely be small. If you'll be backing up videos and images, you'll want something more in the hundreds of gigabytes or few terabytes range.
@@ -30,7 +30,7 @@ The 3-2-1 Rule is a guideline for considering how to organize your backups effec
 
 ## Privacy-Respecting Cloud Backups
 
-Generally speaking, **I advise against using Google Drive, Dropbox, iCloud, or similar services**, primarly because they are not [zero-knowledge](/guides/moderately-important/encryption). The exception here is iCloud. As of 2023, iCloud can be optionally encrypted in a zero-knowledge format by enabling the Advanced Data Protection option under Settings > Account (your name at the top of the Settings menu) > iCloud > Advanced Data Protection. Be aware that this does not encrypt everything. You can get more information [here](https://support.apple.com/en-us/HT212520). If you must use iCloud, I would consider enabling this a requirement. If you must use one of the other mainstream providers, [see below](/guides/moderately-important/backups#mainstream-cloud-providers).
+Generally speaking, **I advise against using Google Drive, Dropbox, iCloud, or similar services**, primarly because they are not [zero-knowledge](/guides/moderately-important/encryption). The exception here is iCloud. As of 2023, iCloud can be optionally encrypted in a zero-knowledge format by enabling the Advanced Data Protection option under Settings > Account (your name at the top of the Settings menu) > iCloud > Advanced Data Protection. Be aware that this does not encrypt everything. You can get more information [here](https://support.apple.com/en-us/HT212520). I offer a more comprehensive assessment of iCloud and ADP [here](/guides/moderately-important/backups#iclouds-advanced-data-protection-program). If you must use one of the other mainstream providers, [see below](/guides/moderately-important/backups#mainstream-cloud-providers).
 
 <img
   src="/images/logos/nextcloud.png"
@@ -67,6 +67,6 @@ _Listed in alphabetical order, not order of recommendation_
 
 ### iCloud's Advanced Data Protection Program
 
-With the rollout of Apple’s [Advanced Data Protection](https://support.apple.com/en-us/HT202303) program, there are certainly those will ask if that’s an acceptable cloud storage solution. The short answer is “probably but I’m not a fan.” First of, the Advanced Data Protection program is proprietary, meaning that there is very little transparency into the security or implementation of the security. While I personally don’t believe that Apple would intentionally insert backdoors into the program, we have seen time and time again that big, complicated code like that can easily contain bugs, vulnerabilities, and other opportunities for improvement. Closing off the source code means it will take longer for those to be found and fixed, and in the meantime bad guys might find and exploit them. Furthermore, the Advanced Data Protection program locks you into the Apple ecosystem, which makes it harder for you to take your data to a new platform if you ever decide to in the future. I prefer open source solutions that are available on a wide variety of operating systems, giving you the agility to easily pivot for any reason and the assurance of transparency. That said, if you have tried the solutions above and they don’t work for you, then turning on Advanced Data Protection is certainly better than not using it. Be sure to read up on it first and know the limitations.
+With the rollout of Apple’s [Advanced Data Protection](https://support.apple.com/en-us/HT202303) program, there are certainly those will ask if that’s an acceptable cloud storage solution. The short answer is “probably but I’m not a fan.” First off, the Advanced Data Protection program is proprietary, meaning that there is very little transparency into the security or implementation of the security. While I personally don’t believe that Apple would intentionally insert backdoors into the program, we have seen time and time again that big, complicated code like that can easily contain bugs, vulnerabilities, and other opportunities for improvement. Closing off the source code means it will take longer for those to be found and fixed, and in the meantime bad guys might find and exploit them. Furthermore, the Advanced Data Protection program locks you into the Apple ecosystem, which makes it harder for you to take your data to a new platform if you ever decide to in the future. I prefer open source solutions that are available on a wide variety of operating systems, giving you the agility to easily pivot for any reason and the assurance of transparency. That said, if you have tried the solutions above and they don’t work for you, then turning on Advanced Data Protection is certainly better than not using it. Be sure to read up on it first and know the limitations.
 
 **If you follow the steps on this page, you should have created secure, consistent backups** that will protect you in the event of a lost, stolen, or damaged device, or even the dreaded ransomware.

@@ -1,15 +1,16 @@
 ---
 layout: "@layouts/guides.astro"
 title: "Privacy: VPNs"
-topic: VPNs
+topic: Virtual Private Networks (VPNs)
 weight: 8
 draft: false
 ---
 
+import Highlighting from "@components/common/Highlighting.astro";
 import ProsAndCons from "@components/charts/ProsAndCons.astro";
 import data from "@assets/data/pages/en/guides/less-important/Vpns.json";
 
-# Privacy: VPNs
+# Virtual Private Networks (VPNs)
 
 ## What is a Virtual Private Network (VPN)?
 
@@ -23,7 +24,13 @@ A VPN protects from local attackers. While most of the internet is encrypted, no
 
 **The most important thing is to look for a VPN provider who doesn't keep logs.** A provider who logs your activity is no better than your current internet provider in that your traffic can still be sold, censored, or spied on. Unfortunately, "no logs" is a buzzword these days, and numerous providers have been caught lying about this. The best way I've found to verify this claim is to search "[VPN provider] logs" on your privacy-respecting [search engine](/guides/less-important/habits#search-engines) of choice. If the provider has been around for any amount of time and has any positive reputation, you will likely find articles or posts confirming or denying their logging policy in some way. You'll also be alerted to any potential accusations of logging, discussions on that claim, and other information to help you decide if the company is serious or not.
 
-**Make sure to see how the provider makes money.** Running an VPN server is expensive and requires great technical knowledge. "If a product is free, you are the product." Make sure the company has a viable business plan or else assume they are likely logging and selling your data, [or worse](https://www.makeuseof.com/tag/biggest-risks-using-free-vpns/). Never trust a free VPN unless it's a trial (or in Proton's case, a limited freemium business model).
+## On Free VPNs
+
+<Highlighting variant="warning">
+
+Running an VPN server is expensive and requires great technical knowledge. "If a product is free, you are the product." Make sure the company has a viable business plan or else assume they are likely [logging](https://www.howtogeek.com/342731/dont-use-facebooks-onavo-vpn-its-designed-to-spy-on-you/) and [selling your data](https://www.buzzfeednews.com/article/craigsilverman/vpn-and-ad-blocking-apps-sensor-tower), [or worse](https://www.makeuseof.com/tag/biggest-risks-using-free-vpns/). Never trust a free VPN unless it's a trial, a limited offering as part of a freemium business model, or in a few extremely rare and well-reputed cases (such as Calyx and Riseup, listed below).
+
+</Highlighting>
 
 _Listed in alphabetical order, not order of recommendation_
 
@@ -49,9 +56,13 @@ click of a toggle. SPN is still very new technology and may contain some bugs as
 the developers work to mature the product, however early adopters who desire a stronger
 solution than traditional VPNs have to offer may wish to look into this option.
 
+## Honorable Mention: Calxy VPN
+
+<img src="/images/logos/calyxvpn.png" alt="Calyx VPN logo" class="float-left mx-6 w-24" /> [Calyx VPN](https://calyxos.org/docs/guide/apps/calyx-vpn/) is a free offering from the nonprofit [Calyx Institute](https://calyxinstitute.org/), who supports the privacy community through a number of initiatives such as a privacy-respecting [custom operating system](https://calyxos.org/), [research](https://calyxinstitute.org/projects/privacy-research) initiatives, [microgrants](https://calyxinstitute.org/projects/microgrants-and-small-project-support), [educational](https://calyxinstitute.org/projects/education) programs, and a variety of [digital services](https://calyxinstitute.org/projects/digital-services) like an XMPP server, a Jitsi instance, and Tor contributions. Calxy's VPN is free but limited in scope: you have no choice of server, location, protocol, or any other advanced features such as split tunneling, custom DNS resolver, or tracker/malware/ad-blocking. Calyx is a reputable, trustwory organization offering a reliable and private VPN but we would only recommend it for those who can't afford a subscription yet still need a VPN.
+
 ## Honorable Mention: RiseUp VPN
 
-<img src="/images/logos/riseupvpn.png" alt="riseup logo" class="float-left mx-6 w-24" /> [Riseup](https://riseup.net/en/vpn) is a free offering from the nonprofit activist group RiseUp Collective. Riseup offers a free VPN service, however we have opted to listed it here instead of among our other recommended offerings because it is extremely limited in scope: you have no choice of server, location, protocol, or any other advanced features such as split tunneling, custom DNS resolver, or tracker/malware/ad-blocking. RiseUp does offer a reputable, reliable, and private VPN that should meet the most basic needs for those who need a VPN but have no budget to spare.
+<img src="/images/logos/riseupvpn.png" alt="Riseup logo" class="float-left mx-6 w-24" /> Like Calyx VPN, [Riseup](https://riseup.net/en/vpn) is a free offering from the nonprofit activist group RiseUp Collective. Also like Calxy VPN, it is extremely limited in scope: you have no choice of server, location, protocol, or any other advanced features such as split tunneling, custom DNS resolver, or tracker/malware/ad-blocking. RiseUp offers a reputable, reliable, and private VPN that should meet the most basic needs for those who need a VPN but have no budget to spare.
 
 ## DNS Leaks & Custom Resolvers
 

@@ -1,15 +1,15 @@
 ---
 layout: "@layouts/guides.astro"
-title: "Data Breach Defense: Email Aliasing"
+title: "Privacy: Email Aliasing"
 topic: Email Aliasing
-weight: 8
+weight: 5
 draft: false
 ---
 
 import Plans from "@components/charts/Plans.astro";
 import data from "@assets/data/pages/en/guides/moderately-important/EmailAliasing.json";
 
-# Data Breach Defense: Email Aliasing
+# Email Aliasing
 
 ## What is Email Aliasing?
 
@@ -24,6 +24,20 @@ Below I have listed two services that offer email aliasing. Both services offer 
 There is one small difference: SimpleLogin recently joined [Proton](https://simplelogin.io/blog/simplelogin-join-proton/), likely in some sort of "subsidiary" capacity. They continue to operate independently, but they will have access to Proton's infrastructure, resources, and will be integrated into ProtonMail's service in time. If you like and use Proton, this may be the best solution for you. If you dislike or distrust Proton (or simply don't want all your eggs in one basket), you may prefer AnonAddy. If you don't care either way, then this shouldn't affect your decision-making.
 
 <Plans data={data} />
+
+## Honorable Mentions
+
+The following services also offer email aliasing services, however I find their features to be far inferior to Addy.io and SimpleLogin. Still, if you find that neither of my primary recommendations work for you, you may consider one of these instead.
+
+### DuckDuckGo Email Protection
+<img src="/images/logos/ddg.png" alt="DuckDuckGo logo" class="float-left mx-6 w-24" />
+
+DuckDuckGo Email Protection is a free service offering unlimited aliases, tracker remover, automatic HTTPS upgrades, and more. You can sign-up and manage your aliases from any browser on any OS and even reply to emails you receive, though it doesn’t appear you can start a fresh message from an alias. It should be [noted](https://thenewoil.org/en/guides/less-important/habits/#search-engines) that I have lost nearly all faith in DuckDuckGo, at least as a search engine and a browser. At this time I would be open to considering their email aliasing and data removal offerings, but I would proceed with caution given their track record.
+
+### Firefox Relay
+<img src="/images/logos/ffrelay.png" alt="Firefox Relay logo" class="float-left mx-6 w-24" />
+
+Firefox Relay is a freemium serivce. On all plans it will strip email trackers, but you are limited to five aliases on the free plan. On paid plans, you can reply to incoming emails (though you can’t initiate a new conversation) and you are given unlimited aliases. At the Premium tier, Relay also offers a phone number that can you use which forwards to your existing phone number, however I’m told that you can only reply to the latest message you received and thus I wouldn’t recommend it as a [Voice-over-IP](/guides/less-important/voip/) service. The highest tier also offers a [VPN](/guides/less-important/vpns), however it's simply a repackaged version of Mullvad. The email protection, however, may be a service worth considering.
 
 ## Getting Started + Tips & Tricks
 

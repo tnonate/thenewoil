@@ -78,6 +78,17 @@
 		]
       }
 	},
+    "passwords": {
+      "name": "Password Manager",
+      "values": {
+        "Alternatives": [
+		  "[Password Manager of your choice](/guides/most-important/passwords/)"
+        ],
+        "Reason": [
+		"Apple Keychain and Google Password Manager - while likely secure - lock you into their ecocystem and make it harder to switch devices in the future should you ever want or need to. Furthermore, they are not [source-available](/guides/prologue/open-source/) and therefore it can be difficult to know exactly what's going on behind the scenes. These password managers won't lock you into a single device."
+		]
+      }
+    },
     "photos": {
       "name": "Photos",
       "values": {
@@ -109,8 +120,8 @@
       "name": "Miscellaneous",
       "values": {
         "Alternatives": [
-          "Android: [Hypatia](https://divestos.org/pages/our_apps#hypatia) (antivirus)",
-          "iOS: [iVerify](https://www.iverify.io/consumer) (malware detection, setting suggestions)"
+          "Android & iOS: [iVerify Basic](https://www.iverify.io/consumer) (malware detection, settings suggestions)",
+		  "Android: [Hypatia](https://divestos.org/pages/our_apps#hypatia) (antivirus)"
         ],
         "Reason": [
 		"These are apps that can help improve your privacy and security in various ways. As always, be sure to evaluate your threat model and consider if you need them or not."
