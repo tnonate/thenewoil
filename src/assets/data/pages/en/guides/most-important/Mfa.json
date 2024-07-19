@@ -37,8 +37,9 @@
     "link": "https://ente.io/auth/",
     "pros": [
        "Available on all operating systems",
-       "Available on [F-Droid](https://f-droid.org/en/packages/io.ente.auth/)"],
+       "Available on [F-Droid](https://f-droid.org/en/packages/io.ente.auth/)",
+	   "No account required (offline mode only)"],
     "cons": [
-  "ente account required (free for now but [plans](https://ente.io/blog/auth/) to charge in the future)"]
+		"ente account required (online sync only)"]
   }
 }

@@ -56,13 +56,13 @@ Because many words and phrases can be subjective, we have clarified some of our 
 
 ## Encrypted Messaging
 * Must have end-to-end encrypted one-to-one messaging enabled by default
-* Ability to export messages for backup or portability purposes
-* Must optionally support ephemeral messaging (realtime messaging only)
-* Must be metadata-resistant (realtime messaging only)
+* Ability to export messages (email-only, realtime messengers encouraged)
 * Must support custom domains (e-mail only)
+* Must support ephemeral messaging (realtime messaging only)
+* Must be metadata-resistant (realtime messaging only)
 
 ## Links & Resources
-* All resources and links must be directly relevant to individual data privacy and/or cybersecurity.
+* Must be directly relevant to individual data privacy and/or cybersecurity
 
 ## Mobile Settings & Apps
 * Recommended settings changes must reduce the amount of data submitted to the device manufacturer, cell carrier, and/or app developers and/or must improve device security against common threats
