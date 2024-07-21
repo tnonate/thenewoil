@@ -8,7 +8,6 @@
     "pros": [
       "Unlimited numbers",
       "International calling",
-      "Can work just with WiFi (doesn't need mobile data to operate)",
       "Does not require your SIM number"
     ],
     "cons": [
@@ -29,10 +28,7 @@
     ],
     "cons": [
       "US and Canada only",
-      "No group chats",
-      "No video calls",
-      "Requires your SIM number",
-      "Requires a Google account"
+      "Requires a Google account (which requires a SIM number)"
     ]
   },
   "mysudo": {
@@ -45,12 +41,9 @@
       "Does not require your SIM number",
       "Includes fully functional email, web browser, and [digital masked cards](/guides/most-important/payments) (iOS only)",
       "Zero-knowledge at rest",
-      "End-to-end encrypted (only to other MySudo users)",
-      "Group chats (only to other MySudo users)",
-      "Video calls (only to other MySudo users)"
     ],
     "cons": [
-      "US, Canadian, and UK phone numbers only",
+      "US, Canada, and UK phone numbers only",
       "Desktop client in beta, web-based only, can only sync with iOS"
     ]
   },
@@ -66,8 +59,6 @@
       "Desktop app available"
     ],
     "cons": [
-      "No group chats (over normal protocols)",
-      "No video calls (over normal protocols)",
       "Requires a Microsoft account",
       "Pay by the minute"
     ]
@@ -80,13 +71,13 @@
     "pros": [
       "Unlimited numbers",
       "International calling",
-      "Available in 70 Countries",
-      "No phone app required (forwards calls and texts to your SIM number)"
+      "Available in 72 Countries",
+      "No phone app required (can optionall forward calls and texts to another number)"
     ],
     "cons": [
       "No free tier",
       "No desktop app",
-      "International Calls are billed per minute",
+      "International calls are billed per minute",
       "SMS only supported on US and Canada Numbers"
     ]
   },
@@ -96,17 +87,14 @@
     "logo_alt": "Viber logo",
     "link": "https://www.viber.com/",
     "pros": [
-      "Group chats (only to other Viber users)",
-      "Video calls (only to other Viber users)",
       "Desktop client",
-      "Zero-knowledge storage",
-      "End-to-end encrypted (only to other Viber users)",
-      "Worldwide numbers available",
+      "Available in 59 countries",
+	  "International calling",
       "Does not require your SIM number"
     ],
     "cons": [
-      "External messaging and calling cost extra",
-      "Only one number available"
+      "Calls are billed by the minute",
+      "Only offers one number per user"
     ]
   }
 }
