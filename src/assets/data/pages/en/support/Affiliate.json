@@ -1,5 +1,11 @@
 [
   {
+    "name": "Ente",
+    "link": "https://ente.io",
+    "img": "/images/logos/ente.png",
+    "subtext": "Photo storage. Referral code: FDVPU2"
+  },
+  {
     "name": "Filen",
     "link": "https://filen.io/r/834a3bd235bca0caa53141f2ebc30438",
     "img": "/images/logos/filen.png",

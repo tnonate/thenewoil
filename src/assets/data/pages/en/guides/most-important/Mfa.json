@@ -32,7 +32,7 @@
   },
   "ente": {
     "name": "ente Authenticator",
-    "logo": "/images/logos/ente.png",
+    "logo": "/images/logos/ente-auth.png",
     "logo_alt": "ente Authenticator logo",
     "link": "https://ente.io/auth/",
     "pros": [

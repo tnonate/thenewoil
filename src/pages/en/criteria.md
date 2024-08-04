@@ -83,7 +83,7 @@ Because many words and phrases can be subjective, we have clarified some of our 
 * Educational content only
 * Non-fiction content only
 
-## VOIP
+## VoIP
 * Must be capable of making and receiving calls, SMS, and MMS to "regular" phone numbers.
 * Must have a first-party mobile app
 * Must target consumers (ex, there should not be an abundance of talk on the main pages of the website about APIs, compliance, and other topics that would not be of interest to an average consumer)

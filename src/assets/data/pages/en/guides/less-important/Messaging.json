@@ -1,4 +1,21 @@
 {
+  "session": {
+    "name": "Session",
+    "logo": "/images/logos/session.png",
+    "logo_alt": "Session Logo",
+    "link": "https://getsession.org/",
+    "pros": [
+      "[Recently audited](https://getsession.org/blog/session-code-audit)",
+	  "Available on [all operating systems](/criteria#definitions)",
+	  "Available on [F-Droid](https://fdroid.getsession.org/)",
+	  "Decentralized",
+	  "No personal data required to sign up"
+    ],
+    "cons": [
+      "Lacks [perfect forward secrecy](https://csrc.nist.gov/glossary/term/perfect_forward_secrecy)",
+      "Criticisms regarding their reliance on cryptocurrency (the cryptocurrency aspect is invisible to the end-user)"
+    ]
+  },
   "signal": {
     "name": "Signal",
     "logo": "/images/logos/signal.png",
