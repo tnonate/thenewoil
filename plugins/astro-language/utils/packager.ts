@@ -9,10 +9,10 @@ export const copyDir = async (packageDir: string, targetDir: string) => {
     filesToCopy.map((filename) => {
       fs.copyFile(
         path.join(packageDir, filename),
-        path.join(targetDir, filename)
+        path.join(targetDir, filename),
       );
       return filename;
-    })
+    }),
   );
 };
 
@@ -69,7 +69,7 @@ export const packageDir = async (options: PackageDirOptions) => {
       main: packageOptions.entryMain,
       types: packageOptions.entryTypes,
       exports: packageOptions.exports,
-    })
+    }),
   );
 
   await copyDir(packageDir, targetDir);

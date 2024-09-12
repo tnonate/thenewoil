@@ -12,7 +12,7 @@ export interface BlogStoreConfig {
 const sortByMostRecentPost = (postA: Post, postB: Post) =>
   compareDate(
     new Date(postB.created.replace("-", "/")),
-    new Date(postA.created.replace("-", "/"))
+    new Date(postA.created.replace("-", "/")),
   );
 
 class BlogStore {
@@ -25,7 +25,7 @@ class BlogStore {
   async GetBlogMeta(): Promise<CollectionMeta> {
     const fileHandle = await fs.open(
       this.config.metaStoragePath,
-      "a+" /* Opens/creates file for reading */
+      "a+" /* Opens/creates file for reading */,
     );
     const fileContent = (await fileHandle.readFile()).toString();
     await fileHandle.close();
@@ -51,7 +51,7 @@ class BlogStore {
   async SaveBlogMeta(meta: CollectionMeta) {
     const fileHandle = await fs.open(
       this.config.metaStoragePath,
-      "w+" /* Opens/creates file for writing */
+      "w+" /* Opens/creates file for writing */,
     );
     await fileHandle.writeFile(JSON.stringify(meta));
     await fileHandle.close();
@@ -60,7 +60,7 @@ class BlogStore {
   async GetBlogPosts(): Promise<Post[]> {
     const fileHandle = await fs.open(
       this.config.postsStoragePath,
-      "a+" /* Opens/creates file for reading */
+      "a+" /* Opens/creates file for reading */,
     );
     const fileContent = (await fileHandle.readFile()).toString();
     await fileHandle.close();
@@ -77,7 +77,7 @@ class BlogStore {
 
     const fileHandle = await fs.open(
       this.config.postsStoragePath,
-      "w+" /* Opens/creates file for writing */
+      "w+" /* Opens/creates file for writing */,
     );
     await fileHandle.writeFile(JSON.stringify(posts));
     await fileHandle.close();

@@ -52,11 +52,11 @@ const plugin = (options: Options): AstroIntegration => {
     hooks: {
       "astro:config:setup": async ({ injectScript, command }) => {
         const supportedLanguageCodes = await runResolver(
-          options.supportedLanguageCodes
+          options.supportedLanguageCodes,
         );
         if (supportedLanguageCodes.length < 0)
           throw Error(
-            "Language plugin requires at least 1 language code to be supported"
+            "Language plugin requires at least 1 language code to be supported",
           );
 
         config = {
@@ -69,7 +69,7 @@ const plugin = (options: Options): AstroIntegration => {
           const nodeModulePath = path.join(
             process.cwd(),
             config.pathToNodeModules,
-            NODE_MODULE_NAME
+            NODE_MODULE_NAME,
           );
 
           try {
@@ -107,7 +107,7 @@ const plugin = (options: Options): AstroIntegration => {
                           localPathPrefixes: LOCAL_PATH_PREFIXES,
                           protocolIdentifier: PROTOCOL_IDENTIFIER,
                           publicPrefix: PUBLIC_PREFIX,
-                        })}).then().catch();`
+                        })}).then().catch();`,
           );
         }
       },
@@ -137,7 +137,7 @@ const plugin = (options: Options): AstroIntegration => {
           });
 
           const anchorElements: HTMLAnchorElement[] = Array.from(
-            document.querySelectorAll("a")
+            document.querySelectorAll("a"),
           ) as any[];
 
           const transformAnchorTasks = anchorElements.map(anchorTransformer);
@@ -163,7 +163,7 @@ const plugin = (options: Options): AstroIntegration => {
 
         console.log(
           CONSOLE_TAG +
-            `Done! A total of ${transformedAnchorsTotal} A-tags were changed, in a total of ${transformedFilesTotal} files`
+            `Done! A total of ${transformedAnchorsTotal} A-tags were changed, in a total of ${transformedFilesTotal} files`,
         );
         console.log("");
       },

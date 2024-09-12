@@ -8,7 +8,7 @@ export const createAnchorTransformer = (config) => {
     const shoudNotChangeHref =
       originalHref.includes(config.protocolIdentifier) || // Link contains a protocol, only local links should be changed
       config.excludeStartWithPatterns.some((pattern) =>
-        originalHref.startsWith(pattern)
+        originalHref.startsWith(pattern),
       ); // If link starts with something like `mailto:`
     if (shoudNotChangeHref) return;
 
@@ -16,14 +16,14 @@ export const createAnchorTransformer = (config) => {
     if (originalHref.startsWith(config.publicPrefix)) {
       anchor.setAttribute(
         "href",
-        `${originalHref.substring(config.publicPrefix.length)}`
+        `${originalHref.substring(config.publicPrefix.length)}`,
       );
       return originalHref;
     }
 
     const pathPrefix =
       config.localPathPrefixes.find((prefix) =>
-        originalHref.startsWith(prefix)
+        originalHref.startsWith(prefix),
       ) ?? "";
     if (pathPrefix === "") return;
 
@@ -40,7 +40,7 @@ export const createAnchorTransformer = (config) => {
 
     anchor.setAttribute(
       "href",
-      `${pathPrefix}${config.language}/${hrefWithoutPrefix}`
+      `${pathPrefix}${config.language}/${hrefWithoutPrefix}`,
     );
     anchor.setAttribute("hreflang", config.language);
     return originalHref;

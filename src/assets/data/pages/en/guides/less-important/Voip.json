@@ -4,7 +4,7 @@
     "logo": "/images/logos/hushed.png",
     "logo_alt": "Hushed logo",
     "link": "https://hushed.com/",
-	"referral_link": "https://promo.hushed.com/lp/lifetime-3?oid=14&affid=497",
+    "referral_link": "https://promo.hushed.com/lp/lifetime-3?oid=14&affid=497",
     "pros": [
       "Unlimited numbers",
       "International calling",
@@ -58,10 +58,7 @@
       "Does not require your SIM number",
       "Desktop app available"
     ],
-    "cons": [
-      "Requires a Microsoft account",
-      "Pay by the minute"
-    ]
+    "cons": ["Requires a Microsoft account", "Pay by the minute"]
   },
   "tossable digits": {
     "name": "Tossable Digits",
@@ -89,7 +86,7 @@
     "pros": [
       "Desktop client",
       "Available in 59 countries",
-	  "International calling",
+      "International calling",
       "Does not require your SIM number"
     ],
     "cons": [

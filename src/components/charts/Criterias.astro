@@ -62,7 +62,7 @@ const directionClasses = GRID_DIRECTION_CLASSES[directionKey];
       return (
         <>
           <div
-            class={` flex w-full flex-col items-center p-4 text-center ${
+            class={`flex w-full flex-col items-center p-4 text-center ${
               directionKey === "row" || (directionKey === "col" && !isLastTool)
                 ? "border-b-4 border-gradient-secondary-center"
                 : ""

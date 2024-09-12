@@ -14,7 +14,7 @@ const blogStore = new BlogStore({
     "assets",
     "data",
     "blog-index",
-    "blog-meta.json"
+    "blog-meta.json",
   ),
   postsStoragePath: path.join(
     process.cwd(),
@@ -22,7 +22,7 @@ const blogStore = new BlogStore({
     "assets",
     "data",
     "blog-index",
-    "blog-pages.json"
+    "blog-pages.json",
   ),
 });
 const writeAsClient = new WriteAsClient();
@@ -55,13 +55,13 @@ if (deltaTotalPosts > 0) {
       const pageNumber = pagesToRetreive - (index - 1);
       const response = await writeAsClient.FetchCollectionPage(
         COLLECTION_NAME,
-        pageNumber
+        pageNumber,
       );
 
       if (typeof response === "number") {
         if (response === 429) {
           console.log(
-            "Write.as has rate limited the fetch-script, saving current posts. Restart the script later."
+            "Write.as has rate limited the fetch-script, saving current posts. Restart the script later.",
           );
         }
         return resolve(fetchedPosts);
@@ -89,8 +89,8 @@ if (deltaTotalPosts > 0) {
   let updatedPosts = storedPosts.filter(
     (storedPost) =>
       fetchedPosts.findIndex(
-        (fetchedPost) => fetchedPost.id === storedPost.id
-      ) === -1
+        (fetchedPost) => fetchedPost.id === storedPost.id,
+      ) === -1,
   );
 
   console.log(updatedPosts.length);

@@ -10,8 +10,8 @@
           "[Tuta](https://tuta.com/calendar/)"
         ],
         "Reason": [
-		"Your calendar contains all your plans and locations: upcoming dates, shifts at work, events you plan to attend, and more. Using an encrypted calendar can help protect that information from Google, Apple or other third parties."
-		]
+          "Your calendar contains all your plans and locations: upcoming dates, shifts at work, events you plan to attend, and more. Using an encrypted calendar can help protect that information from Google, Apple or other third parties."
+        ]
       }
     },
     "e-mail": {
@@ -21,8 +21,8 @@
           "[Encrypted email provider of your choice](/guides/moderately-important/email)"
         ],
         "Reason": [
-		"Please see the \"[Encrypted email](/guides/moderately-important/email)\" page for more information on this subject."
-		]
+          "Please see the \"[Encrypted email](/guides/moderately-important/email)\" page for more information on this subject."
+        ]
       }
     },
     "firewall & content blocker(none included by default)": {
@@ -35,9 +35,9 @@
           "NextDNS ([Android](https://play.google.com/store/apps/details?id=io.nextdns.NextDNS), [iOS](https://apps.apple.com/app/nextdns/id1463342498))"
         ],
         "Reason": [
-		"Phone firewalls stop apps from contacting unnecessary servers, such as ads and analytics.",
+          "Phone firewalls stop apps from contacting unnecessary servers, such as ads and analytics.",
           "**Note:** You cannot use a VPN and Firewall/Content Blocker at the same time. I recommend using a VPN as your first choice if it fits your [threat model](/guides/prologue/threat-model)."
-		  ]
+        ]
       }
     },
     "text messenger": {
@@ -47,8 +47,8 @@
           "[Encrypted messaging provider of your choice](/guides/less-important/messaging)"
         ],
         "Reason": [
-		"Please see the \"[Encrypted Messaging](/guides/less-important/messaging)\" page for more information on this subject."
-		]
+          "Please see the \"[Encrypted Messaging](/guides/less-important/messaging)\" page for more information on this subject."
+        ]
       }
     },
     "navigation": {
@@ -59,50 +59,50 @@
           "[Magic Earth](https://www.magicearth.com/)"
         ],
         "Reason": [
-		"Google Maps, Apple Maps, and others record everywhere you go and add that location history to your profile. Using an alternate navigator won't stop your carrier from tracking your location, but it can help reduce the specific location data that is stored on you and who can collect it."
-		]
+          "Google Maps, Apple Maps, and others record everywhere you go and add that location history to your profile. Using an alternate navigator won't stop your carrier from tracking your location, but it can help reduce the specific location data that is stored on you and who can collect it."
+        ]
       }
-	},
+    },
     "notes": {
       "name": "Notes",
       "values": {
         "Alternatives": [
-		  "[Cryptee](https://crypt.ee/)",
-		  "[Filen](https://filen.io/r/834a3bd235bca0caa53141f2ebc30438) ([Non-affiliate link](https://filen.io/))",
+          "[Cryptee](https://crypt.ee/)",
+          "[Filen](https://filen.io/r/834a3bd235bca0caa53141f2ebc30438) ([Non-affiliate link](https://filen.io/))",
           "[Joplin](https://joplinapp.org/)",
           "[Nextcloud](https://nextcloud.com/)",
-		  "[Notesnook](https://notesnook.com/)",
-		  "[Standard Notes](https://standardnotes.com/)"
+          "[Notesnook](https://notesnook.com/)",
+          "[Standard Notes](https://standardnotes.com/)"
         ],
         "Reason": [
-		"Google and Apple have access to the files within the stock note-taking app by default. These services protect your notes in such a way that only you can see them while still providing cloud-syncing functionality."
-		]
+          "Google and Apple have access to the files within the stock note-taking app by default. These services protect your notes in such a way that only you can see them while still providing cloud-syncing functionality."
+        ]
       }
-	},
+    },
     "passwords": {
       "name": "Password Manager",
       "values": {
         "Alternatives": [
-		  "[Password Manager of your choice](/guides/most-important/passwords/)"
+          "[Password Manager of your choice](/guides/most-important/passwords/)"
         ],
         "Reason": [
-		"Apple Keychain and Google Password Manager - while likely secure - lock you into their ecocystem and make it harder to switch devices in the future should you ever want or need to. Furthermore, they are not [source-available](/guides/prologue/open-source/) and therefore it can be difficult to know exactly what's going on behind the scenes. These password managers won't lock you into a single device."
-		]
+          "Apple Keychain and Google Password Manager - while likely secure - lock you into their ecocystem and make it harder to switch devices in the future should you ever want or need to. Furthermore, they are not [source-available](/guides/prologue/open-source/) and therefore it can be difficult to know exactly what's going on behind the scenes. These password managers won't lock you into a single device."
+        ]
       }
     },
     "photos": {
       "name": "Photos",
       "values": {
         "Alternatives": [
-		  "[Cryptee](https://crypt.ee/)",
+          "[Cryptee](https://crypt.ee/)",
           "[Ente](https://ente.io/) (Referral code: FDVPU2)",
-		  "[Filen](https://filen.io/r/834a3bd235bca0caa53141f2ebc30438) ([Non-affiliate link](https://filen.io/))",
-		  "[Nextcloud](https://nextcloud.com/)",
-	  "[Proton Drive](https://go.getproton.me/aff_c?offer_id=26&aff_id=2187&url=https%3A%2F%2Fproton.me%2F%3FvisitorId%3Dho-{transaction_id}%26aid%3D{affiliate_id}%26offer_id%3D{offer_id}%26url_id%3D{offer_url_id}%26utm_campaign%3Dww-all-2c-vpn-gro_aff-g_acq-partners_program%26utm_source%3Daid-tune-{affiliate_id}%26utm_medium%3Dlink%26utm_term%3Dgeneric_vpn_landing%26utm_content%3D{offer_id}%26hfp%3Dfalse%26spl%3D{affiliate_id}%26aap%3D{affiliate_id}) ([Non-affiliate link](https://proton.me/drive)) (Android only)"
+          "[Filen](https://filen.io/r/834a3bd235bca0caa53141f2ebc30438) ([Non-affiliate link](https://filen.io/))",
+          "[Nextcloud](https://nextcloud.com/)",
+          "[Proton Drive](https://go.getproton.me/aff_c?offer_id=26&aff_id=2187&url=https%3A%2F%2Fproton.me%2F%3FvisitorId%3Dho-{transaction_id}%26aid%3D{affiliate_id}%26offer_id%3D{offer_id}%26url_id%3D{offer_url_id}%26utm_campaign%3Dww-all-2c-vpn-gro_aff-g_acq-partners_program%26utm_source%3Daid-tune-{affiliate_id}%26utm_medium%3Dlink%26utm_term%3Dgeneric_vpn_landing%26utm_content%3D{offer_id}%26hfp%3Dfalse%26spl%3D{affiliate_id}%26aap%3D{affiliate_id}) ([Non-affiliate link](https://proton.me/drive)) (Android only)"
         ],
         "Reason": [
-		"Google, Apple, and other non-encrypted photo storage options can see all your photos. These services provide a way to securely store, manage, and back up your photos between multiple devices safe from the provider's prying eyes."
-		]
+          "Google, Apple, and other non-encrypted photo storage options can see all your photos. These services provide a way to securely store, manage, and back up your photos between multiple devices safe from the provider's prying eyes."
+        ]
       }
     },
     "web browser": {
@@ -113,8 +113,8 @@
           "iOS: [Brave](https://apps.apple.com/us/app/brave-private-browser/id1052879175), [SnowHaze](https://snowhaze.com/download), or [hardened Safari](https://www.privacyguides.org/en/mobile-browsers/#safari)"
         ],
         "Reason": [
-		"While apps have mostly replaced the browser on mobile, some things are still done through the browser. While less revealing compared to other phone apps, your browser usage still reveals a lot of data about you and should be minimized."
-		]
+          "While apps have mostly replaced the browser on mobile, some things are still done through the browser. While less revealing compared to other phone apps, your browser usage still reveals a lot of data about you and should be minimized."
+        ]
       }
     },
     "miscellaneous": {
@@ -122,11 +122,11 @@
       "values": {
         "Alternatives": [
           "Android & iOS: [iVerify Basic](https://www.iverify.io/consumer) (malware detection, settings suggestions)",
-		  "Android: [Hypatia](https://divestos.org/pages/our_apps#hypatia) (antivirus)"
+          "Android: [Hypatia](https://divestos.org/pages/our_apps#hypatia) (antivirus)"
         ],
         "Reason": [
-		"These are apps that can help improve your privacy and security in various ways. As always, be sure to evaluate your threat model and consider if you need them or not."
-		]
+          "These are apps that can help improve your privacy and security in various ways. As always, be sure to evaluate your threat model and consider if you need them or not."
+        ]
       }
     }
   }
