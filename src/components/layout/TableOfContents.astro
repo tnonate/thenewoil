@@ -1,5 +1,5 @@
 ---
-import { MarkdownHeading } from "astro";
+import type { MarkdownHeading } from "astro";
 import { Icon } from "astro-icon/components";
 
 interface Props {
@@ -18,7 +18,7 @@ const { headings } = Astro.props;
         .map((heading) => (
           <li
             class={`p-0 ${heading.depth === 2 && "list-none font-medium"}`}
-            style={{ marginLeft: heading.depth !== 2 && `${(heading.depth - 2) * 2}rem` }}
+            style={{ marginLeft: heading.depth !== 2 ? `${(heading.depth - 2) * 2}rem` : undefined }}
           >
             <a
               class="border-gradient-primary border-bg-tertiary hover:border-b-4 dark:border-bg-tertiary-dark"
@@ -54,7 +54,7 @@ const { headings } = Astro.props;
         .map((heading) => (
           <li
             class={`p-0 ${heading.depth === 2 && "list-none font-medium"}`}
-            style={{ marginLeft: heading.depth !== 2 && `${(heading.depth - 2) * 2}rem` }}
+            style={{ marginLeft: heading.depth !== 2 ? `${(heading.depth - 2) * 2}rem` : undefined }}
           >
             <a
               class="border-gradient-primary border-bg-tertiary hover:border-b-4 dark:border-bg-tertiary-dark"
