@@ -28,7 +28,7 @@ module.exports = plugin(({ matchUtilities, theme }) => {
         "background-image": value,
       }),
     },
-    { values: addDefaultValues(theme("gradients")) }
+    { values: addDefaultValues(theme("gradients")) },
   );
 
   matchUtilities(
@@ -37,6 +37,6 @@ module.exports = plugin(({ matchUtilities, theme }) => {
         "--tw-border-gradient-background": value,
       }),
     },
-    { values: addDefaultValues(flattenColorPalette(theme("colors"))) }
+    { values: addDefaultValues(flattenColorPalette(theme("colors"))) },
   );
 });

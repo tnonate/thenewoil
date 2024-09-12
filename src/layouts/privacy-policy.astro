@@ -19,7 +19,7 @@ const { frontmatter, headings } = Astro.props;
 const language = getLanguageFromUrl(Astro.url);
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang={language.code}>
   <head>
     <DefaultHead pageTitle={frontmatter.title} />

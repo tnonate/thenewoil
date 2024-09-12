@@ -51,7 +51,7 @@ const ChildrenHeading = (headingLevel < 6 ? `h${headingLevel + 1}` : "p") as any
     });
 
     return (
-      <div class="markdown--disabled flex flex-col items-center gap-4 rounded-lg border-4 p-4 pb-12 border-gradient-secondary border-bg-primary motion-safe:transition-[padding] motion-safe:duration-200 motion-safe:ease-in-out dark:border-bg-primary-dark lg:gap-6 lg:p-6 xl:gap-8 xl:p-8 2xl:flex-row">
+      <div class="markdown--disabled flex flex-col items-center gap-4 rounded-lg border-4 p-4 pb-12 border-gradient-secondary border-bg-primary motion-safe:transition-[padding] motion-safe:duration-200 motion-safe:ease-in-out lg:gap-6 lg:p-6 xl:gap-8 xl:p-8 2xl:flex-row dark:border-bg-primary-dark">
         <div class="my-4 flex max-h-40 flex-col items-center justify-center gap-4 border-none text-center lg:my-0 xl:w-1/5">
           <a href={tool.referral_link ? tool.referral_link : tool.link} class="border-none">
             <img class="max-h-16 w-auto object-contain" src={tool.logo} alt={tool.logo_alt || `${tool.name} logo`} />

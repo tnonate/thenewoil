@@ -6,10 +6,10 @@
     "link": "https://getsession.org/",
     "pros": [
       "[Recently audited](https://getsession.org/blog/session-code-audit)",
-	  "Available on [all operating systems](/criteria#definitions)",
-	  "Available on [F-Droid](https://fdroid.getsession.org/)",
-	  "Decentralized",
-	  "No personal data required to sign up"
+      "Available on [all operating systems](/criteria#definitions)",
+      "Available on [F-Droid](https://fdroid.getsession.org/)",
+      "Decentralized",
+      "No personal data required to sign up"
     ],
     "cons": [
       "Lacks [perfect forward secrecy](https://csrc.nist.gov/glossary/term/perfect_forward_secrecy)",
@@ -23,12 +23,12 @@
     "link": "https://signal.org/",
     "pros": [
       "[Recently audited](https://community.signalusers.org/t/wiki-overview-of-third-party-security-audits/13243)",
-	  "Available on [all operating systems](/criteria#definitions)",
-	  "Usernames can be changed at any time an unlimited number of times",
-	  "[World-renowned security](https://en.wikipedia.org/wiki/Signal_(messaging_app)#Security)"
+      "Available on [all operating systems](/criteria#definitions)",
+      "Usernames can be changed at any time an unlimited number of times",
+      "[World-renowned security](https://en.wikipedia.org/wiki/Signal_(messaging_app)#Security)"
     ],
     "cons": [
-	  "Not available on F-Droid",
+      "Not available on F-Droid",
       "Centralized",
       "Phone number required for signup (can be [VoIP](/guides/less-important/voip))"
     ]
@@ -40,15 +40,13 @@
     "link": "https://simplex.chat/",
     "pros": [
       "[Recently audited](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html)",
-	  "Available on [all operating systems](/criteria#definitions)",
-	  "Available on [F-Droid](https://f-droid.org/packages/chat.simplex.app/)",
+      "Available on [all operating systems](/criteria#definitions)",
+      "Available on [F-Droid](https://f-droid.org/packages/chat.simplex.app/)",
       "Decentralized",
-	  "No data required for signup",
+      "No data required for signup",
       "No user IDs, add contacts via QR code or temporary link"
     ],
-    "cons": [
-      "Still early in development, may be missing features"
-    ]
+    "cons": ["Still early in development, may be missing features"]
   },
   "threema": {
     "name": "Threema",
@@ -57,14 +55,14 @@
     "link": "https://threema.ch/",
     "pros": [
       "[Recently audited](https://threema.ch/en/blog/posts/audit-2020-en)",
-	  "Available on [all operating systems](/criteria#definitions)"
+      "Available on [all operating systems](/criteria#definitions)"
     ],
     "cons": [
-	  "Not available on F-Droid",
+      "Not available on F-Droid",
       "Centralized",
       "Not free",
       "Desktop app must be synced every time",
-	  "Missing mainstream features such as stickers and GIF support"
+      "Missing mainstream features such as stickers and GIF support"
     ]
   }
 }
