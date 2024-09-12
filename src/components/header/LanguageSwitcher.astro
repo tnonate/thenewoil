@@ -1,5 +1,5 @@
 ---
-import { Icon } from "astro-icon";
+import { Icon } from "astro-icon/components";
 import { getLanguageFromUrl, getUrlInLanguage, languages } from "@/utils/i18n";
 
 interface Props {
@@ -17,10 +17,9 @@ const currentLanguage = getLanguageFromUrl(Astro.url);
   <summary
     class={`flex items-center rounded-md bg-white bg-opacity-0 px-5 py-2 transition-all hover:bg-opacity-5 group-open:bg-opacity-[.15] ${summaryClass}`}
   >
-    <Icon pack="mdi" name="web" class="w-7 h-7" role="img" aria-label="Web icon" />
+    <Icon name="mdi:web" class="w-7 h-7" role="img" aria-label="Web icon" />
     <Icon
-      pack="mdi"
-      name="chevron-up"
+      name="mdi:chevron-up"
       class="w-6 h-6 group-open:rotate-180 motion-safe:transition-all motion-safe:duration-200 motion-safe:ease-out"
       role="img"
       aria-label="Dropbown button icon"

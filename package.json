@@ -15,10 +15,11 @@
     "node": ">= 20"
   },
   "devDependencies": {
+    "@iconify-json/mdi": "^1.2.0",
     "@types/node": "^18.11.17",
-    "astro-compress": "^2.2.5",
-    "astro-robots-txt": "^0.3.11",
-    "linkedom": "^0.16.1",
+    "astro-compress": "^2.3.1",
+    "astro-robots-txt": "^1.0.0",
+    "linkedom": "^0.18.4",
     "node-fetch": "^3.3.0",
     "prettier": "^3.1.1",
     "prettier-plugin-astro": "^0.12.3",
@@ -30,14 +31,17 @@
     "typescript": "^4.9.4"
   },
   "dependencies": {
-    "@astrojs/mdx": "^0.19.7",
-    "@astrojs/sitemap": "^1.0.0",
-    "@astrojs/tailwind": "^3.0.1",
-    "@astropub/md": "^0.1.4",
+    "@astrojs/mdx": "^3.1.5",
+    "@astrojs/sitemap": "^3.1.6",
+    "@astrojs/tailwind": "^5.1.0",
+    "@astropub/md": "^1.0.0",
     "@fontsource/roboto": "^4.5.8",
     "@fontsource/roboto-mono": "^4.5.8",
-    "astro": "^2.0.10",
-    "astro-icon": "^0.8.0",
+    "astro": "^4.15.4",
+    "astro-icon": "^1.1.1",
     "tailwindcss": "^3.2.4"
+  },
+  "volta": {
+    "node": "20.17.0"
   }
 }

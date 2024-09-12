@@ -1,5 +1,5 @@
 ---
-import { Icon } from "astro-icon";
+import { Icon } from "astro-icon/components";
 
 import { getLanguageFromUrl, languages } from "@/utils/i18n";
 
@@ -58,15 +58,13 @@ const headerTexts: HeaderTexts = (await import(`../../assets/data/layout/${langu
     >
       <div class="relative flex h-7 w-7 items-center justify-center">
         <Icon
-          pack="mdi"
-          name="menu"
+          name="mdi:menu"
           class="absolute group-open/mobile-menu:-rotate-90 group-open/mobile-menu:opacity-0 transition-all"
           role="img"
           aria-label="Menu icon"
         />
         <Icon
-          pack="mdi"
-          name="chevron-up"
+          name="mdi:chevron-up"
           class="absolute w-7 h-7 rotate-90 group-open/mobile-menu:rotate-0 opacity-0 group-open/mobile-menu:opacity-100 transition-all"
           role="img"
           aria-label="Menu icon"

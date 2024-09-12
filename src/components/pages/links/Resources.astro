@@ -1,6 +1,6 @@
 ---
 import { textToHeadingId } from "@utils/heading";
-import { Icon } from "astro-icon";
+import { Icon } from "astro-icon/components";
 
 interface ResourceItem {
   name: string;
@@ -33,8 +33,7 @@ const headingId = await textToHeadingId({
 
       <span>
         <Icon
-          pack="mdi"
-          name="chevron-up"
+          name="mdi:chevron-up"
           class="w-7 h-7 group-open:rotate-180 motion-safe:transition-all motion-safe:duration-200 motion-safe:ease-out"
           role="img"
           aria-label="Dropbown button icon"
