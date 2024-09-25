@@ -15,82 +15,211 @@ Encrypting your devices is essential to protect them from unauthorized access. *
 ## Enabling Full Disk Encryption With VeraCrypt
 
 1. Select the "System" menu and then "Encrypt System Partition/Drive..."
-<img src="/images/steps/veracrypt-encrypting/01.png" alt="Screenshot" class="max-w-[500px]" />
+
+   <img
+     src="/images/steps/veracrypt-encrypting/01.png"
+     alt="Screenshot"
+     class="max-w-[500px]"
+   />
 
 2. Select "Encrypt a non-system partition/drive".
-<img src="/images/steps/veracrypt-encrypting/02.png" alt="Screenshot" class="max-w-[500px]" />
+
+   <img
+     src="/images/steps/veracrypt-encrypting/02.png"
+     alt="Screenshot"
+     class="max-w-[500px]"
+   />
 
 3. Pick "Normal".
-<img src="/images/steps/veracrypt-encrypting/03.png" alt="Screenshot" class="max-w-[500px]" />
+
+   <img
+     src="/images/steps/veracrypt-encrypting/03.png"
+     alt="Screenshot"
+     class="max-w-[500px]"
+   />
 
 4. Then "Encrypt the Windows system partition".
-<img src="/images/steps/veracrypt-encrypting/04.png" alt="Screenshot" class="max-w-[500px]" />
+
+   <img
+     src="/images/steps/veracrypt-encrypting/04.png"
+     alt="Screenshot"
+     class="max-w-[500px]"
+   />
 
 5. Make sure the algorithms are set to AES and SHA-512
-<img src="/images/steps/veracrypt-encrypting/05.png" alt="Screenshot" class="max-w-[500px]" />
+
+   <img
+     src="/images/steps/veracrypt-encrypting/05.png"
+     alt="Screenshot"
+     class="max-w-[500px]"
+   />
 
 6. Select a [good passphrase](/guides/most-important/passwords).
-<img src="/images/steps/veracrypt-encrypting/06.png" alt="Screenshot" class="max-w-[500px]" />
+
+   <img
+     src="/images/steps/veracrypt-encrypting/06.png"
+     alt="Screenshot"
+     class="max-w-[500px]"
+   />
 
 7. Move your mouse around randomly until the bar at the bottom is full and green, then click "Next".
-<img src="/images/steps/veracrypt-encrypting/07.png" alt="Screenshot" class="max-w-[500px]" />
+
+   <img
+     src="/images/steps/veracrypt-encrypting/07.png"
+     alt="Screenshot"
+     class="max-w-[500px]"
+   />
 
 8. Click "Next".
-<img src="/images/steps/veracrypt-encrypting/08.png" alt="Screenshot" class="max-w-[500px]" />
+
+   <img
+     src="/images/steps/veracrypt-encrypting/08.png"
+     alt="Screenshot"
+     class="max-w-[500px]"
+   />
 
 9. Select a location for the rescue disk.
-<img src="/images/steps/veracrypt-encrypting/09.png" alt="Screenshot" class="max-w-[500px]" />
+
+   <img
+     src="/images/steps/veracrypt-encrypting/09.png"
+     alt="Screenshot"
+     class="max-w-[500px]"
+   />
 
 10. Follow the instructions on this part and store the file and/or USB stick somewhere safe. Even something as simple as a routine update has the potential to go wrong and the only way to recover your data will be to decrypt the drive using this USB.
-<img src="/images/steps/veracrypt-encrypting/10.png" alt="Screenshot" class="max-w-[500px]" />
+
+    <img
+      src="/images/steps/veracrypt-encrypting/10.png"
+      alt="Screenshot"
+      class="max-w-[500px]"
+    />
 
 11. Once the Recovery Disk has been successfully verified, click "Next".
-<img src="/images/steps/veracrypt-encrypting/11.png" alt="Screenshot" class="max-w-[500px]" />
+
+    <img
+      src="/images/steps/veracrypt-encrypting/11.png"
+      alt="Screenshot"
+      class="max-w-[500px]"
+    />
 
 12. Select a Wipe Mode. For most people, I believe 3-pass will offer the best blend of protection and speed. Be aware that the higher the number, the longer this can take (as explained on the next screen).
-<img src="/images/steps/veracrypt-encrypting/12.png" alt="Screenshot" class="max-w-[500px]" />
+
+    <img
+      src="/images/steps/veracrypt-encrypting/12.png"
+      alt="Screenshot"
+      class="max-w-[500px]"
+    />
 
 13. After that, you will be asked to let VeraCrypt test your system to ensure everything is compatible and working properly. When you click "Test", your system will restart and you will be prompted to enter your encryption passphrase before your computer boots up. In most cases, if the test fails, your system will reboot and cancel the operation. In rare cases, you may need to use your Recovery Disk to fix any issues.
-<img src="/images/steps/veracrypt-encrypting/13.png" alt="Screenshot" class="max-w-[500px]" />
+
+    <img
+      src="/images/steps/veracrypt-encrypting/13.png"
+      alt="Screenshot"
+      class="max-w-[500px]"
+    />
 
 14. If the test was successful, VeraCrypt will automatically start after logging in and prompt you to begin the encryption process. Make sure you have made a good [backup](/guides/moderately-important/backups) of your files just to be safe, then click "Encrypt" when ready.
-<img src="/images/steps/veracrypt-encrypting/14.png" alt="Screenshot" class="max-w-[500px]" />
 
-15. VeraCrypt will begin encrypting your system. Depending on your device and the Wipe Mode, this may take a few minutes or a few hours or longer. If at any point you need to pause the encryption - like to shut down your device - you can hit the "Defer" button and safely resume the process at a later date. 
-<img src="/images/steps/veracrypt-encrypting/15.png" alt="Screenshot" class="max-w-[500px]" />
+    <img
+      src="/images/steps/veracrypt-encrypting/14.png"
+      alt="Screenshot"
+      class="max-w-[500px]"
+    />
+
+15. VeraCrypt will begin encrypting your system. Depending on your device and the Wipe Mode, this may take a few minutes or a few hours or longer. If at any point you need to pause the encryption - like to shut down your device - you can hit the "Defer" button and safely resume the process at a later date.
+    <img
+      src="/images/steps/veracrypt-encrypting/15.png"
+      alt="Screenshot"
+      class="max-w-[500px]"
+    />
 
 ## Encrypting External Disks With VeraCrypt
+
 To encrypt external disks - such as backup drives - follow these steps:
 
 1. Select the "Tools" menu and then "Volume Creation Wizard"
-<img src="/images/steps/veracrypt-external-encrypting/01.png" alt="Screenshot" class="max-w-[500px]" />
+
+   <img
+     src="/images/steps/veracrypt-external-encrypting/01.png"
+     alt="Screenshot"
+     class="max-w-[500px]"
+   />
 
 2. Select "Encrypt a non-system partition/drive"
-<img src="/images/steps/veracrypt-external-encrypting/02.png" alt="Screenshot" class="max-w-[500px]" />
+
+   <img
+     src="/images/steps/veracrypt-external-encrypting/02.png"
+     alt="Screenshot"
+     class="max-w-[500px]"
+   />
 
 3. Select "Standard VeraCrypt Volume"
-<img src="/images/steps/veracrypt-external-encrypting/03.png" alt="Screenshot" class="max-w-[500px]" />
+
+   <img
+     src="/images/steps/veracrypt-external-encrypting/03.png"
+     alt="Screenshot"
+     class="max-w-[500px]"
+   />
 
 4. Select "Select Device"
-<img src="/images/steps/veracrypt-external-encrypting/04.png" alt="Screenshot" class="max-w-[500px]" />
+
+   <img
+     src="/images/steps/veracrypt-external-encrypting/04.png"
+     alt="Screenshot"
+     class="max-w-[500px]"
+   />
 
 5. Select the disk and partition you wish to encrypt
-<img src="/images/steps/veracrypt-external-encrypting/05.png" alt="Screenshot" class="max-w-[500px]" />
+
+   <img
+     src="/images/steps/veracrypt-external-encrypting/05.png"
+     alt="Screenshot"
+     class="max-w-[500px]"
+   />
 
 6. Select "Create encrypted volume and format it" (**WARNING**: this will wipe all the data already on your disk)
-<img src="/images/steps/veracrypt-external-encrypting/06.png" alt="Screenshot" class="max-w-[500px]" />
+
+   <img
+     src="/images/steps/veracrypt-external-encrypting/06.png"
+     alt="Screenshot"
+     class="max-w-[500px]"
+   />
 
 7. Select "AES" as the Encryption Algorithm and "SHA-512" as the Hash Algorithm
-<img src="/images/steps/veracrypt-external-encrypting/07.png" alt="Screenshot" class="max-w-[500px]" />
+
+   <img
+     src="/images/steps/veracrypt-external-encrypting/07.png"
+     alt="Screenshot"
+     class="max-w-[500px]"
+   />
 
 8. Verify that the disk size is correct (_Note that it may be slightly smaller than the advertised space. In this example, my USB stick is advertised as a 16GB. This is normal._)
-<img src="/images/steps/veracrypt-external-encrypting/08.png" alt="Screenshot" class="max-w-[500px]" />
+
+   <img
+     src="/images/steps/veracrypt-external-encrypting/08.png"
+     alt="Screenshot"
+     class="max-w-[500px]"
+   />
 
 9. Select a good [password](/guides/most-important/passwords) or passphrase
-<img src="/images/steps/veracrypt-external-encrypting/09.png" alt="Screenshot" class="max-w-[500px]" />
+
+   <img
+     src="/images/steps/veracrypt-external-encrypting/09.png"
+     alt="Screenshot"
+     class="max-w-[500px]"
+   />
 
 10. Answer if you'll need to store large files (such as video) or not
-<img src="/images/steps/veracrypt-external-encrypting/10.png" alt="Screenshot" class="max-w-[500px]" />
+
+    <img
+      src="/images/steps/veracrypt-external-encrypting/10.png"
+      alt="Screenshot"
+      class="max-w-[500px]"
+    />
 
 11. Move your mouse around randomly until the bar at the bottom is full and green, then click "Format."
-<img src="/images/steps/veracrypt-external-encrypting/11.png" alt="Screenshot" class="max-w-[500px]" />
+    <img
+      src="/images/steps/veracrypt-external-encrypting/11.png"
+      alt="Screenshot"
+      class="max-w-[500px]"
+    />

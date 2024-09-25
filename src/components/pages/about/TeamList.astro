@@ -24,7 +24,7 @@ const { members } = Astro.props;
     members.map((member) => {
       return (
         <li
-          class="flex flex-1 list-none flex-col items-center rounded-lg border-4 p-4 border-gradient-secondary border-bg-primary dark:border-bg-primary-dark sm:items-start"
+          class="flex flex-1 list-none flex-col items-center rounded-lg border-4 p-4 border-gradient-secondary border-bg-primary sm:items-start dark:border-bg-primary-dark"
           aria-label="Member"
         >
           <div class="flex flex-col items-center justify-center sm:items-start">
@@ -41,12 +41,7 @@ const { members } = Astro.props;
                 return (
                   <li class="list-none">
                     <a href={link.link} title={link.name}>
-                      <img
-                        class="block h-12 w-12 rounded-sm"
-                        loading="lazy"
-                        alt={link.name}
-                        src={link.icon}
-                      />
+                      <img class="block h-12 w-12 rounded-sm" loading="lazy" alt={link.name} src={link.icon} />
                     </a>
                   </li>
                 );

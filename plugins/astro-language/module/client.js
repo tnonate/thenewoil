@@ -16,7 +16,7 @@ export const transformAllAnchors = async (config) => {
 
   const transformAnchorTasks = anchorElements.map(anchorTransformer);
   const changedAnchorsHrefs = (await Promise.all(transformAnchorTasks)).filter(
-    (href) => Boolean(href)
+    (href) => Boolean(href),
   );
 
   if (config.logChanges)

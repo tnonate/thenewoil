@@ -11,15 +11,15 @@ interface Language {
 }
 
 export const languages = config.languages.sort(
-  (a: Language, b: Language) => a.weight - b.weight
+  (a: Language, b: Language) => a.weight - b.weight,
 );
 export const defaultLanguage = config.languages.find(
-  (lang) => lang.isDefault === true
+  (lang) => lang.isDefault === true,
 );
 
 if (!defaultLanguage)
   throw Error(
-    "A default language needs to be set in the config.json. Add 'isDefault: true' to any language"
+    "A default language needs to be set in the config.json. Add 'isDefault: true' to any language",
   );
 
 export const findLanguage = (language: string): Language | undefined | null => {
@@ -43,7 +43,7 @@ export const getRelativePath = (url: URL) => {
 
 export const getUrlInLanguage = async (
   url: URL,
-  targetLanguage: LanguagesCodes
+  targetLanguage: LanguagesCodes,
 ) => {
   const relativePath = getRelativePath(url);
   const toLanguage = findLanguage(targetLanguage)?.code || defaultLanguage;

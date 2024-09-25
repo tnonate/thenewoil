@@ -2,10 +2,10 @@ name: Validate Caddyfile
 on:
   push:
     paths:
-      - 'caddy/**'
+      - "caddy/**"
   pull_request:
     paths:
-      - 'caddy/**'
+      - "caddy/**"
 
 jobs:
   validate:

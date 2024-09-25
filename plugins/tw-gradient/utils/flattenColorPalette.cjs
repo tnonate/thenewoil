@@ -6,8 +6,8 @@ const flattenColorPalette = (colors) =>
         ? Object.entries(flattenColorPalette(values)).map(([number, hex]) => ({
             [color + (number === "DEFAULT" ? "" : `-${number}`)]: hex,
           }))
-        : [{ [`${color}`]: values }]
-    )
+        : [{ [`${color}`]: values }],
+    ),
   );
 
 module.exports = flattenColorPalette;

@@ -5,7 +5,7 @@ draft: false
 center_content: true
 ---
 
-import { Icon } from "astro-icon";
+import { Icon } from "astro-icon/components";
 import Card from "@components/pages/404/Card.astro";
 import Button from "@components/controls/Button.astro";
 
@@ -19,7 +19,7 @@ import Button from "@components/controls/Button.astro";
 
     <Button href="/" slot="action" variant="contained" color="primary" class="w-full flex justify-center items-center gap-2">
         Go Back Home
-        <Icon pack="mdi" name="house" class="h-7 w-7" />
+        <Icon name="mdi:house" class="h-7 w-7" />
     </Button>
 
 </Card>

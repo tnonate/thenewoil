@@ -31,20 +31,20 @@ const plugin = (options: Options): AstroIntegration => {
           aliases = JSON.parse(aliasFileContent);
         } catch (error) {
           throw Error(
-            `${CONSOLE_TAG} Invalid JSOn in file "${options.aliasFile}"`
+            `${CONSOLE_TAG} Invalid JSOn in file "${options.aliasFile}"`,
           );
         }
 
         if (!Array.isArray(aliases))
           throw Error(
-            `${CONSOLE_TAG} Root element of "${options.aliasFile}" has to be a JSON array`
+            `${CONSOLE_TAG} Root element of "${options.aliasFile}" has to be a JSON array`,
           );
 
         Promise.all(
           aliases.map(async (possibleAlias, i) => {
             if (!possibleAlias.target || !possibleAlias.source)
               return console.warn(
-                `${CONSOLE_TAG} Alias index: ${i} does not have a "target" or a "source"`
+                `${CONSOLE_TAG} Alias index: ${i} does not have a "target" or a "source"`,
               );
             const alias: Alias = possibleAlias;
 
@@ -53,15 +53,15 @@ const plugin = (options: Options): AstroIntegration => {
 
             if (!fileExists(sourceFilepath))
               return console.warn(
-                `${CONSOLE_TAG} File: "${sourceFilepath}" does not exist. To create an alias point to a file that exists`
+                `${CONSOLE_TAG} File: "${sourceFilepath}" does not exist. To create an alias point to a file that exists`,
               );
             if (fileExists(targetFilepath))
               return console.warn(
-                `${CONSOLE_TAG} File: ${targetFilepath} already exists. Cannot overwrite existing file, so I will skip it`
+                `${CONSOLE_TAG} File: ${targetFilepath} already exists. Cannot overwrite existing file, so I will skip it`,
               );
 
             await fs.link(sourceFilepath, targetFilepath);
-          })
+          }),
         );
       },
     },

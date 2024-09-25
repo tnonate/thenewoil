@@ -1,5 +1,5 @@
 ---
-import Button, { ColorKeys } from "@components/controls/Button.astro";
+import Button, { type ColorKeys } from "@components/controls/Button.astro";
 
 interface Props {
   title: string;
@@ -31,7 +31,7 @@ const colorClasses = COLOR_CLASSES[color];
   href={link}
   color={color}
   bgColor="primary"
-  class="font-robotomono sm:hidden w-full flex items-center justify-center h-24 text-sm xs:text-base p-1 xs:p-2"
+  class="flex h-24 w-full items-center justify-center p-1 font-robotomono text-sm xs:p-2 xs:text-base sm:hidden"
 >
   {title}
 </Button>

@@ -1,5 +1,5 @@
 ---
-import { MarkdownHeading } from "astro";
+import type { MarkdownHeading } from "astro";
 
 import DefaultHead from "@components/layout/DefaultHead.astro";
 import Header from "@components/header/Header.astro";
@@ -19,7 +19,7 @@ const { frontmatter, headings } = Astro.props;
 const language = getLanguageFromUrl(Astro.url);
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang={language.code}>
   <head>
     <DefaultHead pageTitle={frontmatter.title} />

@@ -22,7 +22,7 @@ const footerTexts: FooterTexts = (await import(`../../assets/data/layout/${langu
 
 <footer
   data-transparent={String(transparent ?? "false")}
-  class="grid w-full grid-cols-1 items-center justify-center gap-4 bg-secondary p-4 text-secondary-contrast data-[transparent='true']:bg-transparent data-[transparent='true']:text-primary-contrast data-[transparent='true']:dark:text-primary-dark-contrast xs:grid-cols-2 sm:flex sm:gap-20"
+  class="grid w-full grid-cols-1 items-center justify-center gap-4 bg-secondary p-4 text-secondary-contrast data-[transparent='true']:bg-transparent data-[transparent='true']:text-primary-contrast xs:grid-cols-2 sm:flex sm:gap-20 data-[transparent='true']:dark:text-primary-dark-contrast"
 >
   <FooterLink href="https://gitlab.com/thenewoil/website/-/blob/main/LICENSE.md">{footerTexts.license}</FooterLink>
   <FooterLink href="/privacy-policy">{footerTexts.privacy_policy}</FooterLink>

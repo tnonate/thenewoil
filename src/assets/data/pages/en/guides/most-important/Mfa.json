@@ -5,9 +5,13 @@
     "logo_alt": "2FAS logo",
     "link": "https://2fas.com/",
     "pros": [
-       "Available on Android & iOS",
-       "Can sync with Mac via browser extension and shared clipboard (see Cons)"],
-    "cons": ["Not available on F-Droid", "Device sync requires iCloud, data not encrypted even with [Advanced Data Protection](/guides/most-important/mobile-settings)"]
+      "Available on Android & iOS",
+      "Can sync with Mac via browser extension and shared clipboard (see Cons)"
+    ],
+    "cons": [
+      "Not available on F-Droid",
+      "Device sync requires iCloud, data not encrypted even with [Advanced Data Protection](/guides/most-important/mobile-settings)"
+    ]
   },
   "aegis": {
     "name": "Aegis Authenticator",
@@ -25,9 +29,7 @@
     "logo": "/images/logos/bitwarden_auth.png",
     "logo_alt": "Bitwarden Authenticator Logo",
     "link": "https://bitwarden.com/products/authenticator/",
-    "pros": [
-      "Available on Android & iOS"
-    ],
+    "pros": ["Available on Android & iOS"],
     "cons": ["Not available on F-Droid"]
   },
   "ente": {
@@ -36,10 +38,10 @@
     "logo_alt": "ente Authenticator logo",
     "link": "https://ente.io/auth/",
     "pros": [
-       "Available on all operating systems",
-       "Available on [F-Droid](https://f-droid.org/en/packages/io.ente.auth/)",
-	   "No account required (offline mode only)"],
-    "cons": [
-		"ente account required (online sync only)"]
+      "Available on all operating systems",
+      "Available on [F-Droid](https://f-droid.org/en/packages/io.ente.auth/)",
+      "No account required (offline mode only)"
+    ],
+    "cons": ["ente account required (online sync only)"]
   }
 }
