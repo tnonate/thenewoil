@@ -3,8 +3,7 @@
     "name": "ProtonMail",
     "logo": "/images/logos/protonmail.png",
     "logo_alt": "Protonmail Logo",
-    "link": "https://proton.me/mail",
-    "referral_link": "https://go.getproton.me/aff_c?offer_id=7&aff_id=2187",
+    "link": "https://go.getproton.me/aff_c?offer_id=7&aff_id=2187",
     "pros": [
       "[Recently audited](https://protonmail.com/blog/security-audit/)",
       "Based on PGP",

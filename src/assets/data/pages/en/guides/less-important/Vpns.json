@@ -36,8 +36,7 @@
     "name": "Proton VPN",
     "logo": "/images/logos/protonvpn.png",
     "logo_alt": "Proton VPN logo",
-    "referral_link": "https://go.getproton.me/aff_c?offer_id=26&aff_id=2187&url_id=282",
-    "link": "https://protonvpn.com/",
+    "link": "https://go.getproton.me/aff_c?offer_id=26&aff_id=2187&url_id=282",
     "pros": [
       "[Recently audited](https://protonvpn.com/blog/open-source/)",
       "Available on all operating systems",

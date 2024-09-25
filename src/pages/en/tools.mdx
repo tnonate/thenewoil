@@ -1,0 +1,114 @@
+---
+layout: "@layouts/default.astro"
+title: Tools
+draft: false
+---
+
+import Section from "@components/pages/front-page/Section.astro";
+import ProsAndCons from "@components/charts/ProsAndCons.astro";
+import Criterias from "@components/charts/Criterias.astro";
+import Plans from "@components/charts/Plans.astro";
+
+import sections from "@assets/data/pages/en/index/Sections.json";
+import data from "@assets/data/pages/en/guides/most-important/Passwords.json";
+import data2 from "@assets/data/pages/en/guides/most-important/Mfa.json";
+import data3 from "@assets/data/pages/en/guides/most-important/MobileApps.json";
+import data4 from "@assets/data/pages/en/guides/moderately-important/Email.json";
+import data5 from "@assets/data/pages/en/guides/moderately-important/EmailAliasing.json";
+import data6 from "@assets/data/pages/en/guides/most-important/Payments.json";
+import data7 from "@assets/data/pages/en/guides/moderately-important/Backups.json";
+import data8 from "@assets/data/pages/en/guides/less-important/Voip.json";
+import data9 from "@assets/data/pages/en/guides/less-important/Messaging.json";
+import data10 from "@assets/data/pages/en/guides/less-important/Vpns.json";
+
+# Tools
+
+This page is an overview of all the various tools we suggest on this website. For more information on each tool - including how to use it, how to pick a service, and tips & tricks - be sure to click the category title.
+
+<Section>
+
+## [Password Managers](/guides/most-important/passwords)
+
+</Section>
+
+<ProsAndCons data={data} headingLevel={4} />
+
+<Section>
+
+## [Two-Factor Authentication Apps](/guides/most-important/mfa)
+
+</Section>
+
+<ProsAndCons data={data2} headingLevel={4} />
+
+<Section>
+
+## [Replacement Apps for Stock Mobile Apps](/guides/most-important/mobile-apps)
+
+</Section>
+
+<Criterias data={data3} direction="col" />
+
+<Section>
+
+## [Web Browsers](/guides/most-important/browser)
+
+</Section>
+
+Placeholder
+
+<Section>
+
+## [Encrypted Email Providers](/guides/moderately-important/email)
+
+</Section>
+
+<ProsAndCons data={data4} headingLevel={4} />
+
+<Section>
+
+## [Email Aliasing Providers](/guides/moderately-important/email-aliasing)
+
+</Section>
+
+<Plans data={data5} />
+
+<Section>
+
+## [Payment Masking Providers](/guides/moderately-important/payments)
+
+</Section>
+
+<Criterias data={data6} />
+
+<Section>
+
+## [Encrypted Cloud Providers](/guides/moderately-important/backups#privacy-respecting-cloud-backups)
+
+</Section>
+
+<ProsAndCons data={data7} headingLevel={4} />
+
+<Section>
+
+## [Alias Phone Number Providers](/guides/less-important/voip)
+
+</Section>
+
+<ProsAndCons data={data8} headingLevel={4} />
+
+<Section>
+
+## [Encrypted Realtime Messaging](/guides/less-important/messaging)
+
+</Section>
+
+<ProsAndCons data={data9} headingLevel={4} />
+
+<Section>
+
+## [Virtual Private Networks](/guides/less-important/vpns)
+
+</Section>
+
+<ProsAndCons data={data10} headingLevel={4} />

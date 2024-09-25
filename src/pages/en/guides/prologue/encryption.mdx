@@ -38,10 +38,16 @@ Perhaps the biggest drawback of end-to-end encryption is that - if done correctl
 
 </Highlighting>
 
+## Hashing
+
+As you go through your privacy journey, you may sometimes come across the term "hashing." Hashing is a sort of one-way encryption that cannot be reversed. Hashing is useful for a variety of situations. For example, passwords should be hashed before being stored on the server to ensure they cannot be decrypted if the service suffers a data breach. Hashes of programs can also be generated to verify integrity before installing - that the program was not modified or corrupted during download and is legitimate. These days that process is largely automated in most situations - such as downloading and installing updates or apps, but sometimes can (and should) be done manually. Overall hashing isn't a concept you should worry about too much, but it is useful information to have as you may see the word pop up from time to time.
+
 ## Tips & Tricks
 
 - Don't be swayed by jargon like "military grade encryption." This is a meaningless marketing term that has no value or information in it. Check the [privacy policy](https://blog.thenewoil.org/how-to-read-a-privacy-policy) to see what data the service can really access.
 
 - Remember [metadata](/guides/prologue/metadata/). Even if the content itself is safely encrypted, the metadata may be just as revealing. Check the privacy policy to see what data isn't encrypted. Contact the service with questions if you're unsure.
 
-- Be wary of terms like "warant-proof encryption" or other similar terms. This may indicate a "bulletproof" provider - that is, a provider who ignores law enforcement requests. While this may seem like a good thing at first, these services often attract and cater specifically to criminals, meaning it's only a matter of time before they get shut down by law enforcement and your data ends up in an evidence locker.
+* Be wary of terms like "warant-proof encryption" or other similar terms. This may indicate a "bulletproof" provider - that is, a provider who ignores law enforcement requests. While this may seem like a good thing at first, these services often attract and cater specifically to criminals, meaning it's only a matter of time before they get shut down by law enforcement and your data ends up in an evidence locker.
+
+* Be aware that there are _many_ encryption and hashing algorithms available today. Many of them are old and have been deprecated because weaknesses were found (such as MD5 or DES). While it would be impossible for me to list every currently acceptable standard, some of the common ones to look out for include AES, RSA, ECC, SHA256 (or better), TLS 1.3 (or better), and Argon2. ML-KEM, ML-DSA, and SLH-DSA should become more common in coming years as post-quantum encryption standards.

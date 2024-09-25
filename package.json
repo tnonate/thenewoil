@@ -32,13 +32,13 @@
     "typescript": "^5.6.2"
   },
   "dependencies": {
-    "@astrojs/mdx": "^3.1.5",
+    "@astrojs/mdx": "^3.1.7",
     "@astrojs/sitemap": "^3.1.6",
-    "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/tailwind": "^5.1.1",
     "@astropub/md": "^1.0.0",
     "@fontsource/roboto": "^4.5.8",
     "@fontsource/roboto-mono": "^4.5.8",
-    "astro": "^4.15.4",
+    "astro": "^4.15.9",
     "astro-icon": "^1.1.1",
     "tailwindcss": "^3.2.4"
   },
