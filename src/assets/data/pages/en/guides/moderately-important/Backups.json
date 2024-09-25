@@ -3,9 +3,11 @@
     "name": "Filen",
     "logo": "/images/logos/filen.png",
     "logo_alt": "Filen logo",
-    "referral_link": "https://filen.io/r/834a3bd235bca0caa53141f2ebc30438",
-    "link": "https://filen.io/",
-    "pros": ["Includes text chat feature with other users", "Includes notes"],
+    "link": "https://filen.io/r/834a3bd235bca0caa53141f2ebc30438",
+    "pros": [
+      "Includes text chat feature with other users",
+	  "Includes notes"
+    ],
     "cons": [
       "Not audited",
       "Not available in F-Droid",
@@ -16,9 +18,10 @@
     "name": "Mega",
     "logo": "/images/logos/mega.png",
     "logo_alt": "MEGA Logo",
-    "referral_link": "https://mega.nz/aff=UBJLjO7sxZU",
-    "link": "https://mega.io",
-    "pros": ["Includes text, audio, and video chat feature with other users"],
+    "link": "https://mega.nz/aff=UBJLjO7sxZU",
+    "pros": [
+      "Includes text, audio, and video chat feature with other users"
+    ],
     "cons": [
       "Not audited",
       "Not available in F-Droid",
