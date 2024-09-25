@@ -2,7 +2,7 @@ name: Deploy
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch:
 
 concurrency:
@@ -46,4 +46,4 @@ jobs:
           HOST: ${{ secrets.VPS_HOST }}
           KEY: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
           TARGET: "/home/website/thenewoil/"
-          ARGS: '-z -r -v -l -t --delete-after --exclude node_modules/ .git/'
+          ARGS: "-z -r -v -l -t --delete-after --exclude node_modules/ .git/"

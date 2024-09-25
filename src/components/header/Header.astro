@@ -1,5 +1,5 @@
 ---
-import { Icon } from "astro-icon";
+import { Icon } from "astro-icon/components";
 
 import { getLanguageFromUrl, languages } from "@/utils/i18n";
 
@@ -34,7 +34,7 @@ const headerTexts: HeaderTexts = (await import(`../../assets/data/layout/${langu
     </HeaderLink>
   </div>
 
-  <a href={`/${languageCode}`} class="flex h-4 items-center gap-2 text-2xl font-black" tabindex="">
+  <a href={`/${languageCode}`} class="flex h-4 items-center gap-2 text-2xl font-black">
     <p class="w-max break-normal uppercase">The New Oil</p>
     <img
       src="/images/graphics/header.png"
@@ -58,16 +58,14 @@ const headerTexts: HeaderTexts = (await import(`../../assets/data/layout/${langu
     >
       <div class="relative flex h-7 w-7 items-center justify-center">
         <Icon
-          pack="mdi"
-          name="menu"
-          class="absolute group-open/mobile-menu:-rotate-90 group-open/mobile-menu:opacity-0 transition-all"
+          name="mdi:menu"
+          class="absolute transition-all group-open/mobile-menu:-rotate-90 group-open/mobile-menu:opacity-0"
           role="img"
           aria-label="Menu icon"
         />
         <Icon
-          pack="mdi"
-          name="chevron-up"
-          class="absolute w-7 h-7 rotate-90 group-open/mobile-menu:rotate-0 opacity-0 group-open/mobile-menu:opacity-100 transition-all"
+          name="mdi:chevron-up"
+          class="absolute h-7 w-7 rotate-90 opacity-0 transition-all group-open/mobile-menu:rotate-0 group-open/mobile-menu:opacity-100"
           role="img"
           aria-label="Menu icon"
         />

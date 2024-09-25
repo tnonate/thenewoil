@@ -17,7 +17,7 @@ class WriteAsClient {
       `https://write.as/api/collections/${name}`,
       {
         headers: { ...DEFAULT_HEADERS },
-      }
+      },
     );
 
     const response = (await rawResponse.json()) as CollectionResponse;
@@ -26,14 +26,14 @@ class WriteAsClient {
 
   async FetchCollectionPage(
     collectionName: string,
-    page: number
+    page: number,
   ): Promise<number | [CollectionMeta, Post[]]> {
     try {
       const rawResponse = await fetch(
         `https://write.as/api/collections/${collectionName}/posts?body=html&page=${page}`,
         {
           headers: { ...DEFAULT_HEADERS },
-        }
+        },
       );
 
       if (rawResponse.status !== 200) {

@@ -25,14 +25,29 @@ While I don't think there is a perfect solution in this space, I personally reco
   alt="ublock logo alt"
   class="float-left mx-6 w-24"
 />
-**If you decide to go with Brave, you don't need to add any additional extensions**
-(except for the ones in the next paragraph if you decide). **If you decide to go
-with Firefox, you should install [uBlock Origin](https://ublockorigin.com/)**, a
-powerful, lightweight ad- and tracker-blocker. Malicious, fake ads designed to scam
-you or trick you into downloading malware (called "malvertising") have become such
-a serious problem that even the FBI [recommends](https://techcrunch.com/2022/12/22/fbi-ad-blocker/)
-that you use an ad-blocker. Officially, uBlock Origin is ready for use "out of the
-box." However, there are a couple of filters I recommend enabling in the "Filter lists" tab of the settings to improve the protections and convenience it has to offer. I recommend enabling every filter under the "Privacy" section, and every filter except for "EasyList - Notifications" under the "Annoyances > EasyList - Annoyances" section. Under the privacy section, these filters will block website's attempts to probe your local network and strip the tracking portion of links when you go to share them. The Annoyances filters will block various pop-ups that you may frequently encounter on various websites including newsletter join forms, cookie consent banners, chat bots, social media share suggestions, and more. You may feel tempted to add other filters. This is personal preference, but beware that adding additional filters may cause breakage on some websites. Furthermore, some people suggest that blocking additional content that other users are not blocking may make you easier to fingerprint.
+**If you decide to go with Brave, you don't need to add any additional
+extensions** (except for the ones in the next paragraph if you decide). **If you
+decide to go with Firefox, you should install [uBlock
+Origin](https://ublockorigin.com/)**, a powerful, lightweight ad- and
+tracker-blocker. Malicious, fake ads designed to scam you or trick you into
+downloading malware (called "malvertising") have become such a serious problem
+that even the FBI
+[recommends](https://techcrunch.com/2022/12/22/fbi-ad-blocker/) that you use an
+ad-blocker. Officially, uBlock Origin is ready for use "out of the box."
+However, there are a couple of filters I recommend enabling in the "Filter
+lists" tab of the settings to improve the protections and convenience it has to
+offer. I recommend enabling every filter under the "Privacy" section, and every
+filter except for "EasyList - Notifications" under the "Annoyances > EasyList -
+Annoyances" section. Under the privacy section, these filters will block
+website's attempts to probe your local network and strip the tracking portion of
+links when you go to share them. The Annoyances filters will block various
+pop-ups that you may frequently encounter on various websites including
+newsletter join forms, cookie consent banners, chat bots, social media share
+suggestions, and more. You may feel tempted to add other filters. This is
+personal preference, but beware that adding additional filters may cause
+breakage on some websites. Furthermore, some people suggest that blocking
+additional content that other users are not blocking may make you easier to
+fingerprint.
 
 <img
   src="/images/logos/snowflake.png"
@@ -40,15 +55,16 @@ box." However, there are a couple of filters I recommend enabling in the "Filter
   class="float-left mx-6 w-24"
 />
 There are two additional extensions that I think are worth adding if you feel so
-inclined. The first is your [password manager's](/guides/most-important/passwords)
-official extension. Many password managers offer browser extensions to help make
-logging in easy and safe. There are numerous advantages to these, like protection
-against phishing and keyloggers, and as such I consider these okay to install if
-you want to. The other is [Snowflake](https://snowflake.torproject.org/) (this is
-optionally included in Brave, see the recommended settings below). This is a project
-to help certain internet users in foreign, repressive countries bypass censorship.
-This should not cause any kind of legal risk to you. Both of these extensions are
-optional, but I believe they are safe to use.
+inclined. The first is your [password
+manager's](/guides/most-important/passwords) official extension. Many password
+managers offer browser extensions to help make logging in easy and safe. There
+are numerous advantages to these, like protection against phishing and
+keyloggers, and as such I consider these okay to install if you want to. The
+other is [Snowflake](https://snowflake.torproject.org/) (this is optionally
+included in Brave, see the recommended settings below). This is a project to
+help certain internet users in foreign, repressive countries bypass censorship.
+This should not cause any kind of legal risk to you. Both of these extensions
+are optional, but I believe they are safe to use.
 
 **I strongly advise against installing any other extensions unless absolutely necessary.** The more extensions you install, the more easily your browser can be fingerprinted, making it easier to track you across the web despite any other privacy-enhancing changes you make to your browser or browsing habits. They also present a serious [security risk](https://techxplore.com/news/2023-09-issue-chrome-extensions-access-private.html) as extensions typically have advanced privileges that allow them to modify the web page, read data, and other necessary functions that could be abused for malicious purposes.
 
@@ -132,12 +148,36 @@ _2: There is malware capable of swiping data stored in your browser, including h
   alt="mullvad browser logo"
   class="float-left mx-6 w-24"
 />
-While the [Mullvad Browser](https://mullvad.net/en/browser) technically meets the criteria to be listed as an official recommendation here, I list it as an "honorable mention" for one reason: usability. The Mullvad Browser is the result of a collaboration between [Mullvad VPN](/guides/less-important/vpns) and [The Tor Project](###Tor-Browser) and is ultimately based on Firefox. The Mullvad Browser is basically "[the Tor Browser](/guides/most-important/browser/#tor-browser) without Tor." It attempts to make all users look the same by applying the same settings to every user, thus defeating browser fingerprinting (please note it is recommended to use Mullvad Browser with a VPN). Furthermore, the Mullvad Browser offers a number of "hardening" [features](https://mullvad.net/en/browser/hard-facts) that make it more private and secure than regular Firefox. However, these changes may come at the cost of some possible site breakage from time to time, including breaking certain security features that I encourage (like the use of [hardware security tokens](/guides/most-important/mfa/), for example). I strongly recommend Mullvad Browser as a daily browser - in most cases, it will work excellently with few issues - however my advice to keep a backup browser (at the bottomo of this page) is particularly salient if you choose to do so. 
+While the [Mullvad Browser](https://mullvad.net/en/browser) technically meets
+the criteria to be listed as an official recommendation here, I list it as an
+"honorable mention" for one reason: usability. The Mullvad Browser is the result
+of a collaboration between [Mullvad VPN](/guides/less-important/vpns) and [The
+Tor Project](###Tor-Browser) and is ultimately based on Firefox. The Mullvad
+Browser is basically "[the Tor
+Browser](/guides/most-important/browser/#tor-browser) without Tor." It attempts
+to make all users look the same by applying the same settings to every user,
+thus defeating browser fingerprinting (please note it is recommended to use
+Mullvad Browser with a VPN). Furthermore, the Mullvad Browser offers a number of
+"hardening" [features](https://mullvad.net/en/browser/hard-facts) that make it
+more private and secure than regular Firefox. However, these changes may come at
+the cost of some possible site breakage from time to time, including breaking
+certain security features that I encourage (like the use of [hardware security
+tokens](/guides/most-important/mfa/), for example). I strongly recommend Mullvad
+Browser as a daily browser - in most cases, it will work excellently with few
+issues - however my advice to keep a backup browser (at the bottomo of this
+page) is particularly salient if you choose to do so.{" "}
 
 ### Tor Browser
 
 <img src="/images/logos/tor.png" alt="tor logo" class="float-left mx-6 w-24" />
-Between the extensions and the settings changes suggested on this page, you will greatly reduce the ability of websites to track you as you go from site to site. However, it should be noted that browser fingerprinting - one of the most common forms of online tracking - is incredibly complex and ever evolving. While these changes have dramatically reduced your fingerprint, you should not assume - as with any of the advice I give on this site - that you are totally invisible or untrackable. If you want to achieve maximum privacy and/or anonymity, consider using the [Tor Browser](https://www.torproject.org/download).
+Between the extensions and the settings changes suggested on this page, you will
+greatly reduce the ability of websites to track you as you go from site to site.
+However, it should be noted that browser fingerprinting - one of the most common
+forms of online tracking - is incredibly complex and ever evolving. While these
+changes have dramatically reduced your fingerprint, you should not assume - as
+with any of the advice I give on this site - that you are totally invisible or
+untrackable. If you want to achieve maximum privacy and/or anonymity, consider
+using the [Tor Browser](https://www.torproject.org/download).
 
 The Tor browser is a somewhat common daily browser among privacy enthusiasts for a few reasons. If you're unfamiliar with Tor, check out my [Tor Crash Course](https://apertatube.net/w/84BiWbkzvDFHfv4QkaiTSu) video. In a nutshell, the Tor Browser is a hardened version of Firefox with a number of changes that make it extra resilient against tracking. It attempts to make everyone look the same, thus making tracking harder. It further accomplishes this by routing all your traffic through several relays before arriving at the destination website. All these changes add up to make Tor users as anonymous as possible in the modern era, with a few caveats. **Using the Tor Browser as your main browser is a great idea,** but keep in mind that many legitimate websites such as banking and e-commerce sites block known Tor addresses to prevent abuse and fraud, so **you'll want to keep a backup browser installed** for when that happens. Note that using the Tor Browser in a truly, 100% anonymous way is incredibly difficult and requires very intentional browsing habits, so don't do anything illegal. Finally, because all nodes are volunteer-run and therefore work on an "honor system," be sure to check that any site you login or transfer personal data across is using HTTPS (the lock icon at the beginning of the address bar) and is the actual site and not a fake phishing site designed to look like the real thing.
 

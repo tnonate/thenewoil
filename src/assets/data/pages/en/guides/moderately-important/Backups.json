@@ -5,13 +5,10 @@
     "logo_alt": "Filen logo",
     "referral_link": "https://filen.io/r/834a3bd235bca0caa53141f2ebc30438",
     "link": "https://filen.io/",
-    "pros": [
-      "Includes text chat feature with other users",
-	  "Includes notes"
-    ],
+    "pros": ["Includes text chat feature with other users", "Includes notes"],
     "cons": [
       "Not audited",
-	  "Not available in F-Droid",
+      "Not available in F-Droid",
       "Concerns have been [raised](https://github.com/privacyguides/privacyguides.org/pull/345#issuecomment-976415846) about their encryption implementation"
     ]
   },
@@ -21,12 +18,10 @@
     "logo_alt": "MEGA Logo",
     "referral_link": "https://mega.nz/aff=UBJLjO7sxZU",
     "link": "https://mega.io",
-    "pros": [
-      "Includes text, audio, and video chat feature with other users"
-    ],
+    "pros": ["Includes text, audio, and video chat feature with other users"],
     "cons": [
       "Not audited",
-	  "Not available in F-Droid",
+      "Not available in F-Droid",
       "[Research](https://arstechnica.com/information-technology/2022/06/mega-says-it-cant-decrypt-your-files-new-poc-exploit-shows-otherwise/) suggests that Mega's code is very sloppy and convoluted, raising the risk of vulnerabilities",
       "Mega is [alleged](https://gitlab.com/thenewoil/website/-/issues/79) to have been involved in drafting anti-privacy legislation in the EU (unproven)"
     ]
@@ -38,7 +33,7 @@
     "link": "https://proton.me/drive",
     "pros": [
       "Includes ecosystem (VPN, Mail, calendar, password manager)",
-	  "Recently [audited](https://proton.me/blog/security-audit-all-proton-apps)"
+      "Recently [audited](https://proton.me/blog/security-audit-all-proton-apps)"
     ],
     "cons": [
       "Apps only for Android, iOS, Mac, & Windows. Web-only on Linux",

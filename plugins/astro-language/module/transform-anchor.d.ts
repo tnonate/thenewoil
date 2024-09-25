@@ -9,11 +9,11 @@ export interface TransformerConfig {
 }
 
 export type AnchorTransformer = (
-  anchor: HTMLAnchorElement
+  anchor: HTMLAnchorElement,
 ) => Promise<string | undefined>;
 
 export type CreateAnchorTransformer = (
-  config: TransformerConfig
+  config: TransformerConfig,
 ) => AnchorTransformer;
 
 declare const createAnchorTransformer: CreateAnchorTransformer;

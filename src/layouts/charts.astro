@@ -3,9 +3,8 @@ import DefaultHead from "@components/layout/DefaultHead.astro";
 import Header from "@components/header/Header.astro";
 import Footer from "@components/footer/Footer.astro";
 import Sidebar from "@components/guides/sidebar/Sidebar.astro";
-import Actions from "@components/guides/actions/Actions.astro";
 import { getLanguageFromUrl } from "@/utils/i18n";
-import { Icon } from "astro-icon";
+import { Icon } from "astro-icon/components";
 
 interface Props {
   frontmatter: {
@@ -18,7 +17,7 @@ const { frontmatter } = Astro.props;
 const language = getLanguageFromUrl(Astro.url);
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang={language.code}>
   <head>
     <DefaultHead pageTitle={frontmatter.title} />
@@ -28,7 +27,7 @@ const language = getLanguageFromUrl(Astro.url);
     <Header />
     <div class="flex flex-1 flex-col overflow-auto lg:flex-row">
       <details
-        class="group/sidebar-mobile flex flex-col items-center bg-tertiary py-4 shadow drop-shadow-sm dark:bg-tertiary-dark lg:hidden"
+        class="group/sidebar-mobile flex flex-col items-center bg-tertiary py-4 shadow drop-shadow-sm lg:hidden dark:bg-tertiary-dark"
       >
         <summary
           class="mx-4 flex items-center justify-center rounded-lg border-2 border-black border-opacity-10 p-4 text-lg font-bold transition-all group-open/sidebar-mobile:border-opacity-20 dark:border-white/[var(--tw-border-opacity)]"
@@ -36,7 +35,7 @@ const language = getLanguageFromUrl(Astro.url);
           {frontmatter.title}
           <Icon
             name="mdi:chevron-up"
-            class="w-6 h-6 group-open/sidebar-mobile:rotate-180 transition-all"
+            class="h-6 w-6 transition-all group-open/sidebar-mobile:rotate-180"
             role="img"
             aria-label="Dropbown button icon"
           />
