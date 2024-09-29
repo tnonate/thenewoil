@@ -9,7 +9,7 @@ interface Props {
 const { name, link, source, description } = Astro.props;
 ---
 
-<li class="w-full list-none rounded-lg bg-primary dark:bg-primary-dark py-0 sm:flex-1 lg:flex-auto" aria-label="Sponsor">
+<li class="w-full list-none rounded-lg py-0 sm:flex-1 lg:flex-auto" aria-label="Sponsor">
   <a href={link} target="_blank" class="align-center flex flex-col flex-wrap items-center justify-end gap-2 p-6">
     <img class="max-w-40 object-contain motion-safe:transition-all" loading="lazy" src={source} alt={`${name} logo`} />
     <p aria-label="Name" class="text-lg font-semibold" aria-label="Name">{name}</p>
