@@ -3,9 +3,18 @@ import type { GuidePage, GuideSectionPage } from "@/types/guides";
 import { getLanguageFromUrl } from "@/utils/i18n";
 
 import SidebarSectionDropdown from "./SidebarSectionDropdown.astro";
+import Sponsor from "./Sponsor.astro";
+import SponsorData from "@assets/data/pages/en/index/Sponsors.json";
 
 interface Props {
   class: string;
+}
+
+interface SponsorDataItem {
+  name: string;
+  link: string;
+  source: string;
+  description: string;
 }
 
 const { class: className } = Astro.props;
@@ -19,7 +28,7 @@ const sections = allGuides
 
 <aside
   aria-label="Guides navigation"
-  class={`flex flex-col absolute w-full lg:w-1/4 lg:static right-0 lg:right-auto overflow-auto bg-tertiary dark:bg-tertiary-dark py-4 font-robotomono ${className}`}
+  class={`flex flex-col absolute w-full lg:w-1/4 lg:static right-0 px-4 lg:right-auto overflow-auto bg-tertiary dark:bg-tertiary-dark py-4 font-robotomono ${className}`}
 >
   {
     sections.map((section) => {
@@ -29,5 +38,18 @@ const sections = allGuides
 
       return <SidebarSectionDropdown section={section as GuideSectionPage} sectionPages={childPages as GuidePage[]} />;
     })
+  }
+
+  {
+    SponsorData.length > 0 && (
+      <>
+        <div class="w-full pt-8 text-center text-lg font-semibold">Sponsors</div>
+        <ul class="flex w-full flex-wrap justify-center gap-4 p-0 py-4" aria-label="Sponsors">
+          {SponsorData.map((item: SponsorDataItem) => {
+            return <Sponsor name={item.name} source={item.source} description={item.description} link={item.link} />;
+          })}
+        </ul>
+      </>
+    )
   }
 </aside>
