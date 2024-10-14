@@ -30,7 +30,7 @@ There are a number of open-source options for routers that will take even a smal
 
 ## Network Best Practices
 
-Be sure to change any default passwords, especially the default password to log in to the router and the default password of your SSID (especially if you choose not to change the SSID itself). See my page on [passwords](/guides/most-important/passwords) for more information on what makes a good password and how to remember them.
+Be sure to change any default passwords, especially the default password to log in to the router and the default password of your SSID (especially if you choose not to change the SSID itself). See my page on [passwords](/guides/most-important/passwords) for more information on what makes a good password and how to remember them. I recommend using a passphrase (five or more randomly chosen words) insead of a password. It will be just as strong as a password, but significantly easier to share. (_Tip_: use a QR-code generating website such as [this one](https://www.qr-code-generator.com/) to generate a QR code that your guests can simply scan with their device's camera to instantly and easily connect to the guest network.)
 
 If your router offers multiple encryption options for your WiFi, be sure to pick "WPA3" with "AES" and "TKIP" if available. WPA3 a relatively new protocol, so your router may not offer it. If not, "WPA2" should be available. Avoid WPA and WEP if offered.
 
@@ -38,7 +38,17 @@ Be sure to create separate VLANs (or subnets, if your router doesn't offer VLANs
 
 For your SSID, it makes no real difference if you choose to hide it or not. Even a relatively unskilled attacker can easily scan for and find hidden networks. I do, however, recommend that you avoid an SSID with any identifying information such as "Smith House" or "Apt23B." (For the record, this alone will not stop a dedicated stalker, but there's no need to just hand out that information to everyone unsolicited.)
 
-For your guest WiFi, I recommend using a passphrase (five or more randomly chosen words) insead of a password. It will be just as strong as a password, but significantly easier to share. (_Tip_: use a QR-code generating website such as [this one](https://www.qr-code-generator.com/) to generate a QR code that your guests can simply scan with their device's camera to instantly and easily connect to the guest network.)
+### Guest WiFi
+
+Be sure to set up a guest WiFi network and ask any guests to use that network instead of your normal one. You don't know what they do with their devices or how secure they may or may not be. Most routers offer a one-click "Guest WiFi" setting that can be enabled with easily set up an isolated network your guests can use for this purpose. 
+
+Be sure to give the guest WiFi network a separate password from your regular home WiFi network to ensure nobody accidentally ends up on the wrong network.
+
+Some routers allow you to set VPNs or other security features on the guest WiFi. This may not be a bad idea, but guests may suddenly find themselves raising additional security flags with the various apps and services they use due to suddenly using a VPN when they never have before. This could result in being signed out, having their accounts locked (and needing to re-verify before having them unlocked), or getting additional CAPTCHAs when using the internet. Be mindful of this before adding a VPN to the guest network.
+
+If your router doesn't offer VLANs or subnets (or you're not comfortable setting them up yourself), the guest WiFi could also double as an IoT network to put all your IoT and less secured devices on. This is especially practical if you don't have guests over very often and the risk of sharing devices on a relatively risky network like that is minimal.
+
+As a last resort, you could also buy a cheap router and plug it in to your main router and use that as a guest or IoT router. This is a user-friendly but more costly way to accomlish the same task.
 
 ## Behind-the-Scenes Best Practices
 
@@ -48,7 +58,7 @@ I recommend putting a [VPN](/guides/less-important/vpns) on your router. This wi
 
 If you are not using a VPN on your router - or if the VPN setup instructions did not specify a [DNS resolver](/guides/prologue/communication#dns) to use - I suggest adding an encrypted resolver of your choice. [Privacy Guides](https://www.privacyguides.org/en/dns/) offers an excellent list of choices.
 
-Be sure to enable any firewalls if they are not enabled and to disable Universal Plug-and-Play (sometimes abbreviated "UPnP") as this setting is frequently abused by malicious actors to plant malware and compromise your network.
+Be sure to enable any <span title="A network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.">firewalls</span> if they are not enabled and to disable Universal Plug-and-Play (sometimes abbreviated "UPnP") as this setting is frequently abused by malicious actors to plant malware and compromise your network.
 
 Disable WPS (WiFi Protected Setup) if it's available. This is the feature where you push a button on the router and it adds new devices automatically. This feature may be tempting and easy to use, but it's also extremely easy to abuse. Disabling it will dramatically secure your network.
 
