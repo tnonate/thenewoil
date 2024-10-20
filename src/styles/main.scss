@@ -80,11 +80,16 @@
     @apply font-medium;
   }
 
+  main a,
+  main dfn {
+    @apply underline underline-offset-2 decoration-2 p-0 transition-opacity hover:opacity-75;
+  }
+
   main a {
-    @apply underline underline-offset-2 decoration-2 decoration-indigo-500 p-0 transition-opacity hover:opacity-75 active:opacity-60;
+    @apply decoration-indigo-500 active:opacity-60;
   }
 
   main dfn {
-    @apply underline underline-offset-2 decoration-2 decoration-blue-400 hover:opacity-75 transition-opacity;
+    @apply decoration-blue-400;
   }
 }
