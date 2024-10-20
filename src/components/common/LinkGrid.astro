@@ -25,8 +25,8 @@ const { items } = Astro.props;
       return (
         <li class="flex list-none" title={item.not_encouraged ? "Not encouraged" : ""}>
           <Container
-            class={`flex flex-1 items-center gap-4 rounded-lg border-4 p-4 border-bg-primary dark:border-bg-primary-dark ${
-              item.not_encouraged ? "border-gradient-warning" : "border-gradient-secondary"
+            class={`flex flex-1 items-center gap-4 decoration-blue-400 rounded-lg border-4 p-4 border-bg-primary dark:border-bg-primary-dark ${
+              item.not_encouraged ? "border-gradient-warning decoration-red-400" : "border-gradient-secondary"
             }`}
             href={!hasSubLink && item.link}
           >
@@ -41,17 +41,17 @@ const { items } = Astro.props;
                 class="aspect-square h-auto w-full object-contain"
               />
             </PossibleLink>
-            <div class="flex w-fit flex-col justify-center">
+            <div class="flex w-fit flex-col justify-center decoration-inherit">
               <PossibleLink
                 href={hasSubLink && item.link}
-                class="border-none text-base font-medium motion-safe:transition-all xs:text-lg sm:break-normal sm:text-xl"
+                class="border-none text-base font-medium motion-safe:transition-all decoration-inherit xs:text-lg sm:break-normal sm:text-xl"
               >
                 {item.name}
               </PossibleLink>
               {item.sublink && item.subtext && (
                 <a
                   href={item.sublink}
-                  class="w-fit text-primary-contrast text-opacity-80 dark:text-primary-dark-contrast dark:text-opacity-80"
+                  class="w-fit text-primary-contrast text-opacity-80 decoration-inherit dark:text-primary-dark-contrast dark:text-opacity-80"
                 >
                   {/* In the built output Astro does not preserve the whitespace, hence this workaround */}
                   {item.subtext.split("\n").map((line) => (

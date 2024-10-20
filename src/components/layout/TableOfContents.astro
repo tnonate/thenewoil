@@ -21,7 +21,7 @@ const { headings } = Astro.props;
             style={{ marginLeft: heading.depth !== 2 ? `${(heading.depth - 2) * 2}rem` : undefined }}
           >
             <a
-              class="border-gradient-primary border-bg-tertiary hover:border-b-4 dark:border-bg-tertiary-dark"
+              class="underline-offset-2 decoration-indigo-500 decoration-2 hover:underline hover:opacity-75"
               href={`#${heading.slug}`}
             >
               {heading.text}
@@ -57,7 +57,7 @@ const { headings } = Astro.props;
             style={{ marginLeft: heading.depth !== 2 ? `${(heading.depth - 2) * 2}rem` : undefined }}
           >
             <a
-              class="border-gradient-primary border-bg-tertiary hover:border-b-4 dark:border-bg-tertiary-dark"
+              class="underline-offset-2 decoration-indigo-500 decoration-2 hover:underline hover:opacity-75"
               href={`#${heading.slug}`}
             >
               {heading.text}
