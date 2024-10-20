@@ -10,15 +10,15 @@
   *,
   *::after,
   *::before {
-    @apply box-border leading-7;
+    @apply leading-7;
   }
 
   summary {
     @apply cursor-pointer list-none;
   }
 
-  details > summary::-webkit-details-marker,
-  details > summary::marker {
+  details>summary::-webkit-details-marker,
+  details>summary::marker {
     width: 0;
     height: 0;
     display: none;
@@ -27,6 +27,7 @@
 
   html {
     height: 100vh;
+
     @supports (height: 100dvh) {
       height: 100dvh;
     }
@@ -79,7 +80,11 @@
     @apply font-medium;
   }
 
-  :where(main a) {
-    @apply border-b-2 border-transparent bg-origin-border p-0 text-inherit no-underline transition-opacity border-gradient-primary border-bg-primary hover:opacity-75 active:opacity-60 dark:border-bg-primary-dark;
+  main a {
+    @apply underline underline-offset-2 decoration-2 decoration-indigo-500 p-0 transition-opacity hover:opacity-75 active:opacity-60;
+  }
+
+  main dfn {
+    @apply underline underline-offset-2 decoration-2 decoration-blue-400 hover:opacity-75 transition-opacity;
   }
 }
