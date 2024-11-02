@@ -33,6 +33,15 @@ import languagePlugin from "./plugins/astro-language";
 export default defineConfig({
   site: "https://thenewoil.org",
   outDir: "./www",
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          api: "modern-compiler",
+        },
+      },
+    },
+  },
   integrations: [
     tailwind({
       applyBaseStyles: false,
