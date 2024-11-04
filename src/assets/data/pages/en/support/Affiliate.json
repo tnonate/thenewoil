@@ -3,13 +3,13 @@
     "name": "Ente",
     "link": "https://ente.io",
     "img": "/images/logos/ente.png",
-    "subtext": "Photo storage. Referral code: FDVPU2"
+    "subtext": "Encrypted Photo storage. Referral code: FDVPU2"
   },
   {
     "name": "Filen",
     "link": "https://filen.io/r/834a3bd235bca0caa53141f2ebc30438",
     "img": "/images/logos/filen.png",
-    "subtext": "Cloud storage"
+    "subtext": "Encrypted Cloud storage"
   },
   {
     "name": "Hushed",
@@ -21,7 +21,7 @@
     "name": "Mega",
     "link": "https://mega.nz/aff=UBJLjO7sxZU",
     "img": "/images/logos/mega.png",
-    "subtext": "Cloud storage"
+    "subtext": "Encrypted Cloud storage"
   },
   {
     "name": "Nitrokey",
@@ -45,7 +45,7 @@
     "name": "Proton",
     "link": "https://go.getproton.me/aff_c?offer_id=26&aff_id=2187&url_id=282",
     "img": "/images/logos/proton.png",
-    "subtext": "Email, VPN, Cloud Storage, Password Manager, & Calendar"
+    "subtext": "Encrypted Email, VPN, Cloud Storage, Password Manager, & Calendar"
   },
   {
     "name": "Redact.Dev",
@@ -59,5 +59,11 @@
     "link": "https://simplelogin.io/?slref=thenewoil",
     "img": "/images/logos/simplelogin.png",
     "subtext": "Email address masking service"
+  },
+  {
+    "name": "Tuta",
+    "link": "https://tuta.com/the-new-oil",
+    "img": "/images/logos/tuta.png",
+    "subtext": "Encrypted Email & Calendar"
   }
 ]
