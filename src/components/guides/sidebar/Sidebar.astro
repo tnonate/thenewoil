@@ -1,10 +1,10 @@
 ---
-import type { GuidePage, GuideSectionPage } from "@/types/guides";
 import { getLanguageFromUrl } from "@/utils/i18n";
 
 import SidebarSectionDropdown from "./SidebarSectionDropdown.astro";
 import Sponsor from "./Sponsor.astro";
 import SponsorData from "@assets/data/pages/en/index/Sponsors.json";
+import { getGuidePages, type GuidePageFile, type GuideSectionPageFile } from "@/guides";
 
 interface Props {
   class: string;
@@ -19,7 +19,7 @@ interface SponsorDataItem {
 
 const { class: className } = Astro.props;
 const language = getLanguageFromUrl(Astro.url);
-const allGuides = (await Astro.glob("../../../pages/*/guides/*/*")) as GuidePage[];
+const allGuides = getGuidePages();
 
 const sections = allGuides
   .filter((page) => page.frontmatter.section_weight && page.url?.includes(language.code + "/guides"))
@@ -36,7 +36,12 @@ const sections = allGuides
         .filter((page) => page.url?.includes(section.url!))
         .sort((a, b) => a.frontmatter.weight - b.frontmatter.weight);
 
-      return <SidebarSectionDropdown section={section as GuideSectionPage} sectionPages={childPages as GuidePage[]} />;
+      return (
+        <SidebarSectionDropdown
+          section={section as GuideSectionPageFile}
+          sectionPages={childPages as GuidePageFile[]}
+        />
+      );
     })
   }
 
