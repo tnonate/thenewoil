@@ -5,9 +5,15 @@
       "path": "./plugins/tsconfig.json"
     }
   ],
-  "extends": "./typings/configs/tsconfig.node.json",
   "compilerOptions": {
     "composite": true,
-    "tsBuildInfoFile": "./config.tsbuildinfo"
+    "tsBuildInfoFile": "./config.tsbuildinfo",
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "lib": ["ESNext"]
   }
 }
