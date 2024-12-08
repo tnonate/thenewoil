@@ -1,12 +1,12 @@
 import path from "path";
 import fs from "fs/promises";
+import { fileURLToPath } from "url";
 
-import type { AstroIntegration, RouteData } from "astro";
+import type { AstroIntegration } from "astro";
 import { HTMLAnchorElement, HTMLElement, parseHTML } from "linkedom";
 
 import { createAnchorTransformer } from "./module/transform-anchor";
 import { packageDir } from "./utils/packager";
-import { fileURLToPath } from "url";
 
 const PLUGIN_NAME = "astro-language-plugin";
 const CONSOLE_TAG = "🌐 Language-plugin: ";
