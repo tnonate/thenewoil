@@ -1,35 +1,22 @@
 ---
-import type { MDXInstance } from "astro";
-
-import type { RequiredKey } from "@/types/key-utils";
 import { getLanguageFromUrl } from "@/utils/i18n";
 import { fuzzyCompareUrl } from "@/utils/url";
 
 import ActionLink from "./ActionLink.astro";
-
+import { getGuidePages, type GuidePageFile, type GuideSectionPageFile } from "@/guides";
 const language = getLanguageFromUrl(Astro.url);
 
 interface ActionTexts {
   next: string;
   previous: string;
 }
-interface GuidePageFrontMatter {
-  section_weight?: number;
-  weight: number;
-}
 
-type GuidePage = MDXInstance<GuidePageFrontMatter>;
-type GuideSectionPage = MDXInstance<RequiredKey<GuidePageFrontMatter, "section_weight">>;
-
-const guides: GuidePage[] = [];
-
-const allGuides = (await Astro.glob("../../../pages/*/guides/*/*")).filter(
-  (page: GuidePage) => page.url
-) as GuidePage[];
+const guides: GuidePageFile[] = [];
+const allGuides = getGuidePages();
 
 const sections = allGuides
   .filter((page) => page.frontmatter.section_weight && page.url?.includes(language.code + "/guides"))
-  .sort((a, b) => b.frontmatter.section_weight! - a.frontmatter.section_weight!) as GuideSectionPage[];
+  .sort((a, b) => b.frontmatter.section_weight! - a.frontmatter.section_weight!) as unknown as GuideSectionPageFile[];
 
 sections.forEach((section) => {
   const sectionPages = allGuides

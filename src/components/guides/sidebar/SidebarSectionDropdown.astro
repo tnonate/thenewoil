@@ -1,13 +1,13 @@
 ---
 import { Icon } from "astro-icon/components";
 
-import type { GuidePage, GuideSectionPage } from "@/types/guides";
 import { fuzzyCompareUrl } from "@/utils/url";
 import SidebarPagelink from "./SidebarPageLink.astro";
+import type { GuidePageFile, GuideSectionPageFile } from "@/guides";
 
 interface Props {
-  section: GuideSectionPage;
-  sectionPages: GuidePage[];
+  section: GuideSectionPageFile;
+  sectionPages: GuidePageFile[];
 }
 
 const { section, sectionPages } = Astro.props;
