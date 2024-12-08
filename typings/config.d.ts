@@ -1,8 +1,8 @@
 interface Config {
   title: string;
   metatags: {
-    name: "description";
-    content: "Data is the new oil";
+    name: string;
+    content: string;
   }[];
   languages: {
     code: string;

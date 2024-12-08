@@ -1,32 +1,23 @@
 import fs from "fs/promises";
 import path from "path";
-import { fileURLToPath } from "url";
 
 import { defineConfig } from "astro/config";
 
 import type Config from "./typings/config";
 
-const DIRNAME = path.dirname(fileURLToPath(import.meta.url));
-
-const config = JSON.parse(
-  (await fs.readFile(path.resolve(DIRNAME, "config.json"))).toString(),
-) as Config;
+const config: Config = JSON.parse(
+  (
+    await fs.readFile(path.resolve(import.meta.dirname, "config.json"))
+  ).toString(),
+);
 
 // https://astro.build/config
 import tailwind from "@astrojs/tailwind";
-
-// https://astro.build/config
 import sitemap from "@astrojs/sitemap";
-
-// https://astro.build/config
 import mdx from "@astrojs/mdx";
-
 import icon from "astro-icon";
-
 import compress from "astro-compress";
-
 import robotsTxt from "astro-robots-txt";
-
 import languagePlugin from "./plugins/astro-language";
 
 // https://astro.build/config
