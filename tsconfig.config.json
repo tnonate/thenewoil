@@ -6,7 +6,8 @@
   ],
   "include": [
     "*.config.ts",
-    "./plugins/**/*"
+    "./plugins/**/*",
+    "./config.json"
   ],
   "compilerOptions": {
     "composite": true,
