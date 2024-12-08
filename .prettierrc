@@ -26,6 +26,12 @@
         "printWidth": 120,
         "semi": true
       }
+    },
+    {
+      "files": "./astro.config.ts",
+      "options": {
+        "printWidth": 120
+      }
     }
   ],
   "singleQuote": false

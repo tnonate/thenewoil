@@ -1,12 +1,12 @@
 import path from "path";
 import fs from "fs/promises";
+import { fileURLToPath } from "url";
 
-import type { AstroIntegration, RouteData } from "astro";
+import type { AstroIntegration } from "astro";
 import { HTMLAnchorElement, HTMLElement, parseHTML } from "linkedom";
 
 import { createAnchorTransformer } from "./module/transform-anchor";
 import { packageDir } from "./utils/packager";
-import { fileURLToPath } from "url";
 
 const PLUGIN_NAME = "astro-language-plugin";
 const CONSOLE_TAG = "🌐 Language-plugin: ";
@@ -26,14 +26,6 @@ const runResolver = async <T>(resolver: T | Resolver<T>) => {
   if (typeof resolver !== "function") return resolver;
   const resolved = (resolver as Resolver<T>)();
   return resolved instanceof Promise ? await resolved : resolved;
-};
-
-const shouldTransformRoute = (route: RouteData) => {
-  try {
-    return route.type === "page" && route.distURL!.pathname.endsWith(".html");
-  } catch {
-    console.log(route.distURL);
-  }
 };
 
 interface Options {
@@ -115,55 +107,64 @@ const plugin = (options: Options): AstroIntegration => {
           );
         }
       },
-      "astro:build:done": async ({ routes }) => {
+      "astro:build:done": async ({ assets }) => {
         let transformedAnchorsTotal = 0;
         let transformedFilesTotal = 0;
 
         console.log(CONSOLE_TAG + "Transforming files...");
 
-        const transformTasks = routes.map(async (route) => {
-          if (!shouldTransformRoute(route)) return;
+        const transformFilePromises = Array.from(assets.values())
+          .flat()
+          .map(async (url) => {
+            if (!url.pathname.endsWith(".html")) {
+              return;
+            }
 
-          const filePath = fileURLToPath(route.distURL);
-          const fileContent = (await fs.readFile(filePath)).toString();
+            const filePath = fileURLToPath(url);
+            const fileContent = (await fs.readFile(filePath)).toString();
 
-          const { document } = parseHTML(fileContent);
+            const { document } = parseHTML(fileContent);
+            const rootElement: HTMLElement = document.querySelector("html");
+            if (!rootElement || !rootElement.lang) {
+              return;
+            }
 
-          const htmlElements: HTMLElement = document.querySelector("html")!;
-          const language = htmlElements.lang;
+            const language = rootElement.lang;
 
-          const anchorTransformer = createAnchorTransformer({
-            language: language,
-            excludeStartWithPatterns: EXCLUDE_START_WITH_PATTERNS,
-            localPathPrefixes: LOCAL_PATH_PREFIXES,
-            protocolIdentifier: PROTOCOL_IDENTIFIER,
-            publicPrefix: PUBLIC_PREFIX,
+            const anchorTransformer = createAnchorTransformer({
+              language: language,
+              excludeStartWithPatterns: EXCLUDE_START_WITH_PATTERNS,
+              localPathPrefixes: LOCAL_PATH_PREFIXES,
+              protocolIdentifier: PROTOCOL_IDENTIFIER,
+              publicPrefix: PUBLIC_PREFIX,
+            });
+
+            const anchorElements = Array.from(
+              document.querySelectorAll("a"),
+            ) as HTMLAnchorElement[];
+
+            const transformAnchorTasks = anchorElements.map(anchorTransformer);
+            const changedAnchorsHrefs = (
+              await Promise.all(transformAnchorTasks)
+            ).filter(Boolean);
+
+            if (changedAnchorsHrefs.length > 0) {
+              transformedAnchorsTotal += changedAnchorsHrefs.length;
+              transformedFilesTotal += 1;
+
+              if (config!.logChanges) {
+                console.log(`Changed "${filePath}":`);
+                changedAnchorsHrefs.forEach((href) =>
+                  console.log(` - ${href}`),
+                );
+                console.log("");
+              }
+            }
+
+            await fs.writeFile(filePath, document.toString());
           });
 
-          const anchorElements: HTMLAnchorElement[] = Array.from(
-            document.querySelectorAll("a"),
-          ) as any[];
-
-          const transformAnchorTasks = anchorElements.map(anchorTransformer);
-          const changedAnchorsHrefs = (
-            await Promise.all(transformAnchorTasks)
-          ).filter((href) => Boolean(href));
-
-          if (changedAnchorsHrefs.length > 0) {
-            transformedAnchorsTotal += changedAnchorsHrefs.length;
-            transformedFilesTotal += 1;
-
-            if (config!.logChanges) {
-              console.log(`Changed "${filePath}":`);
-              changedAnchorsHrefs.forEach((href) => console.log(` - ${href}`));
-              console.log("");
-            }
-          }
-
-          await fs.writeFile(filePath, document.toString());
-        });
-
-        await Promise.all(transformTasks);
+        await Promise.all(transformFilePromises);
 
         console.log(
           CONSOLE_TAG +
