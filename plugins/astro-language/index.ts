@@ -29,7 +29,11 @@ const runResolver = async <T>(resolver: T | Resolver<T>) => {
 };
 
 const shouldTransformRoute = (route: RouteData) => {
-  return route.type === "page" && route.distURL!.pathname.endsWith(".html");
+  try {
+    return route.type === "page" && route.distURL!.pathname.endsWith(".html");
+  } catch {
+    console.log(route.distURL);
+  }
 };
 
 interface Options {
