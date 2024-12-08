@@ -11,6 +11,12 @@
     "not_encouraged": true
   },
   {
+    "name": "Loops",
+    "link": "https://loops.video/@thenewoil",
+    "img": "/images/logos/loops.png",
+    "not_encouraged": false
+  },
+  {
     "name": "TikTok",
     "link": "https://www.tiktok.com/@thenewoil1",
     "img": "/images/logos/tiktok.png",
