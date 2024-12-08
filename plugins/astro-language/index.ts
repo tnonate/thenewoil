@@ -124,7 +124,11 @@ const plugin = (options: Options): AstroIntegration => {
             const fileContent = (await fs.readFile(filePath)).toString();
 
             const { document } = parseHTML(fileContent);
-            const rootElement: HTMLElement = document.querySelector("html")!;
+            const rootElement: HTMLElement = document.querySelector("html");
+            if (!rootElement || !rootElement.lang) {
+              return;
+            }
+
             const language = rootElement.lang;
 
             const anchorTransformer = createAnchorTransformer({
