@@ -1,9 +1,12 @@
 {
-  "include": ["*.config.ts"],
   "references": [
     {
-      "path": "./plugins/tsconfig.json"
+      "path": "./plugins/astro-language/tsconfig.web.json"
     }
+  ],
+  "include": [
+    "*.config.ts",
+    "./plugins/**/*"
   ],
   "compilerOptions": {
     "composite": true,
@@ -14,6 +17,11 @@
     "allowJs": true,
     "esModuleInterop": true,
     "outDir": "./dist",
-    "lib": ["ESNext"]
+    "types": [
+      "node"
+    ],
+    "lib": [
+      "ESNext"
+    ]
   }
 }

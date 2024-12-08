@@ -1,7 +1,6 @@
 import type { AstroIntegration } from "astro";
-import * as fs from "fs/promises";
-import { existsSync as fileExists } from "fs";
-import * as path from "path";
+import fs from "fs/promises";
+import path from "path";
 
 const PLUGIN_NAME = "astro-alias-plugin";
 const CONSOLE_TAG = "Astro Alias -";
@@ -14,6 +13,10 @@ interface Alias {
 interface Options {
   aliasFile: string;
   pagesDir: string;
+}
+
+function fileExists(path: fs.PathLike) {
+
 }
 
 const plugin = (options: Options): AstroIntegration => {

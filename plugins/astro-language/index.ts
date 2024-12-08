@@ -28,10 +28,6 @@ const runResolver = async <T>(resolver: T | Resolver<T>) => {
   return resolved instanceof Promise ? await resolved : resolved;
 };
 
-const shouldTransformRoute = (route: RouteData) => {
-  return route.type === "page" && route.distURL!.pathname.endsWith(".html");
-};
-
 interface Options {
   supportedLanguageCodes: string[] | Resolver<string[]>;
   logChanges?: boolean;
