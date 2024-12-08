@@ -19,6 +19,15 @@
         "Recommended Instance": "NA"
       }
     },
+    "kagi": {
+      "name": "Kagi",
+      "logo": "/images/logos/kagi.png",
+      "link": "https://kagi.com/",
+      "values": {
+        "Index": "Kagi",
+        "Recommended Instance": "NA"
+      }
+    },
     "metager": {
       "name": "Metager",
       "logo": "/images/logos/metager.png",
