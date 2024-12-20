@@ -16,9 +16,9 @@
 (security) {
 	header X-Frame-Options SAMEORIGIN
 	header X-Content-Type-Options nosniff
-	header ?Cross-Origin-Resource-Policy cross-origin
-	header ?Cross-Origin-Embedder-Policy credentialless
-	header ?Cross-Origin-Opener-Policy same-origin-allow-popups
+	# header ?Cross-Origin-Resource-Policy cross-origin
+	# header ?Cross-Origin-Embedder-Policy credentialless
+	# header ?Cross-Origin-Opener-Policy same-origin-allow-popups
 
 	# Simplified CSP by removing everything which was set to "none", since the default-src is "none" anyways, except for base-uri and frame-ancestors which don't have default-src fallback: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/default-src
 	header +Content-Security-Policy "default-src 'none'; script-src 'self' https://plausible.thenewoil.org; connect-src 'self' https://plausible.thenewoil.org; style-src 'self' 'unsafe-inline'; style-src-elem 'self'; style-src-attr 'unsafe-inline'; img-src 'self'; font-src 'self' data: ; media-src 'self' data: ;"
