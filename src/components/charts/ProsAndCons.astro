@@ -50,6 +50,19 @@ const ChildrenHeading = (headingLevel < 6 ? `h${headingLevel + 1}` : "p") as any
       prefix: nameHeadingId + "-"
     });
 
+    const columns = [
+      {
+        headingId: prosHeadingId,
+        heading: prosName,
+        items: tool.pros
+      },
+      {
+        headingId: consHeadingId,
+        heading: consName,
+        items: tool.cons
+      }
+    ];
+
     return (
       <div class="markdown--disabled flex flex-col items-center gap-4 rounded-lg border-4 p-4 pb-12 border-gradient-secondary border-bg-primary motion-safe:transition-[padding] motion-safe:duration-200 motion-safe:ease-in-out lg:gap-6 lg:p-6 xl:gap-8 xl:p-8 2xl:flex-row dark:border-bg-primary-dark">
         <div class="my-4 flex max-h-40 flex-col items-center justify-center gap-4 border-none text-center lg:my-0 xl:w-1/5">
@@ -63,35 +76,24 @@ const ChildrenHeading = (headingLevel < 6 ? `h${headingLevel + 1}` : "p") as any
         </div>
 
         <div class="flex w-full flex-col gap-8 px-4 lg:flex-row">
-          <div class="flex-1">
-            <ChildrenHeading id={prosHeadingId} class="mb-4 text-center">
-              {prosName}
-            </ChildrenHeading>
-            <ul class="lg:px-8 lg:py-0">
-              {tool.pros.map((pro) => {
-                return (
-                  <li>
-                    <Markdown of={String(pro)} />
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
-
-          <div class="flex-1">
-            <ChildrenHeading id={consHeadingId} class="mb-4 text-center">
-              {consName}
-            </ChildrenHeading>
-            <ul class="lg:px-8 lg:py-0">
-              {tool.cons.map((con) => {
-                return (
-                  <li>
-                    <Markdown of={String(con)} />
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
+          {columns.map((column) => {
+            return (
+              <div class="flex-1">
+                <ChildrenHeading id={column.headingId} class="mb-4 text-center">
+                  {column.heading}
+                </ChildrenHeading>
+                <ul class="lg:px-8 lg:py-0">
+                  {column.items.map((item) => {
+                    return (
+                      <li>
+                        <Markdown of={String(item)} />
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            );
+          })}
         </div>
       </div>
     );
