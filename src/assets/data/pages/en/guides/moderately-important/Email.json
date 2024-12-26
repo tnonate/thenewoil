@@ -4,6 +4,7 @@
     "logo": "/images/logos/protonmail.png",
     "logo_alt": "Protonmail Logo",
     "link": "https://go.getproton.me/aff_c?offer_id=7&aff_id=2187",
+    "use_cases": [],
     "pros": [
       "[Recently audited](https://protonmail.com/blog/security-audit/)",
       "Based on PGP",
@@ -18,6 +19,7 @@
     "logo": "/images/logos/tuta.png",
     "logo_alt": "Tuta Logo",
     "link": "https://tuta.com/?t-src=the-new-oil",
+    "use_cases": [],
     "pros": [
       "[Recently audited](https://tuta.com/blog/posts/desktop-clients-tutanota/)",
       "Offers a free tier",
