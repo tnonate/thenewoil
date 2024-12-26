@@ -4,6 +4,7 @@
     "logo": "/images/logos/2fas.png",
     "logo_alt": "2FAS logo",
     "link": "https://2fas.com/",
+    "use_cases": [],
     "pros": [
       "Available on Android & iOS",
       "Can sync with Mac via browser extension and shared clipboard (see Cons)"
@@ -18,6 +19,7 @@
     "logo": "/images/logos/aegis.png",
     "logo_alt": "Aegis Authenticator Logo",
     "link": "https://getaegis.app/",
+    "use_cases": [],
     "pros": [
       "Available on [F-Droid](https://f-droid.org/en/packages/com.beemdevelopment.aegis/)",
       "Allows automatic backups (cloud only)"
@@ -29,6 +31,7 @@
     "logo": "/images/logos/bitwarden_auth.png",
     "logo_alt": "Bitwarden Authenticator Logo",
     "link": "https://bitwarden.com/products/authenticator/",
+    "use_cases": [],
     "pros": ["Available on Android & iOS"],
     "cons": ["Not available on F-Droid"]
   },
@@ -37,6 +40,7 @@
     "logo": "/images/logos/ente-auth.png",
     "logo_alt": "ente Authenticator logo",
     "link": "https://ente.io/auth/",
+    "use_cases": [],
     "pros": [
       "Available on all operating systems",
       "Available on [F-Droid](https://f-droid.org/en/packages/io.ente.auth/)",

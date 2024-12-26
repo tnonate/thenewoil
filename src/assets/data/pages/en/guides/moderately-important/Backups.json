@@ -4,6 +4,7 @@
     "logo": "/images/logos/filen.png",
     "logo_alt": "Filen logo",
     "link": "https://filen.io/r/834a3bd235bca0caa53141f2ebc30438",
+    "use_cases": [],
     "pros": [
       "Includes text chat feature with other users",
 	  "Includes notes"
@@ -19,6 +20,7 @@
     "logo": "/images/logos/mega.png",
     "logo_alt": "MEGA Logo",
     "link": "https://mega.nz/aff=UBJLjO7sxZU",
+    "use_cases": [],
     "pros": [
       "Includes text, audio, and video chat feature with other users"
     ],
@@ -34,6 +36,7 @@
     "logo": "/images/logos/protondrive.png",
     "logo_alt": "ProtonDrive Logo",
     "link": "https://go.getproton.me/aff_c?offer_id=7&aff_id=2187",
+    "use_cases": [],
     "pros": [
       "Includes ecosystem (VPN, Mail, calendar, password manager)",
       "Recently [audited](https://proton.me/blog/security-audit-all-proton-apps)"
