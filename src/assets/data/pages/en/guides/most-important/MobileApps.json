@@ -121,7 +121,7 @@
       "name": "Miscellaneous",
       "values": {
         "Alternatives": [
-          "Android & iOS: [iVerify Basic](https://iverify.io/products/basic) (malware detection, settings suggestions)",
+          "Android & iOS: [iVerify Basic](https://iverify.io/products/basic) (malware detection, settings suggestions)"
         ],
         "Reason": [
           "These are apps that can help improve your privacy and security in various ways. As always, be sure to evaluate your threat model and consider if you need them or not."
