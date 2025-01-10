@@ -24,10 +24,10 @@ Readers who speak foreign languages can help us translate the site on [Crowdin](
 -   [News Feed](https://mastodon.thenewoil.org/@thenewoil)
 -   [Videos](https://apertatube.net/c/thenewoil/videos)
 -   [Analytics](https://stats.thenewoil.org/share/jnR7d6tGklwToSOJ/thenewoil.org)
--   [Uptime Monitor](https://uptime.thenewoil.org/status/thenewoil)
 
 ## Transparency
 
+-   [**2024 Transparency Report**](https://blog.thenewoil.org/transparency-report-2024)
 -   [**2023 Transparency Report**](https://blog.thenewoil.org/transparency-report-2023)
 -   [**2022 Transparency Report**](https://blog.thenewoil.org/transparency-report-2022-and-goals-for-2023)
 -   [**2021 Transparency Report**](https://blog.thenewoil.org/transparency-report-2021-and-goals-for-2022)

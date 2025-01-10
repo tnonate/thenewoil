@@ -109,8 +109,8 @@
       "name": "Web Browser",
       "values": {
         "Alternatives": [
-          "Android: [Brave](https://play.google.com/store/apps/details?id=com.brave.browser&hl=en&gl=US) or [Mull](https://f-droid.org/packages/us.spotco.fennec_dos/)",
-          "iOS: [Brave](https://apps.apple.com/us/app/brave-private-browser/id1052879175), [SnowHaze](https://snowhaze.com/download), or [hardened Safari](https://www.privacyguides.org/en/mobile-browsers/#safari)"
+          "Android: [Brave](https://play.google.com/store/apps/details?id=com.brave.browser&hl=en&gl=US), [Firefox Focus](https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/), or [Firefox](https://www.mozilla.org/en-US/firefox/) with [uBlock Origin](https://ublockorigin.com/)",
+          "iOS: [Brave](https://apps.apple.com/us/app/brave-private-browser/id1052879175), [Firefox Focus](https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/), [hardened Safari](https://www.privacyguides.org/en/mobile-browsers/#safari), or [SnowHaze](https://snowhaze.com/download)."
         ],
         "Reason": [
           "While apps have mostly replaced the browser on mobile, some things are still done through the browser. While less revealing compared to other phone apps, your browser usage still reveals a lot of data about you and should be minimized."
@@ -122,7 +122,6 @@
       "values": {
         "Alternatives": [
           "Android & iOS: [iVerify Basic](https://iverify.io/products/basic) (malware detection, settings suggestions)",
-          "Android: [Hypatia](https://divestos.org/pages/our_apps#hypatia) (antivirus)"
         ],
         "Reason": [
           "These are apps that can help improve your privacy and security in various ways. As always, be sure to evaluate your threat model and consider if you need them or not."
