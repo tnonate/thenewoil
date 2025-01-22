@@ -2,8 +2,8 @@ import { markdown } from "@astropub/md";
 import { parseHTML } from "linkedom";
 
 const idFromText = async (text: string) => {
-  const htmlString = await markdown(`# ${text}`);
-  const { document } = parseHTML(htmlString);
+  const html = await markdown(`# ${text}`);
+  const { document } = parseHTML(html);
   const nsHeading = document.querySelector("h1");
   return nsHeading!.id;
 };
@@ -19,15 +19,15 @@ export const textToHeadingId = async ({
   namespace,
   prefix,
 }: TextToHeadingIdOptions) => {
-  let outputId = "";
+  let headingId = "";
 
-  if (namespace) outputId += await idFromText(namespace);
+  if (namespace) headingId += await idFromText(namespace);
   const textId = await idFromText(text);
 
-  if (outputId) outputId += "-";
-  outputId += textId;
+  if (headingId) headingId += "-";
+  headingId += textId;
 
-  if (prefix) outputId = prefix + outputId;
+  if (prefix) headingId = prefix + headingId;
 
-  return outputId;
+  return headingId;
 };
