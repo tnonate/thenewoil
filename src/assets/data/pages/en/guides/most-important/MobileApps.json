@@ -31,7 +31,7 @@
         "Alternatives": [
           "[Adguard](https://adguard.com/)",
           "[Blokada](https://blokada.org/) *(No free version for iOS)*",
-		  "[NextDNS](https://nextdns.io/)",
+          "[NextDNS](https://nextdns.io/)",
           "[Lockdown](https://lockdownprivacy.com/) (iOS Only)"
         ],
         "Reason": [
@@ -67,8 +67,8 @@
       "name": "Notes",
       "values": {
         "Alternatives": [
-		  "[Cryptee](https://crypt.ee/)",
-		  "[Filen](https://filen.io/r/834a3bd235bca0caa53141f2ebc30438)",
+          "[Cryptee](https://crypt.ee/)",
+          "[Filen](https://filen.io/r/834a3bd235bca0caa53141f2ebc30438)",
           "[Joplin](https://joplinapp.org/)",
           "[Nextcloud](https://nextcloud.com/)",
           "[Notesnook](https://notesnook.com/)",
@@ -94,11 +94,11 @@
       "name": "Photos",
       "values": {
         "Alternatives": [
-		  "[Cryptee](https://crypt.ee/)",
+          "[Cryptee](https://crypt.ee/)",
           "[Ente](https://ente.io/)",
-		  "[Filen](https://filen.io/r/834a3bd235bca0caa53141f2ebc30438)",
-		  "[Nextcloud](https://nextcloud.com/)",
-	  "[Proton Drive](https://proton.me/drive) (Android only)"
+          "[Filen](https://filen.io/r/834a3bd235bca0caa53141f2ebc30438)",
+          "[Nextcloud](https://nextcloud.com/)",
+          "[Proton Drive](https://proton.me/drive) (Android only)"
         ],
         "Reason": [
           "Google, Apple, and other non-encrypted photo storage options can see all your photos. These services provide a way to securely store, manage, and back up your photos between multiple devices safe from the provider's prying eyes."

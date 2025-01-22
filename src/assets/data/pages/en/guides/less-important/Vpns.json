@@ -4,6 +4,7 @@
     "logo": "/images/logos/ivpn.png",
     "logo_alt": "IVPN logo",
     "link": "https://www.ivpn.net",
+    "use_cases": [],
     "pros": [
       "[Recently audited](https://www.ivpn.net/blog/tags/audit/)",
       "Available on all operating systems",
@@ -20,6 +21,7 @@
     "logo": "/images/logos/mullvad.png",
     "logo_alt": "Mullvad logo",
     "link": "https://mullvad.net/",
+    "use_cases": [],
     "pros": [
       "[Recently audited](https://mullvad.net/en/blog/search/?q=audit)",
       "Available on all operating systems",
@@ -37,6 +39,7 @@
     "logo": "/images/logos/protonvpn.png",
     "logo_alt": "Proton VPN logo",
     "link": "https://go.getproton.me/aff_c?offer_id=26&aff_id=2187&url_id=282",
+    "use_cases": [],
     "pros": [
       "[Recently audited](https://protonvpn.com/blog/open-source/)",
       "Available on all operating systems",

@@ -4,6 +4,7 @@
     "logo": "/images/logos/hushed.png",
     "logo_alt": "Hushed logo",
     "link": "https://promo.hushed.com/lp/lifetime-3?oid=14&affid=497",
+    "use_cases": [],
     "pros": [
       "Unlimited numbers",
       "International calling",
@@ -20,6 +21,7 @@
     "logo": "/images/logos/google_voice.png",
     "logo_alt": "Google Voice logo",
     "link": "https://voice.google.com/about",
+    "use_cases": [],
     "pros": [
       "One free number (unlimited numbers with Workspace subscription)",
       "Desktop client available",
@@ -35,6 +37,7 @@
     "logo": "/images/logos/mysudo.png",
     "logo_alt": "MySudo logo",
     "link": "https://mysudo.com/",
+    "use_cases": [],
     "pros": [
       "Up to 9 numbers available",
       "Does not require your SIM number",
@@ -51,6 +54,7 @@
     "logo": "/images/logos/skype.png",
     "logo_alt": "Skype logo",
     "link": "https://www.skype.com/en/skype-number/",
+    "use_cases": [],
     "pros": [
       "Supports up to 10 phone numbers",
       "Available in 25+ countries",
@@ -64,6 +68,7 @@
     "logo": "/images/logos/tossable-digits.png",
     "logo_alt": "Tossable Digits logo",
     "link": "https://www.tossabledigits.com/",
+    "use_cases": [],
     "pros": [
       "Unlimited numbers",
       "International calling",
@@ -82,6 +87,7 @@
     "logo": "/images/logos/viber.png",
     "logo_alt": "Viber logo",
     "link": "https://www.viber.com/",
+    "use_cases": [],
     "pros": [
       "Desktop client",
       "Available in 59 countries",
