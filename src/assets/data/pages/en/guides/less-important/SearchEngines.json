@@ -13,9 +13,9 @@
     "ecosia": {
       "name": "Ecosia",
       "logo": "/images/logos/ecosia.png",
-      "link": "https://www.ecosia.com/",
+      "link": "https://www.ecosia.org/",
       "values": {
-        "Index": "[Bing](https://ecosia.helpscoutdocs.com/article/403-wie-entsteht-das-ranking-der-ergebnisse)",
+        "Index": "[Bing and Google](https://ecosia.helpscoutdocs.com/article/579-search-results-providers)",
         "Recommended Instance": "NA"
       }
     },
