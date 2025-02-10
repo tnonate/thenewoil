@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - uses: facarmen/repository-mirroring-action@v1.0.0
+      - uses: fscarmen/repository-mirroring-action@v1.0.0
         with:
           target_repo_url: git@gitlab.com:thenewoil/website.git
           ssh_private_key: ${{ secrets.GITLAB_SSH_PRIVATE_KEY }}
