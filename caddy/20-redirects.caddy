@@ -19,7 +19,6 @@
     redir /tuta https://tuta.com/?t-src=the-new-oil
 	redir /redact https://redact.dev/?via=f6e740
 	redir /simplelogin https://simplelogin.io/?slref=thenewoil
-	redir /skiff https://app.skiff.com/signup?mail=&referral=thenewoil
 	redir /voipms https://voip.ms/en/code/TheNewOil
 
 	redir /black-friday https://blog.thenewoil.org/black-friday-2024-privacy-deals

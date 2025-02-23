@@ -37,7 +37,6 @@ export default defineConfig({
     "/redact/": "https://redact.dev?affiliateCode=THENEWOIL",
     "/simplelogin/": "https://simplelogin.io/?slref=thenewoil",
     "/tuta/": "https://tuta.com/?t-src=the-new-oil",
-    "/skiff/": "https://app.skiff.com/signup?mail=&referral=thenewoil",
     "/voipms/": "https://voip.ms/en/code/TheNewOil",
   },
   vite: {
