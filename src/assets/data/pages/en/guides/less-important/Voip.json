@@ -49,20 +49,6 @@
       "Desktop client in beta, web-based only, can only sync with iOS"
     ]
   },
-  "skype": {
-    "name": "Skype",
-    "logo": "/images/logos/skype.png",
-    "logo_alt": "Skype logo",
-    "link": "https://www.skype.com/en/skype-number/",
-    "use_cases": [],
-    "pros": [
-      "Supports up to 10 phone numbers",
-      "Available in 25+ countries",
-      "Does not require your SIM number",
-      "Desktop app available"
-    ],
-    "cons": ["Requires a Microsoft account", "Pay by the minute"]
-  },
   "tossable digits": {
     "name": "Tossable Digits",
     "logo": "/images/logos/tossable-digits.png",
