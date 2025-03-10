@@ -28,6 +28,15 @@
         "Recommended Instance": "NA"
       }
     },
+    "leta": {
+      "name": "Leta",
+      "logo": "/images/logos/mullvad.png",
+      "link": "https://leta.mullvad.net/",
+      "values": {
+        "Index": "Google (default), Brave (optional)",
+        "Recommended Instance": "NA"
+      }
+    },
     "metager": {
       "name": "Metager",
       "logo": "/images/logos/metager.png",
