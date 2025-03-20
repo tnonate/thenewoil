@@ -38,7 +38,7 @@
     "name": "Proton VPN",
     "logo": "/images/logos/protonvpn.png",
     "logo_alt": "Proton VPN logo",
-    "link": "https://go.getproton.me/aff_c?offer_id=26&aff_id=2187&url_id=282",
+    "link": "https://go.getproton.me/aff_c?offer_id=26&aff_id=2187",
     "use_cases": [],
     "pros": [
       "[Recently audited](https://protonvpn.com/blog/open-source/)",
