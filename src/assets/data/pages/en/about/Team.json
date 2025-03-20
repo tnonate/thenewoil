@@ -1,7 +1,14 @@
 [
   {
     "name": "Nathan Bartram",
-    "title": "Founder/Editor"
+    "title": "Founder/Editor",
+    "links": [
+      {
+        "name": "Website",
+        "link": "/nate",
+        "icon": "/images/logos/website.png"
+      }
+    ]
   },
   {
     "name": "daryl76679",

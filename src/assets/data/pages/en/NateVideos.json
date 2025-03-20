@@ -1,0 +1,15 @@
+[
+    {
+      "name": "The New Oil",
+      "link": "https://youtube.com/@thenewoil",
+      "img": "/images/graphics/logo.jpg",
+      "not_encouraged": false
+    },
+    {
+      "name": "Surveillance Report",
+      "link": "https://www.youtube.com/@surveillancereport",
+      "img": "/images/logos/surveillance-report.png",
+      "not_encouraged": false
+    }
+  ]
+  
