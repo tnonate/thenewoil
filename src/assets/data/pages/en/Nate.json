@@ -1,32 +1,32 @@
 [
     {
       "link": "https://podcast.firewallsdontstopdragons.com/2023/04/03/privacy-peeps-panel/",
-      "img": "https://firewallsdontstopdragons.com/wp-content/uploads/2022/07/white-logo-2-199x199.png",
+      "img": "/images/logos/fdsd.png",
       "name": "Firewalls Don't Stop Dragons"
     },
     {
       "link": "https://optoutpod.com/episodes/s1e04-nathan-thenewoil/",
-      "img": "https://storage.buzzsprout.com/2iyll0ylssik128i39vdrc35kbp0?.jpg",
+      "img": "/images/logos/optout.jpg",
       "name": "Opt Out"
     },
     {
       "link": "https://www.lifewire.com/brave-hands-you-the-keys-to-its-search-results-5498650",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/2021_Lifewire_Logo.svg/174px-2021_Lifewire_Logo.svg.png?20240826034110",
+      "img": "/images/logos/lifewire.png",
       "name": "Lifewire"
     },
     {
       "link": "https://podcastaddict.com/makers-and-nerds-podcast/episode/144372191",
-      "img": "https://podcastaddict.com/cache/artwork/thumb/4064346",
+      "img": "/images/logos/makersnerds.png",
       "name": "Makers and Nerds"
     },
     {
       "link": "https://www.youtube.com/watch?v=-NrDUjqNHoI",
-      "img": "https://privacyinternational.org/themes/custom/privacy_international_2020/images/logos/logo-11.png",
+      "img": "/images/logos/privacy-international.png",
       "name": "Privacy International"
     },
     {
       "link": "https://www.youtube.com/watch?v=g_ehNdMsPIM",
-      "img": "https://www.getmonero.org/press-kit/symbols/monero-symbol-480.png",
+      "img": "/images/logos/monero.png",
       "name": "Monerokon 2022"
     }
   ]
