@@ -1,5 +1,10 @@
 [
   {
+    "link": "https://ghost.thenewoil.org/",
+    "img": "/images/logos/ghost.png",
+    "name": "Ghost"
+  },
+  {
     "link": "https://opencollective.com/thenewoil/donate",
     "img": "/images/logos/opencollective.png",
     "name": "Open Collective"
