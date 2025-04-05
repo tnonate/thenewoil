@@ -56,6 +56,15 @@
         "Recommended Instances": "[No specific Instances](https://pixelfed.org/servers)"
       }
     },
+    "blogging": {
+      "name": "Ghost, WordPress, WriteFreely",
+      "logo": "/images/logos/blogging.png",
+      "link": "#",
+      "values": {
+        "Similar To": "Tumblr, Substack, Wordpress",
+        "Recommended Instances": "[Ghost.org](https://ghost.org/), [No Specific Instance](https://wordpress.org/), [Write.As](https://write.as/)"
+      }
+    },
     "matrix": {
       "name": "Matrix",
       "logo": "/images/logos/matrix.png",
