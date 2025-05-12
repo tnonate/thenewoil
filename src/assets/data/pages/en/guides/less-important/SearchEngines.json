@@ -65,21 +65,12 @@
       }
     },
     "searx": {
-      "name": "SearX",
-      "logo": "/images/logos/searx.png",
-      "link": "https://searx.github.io/searx/",
+      "name": "SearXNG",
+      "logo": "/images/logos/searxng.png",
+      "link": "https://github.com/searxng/searxng",
       "values": {
         "Index": "Depends on the instance",
         "Recommended Instance": "https://searx.be"
-      }
-    },
-    "whoogle": {
-      "name": "Whoogle",
-      "logo": "/images/logos/whoogle.png",
-      "link": "https://github.com/benbusby/whoogle-search",
-      "values": {
-        "Index": "Google",
-        "Recommended Instance": "https://search.sethforprivacy.com/"
       }
     }
   }

@@ -12,6 +12,11 @@
     "sublink": "/en/blog-index"
   },
   {
+    "name": "Ghost",
+    "link": "https://thenewoil.ghost.io/",
+    "img": "/images/logos/ghost.png"
+  },
+  {
     "name": "Mastodon",
     "link": "https://mastodon.thenewoil.org/@thenewoil",
     "img": "/images/logos/mastodon.png"

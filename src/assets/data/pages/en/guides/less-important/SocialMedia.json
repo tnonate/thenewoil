@@ -16,7 +16,7 @@
       "logo": "/images/logos/funkwhale.png",
       "link": "https://funkwhale.audio/",
       "values": {
-        "Similar To": "Music streaming and library services",
+        "Similar To": "Soundcloud, Spotify, Apple Music, etc",
         "Recommended Instances": "[No specific Instances](https://www.funkwhale.audio/join/)"
       }
     },
@@ -27,6 +27,15 @@
       "values": {
         "Similar To": "Reddit",
         "Recommended Instances": "[Lemmy.one](https://lemmy.one/) from Privacy Guides"
+      }
+    },
+    "loops": {
+      "name": "Loops",
+      "logo": "/images/logos/loops.png",
+      "link": "https://loops.video/",
+      "values": {
+        "Similar To": "TikTok",
+        "Recommended Instances": "[No specific Instances](https://loops.video)"
       }
     },
     "mastodon": {
@@ -62,7 +71,7 @@
       "link": "#",
       "values": {
         "Similar To": "Tumblr, Substack, Wordpress",
-        "Recommended Instances": "[Ghost.org](https://ghost.org/), [No Specific Instance](https://wordpress.org/), [Write.As](https://write.as/)"
+        "Recommended Instances": "[Ghost.org](https://ghost.org/), [No Specific Instance](https://wordpress.org/), [Write.As](https://write.as/) (Respectively)"
       }
     },
     "matrix": {
