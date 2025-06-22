@@ -1,5 +1,5 @@
 {
-  "criterias": ["Index", "Recommended Instance"],
+  "criterias": ["Index", "AI"],
   "tools": {
     "brave": {
       "name": "Brave Search",
@@ -7,7 +7,7 @@
       "link": "https://search.brave.com/",
       "values": {
         "Index": "Brave",
-        "Recommended Instance": "NA"
+        "AI": "Yes"
       }
     },
     "ecosia": {
@@ -16,7 +16,7 @@
       "link": "https://www.ecosia.org/",
       "values": {
         "Index": "[Bing and Google](https://ecosia.helpscoutdocs.com/article/579-search-results-providers)",
-        "Recommended Instance": "NA"
+        "AI": "Yes"
       }
     },
     "kagi": {
@@ -24,8 +24,8 @@
       "logo": "/images/logos/kagi.png",
       "link": "https://kagi.com/",
       "values": {
-        "Index": "Kagi",
-        "Recommended Instance": "NA"
+        "Index": "Kagi, [others](https://help.kagi.com/kagi/search-details/search-sources.html)",
+        "AI": "Optional"
       }
     },
     "leta": {
@@ -33,17 +33,8 @@
       "logo": "/images/logos/mullvad.png",
       "link": "https://leta.mullvad.net/",
       "values": {
-        "Index": "Google (default), Brave (optional)",
-        "Recommended Instance": "NA"
-      }
-    },
-    "metager": {
-      "name": "Metager",
-      "logo": "/images/logos/metager.png",
-      "link": "https://metager.org/",
-      "values": {
-        "Index": "[Bing](https://metager.org/search-engine), others",
-        "Recommended Instance": "NA"
+        "Index": "Brave (default), Google (optional)",
+        "AI": "No"
       }
     },
     "mojeek": {
@@ -52,7 +43,7 @@
       "link": "https://www.mojeek.com/",
       "values": {
         "Index": "Mojeek",
-        "Recommended Instance": "NA"
+        "AI": "No"
       }
     },
     "qwant": {
@@ -61,7 +52,7 @@
       "link": "https://www.qwant.com/",
       "values": {
         "Index": "Qwant",
-        "Recommended Instance": "NA"
+        "AI": "No"
       }
     },
     "searx": {
@@ -70,7 +61,16 @@
       "link": "https://github.com/searxng/searxng",
       "values": {
         "Index": "Depends on the instance",
-        "Recommended Instance": "https://searx.be"
+        "AI": "No"
+      }
+    },
+    "waterfox": {
+      "name": "Waterfox",
+      "logo": "/images/logos/waterfox.png",
+      "link": "https://search.waterfox.net/",
+      "values": {
+        "Index": "Google",
+        "AI": "No"
       }
     }
   }
