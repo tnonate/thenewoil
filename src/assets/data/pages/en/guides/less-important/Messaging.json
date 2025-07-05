@@ -50,23 +50,5 @@
       "No user IDs, add contacts via QR code or temporary link"
     ],
     "cons": ["Still early in development, may be missing features"]
-  },
-  "threema": {
-    "name": "Threema",
-    "logo": "/images/logos/threema.png",
-    "logo_alt": "Threema Logo",
-    "link": "https://threema.ch/",
-    "use_cases": ["Best for users who believe that 'if a product is free, you are the product.'", "Best for corporate or enterprise use-cases"],
-    "pros": [
-      "[Recently audited](https://threema.ch/en/blog/posts/audit-2020-en)",
-      "Available on [all operating systems](/criteria#definitions)"
-    ],
-    "cons": [
-      "Not available on F-Droid",
-      "Centralized",
-      "Not free",
-      "Desktop app must be synced every time",
-      "Missing mainstream features such as stickers and GIF support"
-    ]
   }
 }
