@@ -1,12 +1,12 @@
 [
   {
     "name": "Signal",
-    "link": "/en/signal",
+    "link": "/en/messengers#signal",
     "img": "/images/logos/signal.png"
   },  
   {
     "name": "SimpleX",
-    "link": "/en/simplex",
+    "link": "/en/messengers#simplex",
     "img": "/images/logos/simplex.png"
   }
 ]

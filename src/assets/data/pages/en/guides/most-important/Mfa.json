@@ -42,10 +42,19 @@
     "link": "https://ente.io/auth/",
     "use_cases": [],
     "pros": [
-      "Available on all operating systems",
+      "Available on [all operating systems](/criteria#definitions)",
       "Available on [F-Droid](https://f-droid.org/en/packages/io.ente.auth/)",
       "No account required (offline mode only)"
     ],
     "cons": ["ente account required (online sync only)"]
+  },
+  "proton": {
+    "name": "Proton Authenticator",
+    "logo": "/images/logos/protonauth.png",
+    "logo_alt": "Proton Authenticator Logo",
+    "link": "https://proton.me/authenticator",
+    "use_cases": [],
+    "pros": ["Available on [all operating systems](/criteria#definitions), includes Proton ecosystem (VPN, calendar, email, cloud storage, password manager, and more)"],
+    "cons": ["Not available on F-Droid"]
   }
 }
