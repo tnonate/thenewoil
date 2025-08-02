@@ -1,0 +1,69 @@
+{
+  "criterias": ["Online or Offline", "Notes"],
+  "tools": {
+    "leo": {
+      "name": "Leo",
+      "logo": "/images/logos/brave.png",
+      "link": "https://brave.com/leo/",
+      "values": {
+        "Platform": "Leo",
+        "Online or Offline": "Online",
+        "Notes": "From Brave, Can only be used with the Brave Browser"
+      }
+    },
+    "duck": {
+      "name": "Duck.ai",
+      "logo": "/images/logos/ddg.png",
+      "link": "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1",
+      "values": {
+        "Online or Offline": "Online",
+        "Notes": "From DuckDuckGo"
+      }
+    },
+    "lumo": {
+      "name": "Lumo",
+      "logo": "/images/logos/lumo.png",
+      "link": "https://lumo.proton.me",
+      "values": {
+        "Online or Offline": "Online",
+        "Notes": "From Proton, Still in beta"
+      }
+    },
+    "maple": {
+      "name": "Maple",
+      "logo": "/images/logos/maple.png",
+      "link": "https://trymaple.ai/",
+      "values": {
+        "Online or Offline": "Online",
+        "Notes": ""
+      }
+    },
+    "kagi": {
+      "name": "Kagi",
+      "logo": "/images/logos/kagi.png",
+      "link": "https://blog.kagi.com/announcing-assistant",
+      "values": {
+        "Online or Offline": "Online",
+        "Notes": "Requires Kagi account"
+      }
+    },
+    "gpt4all": {
+      "name": "GPT4All",
+      "logo": "/images/logos/gpt4all.png",
+      "link": "https://www.nomic.ai/gpt4all",
+      "values": {
+        "Online or Offline": "Offline",
+        "Notes": ""
+      }
+    },
+    "jan": {
+      "name": "JanAI",
+      "logo": "/images/logos/janai.png",
+      "link": "https://jan.ai/",
+      "values": {
+        "Online or Offline": "Offline",
+        "Notes": ""
+      }
+    }
+  }
+}

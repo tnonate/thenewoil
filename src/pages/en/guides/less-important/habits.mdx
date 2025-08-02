@@ -9,6 +9,7 @@ draft: false
 import Criterias from "@components/charts/Criterias.astro";
 import chart1Data from "@assets/data/pages/en/guides/less-important/SearchEngines.json";
 import chart2Data from "@assets/data/pages/en/guides/less-important/SocialMedia.json";
+import chart3Data from "@assets/data/pages/en/guides/less-important/AI.json";
 
 # Miscellaneous Online Habits
 
@@ -16,7 +17,7 @@ This section is a collection of general advice and miscellaneous tips that don't
 
 ## Automatic Updates
 
-Turn on automatic updates for all your devices and app stores. In the past, this was unpopular because updates were known to frequently break things. These days, most apps and updates are heavily tested before being pushed to the masses. That's not to say that there aren't still occassional issues, but they are rare and usually fixed quickly. Being wary of automatic updates is really only an issue for business environments and people who opt into beta testing products - and if that describes you, you likely already know the risks and what you're doing. For the vast majority of people, automatic updates will provide critical security updates in a timely and convenient fashion and the benefits will outweigh the risks or occassional small breakage.
+Turn on automatic updates for all your devices and app stores. In the past, this was unpopular because updates were known to frequently break things. These days, most apps and updates are heavily tested before being pushed to the masses. That's not to say that there aren't still occassional issues, but they are rare and usually fixed quickly. For the vast majority of people, automatic updates will provide critical security updates in a timely and convenient fashion, and the benefits will outweigh the risks or occassional small breakage. (Perhaps the only exception would be for major releasees - for example, going from Android 15 to 16. You may want to wait a week or two for the first few bug fix releases to come out before updating in those cases.)
 
 ## Phishing & Clicking Links
 
@@ -28,21 +29,19 @@ Turn on automatic updates for all your devices and app stores. In the past, this
 
 **Think carefully about what information you share and what it reveals.** Back in the early days of social media, it was common that people would publicly share that they were going on vacation for a week, so criminals in the area would find the house and [rob it](https://www.zdnet.com/article/infographic-80-of-robbers-check-twitter-facebook-google-street-view/) while they were gone. That exact crime may or may not live on, but the principle still does. One woman had a stalker [find her](https://www.bbc.com/news/world-asia-50000234) because she took a selfie where the street sign was visible. I'm not saying to never share anything online, simply to be mindful of what information is visible in the photo, such as a company logo on your shirt or financial information in your screenshot.
 
-Additionally, this extends into non-public internet spaces. For example, next time you sign up for a website or pay for something online, try submitting no information at all. It will likely relaod the page and mark the mandatory fields, but you might be surprised what information is optional. **You should view every website as a data breach waiting to happen,** and anything that isn't a password or card number is probably not encrypted (and sometimes even those aren't), so the less personal information you hand over the better. If you are required to hand over information but the requesting site or service doesn't actually need it, consider using [disinformation](/guides/less-important/disinformation).
+Additionally, this extends into non-public internet spaces. For example, next time you sign up for a website or pay for something online, try submitting no information at all. It will likely relaod the page and mark the mandatory fields, but you might be surprised what information is optional. **You should view every website as a data breach waiting to happen,** and anything that isn't a password or card number is probably not encrypted (and sometimes [even those aren't](https://techcrunch.com/2024/09/27/meta-fined-101-5m-for-2019-breach-that-exposed-hundreds-of-millions-of-facebook-passwords/)), so the less personal information you hand over the better. If you are required to hand over information but the requesting site or service doesn't actually need it, consider using [disinformation](/guides/less-important/disinformation).
 
 ## Social Media
 
-I recommend three approaches to social media. The first is minimalism, using as few platforms as you're comfortable with. The [Fediverse](#the-fediverse), meanwhile, is a collection of decentralized, interopable, privacy-respecting social media services. Finally, if you must refer to mainstream social media but don't need to post, I recommend using a [front end](#front-ends).
+I recommend three approaches to social media. The first is minimalism, using as few platforms as you're comfortable with. If you do feel the need for social media, I suggest exploring the [Fediverse](#the-fediverse) - a collection of decentralized, interopable, privacy-respecting social media services. Finally, if you must refer to mainstream social media but don't need to post, I recommend using a [front end](#front-ends).
 
-While I discourage mainstream social media services for a number of reasons, I understand that sometimes you have no choice in using them. My recommendation would be to not use the apps, post as little as possible, and make your profile as private as possible.
+While I discourage mainstream social media services for a number of reasons, I understand that sometimes you have no choice in using them and a front-end may not always be feasible. My recommendation in those cases would be to not use the apps, post as little as possible, and make your profile as private as possible.
 
-Whether you stick with mainstream social media or use a privacy-focused alternative, **I discourage using the same username or handle across all your social media accounts** unless you're building a professional brand. I suggest using your password manager to generate a two or three random word passphrase and then use that as your handle.
-
-Also be sure to use a unique [alias email](/guides/moderately-important/email-aliasing) for each account. Repeat as needed for every site and account. If somebody decides to cyberstalk you, this can make it harder for them to find all of your accounts. This also protects against [credential stuffing](https://owasp.org/www-community/attacks/Credential_stuffing).
+Whether you stick with mainstream social media or use a privacy-focused alternative, **I discourage using the same username or handle across all your social media accounts** unless you're building a professional brand. I suggest using your password manager to generate a two or three random word passphrase and then use that as your handle. ([Bitwarden](/guides/most-important/passwords/) also offers a username generator.) Also be sure to use a unique [alias email](/guides/moderately-important/email-aliasing) for each account. Repeat as needed for every site and account. If somebody decides to cyberstalk you, this can make it harder for them to find all of your accounts. This also protects against [credential stuffing](https://owasp.org/www-community/attacks/Credential_stuffing).
 
 ### The Fediverse
 
-If you feel the need to have social media, try checking out the so-called Fediverse, which has recently come to more mainstream attention with the rise of Mastodon as a X alternative. The Fediverse is a volunteer run, decentralized social networking system, which tends to be more privacy respecting. Imagine if you had an Instagram account but wanted to follow someone on YouTube or X. In mainstream social media, you have to sign up for one of those platforms. On the Fediverse, however, you can follow them from your one account without signing up on a second platform and all their content will be delivered to you like normal. Below are some of the more popular federated platforms and some recommended servers. Please note this is not a comprehensive list. You can get more information about the different platforms and instances that make up the Fediverse [here](https://fediverse.party/).
+If you feel the need to have social media, try checking out the so-called "Fediverse," which has recently come to more mainstream attention with the rise of Mastodon as an X alternative. The Fediverse is a volunteer run, decentralized social networking system, which tends to be more privacy respecting. Imagine if you had an Instagram account but wanted to follow someone on YouTube or X. In mainstream social media, you have to sign up for one of those platforms. On the Fediverse, however, you can follow them from your one account without signing up on a second platform and all their content will be delivered to you like normal. Below are some of the more popular federated platforms and some recommended servers. Please note this is not a comprehensive list. You can get more information about the different platforms and instances that make up the Fediverse [here](https://fediverse.party/).
 
 <Criterias data={chart2Data} />
 
@@ -67,6 +66,16 @@ Before readers contact me about these last two paragraphs, I encourage you to re
 _Listed in alphabetical order, not order of recommendation_
 
 <Criterias data={chart1Data} />
+
+## AI
+
+The rise of Large Language Models (LLMs) has been revolutionary, but is not without significant concerns. Chief among them are things like [copyright infringment](https://arstechnica.com/features/2025/06/study-metas-llama-3-1-can-recall-42-percent-of-the-first-harry-potter-book/), [compensation](https://www.wired.com/story/ai-needs-data-you-should-get-paid/) for training data, and the [environmental impact](https://arstechnica.com/ai/2025/07/mistrals-new-environmental-audit-shows-how-much-ai-is-hurting-the-planet/). Those concerns fall outside the scope of this website and therefore I will not be discussing them, but I encourage readers to read up on these topics and make educated choices.
+
+From a privacy perspective, mainstream offerings like ChatGPT and Claude are a [nightmare](https://medium.com/@NiceMachine/how-safe-is-your-data-chatgpt-bard-and-claude-c535312bb8c8). Thankfully there a significant number of offerings that have sprung up in recent months to help users take advantage of LLMs in a more privacy-friendly way.
+
+Please note that I am not encouraging the use of AI. While I do believe AI can serve some specific use cases, I am of the strong belief that its capabilities and use-cases are being largely exaggerated and forced upon us. If you don't think you need an AI tool, feel free not to use it. However if you do an LLM - or you're simply curious to experiment and see if AI can help you - I would recommend exploring these tools, first.
+
+<Criterias data={chart3Data} />
 
 ## Account Hygiene
 
