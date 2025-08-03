@@ -25,5 +25,4 @@
 
 	redir /black-friday https://blog.thenewoil.org/black-friday-2024-privacy-deals
     redir /stats https://stats.thenewoil.org/share/jnR7d6tGklwToSOJ/thenewoil.org
-    redir /uptime https://uptime.thenewoil.org/status/thenewoil
 }
