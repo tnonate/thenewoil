@@ -82,7 +82,7 @@ A note on relative links, links with protocols, or links that go to other websit
 
 Examples of relative links are:
 
-- `../less-important/habits`
+- `../less-important/misc`
 - `./moderately-important/devices`
 - `most-important/`
 
