@@ -45,10 +45,10 @@
       "name": "Messaging",
       "values": {
         "Alternatives": [
-          "[Encrypted messaging provider of your choice](/guides/less-important/messaging)"
+          "[Encrypted messaging provider of your choice](/guides/moderately-important/messaging)"
         ],
         "Reason": [
-          "Please see the \"[Encrypted Messaging](/guides/less-important/messaging)\" page for more information on this subject."
+          "Please see the \"[Encrypted Messaging](/guides/moderately-important/messaging)\" page for more information on this subject."
         ]
       }
     },
