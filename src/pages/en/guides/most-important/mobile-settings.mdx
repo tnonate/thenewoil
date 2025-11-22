@@ -41,7 +41,7 @@ draft: false
 - Display & touch > Screen saver: No photos that reveal something about you (such as family photos)
 - Wallpaper & style: Set your lock screen to something generic and non-personal (no family photos, etc)
 - System > Live Translate: This is done on-device for Pixel devices only, and therefore should be disabled for all non-Pixel Androids
-- Security & Privacy: > Device Unlock > Screen lock: [Strong password](/guides/most-important/passwords) preferred, followed by PIN, then Pattern.
+- Security & Privacy: > Device Unlock > Screen lock: [Strong password](/guides/most-important/passwords) preferred, followed by 6-digit PIN.
 - Security & privacy > Auto-confirm unlock: Disabled
 - Security & privacy > Device Unlock > Screen lock settings > Enhanced PIN privacy: Enabled
 - Security & privacy > Device Unlock > Pixel Imprint: Finerprint acceptable if coupled with a strong password or PIN
@@ -64,7 +64,7 @@ draft: false
 - **_Note:_** _It is possible to use an Android device without ever signing into a Google account for added privacy. This must be done during device setup. You can use [F-Droid](https://f-droid.org/) (or another client such as F-Droid Basic) to procure many [open source](/guides/prologue/open-source) apps, and [Aurora Store](https://auroraoss.com) as a proxy for the Play Store for anything else you can't get on F-Droid. Note that with Aurora you will not be able to use Google to process app-related payments such as subscriptions or one-time payments to download the app._
 - **_Note:_** _Android in particular is capable of a number of powerful, privacy- and security-enhancing strategies that iOS is not, such as the aforementioned "no account required," alternative app stores, sideloading, user profiles, and much more. Some of these are advanced techniques, but not all, though many of them fall outside the scope of this site. For those using or considering an Android device, I strongly encourage you to check out Privacy Guide's [Android page](https://www.privacyguides.org/en/android/) to get an idea of some of the things your phone is capable of._
 
-## iOS 18
+## iOS 26
 
 - Apple Account (Your name at the top of the settings) > Sign-In & Security > Two-Factor Authentication > Security Keys: Set Up (if you plan to use iCloud or other Apple products tied to your Apple account
 - Apple Account > iCloud > Saved to iCloud: Disable everything (Be sure to delete the data from iCloud first) (_Note:_ if you are interested in using iCloud, see [here](/guides/less-important/backups/#iclouds-advanced-data-protection-program))
@@ -86,8 +86,8 @@ draft: false
 - Cellular > SIM PIN > Create a custom [PIN](https://support.apple.com/en-us/HT201529)
 - Cellular: Disable Cellular Data for any apps you don't need 24/7 access to.
 - Cellular: Wi-Fi Assist: Off
-- General > Software Update > Automatic Updates: All on
-- General > AirDrop > Receiving Off (Adjust only when using it, otherwise leave it off)
+- General > Software Update > Automatic Updates > Automatically Install: Enabled
+- General > AirDrop > Receiving Off (Only enable when you're using it)
 - General > AirPlay & Continuity > Automatically AirPlay: Never or Ask
 - General > Autofill & Passwords > Autofill from: Your [password manager](/guides/most-important/passwords/) of choice
 - General > Keyboards > Enable Dictation: Off
@@ -99,42 +99,49 @@ draft: false
 - Siri > Suggestions: Disable all
 - Siri > Siri App Access: Disable all
 - Wallpaper: Set your lock screen to something that doesn't reveal sensitive personal information (eg, no family photos, etc)
-- Notifications > Show Previews: Never
+- Notifications > Show Previews: Never or When Unlocked
 - Notifications > Screen Sharing: Notifications Off
 - Notifications > Siri Suggestions > Allow Notifications: Off
 - Notifications > Notification Style: Disable notifications for apps that you don't need instant notifications from (notifications can be used to [invade your privacy](https://www.wired.com/story/apple-google-push-notification-surveillance/))
+- Notifications > Notification Style: Consider leaving "Tracking Notificatons" enabled
 - Touch/Face ID & Passcode > Stolen Device Protection: Enable
-- Touch/Face ID & Passcode > Turn Passcode On: Try to set an [alpha-numeric password](/guides/most-important/passwords) if possible, otherwise use a six-digit PIN. A fingerprint is also acceptable if your device allows it (coupled with a strong password or PIN). Face ID should be avoided.
+- Touch/Face ID & Passcode > Turn Passcode On: [Strong password](/guides/most-important/passwords) preferred, followed by 6-digit PIN.
+- Touch/Face ID & Passcode > A fingerprint is acceptable if your device allows it. Face ID should be avoided.
 - Touch/Face ID & Passcode > Require Passcode: Immediately
 - Touch/Face ID & Passcode > Allow Access When Locked: the fewer the better
 - Touch/Face ID & Passcode > Erase Data: Enabled (**Beware of this setting, make sure you understand it**)
 - Privacy & Security > Location Services: Disable for everything that doesn't need it, and set those to "While Using"
 - Privacy & Security > Location Services > System Services: Disable all except Find My iPhone (needed for Stolen Device Protection)
 - Privacy & Security > Tracking > Allow Apps to Request to Track: Off
+- Privacy & Security > Research Sensor & Usage Data: Disabled
 - Privacy & Security: Review all the other app settings and make sure apps only have access to the settings they actually need. Otherwise, disable them. Disable as many as you can without breaking the app functionality.
 - Privacy & Security > Safety Check: This is a good tool if you're not using a brand-new Apple ID. It will show you any files you are sharing, any other devices you are logged into, etc and allow you to remotely disable them.
 - Privacy & Security > Analytics & Improvements: Disable everything
 - Privacy & Security > Apple Advertising > Personalized Ads: Off
+- Privacy & Security > App Privacy Report: Enabled
+- Privacy & Security > Backround Security Improvements > Automatically Install: Enabled
 - Privacy & Security > Stolen Device Protection > Stolen Device Protection: Enable
 - Privacy & Security > Lockdown Mode: On (This will [disable](https://support.apple.com/en-us/HT212650) a significant number of features, however if you are able to live without them, it will help protect other users who need this feature from being [easily identified](https://www.techspot.com/news/95767-apple-upcoming-lockdown-mode-make-devices-easier-fingerprint.html).)
-- App Store > App Updates: On
-- App Store > Personalized Recommendations: Clear App Usage Data
 - Game Center: Disable
-- Apps > Health Data > Medical ID: I encourage you to set this up in case of emergency. Saving a life should always be prioritized over privacy.
-- Apps > Messages > Notifications: Off (if you plan to use [Voice-over-IP](/guides/less-important/voip))
-- Apps > Messages > Keep Messages: 30 Days
-- Apps > Messages > Filter Unknown Senders: Enabled
-- Apps > Phone > Notifications: Off (if you plan to use [Voice-over-IP](/guides/less-important/voip))
-- Apps > Phone > Silence unknown callers: On (This is, like everything, user discretion, but for most people this will dramatically reduce the number of spam calls. If you use your SIM number instead of VoIP, be sure to enter any important phone numbers such as a child's school or coworkers into your contacts so you still get their calls.)
-- Apps > Photos > iCloud Photos: Off
+- Apps > Default Apps > Email: [Encrypted email provider of your choice](/guides/moderately-important/email)
+- Apps > Default Apps > Messaging: [Encrypted messaging provider of your choice](/guides/moderately-important/messaging)
+- Apps > Default Apps > Browser App: [Brave](https://apps.apple.com/us/app/brave-private-browser/id1052879175), [Firefox Focus](https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/), or [hardened Safari](https://www.privacyguides.org/en/mobile-browsers/#safari).
+- Apps > Default Apps > Passwords & Codes: [Password manager of your choice](/guides/most-important/passwords/)
+- Apps > App Store > Personalized Recommendations: Off
 - Apps > Maps > Ratings and Photos: Off
-- Apps > Maps > Show Ratings and Photos Suggestions: Off
+- Apps > Messages > Share Name and Photo > Share Automatically: Contacts Only
+- Apps > Messages > Shared with You: Disabled
+- Apps > Messages > Filter Unknown Senders: Enabled
+- Apps > Messages > Keep Messages: 30 Days
+- Apps > Messages > Send Read Receipts: Off
+- Apps > Phone > Silence unknown callers: On
+- Apps > Maps > Contribute to Maps > Show Ratings and Photos Suggestions: Off
 - Apps > Maps > Allow Photo Providers to Use Your Photos: Disabled
-- Apps > Maps > Ride Booking: Examine to ensure you're not sharing data with apps when you don't want to
+- Apps > Photos > Show Recently Viewed & Shared: Off
 - Apps > Photos > Enhanced Visual Search: Off
 - Apps > Safari > See Privacy Guides' [Safari page](https://www.privacyguides.org/en/mobile-browsers/#safari) if you plan to use Safari
 - Apps > Translate: On-Device Mode: On
-- Now scroll back up to Screen Time > Improve Communications Safety: Off
+- Screen Time > Communication Safety > Improve Communication Safety: Off
 - Screen time > Content & Privacy Restrictions: Enable
 - Screen Time > Content & Privacy Restrictions > Allowed Apps: Disable everything you do not intend to use.
 - Screen Time > Content & Privacy Restrictions > Privacy & Allowed Changes: Set all to "Don't Allow Changes." This will prevent changes from being made on your behalf next time you update.

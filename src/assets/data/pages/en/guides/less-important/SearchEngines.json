@@ -28,15 +28,6 @@
         "AI": "Optional"
       }
     },
-    "leta": {
-      "name": "Leta",
-      "logo": "/images/logos/mullvad.png",
-      "link": "https://leta.mullvad.net/",
-      "values": {
-        "Index": "Brave (default), Google (optional)",
-        "AI": "No"
-      }
-    },
     "mojeek": {
       "name": "Mojeek",
       "logo": "/images/logos/mojeek.png",
