@@ -10,6 +10,7 @@ import Criterias from "@components/charts/Criterias.astro";
 import chart1Data from "@assets/data/pages/en/guides/less-important/SearchEngines.json";
 import chart2Data from "@assets/data/pages/en/guides/less-important/SocialMedia.json";
 import chart3Data from "@assets/data/pages/en/guides/less-important/AI.json";
+import chart4Data from "@assets/data/pages/en/guides/less-important/FrontEnds.json";
 
 # Miscellaneous Online Habits
 
@@ -39,19 +40,25 @@ While I discourage mainstream social media services for a number of reasons, I u
 
 Whether you stick with mainstream social media or use a privacy-focused alternative, **I discourage using the same username or handle across all your social media accounts** unless you're building a professional brand. I suggest using your password manager to generate a two or three random word passphrase and then use that as your handle. ([Bitwarden](/guides/most-important/passwords/) also offers a username generator.) Also be sure to use a unique [alias email](/guides/moderately-important/email-aliasing) for each account. Repeat as needed for every site and account. If somebody decides to cyberstalk you, this can make it harder for them to find all of your accounts. This also protects against [credential stuffing](https://owasp.org/www-community/attacks/Credential_stuffing).
 
+### Front Ends
+
+If you are simply a "lurker," - someone who likes to view content but not comment - there are a number of front-ends available for various mainstream social media platforms that allow you to view content while reducing or eliminating the number of trackers on a website, much like a proxy.
+
+<Criterias data={chart4Data} />
+
+There's an extension called [LibRedirect](https://github.com/libredirect/LibRedirect) that you can use to automatically redirect any links you click to the front-end of your choice. (Note that with the rise of AI, many companies are now requiring a login or "rate-limiting" the number of posts you can see without an account in an effort to combat content scraping. This may affect front-ends and make them unreliable in some cases.)
+
 ### The Fediverse
 
 If you feel the need to have social media, try checking out the so-called "Fediverse," which has recently come to more mainstream attention with the rise of Mastodon as an X alternative. The Fediverse is a volunteer run, decentralized social networking system, which tends to be more privacy respecting. Imagine if you had an Instagram account but wanted to follow someone on YouTube or X. In mainstream social media, you have to sign up for one of those platforms. On the Fediverse, however, you can follow them from your one account without signing up on a second platform and all their content will be delivered to you like normal. Below are some of the more popular federated platforms and some recommended servers. Please note this is not a comprehensive list. You can get more information about the different platforms and instances that make up the Fediverse [here](https://fediverse.party/).
+
+_Listed in alphabetical order, not order of recommendation_
 
 <Criterias data={chart2Data} />
 
 _Notes:_
 * _Ghost, WordPress, and WriteFreely are all distinct blogging platforms with unique features, use cases, and usability. However, all can be federated, either natively, in beta, or through additional plug-ins. Be sure to explore each to see which is right for your needs._
 * _Matrix is not part of the "Fediverse," it does not communicate directly with the other platforms listed on this chart. However, I do still recommend it as an alternative social media platform as it is considerably more privacy-respecting than services like Discord and Slack._
-
-### Front Ends
-
-If you are simply a "lurker," - someone who likes to view content but not comment - there are a number of front-ends available that allow you to view content while reducing or eliminating the number of trackers on a website, much like a proxy. For X, there's numerous [Nitter instances](https://github.com/zedeus/nitter/wiki/Instances). For YouTube, there's a host of [Invidious instances](https://redirect.invidious.io/) and the [NewPipe](https://newpipe.net/) app for Android users. For Reddit, there's [Libreddit](https://github.com/spikecodes/libreddit) and [Teddit](https://codeberg.org/teddit/teddit). For Instagram, there's [Bibliogram](https://git.sr.ht/~cadence/bibliogram-docs/tree/master/docs/Instances.md). For TikTok, [StickTock](https://sticktock.com/) and [ProxiTalk](https://proxitok.pabloferreiro.es/) have recently entered the scene. Sadly there are no web-based Facebook or Snapchat front-ends that I'm aware of. If you'd like, there's an extension called [LibRedirect](https://github.com/libredirect/LibRedirect) that you can use to automatically redirect any links you click to the front-end of your choice. (Note that with the rise of AI, many companies are now requiring a login or "rate-limiting" the number of posts you can see without an account in an effort to combat content scraping. This may affect front-ends and make them unreliable in some cases.)
 
 ## Search Engines
 
@@ -75,6 +82,8 @@ From a privacy perspective, mainstream offerings like ChatGPT and Claude are a [
 
 Please note that I am not encouraging the use of AI. While I do believe AI can serve some specific use cases, I am of the strong belief that its capabilities and use-cases are being largely exaggerated and forced upon us. If you don't think you need an AI tool, feel free not to use it. However if you do an LLM - or you're simply curious to experiment and see if AI can help you - I would recommend exploring these tools, first.
 
+_Listed in alphabetical order, not order of recommendation_
+
 <Criterias data={chart3Data} />
 
 ## Account Hygiene
@@ -85,5 +94,5 @@ Delete any and all unused accounts. This includes old social media accounts, lib
 
 There are a number of services you can use to vet apps and websites to check for any potential privacy concerns. Note that these tools aren't comprehensive, but they can be helpful starting points.
 
-* [Exodus Privacy](https://reports.exodus-privacy.eu.org/en/): Vet Android apps for known trackers
+* [Exodus Privacy](https://reports.exodus-privacy.eu.org/en/): Check Android apps for known trackers
 * [Blacklight from The Markup](https://themarkup.org/blacklight): Check websites for known trackers

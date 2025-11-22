@@ -3,7 +3,7 @@
     "name": "Filen",
     "logo": "/images/logos/filen.png",
     "logo_alt": "Filen logo",
-    "link": "https://filen.io/r/834a3bd235bca0caa53141f2ebc30438",
+    "link": "https://filen.io/",
     "use_cases": [],
     "pros": [
       "Includes text chat feature with other users",
@@ -19,7 +19,7 @@
     "name": "Mega",
     "logo": "/images/logos/mega.png",
     "logo_alt": "MEGA Logo",
-    "link": "https://mega.nz/aff=UBJLjO7sxZU",
+    "link": "https://mega.io",
     "use_cases": [],
     "pros": [
       "Includes text, audio, and video chat feature with other users"
@@ -35,7 +35,7 @@
     "name": "ProtonDrive",
     "logo": "/images/logos/protondrive.png",
     "logo_alt": "ProtonDrive Logo",
-    "link": "https://go.getproton.me/aff_c?offer_id=43&aff_id=2187",
+    "link": "https://proton.me/drive",
     "use_cases": [],
     "pros": [
       "Includes ecosystem (VPN, Mail, calendar, password manager)",

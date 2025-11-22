@@ -6,8 +6,8 @@
       "values": {
         "Alternatives": [
           "[Nextcloud](https://nextcloud.com/)",
-          "[Proton Calendar](https://go.getproton.me/aff_c?offer_id=7&aff_id=2187)",
-          "[Tuta Calendar](https://tuta.com/calendar/?t-src=the-new-oil)"
+          "[Proton Calendar](https://proton.me/calendar)",
+          "[Tuta Calendar](https://tuta.com/calendar/)"
         ],
         "Reason": [
           "Your calendar contains all your plans and locations: upcoming dates, shifts at work, events you plan to attend, and more. Using an encrypted calendar can help protect that information from Google, Apple or other third parties."
@@ -69,7 +69,7 @@
       "values": {
         "Alternatives": [
           "[Cryptee](https://crypt.ee/)",
-          "[Filen](https://filen.io/r/834a3bd235bca0caa53141f2ebc30438)",
+          "[Filen](https://filen.io/)",
           "[Joplin](https://joplinapp.org/)",
           "[Nextcloud](https://nextcloud.com/)",
           "[Notesnook](https://notesnook.com/)",
@@ -97,7 +97,7 @@
         "Alternatives": [
           "[Cryptee](https://crypt.ee/)",
           "[Ente](https://ente.io/)",
-          "[Filen](https://filen.io/r/834a3bd235bca0caa53141f2ebc30438)",
+          "[Filen](https://filen.io/)",
           "[Nextcloud](https://nextcloud.com/)",
           "[Proton Drive](https://proton.me/drive) (Android only)"
         ],
@@ -110,8 +110,8 @@
       "name": "Web Browser",
       "values": {
         "Alternatives": [
-          "Android: [Brave](https://play.google.com/store/apps/details?id=com.brave.browser&hl=en&gl=US), [Firefox Focus](https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/), or [Firefox](https://www.mozilla.org/en-US/firefox/) with [uBlock Origin](https://ublockorigin.com/)",
-          "iOS: [Brave](https://apps.apple.com/us/app/brave-private-browser/id1052879175), [Firefox Focus](https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/), [hardened Safari](https://www.privacyguides.org/en/mobile-browsers/#safari), or [SnowHaze](https://snowhaze.com/download)."
+          "Android: [Brave](https://play.google.com/store/apps/details?id=com.brave.browser&hl=en&gl=US) or [Firefox](https://www.mozilla.org/en-US/firefox/) with [uBlock Origin](https://ublockorigin.com/)",
+          "iOS: [Brave](https://apps.apple.com/us/app/brave-private-browser/id1052879175), [Firefox Focus](https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/), or [hardened Safari](https://www.privacyguides.org/en/mobile-browsers/#safari)"
         ],
         "Reason": [
           "While apps have mostly replaced the browser on mobile, some things are still done through the browser. While less revealing compared to other phone apps, your browser usage still reveals a lot of data about you and should be minimized."

@@ -42,7 +42,7 @@
     "simplelogin": {
       "name": "SimpleLogin",
       "logo": "/images/logos/simplelogin.png",
-      "link": "https://simplelogin.io?slref=thenewoil",
+      "link": "https://simplelogin.io",
       "plans": {
         "Free": {
           "Aliases": 10,

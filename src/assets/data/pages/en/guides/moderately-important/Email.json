@@ -3,22 +3,22 @@
     "name": "ProtonMail",
     "logo": "/images/logos/protonmail.png",
     "logo_alt": "Protonmail Logo",
-    "link": "https://go.getproton.me/aff_c?offer_id=7&aff_id=2187",
+    "link": "https://proton.me/mail",
     "use_cases": ["Best for people who want an ecosystem since it includes cloud storage, calendar, VPN, and more", "Best for power users who want PGP support so non-Proton users can initiate secure conversations with you"],
     "pros": [
       "[Recently audited](https://protonmail.com/blog/security-audit/)",
       "Based on PGP",
       "Offers a free tier",
-      "Includes a calendar, cloud storage, password manager, and VPN with all plans",
+      "Includes a calendar, cloud storage, password manager, VPN, authenticator, and Bitcoin wallet with all plans",
       "Import/export emails available"
     ],
-    "cons": ["No desktop app, web or third-party email client only."]
+    "cons": []
   },
   "tuta": {
     "name": "Tuta",
     "logo": "/images/logos/tuta.png",
     "logo_alt": "Tuta Logo",
-    "link": "https://tuta.com/?t-src=the-new-oil",
+    "link": "https://tuta.com/",
     "use_cases": ["Best for users who desire maximum security with their email since Tuta encrypts things above beyond standard PGP"],
     "pros": [
       "[Recently audited](https://tuta.com/blog/posts/desktop-clients-tutanota/)",
@@ -26,6 +26,6 @@
       "Includes a calendar with all plans",
       "Export emails available (individual emails only)"
     ],
-    "cons": ["No PGP support", "Import emails not available"]
+    "cons": ["No PGP support", "Import emails in beta for paid plans only"]
   }
 }

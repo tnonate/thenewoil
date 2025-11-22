@@ -1,0 +1,56 @@
+{
+  "criterias": ["Alternatives"],
+  "tools": {
+      "instagram": {
+      "name": "Instagram",
+      "values": {
+        "Alternatives": [
+          "[FxInstagram](https://www.xnstagram.com/)"
+        ]
+      }
+    },
+  "reddit": {
+      "name": "Reddit",
+      "values": {
+        "Alternatives": [
+          "[Redlib](https://github.com/redlib-org/redlib)",
+          "[Eddrit](https://github.com/corenting/eddrit)"
+        ]
+      }
+    },
+  "tiktok": {
+      "name": "TikTok",
+      "values": {
+        "Alternatives": [
+          "[StickTock](https://sticktock.com/)",
+          "[ProxiTalk](https://github.com/pablouser1/ProxiTok/wiki/Public-instances)"
+        ]
+      }
+    },
+    "twitter": {
+      "name": "Twitter",
+      "values": {
+        "Alternatives": [
+          "[Nitter](https://github.com/zedeus/nitter/wiki/Instances)",
+          "[FxEmbed](https://github.com/FxEmbed/FxEmbed)",
+          "[vxTwitter/fixvx](https://github.com/dylanpdx/BetterTwitFix)"
+        ]
+      }
+    },
+  "youtube": {
+      "name": "YouTube",
+      "values": {
+        "Alternatives": [
+          "[Invidious](https://redirect.invidious.io/)",
+          "[Piped](https://github.com/TeamPiped/documentation/blob/main/content/docs/public-instances/index.md)",
+          "[FreeTube](https://freetubeapp.io/)",
+          "[NewPipe](https://newpipe.net/)",
+          "[GrayJay](https://grayjay.app/)",
+          "[LibreTube](https://libretube.dev/)",
+          "[Tubular](https://github.com/polymorphicshade/Tubular)",
+          "[Yattee](https://github.com/yattee/yattee)"
+        ]
+      }
+    }
+}
+}
