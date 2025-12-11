@@ -56,8 +56,9 @@
       "name": "Navigation",
       "values": {
         "Alternatives": [
+          "[CoMaps](https://www.comaps.app/)",
           "[Organic Maps](https://organicmaps.app/)",
-          "[Magic Earth](https://www.magicearth.com/)"
+          "[OsmAnd](https://osmand.net/)"
         ],
         "Reason": [
           "Google Maps, Apple Maps, and others record everywhere you go and add that location history to your profile. Using an alternate navigator won't stop your carrier from tracking your location, but it can help reduce the specific location data that is stored on you and who can collect it."
