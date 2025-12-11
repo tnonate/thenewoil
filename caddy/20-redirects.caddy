@@ -12,6 +12,6 @@
 	redir /patreon https://www.patreon.com/TheNewOil413
 	redir /paypal https://www.paypal.com/donate/?hosted_button_id=2LLRWFZQS4E94
 
-	redir /black-friday https://blog.thenewoil.org/black-friday-2025-privacy-deals
+	redir /black-friday https://ghost.thenewoil.org/black-friday-2025-privacy-deals/
     redir /stats https://stats.thenewoil.org/share/jnR7d6tGklwToSOJ/thenewoil.org
 }
