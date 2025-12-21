@@ -41,14 +41,14 @@
       "name": "YouTube",
       "values": {
         "Alternatives": [
-          "[Invidious](https://redirect.invidious.io/)",
-          "[Piped](https://github.com/TeamPiped/documentation/blob/main/content/docs/public-instances/index.md)",
-          "[FreeTube](https://freetubeapp.io/)",
-          "[NewPipe](https://newpipe.net/)",
-          "[GrayJay](https://grayjay.app/)",
-          "[LibreTube](https://libretube.dev/)",
-          "[Tubular](https://github.com/polymorphicshade/Tubular)",
-          "[Yattee](https://github.com/yattee/yattee)"
+          "[Invidious](https://redirect.invidious.io/) (Web)",
+          "[Piped](https://github.com/TeamPiped/documentation/blob/main/content/docs/public-instances/index.md) (Web)",
+          "[FreeTube](https://freetubeapp.io/) (Linux, Mac, Windows)",
+          "[NewPipe](https://newpipe.net/) (Android)",
+          "[GrayJay](https://grayjay.app/) (Android, Linux, Mac, Windows)",
+          "[LibreTube](https://libretube.dev/) (Android)",
+          "[Tubular](https://github.com/polymorphicshade/Tubular) (Android)",
+          "[Yattee](https://github.com/yattee/yattee) (iOS, macOS, tvOS)"
         ]
       }
     }

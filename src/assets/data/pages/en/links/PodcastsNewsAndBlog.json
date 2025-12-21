@@ -6,14 +6,7 @@
   },
   {
     "name": "Blog",
-    "link": "https://blog.thenewoil.org/",
-    "img": "/images/logos/writeas.png",
-    "subtext": "Table of Contents",
-    "sublink": "https://blog.thenewoil.org/archive/"
-  },
-  {
-    "name": "Ghost",
-    "link": "https://thenewoil.ghost.io/",
+    "link": "https://ghost.thenewoil.org/tag/blog/",
     "img": "/images/logos/ghost.png"
   },
   {
