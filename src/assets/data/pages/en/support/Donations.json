@@ -1,6 +1,6 @@
 [
   {
-    "link": "https://ghost.thenewoil.org/",
+    "link": "https://ghost.thenewoil.org/#/portal",
     "img": "/images/logos/ghost.png",
     "name": "Ghost"
   },
@@ -10,7 +10,7 @@
     "name": "Open Collective"
   },
   {
-    "link": "https://liberapay.com/thenewoil",
+    "link": "https://liberapay.com/thenewoil/donate",
     "img": "/images/logos/liberapay.png",
     "name": "Liberapay"
   },

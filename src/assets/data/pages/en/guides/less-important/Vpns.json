@@ -4,7 +4,7 @@
     "logo": "/images/logos/ivpn.png",
     "logo_alt": "IVPN logo",
     "link": "https://www.ivpn.net",
-    "use_cases": [],
+    "use_cases": ["Unique fatures: temporarily pause VPN, trusted/untrusted networks for automatic connect/disconnect, GPS spoofing (Android only)"],
     "pros": [
       "[Recently audited](https://www.ivpn.net/blog/tags/audit/)",
       "Available on all operating systems",
@@ -21,14 +21,14 @@
     "logo": "/images/logos/mullvad.png",
     "logo_alt": "Mullvad logo",
     "link": "https://mullvad.net/",
-    "use_cases": [],
+    "use_cases": ["Best for people on a budget who still want a full-featured VPN", "Best for people who value maximum privacy"],
     "pros": [
       "[Recently audited](https://mullvad.net/en/blog/search/?q=audit)",
       "Available on all operating systems",
       "Flat rate of $5/month for all services and payment lengths",
       "Anonymous payments (cash and Monero) available",
       "Offers malware, tracker, and ad-blocking for [all plans](https://mullvad.net/en/why-mullvad-vpn/)",
-      "Frequently engages in [early-adoption practices](https://mullvad.net/en/blog/2022/12/30/review-of-2022/) to improve user privacy and security, like post-quantum safe tunnels, diskless infrastructure, numerous audits, and more."
+      "Frequently engages in [early-adoption practices](https://mullvad.net/en/blog/2025/12/30/mullvad-review-of-2025) to improve user privacy and security."
     ],
     "cons": [
       "Does not offer [multifactor authentication](/guides/most-important/mfa) for accounts"
@@ -39,7 +39,7 @@
     "logo": "/images/logos/protonvpn.png",
     "logo_alt": "Proton VPN logo",
     "link": "https://protonvpn.com/",
-    "use_cases": [],
+    "use_cases": ["Best for people who want an ecosystem", "Best for people who use streaming services", "Best for those who need port forwarding"],
     "pros": [
       "[Recently audited](https://protonvpn.com/blog/open-source/)",
       "Available on all operating systems",
