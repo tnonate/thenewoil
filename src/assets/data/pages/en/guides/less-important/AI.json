@@ -1,7 +1,7 @@
 {
   "criterias": ["Online or Offline", "Notes"],
   "tools": {
-     "duck": {
+    "duck": {
       "name": "Duck.ai",
       "logo": "/images/logos/ddg.png",
       "link": "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1",
