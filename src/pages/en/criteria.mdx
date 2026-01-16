@@ -35,6 +35,7 @@ Because many words and phrases can be subjective, we have clarified some of our 
 - Mobile apps must be available through the Google Play and/or Apple App stores (where applicable). F-Droid and/or APKs preferred for Android devices.
 - Recommendations must be source available (at least on the client side) unless few or no such alternatives exist.
 - Proprietary recommendations must have an established history or assurance of respecting user privacy and data sovereignty, or must offer significant features not found in their source available counterparts that would be beneficial for a typical threat model
+- Services should be accessible to individual end-users. Services like realtime messaging, password managers, or email often have a B2B component. This is fine, but they must also have a consumer-facing arm for individual end users to easily join and use the service.
 
 ## Backup & Cloud Storage
 
@@ -82,8 +83,9 @@ Because many words and phrases can be subjective, we have clarified some of our 
 ## Password Managers
 
 - For the user-friendliness of the target audience, stateless password managers are not permitted
-- Must support passkeys
-- Must offer <dfn title="the ability to assign someone who can access your account in the event you pass away or are otherwise incapacitated">legacy access</dfn>
+- Must support creating, storing, importing, and exporting passkeys
+- Must offer tools to help identify potential password vulnerabilities such as weak, reused, or breached passwords
+- Must be [recently audited](/criteria/#definitions)
 
 ## Payment Masking
 
