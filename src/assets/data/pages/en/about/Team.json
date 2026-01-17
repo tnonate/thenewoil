@@ -11,6 +11,17 @@
     ]
   },
   {
+    "name": "Rik Den Breejen",
+    "title": "Web Developer",
+    "links": [
+      {
+        "name": "Website",
+        "link": "https://www.rikdenbreejen.nl/",
+        "icon": "/images/logos/website.png"
+      }
+    ]
+  },
+  {
     "name": "daryl76679",
     "title": "Moderator",
     "links": [
