@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Signal",
+    "link": "/en/messengers#signal",
+    "img": "/images/logos/signal.png"
+  },  
+  {
+    "name": "SimpleX",
+    "link": "/en/messengers#simplex",
+    "img": "/images/logos/simplex.png"
+  },
+  {
+    "name": "Session",
+    "link": "/en/messengers#session",
+    "img": "/images/logos/session.png"
+  }
+]
