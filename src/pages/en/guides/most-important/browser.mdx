@@ -30,7 +30,7 @@ While I don't think there is a perfect solution in this space, *I personally rec
 **If you decide to go with Brave, you don't need to add any additional extensions** (except, optionally, Snowflake. See the next paragraph for more information). **If you decide to go with Firefox, you should install [uBlock Origin](https://ublockorigin.com/)**, a powerful, lightweight ad- and tracker-blocker. Malicious, fake ads designed to scam you or trick you into downloading malware (called "malvertising") have become such a serious problem that even the FBI [recommends](https://techcrunch.com/2022/12/22/fbi-ad-blocker/) that you use an ad-blocker. Additionally, the online advertising model has become one of the most [prolific](https://www.eff.org/deeplinks/2025/01/online-behavioral-ads-fuel-surveillance-industry-heres-how) and invisible privacy threats out there. Officially, uBlock Origin is ready for use "out of the box." You can choose to enable more filters if you'd like, but be aware that some suggest this could make you stand out to trackers online.
 
 <Highlighting variant="warning">
-[According the developer](https://github.com/gorhill/uBlock), uBlock Origin should not be used in conjuction with any other content blockers like Privacy Badger, Ghostery, AdBlock Plus, or others.
+[According the developer](https://github.com/gorhill/uBlock), uBlock Origin should **not** be used in conjuction with any other content blockers like Privacy Badger, Ghostery, AdBlock Plus, or others.
 
 </Highlighting>
 
@@ -44,6 +44,8 @@ There are two additional extensions that I think are worth adding if you feel so
 **I strongly advise against installing any other extensions unless absolutely necessary.** The more extensions you install, the more easily your browser can be fingerprinted, making it easier to track you across the web despite any other privacy-enhancing changes you make to your browser or browsing habits. They also present a serious [security risk](https://techxplore.com/news/2023-09-issue-chrome-extensions-access-private.html) as extensions typically have advanced privileges that allow them to modify the web page, read data, and other necessary functions that could be abused for malicious purposes.
 
 ## Settings
+
+These recommendedations are a general "one-size-fits-most" solution to mass data collection. Your situation may require enabling or disabling settings, features, and apps contrary to what we recommend. Any settings not explicitly mentioned are likely "personal preference" and present little risk to your privacy/security either way.
 
 <div>
 
@@ -79,7 +81,7 @@ There are two additional extensions that I think are worth adding if you feel so
 - Search engine:
   - Change search engine to a [privacy-respecting option](/guides/less-important/misc/#search-engines)
   - Improve search suggestions: disabled
-  - web Discovery Project: disabled
+  - Web Discovery Project: disabled
 - Additional settings:
   - Autofill: disable all <sup>(2)</sup>
   - Downloads: Ask where to save each file before downloading: enabled
@@ -126,6 +128,8 @@ _Note: Mozilla has [been found](https://www.ghacks.net/2022/03/17/each-firefox-d
   - Security: Deceptive Content and Dangerous Software Protection: enable all
   - Security: HTTPS-Only Mode: Enabble HTTPS-Only Mode in all windows
   - **(Skip this setting if using a [VPN](/guides/less-important/vpns).)** Privacy & Security: Enable DNS over HTTPS: Max Protection: Select a DNS provider from [this list](https://www.privacyguides.org/en/dns/).
+- AI Controls
+  - AI chatbot providers in sidebar: Blocked (If you want to use AI, see my recommendations [here](/guides/less-important/misc/#ai))
 
 _1: I have never known this setting to cause any website breakage, however you can always change it back to Standard or Custom if you do._
 \
