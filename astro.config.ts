@@ -14,6 +14,9 @@ import config from "./config.json";
 export default defineConfig({
   site: "https://thenewoil.org",
   outDir: "./www",
+  prefetch: {
+    prefetchAll: true,
+  },
   redirects: {
     "/": "/en/",
     "/btc/": "/en/crypto#bitcoin-btc",

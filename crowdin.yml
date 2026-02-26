@@ -20,12 +20,13 @@ files:
     {
       source: "/pages/en/**/*.mdx",
       translation: "/pages/%two_letters_code%/**/%file_name%.mdx",
-      ignore: [
+      ignore:
+        [
           "/pages/en/blog-index.mdx",
-          "/pages/en/pgp.mdx", 
+          "/pages/en/pgp.mdx",
           "/pages/en/xmr2.mdx",
-          "/pages/en/snowflake.mdx"
-      ],
+          "/pages/en/snowflake.mdx",
+        ],
     },
     {
       source: "/pages/404.mdx",

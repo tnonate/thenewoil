@@ -4,13 +4,12 @@ import { Icon } from "astro-icon/components";
 
 interface Props {
   url: string;
-  icon: string;
   class?: string;
-  iconLeft?: boolean;
-  iconRight?: boolean;
+  iconLeft?: string;
+  iconRight?: string;
 }
 
-const { url, icon, iconLeft, iconRight, class: className = "" } = Astro.props;
+const { url, iconLeft, iconRight, class: className = "" } = Astro.props;
 ---
 
 <Button
@@ -20,9 +19,9 @@ const { url, icon, iconLeft, iconRight, class: className = "" } = Astro.props;
   href={url}
   class={`flex items-center justify-center gap-1 border-4 ${className}`}
 >
-  {iconLeft && <Icon name={icon} class="h-6 w-6" role="img" aria-label="Previous button icon" aria-hidden />}
+  {iconLeft && <Icon name={iconLeft} class="size-6" role="img" aria-label="Previous button icon" aria-hidden />}
   <span>
     <slot />
   </span>
-  {iconRight && <Icon name={icon} class="h-6 w-6" role="img" aria-label="Next button icon" aria-hidden />}
+  {iconRight && <Icon name={iconRight} class="size-6" role="img" aria-label="Next button icon" aria-hidden />}
 </Button>

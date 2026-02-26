@@ -4,7 +4,10 @@
     "logo": "/images/logos/protonmail.png",
     "logo_alt": "Protonmail Logo",
     "link": "https://proton.me/mail",
-    "use_cases": ["Best for people who want an ecosystem since it includes cloud storage, calendar, VPN, and more", "Best for power users who want PGP support so non-Proton users can initiate secure conversations with you"],
+    "use_cases": [
+      "Best for people who want an ecosystem since it includes cloud storage, calendar, VPN, and more",
+      "Best for power users who want PGP support so non-Proton users can initiate secure conversations with you"
+    ],
     "pros": [
       "[Recently audited](https://protonmail.com/blog/security-audit/)",
       "Based on PGP",
@@ -19,7 +22,9 @@
     "logo": "/images/logos/tuta.png",
     "logo_alt": "Tuta Logo",
     "link": "https://tuta.com/",
-    "use_cases": ["Best for users who desire maximum security with their email since Tuta encrypts things above beyond standard PGP"],
+    "use_cases": [
+      "Best for users who desire maximum security with their email since Tuta encrypts things above beyond standard PGP"
+    ],
     "pros": [
       "[Recently audited](https://tuta.com/blog/posts/desktop-clients-tutanota/)",
       "Offers a free tier",

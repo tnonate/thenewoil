@@ -1,15 +1,13 @@
 {
   "criterias": ["Alternatives"],
   "tools": {
-      "instagram": {
+    "instagram": {
       "name": "Instagram",
       "values": {
-        "Alternatives": [
-          "[FxInstagram](https://www.xnstagram.com/)"
-        ]
+        "Alternatives": ["[FxInstagram](https://www.xnstagram.com/)"]
       }
     },
-  "reddit": {
+    "reddit": {
       "name": "Reddit",
       "values": {
         "Alternatives": [
@@ -18,7 +16,7 @@
         ]
       }
     },
-  "tiktok": {
+    "tiktok": {
       "name": "TikTok",
       "values": {
         "Alternatives": [
@@ -37,7 +35,7 @@
         ]
       }
     },
-  "youtube": {
+    "youtube": {
       "name": "YouTube",
       "values": {
         "Alternatives": [
@@ -51,5 +49,5 @@
         ]
       }
     }
-}
+  }
 }

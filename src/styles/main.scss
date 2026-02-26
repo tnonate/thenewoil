@@ -17,8 +17,8 @@
     @apply cursor-pointer list-none;
   }
 
-  details>summary::-webkit-details-marker,
-  details>summary::marker {
+  details > summary::-webkit-details-marker,
+  details > summary::marker {
     width: 0;
     height: 0;
     display: none;
@@ -82,7 +82,7 @@
 
   main a,
   main dfn {
-    @apply underline underline-offset-2 decoration-2 p-0 transition-opacity hover:opacity-75;
+    @apply p-0 underline decoration-2 underline-offset-2 transition-opacity hover:opacity-75;
   }
 
   main a {

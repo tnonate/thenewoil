@@ -17,10 +17,10 @@ const currentLanguage = getLanguageFromUrl(Astro.url);
   <summary
     class={`flex items-center rounded-md bg-white bg-opacity-0 px-5 py-2 transition-all hover:bg-opacity-5 group-open:bg-opacity-[.15] ${summaryClass}`}
   >
-    <Icon name="mdi:web" class="h-7 w-7" role="img" aria-label="Web icon" />
+    <Icon name="mdi:web" class="size-7" role="img" aria-label="Web icon" />
     <Icon
       name="mdi:chevron-up"
-      class="h-6 w-6 group-open:rotate-180 motion-safe:transition-all motion-safe:duration-200 motion-safe:ease-out"
+      class="size-6 group-open:rotate-180 motion-safe:transition-all motion-safe:duration-200 motion-safe:ease-out"
       role="img"
       aria-label="Dropbown button icon"
     />
@@ -41,7 +41,7 @@ const currentLanguage = getLanguageFromUrl(Astro.url);
             <img
               src={language.image || `/images/languages/${language.code}.png`}
               alt={`${language.name} icon`}
-              class="h-10 w-10 rounded-full object-cover"
+              class="size-10 rounded-full object-cover"
             />
             <span>{language.name}</span>
           </a>

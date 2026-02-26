@@ -7,5 +7,5 @@ The following example shows how to use the Icon component in MDX. First you need
 ```tsx
 import { Icon } from "astro-icon/components";
 
-<Icon name="mdi:house" class="h-7 w-7" />
+<Icon name="mdi:house" class="size-7" />
 ```

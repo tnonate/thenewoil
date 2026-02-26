@@ -25,8 +25,8 @@ const { items } = Astro.props;
       return (
         <li class="flex list-none" title={item.not_encouraged ? "Not encouraged" : ""}>
           <Container
-            class={`flex flex-1 items-center gap-4 decoration-blue-400 rounded-lg border-4 p-4 border-bg-primary dark:border-bg-primary-dark ${
-              item.not_encouraged ? "border-gradient-warning decoration-red-400" : "border-gradient-secondary"
+            class={`flex flex-1 items-center gap-4 rounded-lg border-4 p-4 decoration-blue-400 border-bg-primary dark:border-bg-primary-dark ${
+              item.not_encouraged ? "decoration-red-400 border-gradient-warning" : "border-gradient-secondary"
             }`}
             href={!hasSubLink && item.link}
           >
@@ -44,7 +44,7 @@ const { items } = Astro.props;
             <div class="flex w-fit flex-col justify-center decoration-inherit">
               <PossibleLink
                 href={hasSubLink && item.link}
-                class="border-none text-base font-medium motion-safe:transition-all decoration-inherit xs:text-lg sm:break-normal sm:text-xl"
+                class="border-none text-base font-medium decoration-inherit motion-safe:transition-all xs:text-lg sm:break-normal sm:text-xl"
               >
                 {item.name}
               </PossibleLink>
