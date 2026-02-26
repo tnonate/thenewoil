@@ -8,8 +8,8 @@
     }
   ],
   "extends": "astro/tsconfigs/base",
-  "exclude": ["./docs/**/*", "./dist/**/*"],
-  "include": ["./src/**/*"],
+  "exclude": ["docs", "dist"],
+  "include": [".astro/types.d.ts", "./src/**/*"],
   "compilerOptions": {
     "baseUrl": ".",
     "noImplicitAny": true,
