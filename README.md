@@ -2,9 +2,9 @@
 
 ## Mission Statement
 
--   To **educate** readers on why privacy and security matter, and the various tools and techniques available to help them reclaim and protect their own privacy & security
--   To **empower** readers to believe that privacy and security are attainable for everyone and to do their best to reclaim & protect their own privacy and security as much as possible
--   To **enhance** the lives of readers with tools that will improve their privacy and security without negatively impacting their mental or emotional health or professional or social lives
+- To **educate** readers on why privacy and security matter, and the various tools and techniques available to help them reclaim and protect their own privacy & security
+- To **empower** readers to believe that privacy and security are attainable for everyone and to do their best to reclaim & protect their own privacy and security as much as possible
+- To **enhance** the lives of readers with tools that will improve their privacy and security without negatively impacting their mental or emotional health or professional or social lives
 
 For an in depth guide on how to set up the project on your local machine [click this link](./docs/getting-started.md). Credit to [Rik](https://www.rikdenbreejen.nl/) and [Jaden](https://github.com/jadenet) for setting up the site in the Astro framework, updating the overall design to something more modern, and continuing to help with any major issues.
 
@@ -18,17 +18,17 @@ Readers who speak foreign languages can help us translate the site on [Crowdin](
 
 ## Other Notable Projects
 
--   [Website](https://thenewoil.org/)
--   [Podcast](https://www.privacyguides.org/livestreams/)
--   [Blog](https://ghost.thenewoil.org/tag/blog/)
--   [News Feed](https://mastodon.thenewoil.org/@thenewoil)
--   [Videos](https://apertatube.net/c/thenewoil/videos)
--   [Analytics](https://stats.thenewoil.org/share/jnR7d6tGklwToSOJ/thenewoil.org)
+- [Website](https://thenewoil.org/)
+- [Podcast](https://www.privacyguides.org/livestreams/)
+- [Blog](https://ghost.thenewoil.org/tag/blog/)
+- [News Feed](https://mastodon.thenewoil.org/@thenewoil)
+- [Videos](https://apertatube.net/c/thenewoil/videos)
+- [Analytics](https://stats.thenewoil.org/share/jnR7d6tGklwToSOJ/thenewoil.org)
 
 ## Transparency
 
--   [**2024 Transparency Report**](https://blog.thenewoil.org/transparency-report-2024)
--   [**2023 Transparency Report**](https://blog.thenewoil.org/transparency-report-2023)
--   [**2022 Transparency Report**](https://blog.thenewoil.org/transparency-report-2022-and-goals-for-2023)
--   [**2021 Transparency Report**](https://blog.thenewoil.org/transparency-report-2021-and-goals-for-2022)
--   [**2020 Transparency Report**](https://blog.thenewoil.org/2020-recap-2021-plans)
+- [**2024 Transparency Report**](https://blog.thenewoil.org/transparency-report-2024)
+- [**2023 Transparency Report**](https://blog.thenewoil.org/transparency-report-2023)
+- [**2022 Transparency Report**](https://blog.thenewoil.org/transparency-report-2022-and-goals-for-2023)
+- [**2021 Transparency Report**](https://blog.thenewoil.org/transparency-report-2021-and-goals-for-2022)
+- [**2020 Transparency Report**](https://blog.thenewoil.org/2020-recap-2021-plans)

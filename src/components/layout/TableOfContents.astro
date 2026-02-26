@@ -21,7 +21,7 @@ const { headings } = Astro.props;
             style={{ marginLeft: heading.depth !== 2 ? `${(heading.depth - 2) * 2}rem` : undefined }}
           >
             <a
-              class="underline-offset-2 decoration-indigo-500 decoration-2 hover:underline hover:opacity-75"
+              class="decoration-indigo-500 decoration-2 underline-offset-2 hover:underline hover:opacity-75"
               href={`#${heading.slug}`}
             >
               {heading.text}
@@ -42,7 +42,7 @@ const { headings } = Astro.props;
     Navigation
     <Icon
       name="mdi:chevron-up"
-      class="h-6 w-6 transition-all group-open/sidebar-mobile:rotate-180"
+      class="size-6 transition-all group-open/sidebar-mobile:rotate-180"
       role="img"
       aria-label="Dropbown button icon"
     />
@@ -57,7 +57,7 @@ const { headings } = Astro.props;
             style={{ marginLeft: heading.depth !== 2 ? `${(heading.depth - 2) * 2}rem` : undefined }}
           >
             <a
-              class="underline-offset-2 decoration-indigo-500 decoration-2 hover:underline hover:opacity-75"
+              class="decoration-indigo-500 decoration-2 underline-offset-2 hover:underline hover:opacity-75"
               href={`#${heading.slug}`}
             >
               {heading.text}

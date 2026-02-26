@@ -4,11 +4,7 @@
       "path": "./plugins/astro-language/tsconfig.web.json"
     }
   ],
-  "include": [
-    "*.config.ts",
-    "./plugins/**/*",
-    "./config.json"
-  ],
+  "include": ["*.config.ts", "./plugins/**/*", "./config.json"],
   "compilerOptions": {
     "composite": true,
     "tsBuildInfoFile": "./config.tsbuildinfo",
@@ -18,11 +14,7 @@
     "allowJs": true,
     "esModuleInterop": true,
     "outDir": "./dist",
-    "types": [
-      "node"
-    ],
-    "lib": [
-      "ESNext"
-    ]
+    "types": ["node"],
+    "lib": ["ESNext"]
   }
 }

@@ -4,7 +4,9 @@
     "logo": "/images/logos/session.png",
     "logo_alt": "Session Logo",
     "link": "https://getsession.org/",
-    "use_cases": ["Best for users who want decentralized, anonymous, onion-routed messaging"],
+    "use_cases": [
+      "Best for users who want decentralized, anonymous, onion-routed messaging"
+    ],
     "pros": [
       "[Recently audited](https://getsession.org/blog/session-code-audit)",
       "Available on [all operating systems](/criteria#definitions)",
@@ -22,7 +24,11 @@
     "logo": "/images/logos/signal.png",
     "logo_alt": "Signal Logo",
     "link": "https://signal.org/",
-    "use_cases": ["Best for users who want the golden standard in privacy and security", "Best for users who are comfortable using a phone number for sign up", "Best for users who want something with the most mainstream users and brand-recognition"],
+    "use_cases": [
+      "Best for users who want the golden standard in privacy and security",
+      "Best for users who are comfortable using a phone number for sign up",
+      "Best for users who want something with the most mainstream users and brand-recognition"
+    ],
     "pros": [
       "[Recently audited](https://community.signalusers.org/t/wiki-overview-of-third-party-security-audits/13243)",
       "Available on [all operating systems](/criteria#definitions)",
@@ -40,7 +46,9 @@
     "logo": "/images/logos/simplex.png",
     "logo_alt": "SimpleX Logo",
     "link": "https://simplex.chat/",
-    "use_cases": ["Best for early-adopters who want the cutting edge in privacy and anonymity innovation"],
+    "use_cases": [
+      "Best for early-adopters who want the cutting edge in privacy and anonymity innovation"
+    ],
     "pros": [
       "[Recently audited](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html)",
       "Available on [all operating systems](/criteria#definitions)",

@@ -8,7 +8,7 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "format:check": "prettier --check .",
-    "format:write": "prettier --write .",
+    "format": "prettier --write .",
     "scripts:fetch-blog": "ts-node scripts/fetchBlog/index.ts"
   },
   "engines": {

@@ -5,10 +5,7 @@
     "logo_alt": "Filen logo",
     "link": "https://filen.io/",
     "use_cases": [],
-    "pros": [
-      "Includes text chat feature with other users",
-	  "Includes notes"
-    ],
+    "pros": ["Includes text chat feature with other users", "Includes notes"],
     "cons": [
       "Not audited",
       "Not available in F-Droid",
@@ -21,9 +18,7 @@
     "logo_alt": "MEGA Logo",
     "link": "https://mega.io",
     "use_cases": [],
-    "pros": [
-      "Includes text, audio, and video chat feature with other users"
-    ],
+    "pros": ["Includes text, audio, and video chat feature with other users"],
     "cons": [
       "Not audited",
       "Not available in F-Droid",

@@ -1,48 +1,47 @@
 [
-    {
-      "link": "https://www.howtomoney.com/defend-your-digital-life-with-nathan-bartram-episode-1025/",
-      "img": "/images/logos/howtomoney.png",
-      "name": "How To Money"
-    },
-    {
-      "link": "https://podcast.firewallsdontstopdragons.com/2023/04/03/privacy-peeps-panel/",
-      "img": "/images/logos/fdsd.png",
-      "name": "Firewalls Don't Stop Dragons"
-    },
-    {
-      "link": "https://optoutpod.com/episodes/s1e04-nathan-thenewoil/",
-      "img": "/images/logos/optout.jpg",
-      "name": "Opt Out"
-    },
-    {
-      "link": "https://www.lifewire.com/brave-hands-you-the-keys-to-its-search-results-5498650",
-      "img": "/images/logos/lifewire.png",
-      "name": "Lifewire"
-    },
-    {
-      "link": "https://podcastaddict.com/makers-and-nerds-podcast/episode/144372191",
-      "img": "/images/logos/makersnerds.png",
-      "name": "Makers and Nerds"
-    },
-    {
-      "link": "https://www.youtube.com/watch?v=-NrDUjqNHoI",
-      "img": "/images/logos/privacy-international.png",
-      "name": "Privacy International"
-    },
-    {
-      "link": "https://www.youtube.com/watch?v=g_ehNdMsPIM",
-      "img": "/images/logos/monero.png",
-      "name": "Monerokon 2022"
-    },
-    {
-      "link": "https://www.youtube.com/watch?v=r5O4AYvGx58",
-      "img": "/images/logos/effaustin.png",
-      "name": "EFF Austin"
-    },
-    {
-      "link": "https://www.youtube.com/watch?v=jf5ngLQ2Blc",
-      "img": "/images/logos/effaustin.png",
-      "name": "EFF Austin"
-    }
-  ]
-  
+  {
+    "link": "https://www.howtomoney.com/defend-your-digital-life-with-nathan-bartram-episode-1025/",
+    "img": "/images/logos/howtomoney.png",
+    "name": "How To Money"
+  },
+  {
+    "link": "https://podcast.firewallsdontstopdragons.com/2023/04/03/privacy-peeps-panel/",
+    "img": "/images/logos/fdsd.png",
+    "name": "Firewalls Don't Stop Dragons"
+  },
+  {
+    "link": "https://optoutpod.com/episodes/s1e04-nathan-thenewoil/",
+    "img": "/images/logos/optout.jpg",
+    "name": "Opt Out"
+  },
+  {
+    "link": "https://www.lifewire.com/brave-hands-you-the-keys-to-its-search-results-5498650",
+    "img": "/images/logos/lifewire.png",
+    "name": "Lifewire"
+  },
+  {
+    "link": "https://podcastaddict.com/makers-and-nerds-podcast/episode/144372191",
+    "img": "/images/logos/makersnerds.png",
+    "name": "Makers and Nerds"
+  },
+  {
+    "link": "https://www.youtube.com/watch?v=-NrDUjqNHoI",
+    "img": "/images/logos/privacy-international.png",
+    "name": "Privacy International"
+  },
+  {
+    "link": "https://www.youtube.com/watch?v=g_ehNdMsPIM",
+    "img": "/images/logos/monero.png",
+    "name": "Monerokon 2022"
+  },
+  {
+    "link": "https://www.youtube.com/watch?v=r5O4AYvGx58",
+    "img": "/images/logos/effaustin.png",
+    "name": "EFF Austin"
+  },
+  {
+    "link": "https://www.youtube.com/watch?v=jf5ngLQ2Blc",
+    "img": "/images/logos/effaustin.png",
+    "name": "EFF Austin"
+  }
+]

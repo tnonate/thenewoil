@@ -57,7 +57,8 @@
     "pros": [
       "Available on [all operating systems](/criteria#definitions)",
       "Available on [F-Droid](https://f-droid.org/en/packages/proton.android.authenticator.fdroid/)",
-      "Includes Proton ecosystem (VPN, calendar, email, cloud storage, password manager, and more)"],
+      "Includes Proton ecosystem (VPN, calendar, email, cloud storage, password manager, and more)"
+    ],
     "cons": []
   }
 }

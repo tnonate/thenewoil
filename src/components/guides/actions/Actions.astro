@@ -39,7 +39,7 @@ const actionTexts: ActionTexts = (await import(`../../../assets/data/layout/${la
 <div class="flex w-full">
   {
     previousPage && (
-      <ActionLink url={previousPage.url!} icon="mdi:arrow-left" iconLeft={true} class="mr-auto">
+      <ActionLink url={previousPage.url!} iconLeft="mdi:arrow-left" class="mr-auto">
         {actionTexts.previous}
       </ActionLink>
     )
@@ -47,7 +47,7 @@ const actionTexts: ActionTexts = (await import(`../../../assets/data/layout/${la
   <br />
   {
     nextPage && (
-      <ActionLink url={nextPage.url!} icon="mdi:arrow-right" iconRight={true} class="ml-auto">
+      <ActionLink url={nextPage.url!} iconRight="mdi:arrow-right" class="ml-auto">
         {actionTexts.next}
       </ActionLink>
     )
