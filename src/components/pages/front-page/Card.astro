@@ -6,6 +6,7 @@ interface Props {
   description: string;
   link: string;
   color: ColorKeys;
+  callToAction: string
 }
 
 const COLOR_CLASSES = {
@@ -13,7 +14,7 @@ const COLOR_CLASSES = {
   secondary: "border-gradient-secondary"
 } as Record<ColorKeys, string>;
 
-const { title, description, link, color } = Astro.props;
+const { title, description, link, color, callToAction } = Astro.props;
 
 const colorClasses = COLOR_CLASSES[color];
 ---
@@ -23,7 +24,7 @@ const colorClasses = COLOR_CLASSES[color];
 >
   <h3 class="font-robotomono">{title}</h3>
   <p>{description}</p>
-  <Button variant="contained" href={link} color={color} bgColor="primary" class="font-robotomono">Go to Page</Button>
+  <Button variant="contained" href={link} color={color} bgColor="primary" class="font-robotomono">{callToAction}</Button>
 </article>
 
 <Button
