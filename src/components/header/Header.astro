@@ -48,7 +48,10 @@ const headerTexts: HeaderTexts = (await import(`../../assets/data/layout/${langu
   <div class="hidden flex-1 items-center justify-end gap-2 lg:flex">
     <HeaderLink href="/about" lang={languageCode}>{headerTexts.about}</HeaderLink>
     <HeaderLink href="/links" lang={languageCode}>{headerTexts.links}</HeaderLink>
-    <HeaderLink href="/support" lang={languageCode} variant="primary">{headerTexts.support}</HeaderLink>
+    <HeaderLink href="/support" lang={languageCode} variant="secondary">
+      <Icon name="mdi:heart" class="inline-block size-6 text-red-600" />
+      <span>{headerTexts.support}</span>
+    </HeaderLink>
     {languages.length > 1 && <LanguageSwitcher />}
   </div>
 
@@ -56,7 +59,7 @@ const headerTexts: HeaderTexts = (await import(`../../assets/data/layout/${langu
     <summary
       class="rounded-full bg-white bg-opacity-0 p-2 transition-all hover:bg-opacity-5 group-open/mobile-menu:bg-opacity-[.15]"
     >
-      <div class="relative flex h-7 w-7 items-center justify-center">
+      <div class="relative flex size-7 items-center justify-center">
         <Icon
           name="mdi:menu"
           class="absolute transition-all group-open/mobile-menu:-rotate-90 group-open/mobile-menu:opacity-0"
@@ -65,7 +68,7 @@ const headerTexts: HeaderTexts = (await import(`../../assets/data/layout/${langu
         />
         <Icon
           name="mdi:chevron-up"
-          class="absolute h-7 w-7 rotate-90 opacity-0 transition-all group-open/mobile-menu:rotate-0 group-open/mobile-menu:opacity-100"
+          class="absolute size-7 rotate-90 opacity-0 transition-all group-open/mobile-menu:rotate-0 group-open/mobile-menu:opacity-100"
           role="img"
           aria-label="Menu icon"
         />
@@ -83,7 +86,10 @@ const headerTexts: HeaderTexts = (await import(`../../assets/data/layout/${langu
       </HeaderLink>
       <HeaderLink href="/about" lang={languageCode}>{headerTexts.about}</HeaderLink>
       <HeaderLink href="/links" lang={languageCode}>{headerTexts.links}</HeaderLink>
-      <HeaderLink href="/support" lang={languageCode} variant="primary">{headerTexts.support}</HeaderLink>
+      <HeaderLink href="/support" lang={languageCode} variant="secondary">
+        <Icon name="mdi:heart" class="inline-block size-6 text-red-600" />
+        <span>{headerTexts.support}</span>
+      </HeaderLink>
       {languages.length > 1 && <LanguageSwitcher contentClass="w-full" />}
     </div>
   </details>
