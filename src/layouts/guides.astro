@@ -28,10 +28,10 @@ const language = getLanguageFromUrl(Astro.url);
     <Header />
     <div class="flex flex-1 flex-col overflow-auto lg:flex-row">
       <details
-        class="group/sidebar-mobile flex flex-col items-center bg-tertiary py-4 shadow drop-shadow-sm lg:hidden dark:bg-tertiary-dark"
+        class="group/sidebar-mobile items-center bg-tertiary py-4 shadow drop-shadow-sm lg:hidden dark:bg-tertiary-dark"
       >
         <summary
-          class="mx-4 flex items-center justify-center rounded-lg border-2 border-black border-opacity-10 p-4 text-lg font-bold transition-all group-open/sidebar-mobile:border-opacity-20 dark:border-white/[var(--tw-border-opacity)]"
+          class="mx-4 flex flex-1 items-center justify-center rounded-lg border-2 border-black border-opacity-10 p-4 text-lg font-bold transition-all group-open/sidebar-mobile:border-opacity-20 dark:border-white/[var(--tw-border-opacity)]"
         >
           {frontmatter.title}
           <Icon
