@@ -48,7 +48,7 @@ const headerTexts: HeaderTexts = (await import(`../../assets/data/layout/${langu
   <div class="hidden flex-1 items-center justify-end gap-2 lg:flex">
     <HeaderLink href="/about" lang={languageCode}>{headerTexts.about}</HeaderLink>
     <HeaderLink href="/links" lang={languageCode}>{headerTexts.links}</HeaderLink>
-    <HeaderLink href="/support" lang={languageCode}>{headerTexts.support}</HeaderLink>
+    <HeaderLink href="/support" lang={languageCode} variant="primary">{headerTexts.support}</HeaderLink>
     {languages.length > 1 && <LanguageSwitcher />}
   </div>
 
@@ -83,7 +83,7 @@ const headerTexts: HeaderTexts = (await import(`../../assets/data/layout/${langu
       </HeaderLink>
       <HeaderLink href="/about" lang={languageCode}>{headerTexts.about}</HeaderLink>
       <HeaderLink href="/links" lang={languageCode}>{headerTexts.links}</HeaderLink>
-      <HeaderLink href="/support" lang={languageCode}>{headerTexts.support}</HeaderLink>
+      <HeaderLink href="/support" lang={languageCode} variant="primary">{headerTexts.support}</HeaderLink>
       {languages.length > 1 && <LanguageSwitcher contentClass="w-full" />}
     </div>
   </details>

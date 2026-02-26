@@ -4,11 +4,12 @@ import { fuzzyCompareUrl } from "@utils/url";
 interface Props {
   href: string;
   active?: boolean;
+  variant?: "default" | "primary"
   lang?: string | undefined;
 }
 
 const { lang } = Astro.props;
-let { href, active } = Astro.props;
+let { href, active, variant = "default"} = Astro.props;
 
 if (lang) {
   href = `/${lang}${href}`;
@@ -22,7 +23,11 @@ if (active === undefined) {
 <a
   href={href}
   data-active={String(active)}
-  class="rounded-md bg-white bg-opacity-0 px-5 py-2 font-medium transition-all hover:bg-opacity-5 data-[active='true']:bg-opacity-[.15]"
+  class={[
+    "rounded-md px-5 py-2 font-medium transition-all",
+    variant === "default" && "bg-white bg-opacity-0 hover:bg-opacity-5 data-[active='true']:bg-opacity-[.15]",
+    variant === "primary" && "bg-gradient-primary text-primary hover:opacity-80 hover:underline data-[active='true']:underline"
+  ].filter(Boolean).join(" ")}
   hreflang={lang}
 >
   <slot />
