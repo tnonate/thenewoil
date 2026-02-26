@@ -10,9 +10,10 @@ interface Item {
 interface Props {
   items: Item[];
   color: "primary" | "secondary";
+  callToAction: string
 }
 
-const { items, color } = Astro.props;
+const { items, color,callToAction } = Astro.props;
 ---
 
 <div
@@ -20,7 +21,13 @@ const { items, color } = Astro.props;
 >
   {
     items.map((item) => {
-      return <Card title={item.title} description={item.description} link={item.link} color={color} />;
+return <Card
+    title={item.title}
+    description={item.description}
+    link={item.link}
+    color={color}
+    callToAction={callToAction}
+  />;
     })
   }
 </div>
