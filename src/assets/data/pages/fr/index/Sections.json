@@ -1,22 +1,22 @@
 [
     {
-        "title": "Bien démarrer",
-        "description": "Nouveau ici ? Vous ne savez pas pourquoi la vie privée est importante, comment construire un modèle de menace (threat model), ou la différence entre sécurité et vie privée ? Commencez ici !",
-        "link": "/guides/prologue"
+        "title": "Bien commencer",
+        "description": "Nouveau ici ? Pas certain de savoir pourquoi la vie privée compte, comment définir vos priorités ou la différence entre sécurité et vie privée ? Commencez ici !",
+        "link": "/fr/guides/prologue"
     },
     {
         "title": "Le plus important",
-        "description": "Êtes-vous prêt à combler les failles les plus importantes de votre sécurité ? Vous cherchez les étapes les plus simples à suivre avec un impact maximum ? Lisez cette section !",
-        "link": "/guides/most-important"
+        "description": "Prêt à combler les failles de sécurité les plus graves ? Vous cherchez les étapes les plus simples avec le maximum d'impact ? Lisez cette section !",
+        "link": "/fr/guides/most-important"
     },
     {
         "title": "Moyennement important",
-        "description": "Vous maîtrisez déjà les bases mais vous êtes prêt à passer à l'étape suivante pour votre vie privée et votre sécurité ? Lisez cette section !",
-        "link": "/guides/moderately-important"
+        "description": "Vous maîtrisez les bases et vous êtes prêt à passer à l'étape suivante pour votre vie privée et votre sécurité ? Lisez cette section !",
+        "link": "/fr/guides/moderately-important"
     },
     {
         "title": "Moins important",
-        "description": "Prêt pour des sujets plus avancés ? Prêt à commencer à travailler sur les dernières petites fuites qu'il vous reste dans votre vie numérique ? Cette section est pour vous !",
-        "link": "/guides/less-important"
+        "description": "Prêt pour des sujets plus avancés ? Prêt à corriger les dernières petites fuites de votre vie numérique ? Cette section est pour vous !",
+        "link": "/fr/guides/less-important"
     }
 ]

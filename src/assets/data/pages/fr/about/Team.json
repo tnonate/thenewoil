@@ -4,8 +4,8 @@
         "title": "Fondateur/Éditeur",
         "links": [
             {
-                "name": "Site web",
-                "link": "/nate",
+                "name": "Site Web",
+                "link": "/fr/nate",
                 "icon": "/images/logos/website.png"
             }
         ]
@@ -15,7 +15,7 @@
         "title": "Développeur Web",
         "links": [
             {
-                "name": "Site web",
+                "name": "Site Web",
                 "link": "https://www.rikdenbreejen.nl/",
                 "icon": "/images/logos/website.png"
             }
@@ -35,10 +35,10 @@
     },
     {
         "name": "Hestia Hacker",
-        "title": "Monteuse vidéo (TikTok)",
+        "title": "Monteuse Vidéo (TikTok)",
         "links": [
             {
-                "name": "Site web",
+                "name": "Site Web",
                 "link": "https://www.tindie.com/stores/eternalsunshine/",
                 "icon": "/images/logos/website.png"
             }
