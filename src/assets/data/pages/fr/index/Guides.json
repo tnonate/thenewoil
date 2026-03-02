@@ -1,27 +1,27 @@
 [
     {
-        "title": "Vol d'identité",
-        "description": "Ces pages vous apprendront à vous protéger contre les techniques les plus courantes utilisées pour usurper votre identité.",
-        "link": "/guides/quick-start/identity"
+        "title": "Usurpation d'identité",
+        "description": "Ces pages vous apprendront à vous protéger contre les techniques les plus courantes utilisées pour voler votre identité.",
+        "link": "/fr/guides/quick-start/identity"
     },
     {
         "title": "Appareils mobiles",
-        "description": "Vous venez d'acquérir un nouveau téléphone et vous cherchez à en tirer le maximum de confidentialité et de sécurité ? Commencez ici.",
-        "link": "/guides/quick-start/mobile"
+        "description": "Vous avez un nouveau téléphone et vous voulez en tirer le maximum de confidentialité et de sécurité ? Commencez ici.",
+        "link": "/fr/guides/quick-start/mobile"
     },
     {
-        "title": "Ordinateurs de bureau et portables",
-        "description": "Vous voulez protéger votre Mac ou PC autant que possible ? Ce guide est pour vous !",
-        "link": "/guides/moderately-important/desktop-settings"
+        "title": "Ordinateurs Fixes et Portables",
+        "description": "Vous voulez protéger votre Mac ou votre PC au maximum ? Ce guide est fait pour vous !",
+        "link": "/fr/guides/moderately-important/desktop-settings"
     },
     {
-        "title": "Réseau domestique",
-        "description": "Si vous venez d'installer un nouveau routeur ou si vous voulez simplement connaître la meilleure façon de protéger votre réseau domestique, ce guide est un point de départ indispensable.",
-        "link": "/guides/quick-start/wifi-guide"
+        "title": "Réseau Domestique",
+        "description": "Si vous venez d'acheter un routeur ou si vous voulez simplement savoir comment protéger au mieux votre réseau, ce guide est un point de départ incontournable.",
+        "link": "/fr/guides/quick-start/wifi-guide"
     },
     {
         "title": "Créateurs de contenu",
-        "description": "Si vous voulez être un influenceur, un streamer ou tout autre type de créateur de contenu, ce guide vous aidera à vous protéger contre les doxxers, les harceleurs et les fuites de données.",
-        "link": "/guides/quick-start/streamer-guide"
+        "description": "Si vous voulez être influenceur, streamer ou créateur, ce guide vous aidera à vous protéger du doxing, du harcèlement et des fuites de données.",
+        "link": "/fr/guides/quick-start/streamer-guide"
     }
 ]
