@@ -1,0 +1,47 @@
+---
+layout: "@layouts/default.astro"
+title: Accueil
+draft: false
+---
+
+import sections from "@assets/data/pages/fr/index/Sections.json";
+import guides from "@assets/data/pages/fr/index/Guides.json";
+
+import Hero from "@components/pages/front-page/Hero.astro";
+import Section from "@components/pages/front-page/Section.astro";
+import Cards from "@components/pages/front-page/Cards.astro";
+
+<Hero>
+  <span slot="title">
+    <div>Le guide du débutant pour la</div>
+    <span class="text-gradient-primary">Confidentialité des données</span> 
+    & 
+    <span class="text-gradient-primary">Cybersécurité</span>
+  </span>
+  **Comment aimeriez-vous vous sentir — et plus important encore, _être_ — à nouveau en sécurité en ligne ?** La plupart d'entre nous savent que nous pourrions faire mieux en ce qui concerne nos habitudes en ligne : nous réutilisons de mauvais mots de passe, partageons trop d'informations personnelles et nous laissons exposés à toutes sortes de risques partout sur Internet. Mais il n'est pas nécessaire qu'il en soit ainsi, et cela n'a pas non plus besoin d'être difficile.
+    
+  _Bienvenue sur The New Oil._ Ce site est conçu pour aider les lecteurs à reprendre le contrôle de leurs données et à regagner leur vie privée en ligne. **Êtes-vous un programmeur, un administrateur système, un expert en réseaux ou un hacker ? Si vous avez répondu « non », vous êtes au bon endroit !** Ce site ne s'adresse pas aux experts en technologie. Si vous savez comment télécharger une application sur votre téléphone, comment créer un compte de messagerie ou ce qu'est un mot de passe, vous avez les qualifications nécessaires pour aborder les conseils et le contenu de ce site.
+
+Que vous cherchiez à vous protéger contre le vol d'identité et les piratages courants, que vous vous opposiez simplement à la surveillance de masse, ou n'importe quoi entre les deux, ce site vous aidera à apprendre les bases de la protection de votre identité, de votre sécurité et de vos données d'une manière accessible et réalisable. **Bienvenue dans la vie privée simplifiée.**
+
+</Hero>
+
+<Section>
+
+## Sections
+
+Des guides couvrant la sécurité, la vie privée et l'anonymat, regroupés par importance.
+
+<Cards items={sections} color="primary" callToAction="En savoir plus" />
+
+</Section>
+
+<Section>
+
+## Guides de démarrage rapide
+
+Des guides fréquemment partagés en réponse à des questions populaires.
+
+<Cards items={guides} color="secondary" callToAction="En savoir plus" />
+
+</Section>
