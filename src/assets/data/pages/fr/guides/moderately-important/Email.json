@@ -1,0 +1,39 @@
+{
+    "protonmail": {
+        "name": "ProtonMail",
+        "logo": "/images/logos/protonmail.png",
+        "logo_alt": "Logo Protonmail",
+        "link": "https://proton.me/fr/mail",
+        "use_cases": [
+            "Idéal pour ceux qui veulent un écosystème complet (stockage cloud, calendrier, VPN, etc.)",
+            "Idéal pour les utilisateurs avancés souhaitant le support PGP pour des conversations sécurisées avec des non-utilisateurs de Proton"
+        ],
+        "pros": [
+            "[Récemment audité](https://protonmail.com/blog/security-audit/)",
+            "Basé sur PGP",
+            "Offre une version gratuite",
+            "Inclut calendrier, stockage cloud, gestionnaire de mots de passe, VPN, authentificateur et portefeuille Bitcoin",
+            "Importation/exportation d'e-mails disponible"
+        ],
+        "cons": []
+    },
+    "tuta": {
+        "name": "Tuta",
+        "logo": "/images/logos/tuta.png",
+        "logo_alt": "Logo Tuta",
+        "link": "https://tuta.com/fr/",
+        "use_cases": [
+            "Idéal pour ceux qui recherchent une sécurité maximale, Tuta chiffrant plus de données que le standard PGP"
+        ],
+        "pros": [
+            "[Récemment audité](https://tuta.com/blog/posts/desktop-clients-tutanota/)",
+            "Offre une version gratuite",
+            "Inclut un calendrier avec tous les forfaits",
+            "Exportation d'e-mails disponible (individuellement uniquement)"
+        ],
+        "cons": [
+            "Pas de support PGP",
+            "Importation d'e-mails en bêta pour les comptes payants uniquement"
+        ]
+    }
+}

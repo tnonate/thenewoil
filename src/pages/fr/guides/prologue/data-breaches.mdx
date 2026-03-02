@@ -1,0 +1,42 @@
+---
+layout: "@layouts/guides.astro"
+title: Comment fonctionne réellement le piratage
+topic: Comment fonctionne réellement le piratage
+weight: 9
+draft: false
+---
+
+import Highlighting from "@components/common/Highlighting.astro";
+
+# Comment fonctionne réellement le piratage
+
+L'une des idées reçues les plus courantes sur le fait de « se faire pirater » est la façon dont cela arrive vraiment. Beaucoup pensent : « **personne n'a de raison de me pirater.** » C'est peut-être vrai, mais un cybercriminel cible rarement un étranger spécifique qui n'aurait rien d'intéressant. L'idée que « je ne suis pas une cible assez importante » trahit une mécompréhension fondamentale. **Voici comment les fuites de données et le piratage moderne fonctionnent réellement :**
+
+Si vous lisez ceci, vous avez probablement un compte dans un service majeur aux millions d'utilisateurs comme Gmail, Amazon, eBay ou Facebook. Les cybercriminels ciblent ces grandes entreprises (ainsi que les plus petites). **Ces entreprises subissent des [milliards](https://it.slashdot.org/story/24/01/17/1423212/jpmorgan-suffers-45-billion-cyber-attacks-a-day) d'attaques chaque jour.**
+
+<Highlighting variant="warning">
+  **Le défenseur doit réussir à chaque fois, mais l'attaquant n'a besoin d'avoir
+  de la chance qu'une seule fois.**
+</Highlighting>
+
+Une fois l'attaquant infiltré, il vole tout ce qu'il peut avant d'être repéré : noms d'utilisateur, mots de passe, numéros de cartes, adresses IP, etc.
+
+En général, les entreprises responsables chiffrent les informations sensibles comme les mots de passe (mais [pas toujours](https://krebsonsecurity.com/2019/03/facebook-stored-hundreds-of-millions-of-user-passwords-in-plain-text-for-years/)), et rarement les métadonnées comme l'adresse IP. L'étape suivante pour le pirate est de trier et déchiffrer ces données. **Il existe des programmes gratuits et légaux pour craquer vos mots de passe.** Un mot de passe peut être cassé en moins d'une seconde selon sa complexité et la puissance de l'ordinateur du criminel. Pas besoin d'un supercalculateur gouvernemental : un PC à 1000 € acheté dans le commerce peut suffire pour craquer des centaines de mots de passe par heure.
+
+## Comment fonctionne le cassage de mots de passe (Password Cracking)
+
+Il existe deux méthodes principales. La première est l'« **attaque par dictionnaire** ». Le criminel charge un dictionnaire dans le logiciel, qui teste votre mot de passe par rapport à cette liste, incluant les variations courantes (ex: `P4ssw0rd` pour `password`). Des dictionnaires de paroles de chansons, de noms célèbres ou de mots de passe déjà fuités sont disponibles gratuitement. Un pirate peut aussi créer un dictionnaire personnalisé avec vos informations publiques (famille, animaux, dates) trouvées sur les [réseaux sociaux](/guides/less-important/misc/#sharing-information).
+
+La seconde méthode est l'« **attaque par force brute** » (brute force attack). Le hacker définit des paramètres (ex : lettres majuscules et minuscules) et le logiciel teste toutes les possibilités. Les mots de passe de moins de six caractères peuvent être forcés en [moins d'une seconde](https://proton.me/blog/how-long-should-my-password-be/).
+
+La meilleure défense est d'utiliser un [gestionnaire de mots de passe](/guides/most-important/passwords/) pour générer des mots de passe forts et uniques.
+
+## Autres méthodes
+
+Il existe d'autres moyens, comme le **phishing** (hameçonnage), où l'attaquant vous incite à cliquer sur un lien malveillant via un e-mail ou un message privé. Soyez toujours vigilant face aux offres « trop belles pour être vraies ».
+
+Une autre méthode est le **credential stuffing**. Si vous réutilisez le même mot de passe sur plusieurs sites, un criminel qui a obtenu vos accès via une fuite de données précédente essaiera de les utiliser sur Amazon, Netflix, Facebook ou votre [e-mail](/guides/moderately-important/email-aliasing).
+
+Dans des cas plus rares, vous pouvez être victime d'un **malware** (logiciel malveillant) comme un keylogger (enregistreur de frappe). Ces programmes enregistrent tout ce que vous tapez. La meilleure défense est de ne télécharger que des logiciels de confiance et de maintenir vos appareils [sains](/guides/most-important/auditing/).
+
+Si vous lisez ceci, vous avez presque certainement déjà fait partie d'une fuite de données. Vous pouvez vérifier sur des sites comme [Have I Been Pwned](https://haveibeenpwned.com/) quelles informations ont été compromises.

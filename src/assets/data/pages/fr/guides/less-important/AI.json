@@ -1,0 +1,72 @@
+{
+    "criterias": [
+        "En ligne ou Hors ligne",
+        "Notes"
+    ],
+    "tools": {
+        "duck": {
+            "name": "Duck.ai",
+            "logo": "/images/logos/ddg.png",
+            "link": "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1",
+            "values": {
+                "En ligne ou Hors ligne": "En ligne",
+                "Notes": "Par DuckDuckGo"
+            }
+        },
+        "gpt4all": {
+            "name": "GPT4All",
+            "logo": "/images/logos/gpt4all.png",
+            "link": "https://www.nomic.ai/gpt4all",
+            "values": {
+                "En ligne ou Hors ligne": "Hors ligne",
+                "Notes": ""
+            }
+        },
+        "jan": {
+            "name": "JanAI",
+            "logo": "/images/logos/janai.png",
+            "link": "https://jan.ai/",
+            "values": {
+                "En ligne ou Hors ligne": "Hors ligne",
+                "Notes": ""
+            }
+        },
+        "kagi": {
+            "name": "Kagi",
+            "logo": "/images/logos/kagi.png",
+            "link": "https://blog.kagi.com/announcing-assistant",
+            "values": {
+                "En ligne ou Hors ligne": "En ligne",
+                "Notes": "Nécessite un compte Kagi"
+            }
+        },
+        "leo": {
+            "name": "Leo",
+            "logo": "/images/logos/brave.png",
+            "link": "https://brave.com/leo/",
+            "values": {
+                "Platform": "Leo",
+                "En ligne ou Hors ligne": "En ligne",
+                "Notes": "Par Brave, utilisable uniquement avec le navigateur Brave"
+            }
+        },
+        "lumo": {
+            "name": "Lumo",
+            "logo": "/images/logos/lumo.png",
+            "link": "https://lumo.proton.me",
+            "values": {
+                "En ligne ou Hors ligne": "En ligne",
+                "Notes": "Par Proton"
+            }
+        },
+        "maple": {
+            "name": "Maple",
+            "logo": "/images/logos/maple.png",
+            "link": "https://trymaple.ai/",
+            "values": {
+                "En ligne ou Hors ligne": "En ligne",
+                "Notes": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,105 @@
+---
+layout: "@layouts/guides.astro"
+title: "Vie privée/Sécurité : Sécuriser le bureau"
+topic: "Réglages recommandés pour ordinateurs"
+weight: 2
+draft: false
+---
+
+# Réglages recommandés pour ordinateurs
+
+### Table des matières
+
+- [Linux](#linux)
+  - [Distributions recommandées](#distributions-recommandées)
+  - [Installer Linux, appareils pré-installés et Dual-Boot](#installer-linux-appareils-pré-installés-et-dual-boot)
+- [Mac vs Windows](#mac-vs-windows)
+- [Mac OS 13 : Réglages Ventura recommandés](#mac-os-13-réglages-ventura-recommandés)
+- [Windows 11 : Réglages recommandés](#windows-11-réglages-recommandés)
+- [Bonnes pratiques](#bonnes-pratiques)
+
+## Linux
+
+Tout comme les téléphones, les systèmes d'exploitation de bureau comme Windows et Mac traquent leurs utilisateurs de manière excessive. Windows est le pire élève avec sa [télémétrie massive](https://www.extremetech.com/computing/342941-windows-11-collects-an-awful-lot-of-telemetry-about-your-pc), ses [IA intrusives](https://www.bleepingcomputer.com/news/microsoft/microsofts-new-windows-11-recall-is-a-privacy-nightmare/) et l'obligation d'utiliser des [comptes en ligne](https://www.tomshardware.com/software/windows/microsoft-clamping-down-on-windows-11-local-account-setup-latest-insider-build-removes-local-only-commands-skipping-microsoft-account-sign-in-will-crash-setup-process). Apple n'est pas irréprochable non plus, bien qu'ils collectent moins que Microsoft.
+
+**Dans un monde parfait, la meilleure option est [Linux](https://fr.wikipedia.org/wiki/Linux).** C'est un système Open Source décliné en plusieurs versions appelées « distributions » (ou « distros »). La plupart sont bien plus respectueuses de la vie privée. La plus sécurisée est [Qubes](https://www.qubes-os.org/), mais sa courbe d'apprentissage est très raide. Pour la majorité, les recommandations suivantes suffiront largement.
+
+### Distributions recommandées
+
+Si vous voulez un système qui « fonctionne tout simplement » sans devenir un expert du <dfn title="aussi appelé 'terminal', un programme textuel pour exécuter des commandes techniques">terminal</dfn>, je recommande vivement [Fedora Silverblue](https://silverblue.fedoraproject.org/). C'est un système « <dfn title="une opération atomique s'exécute comme une unité indivisible, garantissant l'intégrité des données lors des mises à jour">atomique</dfn> », très résistant aux malwares. La plupart des programmes s'installent via [Flatpak](https://flathub.org/home), ce qui améliore la sécurité.
+
+Pour ceux qui souhaitent apprendre Linux ou faire de l'auto-hébergement, commencez par [Pop! OS](https://pop.system76.com/). Basé sur Ubuntu, il bénéficie d'une aide communautaire immense et d'une interface très conviviale.
+
+Notez que si Linux améliore grandement la vie privée, il n'est pas forcément une révolution en sécurité pure et peut parfois être [moins sécurisé](https://madaidans-insecurities.github.io/linux.html) que les systèmes traditionnels s'il est mal configuré. Cependant, avec de bonnes [habitudes en ligne](/fr/guides/less-important/misc), ce compromis est négligeable. Pour en savoir plus, consultez [The Linux Experiment](https://www.youtube.com/@thelinuxexp) ou testez des distros dans votre navigateur sur [DistroSea](https://distrosea.com/).
+
+### Installer Linux, appareils pré-installés et Dual-Boot
+
+Installer Linux est simple (voir mon [guide vidéo](https://youtu.be/0g1my4TtxTs)). Si vous préférez acheter un ordinateur avec Linux pré-installé, regardez du côté de [System76](https://system76.com/) (livré avec Pop! OS).
+
+**Tout le monde ne peut pas passer à Linux.** Si vous avez besoin d'un logiciel spécifique ou si l'appareil ne vous appartient pas, vous n'aurez pas le choix. Si vous pouvez modifier votre appareil mais avez besoin ponctuellement de Windows ou Mac, envisagez le [dual booting](https://fr.wikipedia.org/wiki/Multiamor%C3%A7age). Faites bien une [sauvegarde](/fr/guides/less-important/backups) avant de vous lancer.
+
+## Mac vs Windows
+
+- **Le Mac offre une meilleure vie privée et sécurité que [Windows](https://web.archive.org/web/20220313023015/https://www.privacyguides.org/operating-systems/#win10)** (même s'il collecte un peu de télémétrie).
+- **Windows est catastrophique pour la vie privée**, mais une partie de la télémétrie peut être réduite via les réglages ci-dessous.
+- **Je recommande Windows uniquement si vous êtes un joueur invétéré** ou si vous voulez un dual-boot Linux facile.
+- **Je ne recommande plus Windows 10**, car il ne recevra plus de mises à jour de sécurité après octobre 2025.
+
+Voici les réglages recommandés pour améliorer la confidentialité et la sécurité de ces systèmes. Mes critères sont détaillés [ici](/fr/criteria#desktop-settings--apps).
+
+## Mac OS 13 : Réglages Ventura recommandés
+
+- Lors de l'installation, vous pouvez passer l'étape de l'Apple ID. Vous pouvez obtenir tous nos logiciels recommandés sans l'App Store.
+- Wi-Fi > Détails > Limiter le suivi de l'adresse IP : Activer
+- Wi-Fi > Détails > DNS : Utilisez un [DNS](https://fr.wikipedia.org/wiki/Domain_Name_System) respectueux de la vie privée (sauf si vous utilisez un [VPN](/fr/guides/less-important/vpns)).
+- Bluetooth : Désactiver si non utilisé.
+- Réseau > Coupe-feu (Firewall) : Activer.
+- Notifications : Désactiver les notifications quand l'écran est verrouillé ou en veille.
+- Général > Mise à jour logicielle : Tout activer.
+- Général > AirDrop & Handoff : Tout désactiver.
+- Général > Partage : Tout désactiver.
+- Time Machine : [Sauvegarde](/fr/guides/less-important/backups) automatique sur un disque externe.
+- Confidentialité et sécurité > Service de localisation : Désactivez tout l'inutile.
+- Confidentialité et sécurité > Analyse et améliorations : Tout désactiver.
+- Confidentialité et sécurité > Publicité Apple : Publicités personnalisées : Désactiver.
+- Confidentialité et sécurité > Sécurité > Autoriser les applications téléchargées de : App Store et développeurs identifiés.
+- Confidentialité et sécurité > FileVault : Activer (ou utiliser [Veracrypt](/fr/guides/moderately-important/devices)).
+- Confidentialité et sécurité > Mode de confinement : Activer (cela [désactive](https://support.apple.com/fr-fr/HT212650) certaines fonctions mais protège grandement).
+- Navigateur par défaut : [Brave/Firefox](/fr/guides/most-important/browser).
+- Écran verrouillé > Exiger le mot de passe : Immédiatement.
+- Clavier > Dictée : Désactiver.
+- Utilisateurs avancés : Regardez [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) ou [LuLu](https://objective-see.com/products/lulu.html). [Privacy.sexy](https://privacy.sexy/) est aussi utile.
+
+## Windows 11 : Réglages recommandés
+
+- Si possible, utilisez les versions Pro, Education ou Enterprise (plus de contrôle sur la télémétrie).
+- Vous pouvez installer Windows 11 sans compte Microsoft (voir [ce guide](https://www.tomshardware.com/how-to/install-windows-11-without-microsoft-account)).
+- Système > Notifications : Désactiver.
+- Système > Assistant de stockage : Activer.
+- Système > Partage à proximité : Désactiver.
+- Bluetooth : Désactiver hors usage.
+- Réseau & Internet > Wi-Fi > Adresses matérielles aléatoires : Activer.
+- Réseau & Internet > Ethernet > Profil réseau : Public.
+- Personnalisation > Écran de verrouillage : Pas de photo personnelle.
+- Personnalisation > Utilisation de l'appareil : Tout désactiver.
+- Applications > Applications installées : Désinstallez tout l'inutile.
+- Comptes > Options de connexion : Utilisez une Clé de sécurité, Empreinte ou Mot de passe fort ([passphrase](/fr/guides/most-important/passwords)).
+- Confidentialité et sécurité > Sécurité Windows : Vérifiez que tout est au vert.
+- Confidentialité et sécurité > Général : Tout désactiver.
+- Confidentialité et sécurité > Diagnostics et commentaires : Tout désactiver et supprimer les données existantes.
+- Confidentialité et sécurité > Historique des activités : Tout désactiver et effacer.
+- Autorisations d'application : Examinez chaque catégorie et révoquez l'inutile.
+- Windows Update : Vérifiez régulièrement les mises à jour et les « Mises à jour facultatives » (pilotes).
+- Utilisateurs avancés : [W10Privacy](https://www.w10privacy.de/english-home/), [O&O Shut Up 10++](https://www.oo-software.com/fr/shutup10) ou [Portmaster](https://safing.io/portmaster/).
+
+## Bonnes pratiques
+
+**Utilisez un compte standard (non-admin)** au quotidien. Cela empêche l'installation de programmes (et de [malwares](https://fr.wikipedia.org/wiki/Logiciel_malveillant)) à votre insu.
+
+**Les antivirus tiers sont devenus inutiles** dans la plupart des cas. Le bloqueur de publicités de votre [navigateur](/fr/guides/most-important/browser) et une bonne [hygiène numérique](/fr/guides/less-important/misc) suffisent. Utilisez les protections intégrées : [Defender](https://www.microsoft.com/fr-fr/windows/comprehensive-security) sur Windows et [XProtect](https://support.apple.com/fr-fr/guide/security/sec469d47bd8/web) sur Mac.
+
+Nettoyez vos fichiers temporaires avec [BleachBit](https://www.bleachbit.org/) une fois par semaine.
+
+**Limitez le nombre d'applications installées.** Utilisez votre navigateur pour Netflix ou Discord au lieu de leurs applications dédiées.
+
+Enfin, appliquez les mises à jour dès qu'elles sont proposées : elles contiennent presque toujours des correctifs de sécurité critiques.

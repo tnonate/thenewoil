@@ -1,0 +1,57 @@
+{
+    "criterias": [
+        "Alternatives"
+    ],
+    "tools": {
+        "instagram": {
+            "name": "Instagram",
+            "values": {
+                "Alternatives": [
+                    "[FxInstagram](https://www.xnstagram.com/)"
+                ]
+            }
+        },
+        "reddit": {
+            "name": "Reddit",
+            "values": {
+                "Alternatives": [
+                    "[Redlib](https://github.com/redlib-org/redlib)",
+                    "[Eddrit](https://github.com/corenting/eddrit)"
+                ]
+            }
+        },
+        "tiktok": {
+            "name": "TikTok",
+            "values": {
+                "Alternatives": [
+                    "[StickTock](https://sticktock.com/)",
+                    "[ProxiTalk](https://github.com/pablouser1/ProxiTok/wiki/Public-instances)"
+                ]
+            }
+        },
+        "twitter": {
+            "name": "Twitter",
+            "values": {
+                "Alternatives": [
+                    "[Nitter](https://github.com/zedeus/nitter/wiki/Instances)",
+                    "[FxEmbed](https://github.com/FxEmbed/FxEmbed)",
+                    "[vxTwitter/fixvx](https://github.com/dylanpdx/BetterTwitFix)"
+                ]
+            }
+        },
+        "youtube": {
+            "name": "YouTube",
+            "values": {
+                "Alternatives": [
+                    "[Invidious](https://redirect.invidious.io/) (Web)",
+                    "[Piped](https://github.com/TeamPiped/documentation/blob/main/content/docs/public-instances/index.md) (Web)",
+                    "[FreeTube](https://freetubeapp.io/) (Linux, Mac, Windows)",
+                    "[NewPipe](https://newpipe.net/) (Android)",
+                    "[GrayJay](https://grayjay.app/) (Android, Linux, Mac, Windows)",
+                    "[LibreTube](https://libretube.dev/) (Android)",
+                    "[Tubular](https://github.com/polymorphicshade/Tubular) (Android)"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "criterias": [
+        "Cartes virtuelles",
+        "Cartes prépayées",
+        "Pays"
+    ],
+    "tools": {
+        "ironvest": {
+            "name": "IronVest",
+            "logo": "/images/logos/ironvest.png",
+            "link": "https://ironvest.com/virtual-cards/",
+            "values": {
+                "Cartes virtuelles": "Oui, nécessite un abonnement payant",
+                "Cartes prépayées": "Oui",
+                "Pays": "États-Unis"
+            }
+        },
+        "monzo": {
+            "name": "Monzo",
+            "logo": "/images/logos/monzo.png",
+            "link": "https://monzo.com/i/monzo-plus/",
+            "values": {
+                "Cartes virtuelles": "Oui, nécessite un abonnement payant",
+                "Cartes prépayées": "Non",
+                "Pays": "Royaume-Uni"
+            }
+        },
+        "mysudo": {
+            "name": "MySudo",
+            "logo": "/images/logos/mysudo.png",
+            "link": "https://anonyome.com/individuals/mysudo/",
+            "values": {
+                "Cartes virtuelles": "Oui, nécessite un abonnement payant",
+                "Cartes prépayées": "Non",
+                "Pays": "États-Unis"
+            }
+        },
+        "privacy": {
+            "name": "Privacy",
+            "logo": "/images/logos/privacy.png",
+            "link": "https://privacy.com",
+            "values": {
+                "Cartes virtuelles": "Oui",
+                "Cartes prépayées": "Non",
+                "Pays": "États-Unis"
+            }
+        },
+        "revolut": {
+            "name": "Revolut",
+            "logo": "/images/logos/revolut.png",
+            "link": "https://www.revolut.com/fr-FR/",
+            "values": {
+                "Cartes virtuelles": "Oui, peut nécessiter un abonnement payant selon la région",
+                "Cartes prépayées": "Non",
+                "Pays": "Australie, Autriche, Belgique, Bulgarie, Croatie, République de Chypre, République tchèque, Danemark, Estonie, Finlande, France, Allemagne, Grèce, Hongrie, Islande, Irlande, Italie, Japon, Lettonie, Liechtenstein, Lituanie, Luxembourg, Malte, Pays-Bas, Norvège, Pologne, Portugal, Roumanie, Slovaquie, Slovénie, Espagne, Suède, Suisse, Royaume-Uni et États-Unis."
+            }
+        }
+    }
+}

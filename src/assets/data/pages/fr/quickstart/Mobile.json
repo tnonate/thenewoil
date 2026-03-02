@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Introduction",
+        "description": "Cette page aborde l'importance de sécuriser vos appareils mobiles et analyse le débat 'Android vs iOS' sous l'angle de la vie privée et de la sécurité.",
+        "link": "/fr/guides/most-important/mobile"
+    },
+    {
+        "title": "Réglages",
+        "description": "Cette page propose une liste de réglages recommandés pour réduire la collecte de données par l'appareil lui-même et améliorer sa sécurité.",
+        "link": "/fr/guides/most-important/mobile-settings/"
+    },
+    {
+        "title": "Applications de remplacement",
+        "description": "Cette page suggère des applications respectueuses de la vie privée pour remplacer les applications pré-installées (calendrier, e-mail, navigation, notes, etc.).",
+        "link": "/fr/guides/most-important/mobile-apps/"
+    },
+    {
+        "title": "Habitudes mobiles",
+        "description": "Cette page traite des changements de comportement pour rendre votre téléphone plus privé : limiter les apps, utiliser des magasins alternatifs, des ROMs personnalisées, etc.",
+        "link": "/fr/guides/moderately-important/mobile-habits/"
+    }
+]

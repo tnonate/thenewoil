@@ -1,0 +1,71 @@
+{
+    "criterias": [
+        "Index",
+        "IA"
+    ],
+    "tools": {
+        "brave": {
+            "name": "Brave Search",
+            "logo": "/images/logos/brave.png",
+            "link": "https://search.brave.com/",
+            "values": {
+                "Index": "Brave",
+                "IA": "Oui"
+            }
+        },
+        "ecosia": {
+            "name": "Ecosia",
+            "logo": "/images/logos/ecosia.png",
+            "link": "https://www.ecosia.org/",
+            "values": {
+                "Index": "[Bing et Google](https://ecosia.helpscoutdocs.com/article/579-search-results-providers)",
+                "IA": "Oui"
+            }
+        },
+        "kagi": {
+            "name": "Kagi",
+            "logo": "/images/logos/kagi.png",
+            "link": "https://kagi.com/",
+            "values": {
+                "Index": "Kagi, [autres](https://help.kagi.com/kagi/search-details/search-sources.html)",
+                "IA": "Optionnel"
+            }
+        },
+        "mojeek": {
+            "name": "Mojeek",
+            "logo": "/images/logos/mojeek.png",
+            "link": "https://www.mojeek.com/",
+            "values": {
+                "Index": "Mojeek",
+                "IA": "Non"
+            }
+        },
+        "qwant": {
+            "name": "Qwant",
+            "logo": "/images/logos/qwant.png",
+            "link": "https://www.qwant.com/",
+            "values": {
+                "Index": "Qwant",
+                "IA": "Non"
+            }
+        },
+        "searx": {
+            "name": "SearXNG",
+            "logo": "/images/logos/searxng.png",
+            "link": "https://github.com/searxng/searxng",
+            "values": {
+                "Index": "Dépend de l'instance",
+                "IA": "Non"
+            }
+        },
+        "waterfox": {
+            "name": "Waterfox",
+            "logo": "/images/logos/waterfox.png",
+            "link": "https://search.waterfox.net/",
+            "values": {
+                "Index": "Google",
+                "IA": "Non"
+            }
+        }
+    }
+}

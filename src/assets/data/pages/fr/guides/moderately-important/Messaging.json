@@ -1,0 +1,64 @@
+{
+    "session": {
+        "name": "Session",
+        "logo": "/images/logos/session.png",
+        "logo_alt": "Logo Session",
+        "link": "https://getsession.org/",
+        "use_cases": [
+            "Idéal pour les utilisateurs souhaitant une messagerie décentralisée, anonyme et utilisant le routage en oignon"
+        ],
+        "pros": [
+            "[Récemment audité](https://getsession.org/blog/session-code-audit)",
+            "Disponible sur [tous les systèmes d'exploitation](/fr/criteria#definitions)",
+            "Disponible sur [F-Droid](https://fdroid.getsession.org/)",
+            "Décentralisé",
+            "Aucune donnée personnelle requise pour l'inscription"
+        ],
+        "cons": [
+            "Manque de [confidentialité persistante](https://csrc.nist.gov/glossary/term/perfect_forward_secrecy)",
+            "Critiques sur sa dépendance à une cryptomonnaie (invisible pour l'utilisateur final)"
+        ]
+    },
+    "signal": {
+        "name": "Signal",
+        "logo": "/images/logos/signal.png",
+        "logo_alt": "Logo Signal",
+        "link": "https://signal.org/fr/",
+        "use_cases": [
+            "Idéal pour les utilisateurs voulant la référence absolue en matière de vie privée et sécurité",
+            "Idéal pour ceux à l'aise avec l'usage d'un numéro de téléphone pour l'inscription",
+            "Idéal pour ceux qui veulent une application connue du grand public"
+        ],
+        "pros": [
+            "[Récemment audité](https://community.signalusers.org/t/wiki-overview-of-third-party-security-audits/13243)",
+            "Disponible sur [tous les systèmes d'exploitation](/fr/criteria#definitions)",
+            "Les pseudos peuvent être changés à tout moment à l'infini",
+            "[Sécurité de renommée mondiale](https://en.wikipedia.org/wiki/Signal_(messaging_app)#Security)"
+        ],
+        "cons": [
+            "Indisponible sur F-Droid",
+            "Centralisé",
+            "Numéro de téléphone requis (peut être un [VoIP](/fr/guides/less-important/voip))"
+        ]
+    },
+    "simplex": {
+        "name": "SimpleX",
+        "logo": "/images/logos/simplex.png",
+        "logo_alt": "Logo SimpleX",
+        "link": "https://simplex.chat/",
+        "use_cases": [
+            "Idéal pour les pionniers voulant les dernières innovations en matière de vie privée et d'anonymat"
+        ],
+        "pros": [
+            "[Récemment audité](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html)",
+            "Disponible sur [tous les systèmes d'exploitation](/fr/criteria#definitions)",
+            "Disponible sur [F-Droid](https://f-droid.org/packages/chat.simplex.app/)",
+            "Décentralisé",
+            "Aucune donnée requise pour l'inscription",
+            "Pas d'ID utilisateur, ajout par QR code ou lien temporaire"
+        ],
+        "cons": [
+            "Encore tôt dans son développement, peut manquer de fonctionnalités"
+        ]
+    }
+}

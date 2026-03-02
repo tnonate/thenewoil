@@ -1,0 +1,52 @@
+---
+layout: "@layouts/guides.astro"
+title: "Vie privée/Cybersécurité : Sites de recherche de personnes"
+topic: Retrait des données des sites de recherche de personnes et courtiers en données
+weight: 7
+draft: false
+---
+
+import LinkGrid from "@components/common/LinkGrid.astro";
+import removal from "@assets/data/pages/fr/guides/moderately-important/DataRemoval.json";
+
+# Sites de recherche de personnes et courtiers en données
+
+**Avertissement : Je ne suis pas avocat.** Les lois varient selon les pays. Je partage mon expérience et mes lectures. Pour approfondir, je recommande *[Extreme Privacy](https://inteltechniques.com/book7.html)* de Michael Bazzell ou *[How to be Invisible (3rd Edition)](https://www.amazon.com/dp/1250010454)* de JJ Luna.
+
+Si vous ne l'avez jamais fait, cherchez votre nom, votre numéro de téléphone ou votre adresse sur Google. Vous pourriez trouver des pages listant votre date de naissance, vos adresses actuelles et passées, vos proches et parfois même votre employeur ou affiliation politique. Je vous conseille vivement de supprimer tout ce qui est possible.
+
+## Pourquoi est-ce important ?
+
+La vie privée doit être proactive. Vous ne savez jamais quand vous pourriez vous retrouver sous le feu des projecteurs : un internaute en colère qui pratique le [SWATing](https://fr.wikipedia.org/wiki/Swatting), ou une simple erreur de jugement qui ruine votre réputation. **Une fois que vous êtes dans la tourmente, il est trop tard.** On ne peut pas « dé-publier » des informations massives instantanément. Le web est rempli de personnes prêtes à transformer un détail insignifiant de votre vie en affront personnel méritant vengeance. Garder vos données hors des registres publics est donc crucial.
+
+## Supprimer les données
+
+Il y a deux méthodes : la méthode manuelle (la plus efficace mais chronophage) et la méthode automatisée (plus simple, idéale pour la plupart des gens). Une [étude récente](https://arstechnica.com/gadgets/2024/08/its-not-worth-paying-to-be-removed-from-people-finder-sites-study-says/) montre que l'automatisation n'est que partiellement efficace (entre 4% et 68% de succès). L'idéal est un hybride : l'automatisation pour le gros du travail, et un suivi manuel régulier.
+
+### Suppression automatisée
+
+Voici quelques services recommandés, choisis car ils traitent les données sensibles (nom, téléphone, adresse) et ont des taux de réussite corrects (>50%). Je les liste par ordre de préférence. **EasyOptOuts** offre le meilleur rapport qualité/prix ($20/an). **Optery** est un peu plus efficace mais bien plus cher. Une stratégie consiste à utiliser EasyOptOuts et la version gratuite d'Optery (pour voir ce qu'il reste à supprimer).
+
+<LinkGrid items={removal} />
+
+*Note : Pour DuckDuckGo Privacy Pro, je ne recommande pas le VPN inclus. Voir mes [VPN recommandés](/fr/guides/less-important/vpns/).*
+
+### Suppression manuelle
+
+Pour le manuel, Michael Bazzell propose un [cahier d'exercices gratuit](https://inteltechniques.com/links.html) et Yael Grauer maintient la [Big Ass Data Broker Opt-Out List](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List). Ces listes ne sont jamais complètes à 100 % car de nouveaux sites apparaissent sans cesse. [Optery](https://www.optery.com/opt-out-guides/), [DeleteMe](https://joindeleteme.com/blog/opt-out-guides/) et [MyDataRemoval](https://www.mydataremoval.com/diy-guide/) proposent aussi des guides.
+
+Cherchez aussi vos coordonnées entre guillemets sur Google pour trouver des résultats de niche (vieux posts de réseaux sociaux, petits sites locaux). Vous pouvez aussi utiliser l'outil Google « [Résultats vous concernant](https://blog.google/products/search/a-new-search-tool-to-help-control-your-online-presence/) » pour demander des suppressions gratuitement.
+
+## Garder les données hors ligne
+
+Supprimer vos données ne sert à rien si vous ne coupez pas la source. Encore une fois, consultez un avocat pour rester dans la légalité tout en protégeant votre anonymat.
+
+**Masquer son domicile est difficile mais possible.** Vous pouvez louer auprès d'un particulier en demandant que les factures d'énergie restent à son nom (moyennant parfois un supplément ou un argument sur un « ex-conjoint violent » pour justifier votre discrétion). Si vous achetez, faites-le via un **Trust (Fiducie)** pour que votre nom n'apparaisse pas dans les registres fonciers. Une **société écran (LLC)** peut aussi fonctionner pour la location, mais vérifiez les lois locales sur les agents enregistrés.
+
+Si votre maison est au nom d'un Trust ou d'une LLC, il est plus facile d'y lier vos véhicules et contrats. Notez que cela peut augmenter les frais d'assurance.
+
+Enfin, les administrations de permis de conduire (DMV aux US) revendent souvent leurs données. La meilleure défense est compliquée (permis de résident nomade), mais vous pouvez essayer de contacter votre administration locale en prétendant devenir « nomade numérique » pour voir les options d'anonymisation de votre adresse de permis.
+
+Utilisez des **adresses de redirection (Ghost address)** ou des boîtes postales. Tout ce travail est inutile si vous faites livrer vos colis directement chez vous. Utilisez aussi des [alias d'e-mails](/fr/guides/moderately-important/email-aliasing/) et du [VoIP](/fr/guides/less-important/voip/) systématiquement.
+
+Ce guide n'est pas exhaustif mais vise à vous sensibiliser. Pour aller plus loin, consultez le livre de Michael Bazzell.
