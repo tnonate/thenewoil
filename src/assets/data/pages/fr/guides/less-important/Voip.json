@@ -1,0 +1,88 @@
+{
+    "hushed": {
+        "name": "Hushed",
+        "logo": "/images/logos/hushed.png",
+        "logo_alt": "Logo Hushed",
+        "link": "https://hushed.com",
+        "use_cases": [],
+        "pros": [
+            "Numéros illimités",
+            "Appels internationaux",
+            "Ne nécessite pas votre numéro de carte SIM"
+        ],
+        "cons": [
+            "Pas de version gratuite",
+            "Numéros américains et canadiens uniquement",
+            "Pas d'application de bureau"
+        ]
+    },
+    "google voice": {
+        "name": "Google Voice",
+        "logo": "/images/logos/google_voice.png",
+        "logo_alt": "Logo Google Voice",
+        "link": "https://voice.google.com/about",
+        "use_cases": [],
+        "pros": [
+            "Un numéro gratuit (illimité avec Workspace)",
+            "Client de bureau disponible",
+            "Pas d'application mobile requise (renvoi vers votre numéro SIM)"
+        ],
+        "cons": [
+            "États-Unis et Canada uniquement",
+            "Nécessite un compte Google (donc un numéro SIM)"
+        ]
+    },
+    "mysudo": {
+        "name": "MySudo",
+        "logo": "/images/logos/mysudo.png",
+        "logo_alt": "Logo MySudo",
+        "link": "https://mysudo.com/",
+        "use_cases": [],
+        "pros": [
+            "Jusqu'à 9 numéros disponibles",
+            "Ne nécessite pas votre numéro SIM",
+            "Inclut e-mail, navigateur web et [cartes bancaires virtuelles](/fr/guides/moderately-important/payments) (iOS uniquement)",
+            "Zéro connaissance (Zero-knowledge) sur les données stockées"
+        ],
+        "cons": [
+            "Numéros américains, canadiens et britanniques uniquement",
+            "Client de bureau en bêta (web uniquement, synchro iOS seulement)"
+        ]
+    },
+    "tossable digits": {
+        "name": "Tossable Digits",
+        "logo": "/images/logos/tossable-digits.png",
+        "logo_alt": "Logo Tossable Digits",
+        "link": "https://www.tossabledigits.com/",
+        "use_cases": [],
+        "pros": [
+            "Numéros illimités",
+            "Appels internationaux",
+            "Disponible dans 72 pays",
+            "Pas d'application requise (renvoi optionnel vers un autre numéro)"
+        ],
+        "cons": [
+            "Pas de version gratuite",
+            "Pas d'application de bureau",
+            "Appels internationaux facturés à la minute",
+            "SMS uniquement sur numéros US et Canada"
+        ]
+    },
+    "viber": {
+        "name": "Viber",
+        "logo": "/images/logos/viber.png",
+        "logo_alt": "Logo Viber",
+        "link": "https://www.viber.com/fr/",
+        "use_cases": [],
+        "pros": [
+            "Client de bureau",
+            "Disponible dans 59 pays",
+            "Appels internationaux",
+            "Ne nécessite pas votre numéro SIM"
+        ],
+        "cons": [
+            "Appels facturés à la minute",
+            "Un seul numéro par utilisateur"
+        ]
+    }
+}

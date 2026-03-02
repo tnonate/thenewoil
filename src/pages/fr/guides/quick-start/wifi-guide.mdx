@@ -1,0 +1,48 @@
+---
+layout: "@layouts/guides.astro"
+title: Guide Wi-Fi
+draft: false
+---
+
+# Sécuriser votre réseau domestique
+
+Pour beaucoup d'entre nous, nos réseaux domestiques sont devenus vitaux : loisirs, télétravail, communication. Mais c'est aussi souvent le maillon faible de notre sécurité. Un réseau compromis peut servir à voler vos infos, installer des malwares ou ralentir vos appareils. Ce guide vous partage des pratiques simples pour sécuriser votre réseau.
+
+## Terminologie
+
+- **Flashing :** Installation d'un nouveau micrologiciel (firmware) sur un appareil.
+- **Passerelle (Gateway) :** Un appareil combinant modem et routeur. C'est le cas de la plupart des « box » internet.
+- **FAI :** Fournisseur d'Accès Internet (Orange, Free, SFR, Bouygues, etc.).
+- **LAN :** Réseau local. Tout ce qui est chez vous (imprimante, télé par exemple).
+- **Modem :** L'appareil qui connecte votre réseau local (LAN) à Internet (WAN).
+- **Routeur :** L'appareil qui dirige le trafic chez vous pour que la recherche sur votre smartphone arrive bien sur votre smartphone.
+- **SSID :** Le nom de votre réseau Wi-Fi.
+- **WAN :** Le réseau étendu, c'est-à-dire l'Internet extérieur.
+
+## Choisir un routeur
+
+En France, votre FAI vous fournit une « box ». Je conseille souvent d'utiliser son propre routeur derrière cette box. Les box des FAI sont souvent bridées et permettent aux opérateurs de surveiller (ou vendre) vos données de navigation. Utiliser votre propre routeur vous donne plus d'outils de protection.
+
+Il existe des systèmes d'exploitation libres (Open Source) pour routeurs comme [DD-WRT](https://dd-wrt.com/), [pfSense](https://www.pfsense.org/) ou [OpenWRT](https://openwrt.org/). Si vous préférez la simplicité, assurez-vous au moins que votre routeur supporte les VLANs et les capacités VPN.
+
+## Bonnes pratiques réseau
+
+Changez les mots de passe par défaut du routeur et de votre SSID. Utilisez une **phrase de passe** (5 mots ou plus au hasard) : c'est très robuste et facile à partager.
+
+Si disponible, choisissez le chiffrement **WPA3** avec **AES**. Sinon, le **WPA2**. Évitez absolument le WPA1 et le WEP.
+
+Créez des **VLANs** (réseaux séparés) : un pour les [objets connectés (IoT)](/fr/guides/less-important/iot), un pour les consoles, un pour vos ordinateurs. Si un objet connecté est piraté, vos ordinateurs resteront en sécurité. À défaut de VLANs, mettez vos objets connectés sur le réseau « Invité ».
+
+Pour votre SSID, évitez les noms qui vous identifient (ex: « Famille Martin » ou « Appt 42 »).
+
+### Wi-Fi Invité
+
+Activez un réseau Wi-Fi « Invité » pour vos visiteurs. Vous ne savez pas si leurs appareils sont sécurisés. Donnez-leur un mot de passe différent de votre Wi-Fi principal.
+
+## Réglages avancés
+
+Gardez votre routeur à jour. Activez les mises à jour automatiques si possible.
+
+Installez un [VPN](/fr/guides/less-important/vpns) directement sur le routeur. Cela protège tous les appareils de la maison, même ceux qui n'acceptent pas de VPN nativement (comme les Smart TV), et cela ne compte que pour une seule connexion chez votre fournisseur VPN.
+
+Activez le **pare-feu (firewall)** et désactivez le **UPnP** (Universal Plug-and-Play), car cette option est souvent détournée par des malwares. Désactivez aussi le **WPS** (le bouton pour connecter un appareil sans code), c'est une faille de sécurité majeure. Enfin, coupez l'accès à distance (remote access) à l'interface du routeur.

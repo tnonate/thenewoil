@@ -1,0 +1,137 @@
+{
+    "criterias": [
+        "Alternatives",
+        "Raison"
+    ],
+    "tools": {
+        "calendrier": {
+            "name": "Calendrier",
+            "values": {
+                "Alternatives": [
+                    "[Nextcloud](https://nextcloud.com/)",
+                    "[Proton Calendar](https://proton.me/calendar)",
+                    "[Tuta Calendar](https://tuta.com/calendar/)"
+                ],
+                "Raison": [
+                    "Votre calendrier contient tous vos projets et lieux : rendez-vous, horaires de travail, événements, etc. Utiliser un calendrier chiffré aide à protéger ces informations contre Google, Apple ou d'autres tiers."
+                ]
+            }
+        },
+        "e-mail": {
+            "name": "E-Mail",
+            "values": {
+                "Alternatives": [
+                    "[Fournisseur de messagerie chiffrée de votre choix](/fr/guides/moderately-important/email)"
+                ],
+                "Raison": [
+                    "Veuillez consulter la page [E-mail chiffré](/fr/guides/moderately-important/email) pour plus d'informations."
+                ]
+            }
+        },
+        "pare-feu et bloqueur de contenu": {
+            "name": "Pare-feu/Bloqueur",
+            "values": {
+                "Alternatives": [
+                    "[Adguard](https://adguard.com/)",
+                    "[Blokada](https://blokada.org/) *(Pas de version gratuite pour iOS)*",
+                    "[NextDNS](https://nextdns.io/)",
+                    "[RethinkDNS](https://rethinkdns.com/) (Android uniquement)",
+                    "[Lockdown](https://lockdownprivacy.com/) (iOS uniquement)"
+                ],
+                "Raison": [
+                    "Les pare-feu mobiles empêchent les applications de contacter des serveurs inutiles (publicités, analyses).",
+                    "**Note :** Vous ne pouvez pas utiliser un VPN et un pare-feu/bloqueur en même temps. Je recommande le VPN en premier choix s'il correspond à votre [modèle de menace](/fr/guides/prologue/threat-model)."
+                ]
+            }
+        },
+        "messagerie instantanée": {
+            "name": "Messagerie",
+            "values": {
+                "Alternatives": [
+                    "[Fournisseur de messagerie chiffrée de votre choix](/fr/guides/moderately-important/messaging)"
+                ],
+                "Raison": [
+                    "Veuillez consulter la page [Messagerie chiffrée](/fr/guides/moderately-important/messaging) pour plus d'informations."
+                ]
+            }
+        },
+        "navigation": {
+            "name": "Navigation",
+            "values": {
+                "Alternatives": [
+                    "[CoMaps](https://www.comaps.app/)",
+                    "[Organic Maps](https://organicmaps.app/)",
+                    "[OsmAnd](https://osmand.net/)"
+                ],
+                "Raison": [
+                    "Google Maps, Apple Maps et consorts enregistrent tous vos déplacements. Utiliser un navigateur alternatif ne stoppe pas le pistage par votre opérateur, mais réduit les données de localisation spécifiques stockées sur vous."
+                ]
+            }
+        },
+        "notes": {
+            "name": "Notes",
+            "values": {
+                "Alternatives": [
+                    "[Cryptee](https://crypt.ee/)",
+                    "[Filen](https://filen.io/)",
+                    "[Joplin](https://joplinapp.org/)",
+                    "[Nextcloud](https://nextcloud.com/)",
+                    "[Notesnook](https://notesnook.com/)",
+                    "[Standard Notes](https://standardnotes.com/)"
+                ],
+                "Raison": [
+                    "Par défaut, Google et Apple ont accès aux fichiers de l'application de notes native. Ces services protègent vos notes de sorte que vous seul puissiez les voir, tout en offrant la synchronisation cloud."
+                ]
+            }
+        },
+        "mots de passe": {
+            "name": "Gestionnaire de mots de passe",
+            "values": {
+                "Alternatives": [
+                    "[Gestionnaire de mots de passe de votre choix](/fr/guides/most-important/passwords/)"
+                ],
+                "Raison": [
+                    "Le Trousseau Apple et le gestionnaire de Google vous enferment dans leur écosystème. De plus, ils ne sont pas [à code source disponible](/fr/guides/prologue/open-source/), ce qui rend difficile de savoir ce qui se passe en coulisses."
+                ]
+            }
+        },
+        "photos": {
+            "name": "Photos",
+            "values": {
+                "Alternatives": [
+                    "[Cryptee](https://crypt.ee/)",
+                    "[Ente](https://ente.io/)",
+                    "[Filen](https://filen.io/)",
+                    "[Nextcloud](https://nextcloud.com/)",
+                    "[Proton Drive](https://proton.me/drive) (Android uniquement)"
+                ],
+                "Raison": [
+                    "Google, Apple et les autres solutions de stockage non chiffrées peuvent voir toutes vos photos. Ces services offrent un moyen de stocker et sauvegarder vos photos en toute sécurité à l'abri des regards indiscrets."
+                ]
+            }
+        },
+        "navigateur web": {
+            "name": "Navigateur Web",
+            "values": {
+                "Alternatives": [
+                    "Android : [Brave](https://play.google.com/store/apps/details?id=com.brave.browser&hl=fr&gl=US) ou [Firefox](https://www.mozilla.org/fr/firefox/) avec [uBlock Origin](https://ublockorigin.com/)",
+                    "iOS : [Brave](https://apps.apple.com/fr/app/brave-private-browser/id1052879175), [Firefox Focus](https://www.mozilla.org/fr/firefox/browsers/mobile/focus/) ou [Safari sécurisé](https://www.privacyguides.org/en/mobile-browsers/#safari)"
+                ],
+                "Raison": [
+                    "Même si les applications ont remplacé le navigateur sur mobile, certains usages persistent. Votre utilisation du navigateur révèle beaucoup de données et devrait être minimisée."
+                ]
+            }
+        },
+        "divers": {
+            "name": "Divers",
+            "values": {
+                "Alternatives": [
+                    "Android & iOS : [iVerify Basic](https://iverify.io/products/basic) (détection de malwares, conseils de réglages)"
+                ],
+                "Raison": [
+                    "Ce sont des applications qui aident à améliorer votre vie privée et sécurité de diverses manières. Évaluez votre modèle de menace pour voir si vous en avez besoin."
+                ]
+            }
+        }
+    }
+}

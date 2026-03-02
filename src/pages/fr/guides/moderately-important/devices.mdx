@@ -1,0 +1,45 @@
+---
+layout: "@layouts/guides.astro"
+title: "Cybersécurité : Chiffrement des appareils"
+topic: "Chiffrement des appareils"
+weight: 2
+draft: false
+---
+
+# Chiffrement des appareils
+
+Chiffrer vos appareils est essentiel pour les protéger contre les accès non autorisés. **Priorisez les appareils portables.** Les téléphones sont souvent perdus ou volés. Viennent ensuite les ordinateurs portables, puis les disques durs externes et clés USB. Enfin, les ordinateurs de bureau. Le chiffrement est gratuit, alors n'hésitez pas, mais ne perdez pas votre mot de passe et faites des [sauvegardes](/fr/guides/less-important/backups) régulières.
+
+**Chiffrer un téléphone est simple.** Sur Android et iOS, le chiffrement est automatique dès que vous configurez un code de verrouillage. Sur Mac, utilisez [FileVault](https://support.apple.com/fr-fr/HT204837).
+
+Sur Windows, il existe [BitLocker](https://learn.microsoft.com/fr-fr/windows/security/operating-system-security/data-protection/bitlocker/). Attention : si vous utilisez un compte Microsoft en ligne, vos clés de secours sont envoyées sur leurs serveurs, ce qui crée une [faille de sécurité](https://www.forbes.com/sites/thomasbrewster/2026/01/22/microsoft-gave-fbi-keys-to-unlock-bitlocker-encrypted-data/). Je [recommande](/fr/guides/moderately-important/desktop-settings/#windows-11-recommended-settings) d'utiliser un compte local et de stocker vos clés hors ligne (voir [ce guide](https://arstechnica.com/gadgets/2026/01/how-to-encrypt-your-pcs-disk-without-giving-the-keys-to-microsoft/)).
+
+La plupart des distributions Linux proposent le chiffrement via LUKS lors de l'installation. Si vous n'avez pas BitLocker ou préférez l'Open Source, utilisez [VeraCrypt](https://www.veracrypt.fr/en/Home.html). Utilisez le « chiffrement complet du disque » (full disk encryption).
+
+## Chiffrer son disque système avec VeraCrypt
+
+1. Menu « System » > « Encrypt System Partition/Drive... »
+   ![Capture](/images/steps/veracrypt-encrypting/01.png)
+2. Sélectionnez « Encrypt the Windows system partition ».
+   ![Capture](/images/steps/veracrypt-encrypting/04.png)
+3. Choisissez les algorithmes AES et SHA-512.
+   ![Capture](/images/steps/veracrypt-encrypting/05.png)
+4. Choisissez une [bonne phrase de passe](/fr/guides/most-important/passwords).
+   ![Capture](/images/steps/veracrypt-encrypting/06.png)
+5. Créez un disque de secours (Rescue Disk) et stockez-le sur une clé USB en lieu sûr.
+   ![Capture](/images/steps/veracrypt-encrypting/10.png)
+6. Après un test de redémarrage, VeraCrypt lancera le chiffrement. Cela peut prendre plusieurs heures.
+
+## Chiffrer un disque externe avec VeraCrypt
+
+1. Menu « Tools » > « Volume Creation Wizard ».
+   ![Capture](/images/steps/veracrypt-external-encrypting/01.png)
+2. Sélectionnez « Encrypt a non-system partition/drive ».
+   ![Capture](/images/steps/veracrypt-external-encrypting/02.png)
+3. Sélectionnez votre clé USB ou disque dur.
+   ![Capture](/images/steps/veracrypt-external-encrypting/05.png)
+4. Choisissez « Create encrypted volume and format it » (**ATTENTION** : cela effacera toutes les données du disque).
+   ![Capture](/images/steps/veracrypt-external-encrypting/06.png)
+5. Choisissez une phrase de passe et lancez le formatage.
+
+Note : Ne faites pas de « wipe » (effacement sécurisé) sur les disques **SSD**, car cela réduit leur durée de vie. Le chiffrement complet suffit à protéger vos données si le disque est éteint.

@@ -1,0 +1,83 @@
+---
+layout: "@layouts/guides.astro"
+title: "Habitudes en ligne diverses"
+topic: "Habitudes en ligne diverses"
+weight: 4
+draft: false
+---
+
+# Habitudes en ligne diverses
+
+Cette section regroupe des conseils généraux et des astuces variées qui n'ont pas leur place sur les autres pages.
+
+### Table des matières
+
+- [Mises à jour automatiques](#mises-à-jour-automatiques)
+- [Phishing et clics sur les liens](#phishing-et-clics-sur-les-liens)
+- [Partage d'informations](#partage-dinformations)
+- [Réseaux sociaux](#réseaux-sociaux)
+  - [Interfaces alternatives (Front-ends)](#interfaces-alternatives-front-ends)
+  - [Le Fediverse](#le-fediverse)
+- [Moteurs de recherche](#moteurs-de-recherche)
+- [IA](#ia)
+- [Hygiène des comptes](#hygiène-des-comptes)
+- [Outils d'audit](#outils-daudit)
+
+## Mises à jour automatiques
+
+Activez les mises à jour automatiques sur tous vos appareils et magasins d'applications. Aujourd'hui, les mises à jour sont testées de manière intensive avant d'être diffusées. Les bénéfices en matière de sécurité l'emportent largement sur les rares risques de bugs.
+
+## Phishing et clics sur les liens
+
+Le **[Phishing](https://fr.wikipedia.org/wiki/Hame%C3%A7onnage)** (ou hameçonnage) reste l'un des meilleurs moyens pour un pirate d'accéder à vos comptes. L'attaquant tente de vous tromper pour que vous donniez vos identifiants ou téléchargiez un malware.
+
+C'est souvent un e-mail qui semble venir de votre banque. Le lien mène à un site identique en apparence, mais qui enregistre votre mot de passe. Il peut aussi s'agir de fausses publicités (malvertising). C'est pour cela que les [bloqueurs de publicités](/fr/guides/most-important/browser/#extensions) sont essentiels.
+
+**Soyez prudent.** Si un message semble suspect, contactez l'entité par un autre canal (allez directement sur le site officiel au lieu de cliquer sur le lien).
+
+## Partage d'informations
+
+**Réfléchissez bien à ce que vous publiez.** Une photo innocente peut révéler votre adresse via un panneau de signalisation, ou votre lieu de travail via un logo sur votre chemise. Même dans les espaces non publics, donnez le moins d'infos possible. **Voyez chaque site comme une fuite de données en attente.** Si une info n'est pas indispensable, utilisez la [désinformation](/fr/guides/less-important/disinformation).
+
+## Réseaux sociaux
+
+Pour les réseaux sociaux, je conseille trois approches : le minimalisme, l'exploration du [Fediverse](#le-fediverse) (décentralisé et respectueux de la vie privée), ou l'utilisation d'une [interface alternative](#interfaces-alternatives-front-ends).
+
+Si vous devez utiliser les réseaux classiques, évitez les applications, postez le moins possible et passez votre profil en privé. **N'utilisez pas le même pseudonyme partout** pour éviter le cyber-harcèlement.
+
+### Interfaces alternatives (Front-ends)
+
+Si vous ne faites que consulter du contenu sans commenter, utilisez des proxies qui éliminent les traqueurs.
+
+<Criterias data={chart4Data} />
+
+L'extension [LibRedirect](https://github.com/libredirect/LibRedirect) permet de rediriger automatiquement les liens vers ces interfaces.
+
+### Le Fediverse
+
+Le Fediverse est un réseau social décentralisé et bénévole (comme Mastodon). C'est plus respectueux de la vie privée. Vous pouvez suivre des gens sur d'autres plateformes fédérées sans avoir à créer un compte chez elles.
+
+<Criterias data={chart2Data} />
+
+## Moteurs de recherche
+
+Google enregistre toutes vos recherches pour dresser votre profil. Utilisez des moteurs respectueux de la vie privée. La plupart sont des « métamoteurs » qui récupèrent les résultats de Google ou Bing sans vous traquer.
+
+<Criterias data={chart1Data} />
+
+## IA (Intelligence Artificielle)
+
+Les modèles de langage (LLM) sont révolutionnaires mais posent des questions de vie privée (ChatGPT et Claude collectent beaucoup de données). Si vous devez utiliser une IA, privilégiez ces outils plus respectueux :
+
+<Criterias data={chart3Data} />
+
+## Hygiène des comptes
+
+Supprimez tous les comptes inutilisés via [JustDeleteMe](https://justdeleteme.xyz/). Si la suppression est impossible, changez les données pour des infos fictives et utilisez un mot de passe fort.
+
+Exceptions : gardez vos vieux e-mails (pour les accès futurs) et créz des comptes sur les services critiques (impots, sécurité sociale) pour éviter que quelqu'un d'autre ne le fasse à votre place (« plantez votre drapeau »).
+
+## Outils d'audit
+
+- [Exodus Privacy](https://reports.exodus-privacy.eu.org/fr/) : Vérifie les traqueurs dans les apps Android.
+- [Blacklight](https://themarkup.org/blacklight) : Vérifie les traqueurs sur les sites web.
