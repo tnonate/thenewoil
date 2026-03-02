@@ -1,0 +1,53 @@
+---
+layout: "@layouts/guides.astro"
+title: Comprendre le chiffrement
+topic: Qu'est-ce que le chiffrement ?
+weight: 6
+draft: false
+---
+
+import Highlighting from "@components/common/Highlighting.astro";
+
+# Comprendre le chiffrement
+
+Le chiffrement consiste essentiellement à utiliser un code pour masquer vos données. Considérez les chiffres suivants :
+
+`8 5 12 12 15 (espace) 23 15 18 12 5`
+
+Si vous ne pouvez pas le lire, essayez de remplacer les chiffres par leur lettre correspondante, en commençant par A=1 (B=2, C=3, etc.). Le résultat est :
+
+`H E L L O (espace) W O R L D`
+
+Ce code simple, de style cour de récréation, est — par définition — un type de chiffrement. Les protocoles de chiffrement modernes, comme [Signal](https://en.wikipedia.org/wiki/Signal_Protocol) et [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard), sont nettement plus complexes, mais le concept de base reste le même : **remplacer des données facilement compréhensibles par des substituts qui ne peuvent être compris qu'avec une « clé ».** Dans l'exemple précédent, la « clé » est de savoir que A=1, B=2, etc. Dans les logiciels de chiffrement plus avancés, la clé prend la forme de votre mot de passe. Le domaine du chiffrement est appelé la « cryptographie ». Veuillez noter qu'il s'agit d'une explication extrêmement simplifiée.
+
+**Le chiffrement est un concept central en cybersécurité, ainsi que pour la vie privée.** Selon la manière dont un élément est chiffré — s'il l'est — vos données peuvent être exposées à de multiples menaces. Par exemple, la plupart des ordinateurs ne sont pas, par défaut, « chiffrés au repos » (encrypted at rest). Cela signifie que n'importe qui peut facilement retirer le disque dur, le brancher sur son propre ordinateur avec un adaptateur USB et parcourir vos fichiers, sans aucun identifiant ni mot de passe. J'ai personnellement fait cela sur mes propres appareils — et ceux de membres de ma famille (à leur demande) — de nombreuses fois à des fins de récupération de données. Dans des circonstances idéales, ce n'est pas un problème car les fichiers sur votre appareil ont tendance à y rester — à l'exception des services de synchronisation cloud comme Google Drive ou Dropbox. Cependant, si votre appareil est volé ou confisqué, je ne saurais trop insister sur la facilité avec laquelle votre contenu peut être consulté par quiconque le possède, même sans connaître votre mot de passe de session.
+
+L'état du trafic en ligne — c'est-à-dire tout ce que vous envoyez d'un appareil à un autre — n'est que légèrement meilleur car la [plupart](https://www.darkreading.com/application-security/encrypted-traffic-once-thought-safe-now-responsible-for-most-cyberthreats) du trafic internet est « chiffré en transit » (encrypted in transit), ce qui signifie qu'il est chiffré lorsqu'il quitte votre appareil et voyage sur internet. Cependant, la plupart de ces données sont déchiffrées (et souvent stockées) une fois qu'elles atteignent le serveur du fournisseur, ce qui signifie que le contenu est facilement visible par quiconque a accès à ce serveur pour quelque raison que ce soit — et pas seulement par un accès physique. Cela signifie que tout attaquant accédant au serveur peut également accéder à votre contenu. Cela peut inclure non seulement vos messages directs, mais aussi du contenu « privé » comme une page de réseau social verrouillée, des vidéos YouTube non répertoriées, des serveurs Discord sur invitation uniquement et des fichiers stockés dans le cloud.
+
+**Pour un maximum de confidentialité et de sécurité, il est impératif d'utiliser un type spécifique de chiffrement appelé « Chiffrement de bout en bout » (End-to-End Encryption)** (également connu sous le nom de « e2ee », « chiffrement à connaissance zéro » ou « chiffrement sans accès »). Cela signifie que les données sont chiffrées en transit de l'expéditeur au destinataire — et ne sont pas déchiffrées sur les serveurs du fournisseur. Seuls l'expéditeur et le destinataire peuvent lire les données ; personne d'autre entre les deux ne le peut — pas même le fournisseur.
+
+Tous les services ne peuvent pas fonctionner avec le chiffrement de bout en bout. Par exemple, une « plateforme de réseau social à connaissance zéro » n'aurait aucun sens car le fondement même des réseaux sociaux est que vos publications soient largement visibles par l'audience souhaitée. Cependant, les communications directes — comme les messages privés, les e-mails et le stockage cloud — peuvent et doivent être à connaissance zéro, même si ce n'est qu'au repos (comme c'est le cas pour la plupart des fournisseurs d' [e-mail chiffré](/guides/moderately-important/email/)).
+
+Le chiffrement peut et doit être utilisé dans toute situation où il est possible et disponible. Cela inclut, sans s'y limiter, les communications, le stockage de fichiers, le chiffrement des appareils, et plus encore. Au fil de votre lecture sur ce site, rappelez-vous ceci : **quand il s'agit d'appareils, exigez le chiffrement. Quand il s'agit de services en ligne, exigez spécifiquement le chiffrement de bout en bout ou à connaissance zéro.**
+
+<Highlighting variant="warning">
+
+## Ne perdez pas votre mot de passe !
+
+Le plus gros inconvénient du chiffrement de bout en bout est peut-être que — s'il est correctement mis en œuvre — le fournisseur n'a aucun accès à vos clés de chiffrement. Autrement dit, le fournisseur ne peut pas réinitialiser votre compte sans chiffrer de manière permanente toutes vos données. J'ai personnellement vécu (ou vu d'autres vivre) cette expérience avec des services comme [ProtonMail](/guides/moderately-important/email/), [Bitwarden](/guides/most-important/passwords/), et le [stockage cloud](/guides/less-important/backups/). Dans certains cas, il existe des solutions de contournement ou des solutions de récupération recommandées, mais elles sont souvent peu conviviales ou assorties de [mises en garde](https://restoreprivacy.com/protonmail-discloses-user-data-leading-to-arrest-in-spain/) que l'utilisateur doit connaître. La solution la plus simple est de ne jamais perdre votre mot de passe. Pour plus d'informations sur la façon de stocker vos mots de passe en toute sécurité, consultez [cette page](/guides/most-important/passwords/). Je recommande également de profiter de la plupart ou de toutes les méthodes de récupération (tant que vous avez étudié les risques et qu’elles correspondent à votre [modèle de menace](/guides/prologue/threat-model/)). Celles-ci incluent souvent des éléments comme un code de secours, des contacts de récupération (comme une adresse e-mail secondaire ou d'autres utilisateurs pouvant vous vérifier), un fichier à télécharger, ou quelque chose de similaire.
+
+</Highlighting>
+
+## Hachage (Hashing)
+
+Au cours de votre parcours vers la vie privée, vous rencontrerez parfois le terme « hachage » (hashing). Le hachage est une sorte de chiffrement à sens unique qui ne peut pas être inversé. Le hachage est utile dans diverses situations. Par exemple, les mots de passe doivent être hachés avant d'être stockés sur le serveur pour garantir qu'ils ne puissent pas être déchiffrés si le service subit une fuite de données. Des empreintes (hashes) de programmes peuvent également être générées pour vérifier l'intégrité avant l'installation — pour s'assurer que le programme n'a pas été modifié ou corrompu pendant le téléchargement et qu'il est légitime. De nos jours, ce processus est largement automatisé dans la plupart des situations — comme le téléchargement et l'installation de mises à jour ou d'applications — mais il peut (et doit) parfois être effectué manuellement. De façon générale, le hachage n'est pas un concept dont vous devriez trop vous inquiéter, mais c'est une information utile car vous verrez peut-être ce mot apparaître de temps en temps.
+
+## Conseils et astuces
+
+- Ne vous laissez pas influencer par le jargon comme « chiffrement de niveau militaire » (military grade encryption). C'est un terme marketing dénué de sens qui n'apporte aucune information. Vérifiez la [politique de confidentialité](https://blog.thenewoil.org/how-to-read-a-privacy-policy) pour voir à quelles données le service peut réellement accéder.
+
+- N'oubliez pas les [métadonnées](/guides/prologue/metadata/). Même si le contenu lui-même est chiffré en toute sécurité, les métadonnées peuvent être tout aussi révélatrices. Consultez la politique de confidentialité pour voir quelles données ne sont pas chiffrées. Contactez le service si vous avez des doutes.
+
+- Méfiez-vous des termes tels que « chiffrement résistant aux mandats » ou d'autres termes similaires. Cela peut indiquer un fournisseur « blindé » (bulletproof) — c'est-à-dire un fournisseur qui ignore les demandes des autorités. Bien que cela puisse sembler une bonne chose au premier abord, ces services attirent et s'adressent souvent spécifiquement aux criminels, ce qui signifie que ce n'est qu'une question de temps avant qu'ils ne soient fermés par les autorités et que vos données ne finissent dans un casier à preuves.
+
+- Sachez qu'il existe _beaucoup_ d'algorithmes de chiffrement et de hachage disponibles aujourd'hui. Beaucoup d'entre eux sont anciens et ont été abandonnés car des faiblesses ont été trouvées (comme MD5 ou DES). Bien qu'il me soit impossible de lister toutes les normes actuellement acceptables, parmi les plus courantes à rechercher figurent AES, RSA, ECC, SHA256 (ou supérieur), TLS 1.3 (ou supérieur) et Argon2. ML-KEM, ML-DSA et SLH-DSA devraient devenir plus courants dans les années à venir en tant que standards de chiffrement post-quantique.

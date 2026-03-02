@@ -1,0 +1,49 @@
+---
+layout: "@layouts/guides.astro"
+title: Open Source vs Propriétaire
+topic: Qu'est-ce que l'Open Source et pourquoi est-ce important ?
+weight: 8
+draft: false
+---
+
+# Open Source (et code source disponible) vs Propriétaire
+
+Sur ce site, je préconise les logiciels dont le code source est disponible chaque fois que possible. C'est un sujet très important qui mérite d'être expliqué : qu'est-ce que la disponibilité du code source, pourquoi j'insiste autant dessus, et quels en sont les avantages et les inconvénients ?
+
+## Qu'est-ce qu'un logiciel Open Source ?
+
+La définition exacte de l'Open Source varie selon les directives que vous suivez. C'est un sujet important, mais qui sort largement du cadre de ce site web. Si vous souhaitez en savoir plus, je vous recommande de commencer par l' [Open Source Initiative](https://opensource.org/osd/) et la [Free Software Foundation](https://www.gnu.org/philosophy/free-sw.html#four-freedoms).
+
+Pour les besoins de ce site, sachez simplement qu'en général, un logiciel Open Source est un logiciel qui respecte la transparence, la liberté de l'utilisateur et répond à quelques autres critères techniques.
+
+**Ce site web met un accent particulier sur la partie « transparence » de l'Open Source, spécifiquement la « disponibilité du code source » (source availability).** Un *logiciel à code source disponible* est un logiciel dont le code source a été publié publiquement pour que n'importe qui puisse le consulter. Cela inclut les logiciels Open Source, mais parfois, des logiciels qui ne sont pas « Open Source » par définition publient tout de même leur code source publiquement.
+
+En d'autres termes : **tous les logiciels Open Source sont à code source disponible, mais tous les logiciels à code source disponible ne sont pas Open Source.**
+
+Il existe plusieurs raisons pour lesquelles une organisation ou un développeur publie son code source. Parmi celles-ci, deux m'incitent à mettre l'accent sur ces logiciels. La raison principale est la confiance et la transparence. Avec un logiciel à code source disponible, des experts capables de lire et d'interpréter le code peuvent confirmer qu'il ne se passe rien de contraire à l'éthique en arrière-plan, comme une collecte de données inutile, ou rechercher des bogues et vulnérabilités potentiels, comme une mauvaise implémentation du [chiffrement](/guides/prologue/encryption).
+
+Une deuxième raison étroitement liée est que ces mêmes personnes peuvent soumettre des suggestions d'amélioration lorsqu'elles découvrent ces problèmes.
+
+Bien que ce ne soit pas une garantie absolue, la disponibilité du code source est l'un des nombreux outils qui nous aident à nous assurer qu'une application ou un service tient ses promesses et ne présente pas de faiblesses flagrantes.
+
+Considérez l'histoire de [LastPass](https://www.wired.com/story/lastpass-breach-vaults-password-managers/), un gestionnaire de mots de passe qui ne publiait pas son code source. Après avoir subi une fuite de données où les coffres-forts des utilisateurs (bases de données de mots de passe chiffrées) ont été compromis, il est apparu que LastPass utilisait une implémentation de hachage médiocre pour les mots de passe maîtres et ne chiffrait pas les URL des sites stockés, rendant les coffres potentiellement faciles à craquer ou aidant les cybercriminels à savoir sur quels sites vous aviez des comptes pour créer des e-mails de phishing convaincants. Encore une fois, bien que la disponibilité du code source ne garantisse pas l'absence de tels problèmes, elle aurait probablement aidé LastPass à éviter cette révélation embarrassante et dommageable.
+
+Avec les logiciels Open Source spécifiquement, une raison majeure de rendre le code disponible est de permettre aux gens de le modifier à leur guise et/ou de l'auto-héberger (self-hosting) indépendamment pour garantir la sécurité de leurs données. Je ne m'étendrai pas sur ce sujet ici. Bien que le niveau de compétence requis varie, l'auto-hébergement ou la modification de logiciels nécessite généralement des connaissances techniques approfondies. J'ai promis au début de ce site que je ne m'attendais pas à ce que vous possédiez de telles connaissances, et je le pense. Si ces sujets vous intéressent, de nombreuses ressources sont disponibles en ligne. Pour l'instant, sachez simplement que les logiciels véritablement Open Source — et pas seulement à code source disponible — permettent ce type de contrôle granulaire par n'importe qui.
+
+Même si vous ne possédez pas ces compétences, vous bénéficierez de cette liberté si vous suivez certaines des recommandations listées plus loin sur ce site. Une excellente analogie dit de considérer l'Open Source comme cuisiner chez soi et le logiciel propriétaire/fermé comme manger au restaurant : à la maison, vous voyez chaque ingrédient et avez le contrôle total sur ce que vous ajoutez, excluez, remplacez ou modifiez. Au restaurant, votre connaissance des ingrédients et votre contrôle sur ceux-ci sont limités.
+
+## Pourquoi l'Open Source est-il important ?
+
+Si je mets l'accent sur le code source disponible, pourquoi expliquer l'Open Source dans son ensemble ? Pour commencer, je dois expliquer ce qu'est le **DRM**. DRM signifie **Digital Rights Management** (Gestion des droits numériques), le terme technique pour les technologies anti-piratage ou anti-abus de droits d'auteur. Cela permet aux entreprises de s'assurer que vous utilisez une copie légitime de leur logiciel, jeu ou ebook, et que vous l'utilisez conformément aux conditions d'utilisation. D'un certain côté, il existe de bonnes raisons pour que cette technologie existe (rémunération des artistes, par exemple). Cependant, le DRM est sujet aux abus. Examinons deux cas réels de DRM qui ont mal tourné et comment l'Open Source peut profiter à tous.
+
+Deux personnes ont acheté des produits propriétaires différents : un [réfrigérateur](https://boingboing.net/2020/01/23/proprietary-carbon) et une [imprimante](https://web.archive.org/web/20200117172133/https://twitter.com/ryandonsullivan/status/1218149470220632064). Ces produits s'accompagnent d'accessoires qui génèrent des revenus supplémentaires : filtres à eau et encre. Aujourd'hui, il est souvent plus économique (et légal) de trouver une marque tierce proposant une pièce compatible moins chère. Les fabricants commencent à réagir en faisant en sorte que leurs produits refusent numériquement d'utiliser des accessoires tiers. Dans le cas du frigo, le propriétaire l'a appris en installant un filtre générique à 19 $. Le frigo a utilisé le DRM pour confirmer que le filtre n'était pas officiel et a refusé de distribuer de la glace ou de l'eau. Le filtre officiel coûte 55 $. Pour l'imprimante, c'était pire : après avoir annulé un abonnement « HP InstaInk » de 5 $/mois, l'imprimante a refusé d'imprimer quoi que ce soit, même avec de l'encre officielle HP installée.
+
+D'un côté, on peut argumenter qu'une entreprise protège son investissement, mais **cela instaure une tendance sombre où les entreprises contrôlent tous les produits de nos vies,** étouffant la concurrence. Le DRM prend les produits en otage, imposant des limites déraisonnables à ce que les consommateurs peuvent en faire et les forçant à payer des prix exorbitants pour des fonctionnalités de base d'articles qu'ils ont déjà payés.
+
+L'ère moderne regorge d'exemples d'abus de DRM. En 2022, [BMW](https://www.theverge.com/2022/7/12/23204950/bmw-subscriptions-microtransactions-heated-seats-feature) a commencé à exiger un abonnement pour utiliser les sièges chauffants installés dans ses voitures. Pearson, qui monopolise le secteur des manuels scolaires, a [augmenté les prix des ebooks](https://academicebookinvestigation.org/2021/11/25/outrage-as-pearson-increase-ebook-prices-by-500-in-one-week/) de 500 $ en une semaine. En 2009, Amazon a supprimé les copies numériques de [1984](https://www.pcworld.com/article/519855/amazon_kindle_1984_lawsuit.html) de la bibliothèque de clients payants après un litige.
+
+Nous sommes entrés dans un monde de connectivité permanente. Nos thermostats, ampoules, machines à laver et cafetières sont constamment connectés. À mesure que la connectivité imprègne chaque objet, il est important d'être conscient de la [sécurité](https://www.zdnet.com/article/iot-security-is-bad-its-time-to-take-a-different-approach/) de ces appareils, mais aussi du fait qu'ils peuvent désormais faire respecter les conditions d'utilisation — qui changent souvent sans prévenir — à tout moment. Des compagnies d'électricité ont ainsi ajusté à distance des [thermostats connectés](https://www.usatoday.com/story/tech/2021/06/19/texas-power-companies-raising-smart-thermostat-temps-why/7754658002/) pendant une canicule pour économiser de l'énergie. Votre voiture ne vous dénonce peut-être pas pour excès de vitesse aujourd'hui, mais elle en a la capacité. **À l'avenir, votre voiture pourrait ne vous autoriser à la réparer qu'avec des pièces constructeur.**
+
+**Les produits Open Source protègent contre ces situations** car ils sont conçus pour être diffusés. On ne peut pas contrôler la concurrence si le produit est disponible librement et sans restriction. Même si vous essayiez d'imposer un DRM, le code source peut être modifié pour le supprimer. Un réfrigérateur Open Source pourrait facilement être modifié pour accepter n'importe quel filtre. Cela protège les consommateurs contre les monopoles qui pratiquent des prix abusifs, collectent trop de données et imposent des restrictions déraisonnables.
+
+Malgré tous ces éloges, il est important de noter que les produits Open Source ne sont pas [systématiquement](https://blog.thenewoil.org/open-source-does-not-always-equal-safe) plus sûrs ou plus privés. Cependant, avec un code disponible librement, il y a moins de place pour les abus et plus d'opportunités pour une communauté active d'améliorer le produit.

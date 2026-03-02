@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Bien démarrer",
+        "description": "Nouveau ici ? Vous ne savez pas pourquoi la vie privée est importante, comment construire un modèle de menace (threat model), ou la différence entre sécurité et vie privée ? Commencez ici !",
+        "link": "/guides/prologue"
+    },
+    {
+        "title": "Le plus important",
+        "description": "Êtes-vous prêt à combler les failles les plus importantes de votre sécurité ? Vous cherchez les étapes les plus simples à suivre avec un impact maximum ? Lisez cette section !",
+        "link": "/guides/most-important"
+    },
+    {
+        "title": "Moyennement important",
+        "description": "Vous maîtrisez déjà les bases mais vous êtes prêt à passer à l'étape suivante pour votre vie privée et votre sécurité ? Lisez cette section !",
+        "link": "/guides/moderately-important"
+    },
+    {
+        "title": "Moins important",
+        "description": "Prêt pour des sujets plus avancés ? Prêt à commencer à travailler sur les dernières petites fuites qu'il vous reste dans votre vie numérique ? Cette section est pour vous !",
+        "link": "/guides/less-important"
+    }
+]

@@ -1,0 +1,62 @@
+---
+layout: "@layouts/default.astro"
+title: À propos
+draft: false
+---
+
+import TeamList from "@components/pages/about/TeamList.astro";
+import teamMembersList from "@assets/data/pages/fr/about/Team.json";
+
+# À propos de ce site
+
+Bien qu'il existe de nombreuses ressources formidables sur la vie privée et la sécurité, beaucoup d'entre elles s'adressent à des personnes moyennement « technophiles » qui comprennent déjà pourquoi la vie privée est importante et comment tout cela fonctionne. Ce site s'adresse aux personnes qui débutent dans le domaine de la vie privée et/ou qui ne se considèrent pas comme des « technophiles ». Ce site est conçu pour aborder les bases de diverses idées, sujets et concepts afin d'aider les lecteurs à se sentir instruits et capables de prendre les décisions qui leur conviennent, sans entrer trop dans les détails au point de se sentir submergés. Il vise également à proposer quelques recommandations pour aider le lecteur à démarrer dans chaque domaine.
+
+## Énoncé de mission
+
+- **Éduquer** les lecteurs sur l'importance de la vie privée et de la sécurité, ainsi que sur les divers outils et techniques disponibles pour les aider à reconquérir et à protéger leur propre vie privée et leur sécurité.
+- **Responsabiliser** les lecteurs en leur montrant que la vie privée et la sécurité sont accessibles à tous et en les encourageant à faire de leur mieux pour protéger leur vie privée et leur sécurité autant que possible.
+- **Améliorer** la vie des lecteurs avec des outils qui renforceront leur vie privée et leur sécurité sans avoir d'impact négatif sur leur santé mentale ou émotionnelle, ni sur leur vie professionnelle ou sociale.
+
+## Format
+
+Le site est assez verbeux. C'est intentionnel. Les lecteurs devraient considérer le site plutôt comme un ebook constamment mis à jour que comme un site web typique. L'objectif n'est pas d'être tape-à-l'œil et d'attirer l'attention (bien que j'espère évidemment le rendre visuellement attrayant et pas pénible à lire), mais plutôt de donner aux lecteurs une solide compréhension des bases de la confidentialité des données et de la cybersécurité. Par conséquent, bien que j'aie essayé d'être succinct, il y a une limite à ce que je peux supprimer sans perdre d'informations critiques.
+
+Bien que le site soit plus proche d'un ebook dans l'esprit, chaque page est conçue pour être autonome. Les lecteurs peuvent se sentir libres de sauter des pages s'ils estiment avoir déjà lu ou connaître un sujet particulier, ou s'ils veulent simplement en savoir plus sur un sujet spécifique. J'ai également essayé d'être minutieux en faisant en sorte que les termes ou mots potentiellement inconnus renvoient à d'autres pages — par exemple, si je parle de [gestionnaires de mots de passe](/guides/most-important/passwords) sur une autre page, j'essaie de créer un lien vers cette page afin que les lecteurs puissent facilement obtenir plus d'informations s'ils le souhaitent et ne manquent d'aucun contexte critique.
+
+Toute abréviation, mot ou expression qui pourrait être inconnu d'un lecteur novice est souligné et en italique. Vous pouvez survoler ces mots avec votre souris et une définition apparaîtra. <dfn title="Comme ça !">Essayez maintenant sur cette phrase.</dfn> Je travaille à porter cette fonctionnalité sur les téléphones. Si vous trouvez des mots qui, selon vous, méritent ce traitement, n'hésitez pas à [me le faire savoir](/links#source-code-suggestions--issues).
+
+## Avertissements
+
+### Le spectre de la vie privée
+
+La vie privée et la sécurité ne sont pas des concepts binaires, mais plutôt un spectre. Par exemple, on peut avoir une certaine vie privée tout en gardant un compte Facebook si l'on supprime l'application de son téléphone et que l'on se contente de consulter sans jamais aimer ou publier de contenu, mais pas autant que si l'on supprimait complètement son compte et que l'on prenait des mesures pour bloquer les traqueurs de Meta sur le web.
+
+L'objectif de ce site n'est pas d'enseigner aux lecteurs à disparaître des écrans et à vivre dans une cabane au fond des bois sans aucun risque. Au contraire, ce site vise à aider les lecteurs à en savoir plus sur la [surveillance](/guides/prologue/surveillance) et le pistage, comment cela fonctionne, comment s'en désengager et comment déterminer le bon niveau de vie privée et de sécurité pour leur propre situation unique. Tout ce qui est ici ne s'appliquera pas à tout le monde. Même faire quelques pas qui font progresser un lecteur sur l'échelle est mieux que rien. Aucun outil n'est adapté à la situation de chacun, c'est pourquoi nous proposons plusieurs recommandations et laissons les lecteurs décider de ce qui leur convient le mieux.
+
+### Sécurité
+
+Veuillez noter que chaque outil sur ce site web n'est pas 100 % privé ou sécurisé contre tous les adversaires. Par exemple, les [numéros VoIP](/guides/less-important/voip/) ne fournissent pas de [chiffrement](/guides/prologue/encryption/) de bout en bout et ne doivent pas être utilisés pour des communications sensibles. Le [modèle de menace](/guides/prologue/threat-model/) (threat model) de ce site web est d'aider les personnes ayant des modèles de menace « typiques » à échapper au capitalisme de surveillance de masse des Big Tech. Les alternatives proposées sur ce site offrent plus de vie privée que leurs homologues des Big Tech, mais rien n'est 100 % sécurisé, et tous les outils ne sont pas également sûrs. Si vous avez un modèle de menace élevé, veuillez effectuer des recherches supplémentaires pour déterminer quels outils vous conviennent le mieux et connaître leurs limites.
+
+### Portée
+
+Ce site n'est pas conçu pour être une ressource complète. Ce site est conçu pour être un guide du débutant. Nous espérons que les gens utiliseront ce site pour se mettre à niveau et passer à des sujets plus avancés à mesure qu'ils continuent de progresser.
+
+### Approbation
+
+Veuillez noter que le simple fait qu'un produit ou un service ne soit pas répertorié sur ce site ne le rend pas nécessairement mauvais. N'oubliez pas que ce site n'a pas vocation à être exhaustif. Les services et produits que nous listons sur ce site sont ceux que nous considérons comme faisant partie des meilleurs choix pour la vaste majorité des lecteurs et des cas d'utilisation. Si vous avez un besoin spécifique qu'un autre produit ou service comble — et que vous avez effectué les recherches nécessaires et vérifié le service — tant mieux. Si vous pensez que ce produit ou service mérite d'être répertorié ici, veuillez consulter nos [critères](/criteria) et n'hésitez pas à [ouvrir un ticket](/links#source-code-suggestions--issues) s'il remplit les conditions.
+
+### Bonne foi
+
+Nous avons créé ce site en toute bonne foi. Nous ne recommanderons jamais un produit ou un service en lequel nous n'avons pas confiance. Nous avons des [critères](/criteria) spécifiques afin d'avoir des exigences objectives et pas seulement des pressentiments ou des « vibes ». Tous les services répertoriés ici doivent répondre aux critères objectifs.
+
+Sur la [dernière page](/links), les lecteurs trouveront un certain nombre de ressources que nous recommandons pour les aider à continuer d'en apprendre davantage, ainsi que des moyens de contacter l'éditeur et de trouver d'autres travaux de The New Oil, tels que des blogs, des flux d'actualités et des vidéos sur lesquels nous travaillons. Nous ne prétendons pas être des experts en cybersécurité de quelque nature que ce soit, mais nous avons investi des milliers d'heures dans ces sujets sur ce site. Nous passons une grande partie de notre temps à lire des livres, des articles, des billets de blog et bien d'autres choses provenant de sources et d'experts crédibles. Nous passons beaucoup de temps à écouter des interviews et des podcasts, et à lire les discussions en cours dans les communautés dont nous faisons partie et auxquelles nous faisons confiance pour rester au courant de tout, et nous enquêtons profondément sur chaque affirmation avant de la suggérer à notre public. Nous sommes toujours prêts à reconnaître ouvertement nos erreurs et à corriger les informations lorsque nous en sommes informés, donc si vous êtes un expert et que vous voyez des erreurs, n'hésitez pas à [soumettre une correction](/links#source-code-suggestions--issues).
+
+### Intérêt financier
+
+Nathan — notre fondateur et éditeur — est un employé à plein temps de [Privacy Guides](https://www.privacyguides.org/). Nate est leur producteur de contenu numérique, principalement concentré sur la création de contenu vidéo, l'animation du podcast hebdomadaire « This Week in Privacy » en direct, et la contribution aux résumés d'actualités. Nate conserve une indépendance éditoriale totale sur The New Oil — Privacy Guides n'exerce en aucune manière de contrôle sur le contenu d'ici. À ce jour, aucun membre de Privacy Guides n'a jamais demandé de modifications à The New Oil en dehors des canaux publics normaux, ni n'a exercé d'influence inappropriée sur le contenu.
+
+En dehors de l'emploi de Nate chez Privacy Guides, nous n'avons aucun intérêt financier direct dans l'un des services, produits ou sociétés que nous avons répertoriés (tels que des participations spécifiques, des sièges au conseil d'administration ou des investissements), et nous ne recevons aucune forme de compensation financière pour nos critiques, listes, etc.
+
+## L'équipe
+
+<TeamList members={teamMembersList} />
