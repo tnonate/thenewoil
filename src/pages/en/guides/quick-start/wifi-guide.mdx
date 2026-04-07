@@ -1,16 +1,22 @@
 ---
 layout: "@layouts/guides.astro"
-title: Wifi Guide
+title: Wi-Fi Guide
 draft: false
 ---
 
 # Securing Your Home Network
 
-For many of us, our home networks have become a vital part of our home. From relaxing and watching Netflix on a weekend evening to working from home, it's our gateway to the rest of the world. But it can also be our weakest link in keeping ourselves safe and private. The internet is a large, dangerous place, and our network configurations can either protect us from all that danger or invite it in. A compromised network can be abused to steal your sensitive information, plant malware, or turn your devices into cryptominers and bots, resulting in decreased performance and possibly even legal troubles. In this guide, I seek to share some easy practices to help secure your network against dangers and keep you safe regardless of whether you're gaming, streaming, or working.
+For many of us, our home networks have become a vital part of our home. From relaxing and watching Netflix to working from home, it's our gateway to the rest of the world. But it can also be our weakest link in keeping ourselves safe and private.
+
+The internet is a large, dangerous place, and our network configurations can either protect us from all that danger or invite it in.
+
+A compromised network can be abused to steal your sensitive information, plant malware, or turn your devices into cryptominers and bots, resulting in decreased performance and possibly even [legal troubles](https://www.bbc.com/news/technology-57156799).
+
+In this guide, I seek to share some easy ways to help secure your network against dangers and keep you safe regardless of whether you're gaming, streaming, or working.
 
 ## Terminology
 
-You don't necessarily have to read every word of this section, especially if you already know this stuff, but if you find yourself confused by any of the words used in this article, feel free to check back here and reference them.
+You don't necessarily have to read every word of this section, especially if you already know these term, but if you find yourself confused by any of the words used in this article, feel free to check back here and reference them.
 
 - **Flashing:** The process of installing a new firmware on a device, such as a custom ROM onto a phone or a new operating system onto a router.
 - **Gateway:** a dual router/modem. These days, most devices are gateways.
@@ -19,47 +25,57 @@ You don't necessarily have to read every word of this section, especially if you
 - **Modem:** the device that connects your LAN to the WAN.
 - **ROM:** Read-only memory. Most "ROMs" - in this context - could be better described as firmware or an operating system. It is the system running on your device. It manages the network, the various features and functionalities, and rules such as firewalls, VLANs, and more.
 - **Router:** the device that organizes and directs traffic within your home. The router is what makes sure that the search engine you tried to access on your smartphone loads on your smartphone while the movie you just selected on your TV loads on your TV. These days most routers are actually dual router/modems called _gateways_. (Author's note: I will be using the term "router" in this article because it is the word most people are already familiar with, but unless otherwise specified I am referring to the gateway.)
-- **SSID:** Service Set Identifier. You likely know this better as your "WiFi." It's the name you give to your network so people can select the right network, such as "SmithHousehold" or "FBI Surveillance Van." (Personal note from the author: _PLEASE_ stop using this one. It's not original or clever, I see at literally every apartment complex I go to.)
+- **SSID:** Service Set Identifier. You likely know this better as your "Wi-Fi." It's the name you give to your network so people can select the right network, such as "SmithHousehold" or "FBI Surveillance Van." (Personal note from the author: _PLEASE_ stop using this one. It's not original or clever, I see at literally every apartment complex I go to.)
 - **WAN:** Wide Area Network. This is the internet, everything outside your home. This includes things like your email, streaming services, and more.
 
 ## Picking a Router
 
-Most of the time, at least in the US, subscribing to internet service often means that your ISP will provide a router for you. I strongly advise against using this router alone. In many cases, it is heavily locked down and you cannot make any meaningful changes to the settings. Even if you can, the ISP can and likely is spying on your traffic. In some cases this is to [serve you their own ads](https://www.ghacks.net/2008/04/17/is-your-isp-injecting-ads-on-websites-you-visit/), in some cases it's to detect piracy and illegal downloads, and in many cases it may be to [sell your browsing history](https://www.washingtonpost.com/news/the-switch/wp/2017/03/29/what-to-expect-now-that-internet-providers-can-collect-and-sell-your-web-browser-history/) to data brokers. Using your own router gives you signficantly more tools at your disposal to protect against these pivacy invasions.
+Most of the time (at least in the US), when you subscribe to internet service your ISP will provide a router for you. I strongly advise against using this router. In most cases, it is heavily locked down and you cannot make any meaningful changes to the settings. These locked-in default settings enable the ISP to spy on your traffic, which they're likely doing. In some cases the goal is to detect illegal downloads or suspicious network traffic, but this level of control can also be used to [serve you ads](https://www.ghacks.net/2008/04/17/is-your-isp-injecting-ads-on-websites-you-visit/) or [sell your browsing history](https://www.washingtonpost.com/news/the-switch/wp/2017/03/29/what-to-expect-now-that-internet-providers-can-collect-and-sell-your-web-browser-history/) to data brokers. Using your own router gives you signficantly more flexibility and tools to protect your privacy and security on your home network, from both ISPs and the same threats they're trying to protect you from. (And as a bonus for renters: it makes setting up the network when you move a breeze.)
 
-There are a number of open-source options for routers that will take even a small consumer router and turn it into a powerful device with enterprise-level capabilities. My personal favorite is [DD-WRT](https://dd-wrt.com/), but other popular options include [pfSense](https://www.pfsense.org/), [OpenWRT](https://openwrt.org/), and [Tomato](https://freshtomato.org/). While you can buy pre-flashed devices in some cases ([FlashRouters](https://www.flashrouters.com/) for DD-WRT and [Protectli](https://protectli.com/) for pfSense), I always encourage you to do it yourself if you're comfortable to ensure maximum security (and also to be familiar with the update process). Having said all of this, if you are unsure if an open source router is right for you (the wealth of options can be overwhelming to some), I still encourage you to get a router that wasn't provided by your ISP. Make sure it offers VLANs and VPN capabilities, as we will be using these heavily to protect your home.
+There are a number of options for routers (most of them [open source](/guides/prologue/open-source)) that will take even a small consumer router and turn it into a powerful device with enterprise-level capabilities, such as and [DD-WRT](https://dd-wrt.com/), [Fresh Tomato](https://freshtomato.org/), and [OpenWrt](https://openwrt.org/). You can buy pre-flashed devices in some cases ([FlashRouters](https://www.flashrouters.com/) for DD-WRT and [AliExpress](https://www.aliexpress.com/item/1005007795779282.html) for OpenWrt) but all of them offer the ability to do it yourself with a router of your choice. There's many tutorials online for each, and each site has a list of which routers they support.
+
+If you are unsure if an open source router is right for you for any reason, I still encourage you to get a router that wasn't provided by your ISP. Make sure it offers VLANs and VPN capabilities, as we will be using these heavily to protect your home.
 
 ## Network Best Practices
 
-Be sure to change any default passwords, especially the default password to log in to the router and the default password of your SSID (especially if you choose not to change the SSID itself). See my page on [passwords](/guides/most-important/passwords) for more information on what makes a good password and how to remember them. I recommend using a passphrase (five or more randomly chosen words) insead of a password. It will be just as strong as a password, but significantly easier to share. (_Tip_: use a QR-code generating website such as [this one](https://www.qr-code-generator.com/) to generate a QR code that your guests can simply scan with their device's camera to instantly and easily connect to the guest network.)
+It makes no real difference if you choose to hide your SSID or not. Even a relatively unskilled attacker can easily scan for and find hidden networks. I do, however, recommend that you avoid an SSID with any identifying information such as "Smith House" or "Apt23B." (For the record, this alone will not stop a dedicated stalker, but there's no need to just hand out that information to everyone.)
 
-If your router offers multiple encryption options for your WiFi, be sure to pick "WPA3" with "AES" and "TKIP" if available. WPA3 a relatively new protocol, so your router may not offer it. If not, "WPA2" should be available. Avoid WPA and WEP if offered.
+If your router offers multiple encryption options for your SSID, be sure to pick "WPA3" with "AES" and "TKIP" if available. WPA3 a relatively new protocol, so your router may not offer it. If not, "WPA2" should be available. Avoid WPA and WEP if offered.
 
-Be sure to create separate VLANs (or subnets, if your router doesn't offer VLANs) for different purposes: one for [IoT devices](/guides/less-important/iot), one for gaming consoles, one for desktop devices, etc. This will ensure that if one device gets compromised, the impact will be contained. (_Tip_: If your router does not offer VLANs/subnets, I recommend putting all your IoT devices on the guest network.)
+I recommend using a [passphrase](/guides/most-important/passwords) (five or more randomly chosen words) insead of a password for your SSIDs, simply for convenience as it will be easier to type in and share. (_Tip: use a QR-code generating website such as [this one](https://www.qr-code-generator.com/) to generate a QR code that your guests can simply scan with their device's camera to instantly and easily connect to the guest network._)
 
-For your SSID, it makes no real difference if you choose to hide it or not. Even a relatively unskilled attacker can easily scan for and find hidden networks. I do, however, recommend that you avoid an SSID with any identifying information such as "Smith House" or "Apt23B." (For the record, this alone will not stop a dedicated stalker, but there's no need to just hand out that information to everyone unsolicited.)
+Be sure to create separate isolated networks for different purposes. In some routers you can simply check a box when creating a new Wi-Fi network to isolate it from the other networks, but in some more advanced routers (or for the physical ports) you may need to configure VLANs to accomplish this. There should be lots of tutorials or documentation online about how to do this. Just look up your router or firmware and "VLAN."
 
-### Guest WiFi
+At bare minmum, I recommend one network/VLAN for [IoT devices](/guides/less-important/iot), one for guests, and one for all your main "trusted" devices like computers and phones. This setup ensures that if one IoT device gets compromised, the impact will be contained. Likewise, it limits the potential privacy invasion of leaky IoT or guest devices with sketchy behavior, such as [TVs that scan for other devices on the network](https://www.theverge.com/2019/10/11/20908128/smart-tv-surveillence-data-collection-home-roku-amazon-fire-princeton-study). If your router only offers two Wi-Fi networks (usually a main one and a guest one), I recommend putting all your IoT devices on the guest network.
 
-Be sure to set up a guest WiFi network and ask any guests to use that network instead of your normal one. You don't know what they do with their devices or how secure they may or may not be. Most routers offer a one-click "Guest WiFi" setting that can be enabled with easily set up an isolated network your guests can use for this purpose.
+For an additional advanced level of privacy, you can end your SSID with `_nomap` (ex: `NSASurveillanceVan_nomap`) to ensure that Apple, Google, and Mozilla won't add your SSID to their [databases](https://krebsonsecurity.com/2024/05/why-your-wi-fi-router-doubles-as-an-apple-airtag/comment-page-1/) of networks that includes physical location. Realistically this probably isn't a threat most people need to worry about, but the solution is free, quick, and simple.
 
-Be sure to give the guest WiFi network a separate password from your regular home WiFi network to ensure nobody accidentally ends up on the wrong network.
+### Guest Wi-Fi
 
-Some routers allow you to set VPNs or other security features on the guest WiFi. This may not be a bad idea, but guests may suddenly find themselves raising additional security flags with the various apps and services they use due to suddenly using a VPN when they never have before. This could result in being signed out, having their accounts locked (and needing to re-verify before having them unlocked), or getting additional CAPTCHAs when using the internet. Be mindful of this before adding a VPN to the guest network.
+Be sure to set up a guest Wi-Fi network and ask any guests to use that network instead of your normal one. It's unlikely that most of your guests have "hardened" their devices for maximum privacy and security, so putting them on a separate network will protect your privacy from any invasive or suspicious behavior from their devices. Most routers offer a one-click "Guest Wi-Fi" setting that can be easily enable and configured to set up an isolated network for this exact purpose.
 
-If your router doesn't offer VLANs or subnets (or you're not comfortable setting them up yourself), the guest WiFi could also double as an IoT network to put all your IoT and less secured devices on. This is especially practical if you don't have guests over very often and the risk of sharing devices on a relatively risky network like that is minimal.
+If your router doesn't offer a Guest Wi-Fi setting and you can't or don't want to upgrade routers for any reason, you could buy a cheap router, plug it in to your main router, and use that as for guest or IoT networks.
 
-As a last resort, you could also buy a cheap router and plug it in to your main router and use that as a guest or IoT router. This is a user-friendly but more costly way to accomlish the same task.
+Be sure to give the guest Wi-Fi network a separate password from your regular home Wi-Fi network to ensure nobody accidentally ends up on the wrong network.
 
-## Behind-the-Scenes Best Practices
+Some routers allow you to set VPNs or other security features on the guest Wi-Fi. This may not be a bad idea, but guests may be annoyed by unexpected inconveniences such as being suddenly signed out of accounts or having their accounts locked (and needing to re-verify before having them unlocked), or getting additional CAPTCHAs when using the internet. Be mindful of this before adding a VPN to the guest network.
+
+## Configuration Best Practices
+
+Be sure to change the default [password](/guides/most-important/passwords) to access the router's admin panel where you can change the settings.
 
 Be sure to always keep your device updated with the most recent updates to patch any security issues. If the device offers auto-updates, enable it. If it does not, set a reminder to check at least once a month.
 
-I recommend putting a [VPN](/guides/less-important/vpns) on your router. This will offer a small amount of protection to every device in your home, including those that can't natively load a VPN (such as IoT devices) and also serves a loophole to circumvent the "number of devices" limitations imposed by your VPN provider as the router only counts as a single device (for example: a tablet, two phones, a desktop, a laptop, a TV, an Alexa, and a doorbell all going through the router's VPN still only counts as a single connection to the VPN provider).
+I recommend putting a [VPN](/guides/less-important/vpns) on your router. This will offer a small amount of protection to every device in your home, including those that can't natively load a VPN (such as IoT devices) and also serves a loophole to circumvent the "number of devices" limitations imposed by your VPN provider as the router only counts as a single device (for example: a tablet, two phones, a desktop, a laptop, a TV, an Alexa, and a doorbell all going through the router's VPN still only counts as a single connection to the VPN provider). Most routers allow you to selectively apply the VPN to specified networks - such as the IoT network. This is useful as there may be times where you'd prefer not to have a VPN or to manage the VPN locally on your device intead.
 
 If you are not using a VPN on your router - or if the VPN setup instructions did not specify a <dfn title="Domain Name Server, the phonebook or map of the internet your browser or app uses to find other websites or links">DNS resolver</dfn> to use - I suggest adding an encrypted resolver of your choice. [Privacy Guides](https://www.privacyguides.org/en/dns/) offers an excellent list of choices.
 
-Be sure to enable any <dfn title="A network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.">firewalls</dfn> if they are not enabled and to disable Universal Plug-and-Play (sometimes abbreviated "UPnP") as this setting is frequently abused by malicious actors to plant malware and compromise your network.
+Be sure to enable any <dfn title="A network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.">firewalls</dfn> if they are not enabled.
 
-Disable WPS (WiFi Protected Setup) if it's available. This is the feature where you push a button on the router and it adds new devices automatically. This feature may be tempting and easy to use, but it's also extremely easy to abuse. Disabling it will dramatically secure your network.
+Disable Universal Plug-and-Play (sometimes abbreviated "UPnP") as this setting is frequently abused by malicious actors to plant malware and compromise your network.
+
+Disable WPS (Wi-Fi Protected Setup) if it's available. This is the feature where you push a button on the router and it adds new devices automatically. This feature may be tempting and easy to use, but it's also extremely easy to abuse. Disabling it will dramatically secure your network.
 
 Disable the option for remote access, if such an option exists and is enabled.
+
+Yoou can consider using MAC Address Filtering if your router offers it. This is a setting that only allows devices to connect to your network if they're pre-approved based on their MAC addresses. However, this could be complicated to set up and potentially require guests to give you their MAC address (which may be hard to find) before being able to join the network. Only use this feature if you require a high level of security or have problems with unauthorized devices connecting somehow.

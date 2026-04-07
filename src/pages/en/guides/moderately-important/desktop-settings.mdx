@@ -6,6 +6,8 @@ weight: 2
 draft: false
 ---
 
+import Highlighting from "@components/common/Highlighting.astro";
+
 # Recommended Settings for Desktop/Laptop Devices
 
 ### Table of Contents
@@ -14,21 +16,31 @@ draft: false
   - [Recommended Distros](#recommended-distros)
   - [Installing Linux, Pre-Installed Devices, & Dual-Booting](#installing-linux-pre-installed-devices--dual-booting)
 - [Mac vs Windows](#mac-vs-windows)
-- [Mac OS 13: Ventura Recommended Settings](#mac-os-13-ventura-recommended-settings)
+- [macOS Tahoe 26 Recommended Settings](#macos-tahoe-26-recommended-settings)
 - [Windows 11 Recommended Settings](#windows-11-recommended-settings)
 - [Best Practices](#best-practices)
 
 ## Linux
 
-Just like cell phones, <dfn title="Desktop and laptop computers - compared to 'mobile' devices like phones or tablets">desktop</dfn> operating systems like Windows and Mac track their users to an excessive degree. Windows is by far the worst offender and getting worse with things like [excessive analytics](https://www.extremetech.com/computing/342941-windows-11-collects-an-awful-lot-of-telemetry-about-your-pc), [invasive AI](https://www.bleepingcomputer.com/news/microsoft/microsofts-new-windows-11-recall-is-a-privacy-nightmare/), and Microsoft aggressively enforcing [online accounts](https://www.tomshardware.com/software/windows/microsoft-clamping-down-on-windows-11-local-account-setup-latest-insider-build-removes-local-only-commands-skipping-microsoft-account-sign-in-will-crash-setup-process) that enable further data collection. However, Apple users should be aware that Mac is not 100% private either, as they also enforce an online account and collect analytics (though far less than Windows does). **In a perfect world, the best option for a desktop operating system is [Linux](https://io9.gizmodo.com/getting-started-with-linux-the-complete-guide-5778882).** Linux is an open-source operating system with dozens of variants (called "distros," short for "distributions"), each offering their own unique set of features and target audience. Most linux distros are considerably more private compared to Windows and Mac, though some place additional emphasis on privacy or security. The most private and secure distro I'm aware of by far is [Qubes](https://www.qubes-os.org/), however Qubes has an immense learning curve, especially if you've never used Linux before. Quite frankly, for most people, Qubes will be more headache than it's worth: most users will have to make significant sacrifices and the privacy and security gained in return are more than they really need. Most users will be absolutely fine with one of my other recommendations listed here and will encounter a much more pleasant user experience and smoother transition, with nearly all the same apps, programs, games, and features they're used to being available or easy to replicate. That said, for those desiring maximum privacy and security, Qubes is hard to beat.
+Just like cell phones, <dfn title="Desktop and laptop computers - compared to 'mobile' devices like phones or tablets">desktop</dfn> operating systems like Windows and Mac track their users to an excessive degree. Windows is by far the worst offender and getting worse with things like [excessive analytics](https://www.extremetech.com/computing/342941-windows-11-collects-an-awful-lot-of-telemetry-about-your-pc), [invasive AI](https://www.bleepingcomputer.com/news/microsoft/microsofts-new-windows-11-recall-is-a-privacy-nightmare/), and Microsoft aggressively enforcing [online accounts](https://www.tomshardware.com/software/windows/microsoft-clamping-down-on-windows-11-local-account-setup-latest-insider-build-removes-local-only-commands-skipping-microsoft-account-sign-in-will-crash-setup-process) that enable further data collection. However, Apple users should be aware that Mac is not 100% private either, as they also enforce an online account and collect analytics (though far less than Windows does).
+
+**In a perfect world, the best option for a desktop operating system is [Linux](https://io9.gizmodo.com/getting-started-with-linux-the-complete-guide-5778882).** Linux is an open-source operating system with dozens of variants (called "distros," short for "distributions"), each offering their own unique set of features and target audience. Most linux distros are considerably more private compared to Windows and Mac, though some place additional emphasis on privacy or security.
+
+The most private and secure distro I'm aware of by far is [Qubes](https://www.qubes-os.org/), however Qubes has an immense learning curve, especially if you've never used Linux before. Quite frankly, for most people, Qubes will be more headache than it's worth: most users will have to make significant sacrifices and the privacy and security gained in return are more than they really need. Most users will be absolutely fine with one of my other recommendations listed here and will encounter a much more pleasant user experience and smoother transition, with nearly all the same apps, programs, games, and features they're used to being available or easy to replicate. That said, for those desiring maximum privacy and security, Qubes is hard to beat.
 
 ### Recommended Distros
 
-For most readers, my recommended distro depends on your plans. If you want something that "just works" out of the box and you have no desire to really master the <dfn title="aka 'terminal,' a text-based program that allows users to inject more technical commands to execute more advanced functions on the device">command line</dfn>, become a Linux expert, or advance on to further Linux-based subjects (such as self-hosting), then I strongly recommend [Fedora Silverblue](https://silverblue.fedoraproject.org/). Silverblue is an official variant of Fedora that offers an "<dfn title="an operation that executes as a single, indivisible unit of work without interruption from any other process during its execution phase. This ensures that no other process can read through or modify the data being used by the atomic operation while it is executing. This ensures better data integrity, preventing corruption during upgrades or installation">atomic</dfn>" operating system, making it quite resilient (though not impervious) against malware and other unwanted changes. Users can find most common programs as a [Flatpak](https://flathub.org/home) or [Snap](https://snapcraft.io/) package, which are basically self-contained, sandboxed "apps" that improve security without sacrificing stability or usability. (This is an oversimplification, but should give you a general idea of the advantages of Silverblue.)
+For most readers, my recommended distro depends on your plans. If you want something that "just works" out of the box and you have no desire to really master the <dfn title="aka 'terminal,' a text-based program that allows users to inject more technical commands to execute more advanced functions on the device">command line</dfn>, become a Linux expert, or advance on to further Linux-based subjects (such as self-hosting), then I strongly recommend [Fedora Silverblue](https://silverblue.fedoraproject.org/). Silverblue is an official variant of Fedora that offers an "<dfn title="an operation that executes as a single, indivisible unit of work without interruption from any other process during its execution phase. This ensures that no other process can read through or modify the data being used by the atomic operation while it is executing. This ensures better data integrity, preventing corruption during upgrades or installation">atomic</dfn>" operating system, making it quite resilient (though not impervious) against malware and other unwanted changes. Users can find most common programs as a [Flatpak](https://flathub.org/home) or [Snap](https://snapcraft.io/) package, which similar to apps. (This is an oversimplification, but should give you a general idea of the advantages of Silverblue.)
 
 For those who wish to someday become Linux experts or move on to things like self-hosting (or who are unwilling to install Linux manually for any number of reasons, which I will discuss in the next section), I recommend starting with [Pop! OS](https://pop.system76.com/). It is based on Ubuntu, so you'll find the most abundant and easy-to-understand support from a plethora of online resources, and it has a very user-friendly interface that most users will easily adjust to while learning more advanced skills like the terminal. Pop! might also be better for gamers or content creators, though be sure to check program compatibility first.
 
-Whatever distro you choose, please note that while Linux is usually significantly better for privacy, it is not necessarily a huge improvement in security and in some cases can actually be [worse](https://madaidans-insecurities.github.io/linux.html). However, as with [web browsers](/guides/most-important/browser), I believe that this tradeoff is insignificant for most users, provided that you use good [online habits](/guides/less-important/misc) and are reasonably cautious. For those who wish to learn more about Linux, I highly recommend [The Linux Experiment](https://www.youtube.com/@thelinuxexp). Nick produces excellent, high-quality content about various distros and all the other topics surrounding Linux that will likely answer every question you can imagine and teach you all you want to know about what Linux is capable of, has to offer, and which distro you should consider. You can also test out a number of popular distros right in your browser without installing anything using [DistroSea](https://distrosea.com/).
+Whatever distro you choose, please note that while Linux is usually significantly better for privacy, it is not necessarily a huge improvement in security and in some cases can actually be [worse](https://madaidans-insecurities.github.io/linux.html). However, as with [web browsers](/guides/most-important/browser), I believe that this tradeoff is insignificant for most users, provided that you use good [online habits](/guides/less-important/misc) and are reasonably cautious.
+
+<Highlighting>
+For those who wish to learn more about Linux, I highly recommend [The Linux Experiment](https://www.youtube.com/@thelinuxexp). Nick produces excellent, high-quality content about various distros and all the other topics surrounding Linux that will likely answer every question you can imagine and teach you all you want to know about what Linux is capable of, has to offer, and which distro you should consider.
+</Highlighting>
+
+You can also test out a number of popular distros right in your browser without installing anything using [DistroSea](https://distrosea.com/).
 
 ### Installing Linux, Pre-Installed Devices, & Dual-Booting
 
@@ -40,51 +52,69 @@ Installing Linux is very easy (there are tons of guides online, including from [
 
 For those who wish to maintain access to a mainstream device for any reason (whether via [dual-booting](/guides/moderately-important/desktop-settings#installing-linux-pre-installed-devices--dual-booting) or a typical single-boot setup), you very likely have already decided which you'd prefer and why. For those who are on the fence, allow me to weigh in. Thankfully this is a very black-and-white area that can be summed up in a few easy bullet points:
 
-- **Macs have better privacy and security than [Windows](https://web.archive.org/web/20220313023015/https://www.privacyguides.org/operating-systems/#win10)** (though it does still collect some telemetry, which can be reduced through the recommendations on this page).
-- **Windows is abysmal for privacy**,though much of the telemetry can be reduced through the settings recommended on this page.
-- **I would only recommend Windows if you are an avid gamer or wish to easily dual boot Linux** as these are both better supported on Windows devices than Macs.
-- **I no longer recommend Windows 10** as it will stop getting security updates in October 2025 (unless you pay, and even then it's only for one year). Between the significant security upgrades in Windows 11, the ability to reduce much of the privacy and bloat concerns via the tools on this page, and the imminent death of security updates, I believe it makes more sense to simply use Windows 11 rather than prolong the inevitable.
+- **Macs have better privacy and security than [Windows](https://www.privacyguides.org/en/os/windows/#privacy-notes)** (though it does still collect some telemetry, which can be reduced through the recommendations on this page).
+- **It is far easier to dualboot Linux with Windows** since Linux support on Apple devices is extremely limited.
+- **Windows is better for gaming than Mac, but Linux is quickly catching up.** Gaming on Linux has [progressed substantially](https://www.xda-developers.com/linux-runs-most-pc-games-now-and-you-dont-need-steamos-to-do-it/) in recent years and you may find most or all of your favorite games run with few or no issues on Linux. You can use resources like [ProtonDB](https://www.protondb.com/), [The Linux Experiment](https://www.youtube.com/@TheLinuxEXP/search?query=gaming), and [GamingOnLinux](https://www.gamingonlinux.com/) for more information about what games work and the current state of gaming on Linux.
 
-For those who must use Mac or Windows, even with dual booting or as a separate device, I have listed a set of recommend settings for both operating systems that I encourage you to change (if you can) to make your device a little more private and secure. You can see my criteria for this page and why I recommended these settings [here](/criteria#desktop-settings--apps).
+For those who must use Mac or Windows - dual booted or otherwise - I have listed a set of recommend settings for both operating systems that I encourage you to change (if you can) to make your device a little more private and secure. You can see my criteria for this page and why I recommended these settings [here](/criteria#desktop-settings--apps).
 
-## Mac OS 13: Ventura Recommended Settings
+## macOS Tahoe 26 Recommended Settings
+**_NOTE:_** _Different Mac devices may have additional or slightly different options. These settings are based on the 2025 Macbook Air._
 
-- If you are setting up a new device from scratch, please note that you should be able to continue through setup without entering an Apple ID. You can get all of the programs I recommend without using the App Store, and major system updates will still be applied even without signing in. Note, however, that your apps will not auto-update in this situation (the system will if you apply the appropriate setting below).
+<Highlighting>
+**During setup:**
+- If you are setting up a new device from scratch, you should be able to continue through setup without entering an Apple ID. You can get all of the programs I recommend without using the App Store, and major system updates will still be applied even without signing in. However, your apps will not auto-update in this situation.
+</Highlighting>
+- Wi-Fi > Details (next to your current network) > Private Wi-Fi address: Rotating
 - Wi-Fi > Details (next to your current network) > Limit IP address tracking: enable
 - Wi-Fi > Details (next to your current network) > DNS: Set a privacy-respecting <dfn title="Domain Name Server, the phonebook or map of the internet your browser or app uses to find other websites or links">DNS</dfn> (ignore this if you plan to use a [VPN](/guides/less-important/vpns))
+- Wi-Fi > Advanced (at the bottom) > Remove old "known networks" you no longer use regularly
 - Bluetooth: Turn off whenever not in use
 - Network > Firewall > Firewall: Enable
-- Notifications > Allow notifications when the display is sleeping: Off
-- Notifications > Allow notifications when the screen is locked: Off
-- Notifications > Allow notifications when mirroring or sharing: Off
-- General > Software Update: Enable all
-- General > AirDrop & Handoff: Disable all
+- General > Automatic Updates: Enable all (click the "i")
+- General > AirDrop: No One (Only enable as-needed)
+- General > AirPlay > AirPlay Receiver: Disabled
+- General > AirPlay > Allow Airplay for: Current User
+- General > AirPlay > Require Password: Enabled
+- General > AutoFill & Passwords: Select one of our recommended [password managers](/guides/most-important/passwords)
 - General > Sharing: Disable all
-- Time Machine: [Back Up](/guides/less-important/backups) Automatically
-- General > Time Machine: Select Backup Disk
-- General > Time Machine > Options: Back up frequency: Set to your desired frequency
-- Siri & Spotlight: Disable all
+- General > Time Machine: See [this page](/guides/less-important/backups) for more information about how to keep good backups
+- Apple Intelligence & Siri > Apple Intelligence: Apple claims to have implemented this in a way that's privacy respecting but be sure to disable the ChatGPT extension. Using ChatGPT will forward some of your data to OpenAI and is not covered by Apple's privacy guarantees. (If you need a standalone LLM, I encourage you to consider one from [this list](/guides/less-important/misc#ai) instead.)
+- Apple Intelligence & Siri > Siri: disable
+- Apple Intelligence & Siri > Siri > Delete Sirir & Dictation History
+- Spotlight > Show Related Content: disable
+- Spotlight > Results from Clipboard: disable
+- Notificatoins > Show previews: "When Unlocked" or "Never"
+- Notifications > Show Notifications > when the display is sleeping: Off
+- Notifications > Show Notifications > when the screen is locked: Off
+- Notifications > Show Notifications > when mirroring or sharing the display: Notifications Off
+- Lock Screen > Set "Turn display off when inactive" to shortest duration you're comfortable with
+- Lock Screen > Require password after screen saver begins or display is turned off: Immediately
 - Privacy & Security > Location Services: Disable anything you don't need
 - Privacy & Security: Examine all other apps to ensure they only have the necessary permissions
 - Privacy & Security > Analytics & Improvements: Disable all
 - Privacy & Security > Apple Advertising > Personalized Ads: Disable
 - Privacy & Securityy > Security > Allow apps downloaded from: App Store and identified developers
-- Privacy & Security > Allow accessories to connect: Ask for new
 - Privacy & Security > FileVault: Turn On FileVault (or use [Veracrypt](/guides/moderately-important/devices))
+- Privacy & Security > Allow accessories to connect: Ask for new
 - Privacy & Security > Lockdown Mode: On (This will [disable](https://support.apple.com/en-us/HT212650) a significant number of features, however if you are able to live without them, it will help protect other users who need this feature from being [easily identified](https://www.techspot.com/news/95767-apple-upcoming-lockdown-mode-make-devices-easier-fingerprint.html).)
-- Desktop & Dock > Default web browser: [Brave/Firefox](/guides/most-important/browser)
-- Lock Screen > Require password after screen saver begins or display is turned off: Immediately
-- Touch ID & Password: Use of a fingerprint is personal preference, so long as a strong password or passphrase is also in use.
-- Internet Accounts > iCloud: I strongly discourage the use of iCloud as I believe most of its benefits can be replicated in a more privacy-respecting way using other services listed on this site. However, if you wish to use iCloud, enable [Advanced Data Protection](#).
-- Wallet & Apple Pay: I do not recommend the use of these services
+- Privacy & Security > Background Security Improvements > Automatically Install: Enabled
+- Privacy & Security > Advanced > Require an administrator password to access systyem-wide settings: Enabled
+- Privacy & Security > Advanced > Log out automatically after inactivity: Enabled
+- Touch ID & Password: A fingerprint is acceptable if your device allows it. Face ID should be avoided.
+- iCloud: I strongly discourage the use of iCloud as I believe most of its benefits can be replicated in a more privacy-respecting way using other services listed on this site. However, if you wish to use iCloud, enable [Advanced Data Protection](/guides/less-important/backups/#iclouds-advanced-data-protection-program).
+- Wallet & Apple Pay: See [here](/guides/moderately-important/payments/)
 - Keyboard > Dictation: Off
 - Advanced users who want more granular control and feel comfortable making extreme changes may want to look into [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) or [LuLu](https://objective-see.com/products/lulu.html). These are firewalls to help further control the traffic leaving your device and reduce data collection by Apple and others. Another helpful tool to control telemetry is [Privacy.sexy](https://privacy.sexy/).
 
 ## Windows 11 Recommended Settings
 
-- If you are installing Windows 11 from scratch, please note that the Home version will offer you the least amount of control regarding settings and disabling telemetry and analytics. If possible, you should try to get Pro, Education, or Enterprise editions. However, these frequently cost more than the Home version (which is usually included free when purchasing the device), sometimes several hundred dollars for a single license. As such, this guide is written for the Home version.
-- If you are installing Windows 11 from scratch, please note that you can install it without a Microsoft account. I found [this](https://www.tomshardware.com/how-to/install-windows-11-without-microsoft-account) method effective in my most recent install experience. You will receive a warning that you'll miss out on features, but these features are not relevant to security and avoiding an online account will improve your privacy.
-- Finally, if you are installing Windows 11 from scratch, you should select "English (World)" as a language during the setup if possible. I've seen several sources claim that this will dramatically reduce (if not entirely eliminate) the number of preinstalled third-party apps and software (aka "bloatware") such as Candy Crush and Spotify. I have not tested this myself yet, but I see no reason not to at least try it.
+<Highlighting>
+**Before installing:**
+- If you are installing Windows 11 from scratch, be aware that the Home version will offer you the least amount of control regarding settings and disabling telemetry and analytics. If possible, you should try to get Pro, Education, or Enterprise editions. However, these frequently cost more than the Home version (which is usually included free when purchasing the device), sometimes several hundred dollars for a single license. As such, this guide is written for the Home version.
+- If you are installing Windows 11 from scratch, you can (and should) install it without a Microsoft account. I found [this](https://www.tomshardware.com/how-to/install-windows-11-without-microsoft-account) method effective in my most recent install experience. You will receive a warning that you'll miss out on features, but these features are not relevant to security and avoiding an online account will improve your privacy.
+- Finally, if you are installing Windows 11 from scratch, you should select "English (World)" as a language during the setup if possible. Several sources claim that this will dramatically reduce (if not entirely eliminate) the number of preinstalled third-party apps and software (aka "bloatware") such as Candy Crush and Spotify. I have not tested this myself yet, but there's no harm in trying.
+</Highlighting>
 - System > Notifications: Off
 - System > Storage > Storage Sense: On
 - System > Nearby sharing: Off
@@ -130,16 +160,14 @@ By enabling all of these settings, you are significantly reducing the amount of 
 
 ## Best Practices
 
-By default, both Mac and Windows will create an administrator account when you sign up. After signing up, **create a second non-admin account and use that as your main account.** This makes it harder for programs to be installed without your knowledge and reduces the risk of <dfn title="malicious software; aka viruses">malware</dfn> getting installed.
+- By default, both Mac and Windows will create an administrator account when you sign up. After signing up, **create a second non-admin account and use that as your main account.** This makes it harder for programs to be installed without your knowledge and reduces the risk of <dfn title="malicious software; aka viruses">malware</dfn> getting installed.
 
-**Third-party antivirus software has become unnecessary** in most cases. Using a good [ad blocker](/guides/most-important/browser) and good [online habits](/guides/less-important/misc) is generally enough to keep common malware off your device. Both Windows and Mac both come with built-in malware protection that I encourage you to make use of. On Windows it's called [Defender](https://www.microsoft.com/en-us/windows/comprehensive-security). Macs come with [XProtect](https://www.howtogeek.com/217043/xprotect-explained-how-your-macs-built-in-anti-malware-works/). Linux does not ship with any stock antivirus programs, but [Clam AV](https://www.clamav.net/) is the most commonly recommended.
+- **Third-party antivirus software has become unnecessary** in most cases. Using a good [ad blocker](/guides/most-important/browser) and good [online habits](/guides/less-important/misc) is generally enough to keep common malware off your device. Both Windows and Mac both come with built-in malware protection that I encourage you to make use of. On Windows it's called [Defender](https://www.microsoft.com/en-us/windows/comprehensive-security). Macs come with [XProtect](https://www.howtogeek.com/217043/xprotect-explained-how-your-macs-built-in-anti-malware-works/). Linux does not ship with any stock antivirus programs, but [Clam AV](https://www.clamav.net/) is the most commonly recommended.
 
-Even with all the third-party software, tweaks, and changes we've made to the operating system and the browser, sometimes tracking and other unnecessary files still get through. **Cleaning out unnecessary, temporary files will not only protect your privacy and security, but improve your computer's performance.** I recommend using [BleachBit](https://www.bleachbit.org/) for this. This is a powerful program that securely deletes your unused files, removes errors from the registry, and fixes broken shortcuts among other things. BleachBit cannot be scheduled, and thus you must run it manually. I recommend at least once per week.
+- Even with all the third-party software, tweaks, and changes we've made to the operating system and the browser, sometimes tracking and other unnecessary files still get through. **Cleaning out unnecessary, temporary files will not only protect your privacy and security, but improve your computer's performance.** I recommend using [BleachBit](https://www.bleachbit.org/) for this. This is a powerful program that securely deletes your unused files, removes errors from the registry, and fixes broken shortcuts among other things. BleachBit cannot be scheduled, and thus you must run it manually. I recommend at least once per week.
 
-Just as with [phones](/guides/moderately-important/mobile-habits), **I encourage you to have as few apps, programs, and files as possible on your computer.** Sometimes this is either impossible or just not a reasonable request but, for example, you can use your browser instead of an app to access services like Netflix or Discord. This will contain the software much more effectively and reduce the amount of tracking and privacy invasions they can perform (especially if coupled with using a good, privacy-focused [browser](/guides/most-important/browser)). I also encourage you to regularly look for and get rid of files you no longer want or need, such as photos of exes or documents you downloaded once so you could print them off. This could potentially be dangerous if your device falls into the wrong hands.
+- Just as with [phones](/guides/moderately-important/mobile-habits), **I encourage you to have as few apps, programs, and files as possible on your computer.** Sometimes this is either impossible or just not a reasonable request but, for example, you can use your browser instead of an app to access services like Netflix or Discord. This will contain the software much more effectively and reduce the amount of tracking and privacy invasions they can perform (especially if coupled with using a good, privacy-focused [browser](/guides/most-important/browser)). I also encourage you to regularly look for and get rid of files you no longer want or need, such as photos of exes or documents you downloaded once so you could print them off. This could potentially be dangerous if your device falls into the wrong hands.
 
-Keep in mind that forensic software can still often recover "deleted" items so if you have anything you want gone for good, be sure to perform a disk wipe, which is offered by Bleachbit. **Don't do disk wipes on [Solid State Drives](https://www.wikihow.com/Check-if-a-Hard-Drive-Is-SSD-or-HDD-on-Windows) as this will shorten their lifespans.** Instead, [full disk encryption](/guides/moderately-important/devices/) is your best defense (this means you'll have to actually power down your device instead of simply closing the lid or turning off the monitor when you're done using it).
+- Keep in mind that forensic software can still often recover "deleted" items so if you have anything you want gone for good, be sure to perform a disk wipe, which is offered by Bleachbit. **Don't do disk wipes on [Solid State Drives](https://www.wikihow.com/Check-if-a-Hard-Drive-Is-SSD-or-HDD-on-Windows) as this will shorten their lifespans.** Instead, [full disk encryption](/guides/moderately-important/devices/) is your best defense (this means you'll have to actually power down your device instead of simply closing the lid or turning off the monitor when you're done using it).
 
-Modern devices often come with automatic updates enabled by default. I strongly encourage you not to disable these, and to apply updates as soon as you can. These updates nearly always include important security fixes.
-
-Although I have recommended some third-party scripts and tools for Windows to help improve the privacy and remove preinstalled programs (like W10 Privacy, O&O Shut Up 10++, and others), there are other similar offerings. Whatever you use, be sure to vet it carefully and make sure it is trusworthy. Many modification scripts and third-party variations of Windows can include security vulnerabilities you may not be aware of, such as [AtlasOS](https://www.vice.com/en/article/m7bv4b/windows-for-gamers-rolls-dice-with-your-security-atlasos), which claims to improve Windows performance for gamers but does so at the cost of numerous security features.
+- Although I have recommended some third-party scripts and tools for Windows to help improve the privacy and remove preinstalled programs (like W10 Privacy, O&O Shut Up 10++, and others), there are other similar offerings. Whatever you use, be sure to vet it carefully and make sure it is trusworthy. Many modification scripts and third-party variations of Windows can include security vulnerabilities you may not be aware of, such as [AtlasOS](https://www.vice.com/en/article/m7bv4b/windows-for-gamers-rolls-dice-with-your-security-atlasos), which claims to improve Windows performance for gamers but does so at the cost of numerous security features.
