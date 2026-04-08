@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Nathan Bartram",
+        "title": "Fondateur/Éditeur",
+        "links": [
+            {
+                "name": "Site Web",
+                "link": "/fr/nate",
+                "icon": "/images/logos/website.png"
+            }
+        ]
+    },
+    {
+        "name": "Rik Den Breejen",
+        "title": "Développeur Web",
+        "links": [
+            {
+                "name": "Site Web",
+                "link": "https://www.rikdenbreejen.nl/",
+                "icon": "/images/logos/website.png"
+            }
+        ]
+    },
+    {
+        "name": "daryl76679",
+        "title": "Modérateur",
+        "links": [
+            {
+                "name": "PeerTube",
+                "link": "https://apertatube.net/a/daryl76679/video-channels",
+                "icon": "/images/logos/peertube.png",
+                "icon_dark": "/images/logos/peertube.png"
+            }
+        ]
+    },
+    {
+        "name": "Hestia Hacker",
+        "title": "Monteuse Vidéo (TikTok)",
+        "links": [
+            {
+                "name": "Site Web",
+                "link": "https://www.tindie.com/stores/eternalsunshine/",
+                "icon": "/images/logos/website.png"
+            }
+        ]
+    }
+]

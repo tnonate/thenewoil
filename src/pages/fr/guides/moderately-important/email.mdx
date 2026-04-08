@@ -1,0 +1,46 @@
+---
+layout: "@layouts/guides.astro"
+title: "Vie privée/Sécurité : E-mail chiffré"
+topic: E-mail chiffré
+weight: 3
+draft: false
+---
+
+import ProsAndCons from "@components/charts/ProsAndCons.astro";
+import data from "@assets/data/pages/fr/guides/moderately-important/Email.json";
+
+# E-mail chiffré
+
+## Qu'est-ce que l'e-mail chiffré ?
+
+**L'e-mail chiffré de bout en bout (aussi appelé « zéro connaissance » ou « accès nul ») est une communication où les messages sont chiffrés de sorte que seules les personnes impliquées puissent les lire. De plus, vos e-mails sont stockés de manière à ce que votre fournisseur ne puisse pas y accéder.** Voir [Comprendre le chiffrement](/fr/guides/prologue/encryption) pour plus d'infos.
+
+## Pourquoi ai-je besoin d'un e-mail chiffré ?
+
+Les fournisseurs classiques comme Google ou Yahoo [lisent](https://www.maketecheasier.com/which-email-providers-scanning-emails/) régulièrement vos e-mails pour la publicité ou pour entraîner leurs IA. Le fait que vos messages soient lisibles par des employés signifie que vos informations sensibles ne sont [pas en sécurité](https://thehackernews.com/2019/10/yahoo-email-hacking). Dans votre boîte se trouvent souvent des relevés bancaires ou médicaux. Un fournisseur « zero-knowledge » ajoute une couche de protection contre les fuites de données et les employés malveillants.
+
+## Que dois-je rechercher chez un fournisseur ?
+
+Vérifiez comment l'entreprise gagne de l'argent. Gérer un serveur mail coûte cher. « Si c'est gratuit, vous êtes le produit. » Assurez-vous que l'entreprise a un modèle économique viable, sinon supposez qu'elle vend vos données.
+
+Pour profiter pleinement du chiffrement, **choisissez un fournisseur utilisé par vos contacts réguliers.** Un coffre-fort chiffré protège votre boîte, mais une fois l'e-mail sorti vers un destinataire non chiffré (comme Gmail), il devient lisible chez lui. Pour un chiffrement total, les deux correspondants doivent utiliser le même service ou protocole.
+
+_Listés par ordre alphabétique._
+
+<ProsAndCons data={data} headingLevel={4} />
+
+**[Cliquez ici pour voir mes critères de sélection](/fr/criteria#encrypted-messaging)**
+
+## Mention honorable : PGP
+
+Beaucoup de ces services fonctionnent avec PGP, permettant des échanges sécurisés même avec ceux qui n'utilisent pas le même service. **PGP signifie [Pretty Good Privacy](https://fr.wikipedia.org/wiki/Pretty_Good_Privacy) et est un programme de chiffrement Open Source.**
+
+Le fonctionnement de PGP repose sur deux [clés](/fr/guides/prologue/encryption) : une « clé privée » (à garder jalousement) et une « clé publique » (à partager largement). La clé publique est comme votre adresse postale, et la privée comme la clé de votre boîte aux lettres. Seule votre clé privée peut déverrouiller ce qui a été chiffré avec votre clé publique. Vous pouvez utiliser PGP avec votre fournisseur actuel via des outils comme [Mailvelope](https://www.mailvelope.com/) (extension navigateur) ou [Enigmail](https://www.enigmail.net/). Certains logiciels comme [Thunderbird](https://www.thunderbird.net/fr/) le gèrent nativement.
+
+## Conseils et astuces
+
+**Je recommande vivement l'usage de noms de domaine personnalisés.** C'est le meilleur moyen de garder le contrôle de votre adresse, quel que soit votre fournisseur. Pour environ 10-25 € par an, vous pouvez lier votre propre domaine (ex: moi@monnom.fr) à votre service mail. Si vous changez de fournisseur, vous emportez votre adresse avec vous. Nous recommandons des registrars comme [1984hosting](https://www.1984hosting.com/), [NameCheap](https://www.namecheap.com/) ou [OrangeWebsite](https://orangewebsite.com).
+
+**Ne supposez jamais qu'un e-mail est sûr à 100 %.** L'e-mail n'a pas été conçu pour la sécurité. Même chiffré, il peut être pris en photo ou imprimé. N'écrivez rien que vous ne seriez pas prêt à voir affiché publiquement.
+
+**Certains fournisseurs désactivent les comptes gratuits inactifs.** Tuta et Proton se réservent le droit de supprimer un compte gratuit non utilisé pendant plus de 6 mois. Vérifiez bien les conditions d'utilisation.

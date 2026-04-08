@@ -1,0 +1,72 @@
+{
+    "2fas": {
+        "name": "2FAS",
+        "logo": "/images/logos/2fas.png",
+        "logo_alt": "Logo 2FAS",
+        "link": "https://2fas.com/",
+        "use_cases": [],
+        "pros": [
+            "Disponible sur Android et iOS",
+            "Peut se synchroniser avec Mac via une extension de navigateur et un presse-papiers partagé (voir Inconvénients)"
+        ],
+        "cons": [
+            "Indisponible sur F-Droid",
+            "La synchronisation entre appareils nécessite iCloud, les données ne sont pas chiffrées même avec la [Protection avancée des données](/fr/guides/most-important/mobile-settings)"
+        ]
+    },
+    "aegis": {
+        "name": "Aegis Authenticator",
+        "logo": "/images/logos/aegis.png",
+        "logo_alt": "Logo Aegis Authenticator",
+        "link": "https://getaegis.app/",
+        "use_cases": [],
+        "pros": [
+            "Disponible sur [F-Droid](https://f-droid.org/en/packages/com.beemdevelopment.aegis/)",
+            "Permet des sauvegardes automatiques (cloud uniquement)"
+        ],
+        "cons": [
+            "Android uniquement"
+        ]
+    },
+    "bitwarden": {
+        "name": "Bitwarden Authenticator",
+        "logo": "/images/logos/bitwarden_auth.png",
+        "logo_alt": "Logo Bitwarden Authenticator",
+        "link": "https://bitwarden.com/products/authenticator/",
+        "use_cases": [],
+        "pros": [
+            "Disponible sur Android et iOS"
+        ],
+        "cons": [
+            "Indisponible sur F-Droid"
+        ]
+    },
+    "ente": {
+        "name": "ente Authenticator",
+        "logo": "/images/logos/ente-auth.png",
+        "logo_alt": "Logo ente Authenticator",
+        "link": "https://ente.io/auth/",
+        "use_cases": [],
+        "pros": [
+            "Disponible sur [tous les systèmes d'exploitation](/fr/criteria#definitions)",
+            "Disponible sur [F-Droid](https://f-droid.org/en/packages/io.ente.auth/)",
+            "Aucun compte requis (mode hors-ligne uniquement)"
+        ],
+        "cons": [
+            "Compte ente requis (synchronisation en ligne uniquement)"
+        ]
+    },
+    "proton": {
+        "name": "Proton Authenticator",
+        "logo": "/images/logos/protonauth.png",
+        "logo_alt": "Logo Proton Authenticator",
+        "link": "https://proton.me/authenticator",
+        "use_cases": [],
+        "pros": [
+            "Disponible sur [tous les systèmes d'exploitation](/fr/criteria#definitions)",
+            "Disponible sur [F-Droid](https://f-droid.org/en/packages/proton.android.authenticator.fdroid/)",
+            "Inclut l'écosystème Proton (VPN, calendrier, e-mail, stockage cloud, gestionnaire de mots de passe, etc.)"
+        ],
+        "cons": []
+    }
+}

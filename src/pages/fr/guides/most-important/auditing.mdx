@@ -1,0 +1,72 @@
+---
+layout: "@layouts/guides.astro"
+title: "Cybersécurité : Comment sécuriser vos appareils"
+topic: Comment sécuriser vos appareils
+weight: 2
+draft: false
+---
+
+import Highlighting from "@components/common/Highlighting.astro";
+
+# Comment sécuriser vos appareils
+
+**Avant de sécuriser votre vie numérique, vous devez disposer d'un environnement de travail sûr. Cela signifie avoir des appareils en qui vous avez confiance : sécurisés, privés et non compromis.** Un appareil compromis peut laisser fuiter des données sensibles allant de la <span title="Données sur l'utilisation de l'appareil et du logiciel envoyées au fournisseur pour analyse.">télémétrie</span> identifiable aux identifiants de connexion (cas des logiciels espions ou « stalkerware »). Cette page explique comment auditer vos appareils et comptes actuels. Notez que votre [modèle de menace](/fr/guides/prologue/threat-model) jouera un rôle majeur dans vos décisions.
+
+<Highlighting variant="warning">
+
+Il est impossible de prouver une absence totale de menace. En d'autres termes, **personne ne peut garantir à 100 % qu'un appareil est exempt de toute compromission connue.** C'est d'autant plus vrai pour les appareils d'occasion. Le meilleur moyen d'avoir un appareil raisonnablement sûr est de l'acheter neuf, en personne et en espèces. Même là, face à un adversaire étatique capable d'attaques sur la [chaîne d'approvisionnement](https://www.crowdstrike.com/cybersecurity-101/cyberattacks/supply-chain-attacks/), le risque zéro n'existe pas. Gardez cela à l'esprit.
+
+</Highlighting>
+
+## Nouveaux appareils et réinitialisation d'usine
+
+Idéalement, **le meilleur moyen d'avoir un appareil sûr est d'en acheter un neuf.** Ce n'est pas nécessaire pour tout le monde, mais recommandé pour les modèles de menace élevés (par exemple, si vous vivez avec votre agresseur qui utilise un logiciel espion). Achetez-le en personne si vous craignez une interception. Pour mes recommandations mobiles, voir [ici](/fr/guides/most-important/mobile#android-or-ios). Pour le bureau, voir [ici](/fr/guides/moderately-important/desktop-settings).
+
+À défaut de rachat, **la deuxième meilleure option est la réinitialisation d'usine (factory reset).** Dans les deux cas, ne réinstallez pas tout à la va-vite. La compromission peut venir d'une application ou d'un réglage. Traitez votre appareil propre comme une zone sécurisée : examinez chaque fichier et application que vous y laissez entrer comme un espion potentiel.
+
+## Sécuriser les appareils mobiles
+
+Si vous ne pouvez pas réinitialiser votre appareil, voici quelques étapes pour vérifier son intégrité.
+
+**Commencez par un simple redémarrage.** La plupart des malwares mobiles ne sont pas persistants (sauf si l'appareil est rooté ou jailbreaké). S'il est persistant, c'est souvent via une application. De nombreuses apps se font passer pour des outils innocents (lecteurs PDF, lampes torche, VPN gratuits, jeux) mais collectent des données en secret. **Supprimez autant d'applications que possible.** Même celles en qui vous avez confiance (banque) : ne gardez que le strict nécessaire.
+
+Ensuite, **lancez une analyse antivirus.** Je recommande [Malwarebytes](https://www.malwarebytes.com/) ou [Bitdefender](https://www.bitdefender.com/). [iVerify Basic](https://iverify.io/products/basic) est aussi un excellent outil ($1 une fois) pour scanner votre appareil. Pour iPhone, [iMazing](https://imazing.com/spyware-analyzer) permet aussi de détecter des infections connues. Une fois l'appareil jugé « propre », vous pouvez choisir de désinstaller ces antivirus si vous avez une bonne hygiène numérique.
+
+Enfin, **vérifiez les réglages de l'appareil** pour détecter des anomalies.
+
+### Sur Android, vérifiez :
+* Les applications installées (Paramètres > Applications)
+* L'installation d'apps inconnues (Saisie : « installer des applis inconnues » dans les paramètres)
+* Les administrateurs de l'appareil (Sécurité > Autres paramètres de sécurité > Agents de confiance / Administrateur)
+* Certificats (Sécurité > Chiffrement et identifiants > Identifiants de confiance)
+* Permissions (Confidentialité > Tableau de bord de confidentialité)
+* Comptes (Mots de passe et comptes)
+* Claviers (Système > Langues et saisie)
+
+### Sur iOS, vérifiez :
+* Les apps (en bas des Réglages)
+* La synchronisation iCloud (Réglages > [Nom] > iCloud)
+* Profils de gestion (MDM) (Général > VPN et gestion de l'appareil)
+* Permissions des apps (tout en bas des réglages)
+* Contrôle de sécurité (Confidentialité et sécurité > Contrôle de sécurité)
+
+## Sécuriser les ordinateurs (Desktop)
+
+Sur PC ou Mac, la vérification est plus complexe. Privilégiez l'achat d'un nouveau matériel ou la réinitialisation d'usine. Sinon, faites un scan antivirus complet (Malwarebytes, Bitdefender). Sur Mac, utilisez les outils d' [Objective-See](https://objective-see.org/tools.html).
+
+Supprimez tout programme inutile ou inconnu. Sur Mac, vérifiez les permissions dans « Confidentialité et sécurité » et le pare-feu. Des outils comme [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) ou [LuLu](https://objective-see.com/products/lulu.html) aident à détecter l'activité réseau suspecte. Sur Windows, vérifiez « Sécurité Windows » et utilisez [SimpleWall](https://www.henrypp.org/product/simplewall).
+
+## Sécuriser vos comptes
+
+La compromission de compte est fréquente. Cela peut aller de la simple consultation à la synchronisation de vos messages sur un autre appareil.
+
+Commencez par mettre en place des [mots de passe](/fr/guides/most-important/passwords) forts et la [double authentification](/fr/guides/most-important/mfa). Vérifiez dans les réglages de vos comptes les « appareils connectés » et déconnectez tout ce que vous ne reconnaissez pas. Pour l'e-mail, vérifiez qu'aucune règle de redirection vers une adresse tierce n'a été créée.
+
+## Se protéger durablement
+
+- **Gardez vos appareils sains.** Utilisez des [apps de remplacement](/fr/guides/most-important/mobile-apps) et ajustez vos réglages [mobiles](/fr/guides/most-important/mobile-settings) et [desktop](/fr/guides/moderately-important/desktop-settings).
+- **Gardez le contrôle physique.** Ne laissez pas votre appareil sans surveillance. Utilisez le [chiffrement](/fr/guides/moderately-important/devices) et des mots de passe de session robustes.
+- **Sécurité des accès.** Évitez les verrous biométriques (FaceID) si vous craignez qu'on utilise votre appareil à votre insu (pendant votre sommeil, par exemple). Changez les réponses à vos questions secrètes pour des termes aléatoires.
+- **Appareils propres.** Utilisez une [messagerie chiffrée](/fr/guides/moderately-important/messaging) avec messages éphémères. Réglez votre [navigateur](/fr/guides/most-important/browser) pour ne stocker aucun historique.
+
+Pour plus de détails sur l'intégrité des appareils, consultez [cette page](https://www.privacyguides.org/en/device-integrity/) de Privacy Guides.
