@@ -7,7 +7,12 @@
   {
     "link": "https://podcast.firewallsdontstopdragons.com/2023/04/03/privacy-peeps-panel/",
     "img": "/images/logos/fdsd.png",
-    "name": "Firewalls Don't Stop Dragons"
+    "name": "Firewalls Don't Stop Dragons (2023)"
+  },
+  {
+    "link": "https://podcast.firewallsdontstopdragons.com/2026/03/30/privacy-guides-panel/",
+    "img": "/images/logos/fdsd.png",
+    "name": "Firewalls Don't Stop Dragons (2026)"
   },
   {
     "link": "https://optoutpod.com/episodes/s1e04-nathan-thenewoil/",
@@ -37,11 +42,11 @@
   {
     "link": "https://www.youtube.com/watch?v=r5O4AYvGx58",
     "img": "/images/logos/effaustin.png",
-    "name": "EFF Austin"
+    "name": "EFF Austin (2024)"
   },
   {
     "link": "https://www.youtube.com/watch?v=jf5ngLQ2Blc",
     "img": "/images/logos/effaustin.png",
-    "name": "EFF Austin"
+    "name": "EFF Austin (2025)"
   }
 ]
