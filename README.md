@@ -19,7 +19,7 @@ Readers who speak foreign languages can help us translate the site on [Crowdin](
 ## Other Notable Projects
 
 - [Website](https://thenewoil.org/)
-- [Podcast](https://www.privacyguides.org/livestreams/)
+- [Podcast](https://thisweekinprivacy.net)
 - [Blog](https://ghost.thenewoil.org/tag/blog/)
 - [News Feed](https://mastodon.thenewoil.org/@thenewoil)
 - [Videos](https://apertatube.net/c/thenewoil/videos)
@@ -27,8 +27,9 @@ Readers who speak foreign languages can help us translate the site on [Crowdin](
 
 ## Transparency
 
-- [**2024 Transparency Report**](https://blog.thenewoil.org/transparency-report-2024)
-- [**2023 Transparency Report**](https://blog.thenewoil.org/transparency-report-2023)
-- [**2022 Transparency Report**](https://blog.thenewoil.org/transparency-report-2022-and-goals-for-2023)
-- [**2021 Transparency Report**](https://blog.thenewoil.org/transparency-report-2021-and-goals-for-2022)
-- [**2020 Transparency Report**](https://blog.thenewoil.org/2020-recap-2021-plans)
+- [**2025 Transparency Report**](https://ghost.thenewoil.org/2025-transparency-report/)
+- [**2024 Transparency Report**](https://write.as/thenewoil/transparency-report-2024)
+- [**2023 Transparency Report**](https://write.as/thenewoil/transparency-report-2023)
+- [**2022 Transparency Report**](https://write.as/thenewoil/transparency-report-2022-and-goals-for-2023)
+- [**2021 Transparency Report**](https://write.as/thenewoil/transparency-report-2021-and-goals-for-2022)
+- [**2020 Transparency Report**](https://write.as/thenewoil/2020-recap-2021-plans)

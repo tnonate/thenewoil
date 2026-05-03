@@ -44,7 +44,7 @@
       "values": {
         "Platform": "Leo",
         "Online or Offline": "Online",
-        "Notes": "From Brave, Can only be used with the Brave Browser"
+        "Notes": "From Brave, requires Brave Browser"
       }
     },
     "lumo": {

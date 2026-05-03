@@ -20,17 +20,17 @@
     "img": "/images/logos/digitalrightswatch.png"
   },
   {
-    "name": "The Electronic Frontier Foundation (EFF)",
+    "name": "The Electronic Frontier Foundation",
     "link": "https://www.eff.org/",
     "img": "/images/logos/eff.png"
   },
   {
-    "name": "The Electronic Privacy Information Center (EPIC)",
+    "name": "The Electronic Privacy Information Center",
     "link": "https://epic.org/",
     "img": "/images/logos/epic.png"
   },
   {
-    "name": "European Digital Rights (EDRi)",
+    "name": "European Digital Rights",
     "link": "https://edri.org/",
     "img": "/images/logos/edri.png"
   },
@@ -40,7 +40,7 @@
     "img": "/images/logos/fftf.png"
   },
   {
-    "name": "None Of Your Business (noyb)",
+    "name": "None Of Your Business",
     "link": "https://noyb.eu/",
     "img": "/images/logos/noyb.png"
   },
@@ -60,7 +60,7 @@
     "img": "/images/logos/restorethe4th.png"
   },
   {
-    "name": "The Surveillance Technology Oversight Project (STOP)",
+    "name": "The Surveillance Technology Oversight Project",
     "link": "https://www.stopspying.org/",
     "img": "/images/logos/stop.png"
   }

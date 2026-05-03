@@ -1,7 +1,7 @@
 [
   {
     "name": "Podcast",
-    "link": "https://www.privacyguides.org/livestreams/",
+    "link": "https://www.thisweekinprivacy.net",
     "img": "/images/logos/twip.jpg"
   },
   {
@@ -10,12 +10,17 @@
     "img": "/images/logos/ghost.png"
   },
   {
-    "name": "Mastodon",
+    "name": "SimpleX (Project Updates)",
+    "link": "https://smp16.simplex.im/c#5CmmKJY-M45ct3SX7d-0jcSzVyOTRwmefvPzPRXOMiQ",
+    "img": "/images/logos/simplex.png"
+  },
+  {
+    "name": "Mastodon (News Feed)",
     "link": "https://mastodon.thenewoil.org/@thenewoil",
     "img": "/images/logos/mastodon.png"
   },
   {
-    "name": "Bluesky",
+    "name": "Bluesky (News Feed)",
     "link": "https://bsky.app/profile/thenewoil.org",
     "img": "/images/logos/bluesky.png",
     "not_encouraged": true
