@@ -3,7 +3,7 @@
     "name": "ProtonMail",
     "logo": "/images/logos/protonmail.png",
     "logo_alt": "Protonmail Logo",
-    "link": "https://proton.me/mail",
+    "link": "https://go.getproton.me/aff_c?offer_id=7&aff_id=2187",
     "use_cases": [
       "Best for people who want an ecosystem since it includes cloud storage, calendar, VPN, and more",
       "Best for power users who want PGP support so non-Proton users can initiate secure conversations with you"
@@ -21,7 +21,7 @@
     "name": "Tuta",
     "logo": "/images/logos/tuta.png",
     "logo_alt": "Tuta Logo",
-    "link": "https://tuta.com/",
+    "link": "https://tuta.com/?t-src=the-new-oil",
     "use_cases": [
       "Best for users who desire maximum security with their email since Tuta encrypts things above beyond standard PGP"
     ],

@@ -21,14 +21,22 @@
     "not_encouraged": true
   },
   {
+    "link": "https://github.com/sponsors/tnonate",
+    "img": "/images/logos/github.png",
+    "name": "GitHub",
+    "not_encouraged": true
+  },
+  {
     "link": "https://support.brave.com/hc/en-us/articles/360021123971-How-do-I-tip-websites-and-Content-Creators-in-Brave-Rewards-",
     "img": "/images/logos/brave.png",
-    "name": "Tip with Brave (BAT)"
+    "name": "Tip with Brave (BAT)",
+    "not_encouraged": true
   },
   {
     "link": "/crypto#bitcoin-btc",
     "img": "/images/logos/bitcoin.png",
-    "name": "Bitcoin (BTC)"
+    "name": "Bitcoin (BTC)",
+    "not_encouraged": true
   },
   {
     "link": "/crypto#monero-xmr",
@@ -38,6 +46,7 @@
   {
     "link": "/crypto#all-other-cryptocurrencies",
     "img": "/images/graphics/donate-nowpayments.png",
-    "name": "All Other Cryptocurrencies"
+    "name": "All Other Cryptocurrencies",
+    "not_encouraged": true
   }
 ]

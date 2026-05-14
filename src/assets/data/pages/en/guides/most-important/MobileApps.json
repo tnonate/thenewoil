@@ -7,7 +7,7 @@
         "Alternatives": [
           "[Nextcloud](https://nextcloud.com/)",
           "[Proton Calendar](https://proton.me/calendar)",
-          "[Tuta Calendar](https://tuta.com/calendar/)"
+          "[Tuta Calendar](https://tuta.com/calendar/?t-src=the-new-oil)"
         ],
         "Reason": [
           "Your calendar contains all your plans and locations: upcoming dates, shifts at work, events you plan to attend, and more. Using an encrypted calendar can help protect that information from Google, Apple or other third parties."
@@ -70,7 +70,7 @@
       "values": {
         "Alternatives": [
           "[Cryptee](https://crypt.ee/)",
-          "[Filen](https://filen.io/)",
+          "[Filen](https://filen.io/r/834a3bd235bca0caa53141f2ebc30438)",
           "[Joplin](https://joplinapp.org/)",
           "[Nextcloud](https://nextcloud.com/)",
           "[Notesnook](https://notesnook.com/)",
@@ -98,9 +98,9 @@
         "Alternatives": [
           "[Cryptee](https://crypt.ee/)",
           "[Ente](https://ente.io/)",
-          "[Filen](https://filen.io/)",
+          "[Filen](https://filen.io/r/834a3bd235bca0caa53141f2ebc30438)",
           "[Nextcloud](https://nextcloud.com/)",
-          "[Proton Drive](https://proton.me/drive) (Android only)"
+          "[Proton Drive](https://go.getproton.me/aff_c?offer_id=43&aff_id=2187)"
         ],
         "Reason": [
           "Google, Apple, and other non-encrypted photo storage options can see all your photos. These services provide a way to securely store, manage, and back up your photos between multiple devices safe from the provider's prying eyes."

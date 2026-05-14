@@ -1,66 +1,51 @@
 {
-  "criterias": [
-    "Aliases",
-    "Bandwidth",
-    "Reply/Send",
-    "Mailboxes",
-    "Custom domains",
-    "PGP Encryption"
-  ],
-  "tools": {
-    "anonaddy": {
-      "name": "Addy.io",
-      "logo": "/images/logos/addyio.png",
-      "link": "https://addy.io/",
-      "plans": {
-        "Free": {
-          "Aliases": "Unlimited",
-          "Bandwidth": "10MB",
-          "Reply/Send": 0,
-          "Mailboxes": 1,
-          "Custom domains": 0,
-          "PGP Encryption": "Yes"
-        },
-        "Lite": {
-          "Aliases": "Unlimited",
-          "Bandwidth": "100MB",
-          "Reply/Send": "20/day",
-          "Mailboxes": 5,
-          "Custom domains": 1,
-          "PGP Encryption": "Yes"
-        },
-        "Pro": {
-          "Aliases": "Unlimited",
-          "Bandwidth": "Unlimited",
-          "Reply/Send": "100/day",
-          "Mailboxes": 30,
-          "Custom domains": 20,
-          "PGP Encryption": "Yes"
-        }
-      }
-    },
-    "simplelogin": {
-      "name": "SimpleLogin",
-      "logo": "/images/logos/simplelogin.png",
-      "link": "https://simplelogin.io",
-      "plans": {
-        "Free": {
-          "Aliases": 10,
-          "Bandwidth": "Unlimited",
-          "Reply/Send": "Unlimited",
-          "Mailboxes": 1,
-          "Custom domains": 0,
-          "PGP Encryption": "No"
-        },
-        "Premium": {
-          "Aliases": "Unlimited",
-          "Bandwidth": "Unlimited",
-          "Reply/Send": "Unlimited",
-          "Mailboxes": "Unlimited",
-          "Custom domains": "Unlimited",
-          "PGP Encryption": "Yes"
-        }
-      }
-    }
+  "addy": {
+    "name": "Addy.io",
+    "logo": "/images/logos/addyio.png",
+    "logo_alt": "Addy.io Logo",
+    "link": "https://addy.io/",
+    "use_cases": [
+      "Best for people who use Proton but want to compartmentalize services",
+      "Best for people on a budget who don't send or receive many emails (Lite plan)"
+    ],
+    "pros": [
+      "Discounts to other services available through their [partnerships](https://addy.io/perks/)"
+    ],
+    "cons": [
+    ]
+  },
+  "mailx": {
+    "name": "MailX",
+    "logo": "/images/logos/mailx.png",
+    "logo_alt": "MailX Logo",
+    "link": "https://www.ivpn.net/en/services/",
+    "use_cases": [
+      "Best for people who use [IVPN](/guides/less-important/vpns) or [SPN](/guides/less-important/vpns/#honorable-mention-safing-private-network)",
+      "Best for people who want granular control over their DNS filter"
+    ],
+    "pros": [
+      "Included in IVPN's Plus or Pro Suite plans",
+      "Granular, customizable DNS included"
+    ],
+    "cons": [
+      "Cannot be purchased as a standalone product, unlike Addy.io or SimpleLogin"
+    ]
+  },
+  "simplelogin": {
+    "name": "SimpleLogin",
+    "logo": "/images/logos/simplelogin.png",
+    "logo_alt": "SimpleLogin Logo",
+    "link": "https://simplelogin.io/?slref=thenewoil",
+    "use_cases": [
+      "Best for people who use Proton and prefer to bundle or like ecosystems",
+      "Best for people on a budget who do send or receive lots emails"
+    ],
+    "pros": [
+      "Included in Proton's Unlimited or higher plans",
+      "Integrates with [Proton Pass](/guides/most-important/passwords)",
+      "Can be purchased as a standalone product if you'd prefer"
+    ],
+    "cons": [
+    ]
   }
 }
