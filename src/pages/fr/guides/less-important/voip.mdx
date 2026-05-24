@@ -1,0 +1,48 @@
+---
+layout: "@layouts/guides.astro"
+title: "Vie privée : VoIP"
+topic: Voice-over-IP
+weight: 3
+draft: false
+---
+
+import ProsAndCons from "@components/charts/ProsAndCons.astro";
+import data from "@assets/data/pages/fr/guides/less-important/Voip.json";
+
+# Voice-over-IP
+
+## Qu'est-ce que la Voice-over-IP (VoIP) ?
+
+La VoIP est la technologie permettant de passer des appels via Internet plutôt que par les protocoles téléphoniques classiques. Utilisée depuis des décennies dans le monde professionnel, elle devient populaire sur mobile pour éviter de « consommer ses minutes », notamment pour les appels internationaux, et pour ses avantages en matière de vie privée.
+
+## Pourquoi ai-je besoin de la VoIP ?
+
+Il existe de nombreuses raisons d'utiliser la VoIP dans votre stratégie de cybersécurité. Si vous êtes indépendant, que vous cherchez un emploi ou que vous donnez souvent votre numéro à des inconnus, cette section est cruciale.
+
+Les numéros de carte SIM classiques sont liés à votre identité réelle (forfait à votre nom, achat de smartphone à crédit). **Le numéro de téléphone devient alors un quasi-identifiant.** De nombreux sites permettent de trouver votre nom, votre adresse et vos proches à partir de votre numéro. Les numéros VoIP sont bien moins régulés et révèlent beaucoup moins d'informations.
+
+## Avantages de la VoIP
+
+La VoIP est plus difficile à pirater via le [SIM-swapping](https://us.norton.com/blog/mobile/sim-swap-fraud) (transfert frauduleux de ligne).
+
+C'est aussi un excellent moyen de compartimenter votre vie. **Utiliser un numéro VoIP exclusivement pour les sites de rencontre protège des harceleurs potentiels.** Vous pouvez couper ce numéro à tout moment sans changer votre ligne principale.
+
+Pour les indépendants, cela permet de donner un numéro de travail sans révéler d'aspects personnels (comme votre orientation politique via les registres de vote, publics dans certains pays). Enfin, cela aide à maintenir un équilibre vie pro/vie perso : vous pouvez éteindre votre numéro VoIP après vos heures de travail.
+
+**Note : Aucun des services listés ici n'est Open Source.** La VoIP n'est pas un remplacement pour la [messagerie sécurisée](/fr/guides/moderately-important/messaging). Considérez ces options comme des outils pour protéger vos données des sites de recherche de personnes, mais ne les croyez pas infaillibles.
+
+_Listés par ordre alphabétique._
+
+<ProsAndCons data={data} headingLevel={4} />
+
+**[Cliquez ici pour voir mes critères de sélection](/fr/criteria#voip)**
+
+## Mention honorable : JMP
+
+[JMP](https://jmp.chat/) est une solution VoIP basée sur [XMPP](https://xmpp.org/). Elle transforme votre compte XMPP en numéro de téléphone complet (appels et SMS/MMS). JMP n'est disponible qu'aux États-Unis et au Canada et nécessite une installation technique un peu plus poussée.
+
+## Conseils et astuces
+
+Je recommande généralement **MySudo**. Il est disponible sur iOS et Android avec des forfaits commençant à environ 1 € par mois. Pour les budgets nuls aux US, **Google Voice** est une option. Hors Amérique du Nord, **Viber** est un choix pertinent.
+
+**La VoIP ne remplace pas la [messagerie sécurisée](/fr/guides/moderately-important/messaging).** Tout ce que vous envoyez (texte, voix) par VoIP doit être considéré comme potentiellement enregistré par les entreprises ou les gouvernements. C'est un outil contre le doxing et les sites de recherche de personnes, pas contre la surveillance étatique.

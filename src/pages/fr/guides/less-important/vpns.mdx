@@ -1,0 +1,63 @@
+---
+layout: "@layouts/guides.astro"
+title: "Vie privée : VPN"
+topic: Réseaux privés virtuels (VPN)
+weight: 8
+draft: false
+---
+
+import Highlighting from "@components/common/Highlighting.astro";
+import ProsAndCons from "@components/charts/ProsAndCons.astro";
+import data from "@assets/data/pages/fr/guides/less-important/Vpns.json";
+
+# Réseaux privés virtuels (VPN)
+
+## Qu'est-ce qu'un réseau privé virtuel (VPN) ?
+
+**Un VPN est une connexion chiffrée entre votre appareil et le serveur du fournisseur de VPN.** Tout votre trafic internet passe par ce serveur. Vu de l'extérieur, votre trafic semble provenir de ce serveur, ce qui aide à masquer votre véritable adresse IP.
+
+## Ai-je besoin d'un VPN ?
+
+Pas forcément. Le marché du VPN regorge de promesses exagérées. Pour savoir si un VPN correspond à votre [modèle de menace](/fr/guides/prologue/threat-model), vous pouvez consulter le site « [Ai-je besoin d'un VPN ?](https://www.doineedavpn.com/fr/) ».
+
+J'utilise un VPN comme couche de défense supplémentaire. Il protège contre l'espionnage sur les Wi-Fi publics ou contre votre fournisseur d'accès internet (FAI) qui peut légalement vendre vos données de navigation dans certains pays. Un VPN change aussi votre adresse IP, un élément clé de votre identité en ligne, et permet de contourner des restrictions géographiques.
+
+## Que dois-je rechercher chez un fournisseur ?
+
+**Le plus important est qu'il ne garde aucun log (journal de connexion).** Un fournisseur qui enregistre votre activité n'est pas meilleur que votre FAI. Malheureusement, « no logs » est devenu un argument marketing galvaudé. Vérifiez la réputation du fournisseur sur des [moteurs de recherche](/fr/guides/less-important/misc#moteurs-de-recherche) respectueux de la vie privée.
+
+## Avertissements
+
+<Highlighting variant="warning">
+
+- Gérer un serveur VPN coûte cher. « Si c'est gratuit, c'est vous le produit. » À moins d'un essai limité ou de rares exceptions (Calyx, Riseup), fuyez les VPN gratuits qui [espionnent](https://www.howtogeek.com/342731/dont-use-facebooks-onavo-vpn-its-designed-to-spy-on-you/) et [vendent](https://www.buzzfeednews.com/article/craigsilverman/vpn-and-ad-blocking-apps-sensor-tower) vos données.
+- Méfiez-vous des promesses marketing de type « 100% anonyme » ou « invulnérable aux hackers ». C'est trompeur. Je vous recommande la vidéo de Naomi Brockwell : « [The DARK Side of VPNs](https://www.youtube.com/watch?v=8MHBMdTBlok) » (en anglais).
+
+</Highlighting>
+
+_Listés par ordre alphabétique._
+
+<ProsAndCons data={data} headingLevel={4} />
+
+**[Cliquez ici pour voir mes critères de sélection](/fr/criteria#vpns)**
+
+## Mention honorable : Safing Private Network (SPN)
+
+Le VPN n'a pas été conçu pour la vie privée à l'origine, mais pour connecter des employés au réseau de leur entreprise. [SPN](https://safing.io/spn/) adopte une approche hybride entre le VPN et Tor pour maximiser la confidentialité tout en restant rapide et simple à utiliser. Chaque connexion peut avoir une IP différente. Note : Safing a été racheté par [IVPN](https://www.ivpn.net/) en 2024.
+
+## Mention honorable : Calyx VPN
+
+[Calyx VPN](https://calyxos.org/docs/guide/apps/calyx-vpn/) est une offre gratuite de l'association à but non lucratif [Calyx Institute](https://calyxinstitute.org/). C'est fiable mais limité : pas de choix de serveur ou de réglages avancés. C'est une excellente option pour ceux qui ne peuvent pas s'offrir un abonnement.
+
+## Mention honorable : RiseUp VPN
+
+Comme Calyx, [Riseup](https://riseup.net/en/vpn) est proposé par un collectif militant. C'est également très basique mais sérieux et respectueux de la vie privée pour les budgets nuls.
+
+## Fuites DNS et résolveurs personnalisés
+
+La plupart des VPN proposent d'utiliser leur propre résolveur [DNS](https://fr.wikipedia.org/wiki/Domain_Name_System). Je vous déconseille d'en changer, car cela cause souvent des dysfonctionnements techniques et des fuites. Les fournisseurs listés ici bloquent souvent déjà les malwares et traqueurs via leur DNS.
+
+## Conseils et astuces
+
+- Utilisez un VPN sur tous vos appareils. **Sur mobile, cela ne cache pas votre position réelle à votre opérateur téléphonique**, mais cela chiffre vos échanges et trompe les applications et sites web.
+- **Un VPN n'est pas synonyme d'anonymat.** Il ne protège pas contre les cookies ou l'empreinte de navigateur (browser fingerprinting). Il fait deux choses : changer votre IP et créer un tunnel chiffré. Pour l'anonymat réel, voyez mes notes sur le [Navigateur Tor](/fr/guides/most-important/browser#navigateur-tor).

@@ -1,0 +1,66 @@
+{
+    "criterias": [
+        "Alias",
+        "Bande passante",
+        "Répondre/Envoyer",
+        "Boîtes mail",
+        "Domaines personnalisés",
+        "Chiffrement PGP"
+    ],
+    "tools": {
+        "anonaddy": {
+            "name": "Addy.io",
+            "logo": "/images/logos/addyio.png",
+            "link": "https://addy.io/",
+            "plans": {
+                "Gratuit": {
+                    "Alias": "Illimité",
+                    "Bande passante": "10 Mo",
+                    "Répondre/Envoyer": 0,
+                    "Boîtes mail": 1,
+                    "Domaines personnalisés": 0,
+                    "Chiffrement PGP": "Oui"
+                },
+                "Lite": {
+                    "Alias": "Illimité",
+                    "Bande passante": "100 Mo",
+                    "Répondre/Envoyer": "20/jour",
+                    "Boîtes mail": 5,
+                    "Domaines personnalisés": 1,
+                    "Chiffrement PGP": "Oui"
+                },
+                "Pro": {
+                    "Alias": "Illimité",
+                    "Bande passante": "Illimité",
+                    "Répondre/Envoyer": "100/jour",
+                    "Boîtes mail": 30,
+                    "Domaines personnalisés": 20,
+                    "Chiffrement PGP": "Oui"
+                }
+            }
+        },
+        "simplelogin": {
+            "name": "SimpleLogin",
+            "logo": "/images/logos/simplelogin.png",
+            "link": "https://simplelogin.io/fr/",
+            "plans": {
+                "Gratuit": {
+                    "Alias": 10,
+                    "Bande passante": "Illimité",
+                    "Répondre/Envoyer": "Illimité",
+                    "Boîtes mail": 1,
+                    "Domaines personnalisés": 0,
+                    "Chiffrement PGP": "Non"
+                },
+                "Premium": {
+                    "Alias": "Illimité",
+                    "Bande passante": "Illimité",
+                    "Répondre/Envoyer": "Illimité",
+                    "Boîtes mail": "Illimité",
+                    "Domaines personnalisés": "Illimité",
+                    "Chiffrement PGP": "Oui"
+                }
+            }
+        }
+    }
+}

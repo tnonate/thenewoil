@@ -1,0 +1,54 @@
+---
+layout: "@layouts/guides.astro"
+title: "Cybersécurité : Authentification multi-facteurs"
+topic: Authentification multi-facteurs
+weight: 4
+draft: false
+---
+
+import ProsAndCons from "@components/charts/ProsAndCons.astro";
+import data from "@assets/data/pages/fr/guides/most-important/Mfa.json";
+
+# Authentification multi-facteurs
+
+## Qu'est-ce que l'authentification multi-facteurs ?
+
+L'authentification multi-facteurs (MFA) est un processus où un service exige une étape supplémentaire pour vous authentifier lors de la connexion, en plus du nom d'utilisateur et du mot de passe. Cela peut prendre la forme d'un SMS, d'un code généré par une application (souvent appelé « TOTP », pour « Timed One-Time Password »), d'une notification push, d'une clé matérielle ou même d'une authentification biométrique.
+
+**Il existe plusieurs facteurs d'authentification,** mais ce site traite des deux plus courants : ce que vous connaissez et ce que vous possédez. **Ce que vous connaissez** est le nom d'utilisateur et le mot de passe, tandis que **ce que vous possédez** est généralement le code à six chiffres sur votre appareil ou une clé de sécurité (détails ci-dessous). Lorsqu'on exige deux formes d'authentification, on parle de « double authentification » (souvent abrégée en 2FA). Avec plus de deux formes, on parle d'authentification multi-facteurs (MFA). Techniquement, toute 2FA est une MFA, mais l'inverse n'est pas toujours vrai.
+
+## Pourquoi ai-je besoin de l'authentification multi-facteurs ?
+
+Selon [Microsoft](https://www.microsoft.com/security/blog/2019/08/20/one-simple-action-you-can-take-to-prevent-99-9-percent-of-account-attacks/), cette technique peut stopper jusqu'à 99,9 % des accès non autorisés. Avec la MFA activée, même si un attaquant obtient vos identifiants, il ne pourra pas se connecter sans le second facteur. Malheureusement, certaines entreprises font encore des erreurs graves comme stocker des mots de passe en [clair](https://www.bleepingcomputer.com/news/security/misconfigured-firebase-instances-leaked-19-million-plaintext-passwords/). Il est donc crucial d'avoir une [seconde ligne de défense](/fr/guides/prologue/threat-model#defense).
+
+## Que dois-je rechercher dans une solution MFA ?
+
+**Choisissez une solution que vous utiliserez systématiquement.** Évitez autant que possible la 2FA par SMS car il est [relativement facile](https://us.norton.com/blog/mobile/sim-swap-fraud) de voler un numéro de téléphone (SIM swap). Utilisez le SMS si rien d'autre n'est disponible, mais privilégiez mieux si possible. Les notifications push présentent aussi des risques de « [fatigue MFA](https://portswigger.net/daily-swig/mfa-fatigue-attacks-users-tricked-into-allowing-device-access-due-to-overload-of-push-notifications) » où l'attaquant bombarde l'utilisateur de demandes jusqu'à ce qu'il accepte par erreur ou pour faire cesser le spam. L'ordre de recommandation du plus fort au plus faible est : clés matérielles, TOTP, notifications push, e-mail (si sécurisé par TOTP), et enfin SMS. Le TOTP est le compromis idéal pour la plupart des gens.
+
+_Listés par ordre alphabétique._
+
+<ProsAndCons data={data} headingLevel={4} />
+
+**[Cliquez ici pour voir mes critères de sélection](/fr/criteria#multifactor-authentication)**
+
+## Mention honorable : Clés de sécurité physiques
+
+Pour ceux qui exigent une protection maximale, il existe des clés de sécurité physiques. Ce sont des appareils (souvent USB ou NFC) que vous branchez lors de la connexion au lieu de taper un code. Elles sont presque parfaites car elles ne peuvent pas être détournées à distance ou hameçonnées. Parmi les plus connues : [OnlyKey](https://onlykey.io/) et [Yubikey](https://www.yubico.com/). Des options Open Source existent comme [Nitrokey](https://nitrokey.com/) et [SoloKey](https://solokeys.com/).
+
+## Autres formes d'authentification
+
+Il existe aussi **_ce que vous êtes_** (biométrie : empreinte, iris) et **_où vous êtes_** (géolocalisation). Je ne les recommande pas forcément. **_Où vous êtes_** peut être intrusif et gêner l'usage d'un [VPN](/fr/guides/less-important/vpns). **_Ce que vous êtes_** est jugé sûr mais pose un problème majeur : si vos données biométriques sont [fuitées](/fr/guides/prologue/data-breaches), vous ne pouvez pas en changer comme on change un mot de passe. Je vous encourage à rester sur **_ce que vous possédez_** chaque fois que possible.
+
+## Pour commencer
+
+La MFA s'active généralement dans les paramètres de « Sécurité » ou « Compte » sous des noms comme « validation en deux étapes » ou « Application d'authentification ». **Je vous suggère d'activer immédiatement la MFA sur vos comptes critiques** (banque, e-mail principal). Pour le reste, faites-le au fur et à mesure de vos connexions (eBay, Discord, etc.).
+
+## Conseils et astuces
+
+Certains sites proposent de « se souvenir de cet appareil pendant 30 jours ». **Je ne le recommande plus** à cause des malwares capables de voler vos [cookies d'authentification](https://eclypses.com/news/cyber-criminals-defeating-2fa-security/), permettant de contourner totalement la connexion.
+
+Lors de l'activation, les sites vous donnent des **codes de secours**. Notez-les impérativement dans un endroit sûr (comme les notes de votre [gestionnaire de mots de passe](/fr/guides/most-important/passwords)).
+
+Si vous utilisez des clés matérielles, je recommande d'en acheter deux exemplaires et de garder le second en lieu sûr comme sauvegarde.
+
+Le site [2FA Directory](https://2fa.directory/) est très utile pour savoir quels services supportent la double authentification.

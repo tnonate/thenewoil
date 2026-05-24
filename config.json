@@ -21,6 +21,12 @@
       "weight": 1,
       "image": "/images/languages/en.svg",
       "isDefault": true
+    },
+    {
+      "code": "fr",
+      "name": "Français",
+      "weight": 2,
+      "image": "/images/languages/fr.svg"
     }
   ]
 }

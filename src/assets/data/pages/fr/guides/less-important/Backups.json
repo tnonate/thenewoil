@@ -1,0 +1,50 @@
+{
+    "filen": {
+        "name": "Filen",
+        "logo": "/images/logos/filen.png",
+        "logo_alt": "Logo Filen",
+        "link": "https://filen.io/",
+        "use_cases": [],
+        "pros": [
+            "Inclut une fonction de tchat texte entre utilisateurs",
+            "Inclut des notes"
+        ],
+        "cons": [
+            "Non audité",
+            "Non disponible sur F-Droid",
+            "Les liens de partage publics sont une option payante"
+        ]
+    },
+    "mega": {
+        "name": "Mega",
+        "logo": "/images/logos/mega.png",
+        "logo_alt": "Logo MEGA",
+        "link": "https://mega.io/fr",
+        "use_cases": [],
+        "pros": [
+            "Inclut tchat texte, audio et vidéo entre utilisateurs"
+        ],
+        "cons": [
+            "Non audité",
+            "Non disponible sur F-Droid",
+            "Des [recherches](https://arstechnica.com/information-technology/2022/06/mega-says-it-cant-decrypt-your-files-new-poc-exploit-shows-otherwise/) suggèrent que le code de Mega est complexe, augmentant le risque de vulnérabilités",
+            "Mega est [soupçonné](https://gitlab.com/thenewoil/website/-/issues/79) d'avoir participé à la rédaction de lois anti-vie privée dans l'UE (non prouvé)"
+        ]
+    },
+    "protondrive": {
+        "name": "ProtonDrive",
+        "logo": "/images/logos/protondrive.png",
+        "logo_alt": "Logo ProtonDrive",
+        "link": "https://proton.me/fr/drive",
+        "use_cases": [],
+        "pros": [
+            "Écosystème complet (VPN, Mail, Calendrier, Gestionnaire de mots de passe)",
+            "Récemment [audité](https://proton.me/blog/security-audit-all-proton-apps)"
+        ],
+        "cons": [
+            "Apps pour Android, iOS, Mac et Windows uniquement. Version web seule sur Linux",
+            "Le stockage est partagé avec votre compte e-mail",
+            "Non disponible sur F-Droid"
+        ]
+    }
+}

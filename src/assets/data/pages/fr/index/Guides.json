@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Usurpation d'identité",
+        "description": "Ces pages vous apprendront à vous protéger contre les techniques les plus courantes utilisées pour voler votre identité.",
+        "link": "/fr/guides/quick-start/identity"
+    },
+    {
+        "title": "Appareils mobiles",
+        "description": "Vous avez un nouveau téléphone et vous voulez en tirer le maximum de confidentialité et de sécurité ? Commencez ici.",
+        "link": "/fr/guides/quick-start/mobile"
+    },
+    {
+        "title": "Ordinateurs Fixes et Portables",
+        "description": "Vous voulez protéger votre Mac ou votre PC au maximum ? Ce guide est fait pour vous !",
+        "link": "/fr/guides/moderately-important/desktop-settings"
+    },
+    {
+        "title": "Réseau Domestique",
+        "description": "Si vous venez d'acheter un routeur ou si vous voulez simplement savoir comment protéger au mieux votre réseau, ce guide est un point de départ incontournable.",
+        "link": "/fr/guides/quick-start/wifi-guide"
+    },
+    {
+        "title": "Créateurs de contenu",
+        "description": "Si vous voulez être influenceur, streamer ou créateur, ce guide vous aidera à vous protéger du doxing, du harcèlement et des fuites de données.",
+        "link": "/fr/guides/quick-start/streamer-guide"
+    }
+]

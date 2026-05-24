@@ -1,0 +1,17 @@
+[
+    {
+        "link": "https://easyoptouts.com/",
+        "img": "/images/logos/easyoptouts.png",
+        "name": "EasyOptOuts"
+    },
+    {
+        "link": "https://optery.com/",
+        "img": "/images/logos/optery.png",
+        "name": "Optery"
+    },
+    {
+        "link": "https://duckduckgo.com/pro",
+        "img": "/images/logos/ddg.png",
+        "name": "DuckDuckGo Privacy Pro"
+    }
+]

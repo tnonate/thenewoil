@@ -1,0 +1,114 @@
+---
+layout: "@layouts/default.astro"
+title: Critères
+draft: false
+---
+
+# Critères
+
+Chaque service que nous recommandons doit répondre au moins aux critères suivants.
+
+## Définitions
+
+Parce que de nombreux mots et expressions peuvent être subjectifs, nous avons clarifié certains de nos usages ici pour éviter toute confusion.
+
+- **Activement maintenu** - Un développeur (ou une équipe de développement) qui met régulièrement à jour et améliore le projet, et qui prend en compte les retours des utilisateurs tels que les rapports de bugs, les demandes de fonctionnalités, etc. Nous n'imposons pas de délais spécifiques à cette définition car différents projets nécessitent des fréquences de mise à jour différentes, et les équipes de développement disposent de ressources variées en termes de temps et d'expertise. Cependant, il doit être facile de prouver que le projet est toujours maintenu pour être éligible.
+
+- **Tous les systèmes d'exploitation** - Debian, Fedora, Mac, Windows, Android et iOS.
+
+- **Inscription anonyme** - L'inscription ne nécessite pas d'informations potentiellement identifiables comme un numéro de téléphone SIM, un nom réel ou une carte de crédit. Les numéros VoIP, les adresses e-mail masquées et les crypto-monnaies sont des formes de vérification acceptables.
+
+- **Big Tech** - Grandes entreprises technologiques qui pratiquent une gestion des données défavorable à la vie privée, comme la collecte de données excessive, la vente de publicités ciblées, etc. Ces entreprises incluent, sans s'y limiter, Google, Amazon, Facebook, Apple, Microsoft, Discord, Snapchat, TikTok, etc.
+
+- **Messages éphémères** - la possibilité de paramétrer la suppression automatique des messages de votre appareil (et généralement des appareils des destinataires) après un certain temps.
+
+- **Résistant aux métadonnées** - Le service a pris des mesures significatives pour réduire la quantité de métadonnées pouvant être collectées par un acteur interne, une ordonnance judiciaire ou un adversaire interceptant le trafic par défaut (c'est-à-dire sans exploiter de failles 0-day, de vulnérabilités ou d'autres efforts significatifs en dehors du fonctionnement habituel du service). Cela peut inclure (sans s'y limiter) l'utilisation d'une architecture multi-sauts pour masquer l'adresse IP de l'expéditeur ou l'absence d'enregistrement de l'historique des messages. _REMARQUE IMPORTANTE :_ Il s'agit d'un critère large. La nature exacte des métadonnées masquées et la méthode varient d'un service à l'autre. Les lecteurs ne doivent jamais supposer que toutes les métadonnées sont protégées ni que tous les services masquent les mêmes métadonnées. Veuillez consulter le service en question pour plus de détails sur les métadonnées qu'il protège et comment.
+
+- **Récemment audité** - le code a été examiné par un auditeur tiers indépendant et qualifié au cours des 5 dernières années, et les résultats ont été publiés intégralement et de manière compréhensible.
+
+- **Code source disponible** (Source available) - la grande majorité du code source est disponible pour examen par quiconque souhaite l'auditer, suggérer des améliorations ou signaler des vulnérabilités. Toute partie propriétaire doit être réduite au minimum et doit avoir une raison valable de le rester, comme des exigences de licence du code utilisé ou pour des raisons de sécurité (ex : Signal gardant ses fonctions anti-spam cachées pour ralentir les spameurs cherchant des solutions de contournement).
+
+## Exigences Universelles
+
+- Doit être activement maintenu.
+- Doit être disponible sur tous les systèmes d'exploitation (le cas échéant). Les applications web sont acceptables pour le bureau, bien que non préférées.
+- Les applications mobiles doivent être disponibles via le Google Play Store et/ou l'Apple App Store (le cas échéant). F-Droid et/ou les APK sont préférés pour les appareils Android.
+- Les recommandations doivent avoir leur code source disponible (au moins côté client), sauf si peu ou pas d'alternatives de ce type existent.
+- Les recommandations propriétaires doivent avoir un historique établi ou une assurance de respect de la vie privée des utilisateurs et de la souveraineté des données, ou doivent offrir des fonctionnalités significatives absentes de leurs équivalents Open Source qui seraient bénéfiques pour un modèle de menace typique.
+- Les services doivent être accessibles aux utilisateurs finaux individuels. Les services comme la messagerie instantanée, les gestionnaires de mots de passe ou l'e-mail ont souvent une composante B2B. C'est acceptable, mais ils doivent aussi avoir une offre grand public pour que les utilisateurs individuels puissent facilement rejoindre et utiliser le service.
+
+## Sauvegarde & Stockage Cloud
+
+- Doit proposer une offre gratuite.
+- Doit être à connaissance nulle (zero knowledge).
+- Doit cibler le grand public (ex : il ne doit pas y avoir une surabondance de termes techniques comme API, conformité, etc., sur les pages principales du site qui n'intéresseraient pas un consommateur moyen).
+
+## Livres & Documentaires
+
+- Peut être exempté de la règle "doit être activement maintenu", mais ne doit pas dater de plus de 5 ans ou doit être prouvé comme étant toujours pertinent et précis.
+- Non-fiction uniquement.
+- Contenu éducatif uniquement.
+
+## Extensions de Navigateur
+
+- Doit améliorer significativement la vie privée et/ou la sécurité de l'utilisateur au point de compenser le risque de pistage par empreinte numérique (fingerprinting) supplémentaire.
+
+## Réglages & Applications Bureau (Desktop)
+
+- Les modifications de réglages recommandées doivent réduire la quantité de données envoyées aux développeurs ou améliorer la sécurité de l'appareil contre les menaces courantes.
+- Les modifications de réglages recommandées ne doivent pas casser les fonctionnalités.
+
+## Messagerie Chiffrée
+
+- Doit avoir la messagerie de bout en bout chiffrée activée par défaut pour les conversations privées.
+- Possibilité d'exporter les messages (uniquement pour l'e-mail, encouragé pour les messageries instantanées).
+- Doit supporter les noms de domaine personnalisés (uniquement pour l'e-mail).
+- Doit supporter les messages éphémères (uniquement pour la messagerie instantanée).
+- Doit être résistant aux métadonnées (uniquement pour la messagerie instantanée).
+
+## Liens & Ressources
+
+- Doit être directement pertinent pour la protection des données personnelles et/ou la cybersécurité.
+
+## Réglages & Applications Mobiles
+
+- Les modifications de réglages recommandées doivent réduire la quantité de données envoyées au fabricant de l'appareil, à l'opérateur et/ou aux développeurs d'applications, et/ou doivent améliorer la sécurité de l'appareil contre les menaces courantes.
+- Les modifications de réglages recommandées ne doivent pas casser les fonctionnalités.
+
+## Authentification Multi-Facteurs
+
+- Les clés matérielles sont exemptées de la règle "doit être activement maintenu" car beaucoup tirent leur sécurité du fait de ne pas pousser de mises à jour.
+- Doit offrir la possibilité d'exporter les graines (seeds).
+
+## Gestionnaires de Mots de Passe
+
+- Pour la facilité d'usage du public cible, les gestionnaires de mots de passe sans état (stateless) ne sont pas autorisés.
+- Doit supporter la création, le stockage, l'importation et l'exportation des clés de passage (passkeys).
+- Doit proposer des outils pour aider à identifier les vulnérabilités potentielles des mots de passe (faibles, réutilisés ou compromis).
+- Doit avoir été [récemment audité](/fr/criteria/#définitions).
+
+## Masquage de Paiement
+
+- Doit permettre la création d'au moins une carte de crédit ou de débit permettant de protéger les informations bancaires réelles de l'utilisateur contre le card-skimming ou le vol.
+
+### Podcast/Vidéo
+
+- Doit produire du contenu activement.
+- Focus éducatif du contenu.
+- Contenu de non-fiction uniquement.
+
+## VoIP
+
+- Doit être capable d'émettre et de recevoir des appels, des SMS et des MMS vers des numéros de téléphone "classiques".
+- Doit avoir une application mobile native.
+- Doit cibler le grand public (ex : il ne doit pas y avoir une surabondance de termes techniques comme API, conformité, etc., sur les pages principales du site qui n'intéresseraient pas un consommateur moyen).
+- Exempté de l'exigence "tous les systèmes d'exploitation", requis uniquement sur mobiles (applications de bureau préférées).
+
+## VPN
+
+- Ne doit pas conserver de journaux (logs).
+
+## Navigateurs Web
+
+- Doit être capable de se mettre à jour automatiquement.
+- Les modifications de réglages recommandées doivent améliorer la vie privée et/ou la sécurité de l'utilisateur tout en causant peu ou pas de dysfonctionnements sur les sites couramment utilisés.

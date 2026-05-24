@@ -1,0 +1,52 @@
+---
+layout: "@layouts/guides.astro"
+title: "Vie privée : Messagerie et appels chiffrés"
+topic: Messagerie instantanée chiffrée
+weight: 8
+draft: false
+---
+
+import Highlighting from "@components/common/Highlighting.astro";
+import ProsAndCons from "@components/charts/ProsAndCons.astro";
+import data from "@assets/data/pages/fr/guides/moderately-important/Messaging.json";
+
+# Messagerie instantanée chiffrée
+
+## Qu'est-ce que la messagerie chiffrée ?
+
+**Le chiffrement de bout en bout (E2EE) est une forme de communication où les messages sont chiffrés de telle sorte que seules les personnes impliquées dans la conversation puissent les lire.** Voir [Comprendre le chiffrement](/fr/guides/prologue/encryption) pour plus d'infos.
+
+## Pourquoi ai-je besoin d'une messagerie chiffrée ?
+
+Aujourd'hui, presque tous les messages sont chiffrés (sauf les SMS), mais le fournisseur (Google, Facebook, etc.) possède les clés pour déchiffrer vos messages. Cela permet aux entreprises de scanner vos messages pour [insérer des publicités](https://twitter.com/chrismlacy/status/1409727836093513729) ou de les [bloquer](https://www.theverge.com/2018/12/12/18137795/fcc-text-message-rule-classification-spam). Une messagerie E2EE rend cela impossible.
+
+## Que dois-je rechercher chez une messagerie chiffrée ?
+
+**Le plus important est que votre correspondant utilise le même service.** Ces services ne fonctionnent que si les deux parties utilisent le même système de chiffrement. Voyez si vos contacts utilisent déjà une messagerie chiffrée, sinon proposez-leur l'une des options ci-dessous.
+
+## À éviter
+
+<Highlighting variant="warning">
+
+- **Telegram** n'est pas digne de confiance. Les messages ne sont pas chiffrés de bout en bout par défaut. Les messages de groupe ne peuvent pas l'être du tout. De plus, Telegram a [ouvertement menti](https://www.youtube.com/watch?v=mOHzG-Xp978) sur ses pratiques de divulgation de données. Considérez Telegram comme un réseau social public, pas une messagerie privée.
+- **WhatsApp** appartient à Meta (Facebook), un [ennemi de la vie privée](https://www.forbes.com/sites/thomasbrewster/2017/01/22/whatsapp-facebook-backdoor-government-data-request/#3be52f0c1030). Même si le contenu est chiffré, WhatsApp collecte et partage massivement vos [métadonnées](/fr/guides/prologue/metadata) avec les autres services Meta pour la publicité.
+
+</Highlighting>
+
+_Listés par ordre alphabétique._
+
+<ProsAndCons data={data} headingLevel={4} />
+
+**[Cliquez ici pour voir mes critères de sélection](/fr/criteria#encrypted-messaging)**
+
+## Mention honorable : Briar
+
+[Briar](https://briarproject.org/) est disponible sur Android (et bientôt Linux). C'est une messagerie peer-to-peer (pair-à-pair) sans serveur : elle peut connecter les appareils directement via Bluetooth ou Wi-Fi. C'est idéal dans les zones où l'infrastructure réseau est instable ou censurée. Pensé pour les journalistes et activistes, il fait transiter les données via Tor pour masquer les métadonnées.
+
+## Mention honorable : Molly
+
+[Molly](https://molly.im/) est un fork de Signal pour Android qui ajoute des couches de protection (verrouillage automatique, chiffrement de la base de données locale). C'est excellent pour ceux qui utilisent un [OS personnalisé](/fr/guides/moderately-important/mobile-habits/) car il ne dépend pas des services Google pour les notifications.
+
+### Conseils et astuces
+
+Pour comparer les différentes messageries, vous pouvez consulter des tableaux comparatifs comme [Secure Messaging Apps](https://www.securemessagingapps.com/), [SecuChart](https://bkil.gitlab.io/secuchart/) ou [Messenger Matrix](https://www.messenger-matrix.de/messenger-matrix-en.html).

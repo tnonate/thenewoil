@@ -1,0 +1,39 @@
+---
+layout: "@layouts/guides.astro"
+title: "Cybersécurité : L'Internet des Objets"
+topic: L'Internet des Objets (appareils connectés)
+weight: 7
+draft: false
+---
+
+import Highlighting from "@components/common/Highlighting.astro";
+
+# L'Internet des Objets (IoT)
+
+Si vous lisez ceci, vous possédez probablement un appareil « intelligent » (Smart TV, Alexa, thermostat Nest). Il fut un temps où je conseillais de simplement les éviter, mais il devient de plus en plus difficile d'échapper à l'Internet des Objets. Cette section donne des conseils de base pour protéger votre vie privée face à ces appareils.
+
+## Éviter si possible
+
+Je continue d'encourager tout le monde à se passer de ces gadgets si c'est possible. Chaque nouvel appareil connecté est une porte d'entrée potentielle pour des attaquants. Une Smart TV ne se contente pas de rapporter des [infos réseau](https://www.theverge.com/2019/10/11/20908128/smart-tv-surveillence-data-collection-home-roku-amazon-fire-princeton-study), elle offre aussi via ses micros et caméras un accès à votre domicile. Même une [ampoule connectée](https://www.trendmicro.com/vinfo/in/security/news/cybercrime-and-digital-threats/researchers-use-smart-light-bulbs-to-infiltrate-networks) peut servir de rebond pour attaquer d'autres appareils de votre réseau.
+
+Le jeu en vaut-il la chandelle ? Avez-vous besoin d'un frigo qui vous dit que le lait est périmé ? Posez-vous la question avant chaque achat.
+
+## Si vous devez en utiliser
+
+Si vous décidez d'utiliser un appareil connecté, voici quelques règles d'or pour augmenter votre sécurité :
+
+<Highlighting>
+
+- **Changez les mots de passe par défaut.** Les identifiants d'usine sont souvent publics sur Internet.
+- **Désactivez la télémétrie.** Parcourez tous les réglages pour couper le partage de données et d'analyses.
+- **Privilégiez les marques sérieuses.** Achetez des appareils dont le fabricant publie régulièrement des mises à jour. Activez les mises à jour automatiques.
+- **Utilisez des VLANs.** Si votre routeur le permet, créez un réseau segmenté (VLAN) pour vos objets connectés. Ainsi, s'ils sont piratés, ils n'auront pas accès à vos ordinateurs et téléphones.
+- **Utilisez des e-mails dédiés et des mots de passe forts.** Couplez ces conseils avec les autres parties de ce site.
+
+</Highlighting>
+
+Je recommande le site de Mozilla « [\*Privacy Not Included](https://foundation.mozilla.org/en/privacynotincluded/) » (en anglais) pour vérifier la réputation des objets connectés avant achat.
+
+## Véhicules
+
+Les voitures modernes sont un [cauchemar pour la vie privée](https://foundation.mozilla.org/en/privacynotincluded/articles/its-official-cars-are-the-worst-product-category-we-have-ever-reviewed-for-privacy/). Elles collectent et vendent des masses de données sans transparence. Une solution radicale est d'acheter des modèles anciens sans « info-divertissement », mais c'est de plus en plus difficile pour l'entretien. Pour les voitures récentes, demandez à votre constructeur de ne pas collecter vos données (opt-out), même si le respect de ces demandes n'est pas garanti. Consultez [Privacy4Cars](https://privacy4cars.com/) ou [Vehicle Privacy Report](https://vehicleprivacyreport.com/). Enfin, écrivez à vos représentants politiques pour demander des lois plus strictes sur la protection des données automobiles.

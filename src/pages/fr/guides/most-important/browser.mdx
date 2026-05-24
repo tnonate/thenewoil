@@ -1,0 +1,105 @@
+---
+layout: "@layouts/guides.astro"
+title: "Vie privée : Sécuriser votre navigateur"
+topic: Navigation internet privée et sécurisée
+weight: 10
+draft: false
+---
+
+import Highlighting from "@components/common/Highlighting.astro";
+
+# Sécuriser votre navigateur
+
+## Pourquoi devrais-je changer de navigateur ?
+
+Actuellement, **Google Chrome est le plus utilisé, mais c'est [essentiellement un logiciel espion](https://www.washingtonpost.com/technology/2019/06/21/google-chrome-has-become-surveillance-software-its-time-switch/)**. Il va jusqu'à [activer votre micro pour vous écouter pendant que vous naviguez](https://www.hackread.com/google-chromium-browser-listens-conversations/). À la place, vous pouvez obtenir des performances et une sécurité quasi identiques avec une amélioration massive de la vie privée en passant à [Brave](https://brave.com/fr/) ou [Firefox](https://www.mozilla.org/fr/firefox/new/). Changer de navigateur demande un temps d'adaptation, mais c'est une étape cruciale.
+
+## Brave vs Firefox
+
+Les navigateurs sont sujets à controverse. Pour voir mes critères de sélection, consultez cette [page](/fr/criteria#web-browsers). Par souci de transparence, il faut noter que **Brave et Mozilla ont tous deux pris des décisions discutables.** Brave a été critiqué pour son système de récompenses BAT, l'injection de liens d'affiliation ou l'installation de logiciels sans transparence, bien que ces points aient été corrigés. Mozilla (Firefox) est critiqué pour ses réglages par défaut Perfectibles, le salaire très élevé de sa PDG alors que l'entreprise lutte financièrement, et un manque de direction claire.
+
+*Personnellement, je recommande Brave pour la plupart des gens.* Il ressemble beaucoup à Chrome, ce qui facilite la transition, et il est très respectueux de la vie privée « dès la sortie de la boîte » avec son bloqueur de publicités intégré. Cependant, beaucoup de gens préfèrent Firefox pour ne pas donner trop de pouvoir au moteur de rendu Chromium de Google. À vous de choisir selon vos convictions éthiques.
+
+## Extensions
+
+**Si vous choisissez Brave, vous n'avez besoin d'aucune extension supplémentaire** (sauf Snowflake, éventuellement). **Si vous choisissez Firefox, vous devriez installer [uBlock Origin](https://ublockorigin.com/)**, un bloqueur de publicités et de traqueurs ultra-puissant et léger. Les publicités malveillantes étant un tel fléau, même le FBI [recommande](https://techcrunch.com/2022/12/22/fbi-ad-blocker/) l'usage d'un bloqueur. uBlock Origin est prêt à l'emploi par défaut.
+
+<Highlighting variant="warning">
+
+[Selon son développeur](https://github.com/gorhill/uBlock), uBlock Origin ne doit **pas** être utilisé en même temps que d'autres bloqueurs comme Privacy Badger ou Ghostery, car ils peuvent interférer.
+
+</Highlighting>
+
+Deux autres extensions valent le coup : celle de votre [gestionnaire de mots de passe](/fr/guides/most-important/passwords) (pour la sécurité et contre le phishing) et [Snowflake](https://snowflake.torproject.org/) (optionnellement intégrée dans Brave) qui aide les utilisateurs de pays répressifs à contourner la censure sans risque pour vous.
+
+**Je déconseille fortement d'installer d'autres extensions.** Plus vous en avez, plus votre navigateur devient facile à identifier (fingerprinting) et plus vous exposez votre sécurité à des privilèges d'extensions malveillantes ou compromises.
+
+## Paramètres recommandés
+
+Ces réglages sont une base équilibrée. Tout ce qui n'est pas listé relève de la préférence personnelle.
+
+### Brave
+
+- Apparence :
+  - Suggestions de saisie semi-automatique : « Sur l’appareil » ou désactivé
+  - Toujours afficher les URL complètes : activé (pour repérer le phishing)
+- Boucliers (Shields) :
+  - Passer les connexions en HTTPS : Strict
+  - Blocage des réseaux sociaux : tout désactiver
+- Confidentialité et sécurité :
+  - Effacer les données de navigation : À la fermeture : tout cocher (sauf si vous voulez rester connecté)
+  - **(Sauf si vous avez un [VPN](/fr/guides/less-important/vpns))** Sécurité : Utiliser un DNS sécurisé : Avec un fournisseur de [cette liste](https://www.privacyguides.org/en/dns/)
+  - Sécurité : Gérer l'optimisation et la sécurité JavaScript : Ne pas autoriser les sites à optimiser JS
+  - Utiliser les services Google pour la messagerie push : désactivé
+  - Rediriger automatiquement les pages AMP : activé
+  - Rediriger automatiquement les URL de suivi : activé
+  - Empêcher les sites de me suivre par empreinte numérique (fingerprinting) : activé
+  - Bloquer Microsoft Recall : activé
+  - Autoriser les statistiques de produit préservant la vie privée (P3A) : désactivé
+  - Envoyer automatiquement un ping d'utilisation quotidienne à Brave : désactivé
+  - Fenêtre privée avec Tor : désactivé
+  - Se porter volontaire pour aider les autres : activé (Snowflake)
+- Leo :
+  - Enregistrer l'historique des conversations : désactivé
+- Moteur de recherche :
+  - Choisir une [option respectueuse](/fr/guides/less-important/misc/#search-engines)
+  - Améliorer les suggestions : désactivé
+- Paramètres supplémentaires :
+  - Saisie automatique : tout désactiver
+  - Téléchargements : Toujours demander où enregistrer : activé
+
+### Firefox
+
+- Général :
+  - Fichiers et applications : Toujours demander où enregistrer : activé
+  - Navigation : Recommander des extensions/fonctionnalités : désactivé
+- Accueil :
+  - Contenu de la page d'accueil : Sponsoring/Recommandations : désactivé
+- Recherche :
+  - Moteur par défaut : [Option respectueuse](/fr/guides/less-important/misc#search-engines)
+  - Suggestions de recherche : désactiver les suggestions sponsorisées
+- Vie privée et sécurité :
+  - Protection renforcée contre le pistage : Stricte
+  - Préférences de confidentialité des sites web : Envoyer le signal « Do Not Track » : Toujours
+  - Cookies et données de sites : Effacer à la fermeture : activé
+  - Mots de passe / Moyens de paiement / Adresses : tout désactiver (utilisez un gestionnaire tiers)
+  - Historique : Ne jamais conserver l'historique
+  - Permissions : Bloquer les fenêtres surgissantes : activé
+  - Collecte de données : tout décocher
+  - Sécurité : Protection contre les contenus trompeurs : activé
+  - Sécurité : Mode HTTPS uniquement : Activer dans toutes les fenêtres
+  - **(Sauf VPN)** DNS via HTTPS : Protection maximale : Choisir un DNS de [cette liste](https://www.privacyguides.org/en/dns/)
+- Contrôles IA :
+  - Chatbots dans la barre latérale : Bloqués
+
+## Mentions honorables
+
+### Mullvad Browser
+
+C'est le fruit d'une collaboration entre [Mullvad VPN](/fr/guides/less-important/vpns) et le [Tor Project](###Tor-Browser). Basé sur Firefox, c'est « le Tor Browser sans Tor ». Il rend tous les utilisateurs identiques pour vaincre le fingerprinting. Très efficace, mais peut causer quelques soucis sur certains sites. Gardez un second navigateur au cas où.
+
+### Tor Browser
+
+Pour une vie privée et un anonymat maximum, utilisez le [Tor Browser](https://www.torproject.org/fr/download). Il fait passer votre trafic par plusieurs relais, vous rendant anonyme. Pratique au quotidien, mais certains sites (banques, e-commerce) bloquent Tor. Gardez Brave ou Firefox en secours. Assurez-vous d'utiliser le protocole HTTPS (petit cadenas) car les nœuds de sortie sont gérés par des bénévoles.
+
+**Je recommande d'avoir les deux navigateurs installés (Brave et Firefox)** et d'utiliser l'un comme secours de l'autre. S'ils utilisent des moteurs différents, un site qui ne marche pas sur l'un fonctionnera probablement sur l'autre.

@@ -1,0 +1,63 @@
+{
+    "ivpn": {
+        "name": "IVPN",
+        "logo": "/images/logos/ivpn.png",
+        "logo_alt": "Logo IVPN",
+        "link": "https://www.ivpn.net",
+        "use_cases": [
+            "Fonctions uniques : mettre le VPN en pause, réseaux de confiance pour connexion auto, usurpation GPS (Android uniquement)"
+        ],
+        "pros": [
+            "[Récemment audité](https://www.ivpn.net/blog/tags/audit/)",
+            "Disponible sur tous les systèmes d'exploitation",
+            "Paiements anonymes (espèces et Monero) disponibles",
+            "Blocage de malwares, traqueurs et pubs pour [tous les forfaits](https://www.ivpn.net/antitracker/)",
+            "Le [Mode Hardcore](https://www.ivpn.net/blog/block-ads-and-beat-data-surveillance-with-ivpns-antitracker/) bloque tous les domaines Google et Facebook",
+            "La fonction [Réseaux de confiance](https://www.ivpn.net/blog/new-trusted-wi-fi-networks-feature-for-ivpn-apps/) permet d'activer le VPN automatiquement",
+            "Offre la [double authentification TOTP](/fr/guides/most-important/mfa) pour les comptes"
+        ],
+        "cons": []
+    },
+    "mullvad": {
+        "name": "Mullvad",
+        "logo": "/images/logos/mullvad.png",
+        "logo_alt": "Logo Mullvad",
+        "link": "https://mullvad.net/fr",
+        "use_cases": [
+            "Idéal pour les petits budgets voulant un VPN complet",
+            "Idéal pour ceux qui privilégient une vie privée maximale"
+        ],
+        "pros": [
+            "[Récemment audité](https://mullvad.net/fr/blog/search/?q=audit)",
+            "Disponible sur tous les systèmes d'exploitation",
+            "Tarif unique de 5 €/mois quel que soit le forfait",
+            "Paiements anonymes (espèces et Monero) disponibles",
+            "Blocage de malwares, traqueurs et pubs pour [tous les forfaits](https://mullvad.net/fr/why-mullvad-vpn/)",
+            "Pratique l'[adoption précoce](https://mullvad.net/fr/blog/2025/12/30/mullvad-review-of-2025) de nouvelles normes de sécurité."
+        ],
+        "cons": [
+            "Ne propose pas de [double authentification](/fr/guides/most-important/mfa) pour les comptes"
+        ]
+    },
+    "protonvpn": {
+        "name": "Proton VPN",
+        "logo": "/images/logos/protonvpn.png",
+        "logo_alt": "Logo Proton VPN",
+        "link": "https://protonvpn.com/fr/",
+        "use_cases": [
+            "Idéal pour ceux qui veulent un écosystème",
+            "Idéal pour le streaming (Netflix, Disney+)",
+            "Idéal pour le transfert de port (port forwarding)"
+        ],
+        "pros": [
+            "[Récemment audité](https://protonvpn.com/blog/open-source/)",
+            "Disponible sur tous les systèmes d'exploitation",
+            "Paiements anonymes (espèces) disponibles",
+            "Serveurs gratuits limités disponibles",
+            "Blocage de malwares, traqueurs et pubs ([comptes payants uniquement](https://protonvpn.com/support/netshield/))",
+            "Compatible avec les services de streaming (comptes payants uniquement)",
+            "Offre la double authentification (TOTP et clés matérielles)"
+        ],
+        "cons": []
+    }
+}

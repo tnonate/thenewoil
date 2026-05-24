@@ -1,0 +1,49 @@
+---
+layout: "@layouts/guides.astro"
+title: "Vie privée : Alias d'e-mails"
+topic: Alias d'e-mails
+weight: 4
+draft: false
+---
+
+import Plans from "@components/charts/Plans.astro";
+import data from "@assets/data/pages/fr/guides/moderately-important/EmailAliasing.json";
+
+# Alias d'e-mails
+
+## Qu'est-ce que les alias d'e-mails ?
+
+Les services d'alias d'e-mails vous permettent de créer une adresse e-mail unique et aléatoire pour chaque situation (inscription à un site, newsletter, etc.). Ces adresses redirigent ensuite les messages vers votre véritable boîte de réception.
+
+## Pourquoi ai-je besoin d'alias d'e-mails ?
+
+Imaginons qu'un de vos comptes soit touché par une fuite de données. Si vous avez utilisé votre adresse principale (votre-nom@gmail.com), un attaquant peut chercher où d'autre cette adresse est utilisée (Facebook, banque, etc.). Il connaît déjà la moitié de votre identifiant et n'a plus qu'à deviner le mot de passe. **S'il prend le contrôle de votre boîte mail principale, il peut réinitialiser tous vos autres comptes.**
+
+L'utilisation d'alias empêche aussi la réutilisation d'identifiants sur plusieurs sites (connu sous le nom de [credential stuffing](https://owasp.org/www-community/attacks/Credential_stuffing)). Un autre avantage est la gestion du spam : si une adresse alias commence à recevoir des publicités indésirables, désactivez-la simplement. Enfin, si vous changez de fournisseur mail, vous n'avez qu'à modifier l'adresse de redirection dans le service d'alias au lieu de changer votre mail sur des centaines de sites.
+
+Je liste ci-dessous deux services excellents. Ils proposent tous deux une version gratuite suffisante pour la plupart des gens, et des options payantes abordables.
+
+**SimpleLogin** est une filiale de [Proton](https://simplelogin.io/blog/simplelogin-join-proton/). Il peut être utilisé seul ou intégré à [Proton Pass](/fr/guides/most-important/passwords). Si vous n'aimez pas Proton ou voulez varier vos services, **Addy.io** est une excellente alternative.
+
+<Plans data={data} />
+
+## Mentions honorables
+
+D'autres services existent, bien que je les trouve moins complets qu'Addy.io et SimpleLogin.
+
+### AdGuard Mail
+[AdGuard Mail](https://adguard-mail.com/fr/welcome.html) est une offre récente du célèbre bloqueur AdGuard. Encore en développement, il s'enrichit régulièrement de nouvelles fonctionnalités.
+
+### DuckDuckGo Email Protection
+[DuckDuckGo Email Protection](https://duckduckgo.com/email/) est gratuit et propose des alias illimités, la suppression de traqueurs et des mises à jour HTTPS. À noter que j'ai perdu beaucoup de confiance en DuckDuckGo comme moteur de recherche, mais je recommande prudemment leur service d'alias.
+
+### Firefox Relay
+[Firefox Relay](https://relay.firefox.com/) est un service freemium. Il supprime les traqueurs mais limite les alias à cinq dans sa version gratuite. Les versions payantes offrent des alias illimités et un numéro de téléphone virtuel (que je ne recommande pas forcément face à d'autres solutions [VoIP](/fr/guides/less-important/voip)).
+
+## Pour commencer, conseils et astuces
+
+**Je recommande vivement l'usage de noms de domaine personnalisés.** Pour environ 10-25 € par an, vous gardez le contrôle total : si le service d'alias ferme, vous pointez votre domaine vers un autre service. Nous recommandons [1984hosting](https://www.1984hosting.com/), [NameCheap](https://www.namecheap.com/) ou [OrangeWebsite](https://affiliate.orangewebsite.com/idevaffiliate.php?id=14853).
+
+Changez vos adresses une par une sur vos comptes existants au fur et à mesure de vos connexions, et utilisez systématiquement des alias pour toute nouvelle inscription.
+
+Certains fournisseurs permettent de créer des alias « à la volée » (wildcard). Si on vous demande un mail en urgence, inventez-en un avec votre domaine et il sera créé automatiquement dès réception du premier e-mail.

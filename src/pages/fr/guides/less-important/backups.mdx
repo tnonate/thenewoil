@@ -1,0 +1,49 @@
+---
+layout: "@layouts/guides.astro"
+title: "Sauvegarder vos données"
+topic: "Comment garder de bonnes sauvegardes"
+weight: 2
+draft: false
+---
+
+import ProsAndCons from "@components/charts/ProsAndCons.astro";
+import data from "@assets/data/pages/fr/guides/less-important/Backups.json";
+
+# Sauvegarder vos données
+
+Aujourd'hui, la majorité des services sont dans le cloud et donc sauvegardés automatiquement. Cependant, **les sauvegardes sont critiques car les appareils tombent en panne, sont volés ou corrompus.** Pour de bonnes habitudes, déterminez :
+
+- **La taille** : Simple fichiers texte ou vidéos/photos HD ?
+- **La fréquence** : Une fois par jour au travail, une fois par semaine à la maison peut suffire.
+- **La durée** : Combien de temps voulez-vous garder vos archives (6 mois, 1 an, plus) ?
+
+Les sauvegardes manuelles sont déconseillées car on finit toujours par oublier. **Utilisez un logiciel de sauvegarde automatisé.**
+
+**Testez vos sauvegardes.** Dans l'informatique, on dit : « Si vous n'avez pas testé votre sauvegarde, vous n'avez pas de sauvegarde. » Faites une restauration de test régulièrement pour vérifier que rien n'est corrompu.
+
+**Note** : Chiffrez toujours vos supports de sauvegarde (locaux ou distants) avec des outils comme [VeraCrypt](/fr/guides/moderately-important/devices).
+
+## La règle du 3-2-1
+
+C'est la règle d'or :
+- **3** copies de vos données (l'originale + 2 sauvegardes).
+- **2** dossiers/supports différents (ex: disque dur externe et cloud).
+- **1** copie hors site (chez un ami ou dans le cloud) en cas de sinistre chez vous.
+
+## Sauvegardes Cloud respectueuses de la vie privée
+
+**Je déconseille Google Drive, Dropbox ou iCloud**, car ils ne sont pas [zéro-connaissance](/fr/guides/prologue/encryption) (sauf option spécifique). Pour iCloud, l'option « Protection avancée des données » est un plus mais reste fermée (propriétaire).
+
+La meilleure option est l'auto-hébergement via [Nextcloud](https://nextcloud.com/), qui vous donne un contrôle total. Si c'est trop complexe, choisissez un [fournisseur Nextcloud](https://nextcloud.com/signup/). Sinon, voici quelques suggestions :
+
+_Listés par ordre alphabétique._
+
+<ProsAndCons data={data} headingLevel={4} />
+
+**[Cliquez ici pour voir mes critères de sélection](/fr/criteria#backup--cloud-storage)**
+
+### Fournisseurs grand public et Cryptomator
+
+**Si vous devez utiliser un cloud classique (comme Dropbox), utilisez [Cryptomator](https://cryptomator.org/).** C'est un outil Open Source qui crée un coffre-fort chiffré dans votre dossier cloud. C'est simple, réputé et disponible sur tous les systèmes.
+
+En suivant ces étapes, vous aurez des sauvegardes fiables qui vous protégeront contre le vol ou les rançongiciels (ransomwares).

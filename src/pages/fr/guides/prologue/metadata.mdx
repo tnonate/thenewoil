@@ -1,0 +1,51 @@
+---
+layout: "@layouts/guides.astro"
+title: Comprendre les métadonnées
+topic: Qu'est-ce que les métadonnées et pourquoi est-ce important ?
+weight: 7
+draft: false
+---
+
+import Highlighting from "@components/common/Highlighting.astro";
+
+# Comprendre les métadonnées
+
+Le web est [chiffré](https://twitter.com/jlivingood/status/1389584630299385856) à 95 %. Cela signifie que si vous visitez [Proton](https://proton.me/), votre fournisseur d'accès internet (FAI) peut voir que vous l'avez visité et combien de temps vous y êtes resté, mais il ne peut pas voir vos identifiants de connexion (nom d'utilisateur et mot de passe), ni les pages exactes que vous avez consultées. Ceci est possible grâce au protocole [Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security) (TLS), un protocole de chiffrement puissant et populaire utilisé en ligne.
+
+Cependant, se fier strictement au modèle TLS actuel de l'internet pose deux problèmes. Premier problème : il ne protège que les « données en transit ». Lorsque vous vous connectez à Amazon, votre FAI peut seulement voir que vous avez visité Amazon, mais Amazon lui-même peut toujours voir chaque page, clic et achat sans restriction. Cela expose au risque de fuites de données, de menaces internes malveillantes, etc.
+
+Deuxième problème : **il n'est souvent pas nécessaire de voir le contenu lui-même pour commencer à faire des suppositions puissantes et précises.**
+
+## Qu'est-ce que les métadonnées ?
+
+On décrit souvent les métadonnées comme des « données sur les données ». Par exemple, le contenu d'un e-mail n'est pas une métadonnée, mais son destinataire, l'heure d'envoi, l'objet et la taille de l'e-mail le sont. À première vue, cela peut sembler peu révélateur. Cependant, examinons quelques exemples concrets de [l'Electronic Frontier Foundation](https://www.eff.org/deeplinks/2013/06/why-metadata-matters) :
+
+<Highlighting>
+
+- Ils savent que vous avez appelé un gynécologue, parlé pendant une demi-heure, puis appelé le numéro du planning familial local plus tard dans la journée. Mais personne ne sait de quoi vous avez parlé.
+- Ils savent que vous avez reçu un e-mail d'un service de dépistage du VIH, puis appelé votre médecin, puis visité le site web d'un groupe de soutien au VIH dans la même heure. Mais ils ne savent pas ce qu'il y avait dans l'e-mail ni ce dont vous avez parlé au téléphone.
+- Ils savent que vous avez appelé la ligne de prévention du suicide depuis le Golden Gate Bridge. Mais le sujet de l'appel reste un secret.
+
+</Highlighting>
+
+**Les métadonnées peuvent être tout aussi révélatrices que le contenu lui-même,** et devraient donc être protégées autant que les données réelles. Il ne s'agit pas de situations ou d'abus hypothétiques. Un ancien chef de la NSA a déclaré un jour : « [[Le gouvernement américain] tue des gens sur la base de métadonnées,](https://abcnews.go.com/blogs/headlines/2014/05/ex-nsa-chief-we-kill-people-based-on-metadata) » faisant référence à la façon dont les métadonnées peuvent révéler tellement d'informations qu'elles peuvent être utilisées pour justifier des frappes militaires. Dans un autre cas, la police a pu déterminer qu'un homme [avait assassiné sa femme](https://web.archive.org/web/20211206180512/https://www.reuters.com/article/us-greece-robbers-murder-idUKKCN2DT2IP) grâce aux métadonnées de sa montre connectée et des caméras de surveillance. Je pourrais citer bien d'autres histoires de ce genre. Les métadonnées comptent.
+
+<img
+  src="/images/graphics/quote-metadata.png"
+  alt="Les métadonnées sont extraordinairement intrusives"
+  class="mx-auto w-80"
+/>
+
+## Comment gérer les métadonnées
+
+Malheureusement, **toute action numérique crée des métadonnées.** Le mieux que vous puissiez faire pour protéger votre vie privée est d'être conscient des métadonnées que l'action que vous vous apprêtez à entreprendre pourrait créer, puis de déterminer comment les réduire ou les atténuer au mieux :
+
+- Les [VPN](/guides/less-important/vpns/) réputés n'enregistrent pas votre activité.
+- Certaines [messageries](https://thenewoil.org/en/guides/moderately-important/messaging/) utilisent diverses techniques pour rendre un tel enregistrement impossible.
+- L'utilisation du [navigateur Tor](https://www.torproject.org/) pour accéder à un site web empêche ce dernier de vous identifier de manière unique grâce à des métadonnées comme l'adresse IP ou l'empreinte numérique du navigateur.
+
+Ce ne sont là que quelques exemples de la manière dont certains outils peuvent aider à résoudre le problème des métadonnées.
+
+La quantité de métadonnées créées et enregistrées peut être assez vaste. Un [fabricant](https://www.scmp.com/tech/policy/article/3132091/chinese-tv-maker-skyworth-under-fire-excessive-data-collection-users) de téléviseurs connectés a été pris en train de scanner les noms des réseaux WiFi environnants, ainsi que de détecter chaque appareil sur le réseau local avec des informations détaillées les concernant.
+
+Heureusement, la plupart d'entre nous n'ont pas besoin d'être anonymes à 100 %, et des situations comme celles-ci sortent largement du [modèle de menace](/guides/prologue/threat-model/) (threat model) de la plupart des personnes lisant ces lignes. Cependant, **il est toujours judicieux de protéger ou d'éliminer vos métadonnées autant que possible.** Demandez-vous quelles métadonnées pourraient potentiellement fuiter et comment vous pouvez l'empêcher. Rappelez-vous de toujours équilibrer cela avec votre modèle de menace.

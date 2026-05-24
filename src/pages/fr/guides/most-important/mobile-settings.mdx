@@ -1,0 +1,111 @@
+---
+layout: "@layouts/guides.astro"
+title: "Mobile : Réglages"
+topic: "Réglages mobiles recommandés"
+weight: 8
+draft: false
+---
+
+# Appareils mobiles : Réglages
+
+**Veuillez noter** que votre [modèle de menace](/fr/guides/prologue/threat-model/), votre situation personnelle et votre sécurité sont la priorité absolue. Ces recommandations sont une solution générale équilibrée. Votre situation peut nécessiter d'adapter ces réglages différemment pour assurer votre propre sécurité ou celle de vos proches. Consultez mes critères [ici](/fr/criteria#mobile-settings--apps). Tout réglage non mentionné relève probablement de la préférence personnelle.
+
+## Android 16
+
+**_NOTE :_** _Selon votre appareil, certaines options peuvent varier. Ces réglages sont basés sur le Google Pixel et supposent que vous n'êtes pas connecté à votre compte Google sur l'appareil (voir les notes à la fin)._
+
+- Google > Tous les services > Quick Share > Qui peut partager avec vous : Désactivé, Vos appareils ou Contacts
+- Services Google > Tous les services > Annonces > Supprimer l'identifiant publicitaire
+- Services Google > Tous les services > Personnaliser à l'aide des données partagées : Tout désactiver
+- Services Google > Tous les services > Utilisation et diagnostics : Désactivé
+- Google > Tous les services > Recherche, Assistant et voix > Confidentialité et sécurité > Personnalisation de la recherche : Désactiver
+- Google > Tous les services > Recherche, Assistant et voix > Confidentialité et sécurité > Autres paramètres > Discover : Désactiver
+- Services Google > Tous les services > Protection avancée : À activer si vous utilisez un compte Google et ne comptez pas utiliser d'applications tierces (hors Play Store)
+- Réseau et Internet > Internet > Paramètres de l'opérateur > Protection du réseau 2G : Activé
+- Réseau et Internet > Internet > Paramètres de l'opérateur > Autoriser uniquement les réseaux chiffrés : Activé
+- Réseau et Internet > Internet > Préférences réseau > Autoriser les réseaux WEP : Désactivé
+- Réseau et Internet > Internet > Réseaux enregistrés : Supprimer les anciens réseaux
+- Réseau et Internet > DNS privé > Nom d'hôte du fournisseur de DNS privé : Un fournisseur de [cette liste](https://www.privacyguides.org/en/dns/) (Inutile si vous utilisez un [VPN](/fr/guides/less-important/vpns))
+- Appareils connectés > Préférences de connexion > Bluetooth : Désactiver hors usage
+- Appareils connectés > Thread : Désactiver hors usage
+- Appareils connectés > Préférences de connexion > Impression > Service d'impression par défaut : Désactiver
+- Appareils connectés > Préférences de connexion > Quick Share : Désactiver hors usage
+- Applications > Toutes les applications : Désinstaller ou désactiver les apps inutiles
+- Applications > Applications par défaut : Voir [Remplacer ses applications](/fr/guides/most-important/mobile-apps)
+- Notifications > Notifications d'applications : Désactiver pour les apps non critiques (les notifications peuvent servir à [envahir votre vie privée](https://www.wired.com/story/apple-google-push-notification-surveillance/))
+- Notifications > Historique des notifications : Désactivé
+- Notifications > Notifications sur l'écran de verrouillage : « Ne pas afficher les notifications »
+- Écran et tactile > Écran de verrouillage > Confidentialité : Ne pas afficher les notifications
+- Écran et tactile > Délai avant extinction : Le plus court possible pour votre confort
+- Fond d'écran et style : Évitez les photos personnelles (famille, etc.) sur l'écran de verrouillage
+- Système > Traduction instantanée : À désactiver sur les appareils non-Pixel (traitement cloud)
+- Sécurité et confidentialité > Déverrouillage de l'appareil > Verrouillage de l'écran : [Mot de passe fort](/fr/guides/most-important/passwords) de préférence, ou code PIN à 6 chiffres
+- Sécurité et confidentialité > Confirmation automatique du déverrouillage : Désactivé
+- Sécurité et confidentialité > Déverrouillage de l'appareil > Paramètres du verrouillage > Confidentialité améliorée du code PIN : Activé
+- Sécurité et confidentialité > Protection contre le vol : Verrouillage en cas de détection de vol : Activé
+- Sécurité et confidentialité > Protection contre le vol : Verrouillage de l'appareil hors connexion : Activé
+- Sécurité et confidentialité > Commandes de confidentialité > Gestionnaire de permissions : Réviser et révoquer l'inutile
+- Sécurité et confidentialité > Commandes de confidentialité > Plus de paramètres de sécurité > Personnalisation par les données des applis : Désactivé
+- Sécurité et confidentialité > Commandes de confidentialité > Plus de paramètres de sécurité > Android System Intelligence > Personnaliser avec les données du compte Google : Désactivé
+- Sécurité et confidentialité > Commandes de confidentialité > Plus de paramètres de sécurité > Verrouillage de la carte SIM : Activer (contactez votre opérateur pour le PIN)
+- Position : Désactiver si inutilisé, sinon limiter par application
+- Position > Services de localisation : Tout désactiver
+- Mots de passe, clés de passage et comptes : Vider les mots de passe enregistrés, utiliser un [gestionnaire tiers](/fr/guides/most-important/passwords)
+- Accessibilité > TalkBack > Paramètres > Synthèse vocale > Rapports d'utilisation anonymes : Désactivé
+
+- **_Note :_** _Il est possible d'utiliser Android sans compte Google pour plus de vie privée. Utilisez [F-Droid](https://f-droid.org/) pour les apps Open Source et [Aurora Store](https://auroraoss.com) comme proxy du Play Store pour le reste._
+- **_Note :_** _Android permet des stratégies puissantes (profils utilisateurs, OS alternatifs) qui dépassent le cadre de ce site. Consultez la [page Android de Privacy Guides](https://www.privacyguides.org/en/android/) pour aller plus loin._
+
+## iOS 26
+
+- Compte Apple (votre nom en haut) > Connexion et sécurité > Identification à deux facteurs > Clés de sécurité : Configurer (si vous utilisez iCloud)
+- Compte Apple > iCloud > Tout désactiver (Videz les données d'iCloud avant) (_Note :_ voir la [Protection avancée des données](/fr/guides/less-important/backups/#iclouds-advanced-data-protection-program))
+- Compte Apple > iCloud > Sauvegarde iCloud : Désactivé (voir mes conseils de [sauvegarde](/fr/guides/less-important/backups/))
+- Compte Apple > Localiser > Localiser mon iPhone : Activé (requis pour la [protection en cas de vol](https://support.apple.com/fr-fr/HT212510))
+- Compte Apple > Médias et achats > Compte > Recommandations personnalisées : Désactivé
+- Compte Apple > [Nom de votre iPhone] > Localiser : Réseau Localiser : Désactivé
+- Compte Apple > [Nom de votre iPhone] > Localiser : Envoyer la dernière position : Désactivé
+- Compte Apple > Vérification de la clé de contact : Activé
+- Wi-Fi > Modifier (en haut à droite) > Supprimer les anciens réseaux
+- Wi-Fi > [Votre réseau] > Adresse Wi-Fi privée : Rotative
+- Wi-Fi > [Votre réseau] > Limiter le suivi de l'adresse IP : Oui
+- Wi-Fi > Configurer le DNS : Un fournisseur de [cette liste](https://www.privacyguides.org/en/dns/) (Inutile si VPN)
+- Wi-Fi > Désactiver quand vous n'êtes pas connecté
+- Wi-Fi > Connexion aux points d'accès : Jamais
+- Bluetooth : Désactivé sauf besoin
+- Réseau cellulaire > PIN de la carte SIM : Créer un [PIN](https://support.apple.com/fr-fr/HT201529) personnalisé
+- Réseau cellulaire > Assistance Wi-Fi : Désactivé
+- Général > Mise à jour logicielle > Mises à jour automatiques > Installation automatique : Activé
+- Général > AirDrop : Réception désactivée (activer uniquement au besoin)
+- Général > AirPlay et Continuité > AirPlay automatique : Jamais ou Demander
+- Général > Saisie automatique et mots de passe > Remplir avec : Votre [gestionnaire de mots de passe](/fr/guides/most-important/passwords/)
+- Général > Clavier > Activer la dictée : Désactivé
+- Luminosité et affichage > Verrouillage automatique : Le plus court possible
+- Recherche > Afficher les recherches récentes : Désactivé
+- Siri et recherche > Détecter « Dis Siri » : Désactivé
+- Siri et recherche > Historique de Siri et Dictée : Supprimer l'historique
+- Siri et recherche > Suggestions : Tout désactiver
+- Notifications > Afficher les aperçus : Jamais ou Si déverrouillé
+- Notifications > Partage d'écran : Notifications désactivées
+- Notifications > Style de notification : Désactiver pour les apps non critiques
+- Face ID / Touch ID et code > Protection en cas de vol de l'appareil : Activé
+- Face ID / Touch ID et code > Changer le code : [Mot de passe fort](/fr/guides/most-important/passwords) ou PIN à 6 chiffres
+- Face ID / Touch ID et code > Exiger le code : Immédiatement
+- Face ID / Touch ID et code > Autoriser l'accès en mode verrouillé : Le moins possible
+- Face ID / Touch ID et code > Effacer les données : Activé (**Attention, assurez-vous de bien comprendre ce réglage**)
+- Confidentialité et sécurité > Service de localisation : Désactiver l'inutile. Pour le reste : « Lorsque l'app est active »
+- Confidentialité et sécurité > Service de localisation > Services système : Tout désactiver sauf Localiser mon iPhone
+- Confidentialité et sécurité > Suivi : Autoriser les demandes de suivi : Désactivé
+- Confidentialité et sécurité > Analyse et améliorations : Tout désactiver
+- Confidentialité et sécurité > Publicité Apple > Publicités personnalisées : Désactivé
+- Confidentialité et sécurité > Mode Isolement (Lockdown Mode) : Activé (C'est un mode très restrictif mais hautement sécurisé)
+- Apps > Apps par défaut > Mail : [Fournisseur chiffré de votre choix](/fr/guides/moderately-important/email)
+- Apps > Apps par défaut > Navigateur : [Brave](https://apps.apple.com/fr/app/brave-private-browser/id1052879175), [Firefox Focus](https://www.mozilla.org/fr/firefox/browsers/mobile/focus/) ou [Safari sécurisé](https://www.privacyguides.org/en/mobile-browsers/#safari)
+- Apps > Messages > Garder les messages : 30 jours
+- Apps > Messages > Confirmations de lecture : Désactivé
+- Apps > Téléphone > Appels d'inconnus silencieux : Activé
+- Temps d'écran > Sécurité des communications : Désactivé
+- Temps d'écran > Restrictions relatives au contenu et à la confidentialité : Activé
+- Temps d'écran > Restrictions [...] > Modifications autorisées : Tout mettre sur « Ne pas autoriser ». Cela empêchera des changements automatiques lors d'une mise à jour.
+
+En ajustant ces réglages, vous réduisez considérablement le pistage, même si vous ne l'éliminez pas totalement.

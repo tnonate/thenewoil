@@ -1,0 +1,90 @@
+{
+    "criterias": [
+        "Similaire à",
+        "Instances recommandées"
+    ],
+    "tools": {
+        "friendica": {
+            "name": "Friendica",
+            "logo": "/images/logos/friendica.png",
+            "link": "https://friendi.ca/",
+            "values": {
+                "Platform": "Friendica",
+                "Similaire à": "Facebook",
+                "Instances recommandées": "[Pas d'instance spécifique](https://dir.friendica.social/servers)"
+            }
+        },
+        "funkwhale": {
+            "name": "Funkwhale",
+            "logo": "/images/logos/funkwhale.png",
+            "link": "https://funkwhale.audio/",
+            "values": {
+                "Similaire à": "Soundcloud, Spotify, Apple Music, etc.",
+                "Instances recommandées": "[Pas d'instance spécifique](https://www.funkwhale.audio/join/)"
+            }
+        },
+        "lemmy": {
+            "name": "Lemmy",
+            "logo": "/images/logos/lemmy.png",
+            "link": "https://join-lemmy.org/",
+            "values": {
+                "Similaire à": "Reddit",
+                "Instances recommandées": "[Pas d'instance spécifique](https://join-lemmy.org/)"
+            }
+        },
+        "loops": {
+            "name": "Loops",
+            "logo": "/images/logos/loops.png",
+            "link": "https://loops.video/",
+            "values": {
+                "Similaire à": "TikTok",
+                "Instances recommandées": "[Pas d'instance spécifique](https://loops.video)"
+            }
+        },
+        "mastodon": {
+            "name": "Mastodon",
+            "logo": "/images/logos/mastodon.png",
+            "link": "https://joinmastodon.org/",
+            "values": {
+                "Similaire à": "Twitter, Threads, Bluesky",
+                "Instances recommandées": "[Mastodon.TheNewOil.org](https://mastodon.thenewoil.org/home) par The New Oil"
+            }
+        },
+        "peertube": {
+            "name": "PeerTube",
+            "logo": "/images/logos/peertube.png",
+            "link": "https://joinpeertube.org/fr",
+            "values": {
+                "Similaire à": "YouTube, Vimeo",
+                "Instances recommandées": "[Apertatube](https://apertatube.net/) par The New Oil"
+            }
+        },
+        "pixelfed": {
+            "name": "PixelFed",
+            "logo": "/images/logos/pixelfed.png",
+            "link": "https://pixelfed.org/",
+            "values": {
+                "Similaire à": "Instagram",
+                "Instances recommandées": "[Pas d'instance spécifique](https://pixelfed.org/servers)"
+            }
+        },
+        "blogging": {
+            "name": "Ghost, WordPress, WriteFreely",
+            "logo": "/images/logos/blogging.png",
+            "link": "#",
+            "values": {
+                "Similaire à": "Tumblr, Substack, Wordpress",
+                "Instances recommandées": "[Ghost.org](https://ghost.org/), [WordPress.org](https://wordpress.org/), [Write.As](https://write.as/) (Respectivement)"
+            }
+        },
+        "matrix": {
+            "name": "Matrix",
+            "logo": "/images/logos/matrix.png",
+            "link": "https://matrix.org/",
+            "values": {
+                "Similaire à": "Discord, Slack",
+                "Instances recommandées": "[Pas d'instance spécifique](https://servers.joinmatrix.org/)"
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Gelez votre dossier de crédit",
+        "description": "Un gel de crédit empêche quiconque, sauf vous, d'ouvrir de nouveaux comptes à votre nom. Cette page vous expliquera comment mettre en place des gels de crédit, des alertes de fraude et d'autres conseils pour protéger votre identité.",
+        "link": "/fr/guides/most-important/credit"
+    },
+    {
+        "title": "Utilisez des services de masquage de paiement",
+        "description": "Les achats en ligne sont pratiques, mais ils facilitent le vol de numéros de carte bancaire. Cette page vous apprendra à protéger vos finances numériques contre le vol.",
+        "link": "/fr/guides/most-important/payments"
+    },
+    {
+        "title": "Sécurisez vos comptes en ligne",
+        "description": "La majorité des piratages sont dus à de mauvaises habitudes de mots de passe. Ces pages vous apprendront ce qu'est un bon mot de passe, comment les gérer et les différents types de double authentification (2FA).",
+        "link": "/fr/guides/most-important/passwords"
+    },
+    {
+        "title": "Supprimez vos données des sites de recherche publics",
+        "description": "Une grande partie de votre vie est disponible en ligne (adresses, proches, employeurs). Ces infos peuvent être détournées pour répondre à des questions de sécurité. Apprenez ici comment les supprimer.",
+        "link": "/fr/guides/moderately-important/people-search"
+    },
+    {
+        "title": "Plantez votre drapeau",
+        "description": "Cette section explique comment réduire les fuites via les réseaux sociaux et s'assurer que personne ne puisse usurper votre identité sur des sites importants (impôts, santé, etc.).",
+        "link": "/fr/guides/less-important/misc#hygiène-des-comptes"
+    }
+]
