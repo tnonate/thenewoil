@@ -37,15 +37,6 @@
         "AI": "No"
       }
     },
-    "qwant": {
-      "name": "Qwant",
-      "logo": "/images/logos/qwant.png",
-      "link": "https://www.qwant.com/",
-      "values": {
-        "Index": "Qwant",
-        "AI": "No"
-      }
-    },
     "searx": {
       "name": "SearXNG",
       "logo": "/images/logos/searxng.png",

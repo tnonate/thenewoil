@@ -16,15 +16,6 @@
         ]
       }
     },
-    "tiktok": {
-      "name": "TikTok",
-      "values": {
-        "Alternatives": [
-          "[StickTock](https://sticktock.com/)",
-          "[ProxiTalk](https://github.com/pablouser1/ProxiTok/wiki/Public-instances)"
-        ]
-      }
-    },
     "twitter": {
       "name": "Twitter",
       "values": {

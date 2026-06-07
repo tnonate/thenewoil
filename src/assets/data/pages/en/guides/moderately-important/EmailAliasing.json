@@ -12,6 +12,8 @@
       "Discounts to other services available through their [partnerships](https://addy.io/perks/)"
     ],
     "cons": [
+      "Limits on bandwidth on lower plans",
+      "Limits on replies/sends on all plans"
     ]
   },
   "mailx": {
@@ -38,7 +40,7 @@
     "link": "https://simplelogin.io/?slref=thenewoil",
     "use_cases": [
       "Best for people who use Proton and prefer to bundle or like ecosystems",
-      "Best for people on a budget who do send or receive lots emails"
+      "Best for people who send or receive lots emails"
     ],
     "pros": [
       "Included in Proton's Unlimited or higher plans",
