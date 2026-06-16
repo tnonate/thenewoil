@@ -1,51 +1,43 @@
 ---
-import { borderGradient } from '@styles/common';
-import { makeVariator, type GetVariants } from '@utils/style';
-import { twJoin } from 'tailwind-merge';
+import { borderGradient } from "@styles/common";
+import { makeVariator, type GetVariants } from "@utils/style";
+import { twJoin } from "tailwind-merge";
 
 type BaseProps = {
   /** Should be used to specifiy if a link is external */
   external?: boolean;
-}
+};
 
 export type BaseElementProps = astroHTML.JSX.AnchorHTMLAttributes & astroHTML.JSX.ButtonHTMLAttributes;
 export type Variants = GetVariants<typeof variator>;
 export type Props = BaseElementProps & BaseProps & Variants;
 
-const variator = makeVariator({
-  contained: {
-    base: "text-primary no-underline shadow-md border-none",
-    color: {
-      primary: "bg-linear-to-br from-gradient-primary-start to-gradient-primary-end text-primary-dark",
-      secondary: "bg-linear-to-br from-gradient-secondary-start to-gradient-secondary-end text-primary-dark"
+const variator = makeVariator(
+  {
+    contained: {
+      base: "text-primary no-underline shadow-md border-none",
+      color: {
+        primary: "bg-linear-to-br from-gradient-primary-start to-gradient-primary-end text-primary-dark",
+        secondary: "bg-linear-to-br from-gradient-secondary-start to-gradient-secondary-end text-primary-dark"
+      }
+    },
+    outlined: {
+      base: twJoin("border-4 text-primary-dark dark:text-primary", borderGradient.base),
+      color: {
+        primary: borderGradient.variants.primary.base,
+        secondary: borderGradient.variants.secondary.base
+      },
+      bgColor: borderGradient.variants.primary.bgColor
     }
   },
-  outlined: {
-    base: twJoin("border-4 text-primary-dark dark:text-primary", borderGradient.base),
-    color: {
-      primary: borderGradient.variants.primary.base,
-      secondary: borderGradient.variants.secondary.base
-    },
-    bgColor:  borderGradient.variants.primary.bgColor
-  } ,
-}, "uppercase w-fit rounded-lg inline-flex items-center justify-center px-4 py-3 text-center");
+  "uppercase w-fit rounded-lg inline-flex items-center justify-center px-4 py-3 text-center"
+);
 
-const {
-  class: className = "",
-  external,
-  variant,
-  color,
-  bgColor,
-  ...props
-} = Astro.props;
+const { class: className = "", external, variant, color, bgColor, ...props } = Astro.props;
 
 const Component = props.href !== undefined ? "a" : "button";
 ---
 
-<Component
-  class={variator(className, { variant, color, bgColor })}
-  target={external && "_blank"}
-  {...props as any}
->
+<Component class={variator(className, { variant, color, bgColor })} target={external && "_blank"} {...props as any}>
   <slot />
 </Component>

@@ -10,24 +10,26 @@ interface Item {
 interface Props {
   items: Item[];
   color: "primary" | "secondary";
-  callToAction: string
+  callToAction: string;
 }
 
-const { items, color,callToAction } = Astro.props;
+const { items, color, callToAction } = Astro.props;
 ---
 
 <div
-  class="grid w-full grid-cols-2 justify-center gap-2 overflow-auto motion-safe:transition-all xs:gap-4 sm:gap-8 2xl:grid-cols-4"
+  class="xs:gap-4 grid w-full grid-cols-2 justify-center gap-2 overflow-auto motion-safe:transition-all sm:gap-8 2xl:grid-cols-4"
 >
   {
     items.map((item) => {
-return <Card
-    title={item.title}
-    description={item.description}
-    link={item.link}
-    color={color}
-    callToAction={callToAction}
-  />;
+      return (
+        <Card
+          title={item.title}
+          description={item.description}
+          link={item.link}
+          color={color}
+          callToAction={callToAction}
+        />
+      );
     })
   }
 </div>

@@ -1,15 +1,13 @@
 ---
-import {createMarkdownProcessor } from "@astrojs/markdown-remark";
+import { createMarkdownProcessor } from "@astrojs/markdown-remark";
 const processor = await createMarkdownProcessor();
-
 
 export type Props = {
   /** We escape this, Nate should vet the content that goes in here anyways */
-  content: string
-}
+  content: string;
+};
 
-const html = await processor.render(Astro.props.content)
+const html = await processor.render(Astro.props.content);
 ---
 
 <Fragment set:html={html} />
-

@@ -11,7 +11,7 @@ const headingId = await textToHeadingId({
 });
 ---
 
-<div class="m-auto flex flex-col gap-8 rounded-lg bg-tertiary p-8 text-center shadow-md dark:bg-tertiary-dark">
+<div class="bg-tertiary dark:bg-tertiary-dark m-auto flex flex-col gap-8 rounded-lg p-8 text-center shadow-md">
   <h1 id={headingId} class="border-none p-0 text-center">{title}</h1>
   <div class="text-lg font-bold">
     <slot />

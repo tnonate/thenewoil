@@ -1,5 +1,5 @@
 ---
-import  Markdown  from "@components/Markdown.astro";
+import Markdown from "@components/Markdown.astro";
 import { borderGradient } from "@styles/common";
 import { twMerge } from "tailwind-merge";
 
@@ -44,7 +44,7 @@ const directionClasses = GRID_DIRECTION_CLASSES[directionKey];
   )}
   style={{ "--length": data.criterias.length + 1 }}
 >
-  <div class="h-full rounded-none border-b-4 border-gradient-secondary-center p-4 text-center"></div>
+  <div class="border-gradient-secondary-center h-full rounded-none border-b-4 p-4 text-center"></div>
   {
     data.criterias.map((criteria: string, index: number) => {
       const isLastCriteria = index === data.criterias.length - 1;
@@ -53,7 +53,7 @@ const directionClasses = GRID_DIRECTION_CLASSES[directionKey];
         <div
           class={`h-full p-4 text-center ${
             directionKey === "col" || (directionKey === "row" && !isLastCriteria)
-              ? "border-b-4 border-gradient-secondary-center"
+              ? "border-gradient-secondary-center border-b-4"
               : ""
           }`}
         >
@@ -72,7 +72,7 @@ const directionClasses = GRID_DIRECTION_CLASSES[directionKey];
           <div
             class={`flex w-full flex-col items-center p-4 text-center ${
               directionKey === "row" || (directionKey === "col" && !isLastTool)
-                ? "border-b-4 border-gradient-secondary-center"
+                ? "border-gradient-secondary-center border-b-4"
                 : ""
             }`}
           >
@@ -101,7 +101,7 @@ const directionClasses = GRID_DIRECTION_CLASSES[directionKey];
               <div
                 class={`h-full p-4 ${
                   (directionKey === "col" && !isLastTool) || (directionKey === "row" && !isLastCriteria)
-                    ? "border-b-4 border-gradient-secondary-center"
+                    ? "border-gradient-secondary-center border-b-4"
                     : ""
                 }`}
               >

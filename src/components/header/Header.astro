@@ -21,7 +21,7 @@ const headerTexts: HeaderTexts = (await import(`../../assets/data/layout/${langu
 ---
 
 <header
-  class="flex min-h-16 items-center justify-between bg-secondary px-6 text-primary-dark-contrast lg:shadow-xs lg:drop-shadow-xs"
+  class="bg-secondary text-primary-dark-contrast flex min-h-16 items-center justify-between px-6 lg:shadow-xs lg:drop-shadow-xs"
 >
   <div class="hidden flex-1 gap-2 lg:flex">
     <HeaderLink href="" lang={languageCode}>{headerTexts.home}</HeaderLink>
@@ -56,9 +56,7 @@ const headerTexts: HeaderTexts = (await import(`../../assets/data/layout/${langu
   </div>
 
   <details class="group/mobile-menu flex flex-col lg:hidden">
-    <summary
-      class="rounded-full bg-white/00 p-2 transition-all hover:bg-white/5 group-open/mobile-menu:bg-white/15"
-    >
+    <summary class="bg-white/00 rounded-full p-2 transition-all group-open/mobile-menu:bg-white/15 hover:bg-white/5">
       <div class="relative flex size-7 items-center justify-center">
         <Icon
           name="mdi:menu"
@@ -75,7 +73,7 @@ const headerTexts: HeaderTexts = (await import(`../../assets/data/layout/${langu
       </div>
     </summary>
     <div
-      class="absolute right-0 z-50 flex w-full flex-col gap-2 bg-secondary p-4 text-primary-dark-contrast shadow-md lg:hidden"
+      class="bg-secondary text-primary-dark-contrast absolute right-0 z-50 flex w-full flex-col gap-2 p-4 shadow-md lg:hidden"
     >
       <HeaderLink
         href="/guides/prologue"

@@ -1,6 +1,6 @@
 ---
-import { borderGradient } from '@styles/common';
-import { twMerge } from 'tailwind-merge';
+import { borderGradient } from "@styles/common";
+import { twMerge } from "tailwind-merge";
 
 interface Props {
   variant: "warning" | "secondary";
@@ -10,10 +10,12 @@ interface Props {
 const { variant, class: className = "" } = Astro.props;
 ---
 
-<div class={twMerge(
-  `px-2 py-8 rounded-lg border-4`,
-  borderGradient(undefined, { variant, bgColor: "primary"}),
-  className
-)}>
+<div
+  class={twMerge(
+    `px-2 py-8 rounded-lg border-4`,
+    borderGradient(undefined, { variant, bgColor: "primary" }),
+    className
+  )}
+>
   <slot />
 </div>

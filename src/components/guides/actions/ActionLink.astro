@@ -1,14 +1,14 @@
 ---
 import Button from "@components/controls/Button.astro";
 import { Icon } from "astro-icon/components";
-import {twMerge } from "tailwind-merge"
+import { twMerge } from "tailwind-merge";
 
-export type Props =  {
+export type Props = {
   url: string;
   class?: string;
   iconLeft?: string;
   iconRight?: string;
-}
+};
 
 const { url, iconLeft, iconRight, class: className = "" } = Astro.props;
 ---

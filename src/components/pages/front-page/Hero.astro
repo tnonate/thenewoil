@@ -16,14 +16,7 @@ const headingId = await textToHeadingId({
     <slot name="title" />
   </h1>
 
-  <div
-    class={
-    twJoin(
-      "border-0 py-8 xl:ml-10 xl:w-3/5 xl:border-l-4 xl:pl-12 2xl:ml-0 ",
-      BORDER_GRADIENT_PRIMARY_XL
-    )
-    }
-  >
+  <div class={twJoin("border-0 py-8 xl:ml-10 xl:w-3/5 xl:border-l-4 xl:pl-12 2xl:ml-0 ", BORDER_GRADIENT_PRIMARY_XL)}>
     <slot />
   </div>
 </div>

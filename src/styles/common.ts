@@ -10,19 +10,22 @@ export const borderGradient = makeVariator(
     primary: {
       base: "from-gradient-primary-start to-gradient-primary-end",
       bgColor: {
-        primary: "[--tw-border-gradient-background:#f4f4f5] dark:[--tw-border-gradient-background:#18181b]",
+        primary:
+          "[--tw-border-gradient-background:#f4f4f5] dark:[--tw-border-gradient-background:#18181b]",
       },
     },
     secondary: {
       base: "from-gradient-secondary-start to-gradient-secondary-end",
       bgColor: {
-        primary: "[--tw-border-gradient-background:#f4f4f5] dark:[--tw-border-gradient-background:#18181b]",
+        primary:
+          "[--tw-border-gradient-background:#f4f4f5] dark:[--tw-border-gradient-background:#18181b]",
       },
     },
     warning: {
       base: "from-gradient-warning-start to-gradient-warning-end",
       bgColor: {
-        primary: "[--tw-border-gradient-background:#f4f4f5] dark:[--tw-border-gradient-background:#18181b]",
+        primary:
+          "[--tw-border-gradient-background:#f4f4f5] dark:[--tw-border-gradient-background:#18181b]",
       },
     },
   },

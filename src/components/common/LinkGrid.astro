@@ -1,6 +1,6 @@
 ---
-import { borderGradient } from '@styles/common';
-import { twJoin, twMerge } from 'tailwind-merge';
+import { borderGradient } from "@styles/common";
+import { twMerge } from "tailwind-merge";
 
 interface LinkItem {
   name: string;
@@ -28,19 +28,19 @@ const { items } = Astro.props;
       return (
         <li class="flex list-none" title={item.not_encouraged ? "Not encouraged" : ""}>
           <Container
-      class={twMerge(
-        `flex flex-1 items-center gap-4 rounded-lg border-4 p-4 decoration-blue-400 `,
-        item.not_encouraged && "decoration-blue-400",
-        borderGradient(undefined, {
-          variant: item.not_encouraged ? "warning" : "primary",
-          bgColor: "primary"
-        })
-      )}
+            class={twMerge(
+              `flex flex-1 items-center gap-4 rounded-lg border-4 p-4 decoration-blue-400`,
+              item.not_encouraged && "decoration-blue-400",
+              borderGradient(undefined, {
+                variant: item.not_encouraged ? "warning" : "primary",
+                bgColor: "primary"
+              })
+            )}
             href={!hasSubLink && item.link}
           >
             <PossibleLink
               href={hasSubLink && item.link}
-              class="aspect-square h-10 w-10 border-none transition-all xs:h-16 xs:w-16 sm:h-20 sm:w-20 md:h-24 md:w-24"
+              class="xs:h-16 xs:w-16 aspect-square h-10 w-10 border-none transition-all sm:h-20 sm:w-20 md:h-24 md:w-24"
             >
               <img
                 loading="lazy"
@@ -52,14 +52,14 @@ const { items } = Astro.props;
             <div class="flex w-fit flex-col justify-center decoration-inherit">
               <PossibleLink
                 href={hasSubLink && item.link}
-                class="border-none text-base font-medium decoration-inherit motion-safe:transition-all xs:text-lg sm:break-normal sm:text-xl"
+                class="xs:text-lg border-none text-base font-medium decoration-inherit motion-safe:transition-all sm:text-xl sm:break-normal"
               >
                 {item.name}
               </PossibleLink>
               {item.sublink && item.subtext && (
                 <a
                   href={item.sublink}
-                  class="w-fit text-primary-contrast/800 decoration-inherit dark:text-primary-dark-contrast/80"
+                  class="text-primary-contrast/800 dark:text-primary-dark-contrast/80 w-fit decoration-inherit"
                 >
                   {/* In the built output Astro does not preserve the whitespace, hence this workaround */}
                   {item.subtext.split("\n").map((line) => (
@@ -68,7 +68,7 @@ const { items } = Astro.props;
                 </a>
               )}
               {!item.sublink && item.subtext && (
-                <p class="block w-fit text-primary-contrast/80 dark:text-primary-dark-contrast/80">
+                <p class="text-primary-contrast/80 dark:text-primary-dark-contrast/80 block w-fit">
                   {/* In the built output Astro does not preserve the whitespace, hence this workaround */}
                   {item.subtext.split("\n").map((line) => (
                     <span class="block">{line}</span>

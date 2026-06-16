@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 /* @config '../../tailwind.config.cjs'; */
 @theme {
@@ -32,9 +32,9 @@
   --color-warning: var(--color-orange-500);
   --color-warning-contrast: var(--color-zinc-100);
 
-    --font-roboto: Roboto;
-    --font-robotomono: "Roboto Mono";
-    --breakpoint-xs:  320px;
+  --font-roboto: Roboto;
+  --font-robotomono: "Roboto Mono";
+  --breakpoint-xs: 320px;
 }
 
 @layer base {
