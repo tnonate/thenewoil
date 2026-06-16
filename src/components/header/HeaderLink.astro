@@ -25,11 +25,11 @@ if (active === undefined) {
   data-active={String(active)}
   class={[
     "rounded-md px-5 py-2 font-medium transition-all",
-    variant === "default" && "bg-white bg-opacity-0 hover:bg-opacity-5 data-[active='true']:bg-opacity-[.15]",
+    variant === "default" && "bg-white/0 hover:bg-white/5 data-[active='true']:bg-white/15",
     variant === "primary" &&
-      "bg-gradient-primary text-primary hover:opacity-80 hover:underline data-[active='true']:underline",
+      "bg-linear-to-br from-gradient-primary-start to-gradient-primary-end text-primary hover:opacity-80 hover:underline data-[active='true']:underline",
     variant === "secondary" &&
-      "bg-gradient-secondary text-secondary hover:opacity-80 hover:underline data-[active='true']:underline"
+      "bg-linear-to-br from-gradient-secondary-start to-gradient-secondary-end text-secondary hover:opacity-80 hover:underline data-[active='true']:underline"
   ]
     .filter(Boolean)
     .join(" ")}

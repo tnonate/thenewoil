@@ -21,7 +21,7 @@ const headerTexts: HeaderTexts = (await import(`../../assets/data/layout/${langu
 ---
 
 <header
-  class="flex min-h-[4rem] items-center justify-between bg-secondary px-6 text-primary-dark-contrast lg:shadow lg:drop-shadow-sm"
+  class="flex min-h-16 items-center justify-between bg-secondary px-6 text-primary-dark-contrast lg:shadow-xs lg:drop-shadow-xs"
 >
   <div class="hidden flex-1 gap-2 lg:flex">
     <HeaderLink href="" lang={languageCode}>{headerTexts.home}</HeaderLink>
@@ -41,7 +41,7 @@ const headerTexts: HeaderTexts = (await import(`../../assets/data/layout/${langu
       alt="The New Oil logo"
       width="68"
       height="100"
-      class="h-auto max-w-[1.25rem] text-[0px]"
+      class="h-auto max-w-5 text-[0px]"
     />
   </a>
 
@@ -57,7 +57,7 @@ const headerTexts: HeaderTexts = (await import(`../../assets/data/layout/${langu
 
   <details class="group/mobile-menu flex flex-col lg:hidden">
     <summary
-      class="rounded-full bg-white bg-opacity-0 p-2 transition-all hover:bg-opacity-5 group-open/mobile-menu:bg-opacity-[.15]"
+      class="rounded-full bg-white/00 p-2 transition-all hover:bg-white/5 group-open/mobile-menu:bg-white/15"
     >
       <div class="relative flex size-7 items-center justify-center">
         <Icon

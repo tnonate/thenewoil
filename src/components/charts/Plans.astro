@@ -1,5 +1,7 @@
 ---
-import { Markdown } from "@astropub/md";
+import { Markdown } from "@components/Markdown.astro";
+import { borderGradient } from "@styles/common";
+import { twMerge } from "tailwind-merge";
 
 interface Tool {
   name: string;
@@ -24,15 +26,19 @@ const { data, direction: directionKey = "col", nonReferralLinkText = "Non-referr
 ---
 
 <div
-  class={`rounded-lg border-4 border-gradient-secondary border-bg-primary dark:border-bg-primary-dark grid w-full overflow-auto ${
+  class={twMerge(
+    "rounded-lg border-4 grid w-full overflow-auto",
+    borderGradient(undefined, {
+      variant: "secondary",
+      bgColor: "primary"
+    }),
     directionKey === "row"
       ? `grid-flow-row grid-cols-[repeat(var(--length),auto)]`
       : `grid-flow-col grid-rows-[repeat(var(--length),auto)]`
-  }`}
+  )}
   style={`--length: ${data.criterias.length + 2}`}
 >
-  <div class="h-full rounded-none border-b-4 border-gradient-secondary-center p-4"></div>
-  <div class="h-full rounded-none border-b-4 border-gradient-secondary-center p-4"></div>
+  <div class="h-full rounded-none border-b-4 border-gradient-secondary-center p-4 "></div>
   {
     data.criterias.map((criteria: string, index: number) => {
       return (
@@ -42,7 +48,7 @@ const { data, direction: directionKey = "col", nonReferralLinkText = "Non-referr
             "border-b-4 border-gradient-secondary-center"
           }`}
         >
-          <Markdown of={String(criteria)} />
+          <Markdown content={String(criteria)} />
         </div>
       );
     })
@@ -84,7 +90,7 @@ const { data, direction: directionKey = "col", nonReferralLinkText = "Non-referr
                       : planIndex != data.criterias.length - 1) && "border-b-4 border-gradient-secondary-center"
                   }`}
                 >
-                  <Markdown of={String(planKey)} />
+                  <Markdown content={String(planKey)} />
                 </div>
                 {Object.values(tool.plans[planKey]).map((criteriaValue: string, index: number) => {
                   return (
@@ -95,7 +101,7 @@ const { data, direction: directionKey = "col", nonReferralLinkText = "Non-referr
                           : index != data.criterias.length - 1) && "border-b-4 border-gradient-secondary-center"
                       }`}
                     >
-                      <Markdown of={String(criteriaValue)} />
+                      <Markdown content={String(criteriaValue)} />
                     </div>
                   );
                 })}

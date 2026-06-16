@@ -36,7 +36,11 @@ const { headings } = Astro.props;
   class="group/sidebar-mobile flex w-full flex-col overflow-auto bg-tertiary p-4 lg:hidden dark:bg-tertiary-dark"
 >
   <summary
-    class="flex items-center justify-center rounded-lg border-2 border-black border-opacity-10 p-4 text-center text-lg font-bold transition-all group-open/sidebar-mobile:border-opacity-20 dark:border-white/[var(--tw-border-opacity)]"
+    class="
+      flex items-center justify-center rounded-lg border-2 p-4 text-center text-lg font-bold transition-all
+      border-black/10 group-open/sidebar-mobile:border-black/20
+      dark:border-white/10 dark:group-open/sidebar-mobile:border-white/20
+    "
     aria-hidden
   >
     Navigation

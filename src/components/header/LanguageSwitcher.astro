@@ -15,7 +15,7 @@ const currentLanguage = getLanguageFromUrl(Astro.url);
 
 <details class={`group relative h-fit flex-col justify-center gap-2 ${className}`}>
   <summary
-    class={`flex items-center rounded-md bg-white bg-opacity-0 px-5 py-2 transition-all hover:bg-opacity-5 group-open:bg-opacity-[.15] ${summaryClass}`}
+    class={`flex items-center rounded-md bg-white/0 px-5 py-2 transition-all hover:bg-white/5 group-open:bg-white/15 ${summaryClass}`}
   >
     <Icon name="mdi:web" class="size-7" role="img" aria-label="Web icon" />
     <Icon
@@ -34,7 +34,7 @@ const currentLanguage = getLanguageFromUrl(Astro.url);
         return (
           <a
             aria-disabled={currentLanguage.code === language.code}
-            class="flex w-full min-w-max items-center gap-4 rounded-md bg-white bg-opacity-0 px-4 py-3 font-medium transition-all hover:bg-opacity-5 aria-disabled:pointer-events-none aria-disabled:bg-opacity-[.15] aria-disabled:hover:bg-opacity-[.15]"
+            class="flex w-full min-w-max items-center gap-4 rounded-md bg-white/0 px-4 py-3 font-medium transition-all hover:bg-white/5 aria-disabled:pointer-events-none aria-disabled:bg-white/15 aria-disabled:hover:bg-white/15"
             href={url}
             hreflang={language.code}
           >

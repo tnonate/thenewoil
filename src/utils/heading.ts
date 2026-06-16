@@ -1,11 +1,9 @@
-import { markdown } from "@astropub/md";
-import { parseHTML } from "linkedom";
+import { createMarkdownProcessor } from "@astrojs/markdown-remark";
+const processor = await createMarkdownProcessor();
 
 const idFromText = async (text: string) => {
-  const html = await markdown(`# ${text}`);
-  const { document } = parseHTML(html);
-  const nsHeading = document.querySelector("h1");
-  return nsHeading!.id;
+  const html = await processor.render(`# ${text}`);
+  return html.metadata.headings.at(0)!.slug;
 };
 
 export interface TextToHeadingIdOptions {

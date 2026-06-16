@@ -1,5 +1,7 @@
 ---
-import { Markdown } from "@astropub/md";
+import  Markdown  from "@components/Markdown.astro";
+import { borderGradient } from "@styles/common";
+import { twMerge } from "tailwind-merge";
 
 export type Directions = "row" | "col";
 
@@ -33,7 +35,13 @@ const directionClasses = GRID_DIRECTION_CLASSES[directionKey];
 ---
 
 <div
-  class={`overflow-auto border-4 rounded-lg border-gradient-secondary border-bg-primary dark:border-bg-primary-dark grid w-full auto-cols-fr ${directionClasses}`}
+  class={twMerge(
+    borderGradient(`overflow-auto border-4 rounded-lg grid w-full auto-cols-fr`, {
+      variant: "secondary",
+      bgColor: "primary"
+    }),
+    directionClasses
+  )}
   style={{ "--length": data.criterias.length + 1 }}
 >
   <div class="h-full rounded-none border-b-4 border-gradient-secondary-center p-4 text-center"></div>
@@ -98,9 +106,9 @@ const directionClasses = GRID_DIRECTION_CLASSES[directionKey];
                 }`}
               >
                 {Array.isArray(criteriaValue) ? (
-                  criteriaValue.map((text) => <Markdown of={String(text)} />)
+                  criteriaValue.map((text) => <Markdown content={String(text)} />)
                 ) : (
-                  <Markdown of={String(criteriaValue)} />
+                  <Markdown content={String(criteriaValue)} />
                 )}
               </div>
             );

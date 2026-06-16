@@ -1,7 +1,7 @@
 // https://astro.build/config
 import { defineConfig } from "astro/config";
-import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
+import tailwindcss from "@tailwindcss/vite";
 import mdx from "@astrojs/mdx";
 import icon from "astro-icon";
 import compress from "astro-compress";
@@ -43,21 +43,12 @@ export default defineConfig({
     "/voipms/": "https://voip.ms/en/code/TheNewOil",
   },
   vite: {
-    css: {
-      preprocessorOptions: {
-        scss: {
-          api: "modern-compiler",
-        },
-      },
-    },
+    plugins: [tailwindcss()],
   },
   integrations: [
-    tailwind({
-      applyBaseStyles: false,
-    }),
     mdx(),
-    sitemap(),
     icon(),
+    sitemap(),
     robotsTxt({
       sitemap: false,
       policy: [

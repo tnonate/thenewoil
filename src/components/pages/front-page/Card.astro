@@ -1,18 +1,19 @@
 ---
-import Button, { type ColorKeys } from "@components/controls/Button.astro";
+import Button, { type Variants } from "@components/controls/Button.astro";
+import { borderGradient } from "@styles/common";
 
 interface Props {
   title: string;
   description: string;
   link: string;
-  color: ColorKeys;
+  color: Exclude<Variants['color'], undefined>;
   callToAction: string
 }
 
 const COLOR_CLASSES = {
-  primary: "border-gradient-primary",
-  secondary: "border-gradient-secondary"
-} as Record<ColorKeys, string>;
+  primary: borderGradient(undefined, { variant: "primary", bgColor: "primary" } ),
+  secondary: borderGradient(undefined, { variant: "secondary", bgColor: "primary" } )
+} as Record<Exclude<Variants['color'], undefined>, string>;
 
 const { title, description, link, color, callToAction } = Astro.props;
 
@@ -20,7 +21,7 @@ const colorClasses = COLOR_CLASSES[color];
 ---
 
 <article
-  class={`hidden sm:flex min-w-[18rem] flex-1 flex-col items-center justify-between gap-8 border-4 px-4 py-12 text-center rounded-lg border-bg-primary dark:border-bg-primary-dark ${colorClasses}`}
+  class={`hidden bg sm:flex min-w-[18rem] flex-1 flex-col items-center justify-between gap-8 border-4 px-4 py-12 text-center rounded-lg ${colorClasses}`}
 >
   <h3 class="font-robotomono">{title}</h3>
   <p>{description}</p>

@@ -1,5 +1,7 @@
 ---
 import { getGuidePages } from "@/guides";
+import { borderGradient } from "@styles/common";
+import { twMerge } from "tailwind-merge";
 
 const allPages = getGuidePages();
 const pages = allPages
@@ -14,7 +16,13 @@ const pages = allPages
         page.frontmatter.topic && (
           <li class="w-full list-none">
             <a
-              class="flex h-40 w-full items-center justify-center rounded-lg border-4 border-solid p-4 text-center font-semibold decoration-blue-400 decoration-2 underline-offset-2 border-gradient-secondary border-bg-primary hover:underline hover:opacity-75 dark:border-bg-primary-dark"
+      class={twMerge(
+        "flex h-40 w-full items-center justify-center rounded-lg border-4 border-solid p-4 text-center font-semibold decoration-blue-400 decoration-2 underline-offset-2 hover:underline hover:opacity-75 ",
+        borderGradient(undefined, {
+          variant: "secondary",
+          bgColor: "primary"
+        })
+      )}
               href={page.url}
             >
               {page.frontmatter.topic}
