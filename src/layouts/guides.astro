@@ -45,7 +45,7 @@ const language = getLanguageFromUrl(Astro.url);
       </details>
       <Sidebar class="hidden lg:block" />
       <div class="flex w-full flex-col items-center justify-between overflow-auto">
-        <main class="flex w-full max-w-(--breakpoint-2xl) flex-col gap-8 px-8 md:px-20">
+        <main class="w-full max-w-(--breakpoint-2xl) space-y-8 px-8 md:px-20">
           <slot />
           <Actions />
         </main>
