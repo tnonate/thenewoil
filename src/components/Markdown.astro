@@ -10,4 +10,4 @@ export type Props = {
 const html = await processor.render(Astro.props.content);
 ---
 
-<Fragment set:html={html} />
+<Fragment set:html={html.code} />
