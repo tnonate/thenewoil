@@ -1,6 +1,41 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+/* @config '../../tailwind.config.cjs'; */
+@theme {
+  --color-gradient-primary-start: #bb86fc;
+  --color-gradient-primary-center: #8a43fe;
+  --color-gradient-primary-end: #5800ff;
+
+  --color-gradient-secondary-start: #03dac6;
+  --color-gradient-secondary-center: #bb86fc;
+  --color-gradient-secondary-end: #0072ff;
+
+  --color-gradient-warning-start: #ed3b13;
+  --color-gradient-warning-center: #f6620a;
+  --color-gradient-warning-end: #ff8800;
+
+  --color-primary: var(--color-zinc-100);
+  --color-primary-contrast: var(--color-zinc-900);
+  --color-primary-dark: var(--color-zinc-900);
+  --color-primary-dark-contrast: var(--color-zinc-100);
+
+  --color-secondary: var(--color-zinc-800);
+  --color-secondary-contrast: var(--color-zinc-100);
+  --color-secondary-dark: var(--color-zinc-800);
+  --color-secondary-dark-contrast: var(--color-zinc-100);
+
+  --color-tertiary: var(--color-zinc-200);
+  --color-tertiary-contrast: var(--color-zinc-900);
+  --color-tertiary-dark: var(--color-zinc-800);
+  --color-tertiary-dark-contrast: var(--color-zinc-100);
+
+  --color-warning: var(--color-orange-500);
+  --color-warning-contrast: var(--color-zinc-100);
+
+  --font-roboto: Roboto;
+  --font-robotomono: "Roboto Mono";
+  --breakpoint-xs: 320px;
+}
 
 @layer base {
   :root {

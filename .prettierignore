@@ -1,5 +1,8 @@
 /public/**
 
+src/pages/**
+src/assets/**
+
 # Ignore build files
 /dist/**
 /build/**

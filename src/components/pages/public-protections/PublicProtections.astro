@@ -1,4 +1,7 @@
 ---
+import { borderGradient, TEXT_GRADIENT_SECONDARY } from "@styles/common";
+import { twJoin } from "tailwind-merge";
+
 interface MemberLink {
   name: string;
   link: string;
@@ -24,14 +27,17 @@ const { members } = Astro.props;
     members.map((member) => {
       return (
         <li
-          class="flex flex-1 list-none flex-col items-center rounded-lg border-4 p-4 border-gradient-secondary border-bg-primary sm:items-start dark:border-bg-primary-dark"
+          class={borderGradient("flex flex-1 list-none flex-col items-center rounded-lg border-4 p-4 sm:items-start", {
+            variant: "secondary",
+            bgColor: "primary"
+          })}
           aria-label="Member"
         >
           <div class="flex flex-col items-center justify-center sm:items-start">
             <p class="w-fit text-2xl font-semibold" aria-label="Name">
               {member.name}
             </p>
-            <p class="w-fit text-gradient-secondary" aria-label="Function">
+            <p class={twJoin("w-fit", TEXT_GRADIENT_SECONDARY)} aria-label="Function">
               {member.title}
             </p>
           </div>
@@ -42,14 +48,14 @@ const { members } = Astro.props;
                   <li class="list-none">
                     <a href={link.link} title={link.name}>
                       <img
-                        class="block h-12 w-12 rounded-sm dark:hidden"
+                        class="block h-12 w-12 rounded-xs dark:hidden"
                         loading="lazy"
                         alt={link.name}
                         src={link.icon}
                       />
                       <img
                         loading="lazy"
-                        class="hidden h-12 w-12 rounded-sm dark:block"
+                        class="hidden h-12 w-12 rounded-xs dark:block"
                         alt={link.name}
                         src={link.icon_dark || link.icon}
                       />

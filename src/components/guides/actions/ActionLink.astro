@@ -1,13 +1,14 @@
 ---
 import Button from "@components/controls/Button.astro";
 import { Icon } from "astro-icon/components";
+import { twMerge } from "tailwind-merge";
 
-interface Props {
+export type Props = {
   url: string;
   class?: string;
   iconLeft?: string;
   iconRight?: string;
-}
+};
 
 const { url, iconLeft, iconRight, class: className = "" } = Astro.props;
 ---
@@ -17,7 +18,7 @@ const { url, iconLeft, iconRight, class: className = "" } = Astro.props;
   color="primary"
   bgColor="primary"
   href={url}
-  class={`flex items-center justify-center gap-1 border-4 ${className}`}
+  class={twMerge(/* `flex items-center justify-center gap-1 border-4` */ className)}
 >
   {iconLeft && <Icon name={iconLeft} class="size-6" role="img" aria-label="Previous button icon" aria-hidden />}
   <span>

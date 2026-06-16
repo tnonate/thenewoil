@@ -1,5 +1,7 @@
 ---
+import { borderGradient } from "@styles/common";
 import { textToHeadingId } from "@utils/heading";
+import { twJoin } from "tailwind-merge";
 
 interface Props {
   title: string;
@@ -13,18 +15,21 @@ const headingId = await textToHeadingId({
 });
 ---
 
-<article class="flex min-h-[4rem]">
-  <header class="hidden w-1/3 max-w-xs items-center break-all px-4 py-2 sm:flex sm:break-words">
+<article class="flex min-h-16">
+  <header class="hidden w-1/3 max-w-xs items-center px-4 py-2 break-all sm:flex sm:wrap-break-word">
     <h2 id={headingId} class="text-2xl font-medium">{title}</h2>
   </header>
-  <div class="relative order-first w-[2px] bg-gradient-secondary-center sm:order-none" aria-hidden>
+  <div class="bg-gradient-secondary-center relative order-first w-0.5 sm:order-0" aria-hidden>
     <div
-      class="absolute left-1/2 top-1/2 size-3 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-solid bg-primary border-gradient-secondary border-bg-primary dark:bg-primary-dark dark:border-bg-primary-dark"
+      class={twJoin(
+        "absolute left-1/2 top-1/2 size-3 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-solid bg-primary dark:bg-primary-dark",
+        borderGradient(undefined, { variant: "secondary", bgColor: "primary" })
+      )}
     >
     </div>
   </div>
   <div class="flex flex-1 flex-col items-center gap-2 px-4 py-4 transition-all sm:flex-row sm:py-2">
-    <header class="flex w-full items-center break-all sm:hidden sm:break-words">
+    <header class="flex w-full items-center break-all sm:hidden sm:wrap-break-word">
       <h2 id={`${headingId}-mobile`} class="text-2xl font-medium">{title}</h2>
     </header>
     <slot />

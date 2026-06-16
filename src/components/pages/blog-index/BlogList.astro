@@ -1,6 +1,7 @@
 ---
 import BlogPages from "@assets/data/BlogPages.json";
-import { Markdown } from "@astropub/md";
+import Markdown from "@components/Markdown.astro";
+import { borderGradient } from "@styles/common";
 
 const length = BlogPages.length;
 BlogPages.sort((a, b) => {
@@ -9,7 +10,10 @@ BlogPages.sort((a, b) => {
 ---
 
 <div
-  class="flex w-full flex-col overflow-auto rounded-lg border-4 border-gradient-secondary border-bg-primary dark:border-bg-primary-dark"
+  class={borderGradient("flex w-full flex-col overflow-auto rounded-lg border-4", {
+    variant: "secondary",
+    bgColor: "primary"
+  })}
 >
   {
     BlogPages.map((page, index) => {
@@ -22,11 +26,11 @@ BlogPages.sort((a, b) => {
       return (
         <a
           class={`flex items-center justify-between rounded-t-lg p-4 decoration-blue-400 ${
-            index != length - 1 && "border-0 border-b-4 border-gradient-secondary"
+            index != length - 1 && borderGradient("border-0 border-b-4", { variant: "secondary" })
           }`}
           href={`https://blog.thenewoil.org/${page.slug}`}
         >
-          <Markdown of={page.title} />
+          <Markdown content={page.title} />
           <p>{createdDate}</p>
         </a>
       );
