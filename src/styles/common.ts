@@ -31,6 +31,3 @@ export const borderGradient = makeVariator(
   },
   "border-solid bg-origin-border border-transparent [background-clip:padding-box,border-box] bg-[linear-gradient(var(--tw-border-gradient-background),var(--tw-border-gradient-background)),linear-gradient(to_bottom_right,var(--tw-gradient-from),var(--tw-gradient-to))]",
 );
-
-export const BORDER_GRADIENT_PRIMARY_XL =
-  "xl:bg-origin-border xl:border-transparent xl:[--tw-border-gradient-background:var(--color-primary)] xl:dark:[--tw-border-gradient-background:var(--color-primary)] xl:[background-clip:padding-box,border-box] xl:bg-[linear-gradient(var(--tw-border-gradient-background),var(--tw-border-gradient-background)),linear-gradient(to_bottom_right,var(--tw-gradient-from),var(--tw-gradient-to))]";
