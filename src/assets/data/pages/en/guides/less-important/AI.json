@@ -10,6 +10,15 @@
         "Notes": "From DuckDuckGo"
       }
     },
+    "ensu": {
+      "name": "Ensu",
+      "logo": "/images/logos/ensu.png",
+      "link": "https://ente.com/ensu/",
+      "values": {
+        "Online or Offline": "Offline",
+        "Notes": "From ente"
+      }
+    },
     "gpt4all": {
       "name": "GPT4All",
       "logo": "/images/logos/gpt4all.png",
