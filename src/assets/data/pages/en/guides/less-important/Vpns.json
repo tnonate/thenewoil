@@ -18,9 +18,7 @@
       "Offers [email aliasing](/guides/moderately-important/email-aliasing) service (Plus plan)",
       "Includes Portmaster Pro (Pro Suite plan)"
     ],
-    "cons": [
-      "No free tier"
-    ]
+    "cons": ["No free tier"]
   },
   "mullvad": {
     "name": "Mullvad",

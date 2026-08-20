@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Files
-        uses: actions/checkout@main
+        uses: actions/checkout@v7
       - name: Validate Caddyfile
         run: |
           docker run -v ./caddy:/data ghcr.io/jonaharagon/caddy-build:latest caddy validate --config /data/Caddyfile

@@ -38,8 +38,7 @@ export function makeVariator<
       }
 
       const prop = variant![propKey as GetPropKeys<TVariants>] as
-        | Record<string, string>
-        | undefined;
+        Record<string, string> | undefined;
       const propVariant = prop?.[propVariantKey as string];
 
       if (!propVariant) {

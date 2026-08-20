@@ -1,5 +1,3 @@
-import { HTMLAnchorElement } from "linkedom";
-
 export interface TransformerConfig {
   protocolIdentifier: string;
   excludeStartWithPatterns: readonly string[];

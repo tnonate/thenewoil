@@ -4,11 +4,12 @@ import sitemap from "@astrojs/sitemap";
 import tailwindcss from "@tailwindcss/vite";
 import mdx from "@astrojs/mdx";
 import icon from "astro-icon";
-import compress from "astro-compress";
 import robotsTxt from "astro-robots-txt";
 import languagePlugin from "./plugins/astro-language";
 
 import config from "./config.json";
+
+import playformCompress from "@playform/compress";
 
 // https://astro.build/config
 export default defineConfig({
@@ -57,7 +58,10 @@ export default defineConfig({
         { disallow: "/", userAgent: "User-Agent: Google-Extended" },
       ],
     }),
-    compress({
+    languagePlugin({
+      supportedLanguageCodes: config.languages.map((lang) => lang.code),
+    }),
+    playformCompress({
       Logger: 1,
       JavaScript: false,
       CSS: {
@@ -70,9 +74,6 @@ export default defineConfig({
           removeComments: true,
         },
       },
-    }),
-    languagePlugin({
-      supportedLanguageCodes: config.languages.map((lang) => lang.code),
     }),
   ],
 });

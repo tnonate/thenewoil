@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Files
-        uses: actions/checkout@main
+        uses: actions/checkout@v7
       - name: Validate Caddyfile
         run: |
           docker run -v ./caddy:/data ghcr.io/jonaharagon/caddy-build:latest caddy validate --config /data/Caddyfile
@@ -25,10 +25,10 @@ jobs:
     if: github.event.repository.fork == false
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Sync node version and setup cache
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: 24
           cache: "npm"

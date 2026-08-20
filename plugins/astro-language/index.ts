@@ -3,7 +3,7 @@ import fs from "fs/promises";
 import { fileURLToPath } from "url";
 
 import type { AstroIntegration } from "astro";
-import { HTMLAnchorElement, HTMLElement, parseHTML } from "linkedom";
+import { parseHTML } from "linkedom";
 
 import { createAnchorTransformer } from "./module/transform-anchor";
 import { packageDir } from "./utils/packager";
@@ -124,7 +124,7 @@ const plugin = (options: Options): AstroIntegration => {
             const fileContent = (await fs.readFile(filePath)).toString();
 
             const { document } = parseHTML(fileContent);
-            const rootElement: HTMLElement = document.querySelector("html");
+            const rootElement = document.querySelector("html");
             if (!rootElement || !rootElement.lang) {
               return;
             }
@@ -139,9 +139,7 @@ const plugin = (options: Options): AstroIntegration => {
               publicPrefix: PUBLIC_PREFIX,
             });
 
-            const anchorElements = Array.from(
-              document.querySelectorAll("a"),
-            ) as HTMLAnchorElement[];
+            const anchorElements = Array.from(document.querySelectorAll("a"));
 
             const transformAnchorTasks = anchorElements.map(anchorTransformer);
             const changedAnchorsHrefs = (

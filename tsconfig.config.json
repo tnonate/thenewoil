@@ -15,6 +15,6 @@
     "esModuleInterop": true,
     "outDir": "./dist",
     "types": ["node"],
-    "lib": ["ESNext"]
+    "lib": ["ESNext", "DOM"]
   }
 }
