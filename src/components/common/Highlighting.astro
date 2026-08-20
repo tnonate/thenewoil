@@ -3,11 +3,11 @@ import { borderGradient } from "@styles/common";
 import { twMerge } from "tailwind-merge";
 
 interface Props {
-  variant: "warning" | "secondary";
+  variant: "primary" | "warning" | "secondary";
   class: string;
 }
 
-const { variant, class: className = "" } = Astro.props;
+const { variant = "secondary", class: className = "" } = Astro.props;
 ---
 
 <div
