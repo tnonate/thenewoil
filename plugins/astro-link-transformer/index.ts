@@ -8,13 +8,13 @@ import { parseHTML } from "linkedom";
 import { createAnchorTransformer } from "./module/transform-anchor";
 import { packageDir } from "./utils/packager";
 
-const PLUGIN_NAME = "astro-language-plugin";
-const CONSOLE_TAG = "🌐 Language-plugin: ";
+const PLUGIN_NAME = "astro-link-transformer-plugin";
+const CONSOLE_TAG = "🔗 link-transformer-plugin: ";
 const NODE_MODULE_NAME = `local-${PLUGIN_NAME}`;
 
 const LOCAL_PATH_PREFIXES = ["/"] as const;
 const PROTOCOL_IDENTIFIER = "://";
-const EXCLUDE_START_WITH_PATTERNS = ["mailto:", "./", "../"];
+const EXCLUDE_START_WITH_PATTERNS = ["./", "../"];
 
 const PUBLIC_PREFIX = "*PUBLIC*";
 
@@ -28,20 +28,15 @@ const runResolver = async <T>(resolver: T | Resolver<T>) => {
   return resolved instanceof Promise ? await resolved : resolved;
 };
 
-interface Options {
+interface LinkTransformerOptions {
   supportedLanguageCodes: string[] | Resolver<string[]>;
   logChanges?: boolean;
   pathToNodeModules?: string;
+  obfuscateEmail?: boolean;
 }
 
-interface Config {
-  supportedLanguageCodes: string[];
-  logChanges: boolean;
-  pathToNodeModules: string;
-}
-
-const plugin = (options: Options): AstroIntegration => {
-  let config: undefined | Config;
+const plugin = (options: LinkTransformerOptions): AstroIntegration => {
+  let config: Required<LinkTransformerOptions>;
 
   return {
     name: PLUGIN_NAME,
@@ -56,6 +51,7 @@ const plugin = (options: Options): AstroIntegration => {
           );
 
         config = {
+          obfuscateEmail: options.obfuscateEmail ?? false,
           supportedLanguageCodes,
           logChanges: options.logChanges ?? false,
           pathToNodeModules: options.pathToNodeModules ?? "./node_modules",
@@ -103,6 +99,7 @@ const plugin = (options: Options): AstroIntegration => {
                           localPathPrefixes: LOCAL_PATH_PREFIXES,
                           protocolIdentifier: PROTOCOL_IDENTIFIER,
                           publicPrefix: PUBLIC_PREFIX,
+                          obfuscateEmail: config.obfuscateEmail,
                         })}).then().catch();`,
           );
         }
@@ -137,6 +134,8 @@ const plugin = (options: Options): AstroIntegration => {
               localPathPrefixes: LOCAL_PATH_PREFIXES,
               protocolIdentifier: PROTOCOL_IDENTIFIER,
               publicPrefix: PUBLIC_PREFIX,
+              obfuscateEmail: config.obfuscateEmail,
+              document,
             });
 
             const anchorElements = Array.from(document.querySelectorAll("a"));

@@ -10,6 +10,8 @@ export const transformAllAnchors = async (config) => {
     localPathPrefixes: config.localPathPrefixes,
     protocolIdentifier: config.protocolIdentifier,
     publicPrefix: config.publicPrefix,
+    obfuscateEmail: config.obfuscateEmail,
+    document
   });
 
   const anchorElements = Array.from(document.querySelectorAll("a"));

@@ -1,7 +1,7 @@
 {
   "references": [
     {
-      "path": "./plugins/astro-language/tsconfig.web.json"
+      "path": "./plugins/astro-link-transformer/tsconfig.web.json"
     }
   ],
   "include": ["*.config.ts", "./plugins/**/*", "./config.json"],

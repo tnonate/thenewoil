@@ -5,19 +5,19 @@ import tailwindcss from "@tailwindcss/vite";
 import mdx from "@astrojs/mdx";
 import icon from "astro-icon";
 import robotsTxt from "astro-robots-txt";
-import languagePlugin from "./plugins/astro-language";
+import linkTransformer from "./plugins/astro-link-transformer";
 
 import config from "./config.json";
 
 import playformCompress from "@playform/compress";
 
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://thenewoil.org",
   outDir: "./www",
-  prefetch: {
-    prefetchAll: true,
-  },
+  output: "static",
+  prefetch: { prefetchAll: true },
   redirects: {
     "/": "/en/",
     "/btc/": "/en/crypto#bitcoin-btc",
@@ -43,9 +43,7 @@ export default defineConfig({
     "/tuta/": "https://tuta.com/?t-src=the-new-oil",
     "/voipms/": "https://voip.ms/en/code/TheNewOil",
   },
-  vite: {
-    plugins: [tailwindcss()],
-  },
+  vite: { plugins: [tailwindcss()] },
   integrations: [
     mdx(),
     icon(),
@@ -58,8 +56,9 @@ export default defineConfig({
         { disallow: "/", userAgent: "User-Agent: Google-Extended" },
       ],
     }),
-    languagePlugin({
+    linkTransformer({
       supportedLanguageCodes: config.languages.map((lang) => lang.code),
+      obfuscateEmail: true,
     }),
     playformCompress({
       Logger: 1,
@@ -77,4 +76,3 @@ export default defineConfig({
     }),
   ],
 });
-
