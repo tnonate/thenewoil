@@ -1,7 +1,7 @@
 # Remember to change the number in ./Caddyfile after editing this file too!
 
 # All I'm doing below is grouping these HTTP headers into arbitrary groups, see: https://caddyserver.com/docs/caddyfile/concepts#snippets
-# This isn't strictly necessary, it just makes configuration a bit more flexible. 
+# This isn't strictly necessary, it just makes configuration a bit more flexible.
 # For example, the (https) snippet below gets added to the clearnet site but not the .onion site.
 
 # Add an "import https" line to any website to use this configuration
@@ -42,13 +42,24 @@
 
 # Add an "import caching" line to any website to use this configuration
 (caching) {
+	@assets {
+		file
+		path *.ico *.css *.js *.svg *.woff *.woff2
+	}
+
 	@static {
 		file
 		path *.ico *.css *.js *.gif *.webp *.avif *.jpg *.jpeg *.png *.svg *.woff *.woff2
 	}
+
 	# Disables browser caching, as it was in the old .htaccess file
 	header Cache-Control no-store
 
-	# I don't think you should disable caching though, you may want to replace it with this, which caches static files in browser for 30 days:
-	# header @static Cache-Control max-age=2592000
+	# We employ cache busting for .css, .js files, svgs are usually inlined, fonts and .ico doesn't change often
+	# Cache for 30 days
+	header @assets Cache-Control max-age=2592000
+
+	# We employ cache busting for .css, .js files, svgs are usually inlined, fonts and .ico doesn't change often
+	# Cache for 2 weeks
+	header @static Cache-Control max-age=1209600
 }
