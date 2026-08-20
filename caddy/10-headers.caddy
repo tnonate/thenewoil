@@ -49,11 +49,8 @@
 
 	@static {
 		file
-		path *.ico *.css *.js *.gif *.webp *.avif *.jpg *.jpeg *.png *.svg *.woff *.woff2
+		path *.ico *.gif *.webp *.avif *.jpg *.jpeg *.png *.svg
 	}
-
-	# Disables browser caching, as it was in the old .htaccess file
-	header Cache-Control no-store
 
 	# We employ cache busting for .css, .js files, svgs are usually inlined, fonts and .ico doesn't change often
 	# Cache for 30 days
