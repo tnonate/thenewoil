@@ -49,14 +49,14 @@
 
 	@static {
 		file
-		path *.ico *.gif *.webp *.avif *.jpg *.jpeg *.png *.svg
+		path *.gif *.webp *.avif *.jpg *.jpeg *.png *.svg
 	}
 
 	# We employ cache busting for .css, .js files, svgs are usually inlined, fonts and .ico doesn't change often
 	# Cache for 30 days
 	header @assets Cache-Control max-age=2592000
 
-	# We employ cache busting for .css, .js files, svgs are usually inlined, fonts and .ico doesn't change often
+	# Images might change more often
 	# Cache for 2 weeks
 	header @static Cache-Control max-age=1209600
 }
