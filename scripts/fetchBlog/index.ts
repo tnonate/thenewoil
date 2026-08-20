@@ -1,4 +1,4 @@
-import fs from "node:fs/promises";
+// import fs from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 import BlogStore from "./BlogStore.js";
@@ -45,7 +45,7 @@ if (deltaTotalPosts > 0) {
   let index = 0;
 
   console.log("Fetching posts", deltaTotalPosts, "new posts");
-  const fetchedPosts = await new Promise<Post[]>((resolve, reject) => {
+  const fetchedPosts = await new Promise<Post[]>((resolve) => {
     let fetchedPosts: Post[] = [];
 
     const createFetchTask = async () => {
