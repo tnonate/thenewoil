@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-/* @config '../../tailwind.config.cjs'; */
 @theme {
   --color-gradient-primary-start: #bb86fc;
   --color-gradient-primary-center: #8a43fe;

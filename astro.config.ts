@@ -11,7 +11,6 @@ import config from "./config.json";
 
 import playformCompress from "@playform/compress";
 
-
 // https://astro.build/config
 export default defineConfig({
   site: "https://thenewoil.org",
@@ -63,16 +62,8 @@ export default defineConfig({
     playformCompress({
       Logger: 1,
       JavaScript: false,
-      CSS: {
-        csso: {
-          comments: false,
-        },
-      },
-      HTML: {
-        "html-minifier-terser": {
-          removeComments: true,
-        },
-      },
+      CSS: { csso: false, lightningcss: {} },
+      HTML: { "html-minifier-terser": { removeComments: true } },
     }),
   ],
 });
