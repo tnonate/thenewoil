@@ -11,7 +11,7 @@ export const transformAllAnchors = async (config) => {
     protocolIdentifier: config.protocolIdentifier,
     publicPrefix: config.publicPrefix,
     obfuscateEmail: config.obfuscateEmail,
-    document
+    document,
   });
 
   const anchorElements = Array.from(document.querySelectorAll("a"));

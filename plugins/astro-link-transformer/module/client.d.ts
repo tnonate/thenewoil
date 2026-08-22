@@ -6,7 +6,7 @@ interface Config {
   protocolIdentifier: string;
   publicPrefix: string;
   logChanges: boolean;
-  obfuscateEmail: boolean
+  obfuscateEmail: boolean;
 }
 
 export type transformAllAnchors = (config: Config) => void;
