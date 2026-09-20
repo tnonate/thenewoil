@@ -1,5 +1,11 @@
 [
   {
+    "name": "Bookshop.org",
+    "link": "https://bookshop.org/shop/thenewoil",
+    "img": "/images/logos/bookshop.png",
+    "subtext": "Recommended books about privacy and security"
+  },
+  {
     "name": "Ente",
     "link": "https://ente.io",
     "img": "/images/logos/ente.png",
