@@ -15,6 +15,11 @@
     "img": "/images/logos/simplex.png"
   },
   {
+    "name": "Signal (Project Updates)",
+    "link": "https://signal.group/#CjQKIH_fXsIP2PAaPLa9J_XycqipMRlFUkImxm3mQwfn9KMAEhBG-5eL1iwm5530SpLQwPww",
+    "img": "/images/logos/signal.png"
+  },
+  {
     "name": "Mastodon (News Feed)",
     "link": "https://mastodon.thenewoil.org/@thenewoil",
     "img": "/images/logos/mastodon.png"

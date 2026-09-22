@@ -16,6 +16,8 @@ If you wish to contribute financially, we accept one-time or recurring contribut
 
 Readers who speak foreign languages can help us translate the site on [Crowdin](https://crowdin.com/project/the-new-oil). If the language you'd like to help translate to isn't listed, please [contact us](https://thenewoil.org/en/links/#contact) or open an issue and we'll happily add it if we can.
 
+We do **NOT** accept AI-generated content, including submissions and "code."
+
 ## Other Notable Projects
 
 - [Website](https://thenewoil.org/)
