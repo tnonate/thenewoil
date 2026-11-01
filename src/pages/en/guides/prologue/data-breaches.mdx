@@ -10,9 +10,13 @@ import Highlighting from "@components/common/Highlighting.astro";
 
 # How Getting Hacked Really Works
 
-One of the most common misconceptions about "getting hacked" is how it really works. Most people think "**nobody has any reason to hack me.**" While this may be true, rarely is a cybercriminal going to target a total stranger who might not even have anything worthwhile. The "I'm not a valuable enough target" mentality betrays a fundamental misunderstanding of what actually happens to most people in most cases. **Here's how data breaches and modern hacking really work in most situations:**
+One of the most common misconceptions about "getting hacked" is how it really works. Most people think "**nobody has any reason to hack me.**"
 
-If you're reading this, you likely have an account with a major service that has millions of users like Gmail, Amazon, eBay, or Facebook. Smart cybercriminals target major companies like these (and smaller ones, too). **These companies endure [billions](https://it.slashdot.org/story/24/01/17/1423212/jpmorgan-suffers-45-billion-cyber-attacks-a-day) of attacks every day.**
+**Here's how data breaches and modern hacking really work in most situations:**
+
+If you're reading this, you likely have an account with a major service that has millions of users like Gmail, Amazon, eBay, or Facebook.
+
+Smart cybercriminals target major companies like these (and smaller ones, too). **These companies endure [billions](https://it.slashdot.org/story/24/01/17/1423212/jpmorgan-suffers-45-billion-cyber-attacks-a-day) of attacks every day.**
 
 <Highlighting variant="warning">
   **The defender needs to succeed every single time, but the attacker only needs to get lucky once.**
@@ -41,3 +45,17 @@ Another is called "credential stuffing." This is works when you reuse credential
 In rare (but not unheard-of) cases, you may fall victim to some sort of malware like a keylogger or infostealer. These are malicious programs - usually installed under false pretenses like [phishing](/guides/less-important/misc#phishing--clicking-links) - that record every keystroke you make, such as your search terms, websites you visit (potentially including screenshots), passwords you enter, or more. These programs can end up on your computer in a variety of ways like downloading suspicious, untrusted, or pirated software, falling for a phishing attack, or if someone (like an abusive partner) gains access to your device without you knowing. The best way to defend against this is to only download trusted software from official sources and to ensure your devices are [clean](/guides/most-important/auditing/) and [up-to-date](/guides/less-important/misc/#automatic-updates).
 
 If you're reading this, you have almost certainly already been caught in multiple data breaches. You can check websites like [Have I Been Pwned](https://haveibeenpwned.com/) or [DataBreach.com](https://databreach.com/) to see what information of yours has been leaked by who.
+
+## The Endgame
+
+You might wonder what value this data has. There are several answers.
+
+One common use is [phishing attacks](/guides/less-important/misc/#phishing--clicking-links). If attacks know your email address or phone number, they can try to trick you into handing over credentials or installing malware. This commonly comes in the form of texts or emails with alarming headlines like "ther's a problem with your package," "here's your receipt for your new iPad Pro," or "bank transction dispute update."
+
+Another common use is [credential stuffing](https://www.cloudflare.com/learning/bots/what-is-credential-stuffing/). Since most people [reuse the same weak passwords](https://nordpass.com/most-common-passwords-list/) (and some data breaches contain passwords that were [not secured properly](https://techcrunch.com/2024/09/27/meta-fined-101-5m-for-2019-breach-that-exposed-hundreds-of-millions-of-facebook-passwords/)), attackers can simply try using yoru email/phone number/username along with the passwords or common passwords on various popular services like banks, Gmail, Netflix, Amazon, and more.
+
+In some cases, cybercriminals will abuse access to these accounts - perhaps ordering goods they can resell or using your account to try to [scam others](https://www.404media.co/this-womans-living-a-cashapp-scam-nightmare/). In some cases, attackers resell your compromised account to others.
+
+Another possible motive worth noting is identity theft. **No matter how poor you are or how bad your credit, I promise I can find someone willing to open a credit card in your name**, probably at an outrageously high interest rate. A criminal can then max it out and you're left dealing with the mess of proving it wasn't legitimate. In less severe cases, the "identity theft" could be as simple as trying to appear like a [legitimate person](https://www.bitdefender.com/en-us/cyberpedia/what-is-social-media-impersonation) for any number of reasons such as fraud, scams, or propaganda.
+
+This website will teach you to defend against each of these abuses listed here.

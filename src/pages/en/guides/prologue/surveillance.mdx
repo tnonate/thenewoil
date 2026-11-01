@@ -6,22 +6,46 @@ weight: 5
 draft: false
 ---
 
+import Highlighting from "@components/common/Highlighting.astro";
+
 # How Mass Surveillance Works
 
-In this section, I want to give a brief overview of some of the most common ways mass surveillance works. This is not an exhaustive list, but it should give you a general idea to recognize potential surveillance mechanisms. The most common form of surveillance is **[Surveillance Capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism)**, meaning companies like Amazon or Google who collect information about you in order to serve more relevant ads or products.
+In this section, I want to give a brief overview of some of the most common ways mass surveillance works. This is not an exhaustive list, but it should give you a general idea to recognize potential surveillance mechanisms.
 
-Governments also perform mass surveillance on nearly (if not) everyone, but typically mass surveillance piggybacks off existing surveillance capitalism infrastructures (a current example is how the government often [buys location data](https://arstechnica.com/tech-policy/2021/01/military-intelligence-buys-location-data-instead-of-getting-warrants-memo-shows/) from private companies as a loophole to avoid getting warrants). This means that while ending up on "a list" is likely a very easy, common, and automated thing, getting an actual person to watch you individually is less likely than you'd think. Most surveillance is performed automatically by algorithms and automated systems. The bad news is, this means surveillance is everywhere. The good news is, that means it's designed to work on the "most common denominator" and therefore it should be relatively easy to get out of the most common forms.
+The most common form of surveillance is **[Surveillance Capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism)**, meaning companies like Amazon or Google who collect information about you in order to serve more relevant ads or products.
 
-It's also worth knowing that there are organizations known as **[data brokers](https://en.wikipedia.org/wiki/Information_broker)** who collect your information strictly for profiling purposes. Amazon and Apple may not be sharing data with each other, but they are likely sharing it with companies like [Acxiom](https://en.wikipedia.org/wiki/Acxiom) and [LexisNexis](https://en.wikipedia.org/wiki/LexisNexis) who in turn sell your profile back to other companies who use it mainly for advertising.
+There are organizations known as **[data brokers](https://en.wikipedia.org/wiki/Information_broker)** who's sole business model is to collect your information and then sell it to other cmopanies for a variety of reasons, including determining rental eligibility, employment opportunities, identity verification, law enforcement purposes, or simply marketing. Amazon and Apple may not be sharing data with each other, but they are likely sharing it with companies like [Acxiom](https://www.acxiom.com/optout/) and [LexisNexis](https://consumer.risk.lexisnexis.com/opt).
+
+<Highlighting>
+See my page on [people search sites](/guides/moderately-important/people-search) for more information on how to opt out of data brokers.
+</Highlighting>
+
+Governments also perform mass surveillance on nearly (if not) everyone, but typically piggyback off existing surveillance capitalism infrastructures. An example is how the government often [buys location data](https://arstechnica.com/tech-policy/2021/01/military-intelligence-buys-location-data-instead-of-getting-warrants-memo-shows/) from private companies as a loophole to avoid getting warrants.
+
+<img
+  src="/images/graphics/goodnews.jpg"
+  alt="An oil well"
+  class="float-right mx-6 w-80"
+  style="float: right;"
+/>
+
+All this means that while ending up on "a list" is (probably) a very easy, common, and automated thing, getting an actual person to watch you individually is less likely than you'd think. Most surveillance is performed automatically by algorithms and automated systems. The bad news is this means surveillance is everywhere. The good news is that means it's designed to work on the "most common denominator" and therefore it should be relatively easy to get out of the most common forms.
 
 ## The Three Types of Surveillance (According to Me)
 
-The most visible form of surveillance is what I call "**consented surveillance.**" This is when you knowingly and intentionally give up information. For example, if you sign up to both Amazon and eBay using your real name and address, then you probably won't be too shocked when you start getting ads on Amazon for something that you searched for on eBay. Amazon and eBay may not be sharing your purchase history with each other, but they definitely share it with data brokers. Their automated systems easily correlate the two accounts (especially if you provide them with other similar information like the same email address and/or phone number) and combine them.
+### Consented Surveillance
+This is when you knowingly and intentionally give up information. For example, if you sign up to both Amazon and Facebook using your real name and address, then you probably won't be too shocked when you start getting ads on Amazon for something that you searched for on Facebook. Amazon and Facebook may not be sharing your purchase history with each other, but they definitely share it with data brokers. Their automated systems easily correlate the two accounts and combine them.
 
-I call the next form of surveillance "**unconscious surveillance.**" Technically you consent to this when you do things like, for example, click "I agree to the terms of service." But do you know what the terms actually say? Often the company does things you'll never even see: reading a "cookie" on your computer that tells them every site you visit, reading your contacts list, seeing what other apps are on your device, or scanning for other devices on your network and what they are. It could also include things like automatically scanning your emails or messages for keywords or recording your usage habits. You technically agreed to this, but you probably didn't realize the extent of the data collection or understand exactly what would be shared and how.
+### Unconscious Surveillance
+Technically you consent to this when you do things like\click "I agree to the terms of service." But do you really know what the terms actually say? Often the company does things you'll never see: reading a "cookie" on your computer that tells them every site you visit, reading your contacts list, seeing what other apps are on your device, or scanning for other devices on your network and what they are. It could also include things like automatically scanning your emails or messages for keywords or recording your usage habits. You technically agreed to this, but you probably didn't realize the extent of the data collection or understand exactly what would be shared and how.
 
-I call the final form of surveillance "**targeted surveillance.**" This is the kind that is typically only an issue if you're already getting the attention of a highly-resourced threat actor. This is the kind where they plant a fake version of an app on your phone or computer to get extra, hidden access to the information on the device, or where they actively capture and read your communications by a person and not just a machine. Think of it like the proverbial "FBI surveillance van."
+### Targeted Surveillance
+This is the kind where they plant a fake version of an app on your phone or computer to get extra, hidden access to the information on the device, or where they actively capture and read your communications by a person and not just a machine. Think of it like the proverbial "FBI surveillance van."
 
 ## What Does This Website Address?
 
-As I said on the [Threat Modeling page](/guides/prologue/threat-model), this website does not address Targeted Surveillance. While much of the information shared here should be applied to a targeted surveillance situation, there is also a lot more that still needs to be done in order to fully protect yourself, and it's irresponsibly difficult to give specifics to a broad audience without being able to talk to you and know your exact situation and resources. Instead, this website gives broadly applicable advice that applies to most (but not all) "average" threat models to address Consented and Unconscious Surveillance.
+While much of the information shared here could be applied to a Targeted Surveillance situation, there is also a lot more that still needs to be done in order to fully protect one's self. It would be irresponsible and difficult to give specifics to a broad audience without being able to talk to someone directly and know their exact situation and resources.
+
+Instead, this website gives broadly applicable advice that applies to most (but not all) "average" threat models to address Consented and Unconscious Surveillance.
+
+See our [Threat Modeling](/guides/prologue/threat-model) page for more information.

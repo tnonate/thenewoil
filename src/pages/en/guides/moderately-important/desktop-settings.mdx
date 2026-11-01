@@ -132,50 +132,44 @@ For those who must use Mac or Windows - dual booted or otherwise - I have listed
 **Before installing:**
 - If you are installing Windows 11 from scratch, be aware that the Home version will offer you the least amount of control regarding settings and disabling telemetry and analytics. If possible, you should try to get Pro, Education, or Enterprise editions. However, these frequently cost more than the Home version (which is usually included free when purchasing the device), sometimes several hundred dollars for a single license. As such, this guide is written for the Home version.
 - If you are installing Windows 11 from scratch, you can (and should) install it without a Microsoft account. I found [this](https://www.tomshardware.com/how-to/install-windows-11-without-microsoft-account) method effective in my most recent install experience. You will receive a warning that you'll miss out on features, but these features are not relevant to security and avoiding an online account will improve your privacy.
-- Finally, if you are installing Windows 11 from scratch, you should select "English (World)" as a language during the setup if possible. Several sources claim that this will dramatically reduce (if not entirely eliminate) the number of preinstalled third-party apps and software (aka "bloatware") such as Candy Crush and Spotify. I have not tested this myself yet, but there's no harm in trying.
 </Highlighting>
 - System > Notifications: Off
 - System > Storage > Storage Sense: On
-- System > Nearby sharing: Off
+- System > Share > Nearby sharing: Off
 - Bluetooth & devices > Bluetooth: Off whenever not in use
-- Bluetooth & devices > Phone Link: Do not link your phone
 - Bluetooth & devices > AutoPlay: Off
-- Network & internet > Wi-Fi > Random hardware addresses: On
-- Network & internet > Ethernet > Network profile type: Public network
-- Personalization > Lock screen: Leave the default picture, or pick something that does not reveal any personal information (ex, don't put a family photo as your lock screen)
+- Network & internet > Wi-Fi > Random hardware addresses: Change daily
+- Network & internet > Wi-Fi > Manage known networks: Remove any networks you no longer regularly attach to
+- Network & internet > Random hardware addresses: On
+- Personalization > Lock screen: Leave the default picture, or pick something that does not reveal any personal information (ie, don't put a family photo as your lock screen)
 - Personalization > Device usage: Turn everything off
 - Apps > Installed apps: Uninstall anything you don't use
 - Apps > Advanced app settings > Choose were to get apps: installing apps from the Microsoft Store offers better security due to sandboxing, but may also affect privacy by introducing additional analytics and telemetry. Pick this setting accordingly.
 - Accounts: Give your account a nondescript username, like "user" or "admin" instead of "Bob" or "bsmith" (this can be done in Control Panel > User Accounts > User Accounts)
 - Accounts > Your info: pick a profile picture that doesn't reveal any personal information.
 - Accounts > Sign-in options > Ways to sign in: (in order of recommendation) Security key, Fingerprint recognition, Password (ideally a [passphrase](/guides/most-important/passwords)), PIN, Picture Password, or Facial recognition.
-- Accounts > Sign-in options > Additional settings > If you've been away...: "When PC wakes up from sleep."
-- Accounts > Sign-in options > Additional settings > Automatically save my restartable apps...: Off
-- Accounts > Sign-in options > Additional settings > Show account details...: Off
-- Accounts > Access work or school: Do not connect a work or school account. Legally, in the United States, your employer or school cannot force you to use a personal device. They must provide a device. Giving them access will give them some access to your data and some control over your device. (Note: I am not a lawyer, this is not legal advice, consult an actual lawyer if you are being pressued to use this setting.)
+- Accounts > Sign-in options > If you've been away...: "When PC wakes up from sleep."
+- Accounts > Sign-in options > Automatically save my restartable apps...: Off
+- Accounts > Sign-in options > Show account details...: Off
 - Time & language > Typing > Show text suggestions...: Off
 - Time & language > Typing > Multilingual text suggestions: Off
 - Time & language > Typing > Autocorrect mispelled words: Off
 - Time & language > Typing > Highlight mispelled words: Off
 - Time & language > Typing > Typing insights: Off
 - Privacy & security > Windows Security: Ensure you have green checks on "Virus & threat protection," "Account protection," "Firewall & network protection," "App & browser control," and "Device security."
+- Privacy & security > Find my device: Disabled
 - Privacy & security > Recommendations & offers: Turn everything Off.
 - Privacy & security > Speech: Off
 - Privacy & security > Inking & typing personalizaton > Personal inking and typing dictionary: Off
 - Privacy & security > Diagnostics & feedback: Turn everything Off.
 - Privacy & security > Diagnostics & feedback > Delete diagnostic data: Delete
 - Privacy & security > Search > Search history: Off
-- Privacy & security > Search > Search my acocunts: Off
-- Privacy & security > Activity history: Turn everything off
-- Privacy & security > Activity history > Clear activity history for this account: Clear history
-- Privacy & security > Search permissions > History: Off
-- Privacy & security > Search permissions > History: Clear device search history
-- Privacy & security > Search permissions > More settings: off
+- Privacy & security > Search > Search my accounts: Off
 - Privacy & security > App permissions: Evaluate each of these categories, completely turn off any settings you don't use. For categories you do use, examine which apps have permission and revoke any apps that don't have a valid need for it.
-- Windows Update: By default, Windows 11 automatic updates are enabled. I still recommending checking this tab periodically to ensure there were no errors updating (especially after the second Tuesday of each month, as this is when Microsoft pushes most of their updates).
+- Windows Update: By default, Windows 11 automatic updates are enabled. I still recommending checking this tab periodically to ensure there were no errors updating (especially after the second Tuesday of each month, as this is when Microsoft pushes most of their security updates).
 - Windows Update > Advanced options > Optional updates: I recommend checking this setting while you're checking your other system updates. These updates include things like drivers that will help keep your system running as smoothly as possible.
-- If you don't plan to use a [VPN](/guides/less-important/vpns), then I encourage you to use an [Encrypted DNS Resolver](https://www.privacyguides.org/en/dns/). Follow [these instructions](https://www.bleepingcomputer.com/news/microsoft/how-to-enable-dns-over-https-doh-in-windows-10/) to change your DNS. Select "Encrypted preferred, unencrypted allowed" if the option is available. If the option is not available, the rest of the steps should still apply.
-- Advanced users who want more granular control and feel comfortable making extreme changes may want to look into [W10Privacy](https://www.w10privacy.de/english-home/), [O&O Shut Up 10++](https://www.oo-software.com/en/shutup10), and/or [Privacy.sexy](https://privacy.sexy/) to help reduce Windows telemetry, [Bulk Crap Uninstaller](https://www.bcuninstaller.com/) to remove pre-installed programs, and [Portmaster](https://safing.io/portmaster/) or [Simplewall](https://www.henrypp.org/product/simplewall) for additional firewall controls to block outgoing connections and further reduce data collection by Microsoft and other third parties.
+- If you don't plan to use a [VPN](/guides/less-important/vpns), then I encourage you to use an [Encrypted DNS Resolver](https://www.privacyguides.org/en/dns/). Follow [these instructions](https://www.thewindowsclub.com/dns-over-https-in-windows-11) to change your DNS, using one of the ones recommend by Privacy Guides.
+- Advanced users who want additional control and feel comfortable making extreme changes may want to look into [W10Privacy](https://www.w10privacy.de/english-home/), [O&O Shut Up 10++](https://www.oo-software.com/en/shutup10), and/or [Privacy.sexy](https://privacy.sexy/) to help reduce Windows telemetry, [Bulk Crap Uninstaller](https://www.bcuninstaller.com/) to remove pre-installed programs, and [Portmaster](https://safing.io/portmaster/) or [Simplewall](https://www.henrypp.org/product/simplewall) for additional firewall controls to block outgoing connections and further reduce data collection by Microsoft and other third parties.
 
 By enabling all of these settings, you are significantly reducing the amount of tracking and data collection these devices perform.
 

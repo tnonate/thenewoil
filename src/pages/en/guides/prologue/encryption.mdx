@@ -10,7 +10,7 @@ import Highlighting from "@components/common/Highlighting.astro";
 
 # Understanding Encryption
 
-Encryption is basically using a code to hide your data. Consider the following numbers:
+Consider the following numbers:
 
 `8 5 12 12 15 (space) 23 15 18 12 5`
 
@@ -18,38 +18,64 @@ If you can't read it, try replacing the numbers with their corresponding letter,
 
 `H E L L O (space) W O R L D`
 
-That simple, schoolyard-style code is - by definition - a type of encryption. Modern encryption protocols, like [Signal](https://en.wikipedia.org/wiki/Signal_Protocol) and [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard), are significantly more complicated but at the core the concept is the same: **replacing easily understood data with substitutes that can only be understood with a “key”.** In the example I gave earlier, the “key” is knowing that A=1, B=2, and so forth. In more advanced software encryption, the key takes the form of your password. The field of encryption is called "cryptography." Please note, this is a tremendously oversimplified explanation.
+That simple, schoolyard-style code is - by definition - a type of _encryption_.
 
-**Encryption is a central concept in cybersecurity, as well as privacy.** Depending on how something is encrypted - if it is encrypted at all - your data can be exposed to a myriad of threats. For example, most computers - by default - are not "encrypted at rest." This means that anyone can easily pop out the hard drive, plug it into their computer with a USB adapter, and browse your files, no login or password required. I have personally done this to my own devices - and those of family members (at their request) - numerous times for the purposes of data recovery. Under ideal circumstances this isn't an issue since the files on your device tend to stay on your device - excluding cloud sync services like Google Drive or Dropbox. However, if your device ever gets stolen or confiscated, I cannot overstate how easily your content can be accessed by whoever possess it, even without knowing your login password.
+<img
+  src="/images/graphics/lock.jpg"
+  alt="A lock on a keyboard"
+  class="float-right mx-6 w-80"
+  style="float: right;"
+/>
 
-The state of online traffic - that is, anything you send from one device to another - is only slightly better since [most](https://www.darkreading.com/application-security/encrypted-traffic-once-thought-safe-now-responsible-for-most-cyberthreats) internet traffic is "encrypted in transit" - meaning it is encrypted when it leaves your device and travels across the internet. However, most of that data is decrypted (and often stored) once it reaches the provider's server, meaning content is easily visible to anyone who has access to that server for any reason - and not just physical access, either. That means any attacker who gains access to the server can also gain access to your content. This can include not just DMs, but "private" content like a locked social media page, unlisted YouTube videos, invite-only Discord servers, and files stored in the cloud.
+Modern encryption protocols, like [Signal](https://en.wikipedia.org/wiki/Signal_Protocol) and [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard), are significantly more complicated but at the core the concept is the same: **replacing easily understood data with substitutes that can only be understood with a “key."**
 
-**For maximum privacy and security, it is imperative to use a specific type of encryption called “End-to-End Encryption"** (also known by other names such as "e2ee," “zero-knowledge encryption”, "zero-access encryption," or "client-side"). This means that data is encrypted in-transit from sender to reciever - not decrypted at the provider's servers. Only the sender and recipient can read the data, nobody else in between can - not even the provider. (See the caveat under "[Tips & Tricks](#tips--tricks)")
+In the example I gave earlier, the _key_ is knowing that A=1, B=2, and so forth. In more advanced software encryption, the key is derived mathematically your password. The field of encryption is part of the larger field of _cryptography_.
 
-Not all services are able to function with end-to-end encryption. For example, a "zero-knowledge social media platform" makes no sense since the very foundation of social media is that your posts are meant to be broadly visible to the audience you desire. However, direct communcations - such as DMs, email, and cloud storage - can and should be zero-knowledge, even if only at-rest (as in the case of most [encrypted email](/guides/moderately-important/email/) providers).
+**Please note that this is a tremendously oversimplified explanation.**
 
-Encryption can and should be used in any situation where it is possible and available. This includes - but is not limited to - communications, file storage, device encryption, and more. As you continue through this site, remember that: **when dealing with devices, demand encryption. When dealing with online services, demand end-to-end or zero-knowledge encryption specifically.**
+**Encryption is a central concept in cybersecurity, as well as privacy.** Depending on how something is encrypted (if it is encrypted at all) your data can be exposed to a myriad of threats.
+
+Most internet traffic is "[encrypted in transit](https://www.darkreading.com/application-security/encrypted-traffic-once-thought-safe-now-responsible-for-most-cyberthreats)" - meaning it is encrypted when it leaves your device and travels across the internet.
+
+However, that data is decrypted and stored once it reaches the provider's server, meaning content is easily visible to anyone who has access to that server for any reason. Not just physical access, either: any attacker who gains access to the server can also gain access to your content. This can include not just DMs, but "private" content like a locked social media page, unlisted YouTube videos, invite-only Discord servers, and files stored in the cloud.
+
+## End-to-End Encryption (E2EE)
+**For maximum privacy and security, it is imperative to use a specific type of encryption called “End-to-End Encryption"** (also known by other names such as "e2ee," “zero-knowledge encryption”, "zero-access encryption," or "client-side encryption"). This means that data is encrypted in transit from sender to reciever without being decrypted at the provider's servers. (See the caveat under "[Tips & Tricks](#tips--tricks)")
+
+Not all services are able to function with end-to-end encryption. For example, an "encrypted social media platform" makes no sense since the very foundation of social media is that your posts are meant to be broadly visible to the audience you desire. However, direct communcations - such as DMs, email, and cloud storage - can and should be end-to-end encrypted.
 
 <Highlighting variant="warning">
 
 ## Don't Lose Your Password!
 
-Perhaps the biggest drawback of end-to-end encryption is that - if done correctly - the provider has no access to your encryption keys. Put simply, the provider cannot reset your email without permanently encrypting all of your data. I have personally had (or secondhand seen others have) this experience with services like [ProtonMail](/guides/moderately-important/email/), [Bitwarden](/guides/most-important/passwords/), and [cloud storage](/guides/less-important/backups/). In some cases, there are workarounds or recommended recovery solutions, however these are often user-unfriendly or come with [caveats](https://restoreprivacy.com/protonmail-discloses-user-data-leading-to-arrest-in-spain/) the user should be aware of. The simplest solution is to never lose your password. For more information on how to safely store passwords, see [this page](/guides/most-important/passwords/). I also recommend taking advantage of most or all recovery methods (as long as you have researched the risks and they fit your [threat model](/guides/prologue/threat-model/)). These often include things like a backup code, recovery contacts (such as a secondary email address or other users who can verify you), a file you can download, or something similar.
+Perhaps the biggest drawback of end-to-end encryption is that - if done correctly - the provider has no access to your encryption keys.
+
+Put simply, the provider cannot reset your password (or other access methods) without permanently encrypting all of your data.
+
+In some cases, there are workarounds or recommended recovery solutions, however these are often user-unfriendly or come with [risks](https://restoreprivacy.com/protonmail-discloses-user-data-leading-to-arrest-in-spain/) the user should be aware of.
+
+The simplest solution is to never lose your password. For more information on how to safely store passwords, see [this page](/guides/most-important/passwords/).
+
+I also recommend taking advantage of most or all recovery methods, as long as you have researched the risks and they fit your [threat model](/guides/prologue/threat-model/). These often include things like a backup code, recovery contacts (such as a secondary email address or other users who can verify you), a file you can download, or something similar.
 
 </Highlighting>
 
 ## Hashing
 
-As you go through your privacy journey, you may sometimes come across the term "hashing." Hashing is a sort of one-way encryption that cannot be reversed. Hashing is useful for a variety of situations. For example, passwords should be hashed before being stored on the server to ensure they cannot be decrypted if the service suffers a data breach. Hashes of programs can also be generated to verify integrity before installing - that the program was not modified or corrupted during download and is legitimate. These days that process is largely automated in most situations - such as downloading and installing updates or apps, but sometimes can (and should) be done manually. Overall hashing isn't a concept you should worry about too much, but it is useful information to have as you may see the word pop up from time to time.
+As you go through your privacy journey, you may sometimes come across the term "hashing."
+
+**Hashing is a one-way encryption that cannot be reversed.** Hashing is useful for a variety of situations. For example, passwords should be hashed before being stored on the server to ensure they cannot be decrypted if the service suffers a data breach. Hashes of programs can also be generated to verify integrity before installing - that the program was not modified or corrupted during download. These days that process is largely automated in most situations - such as downloading and installing updates or apps, but sometimes can (and should) be done manually.
+
+Hashing isn't a concept you need to worry about too much, but it is useful information to have as you may see the word pop up from time to time.
 
 ## Tips & Tricks
 
-- Don't be swayed by jargon like "military grade encryption." This is a meaningless marketing term that has no value or information in it. Check the [privacy policy](https://write.as/thenewoil/how-to-read-a-privacy-policy) to see what data the service can really access.
+- Don't be swayed by jargon like "_military grade encryption_" or "_bank grade encryption_" These are meaningless marketing terms that have no value or information in it. Check the [privacy policy](https://write.as/thenewoil/how-to-read-a-privacy-policy) to see what data the service can really access.
 
-- Be aware that terms like "zero access" or "zero knowledge" can sometimes be misleading as these services may not always necessarily be truly ZERO access/knowledge. While the content itself may be encrypted, there may still be metadata or other peripheral data that is accessible. Be sure to check the privacy policy carefully - and contact the service if necessary - to understand what's truly protected and what isn't.
+- Be aware that terms like "_zero access_" or "_zero knowledge_" can sometimes be misleading as these services may not always necessarily be truly **zero** access/knowledge. While the content itself may be encrypted, there may still be [metadata](/guides/prologue/metadata/) or other data that is accessible. Be sure to check the privacy policy carefully - and contact the service if necessary - to understand what's truly protected and what isn't.
 
-- Remember [metadata](/guides/prologue/metadata/). Even if the content itself is safely encrypted, the metadata may be just as revealing. Check the privacy policy to see what data isn't encrypted. Contact the service with questions if you're unsure.
+- Remember to be mindful of [metadata](/guides/prologue/metadata/). Even if the content itself is safely encrypted, the metadata may be just as revealing. Check the privacy policy to see what data isn't encrypted. Contact the service with questions if you're unsure.
 
-- Be wary of terms like "warant-proof encryption" or other similar terms. This may indicate a "bulletproof" provider - that is, a provider who ignores law enforcement requests. While this may seem like a good thing at first, these services often attract and cater specifically to criminals, meaning it's only a matter of time before they get shut down by law enforcement and your data ends up in an evidence locker.
+- Be wary of terms like "_warant-proof encryption_" or other similar terms. This may indicate a "_bulletproof_" provider - that is, a provider who ignores law enforcement requests. While this may seem like a good thing at first, these services often attract and cater specifically to criminals, meaning it's only a matter of time before they get shut down by law enforcement and your data ends up in an evidence locker.
 
-- Be aware that there are _many_ encryption and hashing algorithms available today. Many of them are old and have been deprecated because weaknesses were found (such as MD5 or DES). While it would be impossible for me to list every currently acceptable standard, some of the common ones to look out for include AES, RSA, ECC, SHA256 (or better), TLS 1.3 (or better), and Argon2. ML-KEM, ML-DSA, and SLH-DSA should become more common in coming years as post-quantum encryption standards.
+- Be aware that there are many encryption and hashing algorithms available today. Many of them are old and have been deprecated because weaknesses were found (such as MD5 or DES). While it would be impossible for me to list every currently acceptable standard, some of the common ones to look for include AES, RSA, ECC, SHA256 (or better), TLS 1.3 (or better), and Argon2. ML-KEM, ML-DSA, and SLH-DSA should become more common in coming years as post-quantum encryption standards.
