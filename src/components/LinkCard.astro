@@ -1,0 +1,98 @@
+---
+import type { ImageMetadata } from "astro";
+import previewIndex from "../assets/data/link-previews/link-previews.json";
+
+export interface Props {
+  url: string;
+}
+
+interface LinkPreview {
+  url: string;
+  host: string;
+  title: string;
+  description?: string;
+  image?: string;
+}
+
+const { url } = Astro.props;
+
+const preview = (previewIndex as Record<string, LinkPreview>)[url];
+
+// Resolve the downloaded thumbnail through Astro's asset pipeline so it is
+// fingerprinted and served from our own origin (CSP img-src 'self').
+const imageModules = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/assets/link-previews/*.{avif,gif,jpg,jpeg,png,webp}",
+  { eager: true },
+);
+
+const imageSrc = preview?.image
+  ? Object.entries(imageModules).find(([modulePath]) =>
+      modulePath.endsWith(preview.image as string),
+    )?.[1].default.src
+  : undefined;
+
+const host = preview?.host ?? new URL(url).hostname;
+const title = preview?.title ?? url;
+---
+
+<a class="link-card" href={url} rel="noopener noreferrer">
+  {
+    imageSrc && (
+      <img src={imageSrc} alt="" loading="lazy" decoding="async" />
+    )
+  }
+  <span class="link-card-body">
+    <strong class="link-card-title">{title}</strong>
+    {preview?.description && (
+      <span class="link-card-description">{preview.description}</span>
+    )}
+    <span class="link-card-host">{host}</span>
+  </span>
+</a>
+
+<style>
+  .link-card {
+    display: flex;
+    gap: 0.9rem;
+    align-items: stretch;
+    margin: 1.25rem 0;
+    padding: 0.9rem;
+    border: 1px solid #d4d4d8;
+    border-radius: 0.5rem;
+    color: inherit;
+    text-decoration: none;
+    transition: border-color 150ms ease;
+  }
+  .link-card:hover {
+    border-color: #6d4aff;
+  }
+  .link-card img {
+    width: 96px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 0.35rem;
+    flex-shrink: 0;
+  }
+  .link-card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    justify-content: center;
+    min-width: 0;
+  }
+  .link-card-title {
+    overflow-wrap: anywhere;
+  }
+  .link-card-description {
+    color: #52525b;
+    font-size: 0.9em;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .link-card-host {
+    color: #a1a1aa;
+    font-size: 0.8em;
+  }
+</style>

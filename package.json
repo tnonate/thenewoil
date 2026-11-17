@@ -9,7 +9,8 @@
     "preview": "astro preview",
     "format:check": "prettier --check .",
     "format": "prettier --write .",
-    "scripts:fetch-blog": "tsx scripts/fetchBlog/index.ts"
+    "scripts:fetch-blog": "tsx scripts/fetchBlog/index.ts",
+    "scripts:fetch-links": "tsx scripts/fetchLinkPreviews/index.ts"
   },
   "engines": {
     "node": ">= 24"
