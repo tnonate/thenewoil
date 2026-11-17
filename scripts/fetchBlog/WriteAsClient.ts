@@ -1,5 +1,3 @@
-import fetch from "node-fetch";
-
 import Post from "./models/Post.js";
 import PostCollectionResponse from "./models/PostCollectionResponse.js";
 import CollectionMeta from "./models/CollectionMeta.js";
@@ -12,7 +10,10 @@ export const DEFAULT_HEADERS = {
 export const POSTS_PER_PAGE = 10;
 
 class WriteAsClient {
-  async FetchCollection(name: string): Promise<CollectionMeta> {
+async FetchCollection(
+  name: string,
+): Promise<number | CollectionMeta> {
+  try {
     const rawResponse = await fetch(
       `https://write.as/api/collections/${name}`,
       {
@@ -20,9 +21,17 @@ class WriteAsClient {
       },
     );
 
+    if (rawResponse.status !== 200) {
+      return rawResponse.status;
+    }
+
     const response = (await rawResponse.json()) as CollectionResponse;
     return new CollectionMeta(response.data);
+  } catch (error) {
+    console.error(error);
+    return 500;
   }
+}
 
   async FetchCollectionPage(
     collectionName: string,

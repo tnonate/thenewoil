@@ -9,7 +9,7 @@
     "preview": "astro preview",
     "format:check": "prettier --check .",
     "format": "prettier --write .",
-    "scripts:fetch-blog": "ts-node scripts/fetchBlog/index.ts"
+    "scripts:fetch-blog": "tsx scripts/fetchBlog/index.ts"
   },
   "engines": {
     "node": ">= 24"
@@ -20,13 +20,12 @@
     "@types/node": "^25.2.1",
     "astro-robots-txt": "^1.0.0",
     "linkedom": "^0.18.13",
-    "node-fetch": "^3.3.0",
     "prettier": "^3.3.3",
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-tailwindcss": "^0.8.0",
     "string-strip-html": "^13.0.4",
     "svgo": "^4.0.0",
-    "ts-node": "^10.9.2",
+    "tsx": "^4.23.15",
     "typescript": "^5.9.3"
   },
   "dependencies": {

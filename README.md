@@ -24,7 +24,7 @@ We do **NOT** accept AI-generated content, including submissions and "code."
 - [Podcast](https://thisweekinprivacy.net)
 - [Blog](https://ghost.thenewoil.org/tag/blog/)
 - [News Feed](https://mastodon.thenewoil.org/@thenewoil)
-- [Videos](https://apertatube.net/c/thenewoil/videos)
+- [Videos](https://thenewoil.tv)
 - [Analytics](https://stats.thenewoil.org/share/jnR7d6tGklwToSOJ/thenewoil.org)
 
 ## Transparency

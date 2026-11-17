@@ -20,28 +20,5 @@
         "icon": "/images/logos/website.png"
       }
     ]
-  },
-  {
-    "name": "daryl76679",
-    "title": "Moderator",
-    "links": [
-      {
-        "name": "PeerTube",
-        "link": "https://apertatube.net/a/daryl76679/video-channels",
-        "icon": "/images/logos/peertube.png",
-        "icon_dark": "/images/logos/peertube.png"
-      }
-    ]
-  },
-  {
-    "name": "Hestia Hacker",
-    "title": "Video Editor (TikTok)",
-    "links": [
-      {
-        "name": "Website",
-        "link": "https://www.tindie.com/stores/eternalsunshine/",
-        "icon": "/images/logos/website.png"
-      }
-    ]
   }
 ]

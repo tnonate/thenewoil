@@ -38,9 +38,8 @@ function obfuscateEmailInNode(node, document) {
         return;
       }
 
-      const minIndex = 1;
       const maxIndex = part.length - 2;
-      const obfuscationIndex = Math.floor(Math.random() * maxIndex) * minIndex;
+      const obfuscationIndex = Math.floor(Math.random() * maxIndex);
       const start = part.substring(0, obfuscationIndex);
       const end = part.substring(obfuscationIndex);
 
@@ -94,13 +93,13 @@ export const createAnchorTransformer = (config) => {
     const originalHref = (anchor.getAttribute("href") || anchor.href)?.trim();
     if (!originalHref) return;
 
-    const shoudNotChangeHref =
+    const shouldNotChangeHref =
       originalHref.includes(config.protocolIdentifier) || // Link contains a protocol, only local links should be changed
       excludeStartWithPatterns.some((pattern) =>
         originalHref.startsWith(pattern),
       ); // If link starts with something like `mailto:`
 
-    if (shoudNotChangeHref) {
+    if (shouldNotChangeHref) {
       return;
     }
 

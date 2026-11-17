@@ -64,12 +64,6 @@ const plugin = (options: LinkTransformerOptions): AstroIntegration => {
             NODE_MODULE_NAME,
           );
 
-          try {
-            await fs.mkdir(nodeModulePath);
-          } catch (err) {
-            if (err.code !== "EEXIST") throw err;
-          }
-
           const moduleFilesDir = path.join(DIRNAME, "module");
 
           await packageDir({

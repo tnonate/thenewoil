@@ -1,4 +1,3 @@
-// import fs from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 import BlogStore from "./BlogStore.js";
@@ -30,7 +29,16 @@ const writeAsClient = new WriteAsClient();
 const storedMeta = await blogStore.GetBlogMeta();
 let storedPosts = await blogStore.GetBlogPosts();
 
-const meta = await writeAsClient.FetchCollection(COLLECTION_NAME);
+const fetchedMeta = await writeAsClient.FetchCollection(COLLECTION_NAME);
+
+if (typeof fetchedMeta === "number") {
+  console.error(
+    `Could not fetch collection "${COLLECTION_NAME}" (status ${fetchedMeta}). Aborting without modifying local data.`,
+  );
+  process.exit(1);
+}
+
+const meta = fetchedMeta;
 
 if (storedPosts.length > storedMeta.total_posts) {
   const sliceStart = storedPosts.length - storedMeta.total_posts;
@@ -41,7 +49,7 @@ if (storedPosts.length > storedMeta.total_posts) {
 const deltaTotalPosts = meta.total_posts - storedMeta.total_posts;
 
 if (deltaTotalPosts > 0) {
-  const pagesToRetreive = Math.ceil(deltaTotalPosts / POSTS_PER_PAGE);
+  const pagesToRetrieve = Math.ceil(deltaTotalPosts / POSTS_PER_PAGE);
   let index = 0;
 
   console.log("Fetching posts", deltaTotalPosts, "new posts");
@@ -50,29 +58,34 @@ if (deltaTotalPosts > 0) {
 
     const createFetchTask = async () => {
       index += 1;
-      console.log("Fetching", index, "from the", pagesToRetreive);
+      console.log("Fetching", index, "from the", pagesToRetrieve);
 
-      const pageNumber = pagesToRetreive - (index - 1);
+      const pageNumber = pagesToRetrieve - (index - 1);
       const response = await writeAsClient.FetchCollectionPage(
         COLLECTION_NAME,
         pageNumber,
       );
 
-      if (typeof response === "number") {
-        if (response === 429) {
-          console.log(
-            "Write.as has rate limited the fetch-script, saving current posts. Restart the script later.",
-          );
-        }
-        return resolve(fetchedPosts);
-      }
+if (typeof response === "number") {
+  if (response === 429) {
+    console.log(
+      "Write.as has rate limited the fetch-script, saving current posts. Restart the script later.",
+    );
+  } else {
+    console.error(
+      `Write.as returned unexpected status ${response} for page ${pageNumber} — saving partial data.`,
+    );
+    process.exitCode = 1;
+  }
+  return resolve(fetchedPosts);
+}
 
       const [, posts] = response;
 
-      console.log("Fetched page", pageNumber, "succesfully! \n");
+      console.log("Fetched page", pageNumber, "successfully! \n");
       fetchedPosts = fetchedPosts.concat(posts);
 
-      if (index < pagesToRetreive) {
+      if (index < pagesToRetrieve) {
         console.log("Waiting 30 seconds before fetching the next.");
         setTimeout(createFetchTask, 30000);
       } else {
@@ -99,13 +112,17 @@ if (deltaTotalPosts > 0) {
 
   console.log(updatedPosts.length);
 
-  // If the script was not able to fetch all scripts, adjust the metadata to reflect it
-  if (updatedPosts.length !== meta.total_posts) {
-    meta.total_posts = updatedPosts.length;
-  }
+// If the script was not able to fetch all posts, adjust the metadata to reflect it
+if (updatedPosts.length !== meta.total_posts) {
+  console.warn(
+    `Incomplete run: saved ${updatedPosts.length} posts but Write.as reports ${meta.total_posts}.`,
+  );
+  meta.total_posts = updatedPosts.length;
+  process.exitCode = 1;
+}
 
-  console.log("Saving posts to file");
-  blogStore.SaveBlogPosts(updatedPosts);
+console.log("Saving posts to file");
+await blogStore.SaveBlogPosts(updatedPosts);
 } else {
   console.log("It seems like you are up-to-date!");
 }

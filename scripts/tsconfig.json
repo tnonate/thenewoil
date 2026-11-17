@@ -6,7 +6,7 @@
     "types": ["node"],
     "rootDir": "./",
     "target": "ESNext",
-    "module": "ESNext",
+    "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "resolveJsonModule": true,
     "noImplicitThis": true,
@@ -14,8 +14,5 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
     "esModuleInterop": true
-  },
-  "ts-node": {
-    "esm": true
   }
 }
