@@ -11,17 +11,16 @@
   "exclude": ["docs", "dist"],
   "include": [".astro/types.d.ts", "./src/**/*"],
   "compilerOptions": {
-    "baseUrl": ".",
     "noImplicitAny": true,
     "strictNullChecks": true,
     "paths": {
-      "@components/*": ["src/components/*"],
-      "@layouts/*": ["src/layouts/*"],
-      "@styles/*": ["src/styles/*"],
-      "@assets/*": ["src/assets/*"],
-      "@pages/*": ["src/pages/*"],
-      "@utils/*": ["src/utils/*"],
-      "@/*": ["src/*"]
+      "@components/*": ["./src/components/*"],
+      "@layouts/*": ["./src/layouts/*"],
+      "@styles/*": ["./src/styles/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@/*": ["./src/*"]
     }
   }
 }
