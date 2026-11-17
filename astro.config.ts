@@ -25,7 +25,7 @@ export default defineConfig({
     // Self-owned
     "/stats/": "https://stats.thenewoil.org/share/jnR7d6tGklwToSOJ/thenewoil.org",
     "/uptime/": "https://uptime.thenewoil.org/status/thenewoil",
-    "/black-friday/": "https://blog.thenewoil.org/black-friday-2024-privacy-deals",
+    "/blackfriday/": "https://ghost.thenewoil.org/black-friday-2026-privacy-deals",
 
     // External redirects
     "/filen/": "https://filen.io/r/834a3bd235bca0caa53141f2ebc30438",
@@ -37,7 +37,7 @@ export default defineConfig({
     "/paypal/": "https://www.paypal.com/donate/?hosted_button_id=2LLRWFZQS4E94",
     "/privacy/": "https://privacy.com/join/UZ9WY",
     "/proton/": "https://go.getproton.me/aff_c?offer_id=7&aff_id=2187",
-    "/redact/": "https://redact.dev?affiliateCode=THENEWOIL",
+    "/redact/": "https://redact.dev?affiliateCode=NN7BBTMIBM",
     "/simplelogin/": "https://simplelogin.io/?slref=thenewoil",
     "/tuta/": "https://tuta.com/?t-src=the-new-oil",
     "/voipms/": "https://voip.ms/en/code/TheNewOil",
@@ -52,7 +52,7 @@ export default defineConfig({
       policy: [
         { disallow: "/", userAgent: "GPTBot" },
         { disallow: "/", userAgent: "ia_archiver" },
-        { disallow: "/", userAgent: "User-Agent: Google-Extended" },
+        { disallow: "/", userAgent: "Google-Extended" },
       ],
     }),
     linkTransformer({

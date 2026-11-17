@@ -45,7 +45,7 @@ const plugin = (options: LinkTransformerOptions): AstroIntegration => {
         const supportedLanguageCodes = await runResolver(
           options.supportedLanguageCodes,
         );
-        if (supportedLanguageCodes.length < 0)
+        if (supportedLanguageCodes.length === 0)
           throw Error(
             "Language plugin requires at least 1 language code to be supported",
           );

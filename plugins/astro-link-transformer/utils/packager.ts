@@ -6,8 +6,8 @@ export const copyDir = async (packageDir: string, targetDir: string) => {
   const filesToCopy = await fs.readdir(packageDir);
 
   return await Promise.all(
-    filesToCopy.map((filename) => {
-      fs.copyFile(
+    filesToCopy.map(async (filename) => {
+      await fs.copyFile(
         path.join(packageDir, filename),
         path.join(targetDir, filename),
       );
