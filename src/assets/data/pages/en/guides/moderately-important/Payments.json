@@ -1,14 +1,24 @@
 {
   "criterias": ["Virtual Cards", "Prepaid Cards", "Countries"],
   "tools": {
-    "ironvest": {
-      "name": "IronVest",
-      "logo": "/images/logos/ironvest.png",
-      "link": "https://ironvest.com/virtual-cards/",
+    "Cloaked": {
+      "name": "Cloaked",
+      "logo": "/images/logos/cloaked.png",
+      "link": "https://www.cloaked.com/features/identities",
       "values": {
-        "Virtual Cards": "Yes, requires paid plan",
-        "Prepaid Cards": "Yes",
+        "Virtual Cards": "Yes",
+        "Prepaid Cards": "No",
         "Countries": "United States"
+      }
+    }, 
+    "halocard": {
+      "name": "Halocard",
+      "logo": "/images/logos/halocard.png",
+      "link": "https://halocard.co/",
+      "values": {
+        "Virtual Cards": "Yes",
+        "Prepaid Cards": "No",
+        "Countries": "Available in most countries. See full list [here](https://support.halocard.co/en/article/is-halocard-available-in-my-country-4y4wy1/)"
       }
     },
     "monzo": {
@@ -16,9 +26,9 @@
       "logo": "/images/logos/monzo.png",
       "link": "https://monzo.com/i/monzo-plus/",
       "values": {
-        "Virtual Cards": "Yes, requires paid plan",
+        "Virtual Cards": "Yes",
         "Prepaid Cards": "No",
-        "Countries": "United Kingdom"
+        "Countries": "[United Kingdom](https://monzo.com/help/opening-an-account/how-to-open-a-Monzo-Personal-Account)"
       }
     },
     "mysudo": {
@@ -26,9 +36,9 @@
       "logo": "/images/logos/mysudo.png",
       "link": "https://anonyome.com/individuals/mysudo/",
       "values": {
-        "Virtual Cards": "Yes, requires paid plan",
+        "Virtual Cards": "Yes",
         "Prepaid Cards": "No",
-        "Countries": "United States"
+        "Countries": "[United States](https://support.mysudo.com/hc/en-us/articles/17403738961307-Overview-of-MySudo-Virtual-Cards)"
       }
     },
     "privacy": {
@@ -38,7 +48,7 @@
       "values": {
         "Virtual Cards": "Yes",
         "Prepaid Cards": "No",
-        "Countries": "United States"
+        "Countries": "United States residents. See [here](https://support.privacy.com/hc/en-us/articles/360012046934-Who-can-use-Privacy)"
       }
     },
     "revolut": {
@@ -48,7 +58,7 @@
       "values": {
         "Virtual Cards": "Yes, may require paid plan depending on location",
         "Prepaid Cards": "No",
-        "Countries": "Australia, Austria, Belgium, Bulgaria, Croatia, Republic of Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Japan, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, the United Kingdom, and the United States."
+        "Countries": "Available in most countries. See full list [here](https://help.revolut.com/en-US/help/profile-and-plan/profile-plan/verifying-identity/what-countries-are-supported/)"
       }
     }
   }
