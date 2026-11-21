@@ -24,6 +24,6 @@ thenewoil.org {
 }
 
 # Redirects other domains to main domain
-www.thenewoil.org, thenewoil.xyz, www.thenewoil.xyz {
+www.thenewoil.org, thenewoil.xyz, www.thenewoil.xyz, thenewoil.com, www.thenewoil.com {
 	redir https://thenewoil.org{uri}
 }
