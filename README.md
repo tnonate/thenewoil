@@ -12,19 +12,25 @@ For an in depth guide on how to set up the project on your local machine [click 
 
 Technology is a constantly changing field and as people who take their privacy and security seriously, we place a considerable amount of trust in the information on this (and many other) site(s) than in most other tech fields. As such, it is vital that The New Oil stays as current & up to date as possible. All readers are encouraged to submit updates and suggested changes via an on [GitHub](https://github.com/tnonate/thenewoil/issues/new) or [GitLab](https://gitlab.com/thenewoil/website/-/issues/new). Merge & Pull requests are only enabled on GitHub due to the way our automations work.
 
-If you wish to contribute financially, we accept one-time or recurring contributions through Open Collective, Liberapay, Patreon, PayPal, and most cryptocurrencies. We also have a merch store. You can view all of these links [here](https://thenewoil.org/en/support). You can see where your support will be used on our Roadmap [here](https://thenewoil.org/en/roadmap)
+If you wish to contribute financially, we accept one-time or recurring contributions through Open Collective, Liberapay, Patreon, PayPal, and most cryptocurrencies. You can view all of these links [here](https://thenewoil.org/en/support).
+
+You can see where your support will be used on our Roadmap [here](https://thenewoil.org/en/roadmap)
 
 Readers who speak foreign languages can help us translate the site on [Crowdin](https://crowdin.com/project/the-new-oil). If the language you'd like to help translate to isn't listed, please [contact us](https://thenewoil.org/en/links/#contact) or open an issue and we'll happily add it if we can.
 
 We do **NOT** accept AI-generated content, including submissions and "code."
 
-## Other Notable Projects
+## Links
 
 - [Website](https://thenewoil.org/)
-- [Podcast](https://thisweekinprivacy.net)
-- [Blog](https://ghost.thenewoil.org/tag/blog/)
-- [News Feed](https://mastodon.thenewoil.org/@thenewoil)
+- [Onion mirror](http://oay6vd7e7grvmxsh7dbokxiabwhvtohsq4cftfcfqxww3z7cpppepkad.onion)
+
 - [Videos](https://thenewoil.tv)
+- [Blog](https://ghost.thenewoil.org/tag/blog/)
+- [Podcast](https://thisweekinprivacy.net)
+
+- [News Feed](https://mastodon.thenewoil.org/@thenewoil)
+
 - [Analytics](https://stats.thenewoil.org/share/jnR7d6tGklwToSOJ/thenewoil.org)
 
 ## Transparency

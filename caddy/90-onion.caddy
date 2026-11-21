@@ -1,6 +1,6 @@
 # Remember to change the number in ./Caddyfile after editing this file too!
 
-http://r5jopxwjyy3pberv7a43r3e2i3whtxvk5lsotl3cap3zqltxev67zqid.onion {
+http://oay6vd7e7grvmxsh7dbokxiabwhvtohsq4cftfcfqxww3z7cpppepkad.onion {
 	# These two lines configure Caddy to serve from the www subdirectory of this repo
 	# see: https://caddyserver.com/docs/caddyfile/directives/file_server
 	root * /home/website/thenewoil/www

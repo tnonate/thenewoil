@@ -20,7 +20,7 @@ thenewoil.org {
 	# import error pages from 20-error-pages.caddy file:
 	import errors
 
-	header Onion-Location http://r5jopxwjyy3pberv7a43r3e2i3whtxvk5lsotl3cap3zqltxev67zqid.onion{uri}
+	header Onion-Location http://oay6vd7e7grvmxsh7dbokxiabwhvtohsq4cftfcfqxww3z7cpppepkad.onion{uri}
 }
 
 # Redirects other domains to main domain
