@@ -24,7 +24,6 @@
     "@astrojs/language-server": "^2.16.14",
     "@iconify-json/mdi": "^1.2.0",
     "@types/node": "^25.2.1",
-    "astro-robots-txt": "^1.0.0",
     "linkedom": "^0.18.13",
     "prettier": "^3.3.3",
     "prettier-plugin-astro": "^0.14.1",

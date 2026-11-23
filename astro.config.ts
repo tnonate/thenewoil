@@ -4,7 +4,6 @@ import sitemap from "@astrojs/sitemap";
 import tailwindcss from "@tailwindcss/vite";
 import mdx from "@astrojs/mdx";
 import icon from "astro-icon";
-import robotsTxt from "astro-robots-txt";
 import linkTransformer from "./plugins/astro-link-transformer";
 
 import config from "./config.json";
@@ -47,14 +46,6 @@ export default defineConfig({
     mdx(),
     icon(),
     sitemap(),
-    robotsTxt({
-      sitemap: false,
-      policy: [
-        { disallow: "/", userAgent: "GPTBot" },
-        { disallow: "/", userAgent: "ia_archiver" },
-        { disallow: "/", userAgent: "Google-Extended" },
-      ],
-    }),
     linkTransformer({
       supportedLanguageCodes: config.languages.map((lang) => lang.code),
       obfuscateEmail: true,

@@ -66,9 +66,11 @@ function decodeEntities(text: string): string {
     "&#39;": "'",
     "&apos;": "'",
   };
-  return text
-    .replace(/&(amp|lt|gt|quot|#39|apos);/g, (m) => named[m])
-    .replace(/&#(\d+);/g, (_, code) => String.fromCodePoint(Number(code)));
+   return text
+     .replace(/&(amp|lt|gt|quot|#39|apos);/g, (m) => named[m])
+     .replace(/&#x([0-9a-f]+);/gi, (_, hex) =>
+       String.fromCodePoint(parseInt(hex, 16)))
+     .replace(/&#(\d+);/g, (_, code) => String.fromCodePoint(Number(code)));
 }
 
 /** Reads <meta property|name="key" content="..."> in either attribute order. */
