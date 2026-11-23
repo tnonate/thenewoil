@@ -2,6 +2,7 @@
 
 thenewoil.org {
 	route {
+		import bots
 		import umami
 	}
 

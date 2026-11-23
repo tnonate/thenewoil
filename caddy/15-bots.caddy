@@ -1,0 +1,12 @@
+# Remember to change the number in ./Caddyfile after editing this file too!
+
+# Add an "import bots" line to any website to block obvious, self-identifying bots.
+# IMPORTANT: inside a route block, it must come BEFORE "import umami" so that
+# blocked requests (403) are rejected before an analytics event is recorded.
+# Note: this only catches bots whose User-Agent admits they are bots. Scrapers
+# using fake browser User-Agents (the Windows XP / OS/2 traffic) will NOT be
+# caught by this; those need IGNORE_IP in Umami's environment instead.
+(bots) {
+	@badbot header_regexp User-Agent (?i)(bot|crawl|spider|slurp|headless|phantom|curl|wget|python-requests|python-urllib|scrapy|httpclient|okhttp|go-http-client|java/|libwww)
+	respond @badbot 403
+}
