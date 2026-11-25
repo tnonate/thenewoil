@@ -7,6 +7,6 @@
 # using fake browser User-Agents (the Windows XP / OS/2 traffic) will NOT be
 # caught by this; those need IGNORE_IP in Umami's environment instead.
 (bots) {
-	@badbot header_regexp User-Agent (?i)(bot|crawl|spider|slurp|headless|phantom|curl|wget|python-requests|python-urllib|scrapy|httpclient|okhttp|go-http-client|java/|libwww)
+	@badbot header_regexp User-Agent (?i)(bot|crawl|spider|slurp|headless|phantom|curl|wget|python-requests|python-urllib|scrapy|httpclient|okhttp|go-http-client|java/|libwww|mastodon|http\.rb|uptime-kuma)
 	respond @badbot 403
 }
