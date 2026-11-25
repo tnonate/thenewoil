@@ -1,0 +1,6 @@
+# Daily Caddy config sync: applies validated repo caddy config (deployed to
+# /home/website/thenewoil/caddy by GitHub Actions) to /etc/caddy when the
+# VERSION comment changes. See scripts/caddy-sync.sh and docs/caddy-sync.md.
+# Runs at 04:30 UTC as root.
+SHELL=/bin/bash
+30 4 * * * root /usr/local/bin/caddy-sync.sh >> /var/log/caddy-sync.log 2>&1
