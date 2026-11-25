@@ -14,7 +14,6 @@
 
 # Add an "import security" line to any website to use this configuration
 (security) {
-	header X-Frame-Options SAMEORIGIN
 	header X-Content-Type-Options nosniff
 	header ?Cross-Origin-Resource-Policy cross-origin
 	# header ?Cross-Origin-Embedder-Policy cross-origin
